@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hormuz Brief — deep dive · <!-- BRIEF:DATE_START -->9 May 2026<!-- BRIEF:DATE_END --></title>
+  <meta name="description" content="Hormuz Daily Brief — deep dive. Six categories, watchlist, scenarios, methodology, sources, calibration log." />
+  <style>
+    :root {
+      --bg: #ffffff;
+      --paper: #fafaf7;
+      --ink: #14171c;
+      --ink-2: #4b5563;
+      --ink-3: #8a93a3;
+      --rule: #e6e8ec;
+      --rule-strong: #cdd1d8;
+      --accent: #a4242a;
+      --red: #c1272d;
+      --amber: #b67a08;
+      --green: #2c7a4a;
+      --mono: ui-monospace, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+      --serif: "Iowan Old Style", "Palatino Linotype", "Times New Roman", Georgia, serif;
+      --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; background: var(--bg); color: var(--ink); font-family: var(--sans); line-height: 1.6; }
+    a { color: var(--accent); text-decoration: none; border-bottom: 1px solid transparent; }
+    a:hover { border-bottom-color: var(--accent); }
+    .mono { font-family: var(--mono); }
+    .wrap { max-width: 880px; margin: 0 auto; padding: 0 1.5rem; }
+
+    /* masthead */
+    .masthead { border-bottom: 2px solid var(--ink); padding: 1.6rem 0 1rem 0; }
+    .masthead .row { display: flex; justify-content: space-between; align-items: baseline; gap: 1.5rem; flex-wrap: wrap; }
+    .masthead h1 { margin: 0; font-family: var(--serif); font-weight: 700; font-size: 2rem; letter-spacing: -0.01em; }
+    .masthead h1 .red { color: var(--accent); }
+    .masthead h1 .sub { font-family: var(--sans); font-size: 0.95rem; font-weight: 400; color: var(--ink-3); margin-left: 0.5rem; }
+    .masthead .meta { font-family: var(--mono); font-size: 0.78rem; color: var(--ink-3); text-transform: uppercase; letter-spacing: 0.04em; }
+    .masthead .nav { margin-top: 0.6rem; font-size: 0.85rem; color: var(--ink-2); }
+    .masthead .nav a { font-weight: 500; }
+    .masthead .nav .sep { color: var(--ink-3); margin: 0 0.5rem; }
+
+    /* sections */
+    section { padding: 2rem 0; border-bottom: 1px solid var(--rule); }
+    section:last-of-type { border-bottom: 0; }
+    section > h2 {
+      font-family: var(--mono);
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--ink-3);
+      margin: 0 0 1.2rem 0;
+      font-weight: 600;
+    }
+    section > .lead {
+      font-family: var(--serif);
+      font-size: 1.05rem;
+      color: var(--ink);
+      margin: 0 0 1.4rem 0;
+      max-width: 60ch;
+      line-height: 1.55;
+    }
+
+    /* headline strip */
+    .headline-strip {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0;
+      border-top: 1px solid var(--rule);
+      border-bottom: 1px solid var(--rule);
+      padding: 1.25rem 0;
+      margin-top: 1.5rem;
+    }
+    .headline-strip .cell { padding: 0 1rem; border-right: 1px solid var(--rule); }
+    .headline-strip .cell:first-child { padding-left: 0; }
+    .headline-strip .cell:last-child { padding-right: 0; border-right: 0; }
+    .headline-strip .label { font-family: var(--mono); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--ink-3); margin-bottom: 0.4rem; }
+    .headline-strip .value { font-size: 1.4rem; font-weight: 600; line-height: 1.15; }
+    .arrow { font-weight: 700; margin-right: 0.4rem; }
+    .arrow-up { color: var(--red); }
+    .arrow-side { color: var(--amber); }
+    .arrow-down { color: var(--green); }
+    .threat-dots { display: inline-flex; gap: 4px; margin-top: 0.4rem; }
+    .threat-dots span { width: 12px; height: 12px; border-radius: 50%; background: #ececec; }
+    .threat-dots span.lit-1 { background: #2c7a4a; }
+    .threat-dots span.lit-2 { background: #6c923f; }
+    .threat-dots span.lit-3 { background: #b67a08; }
+    .threat-dots span.lit-4 { background: #cc4f29; }
+    .threat-dots span.lit-5 { background: var(--red); }
+
+    .summary-box {
+      background: var(--paper);
+      border-left: 3px solid var(--accent);
+      padding: 1.1rem 1.3rem;
+      font-family: var(--serif);
+      font-size: 1.05rem;
+      line-height: 1.5;
+      margin: 1.5rem 0;
+    }
+
+    /* category rows */
+    .cat {
+      padding: 1.2rem 0 1rem 0;
+      border-bottom: 1px solid var(--rule);
+    }
+    .cat:last-child { border-bottom: 0; }
+    .cat .head {
+      display: flex;
+      align-items: baseline;
+      gap: 0.7rem;
+      flex-wrap: wrap;
+      margin-bottom: 0.6rem;
+    }
+    .cat .num {
+      font-family: var(--mono);
+      color: var(--ink-3);
+      font-size: 0.78rem;
+      font-weight: 600;
+    }
+    .cat h3 {
+      margin: 0;
+      font-family: var(--serif);
+      font-size: 1.2rem;
+      font-weight: 600;
+      flex: 1;
+      min-width: 0;
+    }
+    .badge {
+      font-family: var(--mono);
+      font-size: 0.7rem;
+      padding: 0.18rem 0.55rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      border: 1px solid;
+    }
+    .badge-red { color: var(--red); border-color: var(--red); }
+    .badge-amber { color: var(--amber); border-color: var(--amber); }
+    .badge-green { color: var(--green); border-color: var(--green); }
+    .arrow-inline { font-size: 1rem; font-weight: 700; }
+    .conf { font-family: var(--mono); font-size: 0.72rem; color: var(--ink-3); margin-left: auto; }
+    .cat ul.signals {
+      margin: 0.5rem 0;
+      padding-left: 1.1rem;
+      font-size: 0.93rem;
+    }
+    .cat ul.signals li { margin: 0.3rem 0; }
+    .cat .why, .cat .impl {
+      margin-top: 0.6rem;
+      font-size: 0.92rem;
+      line-height: 1.5;
+    }
+    .cat .why strong, .cat .impl strong {
+      font-family: var(--mono);
+      font-size: 0.74rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--ink-3);
+      display: block;
+      margin-bottom: 0.2rem;
+      font-weight: 600;
+    }
+    .cat .impl { padding-left: 0.8rem; border-left: 2px solid var(--accent); }
+    .cat .sources-line {
+      margin-top: 0.7rem;
+      font-family: var(--mono);
+      font-size: 0.74rem;
+      color: var(--ink-3);
+    }
+
+    /* watchlist */
+    .watchlist { margin: 0; padding: 0; list-style: none; }
+    .watchlist li {
+      padding: 0.85rem 0;
+      border-bottom: 1px solid var(--rule);
+      display: grid;
+      grid-template-columns: 50px 1fr;
+      gap: 0.8rem;
+      font-size: 0.94rem;
+    }
+    .watchlist li:last-child { border-bottom: 0; }
+    .watchlist .num {
+      font-family: var(--mono);
+      font-weight: 600;
+      color: var(--accent);
+      font-size: 0.85rem;
+    }
+    .watchlist .deadline {
+      display: inline-block;
+      font-family: var(--mono);
+      font-size: 0.74rem;
+      color: var(--accent);
+      margin-left: 0.5rem;
+    }
+    .watchlist .imp {
+      display: block;
+      margin-top: 0.3rem;
+      color: var(--ink-2);
+      font-size: 0.88rem;
+    }
+
+    /* scenarios */
+    .scenarios { display: grid; grid-template-columns: 1fr; gap: 0; }
+    .scenario {
+      padding: 1rem 0;
+      border-bottom: 1px solid var(--rule);
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 0.6rem 1.2rem;
+      align-items: start;
+    }
+    .scenario:last-child { border-bottom: 0; }
+    .scenario .name {
+      font-family: var(--serif);
+      font-weight: 600;
+      font-size: 1.1rem;
+    }
+    .scenario .prob {
+      font-family: var(--mono);
+      font-size: 1.6rem;
+      font-weight: 600;
+      color: var(--accent);
+      text-align: right;
+      grid-column: 2;
+      grid-row: 1 / span 2;
+      align-self: center;
+    }
+    .scenario .delta { font-family: var(--mono); font-size: 0.74rem; color: var(--ink-3); }
+    .scenario .observable, .scenario .impl-line {
+      font-size: 0.9rem;
+      color: var(--ink-2);
+      margin-top: 0.3rem;
+      grid-column: 1;
+    }
+    .scenario .observable strong, .scenario .impl-line strong {
+      font-family: var(--mono);
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--ink-3);
+      display: inline-block;
+      margin-right: 0.3rem;
+      font-weight: 600;
+    }
+    .scenario .bar { grid-column: 1 / -1; height: 4px; background: var(--rule); margin-top: 0.5rem; }
+    .scenario .bar > div { height: 100%; background: var(--accent); }
+
+    /* details / collapsibles */
+    details {
+      border: 1px solid var(--rule);
+      padding: 0.9rem 1.2rem;
+      margin: 0.6rem 0;
+    }
+    details > summary {
+      cursor: pointer;
+      font-weight: 600;
+      list-style: none;
+      display: flex;
+      gap: 0.6rem;
+      align-items: center;
+      font-size: 0.94rem;
+    }
+    details > summary::-webkit-details-marker { display: none; }
+    details > summary::before {
+      content: "+";
+      color: var(--accent);
+      font-family: var(--mono);
+      width: 1rem;
+    }
+    details[open] > summary::before { content: "−"; }
+    details > .body { margin-top: 0.8rem; font-size: 0.9rem; }
+    details ul { padding-left: 1.2rem; }
+    details li { margin: 0.3rem 0; }
+    details h4 { margin: 1rem 0 0.4rem 0; font-size: 0.95rem; }
+    details table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
+    details th, details td { text-align: left; padding: 0.4rem 0.6rem; border-bottom: 1px solid var(--rule); vertical-align: top; }
+    details th { color: var(--ink-3); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; }
+
+    /* back link */
+    .back-link {
+      margin: 2rem 0 1rem 0;
+      padding: 1.1rem 1.3rem;
+      border: 1px solid var(--rule-strong);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .back-link a {
+      font-family: var(--mono);
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--accent);
+      border: 1px solid var(--accent);
+      padding: 0.5rem 0.9rem;
+    }
+    .back-link a:hover { background: var(--accent); color: white; border-bottom-color: var(--accent); }
+
+    footer.site {
+      margin-top: 2rem;
+      padding: 1.2rem 0 2rem 0;
+      border-top: 1px solid var(--rule);
+      font-size: 0.8rem;
+      color: var(--ink-3);
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    @media (max-width: 600px) {
+      .masthead h1 { font-size: 1.5rem; }
+      .headline-strip { grid-template-columns: 1fr; }
+      .headline-strip .cell { border-right: 0; border-bottom: 1px solid var(--rule); padding: 0.8rem 0; }
+      .headline-strip .cell:last-child { border-bottom: 0; }
+    }
+    @media print {
+      details[open] > summary + * { display: block !important; }
+      details:not([open]) > summary + * { display: block !important; }
+      details { border-color: var(--rule); break-inside: avoid; }
+      .back-link, footer.site { display: none; }
+      a { color: var(--ink); border: none; }
+    }
+  </style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="wrap">
+    <div class="row">
+      <h1>Hormuz <span class="red">Daily</span> Brief <span class="sub">— deep dive</span></h1>
+      <div class="meta">Day <!-- BRIEF:DAY_START -->70<!-- BRIEF:DAY_END --> · <!-- BRIEF:DATE_START -->9 May 2026<!-- BRIEF:DATE_END --> · <!-- BRIEF:LAST_UPDATED_START -->06:00 UTC / 08:00 CEST<!-- BRIEF:LAST_UPDATED_END --></div>
+    </div>
+    <div class="nav">
+      <a href="index.html">← One-page</a> <span class="sep">·</span> <a href="#categories">Categories</a> <span class="sep">·</span> <a href="#watchlist">Watchlist</a> <span class="sep">·</span> <a href="#scenarios">Scenarios</a> <span class="sep">·</span> <a href="#methodology">Methodology</a> <span class="sep">·</span> <a href="#sources">Sources</a> <span class="sep">·</span> <a href="#backtest">Calibration</a>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <!-- ============ HEADLINE ============ -->
+  <section>
+    <h2>Headline</h2>
+    <div class="headline-strip">
+      <div class="cell">
+        <div class="label">Trend (vs prior 72h)</div>
+        <!-- BRIEF:TREND_START -->
+        <div class="value"><span class="arrow arrow-side">→</span>Same</div>
+        <div style="font-size:0.85rem;color:var(--ink-2);margin-top:0.25rem;">Sideways. Confidence: Medium.</div>
+        <!-- BRIEF:TREND_END -->
+      </div>
+      <div class="cell">
+        <div class="label">Threat level</div>
+        <!-- BRIEF:THREAT_START -->
+        <div class="value">4 / 5 · Severe</div>
+        <div class="threat-dots" aria-hidden="true">
+          <span class="lit-1"></span><span class="lit-2"></span><span class="lit-3"></span><span class="lit-4"></span><span></span>
+        </div>
+        <!-- BRIEF:THREAT_END -->
+      </div>
+    </div>
+
+    <div class="summary-box">
+      <!-- BRIEF:SUMMARY_START -->
+      Day 70 of the US/Israel–Iran war. Hormuz traffic remains collapsed at roughly 6% of pre-crisis volume (191 vessels in April vs ~3,000/month baseline, per Kpler). Tactical de-escalation signals — Trump pausing the "Project Freedom" escort operation, a Pakistan-mediated 14-point proposal under Iranian review — coexist with continued kinetic incidents (CMA CGM <em>San Antonio</em> struck mid-week, sporadic naval clashes) and Israeli strikes on Beirut despite the 17 April ceasefire. Net trend is sideways with high downside variance; the dominant near-term swing factor is Tehran's response to the US framework, expected this week.
+      <!-- BRIEF:SUMMARY_END -->
+    </div>
+  </section>
+
+  <!-- ============ CATEGORIES ============ -->
+  <section id="categories">
+    <h2>Six categories</h2>
+
+    <!-- BRIEF:CATEGORY_1_START -->
+    <article class="cat">
+      <div class="head">
+        <span class="num">01</span>
+        <h3>Maritime shipping through the Strait</h3>
+        <span class="badge badge-red">Red</span>
+        <span class="arrow-inline arrow-down" aria-label="improving">↓</span>
+        <span class="conf">Conf: High</span>
+      </div>
+      <ul class="signals">
+        <li>April Hormuz throughput: 191 vessels vs ~3,000/month baseline — Kpler.</li>
+        <li>CMA CGM <em>San Antonio</em> struck while transiting; crew injured, vessel damaged — CMA CGM corporate, 6 May.</li>
+        <li>UKMTO JMIC update 041 (5 May): 37 incidents since 1 Mar; nil new in trailing 48h.</li>
+      </ul>
+      <p class="why"><strong>Why this matters</strong>Structural disruption stable; absence of new incidents in 48h is the first marginal positive signal in three weeks. Project Freedom escort pause is tactical de-risking, not capacity restoration.</p>
+      <p class="impl"><strong>Implication</strong>Hold rerouted-supply posture. Do not pre-position cargo for Hormuz reopening. Expect war-risk premium to remain &gt;5% hull value through the immediate window.</p>
+      <div class="sources-line">UKMTO · Kpler · CMA CGM · NBC News · CNN</div>
+    </article>
+    <!-- BRIEF:CATEGORY_1_END -->
+
+    <!-- BRIEF:CATEGORY_2_START -->
+    <article class="cat">
+      <div class="head">
+        <span class="num">02</span>
+        <h3>Military escalation</h3>
+        <span class="badge badge-red">Red</span>
+        <span class="arrow-inline arrow-side" aria-label="sideways">→</span>
+        <span class="conf">Conf: Medium</span>
+      </div>
+      <ul class="signals">
+        <li>Sporadic naval clashes US–Iran in Hormuz — Iranian Fars, corroborated by Al Jazeera 8 May.</li>
+        <li>Israeli airstrikes on Beirut — first since 17 April ceasefire — Reuters/AJ, 7 May.</li>
+        <li>31 killed in southern Lebanon Friday including a rescue worker — AJ, 8 May.</li>
+      </ul>
+      <p class="why"><strong>Why this matters</strong>Kinetic envelope widening (Lebanon) while maritime kinetic tempo steady. US escort op pause reduces direct USN–IRGCN contact pathways. No new strikes on Iranian energy infrastructure in trailing 72h.</p>
+      <p class="impl"><strong>Implication</strong>Escalation vector to watch is Lebanon, not Hormuz. EU/Mediterranean exposure should re-check Levant logistics dependencies; Gulf-only views miss the cascade path.</p>
+      <div class="sources-line">ISW Iran Update · Al Jazeera · Fars · Reuters</div>
+    </article>
+    <!-- BRIEF:CATEGORY_2_END -->
+
+    <!-- BRIEF:CATEGORY_3_START -->
+    <article class="cat">
+      <div class="head">
+        <span class="num">03</span>
+        <h3>Diplomatic escalation</h3>
+        <span class="badge badge-amber">Amber</span>
+        <span class="arrow-inline arrow-down" aria-label="improving">↓</span>
+        <span class="conf">Conf: Medium</span>
+      </div>
+      <ul class="signals">
+        <li>US 14-point proposal under Iranian review, mediated by Pakistan — State Dept; AJ live blog, 8 May.</li>
+        <li>Sec State Rubio: Iranian response expected Friday 8 May (still pending at last reading).</li>
+        <li>Trump halted "Project Freedom" naval escort op citing "great progress" — White House readout, 5–6 May.</li>
+      </ul>
+      <p class="why"><strong>Why this matters</strong>A formal channel exists with a named mediator and a defined proposal. Most concrete diplomatic infrastructure since 28 February. But: no public terms, no formal ceasefire, and Iran has not yet replied within the named window.</p>
+      <p class="impl"><strong>Implication</strong>Diplomatic upside is real but binary and time-bound. Position contingency planning to decision points: Iranian response by EOD Sun 10 May, then announcement of terms. Do not lock in long supply-chain bets on the channel surviving.</p>
+      <div class="sources-line">US State Dept · Al Jazeera · ICG flashpoint page</div>
+    </article>
+    <!-- BRIEF:CATEGORY_3_END -->
+
+    <!-- BRIEF:CATEGORY_4_START -->
+    <article class="cat">
+      <div class="head">
+        <span class="num">04</span>
+        <h3>Infrastructure damage</h3>
+        <span class="badge badge-red">Red</span>
+        <span class="arrow-inline arrow-side" aria-label="sideways">→</span>
+        <span class="conf">Conf: Medium</span>
+      </div>
+      <ul class="signals">
+        <li>No new confirmed strikes on Gulf-state energy infrastructure (Qatar, Saudi, UAE) in trailing 72h — UKMTO/MARAD nil.</li>
+        <li>No new strikes on Iranian energy infrastructure reported in trailing 72h — ISW Iran Update.</li>
+        <li>Pre-existing damage to Iranian nuclear and military assets from late-Feb–April campaign remains structural, not under repair.</li>
+      </ul>
+      <p class="why"><strong>Why this matters</strong>The 72h "infrastructure quiet" is the most underweighted positive signal in current coverage. Both sides pausing infrastructure targeting while diplomatic channel runs. Fragile — would reverse on a single strike.</p>
+      <p class="impl"><strong>Implication</strong>Watch for asset-specific signals (named refineries, named ports) over generic strike reporting. A strike on Ras Laffan, Ras Tanura, Fujairah, Jebel Ali, Bandar Abbas, or Kharg Island is a regime-change event, not incremental escalation.</p>
+      <div class="sources-line">UKMTO · MARAD MSCI · ISW · Reuters energy desk</div>
+    </article>
+    <!-- BRIEF:CATEGORY_4_END -->
+
+    <!-- BRIEF:CATEGORY_5_START -->
+    <article class="cat">
+      <div class="head">
+        <span class="num">05</span>
+        <h3>Alternative routes status</h3>
+        <span class="badge badge-amber">Amber</span>
+        <span class="arrow-inline arrow-side" aria-label="sideways">→</span>
+        <span class="conf">Conf: Medium</span>
+      </div>
+      <ul class="signals">
+        <li>Bab el-Mandeb / Red Sea: Houthi pause continues — no attacks since Oct 2025 — MARAD MSCI 2026-006.</li>
+        <li>Inland pipelines (Saudi East–West, UAE Habshan–Fujairah) operating at high utilization; capacity ceiling near.</li>
+        <li>Cape route adding ~2–3 weeks transit; freight rates elevated but stable on the new equilibrium.</li>
+      </ul>
+      <p class="why"><strong>Why this matters</strong>The system has rerouted around Hormuz, but the buffers are nearly fully consumed. Loss of any one alternative cascades immediately into the others — there is no third buffer.</p>
+      <p class="impl"><strong>Implication</strong>Treat alt-route capacity as fully consumed, not as elastic spare. A single Houthi event would force a price-rationing reset in Suez routing within 7 days. Maintain dual-supplier readiness on any single-source flow that depends on Bab el-Mandeb staying open.</p>
+      <div class="sources-line">MARAD · EUNAVFOR Aspides · The National · S&amp;P Global Platts</div>
+    </article>
+    <!-- BRIEF:CATEGORY_5_END -->
+
+    <!-- BRIEF:CATEGORY_6_START -->
+    <article class="cat">
+      <div class="head">
+        <span class="num">06</span>
+        <h3>Outlook scenarios</h3>
+        <span class="badge badge-amber">Amber</span>
+        <span class="arrow-inline arrow-down" aria-label="improving">↓</span>
+        <span class="conf">Conf: Low–Medium</span>
+      </div>
+      <ul class="signals">
+        <li>Modal expectation: frozen attrition through end of May.</li>
+        <li>Upside skew is real: 14-point proposal acceptance shifts the picture within 14 days.</li>
+        <li>Downside skew is structural: Lebanon spillover or single Hormuz infrastructure strike resets framework.</li>
+      </ul>
+      <p class="why"><strong>Why this matters</strong>Probability distribution wider than a binary frame. Three scenarios running with non-trivial weights, none dominant. Dominant near-term swing factor is Iran's response to the 14-point proposal.</p>
+      <p class="impl"><strong>Implication</strong>Build supply-chain decision triggers off observables, not narratives. The Scenarios section names the three scenarios and their defining observables — use those as decision points.</p>
+      <div class="sources-line">See Scenarios section below.</div>
+    </article>
+    <!-- BRIEF:CATEGORY_6_END -->
+
+  </section>
+
+  <!-- ============ WATCHLIST ============ -->
+  <section id="watchlist">
+    <h2>Watchlist · 24–72h</h2>
+    <p class="lead">Falsifiable, observable triggers. Each item either happens or it doesn't. Each has a directional implication.</p>
+    <!-- BRIEF:WATCHLIST_START -->
+    <ul class="watchlist">
+      <li>
+        <span class="num">W1</span>
+        <div>
+          Iranian formal response to the US 14-point proposal (Pakistan-mediated). <span class="deadline">Deadline · EOD Sun 10 May</span>
+          <span class="imp">Acceptance / qualified-acceptance → diplomatic AMBER↓ and threat 4→3 review trigger. Rejection or no response by deadline → diplomatic AMBER↑ and downside scenario probability +5–10pp.</span>
+        </div>
+      </li>
+      <li>
+        <span class="num">W2</span>
+        <div>
+          New vessel incident in or adjacent to Hormuz (UKMTO advisory). <span class="deadline">Deadline · rolling 72h</span>
+          <span class="imp">Any incident → maritime RED holds, transit risk premium sustained. Nil-incident streak ≥5 days → first quantifiable de-escalation evidence; consider arrow flip → to ↓.</span>
+        </div>
+      </li>
+      <li>
+        <span class="num">W3</span>
+        <div>
+          Houthi public statement on Red Sea posture (Saba / Al-Masirah). <span class="deadline">Deadline · rolling 72h</span>
+          <span class="imp">Explicit threat to resume → alt-routes Amber→Red within 24h, Bab el-Mandeb premium shock. Continued silence → Lindy bet validates, Amber holds.</span>
+        </div>
+      </li>
+      <li>
+        <span class="num">W4</span>
+        <div>
+          Israeli strike pattern on Lebanon (frequency vs trailing 7d baseline per ISW). <span class="deadline">Deadline · rolling 72h</span>
+          <span class="imp">≥3 strikes/day sustained → cascade vector activates, downside scenario +5–10pp. &lt;1/day → cascade dormant, modal scenario holds.</span>
+        </div>
+      </li>
+      <li>
+        <span class="num">W5</span>
+        <div>
+          Iranian airspace or maritime closure announcement (SNSC / IRGC Navy via state outlet). <span class="deadline">Deadline · rolling 72h</span>
+          <span class="imp">Announcement → threat level 4→5 trigger. No announcement → status quo holds.</span>
+        </div>
+      </li>
+    </ul>
+    <!-- BRIEF:WATCHLIST_END -->
+  </section>
+
+  <!-- ============ SCENARIOS ============ -->
+  <section id="scenarios">
+    <h2>Scenario outlook · 30 days</h2>
+    <p class="lead">Three scenarios, mutually exclusive, summing to 100%. Each has a defining observable to confirm we are in it.</p>
+    <!-- BRIEF:SCENARIOS_START -->
+    <div class="scenarios">
+      <article class="scenario">
+        <div class="name">A · Negotiated framework</div>
+        <div class="prob">35%</div>
+        <div class="delta">Δ vs yesterday: new baseline</div>
+        <div class="observable"><strong>Observable</strong>Public US–Iran joint statement or unilateral framework; AIS shows ≥3× w/w transit increase through Hormuz under monitored escort.</div>
+        <div class="impl-line"><strong>SC implication</strong>Hormuz partial reopening; insurance war-risk premium begins easing within 14 days; Cape-route capacity reverts toward Suez. Time-to-resolve: 7–14 days.</div>
+        <div class="bar"><div style="width:35%"></div></div>
+      </article>
+      <article class="scenario">
+        <div class="name">B · Frozen attrition (modal)</div>
+        <div class="prob">45%</div>
+        <div class="delta">Δ vs yesterday: new baseline</div>
+        <div class="observable"><strong>Observable</strong>Diplomatic channel continues without public terms; UKMTO advisory tempo flat; vessel transit remains &lt;15% of pre-crisis level; no major asset strikes either side.</div>
+        <div class="impl-line"><strong>SC implication</strong>Supply chains stay rerouted; cost equilibrium holds; alt-route buffers remain consumed but not breached. Time-to-resolve: 14–30 days.</div>
+        <div class="bar"><div style="width:45%"></div></div>
+      </article>
+      <article class="scenario">
+        <div class="name">C · Re-escalation</div>
+        <div class="prob">20%</div>
+        <div class="delta">Δ vs yesterday: new baseline</div>
+        <div class="observable"><strong>Observable</strong>Either (i) public collapse of mediation, (ii) strike on Gulf-state energy infrastructure (Ras Laffan, Ras Tanura, Fujairah, Jebel Ali, Bandar Abbas, Kharg), (iii) Houthi resumption, or (iv) Iranian formal closure announcement.</div>
+        <div class="impl-line"><strong>SC implication</strong>Threat 4→5; alternative routes saturate; price rationing in refined products; immediate force-majeure exposure on long-tenor contracts. Time-to-resolve: any of (i)–(iv) confirms within 72h.</div>
+        <div class="bar"><div style="width:20%"></div></div>
+      </article>
+    </div>
+    <!-- BRIEF:SCENARIOS_END -->
+  </section>
+
+  <!-- ============ METHODOLOGY ============ -->
+  <section id="methodology">
+    <h2>Methodology</h2>
+    <p class="lead">A few rules, applied every day. The brief drifts toward noise without them.</p>
+
+    <details>
+      <summary>Signal vs noise · how inputs are tiered</summary>
+      <div class="body">
+        <table>
+          <thead><tr><th>Tier</th><th>What</th><th>Examples</th><th>Weight</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Hard</strong></td><td>Physical events, verified incidents, AIS/SAR-confirmed movement, ratified sanctions</td><td>UKMTO incidents, Kpler vessel data, MARAD advisories, confirmed strikes with imagery</td><td class="mono">×5</td></tr>
+            <tr><td><strong>Medium</strong></td><td>Official orders from authorized voices, formal closures, mobilization</td><td>IRGC commander order, MFA airspace closure, ExecOrder, OFAC designation</td><td class="mono">×3</td></tr>
+            <tr><td><strong>Soft</strong></td><td>Statements not yet acted on</td><td>Head-of-state remarks, parliament resolutions</td><td class="mono">×1</td></tr>
+            <tr><td><strong>Noise</strong></td><td>Anonymous, op-eds, social media, repeats</td><td>"Officials say", X/Telegram OSINT, columnists' speculation</td><td class="mono">×0</td></tr>
+          </tbody>
+        </table>
+        <p>A claim that moves the trend assessment or threat level requires <strong>≥1 Hard source</strong> AND <strong>≥1 independent Tier 1–3 corroboration</strong>. Without both, the item goes on the watchlist as "unconfirmed."</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>Trend assessment · Worse / Same / Better</summary>
+      <div class="body">
+        <p>Window: trailing 72h vs prior 72h.</p>
+        <ul>
+          <li><strong>Worse (↑):</strong> ≥2 new Hard escalation events with no offsetting Hard de-escalation, OR 1 Hard regime-change event.</li>
+          <li><strong>Same (→):</strong> mixed Hard signals, or no Hard signals in trailing 72h.</li>
+          <li><strong>Better (↓):</strong> ≥1 Hard de-escalation event AND no offsetting Hard escalation.</li>
+        </ul>
+      </div>
+    </details>
+
+    <details>
+      <summary>Threat level · 1–5 scale</summary>
+      <div class="body">
+        <table>
+          <thead><tr><th>Level</th><th>Label</th><th>Trigger</th></tr></thead>
+          <tbody>
+            <tr><td><strong>1</strong></td><td>Routine</td><td>Baseline tensions only. War-risk premium &lt;0.1% hull value.</td></tr>
+            <tr><td><strong>2</strong></td><td>Elevated</td><td>Heightened rhetoric or limited incidents. No flow impact.</td></tr>
+            <tr><td><strong>3</strong></td><td>Concerning</td><td>Operational disruption visible: tanker delays, insurance &gt;0.5%, ≥3 incidents in 30d.</td></tr>
+            <tr><td><strong>4</strong></td><td>Severe</td><td>Sustained multi-front escalation, &gt;30% volume reduction, alternative routes activated.</td></tr>
+            <tr><td><strong>5</strong></td><td>Crisis</td><td>De-facto closure or formal blockade. Insurance unobtainable or &gt;5%. Routes saturated.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </details>
+
+    <details>
+      <summary>Anti-bias defaults · Taleb-grounded</summary>
+      <div class="body">
+        <ul>
+          <li><strong>Base rates first:</strong> deviation from rolling 30-day baseline is the signal, not raw counts.</li>
+          <li><strong>Convexity beats consensus:</strong> small-probability × catastrophic-impact tail risks dominate the outlook.</li>
+          <li><strong>Lindy on tensions, anti-Lindy on novelty:</strong> long-running patterns continue absent observable physical change. Novelty is regime-change signal.</li>
+          <li><strong>"No news" ≠ "no event":</strong> absence is signal only when Tier 1–3 sources are actively reporting nil.</li>
+          <li><strong>Asymmetric updating (Popper):</strong> the methodology updates when predictions fail, not when they succeed.</li>
+          <li><strong>No hindsight reframing:</strong> once logged, a prediction cannot be retroactively softened.</li>
+          <li><strong>Authority bias check:</strong> a head-of-state quote is Soft, not Hard. The brief never quotes a leader as if a quote is an event.</li>
+        </ul>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- ============ SOURCES ============ -->
+  <section id="sources">
+    <h2>Sources &amp; tier weighting</h2>
+    <p class="lead">Few sources, strong track records. Each tier defines a <em>role</em>, not a hierarchy of importance.</p>
+
+    <details>
+      <summary>Tier 1 · Primary, official, verifiable</summary>
+      <div class="body">
+        <ul>
+          <li><a href="https://www.ukmto.org/">UKMTO</a> — incident reports, JMIC advisory notes (the single most important source).</li>
+          <li><a href="https://www.maritime.dot.gov/msci">MARAD MSCI</a> · <a href="https://www.cusnc.navy.mil/">US NAVCENT / 5th Fleet</a> · <a href="https://www.imo.org/">IMO</a></li>
+          <li><a href="https://www.state.gov/">US State Dept</a> · <a href="https://home.treasury.gov/policy-issues/financial-sanctions">OFAC</a> · <a href="https://www.gov.uk/government/organisations/foreign-commonwealth-development-office">UK FCDO</a> · <a href="https://www.eeas.europa.eu/">EU EEAS</a></li>
+          <li>Iran SNSC / IRGC official communiqués (treat as primary for Iranian position only)</li>
+        </ul>
+      </div>
+    </details>
+
+    <details>
+      <summary>Tier 2 · Specialized data with operational track record</summary>
+      <div class="body">
+        <ul>
+          <li><a href="https://www.kpler.com/">Kpler</a> · <a href="https://www.vortexa.com/">Vortexa</a> · <a href="https://www.lloydslistintelligence.com/">Lloyd's List</a> · TankerTrackers.com</li>
+          <li><a href="https://www.icc-ccs.org/icc/imb">ICC IMB Piracy Reporting</a> · JMIC advisories</li>
+          <li><a href="https://www.spglobal.com/commodityinsights">S&amp;P Global Platts</a> · <a href="https://www.argusmedia.com/">Argus Media</a></li>
+        </ul>
+      </div>
+    </details>
+
+    <details>
+      <summary>Tier 3 · Analytical institutions with rigorous track record</summary>
+      <div class="body">
+        <ul>
+          <li><a href="https://www.crisisgroup.org/">ICG</a> · <a href="https://www.understandingwar.org/">ISW</a> · <a href="https://www.iiss.org/">IISS</a> · <a href="https://www.chathamhouse.org/">Chatham House</a> · <a href="https://www.rusi.org/">RUSI</a> · <a href="https://www.csis.org/">CSIS</a></li>
+          <li><a href="https://carnegie-mec.org/">Carnegie MEC</a> · <a href="https://www.atlanticcouncil.org/">Atlantic Council</a> · <a href="https://www.brookings.edu/">Brookings</a></li>
+          <li><a href="https://www.bourseandbazaar.com/">Bourse &amp; Bazaar</a> · <a href="https://amwaj.media/">Amwaj.media</a> · <a href="https://www.al-monitor.com/">Al-Monitor</a> · <a href="https://www.mei.edu/">MEI</a></li>
+          <li><a href="https://www.oxfordenergy.org/">OIES</a> · <a href="https://ieefa.org/">IEEFA</a></li>
+        </ul>
+      </div>
+    </details>
+
+    <details>
+      <summary>Tier 4 · Commercial analysts &amp; columnists with track record</summary>
+      <div class="body">
+        <ul>
+          <li>John Kemp (independent, ex-Reuters energy)</li>
+          <li>Helima Croft (RBC Capital Markets, Global Commodity Strategy)</li>
+          <li>Anas Alhajji (independent energy economist)</li>
+          <li><a href="https://www.eurasiagroup.net/">Eurasia Group</a> (Cliff Kupchan on Iran)</li>
+          <li><a href="https://www.energyintel.com/">Energy Intelligence</a></li>
+        </ul>
+      </div>
+    </details>
+
+    <details>
+      <summary>Tier 5 · News organizations &amp; regional press (with caveats)</summary>
+      <div class="body">
+        <ul>
+          <li><strong>Wire:</strong> Reuters · AP · AFP · Bloomberg</li>
+          <li><strong>Western:</strong> FT · WSJ · The Economist · Guardian</li>
+          <li><strong>Regional:</strong> Al Jazeera · The National (UAE) · Iran International (diaspora) · Times of Israel · Haaretz · Asharq Al-Awsat</li>
+          <li><strong>Iranian state (read for the position):</strong> Tehran Times · IRNA · Tasnim · Fars</li>
+          <li><strong>Analytical:</strong> War on the Rocks · Lawfare · Just Security</li>
+        </ul>
+      </div>
+    </details>
+
+    <details>
+      <summary>Tier 6 · Excluded (NOISE unless triangulated)</summary>
+      <div class="body">
+        <ul>
+          <li>Anonymous OSINT accounts on X/Telegram · Op-eds · "Sources say" without attribution · AI-generated summaries · Reposts of state media without confirmation · Forum/Discord/Reddit</li>
+        </ul>
+        <p>A claim originating in Tier 6 enters the brief only after independent confirmation by ≥1 Tier 1–3 source.</p>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- ============ BACKTEST ============ -->
+  <section id="backtest">
+    <h2>Track record &amp; learning loop</h2>
+    <p class="lead">Every brief makes falsifiable predictions. T+1, T+3, T+7 checks score them. Friday calibration runs Brier scores and adjusts source weights and methodology heuristics. Learning is logged, not silent.</p>
+
+    <details>
+      <summary>How the learning loop works</summary>
+      <div class="body">
+        <ol>
+          <li>Each brief logs trend, threat level, watchlist (deadlines + directional implications), and scenario probabilities.</li>
+          <li>The next morning, the agent scores yesterday's, three-days-ago, seven-days-ago predictions: Hit / Miss / False alarm / Surprise.</li>
+          <li>On Fridays, a Week-in-Review computes Brier score on probabilities, hit/miss tallies, source reliability.</li>
+          <li>One concrete methodology delta — heuristic added, removed, or sharpened — logged each Friday in the methodology Changelog. Source weights adjust on the same cadence.</li>
+          <li>Every change is recorded with date and reason. The agent never silently learns.</li>
+        </ol>
+      </div>
+    </details>
+
+    <details>
+      <summary>Yesterday's predictions · scored</summary>
+      <div class="body">
+        <!-- BRIEF:BACKTEST_START -->
+        <p><em>This is the launch brief — no T-1 predictions yet. First scoring entry will appear in tomorrow's brief (10 May 2026).</em></p>
+        <p>Today's predictions (logged for tomorrow's scoring):</p>
+        <ul>
+          <li><strong>Trend:</strong> Same — Confidence Medium. Verify: trailing 72h on 12 May (T+3).</li>
+          <li><strong>Threat level:</strong> 4. Verify: structural conditions on 16 May (T+7).</li>
+          <li><strong>Watchlist W1:</strong> Iranian response by EOD 10 May. Score: 10 May (T+1).</li>
+          <li><strong>Scenarios:</strong> A 35% / B 45% / C 20%. Brier-scored end of week (15 May).</li>
+        </ul>
+        <!-- BRIEF:BACKTEST_END -->
+      </div>
+    </details>
+
+    <details>
+      <summary>Calibration metrics · targets</summary>
+      <div class="body">
+        <ul>
+          <li>Brier score on scenario probabilities (computed weekly). Target: <strong>&lt;0.20</strong>.</li>
+          <li>Trend hit rate over 72h windows. Target: <strong>&gt;65%</strong>.</li>
+          <li>Watchlist hit rate on falsifiable items. Target: <strong>&gt;50%</strong>.</li>
+          <li>False alarm rate. Target: <strong>&lt;30%</strong>.</li>
+          <li>Surprise rate (events not on watchlist that affected ≥3 categories). Target: <strong>&lt;1/week of material surprises</strong>.</li>
+        </ul>
+      </div>
+    </details>
+
+  </section>
+
+  <div class="back-link">
+    <div style="font-size:0.95rem;color:var(--ink-2);">Back to the FORDEC overview, force majeure tracker, and commodity wave timeline.</div>
+    <a href="index.html">← One-page</a>
+  </div>
+
+  <footer class="site">
+    <div>Hormuz Daily Brief · independent · Marco Felsberger, Resilience Engineers · marco.felsberger@resilience-engineers.com</div>
+    <div class="mono">Next update: tomorrow 08:00 CET / CEST</div>
+  </footer>
+
+</main>
+
+</body>
+</html>
