@@ -45,12 +45,15 @@ EXPECTED_BLOCK_KEYS = {
     # One-pager only
     "ONELINER", "TILE_1", "TILE_2", "TILE_3", "TILE_4", "TILE_5", "TILE_6",
     "ACTIONS", "FM", "WAVE", "MAP_PINS",
+    "VESSEL_HORMUZ", "VESSEL_BAB_MANDEB",
     # Shared
     "WATCHLIST",
     # Deep brief only
     "SUMMARY",
     "CATEGORY_1", "CATEGORY_2", "CATEGORY_3", "CATEGORY_4", "CATEGORY_5", "CATEGORY_6",
-    "SCENARIOS", "BACKTEST",
+    "SCENARIOS",
+    # NOTE: BACKTEST is no longer rendered publicly. Calibration data still flows
+    # to backtest-log.md via BACKTEST_APPEND meta key (model-internal learning).
 }
 
 # Top-level meta keys (not BRIEF:* HTML markers — used to write archive / backtest).
@@ -104,6 +107,8 @@ def build_prompts(context: dict) -> tuple[str, str]:
 
     block_keys_list = sorted(EXPECTED_BLOCK_KEYS)
     block_lines = "\n".join(f"  - {k}" for k in block_keys_list)
+    # Quote-escape literal braces in the embedded HTML/JS templates below so f-string
+    # rendering does not interpret them. We use {{ and }} for one literal brace each.
 
     system_prompt = f"""You are producing today's Hormuz Daily Brief for Marco Felsberger
 (resilience-engineers.com), published at https://resilienceengineers.github.io/hormuz-daily-brief/.
@@ -181,7 +186,17 @@ WAVE              — Inner content of the wave section: intro <p>, the
 MAP_PINS          — JavaScript object literals for the pinsConfig array, separated
                     by commas. Do NOT include the surrounding [ ] brackets. Format:
                     {{ lat: 27.18, lng: 56.27, color: 'red', name: 'Bandar Abbas',
-                    sub: '...', status: '...' }}, ... 8-12 pins.
+                    sub: '...', status: '...' }}, ... 18-24 pins covering BOTH the
+                    Hormuz region (Iran, Gulf states, alt-route ports) AND the
+                    Red Sea / Bab al-Mandeb region (Yemen, Saudi Red Sea coast,
+                    Egypt/Suez, Israel). Status values: 'Iranian military',
+                    'Active incident', 'At risk', 'Operating'.
+VESSEL_HORMUZ     — One stat tile. Inner HTML of <div class="stat">:
+                    <div class="stat-label">Strait of Hormuz · vessel transits</div>
+                    <div class="stat-value">~N / day <span class="stat-delta">↓X% vs baseline</span></div>
+                    <div class="stat-context">one-line context, source-cited</div>.
+VESSEL_BAB_MANDEB — One stat tile, same structure, for Bab al-Mandeb / Red Sea
+                    transits. Compare to ~250 vessels/day pre-crisis Suez baseline.
 CATEGORY_1..6     — Full <article class="cat">...</article> for each category.
                     Match deep-brief structure: head with num/h3/badge/arrow-inline/conf,
                     ul.signals with ~3 li, p.why with strong intro, p.impl with strong
@@ -189,9 +204,10 @@ CATEGORY_1..6     — Full <article class="cat">...</article> for each category.
 SCENARIOS         — <div class="scenarios">...</div> with exactly 3 <article class="scenario">
                     entries summing to 100%. Include name, prob, delta vs yesterday,
                     observable, impl-line, and the bar div.
-BACKTEST          — yesterday's predictions scored. Mostly <ul> with hit/miss/false-alarm/
-                    pending markers. End with link to brief.html#backtest. On Fridays
-                    only, also include Brier score line.
+
+NOTE — calibration is no longer rendered publicly. The model still scores
+yesterday's predictions and writes the result into BACKTEST_APPEND (which goes
+to backtest-log.md). That file is internal learning data, never displayed.
 
 Stop conditions — set INTERIM block to "true" and prefix the TREND value text
 with "[INTERIM]" when:

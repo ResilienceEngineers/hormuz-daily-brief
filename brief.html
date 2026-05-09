@@ -341,7 +341,7 @@
 <!-- BRIEF:LAST_UPDATED_END --></div>
     </div>
     <div class="nav">
-      <a href="index.html">← One-page</a> <span class="sep">·</span> <a href="#categories">Categories</a> <span class="sep">·</span> <a href="#watchlist">Watchlist</a> <span class="sep">·</span> <a href="#scenarios">Scenarios</a> <span class="sep">·</span> <a href="#methodology">Methodology</a> <span class="sep">·</span> <a href="#sources">Sources</a> <span class="sep">·</span> <a href="#backtest">Calibration</a>
+      <a href="index.html">← One-page</a> <span class="sep">·</span> <a href="#categories">Categories</a> <span class="sep">·</span> <a href="#watchlist">Watchlist</a> <span class="sep">·</span> <a href="#scenarios">Scenarios</a> <span class="sep">·</span> <a href="#methodology">Methodology</a> <span class="sep">·</span> <a href="#sources">Sources</a>
     </div>
   </div>
 </header>
@@ -615,206 +615,28 @@ Trump has insisted the ceasefire remains in effect despite the exchange
 <!-- BRIEF:SCENARIOS_END -->
   </section>
 
-  <!-- ============ METHODOLOGY ============ -->
+  <!-- ============ METHODOLOGY (meta-level) ============ -->
   <section id="methodology">
     <h2>Methodology</h2>
-    <p class="lead">A few rules, applied every day. The brief drifts toward noise without them.</p>
-
-    <details>
-      <summary>Signal vs noise · how inputs are tiered</summary>
-      <div class="body">
-        <table>
-          <thead><tr><th>Tier</th><th>What</th><th>Examples</th><th>Weight</th></tr></thead>
-          <tbody>
-            <tr><td><strong>Hard</strong></td><td>Physical events, verified incidents, AIS/SAR-confirmed movement, ratified sanctions</td><td>UKMTO incidents, Kpler vessel data, MARAD advisories, confirmed strikes with imagery</td><td class="mono">×5</td></tr>
-            <tr><td><strong>Medium</strong></td><td>Official orders from authorized voices, formal closures, mobilization</td><td>IRGC commander order, MFA airspace closure, ExecOrder, OFAC designation</td><td class="mono">×3</td></tr>
-            <tr><td><strong>Soft</strong></td><td>Statements not yet acted on</td><td>Head-of-state remarks, parliament resolutions</td><td class="mono">×1</td></tr>
-            <tr><td><strong>Noise</strong></td><td>Anonymous, op-eds, social media, repeats</td><td>"Officials say", X/Telegram OSINT, columnists' speculation</td><td class="mono">×0</td></tr>
-          </tbody>
-        </table>
-        <p>A claim that moves the trend assessment or threat level requires <strong>≥1 Hard source</strong> AND <strong>≥1 independent Tier 1–3 corroboration</strong>. Without both, the item goes on the watchlist as "unconfirmed."</p>
-      </div>
-    </details>
-
-    <details>
-      <summary>Trend assessment · Worse / Same / Better</summary>
-      <div class="body">
-        <p>Window: trailing 72h vs prior 72h.</p>
-        <ul>
-          <li><strong>Worse (↑):</strong> ≥2 new Hard escalation events with no offsetting Hard de-escalation, OR 1 Hard regime-change event.</li>
-          <li><strong>Same (→):</strong> mixed Hard signals, or no Hard signals in trailing 72h.</li>
-          <li><strong>Better (↓):</strong> ≥1 Hard de-escalation event AND no offsetting Hard escalation.</li>
-        </ul>
-      </div>
-    </details>
-
-    <details>
-      <summary>Threat level · 1–5 scale</summary>
-      <div class="body">
-        <table>
-          <thead><tr><th>Level</th><th>Label</th><th>Trigger</th></tr></thead>
-          <tbody>
-            <tr><td><strong>1</strong></td><td>Routine</td><td>Baseline tensions only. War-risk premium &lt;0.1% hull value.</td></tr>
-            <tr><td><strong>2</strong></td><td>Elevated</td><td>Heightened rhetoric or limited incidents. No flow impact.</td></tr>
-            <tr><td><strong>3</strong></td><td>Concerning</td><td>Operational disruption visible: tanker delays, insurance &gt;0.5%, ≥3 incidents in 30d.</td></tr>
-            <tr><td><strong>4</strong></td><td>Severe</td><td>Sustained multi-front escalation, &gt;30% volume reduction, alternative routes activated.</td></tr>
-            <tr><td><strong>5</strong></td><td>Crisis</td><td>De-facto closure or formal blockade. Insurance unobtainable or &gt;5%. Routes saturated.</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </details>
-
-    <details>
-      <summary>Anti-bias defaults · Taleb-grounded</summary>
-      <div class="body">
-        <ul>
-          <li><strong>Base rates first:</strong> deviation from rolling 30-day baseline is the signal, not raw counts.</li>
-          <li><strong>Convexity beats consensus:</strong> small-probability × catastrophic-impact tail risks dominate the outlook.</li>
-          <li><strong>Lindy on tensions, anti-Lindy on novelty:</strong> long-running patterns continue absent observable physical change. Novelty is regime-change signal.</li>
-          <li><strong>"No news" ≠ "no event":</strong> absence is signal only when Tier 1–3 sources are actively reporting nil.</li>
-          <li><strong>Asymmetric updating (Popper):</strong> the methodology updates when predictions fail, not when they succeed.</li>
-          <li><strong>No hindsight reframing:</strong> once logged, a prediction cannot be retroactively softened.</li>
-          <li><strong>Authority bias check:</strong> a head-of-state quote is Soft, not Hard. The brief never quotes a leader as if a quote is an event.</li>
-        </ul>
-      </div>
-    </details>
-
+    <p class="lead">This brief uses a tiered signal-weighting framework. Only verified physical events from primary sources can move the threat assessment; trend movement requires confirmed change versus the prior 72h. The system continuously calibrates against outcomes — when predictions miss, the underlying heuristics are sharpened. The full operating ruleset is kept private to preserve analytical edge against adversarial reading.</p>
   </section>
 
-  <!-- ============ SOURCES ============ -->
+  <!-- ============ SOURCES (meta-level, tier categories only) ============ -->
   <section id="sources">
-    <h2>Sources &amp; tier weighting</h2>
-    <p class="lead">Few sources, strong track records. Each tier defines a <em>role</em>, not a hierarchy of importance.</p>
-
-    <details>
-      <summary>Tier 1 · Primary, official, verifiable</summary>
-      <div class="body">
-        <ul>
-          <li><a href="https://www.ukmto.org/">UKMTO</a> — incident reports, JMIC advisory notes (the single most important source).</li>
-          <li><a href="https://www.maritime.dot.gov/msci">MARAD MSCI</a> · <a href="https://www.cusnc.navy.mil/">US NAVCENT / 5th Fleet</a> · <a href="https://www.imo.org/">IMO</a></li>
-          <li><a href="https://www.state.gov/">US State Dept</a> · <a href="https://home.treasury.gov/policy-issues/financial-sanctions">OFAC</a> · <a href="https://www.gov.uk/government/organisations/foreign-commonwealth-development-office">UK FCDO</a> · <a href="https://www.eeas.europa.eu/">EU EEAS</a></li>
-          <li>Iran SNSC / IRGC official communiqués (treat as primary for Iranian position only)</li>
-        </ul>
-      </div>
-    </details>
-
-    <details>
-      <summary>Tier 2 · Specialized data with operational track record</summary>
-      <div class="body">
-        <ul>
-          <li><a href="https://www.kpler.com/">Kpler</a> · <a href="https://www.vortexa.com/">Vortexa</a> · <a href="https://www.lloydslistintelligence.com/">Lloyd's List</a> · TankerTrackers.com</li>
-          <li><a href="https://www.icc-ccs.org/icc/imb">ICC IMB Piracy Reporting</a> · JMIC advisories</li>
-          <li><a href="https://www.spglobal.com/commodityinsights">S&amp;P Global Platts</a> · <a href="https://www.argusmedia.com/">Argus Media</a></li>
-        </ul>
-      </div>
-    </details>
-
-    <details>
-      <summary>Tier 3 · Analytical institutions with rigorous track record</summary>
-      <div class="body">
-        <ul>
-          <li><a href="https://www.crisisgroup.org/">ICG</a> · <a href="https://www.understandingwar.org/">ISW</a> · <a href="https://www.iiss.org/">IISS</a> · <a href="https://www.chathamhouse.org/">Chatham House</a> · <a href="https://www.rusi.org/">RUSI</a> · <a href="https://www.csis.org/">CSIS</a></li>
-          <li><a href="https://carnegie-mec.org/">Carnegie MEC</a> · <a href="https://www.atlanticcouncil.org/">Atlantic Council</a> · <a href="https://www.brookings.edu/">Brookings</a></li>
-          <li><a href="https://www.bourseandbazaar.com/">Bourse &amp; Bazaar</a> · <a href="https://amwaj.media/">Amwaj.media</a> · <a href="https://www.al-monitor.com/">Al-Monitor</a> · <a href="https://www.mei.edu/">MEI</a></li>
-          <li><a href="https://www.oxfordenergy.org/">OIES</a> · <a href="https://ieefa.org/">IEEFA</a></li>
-        </ul>
-      </div>
-    </details>
-
-    <details>
-      <summary>Tier 4 · Commercial analysts &amp; columnists with track record</summary>
-      <div class="body">
-        <ul>
-          <li>John Kemp (independent, ex-Reuters energy)</li>
-          <li>Helima Croft (RBC Capital Markets, Global Commodity Strategy)</li>
-          <li>Anas Alhajji (independent energy economist)</li>
-          <li><a href="https://www.eurasiagroup.net/">Eurasia Group</a> (Cliff Kupchan on Iran)</li>
-          <li><a href="https://www.energyintel.com/">Energy Intelligence</a></li>
-        </ul>
-      </div>
-    </details>
-
-    <details>
-      <summary>Tier 5 · News organizations &amp; regional press (with caveats)</summary>
-      <div class="body">
-        <ul>
-          <li><strong>Wire:</strong> Reuters · AP · AFP · Bloomberg</li>
-          <li><strong>Western:</strong> FT · WSJ · The Economist · Guardian</li>
-          <li><strong>Regional:</strong> Al Jazeera · The National (UAE) · Iran International (diaspora) · Times of Israel · Haaretz · Asharq Al-Awsat</li>
-          <li><strong>Iranian state (read for the position):</strong> Tehran Times · IRNA · Tasnim · Fars</li>
-          <li><strong>Analytical:</strong> War on the Rocks · Lawfare · Just Security</li>
-        </ul>
-      </div>
-    </details>
-
-    <details>
-      <summary>Tier 6 · Excluded (NOISE unless triangulated)</summary>
-      <div class="body">
-        <ul>
-          <li>Anonymous OSINT accounts on X/Telegram · Op-eds · "Sources say" without attribution · AI-generated summaries · Reposts of state media without confirmation · Forum/Discord/Reddit</li>
-        </ul>
-        <p>A claim originating in Tier 6 enters the brief only after independent confirmation by ≥1 Tier 1–3 source.</p>
-      </div>
-    </details>
-
-  </section>
-
-  <!-- ============ BACKTEST ============ -->
-  <section id="backtest">
-    <h2>Track record &amp; learning loop</h2>
-    <p class="lead">Every brief makes falsifiable predictions. T+1, T+3, T+7 checks score them. Friday calibration runs Brier scores and adjusts source weights and methodology heuristics. Learning is logged, not silent.</p>
-
-    <details>
-      <summary>How the learning loop works</summary>
-      <div class="body">
-        <ol>
-          <li>Each brief logs trend, threat level, watchlist (deadlines + directional implications), and scenario probabilities.</li>
-          <li>The next morning, the agent scores yesterday's, three-days-ago, seven-days-ago predictions: Hit / Miss / False alarm / Surprise.</li>
-          <li>On Fridays, a Week-in-Review computes Brier score on probabilities, hit/miss tallies, source reliability.</li>
-          <li>One concrete methodology delta — heuristic added, removed, or sharpened — logged each Friday in the methodology Changelog. Source weights adjust on the same cadence.</li>
-          <li>Every change is recorded with date and reason. The agent never silently learns.</li>
-        </ol>
-      </div>
-    </details>
-
-    <details>
-      <summary>Yesterday's predictions · scored</summary>
-      <div class="body">
-        <!-- BRIEF:BACKTEST_START -->
-<p><strong>T+1 scoring of 8 May predictions:</strong></p>
-<ul>
-  <li><strong>Trend (Same, Conf Medium) — MISS.</strong> The trailing 72h delivered ≥2 Hard escalation events: US strikes on three Iranian ports (Bandar Abbas, Qeshm, Bandar Kargan), US destroyers under fire in Hormuz, Hezbollah first cross-border attack into Israel since 17 Apr truce, US disabling of Sea Star III and Sevda. Methodology §2 explicitly calls this a Worse trend. Lesson: the "infrastructure quiet" signal flagged as positive on 8 May was overweighted; absence in 48h ≠ absence as regime feature.</li>
-  <li><strong>Threat level (4) — HIT (held).</strong> No formal Iranian closure announcement; no strike on Gulf-state energy infrastructure inside the trailing 72h window (Fujairah refinery fire is in-window-but-pre-yesterday). Trigger to 5 not flipped.</li>
-  <li><strong>W1 — Iranian formal response by EOD Sun 10 May — PENDING.</strong> Reply still not delivered as of 9 May 18:17 UTC. Rubio (8 May) and Trump (9 May) both publicly noted non-arrival. Score finalizes 10 May.</li>
-  <li><strong>W2 — New vessel incident in/near Hormuz — HIT (escalation direction).</strong> US disabled two Iranian tankers (Sea Star III, Sevda); Iran fired on three US destroyers; reported US strike on Iranian fishing/cargo vessels near Khasab with 6 missing.</li>
-  <li><strong>W3 — Houthi public statement on Red Sea posture — MISS (no statement) → Lindy bet validates one more day.</strong> No Saba/Al-Masirah resumption threat in trailing 72h. Continued silence holds.</li>
-  <li><strong>W4 — Israeli strike pattern on Lebanon ≥3/day sustained — HIT (cascade vector activated).</strong> 19+ killed in Lebanon today (9 May); Hezbollah claimed 26 attacks Friday including two cross-border into Israel — first since 17 Apr ceasefire. Cascade vector is no longer dormant.</li>
-  <li><strong>W5 — Iranian airspace/maritime closure announcement — MISS (no announcement).</strong> Status quo holds. Threat 4→5 trigger not flipped.</li>
-  <li><strong>Surprise (unforecast event affecting ≥3 categories):</strong> US sovereign-territory strikes on three named Iranian ports. Affects Maritime, Military, Infrastructure, Diplomatic, Outlook (5 categories). <em>Logged.</em></li>
-</ul>
-<p><strong>Source notes:</strong> CENTCOM and CNN/Fox/CBS surfaced the 7–8 May exchange first; UKMTO advisory page lagged (no 9 May update visible). ISW posted a Special Report 8 May at 19:31 UTC capturing the kinetic exchange. Wikipedia consolidation of the SoH crisis was useful but Tier 5 — used for cross-checking only.</p>
-<p><a href="brief.html#backtest">Full calibration log →</a></p>
-<!-- BRIEF:BACKTEST_END -->
-      </div>
-    </details>
-
-    <details>
-      <summary>Calibration metrics · targets</summary>
-      <div class="body">
-        <ul>
-          <li>Brier score on scenario probabilities (computed weekly). Target: <strong>&lt;0.20</strong>.</li>
-          <li>Trend hit rate over 72h windows. Target: <strong>&gt;65%</strong>.</li>
-          <li>Watchlist hit rate on falsifiable items. Target: <strong>&gt;50%</strong>.</li>
-          <li>False alarm rate. Target: <strong>&lt;30%</strong>.</li>
-          <li>Surprise rate (events not on watchlist that affected ≥3 categories). Target: <strong>&lt;1/week of material surprises</strong>.</li>
-        </ul>
-      </div>
-    </details>
-
+    <h2>Sources</h2>
+    <p class="lead">Inputs span six tiers, weighted by track record. Specific outlets and platforms are not disclosed publicly.</p>
+    <ul style="font-size: 0.92rem; line-height: 1.55; padding-left: 1.1rem;">
+      <li><strong>Tier 1 — Primary &amp; official.</strong> Maritime authorities, defense commands, foreign ministries, treasury sanctions desks. First-party communiqués that count as Hard signal.</li>
+      <li><strong>Tier 2 — Specialized commercial intelligence.</strong> Vessel-tracking platforms (AIS-based), aircraft-tracking platforms (ADS-B), tanker-flow analytics, energy-cargo intelligence, piracy-reporting bureaus. Operational data with measurable track records.</li>
+      <li><strong>Tier 3 — Analytical institutions.</strong> Geopolitical and security think tanks with rigorous publication standards and demonstrable calibration history on this region.</li>
+      <li><strong>Tier 4 — Commercial analysts &amp; columnists.</strong> Independent practitioners and commodity-desk analysts whose published positions can be back-tested over multi-year horizons.</li>
+      <li><strong>Tier 5 — Wire services &amp; reputable regional press.</strong> Western wire services, top-tier business and political dailies, regional papers across the Gulf, Israel, and Iran (read with editorial-line caveats), and analytical defense-and-policy publications.</li>
+      <li><strong>Tier 6 — Excluded by default.</strong> Anonymous OSINT accounts, op-eds, social media, "sources say" without attribution, AI-generated summaries, forum content. Enter the brief only after independent corroboration by Tier 1–3.</li>
+    </ul>
   </section>
 
   <div class="back-link">
-    <div style="font-size:0.95rem;color:var(--ink-2);">Back to the FORDEC overview, force majeure tracker, and commodity wave timeline.</div>
+    <div style="font-size:0.95rem;color:var(--ink-2);">Back to the at-a-glance overview, threat map, force majeure tracker, and commodity wave timeline.</div>
     <a href="index.html">← One-page</a>
   </div>
 

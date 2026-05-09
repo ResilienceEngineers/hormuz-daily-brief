@@ -3,13 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hormuz Daily Brief — <!-- BRIEF:DATE_START -->
-9 May 2026
-<!-- BRIEF:DATE_END --></title>
+  <title>Hormuz Daily Brief — <!-- BRIEF:DATE_START -->9 May 2026<!-- BRIEF:DATE_END --></title>
   <meta name="description" content="One-page Hormuz daily brief. Threat map, status board, force majeure tracker, commodity wave timeline." />
   <meta name="robots" content="index,follow" />
 
-  <!-- Leaflet (OpenStreetMap) -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
         integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
         crossorigin="" />
@@ -32,82 +29,126 @@
       --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     }
     * { box-sizing: border-box; }
-    html, body { margin: 0; padding: 0; background: var(--bg); color: var(--ink); font-family: var(--sans); line-height: 1.55; -webkit-font-smoothing: antialiased; }
+    html, body { margin: 0; padding: 0; background: var(--bg); color: var(--ink); font-family: var(--sans); line-height: 1.5; -webkit-font-smoothing: antialiased; }
     a { color: var(--accent); text-decoration: none; border-bottom: 1px solid transparent; }
     a:hover { border-bottom-color: var(--accent); }
     .mono { font-family: var(--mono); }
-    .wrap { max-width: 1100px; margin: 0 auto; padding: 0 1.5rem; }
+    .wrap { max-width: 1280px; margin: 0 auto; padding: 0 1.5rem; }
+
+    .print-only { display: none; }
 
     /* masthead */
-    .masthead { border-bottom: 2px solid var(--ink); padding: 1.6rem 0 1rem 0; }
-    .masthead .row { display: flex; justify-content: space-between; align-items: baseline; gap: 1.5rem; flex-wrap: wrap; }
-    .masthead h1 { margin: 0; font-family: var(--serif); font-weight: 700; font-size: 2rem; letter-spacing: -0.01em; }
+    .masthead { border-bottom: 2px solid var(--ink); padding: 1.1rem 0 0.8rem 0; }
+    .masthead .row { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; flex-wrap: wrap; }
+    .masthead h1 { margin: 0; font-family: var(--serif); font-weight: 700; font-size: 1.7rem; letter-spacing: -0.01em; }
     .masthead h1 .red { color: var(--accent); }
-    .masthead .meta { font-family: var(--mono); font-size: 0.78rem; color: var(--ink-3); text-transform: uppercase; letter-spacing: 0.04em; }
-    .masthead .nav { margin-top: 0.6rem; font-size: 0.85rem; color: var(--ink-2); }
+    .masthead .meta { font-family: var(--mono); font-size: 0.74rem; color: var(--ink-3); text-transform: uppercase; letter-spacing: 0.04em; }
+    .masthead .nav { margin-top: 0.4rem; font-size: 0.82rem; color: var(--ink-2); display: flex; justify-content: space-between; align-items: center; gap: 1rem; flex-wrap: wrap; }
     .masthead .nav a { font-weight: 500; }
-    .masthead .nav .sep { color: var(--ink-3); margin: 0 0.5rem; }
+    .masthead .nav .sep { color: var(--ink-3); margin: 0 0.4rem; }
+    .pdf-btn {
+      font-family: var(--mono);
+      font-size: 0.74rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #fff;
+      background: var(--accent);
+      border: none;
+      padding: 0.45rem 0.9rem;
+      cursor: pointer;
+    }
+    .pdf-btn:hover { background: #862028; }
+
+    /* hero strip */
+    .hero {
+      display: grid;
+      grid-template-columns: minmax(180px, 1fr) minmax(180px, 1fr) minmax(280px, 2.4fr);
+      gap: 0;
+      border-bottom: 1px solid var(--rule);
+      padding: 1rem 0;
+    }
+    .hero .cell { padding: 0 1.1rem; border-right: 1px solid var(--rule); }
+    .hero .cell:first-child { padding-left: 0; }
+    .hero .cell:last-child { padding-right: 0; border-right: 0; }
+    .hero .label { font-family: var(--mono); font-size: 0.66rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--ink-3); margin-bottom: 0.25rem; }
+    .hero .value { font-size: 1.35rem; font-weight: 600; line-height: 1.1; letter-spacing: -0.01em; }
+    .hero .sub { font-size: 0.82rem; color: var(--ink-2); margin-top: 0.15rem; }
+    .arrow { font-weight: 700; margin-right: 0.3rem; }
+    .arrow-up { color: var(--red); }
+    .arrow-side { color: var(--amber); }
+    .arrow-down { color: var(--green); }
+    .threat-dots { display: inline-flex; gap: 4px; margin-top: 0.3rem; }
+    .threat-dots span { width: 12px; height: 12px; border-radius: 50%; background: #ececec; }
+    .threat-dots span.lit-1 { background: #2c7a4a; }
+    .threat-dots span.lit-2 { background: #6c923f; }
+    .threat-dots span.lit-3 { background: #b67a08; }
+    .threat-dots span.lit-4 { background: #cc4f29; }
+    .threat-dots span.lit-5 { background: var(--red); }
+    .one-line { font-family: var(--serif); font-size: 1rem; line-height: 1.4; margin: 0; }
+
+    /* main dashboard grid: map left, scoreboard right */
+    .dashboard {
+      display: grid;
+      grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr);
+      gap: 1.2rem;
+      padding: 1.2rem 0;
+      align-items: stretch;
+    }
 
     /* map */
-    section.map { padding: 1.8rem 0 1rem 0; }
     .map-frame {
       border: 1px solid var(--rule);
       background: #f4f6f8;
+      display: flex;
+      flex-direction: column;
     }
     .map-caption {
       display: flex;
       justify-content: space-between;
       align-items: baseline;
-      padding: 0.6rem 0.9rem;
+      padding: 0.45rem 0.8rem;
       border-bottom: 1px solid var(--rule);
       background: #fff;
       font-family: var(--mono);
-      font-size: 0.74rem;
+      font-size: 0.7rem;
       letter-spacing: 0.06em;
       text-transform: uppercase;
       color: var(--ink-3);
     }
     .map-caption strong { color: var(--ink); font-weight: 600; }
     #map {
-      height: 520px;
+      flex: 1;
+      min-height: 460px;
       width: 100%;
       background: #f4f6f8;
     }
     .map-legend {
       display: flex;
       flex-wrap: wrap;
-      gap: 1.2rem;
-      padding: 0.6rem 0.9rem;
+      gap: 0.85rem;
+      padding: 0.45rem 0.8rem;
       background: #fff;
       border-top: 1px solid var(--rule);
-      font-size: 0.78rem;
+      font-size: 0.72rem;
       color: var(--ink-2);
     }
-    .map-legend .item { display: inline-flex; align-items: center; gap: 0.4rem; }
-    .map-legend .dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; border: 1.5px solid #fff; box-shadow: 0 0 0 1px rgba(0,0,0,0.2); }
+    .map-legend .item { display: inline-flex; align-items: center; gap: 0.3rem; }
+    .map-legend .dot { width: 9px; height: 9px; border-radius: 50%; display: inline-block; border: 1.5px solid #fff; box-shadow: 0 0 0 1px rgba(0,0,0,0.2); }
     .map-legend .dot.red { background: var(--red); }
     .map-legend .dot.amber { background: var(--amber); }
     .map-legend .dot.green { background: var(--green); }
-    .map-legend .line { width: 22px; height: 0; border-bottom: 1.5px dashed var(--ink); display: inline-block; }
-    .map-legend .zone { width: 18px; height: 10px; background: rgba(193, 39, 45, 0.15); display: inline-block; border: 1px solid rgba(193, 39, 45, 0.4); }
+    .map-legend .pipeline-line { width: 22px; height: 0; border-bottom: 3px solid var(--green); display: inline-block; opacity: 0.7; }
+    .map-legend .transit-line { width: 22px; height: 0; border-bottom: 1.5px dashed var(--ink); display: inline-block; }
 
-    /* leaflet popup styling — match the brief's design system */
-    .leaflet-popup-content-wrapper {
-      border-radius: 4px;
-      box-shadow: 0 2px 12px rgba(0,0,0,0.15);
-    }
-    .leaflet-popup-content {
-      font-family: var(--sans);
-      margin: 10px 14px;
-      font-size: 0.85rem;
-      line-height: 1.4;
-    }
+    /* leaflet popups */
+    .leaflet-popup-content-wrapper { border-radius: 4px; box-shadow: 0 2px 12px rgba(0,0,0,0.15); }
+    .leaflet-popup-content { font-family: var(--sans); margin: 9px 12px; font-size: 0.82rem; line-height: 1.4; }
     .leaflet-popup-content .pin-name { font-weight: 600; color: var(--ink); }
-    .leaflet-popup-content .pin-sub { color: var(--ink-2); font-size: 0.82rem; margin-top: 2px; }
+    .leaflet-popup-content .pin-sub { color: var(--ink-2); font-size: 0.78rem; margin-top: 2px; }
     .leaflet-popup-content .pin-status {
       display: inline-block;
       font-family: var(--mono);
-      font-size: 0.7rem;
+      font-size: 0.66rem;
       text-transform: uppercase;
       letter-spacing: 0.06em;
       margin-top: 4px;
@@ -118,110 +159,101 @@
     .leaflet-popup-content .pin-status.amber { color: var(--amber); border-color: var(--amber); }
     .leaflet-popup-content .pin-status.green { color: var(--green); border-color: var(--green); }
 
-    /* headline strip */
-    section.headline { padding: 0.5rem 0 0 0; }
-    .headline-strip {
-      display: grid;
-      grid-template-columns: minmax(0, 1.1fr) minmax(0, 1.1fr) minmax(0, 2.4fr);
-      gap: 0;
-      border-top: 1px solid var(--rule);
-      border-bottom: 1px solid var(--rule);
-      padding: 1.25rem 0;
-      margin-top: 1rem;
-    }
-    .headline-strip .cell { padding: 0 1.25rem; border-right: 1px solid var(--rule); }
-    .headline-strip .cell:first-child { padding-left: 0; }
-    .headline-strip .cell:last-child { padding-right: 0; border-right: 0; }
-    .headline-strip .label { font-family: var(--mono); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--ink-3); margin-bottom: 0.4rem; }
-    .headline-strip .value { font-size: 1.5rem; font-weight: 600; line-height: 1.15; letter-spacing: -0.01em; }
-    .headline-strip .sub { font-size: 0.85rem; color: var(--ink-2); margin-top: 0.25rem; }
-    .arrow { font-weight: 700; margin-right: 0.4rem; }
-    .arrow-up { color: var(--red); }
-    .arrow-side { color: var(--amber); }
-    .arrow-down { color: var(--green); }
-    .threat-dots { display: inline-flex; gap: 4px; margin-top: 0.4rem; }
-    .threat-dots span { width: 14px; height: 14px; border-radius: 50%; background: #ececec; }
-    .threat-dots span.lit-1 { background: #2c7a4a; }
-    .threat-dots span.lit-2 { background: #6c923f; }
-    .threat-dots span.lit-3 { background: #b67a08; }
-    .threat-dots span.lit-4 { background: #cc4f29; }
-    .threat-dots span.lit-5 { background: var(--red); }
-    .one-line { font-family: var(--serif); font-size: 1.05rem; line-height: 1.4; margin: 0; }
-
-    /* sections */
-    section { padding: 1.8rem 0; }
-    section > h2 {
-      font-family: var(--mono);
-      font-size: 0.78rem;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-      color: var(--ink-3);
-      margin: 0 0 1rem 0;
-      font-weight: 600;
-    }
-
-    /* scoreboard */
+    /* scoreboard (compact, sits next to map) */
     .scoreboard {
       display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
+      grid-template-columns: 1fr;
       gap: 0;
       border-top: 1px solid var(--rule);
-      border-left: 1px solid var(--rule);
+      border-bottom: 1px solid var(--rule);
     }
     .tile {
-      border-right: 1px solid var(--rule);
       border-bottom: 1px solid var(--rule);
-      padding: 1rem 1.1rem;
-      display: flex; flex-direction: column; gap: 0.3rem; min-height: 130px;
+      padding: 0.55rem 0.8rem;
+      display: flex; flex-direction: column; gap: 0.15rem;
     }
-    .tile .row1 { display: flex; align-items: baseline; gap: 0.5rem; }
-    .tile .num { font-family: var(--mono); color: var(--ink-3); font-size: 0.74rem; font-weight: 600; }
-    .tile h3 { margin: 0; font-size: 0.95rem; font-weight: 600; flex: 1; min-width: 0; font-family: var(--serif); }
+    .tile:last-child { border-bottom: 0; }
+    .tile .row1 { display: flex; align-items: baseline; gap: 0.4rem; }
+    .tile .num { font-family: var(--mono); color: var(--ink-3); font-size: 0.7rem; font-weight: 600; }
+    .tile h3 { margin: 0; font-size: 0.85rem; font-weight: 600; flex: 1; min-width: 0; font-family: var(--serif); }
     .tile .badge {
-      font-family: var(--mono); font-size: 0.68rem; padding: 0.12rem 0.45rem;
+      font-family: var(--mono); font-size: 0.62rem; padding: 0.05rem 0.4rem;
       text-transform: uppercase; letter-spacing: 0.06em; border: 1px solid;
     }
     .tile .badge.red { color: var(--red); border-color: var(--red); }
     .tile .badge.amber { color: var(--amber); border-color: var(--amber); }
     .tile .badge.green { color: var(--green); border-color: var(--green); }
-    .tile .arrow-inline { font-weight: 700; font-size: 0.95rem; }
-    .tile .syn { font-size: 0.86rem; color: var(--ink-2); margin: 0; }
+    .tile .arrow-inline { font-weight: 700; font-size: 0.85rem; }
+    .tile .syn { font-size: 0.78rem; color: var(--ink-2); margin: 0; line-height: 1.35; }
     .tile .syn strong { color: var(--ink); font-weight: 600; }
+
+    /* vessel transit stats */
+    .vessel-stats {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0;
+      border-top: 1px solid var(--rule);
+      border-bottom: 1px solid var(--rule);
+      padding: 0.9rem 0;
+    }
+    .vessel-stats .stat { padding: 0 1rem; border-right: 1px solid var(--rule); }
+    .vessel-stats .stat:last-child { border-right: 0; }
+    .vessel-stats .stat-label { font-family: var(--mono); font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--ink-3); margin-bottom: 0.25rem; }
+    .vessel-stats .stat-value {
+      display: flex; align-items: baseline; gap: 0.6rem; flex-wrap: wrap;
+      font-size: 1.1rem;
+      font-weight: 600;
+    }
+    .vessel-stats .stat-delta { font-family: var(--mono); font-size: 0.78rem; color: var(--red); }
+    .vessel-stats .stat-delta.up { color: var(--green); }
+    .vessel-stats .stat-context { font-size: 0.78rem; color: var(--ink-2); margin-top: 0.2rem; line-height: 1.4; }
+
+    /* sections */
+    section { padding: 1.4rem 0; }
+    section > h2 {
+      font-family: var(--mono);
+      font-size: 0.74rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--ink-3);
+      margin: 0 0 0.85rem 0;
+      font-weight: 600;
+    }
 
     /* actions */
     .actions { padding: 0; margin: 0; list-style: none; counter-reset: act; }
     .actions li {
-      counter-increment: act; padding: 0.7rem 0 0.7rem 2.4rem;
-      border-bottom: 1px solid var(--rule); position: relative; font-size: 0.95rem;
+      counter-increment: act; padding: 0.55rem 0 0.55rem 2.2rem;
+      border-bottom: 1px solid var(--rule); position: relative; font-size: 0.92rem; line-height: 1.45;
     }
     .actions li:last-child { border-bottom: 0; }
     .actions li::before {
-      content: counter(act, decimal-leading-zero); position: absolute; left: 0; top: 0.7rem;
-      font-family: var(--mono); font-size: 0.78rem; color: var(--accent); font-weight: 600;
+      content: counter(act, decimal-leading-zero); position: absolute; left: 0; top: 0.55rem;
+      font-family: var(--mono); font-size: 0.74rem; color: var(--accent); font-weight: 600;
     }
     .actions li strong { font-weight: 600; }
 
     /* watchlist */
     .watchlist { margin: 0; padding: 0; list-style: none; }
     .watchlist li {
-      padding: 0.7rem 0; border-bottom: 1px solid var(--rule);
-      display: grid; grid-template-columns: 44px 1fr; gap: 0.6rem; font-size: 0.92rem;
+      padding: 0.65rem 0; border-bottom: 1px solid var(--rule);
+      display: grid; grid-template-columns: 40px 1fr; gap: 0.55rem; font-size: 0.9rem;
     }
     .watchlist li:last-child { border-bottom: 0; }
-    .watchlist .num { font-family: var(--mono); font-weight: 600; color: var(--accent); font-size: 0.82rem; }
-    .watchlist .deadline { display: inline-block; font-family: var(--mono); font-size: 0.72rem; color: var(--accent); margin-left: 0.4rem; }
-    .watchlist .imp { display: block; margin-top: 0.2rem; color: var(--ink-2); font-size: 0.85rem; }
+    .watchlist .num { font-family: var(--mono); font-weight: 600; color: var(--accent); font-size: 0.78rem; }
+    .watchlist .deadline { display: inline-block; font-family: var(--mono); font-size: 0.7rem; color: var(--accent); margin-left: 0.4rem; }
+    .watchlist .imp { display: block; margin-top: 0.15rem; color: var(--ink-2); font-size: 0.83rem; }
 
     /* FM tracker */
-    .fm-table { display: grid; grid-template-columns: 110px 1fr 1.5fr 90px; font-size: 0.86rem; }
+    .fm-table { display: grid; grid-template-columns: 110px 1fr 1.5fr 90px; font-size: 0.84rem; }
     .fm-table .row { display: contents; }
-    .fm-table .row > div { padding: 0.5rem 0.7rem; border-bottom: 1px solid var(--rule); }
+    .fm-table .row > div { padding: 0.45rem 0.7rem; border-bottom: 1px solid var(--rule); }
     .fm-table .row.head > div {
-      font-family: var(--mono); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.06em;
-      color: var(--ink-3); border-bottom: 1px solid var(--ink); padding-bottom: 0.3rem;
+      font-family: var(--mono); font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.06em;
+      color: var(--ink-3); border-bottom: 1px solid var(--ink); padding-bottom: 0.25rem;
     }
     .fm-table .row > div:first-child { padding-left: 0; font-weight: 600; }
-    .fm-table .status { font-family: var(--mono); font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.04em; }
+    .fm-table .status { font-family: var(--mono); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.04em; }
     .fm-table .stat-declared { color: var(--red); }
     .fm-table .stat-likely { color: var(--amber); }
     .fm-table .stat-watch { color: var(--ink-2); }
@@ -232,353 +264,378 @@
     .pip.ink { background: var(--ink); }
 
     /* wave timeline */
-    .wave-grid { display: grid; grid-template-columns: 130px repeat(4, minmax(0, 1fr)); font-size: 0.86rem; margin-top: 0.6rem; }
+    .wave-grid { display: grid; grid-template-columns: 130px repeat(4, minmax(0, 1fr)); font-size: 0.84rem; margin-top: 0.6rem; }
     .wave-grid .row { display: contents; }
-    .wave-grid .label-cell { padding: 0.5rem 0.75rem 0.5rem 0; font-weight: 600; border-bottom: 1px solid var(--rule); }
+    .wave-grid .label-cell { padding: 0.45rem 0.7rem 0.45rem 0; font-weight: 600; border-bottom: 1px solid var(--rule); }
     .wave-grid .stage-cell {
-      padding: 0.5rem 0.6rem; border-bottom: 1px solid var(--rule); border-left: 1px solid var(--rule);
-      font-size: 0.83rem; color: var(--ink-2);
+      padding: 0.45rem 0.55rem; border-bottom: 1px solid var(--rule); border-left: 1px solid var(--rule);
+      font-size: 0.8rem; color: var(--ink-2);
     }
     .wave-grid .row.head .label-cell, .wave-grid .row.head .stage-cell {
-      font-family: var(--mono); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.08em;
-      color: var(--ink-3); border-bottom: 1px solid var(--ink); padding-bottom: 0.4rem;
+      font-family: var(--mono); font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.08em;
+      color: var(--ink-3); border-bottom: 1px solid var(--ink); padding-bottom: 0.35rem;
     }
     .wave-grid .stage-cell.hit { background: #fdf3f1; }
     .wave-grid .stage-cell.hit.amber { background: #fdf6e8; }
-    .wave-grid .stage-cell strong { display: block; color: var(--ink); font-weight: 600; font-size: 0.82rem; margin-bottom: 0.15rem; }
-    .wave-note, .fm-note { margin-top: 0.7rem; font-size: 0.8rem; color: var(--ink-3); }
+    .wave-grid .stage-cell strong { display: block; color: var(--ink); font-weight: 600; font-size: 0.8rem; margin-bottom: 0.1rem; }
+    .wave-note, .fm-note { margin-top: 0.6rem; font-size: 0.78rem; color: var(--ink-3); }
 
     /* more link + footer */
     .more-link {
-      margin: 2rem 0 1rem 0; padding: 1.1rem 1.3rem; border: 1px solid var(--rule-strong);
+      margin: 1.5rem 0 1rem 0; padding: 1rem 1.2rem; border: 1px solid var(--rule-strong);
       display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;
     }
-    .more-link .text { font-size: 0.95rem; color: var(--ink-2); }
+    .more-link .text { font-size: 0.92rem; color: var(--ink-2); }
     .more-link .text strong { color: var(--ink); font-weight: 600; }
     .more-link a {
-      font-family: var(--mono); font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.08em;
-      color: var(--accent); border: 1px solid var(--accent); padding: 0.5rem 0.9rem;
+      font-family: var(--mono); font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.08em;
+      color: var(--accent); border: 1px solid var(--accent); padding: 0.45rem 0.85rem;
     }
     .more-link a:hover { background: var(--accent); color: white; border-bottom-color: var(--accent); }
 
     footer.site {
-      margin-top: 2rem; padding: 1.2rem 0 2rem 0; border-top: 1px solid var(--rule);
-      font-size: 0.8rem; color: var(--ink-3);
+      margin-top: 1.5rem; padding: 1rem 0 1.5rem 0; border-top: 1px solid var(--rule);
+      font-size: 0.78rem; color: var(--ink-3);
       display: flex; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem;
     }
 
     /* responsive */
-    @media (max-width: 900px) {
-      .scoreboard { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-      .headline-strip { grid-template-columns: 1fr 1fr; }
-      .headline-strip .cell:nth-child(3) {
-        grid-column: 1 / -1; border-right: 0; padding: 0.9rem 0 0 0;
-        margin-top: 0.5rem; border-top: 1px solid var(--rule);
-      }
-      .wave-grid { grid-template-columns: 100px repeat(4, minmax(0, 1fr)); font-size: 0.78rem; }
-      #map { height: 420px; }
+    @media (max-width: 1100px) {
+      .dashboard { grid-template-columns: 1fr; }
+      .scoreboard { display: grid; grid-template-columns: repeat(2, 1fr); border-left: 1px solid var(--rule); }
+      .tile { border-right: 1px solid var(--rule); }
+      .tile:nth-child(2n) { border-right: 0; }
     }
-    @media (max-width: 620px) {
+    @media (max-width: 760px) {
+      .hero { grid-template-columns: 1fr 1fr; }
+      .hero .cell:nth-child(3) { grid-column: 1 / -1; border-right: 0; padding: 0.7rem 0 0 0; margin-top: 0.5rem; border-top: 1px solid var(--rule); }
       .scoreboard { grid-template-columns: 1fr; }
-      .headline-strip { grid-template-columns: 1fr; }
-      .headline-strip .cell { border-right: 0; border-bottom: 1px solid var(--rule); padding: 0.8rem 0; }
-      .headline-strip .cell:last-child { border-bottom: 0; }
-      .fm-table { grid-template-columns: 90px 1fr 1fr 80px; font-size: 0.78rem; }
+      .tile { border-right: 0; }
+      .vessel-stats { grid-template-columns: 1fr; }
+      .vessel-stats .stat { border-right: 0; border-bottom: 1px solid var(--rule); padding: 0.6rem 0; }
+      .vessel-stats .stat:last-child { border-bottom: 0; }
+      .fm-table { grid-template-columns: 90px 1fr 1fr 80px; font-size: 0.76rem; }
       .wave-grid { grid-template-columns: 80px repeat(4, minmax(0, 1fr)); font-size: 0.72rem; }
-      .map-legend { gap: 0.7rem; font-size: 0.72rem; }
-      .masthead h1 { font-size: 1.5rem; }
-      #map { height: 340px; }
+      .map-legend { gap: 0.5rem; font-size: 0.68rem; }
+      .masthead h1 { font-size: 1.35rem; }
+      #map { min-height: 360px; }
     }
+
+    /* ======================== PRINT / PDF EXPORT ======================== */
     @media print {
-      .more-link, footer.site { display: none; }
-      .tile, .map-frame { break-inside: avoid; }
-      a { color: var(--ink); border: none; }
+      @page {
+        size: A4 landscape;
+        margin: 12mm 14mm 14mm 14mm;
+      }
+      html, body { background: #fff; color: #000; font-size: 9pt; }
+      .wrap { max-width: none; padding: 0; }
+      .masthead .nav, .pdf-btn, .more-link, footer.site { display: none !important; }
+      .print-only { display: block !important; }
+
+      .pdf-cover {
+        page-break-after: always;
+        break-after: page;
+        height: calc(100vh - 26mm);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0 8mm;
+      }
+      .pdf-cover .brand-tag {
+        font-family: var(--mono);
+        font-size: 9pt;
+        letter-spacing: 0.2em;
+        color: var(--accent);
+        font-weight: 700;
+        margin-bottom: 14mm;
+      }
+      .pdf-cover h1 {
+        font-family: var(--serif);
+        font-size: 36pt;
+        font-weight: 700;
+        margin: 0 0 6mm 0;
+        line-height: 1.1;
+      }
+      .pdf-cover .cover-date { font-family: var(--mono); font-size: 11pt; color: #555; margin-bottom: 12mm; }
+      .pdf-cover .cover-threat {
+        display: inline-block;
+        padding: 2.5mm 5mm;
+        border: 1.5pt solid var(--accent);
+        font-family: var(--mono);
+        font-weight: 700;
+        font-size: 12pt;
+        margin-bottom: 10mm;
+      }
+      .pdf-cover .cover-summary {
+        font-family: var(--serif);
+        font-size: 14pt;
+        line-height: 1.4;
+        max-width: 72%;
+        color: #222;
+      }
+      .pdf-cover .cover-meta {
+        margin-top: auto;
+        font-family: var(--mono);
+        font-size: 8pt;
+        color: #777;
+        letter-spacing: 0.05em;
+      }
+
+      /* every print page gets a branded header / footer */
+      .print-page-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        font-family: var(--mono);
+        font-size: 8pt;
+        color: var(--accent);
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        border-bottom: 0.5pt solid #aaa;
+        padding-bottom: 2mm;
+        margin-bottom: 6mm;
+      }
+      .print-page-header .right { color: #555; font-weight: 500; }
+      .print-page-footer {
+        position: running(footer);
+        font-family: var(--mono);
+        font-size: 7.5pt;
+        color: #777;
+      }
+
+      /* Section-level pagination */
+      section { padding: 0 0 6mm 0; break-before: page; page-break-before: always; }
+      section.map { break-before: auto; }   /* second page after cover */
+
+      .hero, .masthead { break-before: page; break-after: avoid; }
+      .masthead { padding: 0; border-bottom: 1pt solid #000; margin-bottom: 4mm; }
+      .masthead h1 { font-size: 14pt; }
+      .masthead .meta { color: #555; }
+      .hero { padding: 2mm 0; border-bottom: 0.5pt solid #aaa; }
+      .hero .cell { border-color: #ddd; }
+      .hero .value { font-size: 13pt; }
+      .hero .one-line { font-size: 11pt; }
+
+      /* Map slide */
+      .dashboard { display: block; padding: 0; break-before: page; }
+      #map { min-height: 130mm; height: 130mm; }
+      .scoreboard { display: grid; grid-template-columns: repeat(2, 1fr); break-before: page; border: 0.5pt solid #ccc; }
+      .tile { border-bottom: 0.5pt solid #ddd; border-right: 0.5pt solid #ddd; padding: 4mm; }
+      .tile:nth-child(2n) { border-right: 0; }
+      .tile:nth-last-child(-n+2) { border-bottom: 0; }
+      .tile h3 { font-size: 11pt; }
+
+      .vessel-stats { break-before: avoid; padding: 4mm 0; border: 0.5pt solid #ccc; }
+      .actions li { font-size: 11pt; padding: 2mm 0 2mm 10mm; }
+      .actions li::before { font-size: 10pt; top: 2mm; }
+
+      .watchlist li { font-size: 10pt; padding: 2.5mm 0; }
+
+      .fm-table, .wave-grid { font-size: 9pt; }
+
+      a { color: #000; border: none; }
+      .leaflet-control-zoom, .leaflet-control-attribution { display: none !important; }
     }
   </style>
 </head>
 <body>
 
+<!-- =============== PRINT-ONLY COVER PAGE =============== -->
+<section class="pdf-cover print-only" aria-hidden="true">
+  <div class="brand-tag">RESILIENCE ENGINEERS</div>
+  <h1>Hormuz <span style="color:var(--accent);">Daily</span> Brief</h1>
+  <div class="cover-date">Day <!-- BRIEF:DAY_START -->70<!-- BRIEF:DAY_END --> · <!-- BRIEF:DATE_START -->9 May 2026<!-- BRIEF:DATE_END --></div>
+  <div class="cover-threat">Threat 4 / 5 · Severe · Trend: Same</div>
+  <div class="cover-summary">Iran's reply to the Pakistan-mediated 14-point US proposal is still pending. Hormuz throughput holds at ~6% of pre-crisis. Lebanon, not the Strait, is the active cascade vector.</div>
+  <div class="cover-meta">Prepared for management briefing · Independent · marco.felsberger@resilience-engineers.com · resilience-engineers.com</div>
+</section>
+
 <header class="masthead">
   <div class="wrap">
     <div class="row">
       <h1>Hormuz <span class="red">Daily</span> Brief</h1>
-      <div class="meta">Day <!-- BRIEF:DAY_START -->
-71
-<!-- BRIEF:DAY_END --> · <!-- BRIEF:DATE_START -->
-9 May 2026
-<!-- BRIEF:DATE_END --> · Last update <!-- BRIEF:LAST_UPDATED_START -->
-18:17 UTC / 20:17 CEST
-<!-- BRIEF:LAST_UPDATED_END --></div>
+      <div class="meta">Day <!-- BRIEF:DAY_START -->70<!-- BRIEF:DAY_END --> · <!-- BRIEF:DATE_START -->9 May 2026<!-- BRIEF:DATE_END --> · Last update <!-- BRIEF:LAST_UPDATED_START -->06:00 UTC / 08:00 CEST<!-- BRIEF:LAST_UPDATED_END --></div>
     </div>
     <div class="nav">
-      One-page · <a href="brief.html">Deep brief</a> <span class="sep">·</span> <a href="brief.html#methodology">Methodology</a> <span class="sep">·</span> <a href="brief.html#sources">Sources</a> <span class="sep">·</span> <a href="brief.html#backtest">Calibration</a>
+      <div>One-page · <a href="brief.html">Deep brief</a> <span class="sep">·</span> <a href="brief.html#methodology">Methodology</a> <span class="sep">·</span> <a href="brief.html#sources">Sources</a></div>
+      <button class="pdf-btn" onclick="window.print()">Export PDF for management</button>
     </div>
   </div>
 </header>
 
 <main class="wrap">
 
-  <!-- ============ MAP ============ -->
-  <section class="map" aria-labelledby="mapHeading">
-    <h2 id="mapHeading" style="display:none;">Threat map</h2>
-    <div class="map-frame">
+  <!-- ============ HERO STRIP ============ -->
+  <section class="hero" style="padding: 0.9rem 0;">
+    <div class="cell">
+      <div class="label">Trend (vs prior 72h)</div>
+      <!-- BRIEF:TREND_START -->
+      <div class="value"><span class="arrow arrow-side">→</span>Same</div>
+      <div class="sub">Sideways. Confidence: Medium.</div>
+      <!-- BRIEF:TREND_END -->
+    </div>
+    <div class="cell">
+      <div class="label">Threat level</div>
+      <!-- BRIEF:THREAT_START -->
+      <div class="value">4 / 5 · Severe</div>
+      <div class="threat-dots" aria-hidden="true">
+        <span class="lit-1"></span><span class="lit-2"></span><span class="lit-3"></span><span class="lit-4"></span><span></span>
+      </div>
+      <!-- BRIEF:THREAT_END -->
+    </div>
+    <div class="cell">
+      <div class="label">Today in one line</div>
+      <!-- BRIEF:ONELINER_START -->
+      <p class="one-line">Iran's reply to the Pakistan-mediated 14-point US proposal is still pending. Hormuz throughput holds at ~6% of pre-crisis. Lebanon, not the Strait, is the active cascade vector.</p>
+      <!-- BRIEF:ONELINER_END -->
+    </div>
+  </section>
+
+  <!-- ============ DASHBOARD: MAP + SCOREBOARD ============ -->
+  <div class="dashboard">
+
+    <!-- map -->
+    <div class="map-frame" aria-labelledby="mapHeading">
       <div class="map-caption">
-        <strong>Strait of Hormuz · threat status</strong>
-        <span>As of <!-- BRIEF:MAP_TS_START -->
-9 May 2026, 18:17 UTC
-<!-- BRIEF:MAP_TS_END --></span>
+        <strong>MENA threat map · Hormuz · Bab al-Mandeb · Suez</strong>
+        <span>As of <!-- BRIEF:MAP_TS_START -->9 May 2026, 06:00 UTC<!-- BRIEF:MAP_TS_END --></span>
       </div>
-      <div id="map" role="img" aria-label="Strait of Hormuz threat map showing Iran, Saudi Arabia, Qatar, UAE and Oman with key port markers color-coded by current operational status"></div>
+      <div id="map" role="img" aria-label="MENA threat map showing Iran, the Arabian peninsula, Red Sea, Bab al-Mandeb and Suez region with port markers, pipelines, and active shipping corridors"></div>
       <div class="map-legend">
-        <span class="item"><span class="dot red"></span>Active incident · Iranian military</span>
-        <span class="item"><span class="dot amber"></span>At-risk infrastructure</span>
-        <span class="item"><span class="dot green"></span>Alternative · operating</span>
-        <span class="item"><span class="line"></span>Primary transit corridor</span>
-        <span class="item"><span class="zone"></span>Strait choke / threat zone</span>
+        <span class="item"><span class="dot red"></span>Active incident · military</span>
+        <span class="item"><span class="dot amber"></span>At-risk infra</span>
+        <span class="item"><span class="dot green"></span>Alt route · operating</span>
+        <span class="item"><span class="pipeline-line"></span>Pipeline</span>
+        <span class="item"><span class="transit-line"></span>Transit corridor</span>
       </div>
     </div>
-  </section>
 
-  <!-- ============ HEADLINE STRIP ============ -->
-  <section class="headline" aria-labelledby="headlineHeading">
-    <h2 id="headlineHeading" style="display:none;">Headline indicators</h2>
-    <div class="headline-strip">
-      <div class="cell">
-        <div class="label">Trend (vs prior 72h)</div>
-        <!-- BRIEF:TREND_START -->
-<div class="value"><span class="arrow arrow-up">↑</span>Worse</div>
-<div class="sub">Hormuz kinetic exchange; US strikes three Iranian ports; Hezbollah crosses border. Confidence: High.</div>
-<!-- BRIEF:TREND_END -->
-      </div>
-      <div class="cell">
-        <div class="label">Threat level</div>
-        <!-- BRIEF:THREAT_START -->
-<div class="value">4 / 5 · Severe</div>
-<div class="threat-dots" aria-hidden="true">
-  <span class="lit-1"></span><span class="lit-2"></span><span class="lit-3"></span><span class="lit-4"></span><span></span>
-</div>
-<!-- BRIEF:THREAT_END -->
-      </div>
-      <div class="cell">
-        <div class="label">Today in one line</div>
-        <!-- BRIEF:ONELINER_START -->
-<p class="one-line">US struck three Iranian ports along Hormuz and disabled two Iranian tankers after destroyers came under fire on 7 May; Hezbollah claimed its first cross-border attack since the 17 April truce. Iran's reply to the US proposal still pending.</p>
-<!-- BRIEF:ONELINER_END -->
-      </div>
-    </div>
-  </section>
-
-  <!-- ============ CATEGORY SCOREBOARD ============ -->
-  <section aria-labelledby="sbHeading">
-    <h2 id="sbHeading">Status board · six categories</h2>
-    <div class="scoreboard">
-
+    <!-- scoreboard -->
+    <div class="scoreboard" aria-label="Six-category status board">
       <!-- BRIEF:TILE_1_START -->
-<article class="tile">
-  <div class="row1"><span class="num">01</span><h3>Maritime shipping</h3><span class="badge red">Red</span><span class="arrow-inline arrow-up">↑</span></div>
-  <p class="syn">Three US destroyers attacked while transiting Hormuz on 7 May; <strong>two Iranian tankers (Sea Star III, Sevda) disabled</strong> by US strikes 8 May; six missing in reported US strike on Iranian fishing/cargo vessels near Khasab. Nil-incident streak broken.</p>
-</article>
-<!-- BRIEF:TILE_1_END -->
-
+      <article class="tile">
+        <div class="row1"><span class="num">01</span><h3>Maritime shipping</h3><span class="badge red">Red</span><span class="arrow-inline arrow-down">↓</span></div>
+        <p class="syn">Apr Hormuz throughput 191 vessels (~6% of baseline). <strong>Nil incidents in trailing 48h</strong>. Project Freedom escort op paused.</p>
+      </article>
+      <!-- BRIEF:TILE_1_END -->
       <!-- BRIEF:TILE_2_START -->
-<article class="tile">
-  <div class="row1"><span class="num">02</span><h3>Military escalation</h3><span class="badge red">Red</span><span class="arrow-inline arrow-up">↑</span></div>
-  <p class="syn">US self-defense strikes on <strong>Bandar Abbas, Qeshm, Bandar Kargan</strong>. Hezbollah claimed first cross-border attack into Israel since 17 Apr truce. UAE air defenses intercepted Iranian missiles/drones.</p>
-</article>
-<!-- BRIEF:TILE_2_END -->
-
+      <article class="tile">
+        <div class="row1"><span class="num">02</span><h3>Military escalation</h3><span class="badge red">Red</span><span class="arrow-inline arrow-side">→</span></div>
+        <p class="syn">Sporadic naval clashes in Hormuz. <strong>Israeli strikes on Beirut</strong> resumed despite 17 Apr ceasefire.</p>
+      </article>
+      <!-- BRIEF:TILE_2_END -->
       <!-- BRIEF:TILE_3_START -->
-<article class="tile">
-  <div class="row1"><span class="num">03</span><h3>Diplomatic escalation</h3><span class="badge amber">Amber</span><span class="arrow-inline arrow-up">↑</span></div>
-  <p class="syn">Iran's formal response to US 14-point framework <strong>still not delivered</strong>. Rubio: "highly fractured" Iranian system. Trump: "expects to hear very soon." Israel-Lebanon round 3 talks confirmed for 14–15 May.</p>
-</article>
-<!-- BRIEF:TILE_3_END -->
-
+      <article class="tile">
+        <div class="row1"><span class="num">03</span><h3>Diplomatic escalation</h3><span class="badge amber">Amber</span><span class="arrow-inline arrow-down">↓</span></div>
+        <p class="syn">US <strong>14-point proposal</strong> under Iranian review via Pakistan mediation. Reply expected Fri 8 May, still pending.</p>
+      </article>
+      <!-- BRIEF:TILE_3_END -->
       <!-- BRIEF:TILE_4_START -->
-<article class="tile">
-  <div class="row1"><span class="num">04</span><h3>Infrastructure damage</h3><span class="badge red">Red</span><span class="arrow-inline arrow-up">↑</span></div>
-  <p class="syn">US struck three named Iranian ports along Hormuz. Suspected <strong>45 km² oil slick near Kharg Island</strong> per Copernicus imagery. Earlier-week Iranian missile fire on Fujairah port (oil refinery fire) remains in-window.</p>
-</article>
-<!-- BRIEF:TILE_4_END -->
-
+      <article class="tile">
+        <div class="row1"><span class="num">04</span><h3>Infrastructure damage</h3><span class="badge red">Red</span><span class="arrow-inline arrow-side">→</span></div>
+        <p class="syn">No new strikes on Gulf-state energy infra in trailing 72h. <strong>Watch named ports</strong> (Ras Laffan, Ras Tanura, Fujairah, Bandar Abbas, Kharg).</p>
+      </article>
+      <!-- BRIEF:TILE_4_END -->
       <!-- BRIEF:TILE_5_START -->
-<article class="tile">
-  <div class="row1"><span class="num">05</span><h3>Alternative routes</h3><span class="badge amber">Amber</span><span class="arrow-inline arrow-side">→</span></div>
-  <p class="syn">Houthi pause holds; no Saba/Al-Masirah threat in 72h. Inland pipelines still ceiling-pressed. <strong>Sonangol Namibe explosion</strong> at Kuwait's Mubarak Al Kabeer (800 km from strait) flagged as expansion-of-conflict signal last week.</p>
-</article>
-<!-- BRIEF:TILE_5_END -->
-
+      <article class="tile">
+        <div class="row1"><span class="num">05</span><h3>Alternative routes</h3><span class="badge amber">Amber</span><span class="arrow-inline arrow-side">→</span></div>
+        <p class="syn">Houthi pause holds. Inland pipelines near capacity ceiling. <strong>No third buffer</strong> if Bab el-Mandeb reverses.</p>
+      </article>
+      <!-- BRIEF:TILE_5_END -->
       <!-- BRIEF:TILE_6_START -->
-<article class="tile">
-  <div class="row1"><span class="num">06</span><h3>Outlook (30d)</h3><span class="badge amber">Amber</span><span class="arrow-inline arrow-up">↑</span></div>
-  <p class="syn">Re-escalation <strong>30%</strong> (+10pp) · frozen attrition <strong>45%</strong> (flat) · negotiated framework <strong>25%</strong> (-10pp). The kinetic exchange is the largest single 72h shift since launch.</p>
-</article>
-<!-- BRIEF:TILE_6_END -->
-
+      <article class="tile">
+        <div class="row1"><span class="num">06</span><h3>Outlook (30d)</h3><span class="badge amber">Amber</span><span class="arrow-inline arrow-down">↓</span></div>
+        <p class="syn">Negotiated <strong>35%</strong> · frozen attrition <strong>45%</strong> · re-escalation <strong>20%</strong>.</p>
+      </article>
+      <!-- BRIEF:TILE_6_END -->
     </div>
-  </section>
 
-  <!-- ============ TODAY'S ACTIONS ============ -->
+  </div>
+
+  <!-- ============ VESSEL TRANSIT STATS ============ -->
+  <div class="vessel-stats" aria-label="Vessel transit stats">
+    <!-- BRIEF:VESSEL_HORMUZ_START -->
+    <div class="stat">
+      <div class="stat-label">Strait of Hormuz · vessel transits</div>
+      <div class="stat-value">~6 / day <span class="stat-delta">↓ 94% vs baseline</span></div>
+      <div class="stat-context">Apr 2026: 191 vessels for the month vs ~3,000/month pre-crisis baseline (Kpler). Project Freedom escort op paused.</div>
+    </div>
+    <!-- BRIEF:VESSEL_HORMUZ_END -->
+    <!-- BRIEF:VESSEL_BAB_MANDEB_START -->
+    <div class="stat">
+      <div class="stat-label">Bab al-Mandeb / Red Sea · vessel transits</div>
+      <div class="stat-value">~140 / day <span class="stat-delta">↓ 44% vs baseline</span></div>
+      <div class="stat-context">Houthi pause holds since Oct 2025 ceasefire; gradual recovery from 2024 lows. Suez throughput remains well below ~250/day pre-crisis level.</div>
+    </div>
+    <!-- BRIEF:VESSEL_BAB_MANDEB_END -->
+  </div>
+
+  <!-- ============ TODAY'S 3 ACTIONS ============ -->
   <section aria-labelledby="actHeading">
     <h2 id="actHeading">Today's posture · 3 actions</h2>
     <!-- BRIEF:ACTIONS_START -->
-<ul class="actions">
-  <li><strong>Pull forward FM extension talks on Gulf-loaded May–June liftings.</strong> The 7–8 May kinetic exchange and US strikes on three named Iranian ports are exactly the trigger language most charterparty FM clauses require. Move "Likely" to "Declared" status review this week.</li>
-  <li><strong>Re-stress Bab el-Mandeb dependency under Iran-front escalation.</strong> Houthi silence is now the only buffer holding alt-route capacity. Build a 24h reversal scenario: which flows lose first, which suppliers can absorb, what is the freight cost shock.</li>
-  <li><strong>Brief CEO that the cascade vector activated this week.</strong> Hezbollah's first cross-border attack since 17 Apr and 19+ killed in Lebanon today are not noise. The Lebanon channel is now confirming what the brief flagged as W4 — escalation has crossed threshold.</li>
-</ul>
-<!-- BRIEF:ACTIONS_END -->
+    <ul class="actions">
+      <li><strong>Hold rerouted-supply posture; do not pre-position for Hormuz reopening.</strong> The diplomatic channel is real but binary; the structural blockade is intact and war-risk premium &gt;5% hull holds.</li>
+      <li><strong>Accelerate dual-source readiness on Bab el-Mandeb-dependent flows.</strong> The Houthi pause is the single biggest reversible. Treat the Red Sea opening as conditional; one statement flips it within 24h.</li>
+      <li><strong>Re-confirm force majeure language on Gulf-loaded contracts.</strong> Hormuz-loaded crude and Qatar LNG already declared partial. Expect FM extension talks on bunker, refined products, and petrochems through end-May.</li>
+    </ul>
+    <!-- BRIEF:ACTIONS_END -->
   </section>
 
   <!-- ============ WATCHLIST ============ -->
   <section aria-labelledby="wlHeading">
     <h2 id="wlHeading">Watchlist · next 24–72h</h2>
     <!-- BRIEF:WATCHLIST_START -->
-<ul class="watchlist">
-  <li>
-    <span class="num">W1</span>
-    <div>Iranian formal written response to US 14-point framework via Pakistan. <span class="deadline">EOD Sun 10 May</span>
-      <span class="imp">Acceptance / qualified-acceptance → diplomacy AMBER↓ and threat 4→3 review trigger. No response by deadline → AMBER↑↑ and re-escalation scenario +5–10pp on top of today's +10pp shift.</span>
-    </div>
-  </li>
-  <li>
-    <span class="num">W2</span>
-    <div>Further US strike on Iranian port or naval asset (CENTCOM release). <span class="deadline">rolling 72h</span>
-      <span class="imp">New strike → maritime RED holds; arrow stays ↑. 72h quiet → first marginal evidence the 7–8 May exchange was bounded "love tap" not regime change.</span>
-    </div>
-  </li>
-  <li>
-    <span class="num">W3</span>
-    <div>Strike on Gulf-state energy infrastructure (Ras Laffan, Ras Tanura, Fujairah refinery, Jebel Ali, Bandar Abbas terminals, Kharg). <span class="deadline">rolling 72h</span>
-      <span class="imp">Confirmed strike on named asset → threat 4→5 trigger. Fujairah refinery fire earlier this week is in the watch envelope.</span>
-    </div>
-  </li>
-  <li>
-    <span class="num">W4</span>
-    <div>Hezbollah second cross-border attack on Israel and Israeli response (ISW / IDF). <span class="deadline">rolling 72h</span>
-      <span class="imp">Second attack → cascade vector confirmed, +5pp re-escalation. 72h pause → first attack treated as signal-not-trend.</span>
-    </div>
-  </li>
-  <li>
-    <span class="num">W5</span>
-    <div>Iranian airspace or maritime closure announcement (SNSC / IRGC Navy via state outlet). <span class="deadline">rolling 72h</span>
-      <span class="imp">Announcement → threat 4→5 trigger. No announcement → status quo holds despite kinetic exchange.</span>
-    </div>
-  </li>
-</ul>
-<!-- BRIEF:WATCHLIST_END -->
+    <ul class="watchlist">
+      <li><span class="num">W1</span><div>Iranian formal response to the US 14-point proposal. <span class="deadline">EOD Sun 10 May</span><span class="imp">Acceptance → diplomacy AMBER↓ and threat 4→3 review trigger. No response by deadline → AMBER↑ and downside scenario +5–10pp.</span></div></li>
+      <li><span class="num">W2</span><div>New vessel incident in or adjacent to Hormuz (UKMTO advisory). <span class="deadline">rolling 72h</span><span class="imp">Any incident → maritime RED holds. Nil-incident streak ≥5 days → first quantifiable de-escalation evidence.</span></div></li>
+      <li><span class="num">W3</span><div>Houthi public statement on Red Sea posture. <span class="deadline">rolling 72h</span><span class="imp">Threat to resume → alt-routes Amber→Red within 24h. Continued silence → Lindy bet validates.</span></div></li>
+      <li><span class="num">W4</span><div>Israeli strike pattern on Lebanon (frequency vs trailing 7d). <span class="deadline">rolling 72h</span><span class="imp">≥3/day sustained → cascade vector activates, downside +5–10pp. &lt;1/day → cascade dormant.</span></div></li>
+      <li><span class="num">W5</span><div>Iranian airspace or maritime closure announcement. <span class="deadline">rolling 72h</span><span class="imp">Announcement → threat 4→5 trigger. No announcement → status quo holds.</span></div></li>
+    </ul>
+    <!-- BRIEF:WATCHLIST_END -->
   </section>
 
   <!-- ============ FORCE MAJEURE TRACKER ============ -->
   <section aria-labelledby="fmHeading">
     <h2 id="fmHeading">Force Majeure tracker</h2>
     <!-- BRIEF:FM_START -->
-<div class="fm-table" role="table" aria-label="Force majeure tracker">
-  <div class="row head"><div>Status</div><div>Commodity / contract class</div><div>Trigger / context</div><div>Source</div></div>
-  <div class="row">
-    <div class="status stat-declared"><span class="pip red"></span>Declared</div>
-    <div>Hormuz-loaded crude voyages (multiple)</div>
-    <div>Charter-party FM invoked since Mar 2026 due to inability to transit. 7–8 May kinetic exchange reinforces.</div>
-    <div class="mono" style="font-size:0.74rem;">Lloyd's List</div>
-  </div>
-  <div class="row">
-    <div class="status stat-declared"><span class="pip red"></span>Declared</div>
-    <div>Qatar LNG long-term contracts (selected)</div>
-    <div>FM partially invoked on cargoes with Hormuz egress requirement. Carries through May.</div>
-    <div class="mono" style="font-size:0.74rem;">Argus / Platts</div>
-  </div>
-  <div class="row">
-    <div class="status stat-declared"><span class="pip red"></span>Declared</div>
-    <div>Container liner contracts via Hormuz</div>
-    <div>CMA CGM <em>San Antonio</em> strike + South Korean HMM <em>Namu</em> fire prompted carrier-side FM language activation. Was "Watch" 9 May; upgraded.</div>
-    <div class="mono" style="font-size:0.74rem;">CMA CGM · HMM</div>
-  </div>
-  <div class="row">
-    <div class="status stat-likely"><span class="pip amber"></span>Likely</div>
-    <div>Bunker fuel supply, Gulf bunkering ports</div>
-    <div>Fujairah refinery fire (Iranian missile fire this week) raised structural FM probability. Capacity at Khor Fakkan strained.</div>
-    <div class="mono" style="font-size:0.74rem;">Trade press · UAE MoD</div>
-  </div>
-  <div class="row">
-    <div class="status stat-likely"><span class="pip amber"></span>Likely</div>
-    <div>UAE / Saudi refined-product offtakes</div>
-    <div>Logistics chain stressed; FM language under negotiation on May–June liftings; 7–8 May escalation accelerates.</div>
-    <div class="mono" style="font-size:0.74rem;">Trader desks</div>
-  </div>
-  <div class="row">
-    <div class="status stat-watch"><span class="pip ink"></span>Watch</div>
-    <div>Petrochemical feedstock (Mideast → Asia)</div>
-    <div>Inventory drawdown approaching 30-day thresholds; FM negotiations expected by end-May.</div>
-    <div class="mono" style="font-size:0.74rem;">Sector analysts</div>
-  </div>
-</div>
-<p class="fm-note">Status definitions — <strong>Declared:</strong> FM formally invoked on at least one in-class contract. <strong>Likely:</strong> FM language under negotiation; declaration expected within 14 days. <strong>Watch:</strong> conditions developing; no declaration in trailing 7 days.</p>
-<!-- BRIEF:FM_END -->
+    <div class="fm-table" role="table" aria-label="Force majeure tracker">
+      <div class="row head"><div>Status</div><div>Commodity / contract class</div><div>Trigger / context</div><div>Source</div></div>
+      <div class="row"><div class="status stat-declared"><span class="pip red"></span>Declared</div><div>Hormuz-loaded crude voyages</div><div>Charter-party FM invoked since Mar 2026 due to inability to transit. Carries through current period.</div><div class="mono" style="font-size:0.7rem;">Lloyd's List</div></div>
+      <div class="row"><div class="status stat-declared"><span class="pip red"></span>Declared</div><div>Qatar LNG long-term contracts (selected)</div><div>FM partially invoked on cargoes with Hormuz egress requirement.</div><div class="mono" style="font-size:0.7rem;">Argus / Platts</div></div>
+      <div class="row"><div class="status stat-likely"><span class="pip amber"></span>Likely</div><div>Bunker fuel supply, Gulf bunkering ports</div><div>Bunkering capacity at Fujairah / Khor Fakkan strained; FM extension probable if alt-route saturation worsens.</div><div class="mono" style="font-size:0.7rem;">Trade press</div></div>
+      <div class="row"><div class="status stat-likely"><span class="pip amber"></span>Likely</div><div>UAE / Saudi refined-product offtakes</div><div>Logistics chain stressed; FM language under negotiation on May–June liftings.</div><div class="mono" style="font-size:0.7rem;">Trader desks</div></div>
+      <div class="row"><div class="status stat-watch"><span class="pip ink"></span>Watch</div><div>Container liner contracts via Hormuz</div><div>CMA CGM strike this week raises probability of carrier-side FM. No declaration yet.</div><div class="mono" style="font-size:0.7rem;">CMA CGM</div></div>
+      <div class="row"><div class="status stat-watch"><span class="pip ink"></span>Watch</div><div>Petrochemical feedstock (Mideast → Asia)</div><div>Inventory drawdown approaching 30-day thresholds; FM negotiations expected by end-May.</div><div class="mono" style="font-size:0.7rem;">Sector analysts</div></div>
+    </div>
+    <p class="fm-note">Status definitions — <strong>Declared:</strong> FM formally invoked on at least one in-class contract. <strong>Likely:</strong> FM language under negotiation; declaration expected within 14 days. <strong>Watch:</strong> conditions developing; no declaration in trailing 7 days.</p>
+    <!-- BRIEF:FM_END -->
   </section>
 
   <!-- ============ COMMODITY WAVE TIMELINE ============ -->
   <section aria-labelledby="waveHeading">
     <h2 id="waveHeading">Commodity wave · cascade timeline</h2>
     <!-- BRIEF:WAVE_START -->
-<p style="font-size:0.84rem; color: var(--ink-2); margin: 0 0 0.4rem 0;">When each commodity feels the disruption. Pink = active hit. Cream = approaching. Blank = not yet.</p>
-<div class="wave-grid">
-  <div class="row head">
-    <div class="label-cell">Commodity</div>
-    <div class="stage-cell">T + 0 · now</div>
-    <div class="stage-cell">T + 7 · this week</div>
-    <div class="stage-cell">T + 30 · 1 month</div>
-    <div class="stage-cell">T + 90 · 1 quarter</div>
-  </div>
-  <div class="row">
-    <div class="label-cell">Crude oil</div>
-    <div class="stage-cell hit"><strong>Direct</strong>Hormuz traffic effectively blocked; oil prices jumped on 7–8 May kinetic exchange; Kharg oil slick raises Iran-side export-system stress.</div>
-    <div class="stage-cell hit"><strong>Sustained</strong>Asian refiners drawing strategic stocks; spot tightness; US gasoline up nearly 50% since 28 Feb.</div>
-    <div class="stage-cell hit amber"><strong>Building</strong>OECD strategic releases under discussion if no de-escalation by end-May.</div>
-    <div class="stage-cell"></div>
-  </div>
-  <div class="row">
-    <div class="label-cell">LNG</div>
-    <div class="stage-cell hit"><strong>Direct</strong>Qatar export route blocked; long-term FM partial; price pass-through visible.</div>
-    <div class="stage-cell hit"><strong>Sustained</strong>Asian winter-stock drawdown begins; EU storage planning recalibrates.</div>
-    <div class="stage-cell hit amber"><strong>Building</strong>EU summer stock-build at risk if blockade persists into Q3.</div>
-    <div class="stage-cell hit amber"><strong>Risk</strong>Heating-season exposure in N. Asia / EU if winter approaches without resolution.</div>
-  </div>
-  <div class="row">
-    <div class="label-cell">Refined products</div>
-    <div class="stage-cell hit"><strong>Direct</strong>Diesel / jet routes through Gulf disrupted; Fujairah refinery fire from Iranian missile this week sharpens regional supply risk.</div>
-    <div class="stage-cell hit amber"><strong>Building</strong>EU diesel buffer eroding as Cape route lengthens deliveries.</div>
-    <div class="stage-cell hit amber"><strong>Building</strong>Possible regional stockouts in import-dependent EU members.</div>
-    <div class="stage-cell"></div>
-  </div>
-  <div class="row">
-    <div class="label-cell">Petrochems &amp; fertilizers</div>
-    <div class="stage-cell"></div>
-    <div class="stage-cell hit amber"><strong>Building</strong>Mideast feedstock to Asia chain stressed; FAO flagged fertilizer-cost risk to 2027 wheat planting.</div>
-    <div class="stage-cell hit"><strong>Active</strong>Inventory drawdown to 30-day thresholds; FM negotiations begin.</div>
-    <div class="stage-cell hit amber"><strong>Risk</strong>Agriculture (urea / ammonia) exposure if no Gulf flow restoration before next planting cycle.</div>
-  </div>
-  <div class="row">
-    <div class="label-cell">Container shipping</div>
-    <div class="stage-cell hit"><strong>Direct</strong>CMA CGM <em>San Antonio</em> + HMM <em>Namu</em> fire confirmed carrier-side FM activation; Hormuz transit avoidance now near-universal.</div>
-    <div class="stage-cell hit amber"><strong>Building</strong>Bab el-Mandeb dependency rises; capacity ceiling near on alt-routes.</div>
-    <div class="stage-cell hit amber"><strong>Building</strong>Surcharges expected to harden if alt-routes congest further.</div>
-    <div class="stage-cell"></div>
-  </div>
-  <div class="row">
-    <div class="label-cell">Bunker fuel</div>
-    <div class="stage-cell hit amber"><strong>Building</strong>Fujairah refinery fire compounds bunker-hub strain; bunker premium rising.</div>
-    <div class="stage-cell hit"><strong>Active</strong>Vessels rerouting bunkering to Singapore / Cape; voyage-cost shock.</div>
-    <div class="stage-cell hit amber"><strong>Building</strong>Carrier P&amp;L pressure; possible BAF resets on liner contracts.</div>
-    <div class="stage-cell"></div>
-  </div>
-</div>
-<p class="wave-note">Wave logic — disruptions hit in stages because supply chains carry inventory. T+0 is shipping; T+7 is regional buffers; T+30 is inventory thresholds; T+90 is contract / consumption-side cascades.</p>
-<!-- BRIEF:WAVE_END -->
+    <p style="font-size:0.82rem; color: var(--ink-2); margin: 0 0 0.4rem 0;">When each commodity feels the disruption. Pink = active hit. Cream = approaching. Blank = not yet.</p>
+    <div class="wave-grid">
+      <div class="row head"><div class="label-cell">Commodity</div><div class="stage-cell">T + 0 · now</div><div class="stage-cell">T + 7 · this week</div><div class="stage-cell">T + 30 · 1 month</div><div class="stage-cell">T + 90 · 1 quarter</div></div>
+      <div class="row"><div class="label-cell">Crude oil</div><div class="stage-cell hit"><strong>Direct</strong>Volume collapsed; flow rerouted via pipelines + Cape; price premium structural.</div><div class="stage-cell hit"><strong>Sustained</strong>Asian refiners drawing strategic stocks; spot tightness.</div><div class="stage-cell hit amber"><strong>Building</strong>OECD strategic releases under discussion if no de-escalation.</div><div class="stage-cell"></div></div>
+      <div class="row"><div class="label-cell">LNG</div><div class="stage-cell hit"><strong>Direct</strong>Qatar export route blocked; spot LNG TTF spikes; long-term FM partial.</div><div class="stage-cell hit"><strong>Sustained</strong>Asian winter-stock drawdown begins; EU storage planning recalibrates.</div><div class="stage-cell hit amber"><strong>Building</strong>EU summer stock-build at risk if blockade persists into Q3.</div><div class="stage-cell hit amber"><strong>Risk</strong>Heating-season exposure in N. Asia / EU if winter approaches without resolution.</div></div>
+      <div class="row"><div class="label-cell">Refined products</div><div class="stage-cell hit"><strong>Direct</strong>Diesel / jet routes through Gulf disrupted; Asian spot tightness.</div><div class="stage-cell hit amber"><strong>Building</strong>EU diesel buffer eroding as Cape route lengthens deliveries.</div><div class="stage-cell hit amber"><strong>Building</strong>Possible regional stockouts in import-dependent EU members.</div><div class="stage-cell"></div></div>
+      <div class="row"><div class="label-cell">Petrochems &amp; fertilizers</div><div class="stage-cell"></div><div class="stage-cell hit amber"><strong>Building</strong>Mideast feedstock to Asia chain stressed; price pressure on derivatives.</div><div class="stage-cell hit"><strong>Active</strong>Inventory drawdown to 30-day thresholds; FM negotiations begin.</div><div class="stage-cell hit amber"><strong>Risk</strong>Agriculture (urea / ammonia) exposure if no Gulf flow restoration before next planting cycle.</div></div>
+      <div class="row"><div class="label-cell">Container shipping</div><div class="stage-cell hit"><strong>Direct</strong>Hormuz-transit lines diverted; CMA CGM ship strike raises carrier risk premium.</div><div class="stage-cell hit amber"><strong>Building</strong>Bab el-Mandeb dependency rises; capacity ceiling near on alt-routes.</div><div class="stage-cell hit amber"><strong>Building</strong>Surcharges expected to harden if alt-routes congest further.</div><div class="stage-cell"></div></div>
+      <div class="row"><div class="label-cell">Bunker fuel</div><div class="stage-cell hit amber"><strong>Building</strong>Fujairah / Khor Fakkan capacity strained; bunker premium rising.</div><div class="stage-cell hit"><strong>Active</strong>Vessels rerouting bunkering to Singapore / Cape; voyage-cost shock.</div><div class="stage-cell hit amber"><strong>Building</strong>Carrier P&amp;L pressure; possible BAF resets on liner contracts.</div><div class="stage-cell"></div></div>
+    </div>
+    <p class="wave-note">Wave logic — disruptions hit in stages because supply chains carry inventory. T+0 is shipping; T+7 is regional buffers; T+30 is inventory thresholds; T+90 is contract / consumption-side cascades.</p>
+    <!-- BRIEF:WAVE_END -->
   </section>
 
   <div class="more-link">
     <div class="text">
-      <strong>Need the categories with full sourcing, watchlist deltas, methodology, and the calibration log?</strong><br/>
+      <strong>Need the full categories with sourcing notes and watchlist deltas?</strong><br/>
       The deep brief carries everything that doesn't fit on one page.
     </div>
     <a href="brief.html">Open deep brief →</a>
@@ -591,55 +648,76 @@
 
 </main>
 
-<!-- Leaflet (OpenStreetMap) -->
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
         integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
         crossorigin=""></script>
 <script>
   (function () {
-    // ---- Map init ----
     const map = L.map('map', {
-      center: [26.6, 55.5],
-      zoom: 7,
-      minZoom: 5,
-      maxZoom: 12,
+      center: [22.5, 47.0],
+      zoom: 5,
+      minZoom: 4,
+      maxZoom: 11,
       scrollWheelZoom: false,
       attributionControl: true,
       zoomControl: true
     });
+    map.fitBounds([[11.5, 32.0], [31.5, 60.0]]);
 
-    // CartoDB Positron — clean, light, editorial. Free for reasonable use with attribution.
     L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
       subdomains: 'abcd',
       maxZoom: 19
     }).addTo(map);
 
-    // ---- Strait choke threat zone (subtle red disc around the choke point) ----
-    L.circle([26.55, 56.45], {
-      radius: 70000,           // ~38 nm
-      color: '#c1272d',
-      weight: 0,
-      fillColor: '#c1272d',
-      fillOpacity: 0.10
-    }).addTo(map);
+    // Choke zones (subtle red discs) — Hormuz + Bab al-Mandeb
+    L.circle([26.55, 56.45], { radius: 80000, color: '#c1272d', weight: 0, fillColor: '#c1272d', fillOpacity: 0.10 }).addTo(map);
+    L.circle([12.6, 43.4],   { radius: 90000, color: '#b67a08', weight: 0, fillColor: '#b67a08', fillOpacity: 0.08 }).addTo(map);
 
-    // ---- Vessel transit corridor (dashed line through the strait) ----
+    // Suez Canal corridor (subtle amber line)
+    L.polyline([[31.25, 32.30], [30.95, 32.55], [30.55, 32.34], [29.93, 32.55]], {
+      color: '#b67a08', weight: 3, opacity: 0.55
+    }).addTo(map).bindTooltip('Suez Canal', { sticky: true });
+
+    // Vessel transit corridors
     L.polyline([
-      [29.20, 49.20],   // entering Persian Gulf from Kuwait area
-      [27.80, 51.90],   // mid-Gulf
-      [26.85, 55.10],   // approach to strait
-      [26.50, 56.45],   // strait choke point
-      [25.50, 57.80],   // exiting into Gulf of Oman
-      [24.50, 59.40]    // open Gulf of Oman
-    ], {
-      color: '#14171c',
-      weight: 2,
-      opacity: 0.55,
-      dashArray: '6 5'
-    }).addTo(map);
+      [29.20, 49.20], [27.80, 51.90], [26.85, 55.10], [26.50, 56.45], [25.50, 57.80], [24.50, 59.40]
+    ], { color: '#14171c', weight: 2, opacity: 0.55, dashArray: '6 5' }).addTo(map).bindTooltip('Hormuz transit corridor', { sticky: true });
 
-    // ---- Pin renderer ----
+    L.polyline([
+      [29.93, 32.55], [27.5, 34.5], [22.0, 38.0], [16.0, 41.5], [12.6, 43.4], [12.0, 45.5], [13.5, 50.0]
+    ], { color: '#14171c', weight: 2, opacity: 0.55, dashArray: '6 5' }).addTo(map).bindTooltip('Red Sea / Bab al-Mandeb corridor', { sticky: true });
+
+    // Pipelines (status colors: green = operating, amber = stressed, red = down)
+    function pipeline(coords, color, name, sub) {
+      const fill = ({ green: '#2c7a4a', amber: '#b67a08', red: '#c1272d' })[color] || '#2c7a4a';
+      return L.polyline(coords, { color: fill, weight: 4, opacity: 0.78, lineCap: 'round' })
+              .bindPopup(`<div class="pin-name">${name}</div><div class="pin-sub">${sub}</div><span class="pin-status ${color}">Pipeline</span>`)
+              .bindTooltip(name, { sticky: true })
+              .addTo(map);
+    }
+
+    // Saudi East-West (Petroline): Abqaiq → Yanbu, ~1,200 km
+    pipeline([[25.94, 49.67], [24.85, 46.72], [24.45, 39.50], [24.10, 38.10]], 'green',
+             'Saudi East–West (Petroline)', '~5 mbd capacity. Critical alternative around Hormuz to Red Sea (Yanbu).');
+
+    // UAE Habshan-Fujairah pipeline
+    pipeline([[23.50, 53.90], [24.10, 55.20], [24.85, 56.10], [25.13, 56.34]], 'green',
+             'Habshan–Fujairah pipeline', '~1.5 mbd. Bypasses Hormuz from Abu Dhabi inland to Fujairah on Gulf of Oman.');
+
+    // SUMED (Egypt): Ain Sukhna → Sidi Kerir
+    pipeline([[29.60, 32.32], [30.30, 31.15], [31.00, 29.97]], 'green',
+             'SUMED', '~2.5 mbd. Egypt crude pipeline parallel to Suez Canal, Ain Sukhna to Sidi Kerir.');
+
+    // Eilat-Ashkelon (EAPC)
+    pipeline([[29.55, 34.95], [30.60, 34.80], [31.67, 34.55]], 'amber',
+             'Eilat–Ashkelon (EAPC)', 'Israeli crude pipeline Red Sea to Mediterranean. Strategic alt-route, security exposure.');
+
+    // Iraq–Turkey (Kirkuk-Ceyhan), partial
+    pipeline([[35.47, 44.39], [36.50, 43.20], [37.10, 41.50]], 'amber',
+             'Kirkuk–Ceyhan (ITP)', 'Iraq–Turkey crude pipeline. Operational status varies; political-risk exposure.');
+
+    // Pin renderer
     function makePin(lat, lng, color, name, sub, status) {
       const fill = ({ red: '#c1272d', amber: '#b67a08', green: '#2c7a4a' })[color] || '#14171c';
       const cls = color || 'red';
@@ -648,27 +726,47 @@
         `<div class="pin-sub">${sub}</div>` +
         `<span class="pin-status ${cls}">${status}</span>`;
       return L.circleMarker([lat, lng], {
-        radius: 7,
+        radius: 6,
         color: '#ffffff',
-        weight: 2,
+        weight: 1.8,
         fillColor: fill,
         fillOpacity: 1
-      }).bindPopup(popup).bindTooltip(name, { direction: 'top', offset: [0, -8], opacity: 0.92 });
+      }).bindPopup(popup).bindTooltip(name, { direction: 'top', offset: [0, -6], opacity: 0.92 });
     }
 
-    // ---- Pins config (BRIEF:* markers — daily routine edits this array) ----
+    // Pins config (BRIEF:* markers — daily routine edits this array)
     const pinsConfig = [
       // BRIEF:MAP_PINS_START
-      { lat: 27.18, lng: 56.27, color: 'red',   name: 'Bandar Abbas',      sub: 'IRGCN HQ · Iran main naval base',                status: 'Iranian military' },
-      { lat: 26.55, lng: 56.45, color: 'red',   name: 'Strait choke',      sub: 'CMA CGM strike · naval clashes (last 7d)',       status: 'Active incident' },
-      { lat: 29.25, lng: 50.32, color: 'amber', name: 'Kharg Island',      sub: 'Iran main oil terminal',                          status: 'At risk' },
-      { lat: 28.97, lng: 50.84, color: 'red',   name: 'Bushehr',           sub: 'Iran naval &amp; nuclear',                        status: 'Iranian military' },
-      { lat: 26.65, lng: 50.17, color: 'amber', name: 'Ras Tanura',        sub: 'Saudi crude export terminal',                     status: 'At risk' },
-      { lat: 25.92, lng: 51.56, color: 'amber', name: 'Ras Laffan',        sub: 'Qatar LNG · FM partial',                          status: 'At risk' },
-      { lat: 25.00, lng: 55.13, color: 'amber', name: 'Jebel Ali',         sub: 'Dubai · US 5th Fleet logistics',                  status: 'At risk' },
-      { lat: 25.34, lng: 56.36, color: 'green', name: 'Khor Fakkan',       sub: 'UAE Gulf-of-Oman side · alt container port',      status: 'Operating' },
-      { lat: 25.13, lng: 56.34, color: 'green', name: 'Fujairah',          sub: 'UAE bunker hub · Habshan-Fujairah pipeline term', status: 'Operating' },
-      { lat: 24.36, lng: 56.74, color: 'green', name: 'Sohar',             sub: 'Oman alt port · Gulf of Oman',                    status: 'Operating' }
+      // ===== Iran / Hormuz region =====
+      { lat: 27.18, lng: 56.27, color: 'red',   name: 'Bandar Abbas',  sub: 'IRGCN HQ · Iran main naval base',                       status: 'Iranian military' },
+      { lat: 26.55, lng: 56.45, color: 'red',   name: 'Strait choke',  sub: 'CMA CGM strike · naval clashes (last 7d)',              status: 'Active incident' },
+      { lat: 28.97, lng: 50.84, color: 'red',   name: 'Bushehr',       sub: 'Iran naval & nuclear',                                  status: 'Iranian military' },
+      { lat: 29.25, lng: 50.32, color: 'amber', name: 'Kharg Island',  sub: 'Iran main oil export terminal',                          status: 'At risk' },
+      { lat: 30.34, lng: 48.30, color: 'amber', name: 'Abadan',        sub: 'Iran refinery (~430 kbd)',                              status: 'At risk' },
+      // ===== Gulf states =====
+      { lat: 25.94, lng: 49.67, color: 'amber', name: 'Abqaiq',        sub: 'Saudi crude processing hub (~7 mbd)',                   status: 'At risk' },
+      { lat: 26.65, lng: 50.17, color: 'amber', name: 'Ras Tanura',    sub: 'Saudi crude export terminal',                            status: 'At risk' },
+      { lat: 26.95, lng: 49.65, color: 'amber', name: 'Jubail',        sub: 'Saudi petrochem hub',                                   status: 'At risk' },
+      { lat: 25.92, lng: 51.56, color: 'amber', name: 'Ras Laffan',    sub: 'Qatar LNG · FM partial',                                status: 'At risk' },
+      { lat: 25.00, lng: 55.13, color: 'amber', name: 'Jebel Ali',     sub: 'Dubai · US 5th Fleet logistics',                        status: 'At risk' },
+      { lat: 24.10, lng: 52.73, color: 'amber', name: 'Ruwais',        sub: 'UAE refinery & petrochem (~922 kbd)',                   status: 'At risk' },
+      // ===== Alt routes (operating) =====
+      { lat: 25.34, lng: 56.36, color: 'green', name: 'Khor Fakkan',   sub: 'UAE Gulf-of-Oman side · alt container port',            status: 'Operating' },
+      { lat: 25.13, lng: 56.34, color: 'green', name: 'Fujairah',      sub: 'UAE bunker hub · Habshan-Fujairah pipeline term.',      status: 'Operating' },
+      { lat: 24.36, lng: 56.74, color: 'green', name: 'Sohar',         sub: 'Oman alt port · Gulf of Oman',                          status: 'Operating' },
+      { lat: 24.10, lng: 38.10, color: 'green', name: 'Yanbu',         sub: 'Saudi East–West pipeline outlet · Red Sea',             status: 'Operating' },
+      { lat: 21.49, lng: 39.18, color: 'green', name: 'Jeddah',        sub: 'Saudi Red Sea port',                                    status: 'Operating' },
+      // ===== Suez / Egypt =====
+      { lat: 31.00, lng: 29.97, color: 'green', name: 'Sidi Kerir',    sub: 'SUMED north terminal · Mediterranean',                  status: 'Operating' },
+      { lat: 29.60, lng: 32.32, color: 'amber', name: 'Ain Sukhna',    sub: 'SUMED south terminal · entry to Suez',                  status: 'At risk' },
+      { lat: 30.95, lng: 32.55, color: 'amber', name: 'Suez Canal',    sub: '~250 vessels/day pre-crisis; throughput well below.',   status: 'At risk' },
+      // ===== Bab al-Mandeb / Red Sea =====
+      { lat: 14.79, lng: 42.95, color: 'red',   name: 'Hodeida',       sub: 'Yemen · Houthi-controlled port',                        status: 'Iranian military' },
+      { lat: 12.78, lng: 45.04, color: 'amber', name: 'Aden',          sub: 'Yemen · Bab al-Mandeb access',                          status: 'At risk' },
+      { lat: 12.60, lng: 43.40, color: 'amber', name: 'Bab al-Mandeb', sub: 'Choke point · Houthi pause holds since Oct 2025',       status: 'At risk' },
+      // ===== Israel =====
+      { lat: 29.55, lng: 34.95, color: 'amber', name: 'Eilat',         sub: 'Israel · EAPC pipeline south terminal',                 status: 'At risk' },
+      { lat: 31.67, lng: 34.55, color: 'amber', name: 'Ashkelon',      sub: 'Israel · EAPC north terminal',                          status: 'At risk' }
       // BRIEF:MAP_PINS_END
     ];
 
