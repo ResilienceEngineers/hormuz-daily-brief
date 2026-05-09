@@ -132,3 +132,56 @@ Examples of what would go here once observed:
 - C — Re-escalation — 30% (Δ +10pp)
 
 **Predictions to score at T+1 (10 May), T+3 (12 May), T+7 (16 May).**
+
+---
+
+## 2026-05-09 (evening update — second cycle)
+
+### T+1 re-scoring of 2026-05-08 predictions (final, after full 9 May data)
+
+- **Trend (Same, Conf Medium) — MISS confirmed.** As scored in this morning's entry, the trailing 72h delivered Hard escalation that meets §2's "Worse" threshold (US strikes on three Iranian ports; three US destroyers attacked; Sea Star III + Sevda disabled; Hezbollah first cross-border claim). Surprise also confirmed: US sovereign-territory strike on three Iranian ports affected 5 categories.
+- **Threat level (4) — HIT (held all day).** No formal Iranian closure announcement and no Gulf-state energy infrastructure strike inside trailing 72h, despite the kinetic exchange.
+- **W1 (Iran formal response by EOD Sun 10 May) — STILL PENDING at 20:10 UTC 9 May.** Trump (TF1, 9 May) said "expects to hear very soon"; CNN live blog confirms US "still awaiting" response. Score finalises in tomorrow's 10 May entry.
+- **W2 (new vessel incident in/near Hormuz) — HIT confirmed both directions:** US strikes on Sea Star III + Sevda (8 May); Al Kharaitiyat transit attempt (9 May, in progress) also relevant as inverse — first attempted commercial transit, not incident.
+- **W3 (Houthi statement on Red Sea posture) — MISS / Lindy validated again.** UKMTO JMIC 041 confirms "Houthi messaging continues without associated operational indicators."
+- **W4 (Israeli strikes ≥3/day on Lebanon sustained) — HIT.** 19+ killed today; 23 per Al Jazeera count; Hezbollah claimed 9 attacks Saturday after 26 Friday including 2 cross-border into Israel. Cascade vector confirmed.
+- **W5 (Iran airspace/maritime closure announcement) — MISS.** No formal closure declared.
+
+### Surprise log (9 May)
+
+- Qatari LNG **Al Kharaitiyat** transit attempt — first since war start, coordinated via Pakistan with Iranian acquiescence. Affects Maritime, Diplomatic, Infrastructure, Outlook (4 categories). Logged as positive-direction surprise.
+- Bahrain arrest of 41 alleged IRGC-linked individuals — Tier 1 Bahrain MoI release. Affects Diplomatic, Military.
+- UK pre-positions HMS Dragon for future European-led Hormuz escort mission — Tier 1 UK MoD. Forward-looking, no immediate operational change.
+
+### Source notes (9 May, evening)
+
+- **Reuters/LSEG** broke Al Kharaitiyat AIS data — Tier 2 Hard signal at first detection. Bloomberg corroborated within 1h. Strong positive calibration.
+- **CNN live blog** maintained continuous Tier 5 corroboration of CENTCOM, Hezbollah, and Iranian Foreign Ministry signals through the day.
+- **UKMTO recent-incidents page** still lagging on 7–9 May events (no public update as of writing). Standing flag: when the structural threat level is 4+ and a kinetic exchange is unfolding, UKMTO is *trailing* indicator, not leading.
+- **Al Jazeera live blog (9 May)** consolidated Lebanon casualty count (19→23) faster than wire services. Consistent with prior calibration.
+
+### Methodology delta candidate (Friday review queue)
+
+- **Recency-bias trap, confirmed in second cycle:** the morning brief flagged "Worse" with High confidence on the 7–8 May exchange. By evening, the Al Kharaitiyat transit emerged as the first Hard de-escalation maritime signal in three weeks — but did not flip the trend, because the 7–8 May events remain inside the 72h window. The methodology held: a single Hard de-escalation event does not override prior Hard escalation. Confidence drops to Medium.
+- **Add to Friday review:** when a high-novelty Hard de-escalation signal (e.g., first-of-kind transit) emerges inside an active kinetic-exchange window, the brief should explicitly call out the asymmetric weighting and flag the directional ambiguity rather than treating the trend as binary.
+
+---
+
+### 2026-05-09 evening — Predictions logged for scoring at T+1 (10 May), T+3 (12 May), T+7 (16 May)
+
+**Trend:** Worse (Confidence: Medium — downgraded from morning High on Al Kharaitiyat counter-signal)
+**Threat level:** 4/5 (held)
+
+**Watchlist (24–72h):**
+- W1 — Iranian formal written response to US 14-point framework via Pakistan — deadline EOD Sun 10 May (24h)
+- W2 — Al Kharaitiyat transit completion to Port Qasim, OR halt/seizure by IRGCN — rolling 48h
+- W3 — Strike on Gulf-state energy infrastructure (Ras Laffan, Ras Tanura, Fujairah refinery, Jebel Ali, Bandar Abbas terminals, Kharg) — rolling 72h
+- W4 — Hezbollah third+ cross-border attack on Israel and major Israeli response — rolling 72h
+- W5 — Iranian airspace or maritime closure announcement (SNSC / IRGC Navy via state outlet) — rolling 72h
+
+**Scenarios (30d):**
+- A — Negotiated framework — 27% (Δ +2pp vs morning)
+- B — Frozen attrition — 43% (Δ −2pp)
+- C — Re-escalation — 30% (Δ 0pp)
+
+**Predictions to score at T+1 (10 May), T+3 (12 May), T+7 (16 May).**
