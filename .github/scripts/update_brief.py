@@ -31,8 +31,8 @@ from anthropic import Anthropic
 ROOT = Path(__file__).resolve().parents[2]  # repo root from .github/scripts/
 
 MODEL = os.environ.get("CLAUDE_MODEL", "claude-opus-4-7")
-MAX_OUTPUT_TOKENS = int(os.environ.get("CLAUDE_MAX_TOKENS", "16000"))
-MAX_WEB_SEARCHES = int(os.environ.get("CLAUDE_MAX_SEARCHES", "25"))
+MAX_OUTPUT_TOKENS = int(os.environ.get("CLAUDE_MAX_TOKENS", "32000"))
+MAX_WEB_SEARCHES = int(os.environ.get("CLAUDE_MAX_SEARCHES", "15"))
 
 # War start anchor (28 Feb 2026 = day 1).
 WAR_START = datetime(2026, 2, 28, tzinfo=timezone.utc)
@@ -286,6 +286,8 @@ def apply_to_file(rel_path: str, blocks: dict[str, str]) -> dict[str, int]:
 
 
 def update_titles(date_human: str) -> None:
+    """Refresh the <title> tag on each page. Uses a lambda for replacement so
+    digits in date_human (e.g. '9 May 2026') are not misread as backreferences."""
     for path, prefix in [
         ("index.html", "Hormuz Daily Brief — "),
         ("brief.html", "Hormuz Brief — deep dive · "),
@@ -293,7 +295,7 @@ def update_titles(date_human: str) -> None:
         s = read(path)
         s = re.sub(
             rf"(<title>{re.escape(prefix)}).*?(</title>)",
-            rf"\1{date_human}\2",
+            lambda m: m.group(1) + date_human + m.group(2),
             s,
             count=1,
         )
