@@ -348,7 +348,8 @@ def main() -> int:
     print(f"[update_brief] Calling {MODEL} for {today_str} (day {day_of_war}). UTC now {utc_hm}.", flush=True)
 
     client = Anthropic()
-    response = client.messages.create(
+    # Streaming is required for max_tokens this large (SDK enforces >10min ops to stream).
+    with client.messages.stream(
         model=MODEL,
         max_tokens=MAX_OUTPUT_TOKENS,
         system=system_prompt,
@@ -360,15 +361,17 @@ def main() -> int:
                 "max_uses": MAX_WEB_SEARCHES,
             }
         ],
-    )
+    ) as stream:
+        final_message = stream.get_final_message()
 
-    text_parts = [b.text for b in response.content if getattr(b, "type", None) == "text"]
+    text_parts = [b.text for b in final_message.content if getattr(b, "type", None) == "text"]
     text = "\n".join(text_parts).strip()
+    stop_reason = final_message.stop_reason
     if not text:
-        print(f"Claude returned no text content. stop_reason={response.stop_reason}", file=sys.stderr)
+        print(f"Claude returned no text content. stop_reason={stop_reason}", file=sys.stderr)
         return 2
 
-    print(f"[update_brief] Response length: {len(text)} chars. stop_reason={response.stop_reason}", flush=True)
+    print(f"[update_brief] Response length: {len(text)} chars. stop_reason={stop_reason}", flush=True)
 
     items = parse_delimited(text)
     print(f"[update_brief] Parsed {len(items)} blocks: {sorted(items.keys())[:10]}...", flush=True)
