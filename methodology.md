@@ -77,10 +77,10 @@ This is **structural**, not directional. It captures the operational state, rega
 | **1** | Routine | Baseline tensions only. No vessel incidents in trailing 30 days. Insurance war-risk premium <0.1% hull value. |
 | **2** | Elevated | Heightened rhetoric or limited incidents (≤2 in 30 days). No flow impact. War-risk premium 0.1–0.5%. |
 | **3** | Concerning | Operational disruptions visible: tanker delays >24h on average, insurance >0.5%, ≥1 port restriction, ≥3 incidents in 30 days. |
-| **4** | Severe | Sustained multi-front escalation, major asset damage, sustained shipping disruption (>30% volume reduction), insurance >1%, alternative routes activated under stress. |
-| **5** | Crisis | De-facto closure or formal blockade. Kinetic strikes on energy infrastructure ongoing. Insurance unobtainable for new transits or >5%. Alternative routes saturated. |
+| **4** | Severe | Sustained multi-front escalation; >30–80% volume reduction sustained <7 days OR not yet sustained; alternative routes activated under stress; mediation channel still open or rebuildable; insurance >1%. |
+| **5** | Crisis | Sustained de-facto closure (>80% volume reduction sustained ≥7 days) **AND** any of: (a) formal closure announcement, (b) confirmed strike on Gulf-state energy infrastructure, (c) alternative-route saturation forcing price rationing on a refined-product class, (d) insurance unobtainable for new transits or >5%, (e) public collapse of mediation channel with no successor. |
 
-A threat level change requires a documented trigger condition shift. The brief logs which trigger flipped.
+A threat level change requires a documented trigger condition shift. The brief logs which trigger flipped. The level-4 vs level-5 boundary is the single most consequential call in the brief — the criteria above are the operative test, not the prose label.
 
 ---
 
