@@ -185,3 +185,57 @@ Examples of what would go here once observed:
 - C — Re-escalation — 30% (Δ 0pp)
 
 **Predictions to score at T+1 (10 May), T+3 (12 May), T+7 (16 May).**
+
+## 2026-05-10
+
+### T+1 scoring of 2026-05-09 (evening) predictions
+
+- **Trend (Worse, Conf Medium) — HIT.** Trailing 72h continues to deliver Hard escalation events meeting §2 "Worse" rule. New 10 May signals reinforce: bulk carrier struck by unknown projectile 23nm NE of Doha (UKMTO Hard signal); IRGC public threat of "heavy assault" on US assets; Saturday's 39-dead Lebanon escalation; Sevda still smouldering on Sentinel-2 imagery 9 May. Confidence revised UP to High this morning.
+- **Threat level (4) — HIT (held).** No formal Iranian closure announcement. The 10 May Doha-area strike was at-sea and not against a named Gulf-state energy asset (Ras Laffan, Ras Tanura, Fujairah refinery, Jebel Ali, Bandar Abbas terminals, Kharg). 4→5 trigger not flipped, but boundary actively probed.
+- **W1 (Iranian formal written response by EOD Sun 10 May) — MISS.** Reply not delivered. Trump (Saturday): "expects to hear very soon"; Iranian FM spokesperson Baghaei: "We do our own work, we don't pay attention to deadlines or timing." Deadline reset to EOD Mon 11 May per methodology §11.
+- **W2 (Al Kharaitiyat completion to Port Qasim, OR halt/seizure) — PENDING.** Vessel finder shows arrival expected Monday. No halt or seizure observed. Scores at 11 May entry.
+- **W3 (Strike on named Gulf-state energy infrastructure) — MISS (technical) but watchlist conditions actively probed.** Doha-area at-sea strike (10 May UKMTO) is in the risk-margin but not against a named asset. Continues to hold W3 active.
+- **W4 (Hezbollah third+ cross-border attack with major Israeli ground response) — PARTIAL HIT (cascade vector).** Hezbollah confirmed Saturday drone attacks; severely wounded IDF reservist; 39 killed in Lebanon Saturday. Scope is in the cascade pattern but no third cross-border strike + major ground response yet.
+- **W5 (Iranian airspace/maritime closure announcement) — MISS (no announcement).** IRGC "heavy assault" threat is rhetorical, not formal closure declaration.
+
+### Surprise log (10 May)
+
+- **Bulk carrier struck by unknown projectile 23nm NE of Doha** (UKMTO 10 May). First at-sea projectile strike in Qatari proximity since 1 April Aqua 1 attack. Affects Maritime, Military, Diplomatic, Infrastructure, Outlook (5 categories). Logged as Hard escalation surprise.
+- **IRGC explicit "heavy assault" threat** if Iranian tankers struck again. Affects Military, Diplomatic, Outlook. Tier 1 Iranian state-media communication.
+- **Sentinel-2 satellite imagery** confirms Sevda still burning Saturday after Friday F/A-18 strike. Hard verification of CENTCOM claim. Tier 2 commercial satellite.
+
+### Source notes (10 May)
+
+- **UKMTO Twitter/X** broke the Doha bulk carrier strike at near-real-time speed — strong calibration. UKMTO recent-incidents page still lagging on web publication; X-feed remains the leading edge.
+- **ABC News, CNN live blog, Times of Israel** all corroborated within 1–2h with consistent details (23nm NE Doha; small fire extinguished; no casualties).
+- **Reuters/LSEG** Al Kharaitiyat tracking remains gold-standard Hard signal on AIS movement.
+- **Bloomberg** confirmed Iran-approval framing on Al Kharaitiyat, narrowing the Tier 5 corroboration set.
+- **Wikipedia 2026 SoH crisis** updated within 4h on multiple events — useful Tier 5 consolidation.
+
+### Methodology delta candidate (Friday review queue)
+
+- **Confirmed in third cycle:** When the structural threat level is 4+ and a diplomatic deadline window is active, treat both:
+  - (a) any Hard de-escalation signal (e.g. selective-passage transit) as conditional and reversible inside 24h, AND
+  - (b) any Hard escalation signal (e.g. at-sea strike near a Gulf-state ZEE) as resetting the trend assessment.
+  The Al Kharaitiyat (positive) and Doha-area projectile strike (negative) both occurring within the same 24h window confirms the asymmetric weighting heuristic.
+
+---
+
+### 2026-05-10 — Predictions logged for scoring at T+1 (11 May), T+3 (13 May), T+7 (17 May)
+
+**Trend:** Worse (Confidence: High — upgraded on Doha-area strike + Lebanon 39-dead day + IRGC threat)
+**Threat level:** 4/5 (held — no closure announcement, no named-asset strike inside 72h, but boundary actively probed)
+
+**Watchlist (24–72h):**
+- W1 — Iranian formal written response to US 14-point framework — deadline EOD Mon 11 May (reset)
+- W2 — Al Kharaitiyat arrival at Port Qasim, OR halt/seizure by IRGCN — deadline EOD Mon 11 May
+- W3 — Strike on Gulf-state energy infrastructure (Ras Laffan, Ras Tanura, Fujairah refinery, Jebel Ali, Bandar Abbas terminals, Kharg) — rolling 72h
+- W4 — Hezbollah third+ cross-border strike with major Israeli ground response — rolling 72h
+- W5 — Iranian airspace or maritime closure announcement — rolling 72h
+
+**Scenarios (30d):**
+- A — Negotiated framework — 22% (Δ −5pp)
+- B — Frozen attrition — 40% (Δ −3pp)
+- C — Re-escalation — 38% (Δ +8pp)
+
+**Predictions to score at T+1 (11 May), T+3 (13 May), T+7 (17 May).**
