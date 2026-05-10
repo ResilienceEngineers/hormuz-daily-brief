@@ -591,6 +591,70 @@
       /* Hide leaflet controls on print just in case */
       .leaflet-control-zoom, .leaflet-control-attribution { display: none !important; }
     }
+    /* ============== CTA · Resilience Engineers Intelligence Hub ============== */
+    .cta-banner {
+      background: #fdf3f1;
+      border-bottom: 1px solid #f0d4d0;
+      padding: 0.7rem 0;
+    }
+    .cta-banner .cta-wrap {
+      max-width: 1280px; margin: 0 auto; padding: 0 1.5rem;
+      display: flex; align-items: center; justify-content: space-between;
+      gap: 1.2rem; flex-wrap: wrap;
+    }
+    .cta-banner-text {
+      font-size: 0.9rem; color: var(--ink); flex: 1; min-width: 280px; line-height: 1.5;
+    }
+    .cta-banner-text strong { font-weight: 600; }
+    .cta-banner-text a { color: var(--accent); font-weight: 600; }
+    .cta-banner-link {
+      font-family: var(--mono); font-size: 0.74rem; letter-spacing: 0.08em;
+      text-transform: uppercase; color: #fff; background: var(--accent);
+      padding: 0.5rem 0.95rem; border-bottom: 0; white-space: nowrap; font-weight: 600;
+    }
+    .cta-banner-link:hover { background: #862028; border-bottom: 0; color: #fff; }
+
+    .cta-hub {
+      margin: 2rem 0 1rem 0; padding: 1.6rem 1.8rem;
+      background: var(--paper); border: 1px solid var(--rule);
+      border-left: 4px solid var(--accent);
+    }
+    .cta-hub-eyebrow {
+      font-family: var(--mono); font-size: 0.7rem; letter-spacing: 0.15em;
+      color: var(--accent); font-weight: 700; margin-bottom: 0.5rem; text-transform: uppercase;
+    }
+    h2.cta-hub-title {
+      font-family: var(--serif); font-size: 1.4rem; font-weight: 700;
+      margin: 0 0 0.9rem 0; color: var(--ink); line-height: 1.2;
+      letter-spacing: -0.005em; text-transform: none; max-width: 38rem;
+    }
+    .cta-hub-features { padding: 0; margin: 0 0 1.3rem 0; list-style: none; }
+    .cta-hub-features li {
+      padding: 0.4rem 0 0.4rem 1.3rem; font-size: 0.92rem; color: var(--ink-2);
+      border-bottom: 1px solid var(--rule); position: relative; line-height: 1.45;
+    }
+    .cta-hub-features li:last-child { border-bottom: 0; }
+    .cta-hub-features li::before {
+      content: "→"; position: absolute; left: 0; color: var(--accent); font-weight: 700;
+    }
+    .cta-hub-features li strong { color: var(--ink); font-weight: 600; }
+    .cta-hub-btn {
+      display: inline-block; font-family: var(--mono); font-size: 0.82rem;
+      letter-spacing: 0.1em; text-transform: uppercase; color: #fff;
+      background: var(--accent); padding: 0.7rem 1.4rem;
+      border-bottom: 0; font-weight: 600;
+    }
+    .cta-hub-btn:hover { background: #862028; border-bottom: 0; color: #fff; }
+
+    @media (max-width: 600px) {
+      .cta-hub { padding: 1.3rem 1.2rem; }
+      h2.cta-hub-title { font-size: 1.2rem; }
+    }
+    @media print {
+      .cta-banner { display: none !important; }
+      .cta-hub { display: none !important; }
+    }
+
   </style>
 </head>
 <body>
@@ -616,6 +680,15 @@
     </div>
   </div>
 </header>
+
+<div class="cta-banner" role="complementary" aria-label="Resilience Engineers Intelligence Hub">
+  <div class="cta-wrap">
+    <div class="cta-banner-text">
+      <strong>The daily brief is public.</strong> Situation Reports, commodity and industry deep dives, and member intelligence live in the full <a href="https://intel.resilience-engineers.com/" target="_blank" rel="noopener">Resilience Engineers Intelligence Hub</a>.
+    </div>
+    <a href="https://intel.resilience-engineers.com/" class="cta-banner-link" target="_blank" rel="noopener">Join the Hub →</a>
+  </div>
+</div>
 
 <main class="wrap">
 
@@ -785,6 +858,18 @@
 <!-- BRIEF:WAVE_END -->
   </section>
 
+  <aside class="cta-hub" aria-labelledby="ctaHubTitle">
+    <div class="cta-hub-eyebrow">Resilience Engineers Intelligence Hub</div>
+    <h2 id="ctaHubTitle" class="cta-hub-title">The Hormuz brief is one slice. The Hub is the full toolkit.</h2>
+    <ul class="cta-hub-features">
+      <li><strong>In-depth Situation Reports</strong> — full analyses of unfolding crises, beyond what fits in a daily brief.</li>
+      <li><strong>Commodity and industry deep dives</strong> — sector-specific exposure mapping, supply chain analysis, scenario work.</li>
+      <li><strong>Daily briefs across topics</strong> — this Hormuz brief is one of several. Energy, sanctions, regulation, and more.</li>
+      <li><strong>Member frameworks and direct analyst access</strong> — methodologies, models, and the analyst behind the work.</li>
+    </ul>
+    <a href="https://intel.resilience-engineers.com/" class="cta-hub-btn" target="_blank" rel="noopener">Join the Hub at intel.resilience-engineers.com →</a>
+  </aside>
+
   <div class="more-link">
     <div class="text">
       <strong>Need the full categories with sourcing notes and watchlist deltas?</strong><br/>
@@ -850,7 +935,7 @@
       </div>
     </div>
     <footer class="ps-footer">
-      <div class="left">Marco Felsberger · marco.felsberger@resilience-engineers.com · resilience-engineers.com</div>
+      <div class="left">Marco Felsberger · Full Intelligence Hub: intel.resilience-engineers.com</div>
       <div>Confidential briefing · 1 / 10</div>
     </footer>
   </section>
@@ -1050,9 +1135,24 @@
           <li><strong>Tier 6 · Excluded by default.</strong> Anonymous OSINT, op-eds, social media, AI-generated summaries — admitted only after Tier 1–3 corroboration.</li>
         </ul>
       </div>
-      <div class="ps-method-block">
-        <h3>About</h3>
-        <p>Produced by Marco Felsberger, Resilience Engineers · marco.felsberger@resilience-engineers.com · resilience-engineers.com. This briefing is independent and not affiliated with any government, corporate, or media entity. For internal management use; do not redistribute without attribution.</p>
+      <div class="ps-method-block" style="background:#fdf3f1;border-left:2.5pt solid #a4242a;padding:4mm 6mm;margin:5mm 0 0 0;">
+        <h3 style="color:#a4242a;">Resilience Engineers Intelligence Hub</h3>
+        <p style="font-size:10pt;line-height:1.5;color:#14171c;margin-bottom:2mm;">
+          The Hormuz brief is one slice of a broader practice. The full Intelligence Hub delivers:
+        </p>
+        <ul style="margin:0 0 3mm 0;padding-left:4.5mm;">
+          <li style="font-size:9.5pt;line-height:1.5;"><strong>In-depth Situation Reports</strong> on unfolding crises</li>
+          <li style="font-size:9.5pt;line-height:1.5;"><strong>Commodity &amp; industry deep dives</strong> with exposure mapping</li>
+          <li style="font-size:9.5pt;line-height:1.5;"><strong>Daily briefs across topics</strong> — energy, sanctions, regulation, more</li>
+          <li style="font-size:9.5pt;line-height:1.5;"><strong>Member frameworks &amp; direct analyst access</strong></li>
+        </ul>
+        <p style="font-family:ui-monospace,monospace;font-size:9.5pt;color:#a4242a;font-weight:700;margin:0;">
+          → intel.resilience-engineers.com
+        </p>
+      </div>
+      <div class="ps-method-block" style="padding-top:3mm;margin-top:3mm;">
+        <h3>About this briefing</h3>
+        <p>Produced by Marco Felsberger, Resilience Engineers · marco.felsberger@resilience-engineers.com · resilience-engineers.com. Independent and not affiliated with any government, corporate, or media entity. For internal management use; do not redistribute without attribution.</p>
       </div>
     </div>
     <footer class="ps-footer">
