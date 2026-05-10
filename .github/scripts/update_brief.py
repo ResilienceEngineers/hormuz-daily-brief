@@ -30,9 +30,20 @@ from anthropic import Anthropic
 
 ROOT = Path(__file__).resolve().parents[2]  # repo root from .github/scripts/
 
-MODEL = os.environ.get("CLAUDE_MODEL", "claude-opus-4-7")
-MAX_OUTPUT_TOKENS = int(os.environ.get("CLAUDE_MAX_TOKENS", "32000"))
-MAX_WEB_SEARCHES = int(os.environ.get("CLAUDE_MAX_SEARCHES", "15"))
+MODEL = os.environ.get("CLAUDE_MODEL", "claude-sonnet-4-6")
+MAX_OUTPUT_TOKENS = int(os.environ.get("CLAUDE_MAX_TOKENS", "24000"))
+MAX_WEB_SEARCHES = int(os.environ.get("CLAUDE_MAX_SEARCHES", "12"))
+
+# Token-efficiency: aggressively trim large context inputs.
+# These caps were sized so the agent has enough to produce a good brief but
+# nowhere near the model's full context window. Daily ops doesn't need the
+# whole methodology re-sent each run; the system prompt encodes the procedure.
+MAX_BACKTEST_CHARS = 6000
+MAX_LAST_ARCHIVE_CHARS = 5000
+MAX_METHODOLOGY_CHARS = 4000
+MAX_SOURCES_CHARS = 1500
+MAX_KNOWLEDGE_CHARS = 6000
+MAX_HTML_PER_FILE_CHARS = 12000
 
 # War start anchor (28 Feb 2026 = day 1).
 WAR_START = datetime(2026, 2, 28, tzinfo=timezone.utc)
@@ -82,6 +93,27 @@ def replace_block(html: str, key: str, content: str) -> tuple[str, int]:
     inner = "\n" + content.strip() + "\n"
     new_html, n = pattern.subn(lambda m: m.group(1) + inner + m.group(3), html)
     return new_html, n
+
+
+def compress_html_for_context(html: str) -> str:
+    """Strip <style>, <script>, and HTML comments not in BRIEF:* markers to send
+    only the structural HTML the agent needs to understand block placement.
+    Saves ~70% of tokens vs sending the raw file."""
+    s = html
+    # Drop full <style>...</style> blocks (heaviest part)
+    s = re.sub(r"<style[^>]*>.*?</style>", "<!-- styles omitted for brevity -->", s, flags=re.DOTALL)
+    # Drop full <script>...</script> blocks except the BRIEF:MAP_PINS array
+    def script_repl(m):
+        body = m.group(0)
+        if "BRIEF:MAP_PINS" in body:
+            return body
+        return "<!-- script omitted for brevity -->"
+    s = re.sub(r"<script[^>]*>.*?</script>", script_repl, s, flags=re.DOTALL)
+    # Drop CSS-in-style attributes that are very long
+    s = re.sub(r'\s+style="[^"]{120,}"', "", s)
+    # Collapse runs of blank lines
+    s = re.sub(r"\n\s*\n\s*\n+", "\n\n", s)
+    return s
 
 
 def vienna_now(now_utc: datetime) -> tuple[datetime, str]:
@@ -333,14 +365,21 @@ def main() -> int:
     last_updated = f"{utc_hm} UTC / {local_hm} {tz_label}"
     day_of_war = (now_utc.date() - WAR_START.date()).days + 1
 
-    backtest_log = read("backtest-log.md")
-    backtest_log = backtest_log[-12000:] if len(backtest_log) > 12000 else backtest_log
+    def trim(text, n): return text[-n:] if len(text) > n else text
+
+    backtest_log = trim(read("backtest-log.md"), MAX_BACKTEST_CHARS)
+    methodology = trim(read("methodology.md"), MAX_METHODOLOGY_CHARS)
+    sources = trim(read("sources.md"), MAX_SOURCES_CHARS)
+    knowledge_base = trim(read("knowledge-base.md"), MAX_KNOWLEDGE_CHARS)
 
     archive_dir = ROOT / "daily-briefs"
     archives = sorted(p for p in archive_dir.glob("2*.md") if p.is_file())
     last_archive_text = archives[-1].read_text(encoding="utf-8") if archives else "(no prior archive on file yet)"
-    if len(last_archive_text) > 10000:
-        last_archive_text = last_archive_text[-10000:]
+    last_archive_text = trim(last_archive_text, MAX_LAST_ARCHIVE_CHARS)
+
+    # HTML files: strip <style>/<script> (except MAP_PINS) and trim.
+    current_index = trim(compress_html_for_context(read("index.html")), MAX_HTML_PER_FILE_CHARS)
+    current_brief = trim(compress_html_for_context(read("brief.html")), MAX_HTML_PER_FILE_CHARS)
 
     context = {
         "today_str": today_str,
@@ -349,14 +388,15 @@ def main() -> int:
         "last_updated": last_updated,
         "utc_hm": utc_hm,
         "day_of_war": day_of_war,
-        "update_prompt": read("daily-update-prompt.md"),
-        "methodology": read("methodology.md"),
-        "sources": read("sources.md"),
-        "knowledge_base": read("knowledge-base.md"),
+        # daily-update-prompt.md content not sent — it duplicates the system prompt.
+        "update_prompt": "(See system prompt — full procedure is encoded there.)",
+        "methodology": methodology,
+        "sources": sources,
+        "knowledge_base": knowledge_base,
         "backtest_log": backtest_log,
         "last_archive": last_archive_text,
-        "current_index": read("index.html"),
-        "current_brief": read("brief.html"),
+        "current_index": current_index,
+        "current_brief": current_brief,
     }
 
     system_prompt, user_prompt = build_prompts(context)

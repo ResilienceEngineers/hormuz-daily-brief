@@ -2,12 +2,14 @@ name: Daily Hormuz Brief Update
 
 on:
   schedule:
-    # 06:00 UTC daily.
-    # In CEST (Apr–Oct, Vienna) this fires at 08:00 local.
-    # In CET (Nov–Mar, Vienna) this fires at 07:00 local — adjust to '0 7 * * *' if you want 08:00 year-round.
-    - cron: '0 6 * * *'
+    # GitHub Actions scheduled workflows are best-effort and frequently delayed/dropped.
+    # We schedule THREE slots and the script self-heals: if today's brief is already
+    # published, the run exits before calling the Claude API. Only the first slot
+    # of the day actually pays for the API call. Later slots are insurance.
+    - cron: '0 6 * * *'    # 06:00 UTC = 08:00 CEST primary
+    - cron: '30 7 * * *'   # 07:30 UTC = 09:30 CEST backup
+    - cron: '0 10 * * *'   # 10:00 UTC = 12:00 CEST last-chance
   workflow_dispatch:
-    # Allows manual runs from the Actions tab (use this to test).
 
 permissions:
   contents: write
@@ -23,21 +25,41 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 5
+
+      - name: Skip if today's brief already published
+        id: skip
+        shell: bash
+        run: |
+          TODAY=$(date -u +%Y-%m-%d)
+          LAST_DAILY=$(git log --oneline --grep="Daily brief update" -1 --pretty=format:"%s" || echo "")
+          if [[ "$LAST_DAILY" == *"$TODAY"* ]]; then
+            echo "Today's brief already published: $LAST_DAILY — skipping API call."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "No update yet for $TODAY. Last daily commit: ${LAST_DAILY:-none}"
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Set up Python
+        if: steps.skip.outputs.skip != 'true'
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
       - name: Install dependencies
+        if: steps.skip.outputs.skip != 'true'
         run: pip install -r .github/scripts/requirements.txt
 
       - name: Run daily brief update
+        if: steps.skip.outputs.skip != 'true'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python .github/scripts/update_brief.py
 
       - name: Commit and push if changed
+        if: steps.skip.outputs.skip != 'true'
         run: |
           git config user.name "Hormuz Brief Bot"
           git config user.email "actions@github.com"
