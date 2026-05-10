@@ -1,0 +1,16 @@
+{
+  "name": "brief-hormuz-gateway",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Auth gateway and GitHub Pages proxy for brief-hormuz.resilience-engineers.com",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "tail": "wrangler tail",
+    "dev": "wrangler dev"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}

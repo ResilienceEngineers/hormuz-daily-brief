@@ -1,0 +1,43 @@
+# Cloudflare Worker config for brief-hormuz auth gateway.
+#
+# Before first deploy you must fill in three IDs from your existing intel
+# Worker setup. Get them with:
+#   wrangler kv:namespace list                 -> KV namespace ID
+#   wrangler d1 list                           -> D1 database name + ID
+#
+# Then set the shared HMAC secret (must match the one set on intel):
+#   wrangler secret put HMAC_SECRET
+#   (paste the value when prompted)
+#
+# Deploy:
+#   wrangler deploy
+
+name = "brief-hormuz-gateway"
+main = "src/index.js"
+compatibility_date = "2026-04-01"
+account_id = "87082d95f235650aae6f134f84988dc1"
+
+# Worker route — captures all traffic to brief-hormuz.resilience-engineers.com
+# Cloudflare will route requests to this Worker before they reach GitHub Pages.
+# The DNS record must already exist with proxy enabled (orange cloud).
+routes = [
+  { pattern = "brief-hormuz.resilience-engineers.com/*", zone_name = "resilience-engineers.com" }
+]
+
+# KV namespace — same one your intel Worker uses, so we share the bridge nonce
+# tracking and can read/write brief_session keys.
+# Run `wrangler kv:namespace list` and paste the existing namespace ID below.
+kv_namespaces = [
+  { binding = "KV", id = "REPLACE_WITH_YOUR_KV_NAMESPACE_ID" }
+]
+
+# D1 database — same one intel uses, so we re-check stripe_status on every request.
+# Run `wrangler d1 list` and paste the database name + ID below.
+[[d1_databases]]
+binding = "DB"
+database_name = "REPLACE_WITH_YOUR_D1_NAME"
+database_id = "REPLACE_WITH_YOUR_D1_ID"
+
+# Observability
+[observability]
+enabled = true
