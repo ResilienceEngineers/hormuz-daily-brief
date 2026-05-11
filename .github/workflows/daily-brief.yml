@@ -2,13 +2,17 @@ name: Daily Hormuz Brief Update
 
 on:
   schedule:
-    # GitHub Actions scheduled workflows are best-effort and frequently delayed/dropped.
-    # We schedule THREE slots and the script self-heals: if today's brief is already
-    # published, the run exits before calling the Claude API. Only the first slot
-    # of the day actually pays for the API call. Later slots are insurance.
+    # GitHub Actions scheduled workflows are best-effort and frequently delayed/dropped,
+    # especially at "top of hour" slots that compete with everyone else's cron jobs.
+    # We schedule SIX slots, mostly off-the-hour, and the skip-guard below ensures
+    # only the FIRST successful slot of the day pays for the API call — every later
+    # slot exits in <10 seconds because today's commit already exists.
     - cron: '0 6 * * *'    # 06:00 UTC = 08:00 CEST primary
-    - cron: '30 7 * * *'   # 07:30 UTC = 09:30 CEST backup
-    - cron: '0 10 * * *'   # 10:00 UTC = 12:00 CEST last-chance
+    - cron: '23 6 * * *'   # 06:23 UTC off-hour first backup
+    - cron: '11 7 * * *'   # 07:11 UTC off-hour second backup
+    - cron: '45 7 * * *'   # 07:45 UTC
+    - cron: '30 8 * * *'   # 08:30 UTC
+    - cron: '0 10 * * *'   # 10:00 UTC last-chance ceiling
   workflow_dispatch:
 
 permissions:
