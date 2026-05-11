@@ -1,0 +1,20 @@
+name = "daily-brief-trigger"
+main = "src/index.js"
+compatibility_date = "2026-04-01"
+account_id = "87082d95f235650aae6f134f84988dc1"
+
+# Daily cron trigger — Cloudflare's scheduler is far more reliable than GitHub Actions'.
+# 06:00 UTC = 08:00 CEST (Vienna summer time).
+[triggers]
+crons = ["0 6 * * *"]
+
+[observability]
+enabled = true
+
+# Secrets to set after first deploy (one-time):
+#   wrangler secret put GITHUB_TOKEN
+#     -> paste the fine-grained PAT with actions:write on hormuz-daily-brief
+#
+# Optional:
+#   wrangler secret put MANUAL_TRIGGER_KEY
+#     -> a random string; if set, enables GET /trigger?key=<value>
