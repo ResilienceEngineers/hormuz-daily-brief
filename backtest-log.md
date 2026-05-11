@@ -239,3 +239,40 @@ Examples of what would go here once observed:
 - C — Re-escalation — 38% (Δ +8pp)
 
 **Predictions to score at T+1 (11 May), T+3 (13 May), T+7 (17 May).**
+
+## 2026-05-11 (Day 73)
+
+### T+1 scoring of 2026-05-10 predictions (scored before drafting today's brief)
+
+- **Trend (Worse, Conf High) — HIT.** Trump rejected Iran's counterproposal as "TOTALLY UNACCEPTABLE" (Truth Social, 10 May); Iran demanded Hormuz sovereignty recognition; UAE intercepted 2 drones; Kuwait air defenses activated; Qatar cargo vessel struck. All five signals hard-confirm Worse direction.
+- **Threat level (4) — HIT (held).** No formal Iranian closure announcement; no named Gulf-state energy asset struck inside 72h. Boundary probed (UAE drones, Kuwait airspace, Qatar vessel) but 4→5 trigger not crossed.
+- **W1 (Iranian formal response by EOD 11 May) — PARTIAL HIT.** Iran delivered counterproposal via Pakistan on 10 May. However, Trump rejected it immediately as "TOTALLY UNACCEPTABLE." Response arrived on schedule; content rejected. Scores as Partial Hit: delivery criterion met, diplomatic advance criterion failed.
+- **W2 (Al Kharaitiyat arrival Port Qasim) — HIT.** Al Kharaitiyat transited Hormuz successfully (Kpler/LSEG confirmed) and was en route to Port Qasim with arrival expected 11 May. No halt or seizure. Full confirmation pending docking.
+- **W3 (Strike on named Gulf-state energy infrastructure) — MISS.** UAE/Kuwait drone events and Qatar vessel strike are at-sea/airspace, not against named energy assets (Ras Laffan, Ras Tanura, Fujairah refinery, Jebel Ali, Kharg). Condition not met. W3 remains active.
+- **W4 (Hezbollah third+ cross-border attack + major Israeli ground response) — MISS.** No confirmed third Hezbollah cross-border attack with major Israeli ground response in trailing 24h. W4 active rolling.
+- **W5 (Iranian closure announcement) — MISS.** Iran warned UK/France of "decisive response" if warships deployed but no formal SNSC/IRGC-Navy maritime closure declaration. W5 active rolling.
+
+### Surprise log (11 May)
+
+- **Iran demands Hormuz sovereignty recognition** in counterproposal (Iranian state TV, CNBC, Reuters). Structural shift: Iran is now publicly claiming control rights over an international waterway. Affects Diplomatic, Military, Maritime (3 categories). Hard signal.
+- **UK/France 40+ nation defence ministers meeting announced for 13 May** (UK MoD statement, AFP). First ministerial-level coordination for post-ceasefire Hormuz escort mission. Affects Alternative Routes, Diplomatic, Outlook (3 categories). Hard signal.
+- **Kuwait air defenses activated against hostile drones** (Reuters/CNBC 10 May). First confirmed Kuwait airspace incursion since war began. Expands geographic footprint of Iranian drone operations beyond UAE.
+
+### 2026-05-11 — Predictions logged for scoring at T+1 (12 May), T+3 (14 May), T+7 (18 May)
+
+**Trend:** Worse (Confidence: High — dual rejection of proposals + 40-nation coalition formation + Iran Hormuz sovereignty claim)
+**Threat level:** 4/5 (held — no formal closure, no named energy asset struck, but boundary conditions at maximum pressure)
+
+**Watchlist (24–72h):**
+- W1 — US diplomatic response to Iran rejection; any new mediation channel via Oman or Pakistan — deadline EOD 13 May (UK/France ministers meeting)
+- W2 — UK/France 40-nation defence ministers meeting outcome (13 May) — will it produce a commitment or a communiqué only?
+- W3 — Strike on Gulf-state energy infrastructure (Ras Laffan, Ras Tanura, Fujairah refinery, Jebel Ali, Bandar Abbas terminals, Kharg) — rolling 72h
+- W4 — Trump orders resumption of Project Freedom or new military operation following Iran rejection — rolling 72h
+- W5 — Iranian formal airspace/maritime closure upgrade OR declaration of Hormuz as Iranian sovereign waters — rolling 72h
+
+**Scenarios (30d):**
+- A — Negotiated framework — 18% (Δ −4pp)
+- B — Frozen attrition — 42% (Δ +2pp)
+- C — Re-escalation — 40% (Δ +2pp)
+
+**Predictions to score at T+1 (12 May), T+3 (14 May), T+7 (18 May).**
