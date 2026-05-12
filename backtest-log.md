@@ -276,3 +276,45 @@ Examples of what would go here once observed:
 - C — Re-escalation — 40% (Δ +2pp)
 
 **Predictions to score at T+1 (12 May), T+3 (14 May), T+7 (18 May).**
+
+## 2026-05-12 (Day 74)
+
+### T+1 scoring of 2026-05-11 predictions (scored before drafting)
+
+- **Trend (Worse, Conf High) — HIT.** Trump called ceasefire "on massive life support"; met generals on military options; two US officials signalled "leaning toward military action"; Hezbollah launched 3 attacks on Israeli forces; US imposed 12 new Iran-oil-to-China sanctions; Brent rose 2.5–3% on ceasefire-collapse signals. All vectors confirm Worse.
+- **Threat level (4/5 held) — HIT.** No formal Iranian closure upgrade; no confirmed strike on named Gulf-state energy asset (Kharg spill origin unattributed). 4→5 trigger not crossed. Boundary conditions at maximum pressure.
+- **W1 (US diplomatic response / new mediation by EOD 13 May) — PARTIAL HIT.** Trump departed for China today; China track now primary diplomatic node. No formal new US proposal; no Oman/Pakistan back-channel signal. Partial: new channel (China) activated; no proposal content. Scored as Partial.
+- **W2 (40-nation ministers meeting outcome today) — ACTIVE / PENDING.** Meeting convenes today 12 May (UK MoD confirmed). Outcome not yet known at time of brief. Will score at T+1 (13 May).
+- **W3 (Strike on named Gulf-state energy infrastructure) — MISS (rolling).** No confirmed strike on Ras Laffan, Ras Tanura, Fujairah refinery, Jebel Ali, Bandar Abbas, or Kharg terminal. Kharg spill is adjacent risk but cause unattributed. W3 rolls forward.
+- **W4 (Trump resumes Project Freedom or new military operation) — PARTIAL.** Trump met generals; US officials on record about "leaning toward military action"; Project Freedom resumption under consideration (Axios). Not yet executed — deferred to post-China summit. Scored as Partial.
+- **W5 (Iranian closure upgrade / sovereignty declaration) — MISS.** No formal SNSC/IRGC-Navy upgraded closure declaration. Iran re-stated Hormuz sovereignty demand in diplomatic context but no operational declaration. W5 rolls forward.
+
+### Surprise log (12 May)
+- **Kharg Island oil spill (~80,000 bbl, Copernicus confirmed)** — Structural signal for Iranian oil export capacity degradation; cause unattributed. Affects Infrastructure, Maritime (2 categories). Hard satellite signal (Tier 2 equivalent via Copernicus/Reuters).
+- **US SPR release of 53.3 million barrels** — First coordinated SPR release in this conflict; signals US domestic political pressure threshold crossed. Affects Infrastructure, Outlook (2 categories). Hard (DOE announcement).
+- **Trump departs for Beijing TODAY** — Iran war top agenda; no major Iran decision before summit (14–15 May); China track now primary diplomatic node. Affects Diplomatic, Military, Outlook (3 categories). Hard (CNN/AP/The National).
+- **Re-escalation scenario (C) becomes modal (44%)** — First time in conflict. Structural milestone for scenario assessment.
+
+### 2026-05-12 — Predictions logged for scoring at T+1 (13 May), T+3 (15 May), T+7 (19 May)
+
+**Trend:** Worse (Confidence: High — ceasefire "on massive life support," re-escalation modal, military options actively under consideration)
+**Threat level:** 4/5 (held — no formal closure, no named energy asset confirmed struck; but post-summit window is highest-risk period yet)
+
+**Watchlist predictions:**
+- W1 — 40-nation ministers meeting (today 12 May) produces binding commitment vs. communiqué only — deadline EOD 12 May
+- W2 — Trump–Xi summit (14–15 May) produces Chinese Iran deliverable vs. symbolic only — deadline EOD 15 May
+- W3 — Strike on named Gulf-state energy infrastructure — rolling 72h
+- W4 — Trump resumes Project Freedom or orders new military strikes post-China summit — by EOD 17 May
+- W5 — Kharg Island oil spill cause attribution (US strike / deliberate release / infrastructure failure) — rolling 72h
+
+**Scenarios (30d):**
+- A — Negotiated framework — 16% (Δ −2pp)
+- B — Frozen attrition — 40% (Δ −2pp)
+- C — Re-escalation — 44% (Δ +4pp) ← MODAL for first time
+
+**Brier score inputs (to be evaluated at T+1, T+3, T+7):**
+- P(ceasefire holds through 15 May without new US strikes) = 0.62
+- P(40-nation meeting produces binding commitment today) = 0.30
+- P(Trump–Xi summit produces named Chinese deliverable on Iran) = 0.22
+- P(strike on named Gulf-state energy asset within 72h) = 0.12
+- P(Kharg spill confirmed as US strike within 72h) = 0.25
