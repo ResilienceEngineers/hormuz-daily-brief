@@ -318,3 +318,47 @@ Examples of what would go here once observed:
 - P(Trump–Xi summit produces named Chinese deliverable on Iran) = 0.22
 - P(strike on named Gulf-state energy asset within 72h) = 0.12
 - P(Kharg spill confirmed as US strike within 72h) = 0.25
+
+## 2026-05-13 (Day 75) — Backtest scoring and new predictions
+
+### T+1 scoring of 2026-05-12 predictions (scored before drafting Day 75 brief)
+
+- **Trend (Worse, Conf High) — HIT.** IRGC Bubiyan infiltration confirmed (Kuwait KUNA/Al Jazeera, 12 May); 40-nation coalition reached operational commitment milestone (Australia MoD, 13 May); Trump downplayed Iran at Beijing departure; Brent held $107–110/bbl range. All vectors confirm Worse.
+- **Threat level (4/5 held) — HIT.** No formal closure upgrade; no confirmed strike on named Gulf-state energy asset. IRGC Bubiyan infiltration is threshold-adjacent but not a strike on infrastructure. 4→5 trigger not crossed.
+- **W1 (40-nation meeting produces binding commitment) — HIT.** Australian MoD confirmed multinational military mission with named asset contributions (E-7A Wedgetail). UK/France co-chaired. Not just communiqué — specific national contributions pledged. P(binding commitment) was scored at 0.30 — well-calibrated for a correct outcome.
+- **W2 (Trump–Xi summit produces Chinese Iran deliverable by EOD 15 May) — PENDING.** Summit underway 14–15 May. Roll to T+3 (15 May) scoring.
+- **W3 (Strike on named Gulf-state energy infrastructure) — MISS (rolling).** No confirmed strike on Ras Laffan, Ras Tanura, Fujairah, Jebel Ali, Bandar Abbas, or Kharg terminal. IRGC Bubiyan infiltration is a significant security event but not an energy infrastructure strike per W3 definition. W3 rolls forward.
+- **W4 (Trump resumes Project Freedom or new military strikes) — MISS (rolling).** Trump departed for Beijing; no new operation. Post-summit window (16 May+) is the next risk period. W4 rolls forward.
+- **W5 (Kharg spill cause attribution within 72h) — PARTIAL.** Iran's VP attributed to foreign tanker ballast; independent experts (Windward AI, Conflict and Environment Observatory) contradict this. A second slick detected. Official attribution still unconfirmed. Scored as Partial. P(US strike confirmed within 72h) = 0.25 — well-calibrated for a non-confirmation.
+
+### Surprise log (13 May)
+- **IRGC Bubiyan Island infiltration disclosed** (Kuwait KUNA / Al Jazeera, 12 May): Four IRGC naval officers arrested, two escaped, one Kuwaiti soldier wounded. First confirmed IRGC covert ground operation on Gulf-state soil. Affects Military, Maritime, Diplomatic (3 categories). Hard signal (Kuwait government official statement / state news agency).
+- **Second Kharg Island oil slick detected** (Windward AI, 12 May): ~12–20 sq km; assessed as crude not bunker fuel. Affects Infrastructure (1 category). Tier 2 commercial intelligence (Windward AI).
+- **Bahrain sentences three for IRGC espionage** (The National, 12 May): Same day as Kuwait disclosure — pattern signal for coordinated IRGC Gulf-state operations. Affects Military (1 category).
+
+### 2026-05-13 — Predictions logged for scoring at T+1 (14 May), T+3 (16 May), T+7 (20 May)
+
+**Trend:** Worse (Confidence: High — IRGC Bubiyan confirmed; 40-nation operational commitment; diplomatic window narrowing)
+**Threat level:** 4/5 (held — no formal closure, no named energy asset confirmed struck; IRGC infiltration threshold-adjacent)
+
+**Watchlist predictions:**
+- W1 — Trump–Xi summit (14–15 May) produces named Chinese Iran deliverable vs. symbolic outcome — deadline EOD 15 May
+- W2 — New IRGC covert operation on Gulf-state soil following Bubiyan exposure — rolling 72h
+- W3 — Strike on Gulf-state energy infrastructure (named assets) — rolling 72h
+- W4 — Trump resumes Project Freedom or orders new military strikes post-China summit — by EOD 18 May
+- W5 — Kharg Island slick reaches Qatar EEZ (~4 days per Windward) AND/OR second slick cause attribution — rolling 96h
+
+**Scenarios (30d):**
+- A — Negotiated framework — 16% (Δ 0pp)
+- B — Frozen attrition — 38% (Δ −2pp)
+- C — Re-escalation — 46% (Δ +2pp) ← MODAL, widening lead
+
+**Brier score inputs (to be evaluated at T+1, T+3, T+7):**
+- P(ceasefire holds through summit without new US strikes) = 0.70
+- P(Trump–Xi summit produces named Chinese Iran deliverable) = 0.18
+- P(IRGC executes another confirmed Gulf-state covert operation within 72h) = 0.25
+- P(strike on named Gulf-state energy asset within 72h) = 0.10
+- P(Kharg slick reaches Qatar EEZ within 4 days) = 0.55
+- P(Project Freedom resumed or new US strikes by EOD 18 May) = 0.30
+
+**Methodology note:** IRGC Bubiyan infiltration was a Surprise (forecast as W2-type risk but not specifically as IRGC ground-infiltration of Gulf-state territory). It represents a new operational category: IRGC covert ground/maritime operations inside Gulf-state sovereign territory. Adding to watchlist as standing item separate from air/drone attacks going forward. Source: Kuwait KUNA / Al Jazeera (Hard tier — government official statement).
