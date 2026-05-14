@@ -362,3 +362,46 @@ Examples of what would go here once observed:
 - P(Project Freedom resumed or new US strikes by EOD 18 May) = 0.30
 
 **Methodology note:** IRGC Bubiyan infiltration was a Surprise (forecast as W2-type risk but not specifically as IRGC ground-infiltration of Gulf-state territory). It represents a new operational category: IRGC covert ground/maritime operations inside Gulf-state sovereign territory. Adding to watchlist as standing item separate from air/drone attacks going forward. Source: Kuwait KUNA / Al Jazeera (Hard tier — government official statement).
+
+## 2026-05-14 (Day 76) — Backtest scoring and new predictions
+
+### T+1 scoring of 2026-05-13 predictions (scored before drafting Day 76 brief)
+
+- **Trend (Worse, Conf High) — HIT.** IRGC fast-boat swarm peaked at ~668 craft on 12 May (2.9× prior peak, Windward AI); Kuwait summoned Iran's envoy (KUNA/The National, 13 May); GCC condemned Bubiyan as "systematic attempt"; Brent at $107.77 (CNBC, 12 May). All vectors confirm Worse.
+- **Threat level (4/5) — HIT.** No formal closure upgrade; no confirmed strike on named Gulf-state energy asset. Bubiyan follow-on covert op not confirmed within 72h.
+- **W1 (Trump–Xi summit — Chinese Iran deliverable) — PENDING.** Summit opened 14 May (CNBC/AJ confirmed live); Xi avoided Iran in opening remarks; no deliverable announced through 06:00 UTC. Roll to T+3 (16 May scoring).
+- **W2 (New IRGC covert operation on Gulf-state soil within 72h) — MISS (rolling).** No new confirmed IRGC ground infiltration disclosed. Kuwait on high alert; Iran denied Bubiyan allegations. W2 rolls forward.
+- **W3 (Strike on named Gulf-state energy infrastructure) — MISS (rolling).** Marshall Islands bulk carrier struck 10 May in Qatar EEZ — vessel attack, not named energy infrastructure per W3 definition. Rolls forward.
+- **W4 (Project Freedom resumed or new US strikes by EOD 18 May) — PENDING.** Trump in Beijing through 15 May; no new operation. Post-summit window (16–18 May) remains primary risk period. Roll to T+3.
+- **W5 (Kharg slick Qatar EEZ / attribution) — PARTIAL.** Slick confirmed drifting SW; The National (13 May) analysts lean toward vessel discharge/aging pipeline. Slick now ~5+ days old with no confirmed US strike attribution. P(US strike) = 0.25 — correct non-confirmation. Attribution still open.
+
+### Surprise log (14 May)
+- **IRGC fast-boat surge to ~668 craft** (Windward AI, 12 May): 2.9× prior peak; Eastern Polygon (Bandar-e Jask) newly active. No prior collection in this zone. Significant escalation signal.
+- **Xi Jinping opens Trump summit without mentioning Iran** (NBC News, 14 May): Trade and Taiwan foregrounded; reduces probability of Chinese Iran deliverable.
+
+### 2026-05-14 — Predictions logged for scoring at T+1 (15 May), T+3 (17 May), T+7 (21 May)
+
+**Trend:** Worse (Confidence: High — IRGC speedboat surge confirmed; summit talks underway without named deliverable; blockade sustained at ~5% transit baseline; Brent $107–110 range)
+**Threat level:** 4/5 (held — no strike on named Gulf-state energy asset; no formal Iranian closure declaration; IRGC covert pattern continues but no new threshold event)
+
+**Watchlist predictions:**
+- W1 — Trump–Xi summit readout (EOD 15 May) — named Chinese Iran deliverable vs. symbolic/trade-only outcome
+- W2 — IRGC follow-on covert operation on Gulf-state soil — rolling 72h
+- W3 — Strike on Gulf-state energy infrastructure (Ras Laffan, Ras Tanura, Fujairah refinery, Jebel Ali, Bandar Abbas) — rolling 72h
+- W4 — Trump resumes Project Freedom or orders new US military strikes post-summit — by EOD Mon 18 May
+- W5 — Kharg slick reaches Qatar EEZ (~16 May) AND/OR confirmed cause attribution — rolling 96h
+
+**Scenarios (30d):**
+- A — Negotiated framework — 15% (Δ −1pp)
+- B — Frozen attrition — 38% (Δ 0pp)
+- C — Re-escalation — 47% (Δ +1pp) ← MODAL, extending lead
+
+**Brier score inputs (to be evaluated at T+1, T+3, T+7):**
+- P(Trump–Xi summit produces named Chinese Iran deliverable by EOD 15 May) = 0.15
+- P(IRGC executes another confirmed Gulf-state covert operation within 72h) = 0.22
+- P(strike on named Gulf-state energy asset within 72h) = 0.10
+- P(Kharg slick reaches Qatar EEZ or confirmed attribution by EOD 17 May) = 0.60
+- P(Project Freedom resumed or new US strikes by EOD 18 May) = 0.32
+- P(ceasefire formally declared dead / new US kinetic action before EOD 18 May) = 0.25
+
+**Methodology note (14 May):** Xi Jinping's deliberate omission of Iran in opening summit remarks (NBC News, confirmed CCTV broadcast) is classified as a Soft-tier diplomatic signal — a head-of-state communication, not an operational event. It reduces but does not eliminate probability of Chinese deliverable. Source-behavior log: NBC News live blog (Tier 5) confirmed against CCTV official broadcast (Tier 1 Chinese state, regime communication) and CNBC analysis (Tier 4). Weighted as Soft-tier per methodology.
