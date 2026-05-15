@@ -405,3 +405,55 @@ Examples of what would go here once observed:
 - P(ceasefire formally declared dead / new US kinetic action before EOD 18 May) = 0.25
 
 **Methodology note (14 May):** Xi Jinping's deliberate omission of Iran in opening summit remarks (NBC News, confirmed CCTV broadcast) is classified as a Soft-tier diplomatic signal — a head-of-state communication, not an operational event. It reduces but does not eliminate probability of Chinese deliverable. Source-behavior log: NBC News live blog (Tier 5) confirmed against CCTV official broadcast (Tier 1 Chinese state, regime communication) and CNBC analysis (Tier 4). Weighted as Soft-tier per methodology.
+
+## 2026-05-15 (Day 77) — Backtest scoring and new predictions
+
+### T+1 scoring of 2026-05-14 predictions (scored before drafting Day 77 brief)
+
+- **Trend (Worse, Conf High) — HIT.** Trump "military decimation to be continued" (Truth Social, 15 May); vessel seized off Fujairah (UKMTO Hard tier, 14 May); Brent $111.37 (summit sentiment dip, not physical improvement); transit held at ~6 vessels/day (~10% baseline). All vectors confirm continued deterioration.
+- **Threat level (4/5) — HIT.** No upgrade to 5/5: no strike on named Gulf-state energy infrastructure; no formal Iranian closure declaration; no new confirmed IRGC ground infiltration within 72h. Vessel seizure near Fujairah is escalatory but within existing pattern.
+- **W1 (Trump–Xi Chinese Iran deliverable by EOD 15 May) — PARTIAL / MISS on binding deliverable.** Summit concluded with verbal Xi offer to help + no-military-equipment assurance + joint statement on Hormuz. No named deliverable (oil purchase cuts, formal pressure mechanism). Rubio confirmed Trump did NOT ask Xi to help end the war. Scored as MISS on W1 definition (named Chinese Iran deliverable). Rolling to W2 in new predictions (China transmits named deliverable by 22 May).
+- **W2 (IRGC covert op on Gulf-state soil within 72h) — MISS (rolling).** No new confirmed IRGC ground infiltration beyond Bubiyan. Rolls forward as W5 in new predictions.
+- **W3 (Strike on named Gulf-state energy infrastructure) — MISS (rolling).** UKMTO vessel seizure off Fujairah is a maritime seizure, not a named energy infrastructure strike per W3 definition. Rolls forward as W4.
+- **W4 (Project Freedom resumed / new US strikes by EOD 18 May) — PENDING.** Trump "to be continued" posted but no kinetic operation confirmed yet. Post-summit window (16–18 May) open. Rolls to T+3 (scoring at EOD 18 May).
+- **W5 (Kharg slick Qatar EEZ / attribution by EOD 17 May) — PENDING.** Slick approaching Qatar EEZ ~16 May per Windward. Attribution still unresolved. Rolls to T+3.
+
+**Brier score inputs (Day 76 predictions):**
+- P(Trump–Xi summit produces named Chinese Iran deliverable by EOD 15 May) = 0.15 → MISS. Score: (0.15−0)² = 0.0225 (good calibration — low probability, correctly not materialised on Hard definition)
+- P(IRGC executes another confirmed Gulf-state covert operation within 72h) = 0.22 → MISS. Score: (0.22−0)² = 0.0484
+- P(strike on named Gulf-state energy asset within 72h) = 0.10 → MISS. Score: (0.10−0)² = 0.01 (good calibration)
+- P(Kharg slick reaches Qatar EEZ or confirmed attribution by EOD 17 May) = 0.60 → PENDING
+- P(Project Freedom resumed or new US strikes by EOD 18 May) = 0.32 → PENDING
+- P(ceasefire formally declared dead / new US kinetic action before EOD 18 May) = 0.25 → PENDING
+
+### Surprise log (15 May)
+- **Trump "military decimation to be continued" on Truth Social (NBC News / Times of Israel, 15 May Beijing time):** First direct public pre-announcement of kinetic resumption during an active diplomatic summit. Unusual signal; suggests post-summit military action is being communicated deliberately rather than accidentally.
+- **IRGC vessel seizure off Fujairah (UKMTO, 14 May):** First confirmed IRGC maritime operation at Fujairah anchorage — directly adjacent to the Habshan–Fujairah bypass pipeline terminal. Qualitative escalation in IRGC operational geography.
+- **Rubio: Trump did NOT ask Xi for help ending the war (NBC News, 15 May):** Counterintuitive given summit framing; suggests US is not relying on Chinese leverage as a primary peace mechanism, reducing the diplomatic constraint on military resumption.
+
+### 2026-05-15 — Predictions logged for scoring at T+1 (16 May), T+3 (18 May), T+7 (22 May)
+
+**Trend:** Worse (Confidence: High — "to be continued" Trump signal; vessel seizure at Fujairah bypass terminal; transit at ~10% baseline; Brent sentiment-driven not physical; IRGC surge unreversed)
+**Threat level:** 4/5 (held — no strike on named Gulf-state energy asset; no new confirmed IRGC ground infiltration; no formal closure declaration)
+
+**Watchlist predictions:**
+- W1 — Trump resumes Project Freedom or orders new US military strikes — by EOD Mon 18 May
+- W2 — China transmits named, verifiable Iran deliverable (measurable Iranian oil import reduction OR formal diplomatic action with observable Iranian response) — by EOD Fri 22 May
+- W3 — Kharg slick reaches Qatar EEZ (~16 May per Windward) AND/OR confirmed cause attribution — rolling 96h
+- W4 — Strike on named Gulf-state energy infrastructure (Ras Laffan, Ras Tanura, Fujairah refinery, Jebel Ali, Bandar Abbas, Habshan–Fujairah terminal) — rolling 72h
+- W5 — IRGC follow-on covert operation on Gulf-state soil — rolling 72h
+
+**Scenarios (30d):**
+- A — Negotiated framework — 13% (Δ −2pp)
+- B — Frozen attrition — 38% (Δ 0pp)
+- C — Re-escalation — 49% (Δ +2pp) ← MODAL, 11pp lead
+
+**Brier score inputs (to be evaluated at T+1, T+3, T+7):**
+- P(Trump resumes kinetic operation / Project Freedom by EOD 18 May) = 0.38
+- P(China transmits named verifiable Iran deliverable by EOD 22 May) = 0.12
+- P(Kharg slick confirmed in Qatar EEZ by EOD 17 May) = 0.65
+- P(strike on named Gulf-state energy asset within 72h) = 0.11
+- P(IRGC ground/maritime infiltration on Gulf-state soil within 72h) = 0.18
+- P(ceasefire collapses / formally declared dead before EOD 18 May) = 0.30
+
+**Methodology note (15 May):** IRGC maritime seizure near Fujairah (UKMTO Hard tier) classified as a new operational geography event — IRGC extending interdiction from Hormuz channel to Fujairah anchorage, directly threatening the Habshan–Fujairah bypass pipeline terminal. Adding "Fujairah bypass terminal" to W4 named asset list. Source reliability note: Rubio's State Dept confirmation that Trump did NOT ask Xi for help (NBC News, Tier 5 confirmed via Tier 1 State Dept) is treated as Hard-tier per methodology (government official statement in named capacity). Polymarket Hormuz normalisation resolved 0% — consistent with 0% being the correct calibration from Day 1 of this tracker (no false alarm generated).
