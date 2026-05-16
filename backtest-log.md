@@ -516,3 +516,66 @@ Examples of what would go here once observed:
 **Methodology note (16 May):** Kharg slick probability was over-estimated at 0.65 yesterday — Windward 4-day projection was based on May 8 active slick data; the single-event dissipation pattern confirmed by The National/Copernicus on 13 May should have reduced this materially. Future slick trajectory predictions should incorporate single-event vs. continuous-release distinction before assigning high confidence to drift projections. Adjust Windward trajectory estimates: treat as Hard-tier only when active release confirmed in most recent satellite pass (≤48h old), not legacy drift model alone.
 
 Source reliability update: IRIB/Fars reporting on Chinese vessel admissions was confirmed by Reuters shipping data within 12h — Fars semi-official channel on maritime facts (not political claims) has demonstrated two-day track record of advance signal ahead of western wire confirmation. Upweight Fars maritime operational reporting as Tier 4.5 lead (requires same-day Tier 3 corroboration, not 24h window).
+
+## 2026-05-16 — Day 78 Backtest Entry
+
+### T+1 scoring (predictions made Day 77 / 15 May, evaluated at Day 78 / 16 May)
+
+**Trend (Worse, Confidence High) — HELD CORRECT.**
+Trump transmitted new nuclear proposal to Iran 16 May with "serious consequences" warning. Shamkhani advisor response confirmed diplomatic incoherence deepening. BRICS ended without joint statement. PGSA toll system operational. All trend vectors confirm continued deterioration at same pace.
+
+**Threat level (4/5 Severe) — HELD CORRECT.**
+No strike on named Gulf-state energy infrastructure. No new confirmed IRGC ground infiltration. No US kinetic resumption. EOD 18 May deadline not yet reached. Threshold conditions for 4→5 not met.
+
+**W1 (Trump resumes Project Freedom / strikes by EOD 18 May) — PENDING.** EOD 18 May not yet reached as of 09:50 UTC 16 May. No kinetic action as of brief cutoff.
+
+**W2 (Iran submits verified written response via Pakistan by EOD 19 May) — PARTIAL/AMBIGUOUS.** Shamkhani publicly signalled readiness to sign; Iranian officials denied receiving new proposal. No Hard-tier Pakistan-channel confirmation of formal written response. Scored as ambiguous — tracking.
+
+**W3 (Strike on named Gulf-state energy asset 72h) — MISS.** No confirmed strike. Rolling forward.
+
+**W4 (China transmits named verifiable Iran deliverable by EOD 22 May) — MISS TRENDING.** China sent Ambassador (not FM Wang Yi) to BRICS; no named measurable deliverable. PENDING but trajectory strongly toward miss.
+
+**W5 (IRGC follow-on covert/maritime op on Gulf-state soil 72h) — MISS.** No new confirmed ground infiltration. Rolling forward.
+
+**Brier score inputs (Day 77 / 15 May predictions — evaluated 16 May):**
+- P(Trump resumes kinetic by EOD 18 May) = 0.35 → PENDING
+- P(Iran submits verified written response via Pakistan by EOD 19 May) = 0.25 → AMBIGUOUS/PARTIAL (Shamkhani signal only; Iranian FM denial)
+- P(Strike named Gulf-state energy asset 72h) = 0.10 → MISS → (0.10−0)² = 0.0100
+- P(China transmits named verifiable deliverable by EOD 22 May) = 0.10 → MISS TRENDING
+- P(IRGC ground/maritime infiltration 72h) = 0.16 → MISS → (0.16−0)² = 0.0256
+- P(Kharg slick Qatar EEZ by EOD 17 May) = 0.15 → MISS (consistent with Day 77 revision) → (0.15−0)² = 0.0225
+
+**Surprise log (16 May):**
+- **Trump 16 May nuclear proposal transmission:** First new formal proposal since Iran's "TOTALLY UNACCEPTABLE" rejection on 11 May — breaks the 5-day impasse with a new escalation-or-deal ultimatum framing.
+- **Shamkhani vs. Iranian FM contradiction:** First public instance of a senior Khamenei-circle advisor publicly contradicting the Iranian FM's denial of receiving a proposal — operationally significant leadership incoherence signal.
+- **BRICS FM meeting no joint statement:** Second consecutive BRICS meeting (April + May) to fail to produce a joint statement on Iran — Iran/UAE division confirmed as structural, not procedural.
+
+---
+
+### 2026-05-16 — Predictions logged for scoring at T+1 (17 May), T+3 (19 May), T+7 (23 May)
+
+**Trend:** Worse (Confidence: High — Trump 16 May ultimatum; Iranian leadership incoherence; PGSA operational; dual blockade intact; Brent $108-109)
+**Threat level:** 4/5 Severe (held — no named energy-infrastructure strike; no US kinetic resumption; no confirmed Gulf-state ground op)
+
+**Watchlist predictions:**
+- W1 — Trump resumes Project Freedom or orders new US military strikes — by EOD Mon 18 May
+- W2 — Iran official Hard-tier confirmation of receipt/rejection of 16 May proposal via Pakistan channel — by EOD 19 May
+- W3 — Strike on named Gulf-state energy infrastructure (Ras Laffan, Ras Tanura, Fujairah terminal, Habshan) — rolling 72h
+- W4 — China transmits named, verifiable Iran deliverable by EOD Fri 22 May
+- W5 — IRGC follow-on covert/maritime operation on Gulf-state soil or territorial waters — rolling 72h
+
+**Scenarios (30d):**
+- A — Negotiated framework — 10% (Δ −1pp)
+- B — Frozen attrition — 37% (Δ −1pp)
+- C — Re-escalation — 53% (Δ +2pp) ← MODAL, 16pp lead
+
+**Brier score inputs (to be evaluated at T+1, T+3, T+7):**
+- P(Trump resumes kinetic operation by EOD 18 May) = 0.38 (increased from 0.35: "annihilation" rhetoric + new proposal + 18 May deadline convergence)
+- P(Iran Hard-tier formal response via Pakistan by EOD 19 May) = 0.30 (new W2 formulation; Shamkhani signal is positive but FM denial creates ambiguity)
+- P(Strike on named Gulf-state energy asset within 72h) = 0.10 (unchanged)
+- P(China transmits named verifiable Iran deliverable by EOD 22 May) = 0.08 (reduced from 0.10: BRICS no joint statement; Wang Yi absence signals Chinese deflection)
+- P(IRGC ground/maritime infiltration on Gulf-state soil within 72h) = 0.16 (unchanged)
+
+**Methodology note (16 May):** Iranian leadership incoherence pattern (senior advisor vs FM contradiction) should be treated as a distinct signal category: it indicates internal factional dynamics that make formal diplomatic outcomes less predictable than either a coherent hardline or coherent pragmatist Iranian position would suggest. Future diplomatic signals should be weighted by whether they originate from: (a) Supreme Leader circle (Shamkhani = high authority), (b) FM/MOFА channel (Araghchi/Baghaei = formal diplomatic position), or (c) Parliament (Ghalibaf = political positioning). Contradictions between (a) and (b) are the highest-risk signal pattern for miscalculation.
+
+Source reliability update: PGSA operational reporting (Lloyd's List via The Week, 11 May) — confirmed by multiple Tier 3+ sources. Lloyd's List maritime operational reporting confirmed as reliable Tier 3 signal for Hormuz access mechanics. Upweight to Tier 3 firm on maritime access/transit matters.
