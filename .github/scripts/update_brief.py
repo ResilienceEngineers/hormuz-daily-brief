@@ -43,7 +43,10 @@ MAX_LAST_ARCHIVE_CHARS = 5000
 MAX_METHODOLOGY_CHARS = 4000
 MAX_SOURCES_CHARS = 1500
 MAX_KNOWLEDGE_CHARS = 6000
-MAX_HTML_PER_FILE_CHARS = 12000
+# Single HTML reference (we send only index.html — brief.html shares the same
+# BRIEF:* markers and is auto-synced by apply_to_file). Aggressive trim further
+# below makes the typical reference ~5–7K chars.
+MAX_HTML_REFERENCE_CHARS = 8000
 
 # War start anchor (28 Feb 2026 = day 1).
 WAR_START = datetime(2026, 2, 28, tzinfo=timezone.utc)
@@ -95,25 +98,37 @@ def replace_block(html: str, key: str, content: str) -> tuple[str, int]:
     return new_html, n
 
 
-def compress_html_for_context(html: str) -> str:
-    """Strip <style>, <script>, and HTML comments not in BRIEF:* markers to send
-    only the structural HTML the agent needs to understand block placement.
-    Saves ~70% of tokens vs sending the raw file."""
+def build_html_reference(html: str) -> str:
+    """Produce a minimal HTML reference for the agent: strip head, scripts,
+    styles, link/meta tags, long inline styles, and HTML comments that are not
+    BRIEF:* markers. The agent needs to see the BRIEF:* markers and the
+    surrounding HTML structure to understand block placement — nothing else.
+
+    Typical output: ~5–7K chars from a ~40K-char source file. ~85% reduction."""
     s = html
-    # Drop full <style>...</style> blocks (heaviest part)
-    s = re.sub(r"<style[^>]*>.*?</style>", "<!-- styles omitted for brevity -->", s, flags=re.DOTALL)
+    # Replace everything from <!DOCTYPE> through <head>...</head> with a stub
+    s = re.sub(r"<!DOCTYPE[^>]*>", "", s, flags=re.IGNORECASE)
+    s = re.sub(r"<head\b.*?</head>", "", s, flags=re.DOTALL | re.IGNORECASE)
+    # Drop full <style>...</style> blocks anywhere
+    s = re.sub(r"<style\b[^>]*>.*?</style>", "", s, flags=re.DOTALL | re.IGNORECASE)
     # Drop full <script>...</script> blocks except the BRIEF:MAP_PINS array
     def script_repl(m):
         body = m.group(0)
-        if "BRIEF:MAP_PINS" in body:
-            return body
-        return "<!-- script omitted for brevity -->"
-    s = re.sub(r"<script[^>]*>.*?</script>", script_repl, s, flags=re.DOTALL)
-    # Drop CSS-in-style attributes that are very long
-    s = re.sub(r'\s+style="[^"]{120,}"', "", s)
-    # Collapse runs of blank lines
+        return body if "BRIEF:MAP_PINS" in body else ""
+    s = re.sub(r"<script\b[^>]*>.*?</script>", script_repl, s, flags=re.DOTALL | re.IGNORECASE)
+    # Drop stray link / meta tags (they'd be in <head> but defense-in-depth)
+    s = re.sub(r"<(?:link|meta)\b[^>]*/?>", "", s, flags=re.IGNORECASE)
+    # Drop long inline style="..." attrs
+    s = re.sub(r'\s+style="[^"]{80,}"', "", s)
+    # Drop HTML comments except BRIEF:* markers
+    def comment_repl(m):
+        body = m.group(0)
+        return body if "BRIEF:" in body else ""
+    s = re.sub(r"<!--.*?-->", comment_repl, s, flags=re.DOTALL)
+    # Collapse whitespace
     s = re.sub(r"\n\s*\n\s*\n+", "\n\n", s)
-    return s
+    s = re.sub(r"[ \t]{3,}", "  ", s)
+    return s.strip()
 
 
 def vienna_now(now_utc: datetime) -> tuple[datetime, str]:
@@ -129,7 +144,18 @@ def humanize_date(dt: datetime) -> str:
     return f"{dt.day} {months[dt.month - 1]} {dt.year}"
 
 
-def build_prompts(context: dict) -> tuple[str, str]:
+def build_system_blocks_and_user(context: dict) -> tuple[list[dict], str]:
+    """Build the request as structured content blocks for prompt caching.
+
+    Returns (system_blocks, user_message). The system_blocks list places ALL
+    static content (procedure, methodology, sources, knowledge base, HTML
+    reference) above one `cache_control` breakpoint. After the first round,
+    every subsequent tool_use round reads those blocks from cache at ~10% of
+    normal input cost.
+
+    The dynamic per-day inputs (backtest log, last archive, date stamps) stay
+    in the user message — they change every day and aren't cacheable.
+    """
     today_str = context["today_str"]
     yesterday_str = context["yesterday_str"]
     human_date = context["human_date"]
@@ -139,18 +165,21 @@ def build_prompts(context: dict) -> tuple[str, str]:
 
     block_keys_list = sorted(EXPECTED_BLOCK_KEYS)
     block_lines = "\n".join(f"  - {k}" for k in block_keys_list)
-    # Quote-escape literal braces in the embedded HTML/JS templates below so f-string
-    # rendering does not interpret them. We use {{ and }} for one literal brace each.
+    # Quote-escape literal braces in the embedded HTML/JS templates below so
+    # f-string rendering does not interpret them. We use {{ and }} for one
+    # literal brace each.
 
-    system_prompt = f"""You are producing today's Hormuz Daily Brief for Marco Felsberger
+    # ---- 1. Dynamic intro (changes every day — NOT cached) ----------
+    dynamic_intro = f"""You are producing today's Hormuz Daily Brief for Marco Felsberger
 (resilience-engineers.com), published at https://resilienceengineers.github.io/hormuz-daily-brief/.
 
 Today: {human_date}, day {day_of_war} of the US/Israel-Iran war.
 Last-updated stamp: {last_updated}.
 Yesterday (for archiving): {yesterday_str}.
+"""
 
-You operate strictly under the procedure in `daily-update-prompt.md` (provided in the user message).
-Apply it without shortcuts.
+    # ---- 2. Procedure (static — cached) -----------------------------
+    procedure = f"""You operate strictly under a daily procedure. Apply it without shortcuts.
 
 Use web search aggressively but disciplined. Pull from Tier 1-3 sources first
 (UKMTO, MARAD, ISW, ICG, Reuters/AP, AJ live blogs). Cap at ~{MAX_WEB_SEARCHES} searches.
@@ -237,6 +266,11 @@ SCENARIOS         — <div class="scenarios">...</div> with exactly 3 <article c
                     entries summing to 100%. Include name, prob, delta vs yesterday,
                     observable, impl-line, and the bar div.
 
+Block placement on disk (the script applies your output to BOTH files in one pass):
+- index.html only: TILE_1..6, ACTIONS, FM, WAVE, MAP_PINS, VESSEL_HORMUZ, VESSEL_BAB_MANDEB, ONELINER
+- brief.html only: SUMMARY, CATEGORY_1..6, SCENARIOS
+- Both files (kept in sync via same marker name): DATE, DAY, LAST_UPDATED, MAP_TS, TREND, THREAT, WATCHLIST
+
 NOTE — calibration is no longer rendered publicly. The model still scores
 yesterday's predictions and writes the result into BACKTEST_APPEND (which goes
 to backtest-log.md). That file is internal learning data, never displayed.
@@ -254,11 +288,8 @@ Do NOT include any prose outside the blocks. Do NOT include code fences.
 The first three characters of your final response must be "###" and the last three "###".
 """
 
-    user_prompt = f"""## Procedure (canonical — follow strictly)
-
-{context['update_prompt']}
-
-## Methodology
+    # ---- 3. Methodology + Sources + Knowledge (static — cached) -----
+    static_inputs = f"""## Methodology
 
 {context['methodology']}
 
@@ -266,11 +297,39 @@ The first three characters of your final response must be "###" and the last thr
 
 {context['sources']}
 
-## Knowledge base (Marco's project context)
+## Knowledge base (project-specific frames)
 
 {context['knowledge_base']}
+"""
 
-## Backtest log (recent — score predictions BEFORE drafting today's)
+    # ---- 4. HTML reference (static — cached) ------------------------
+    html_reference = f"""## HTML reference — current `index.html` (compressed)
+
+This is the current one-pager with head, styles, and most scripts removed. Use
+the BRIEF:* markers as anchors. The same markers exist in `brief.html` and
+your output is applied to both files in a single pass — you do not need a
+separate brief.html reference.
+
+```html
+{context['html_reference']}
+```
+"""
+
+    # The cache_control breakpoint goes on the LAST static block. Anthropic's
+    # caching is cumulative — everything BEFORE the breakpoint is cached.
+    system_blocks: list[dict] = [
+        {"type": "text", "text": dynamic_intro},
+        {"type": "text", "text": procedure},
+        {"type": "text", "text": static_inputs},
+        {
+            "type": "text",
+            "text": html_reference,
+            "cache_control": {"type": "ephemeral"},
+        },
+    ]
+
+    # ---- 5. User message (dynamic per day — NOT cached) -------------
+    user_message = f"""## Backtest log (recent — score predictions BEFORE drafting today's)
 
 {context['backtest_log']}
 
@@ -278,23 +337,11 @@ The first three characters of your final response must be "###" and the last thr
 
 {context['last_archive']}
 
-## Current index.html (one-pager — preserve all structure outside BRIEF:* markers)
-
-```html
-{context['current_index']}
-```
-
-## Current brief.html (deep dive — preserve all structure outside BRIEF:* markers)
-
-```html
-{context['current_brief']}
-```
-
 Now: produce today's brief per the procedure. Score yesterday's predictions
 before writing today's. Output only the delimiter blocks — no prose, no fences.
 """
 
-    return system_prompt, user_prompt
+    return system_blocks, user_message
 
 
 _BLOCK_RE = re.compile(
@@ -377,9 +424,10 @@ def main() -> int:
     last_archive_text = archives[-1].read_text(encoding="utf-8") if archives else "(no prior archive on file yet)"
     last_archive_text = trim(last_archive_text, MAX_LAST_ARCHIVE_CHARS)
 
-    # HTML files: strip <style>/<script> (except MAP_PINS) and trim.
-    current_index = trim(compress_html_for_context(read("index.html")), MAX_HTML_PER_FILE_CHARS)
-    current_brief = trim(compress_html_for_context(read("brief.html")), MAX_HTML_PER_FILE_CHARS)
+    # Single HTML reference: index.html only, aggressively trimmed.
+    # brief.html shares the same BRIEF:* markers and is auto-synced on write,
+    # so the agent doesn't need to see it. ~50% reduction in HTML context tokens.
+    html_reference = trim(build_html_reference(read("index.html")), MAX_HTML_REFERENCE_CHARS)
 
     context = {
         "today_str": today_str,
@@ -388,28 +436,31 @@ def main() -> int:
         "last_updated": last_updated,
         "utc_hm": utc_hm,
         "day_of_war": day_of_war,
-        # daily-update-prompt.md content not sent — it duplicates the system prompt.
-        "update_prompt": "(See system prompt — full procedure is encoded there.)",
         "methodology": methodology,
         "sources": sources,
         "knowledge_base": knowledge_base,
         "backtest_log": backtest_log,
         "last_archive": last_archive_text,
-        "current_index": current_index,
-        "current_brief": current_brief,
+        "html_reference": html_reference,
     }
 
-    system_prompt, user_prompt = build_prompts(context)
+    system_blocks, user_message = build_system_blocks_and_user(context)
 
-    print(f"[update_brief] Calling {MODEL} for {today_str} (day {day_of_war}). UTC now {utc_hm}.", flush=True)
+    static_chars = sum(len(b["text"]) for b in system_blocks[1:])  # cached portion
+    dynamic_chars = len(system_blocks[0]["text"]) + len(user_message)
+    print(
+        f"[update_brief] Calling {MODEL} for {today_str} (day {day_of_war}). UTC now {utc_hm}. "
+        f"Static (cached): {static_chars:,} chars · Dynamic (uncached): {dynamic_chars:,} chars.",
+        flush=True,
+    )
 
     client = Anthropic()
     # Streaming is required for max_tokens this large (SDK enforces >10min ops to stream).
     with client.messages.stream(
         model=MODEL,
         max_tokens=MAX_OUTPUT_TOKENS,
-        system=system_prompt,
-        messages=[{"role": "user", "content": user_prompt}],
+        system=system_blocks,
+        messages=[{"role": "user", "content": user_message}],
         tools=[
             {
                 "type": "web_search_20250305",
@@ -426,6 +477,21 @@ def main() -> int:
     if not text:
         print(f"Claude returned no text content. stop_reason={stop_reason}", file=sys.stderr)
         return 2
+
+    # Log token usage with cache split so we can verify caching savings post-run.
+    usage = getattr(final_message, "usage", None)
+    if usage is not None:
+        cache_write = getattr(usage, "cache_creation_input_tokens", 0) or 0
+        cache_read = getattr(usage, "cache_read_input_tokens", 0) or 0
+        in_fresh = getattr(usage, "input_tokens", 0) or 0
+        out_tok = getattr(usage, "output_tokens", 0) or 0
+        cache_total = cache_write + cache_read
+        cache_hit_pct = (cache_read / cache_total * 100.0) if cache_total else 0.0
+        print(
+            f"[update_brief] Tokens — fresh_input: {in_fresh:,} · cache_write: {cache_write:,} · "
+            f"cache_read: {cache_read:,} · output: {out_tok:,} · cache_hit: {cache_hit_pct:.0f}%",
+            flush=True,
+        )
 
     print(f"[update_brief] Response length: {len(text)} chars. stop_reason={stop_reason}", flush=True)
 
