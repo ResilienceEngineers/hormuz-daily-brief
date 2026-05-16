@@ -457,3 +457,62 @@ Examples of what would go here once observed:
 - P(ceasefire collapses / formally declared dead before EOD 18 May) = 0.30
 
 **Methodology note (15 May):** IRGC maritime seizure near Fujairah (UKMTO Hard tier) classified as a new operational geography event — IRGC extending interdiction from Hormuz channel to Fujairah anchorage, directly threatening the Habshan–Fujairah bypass pipeline terminal. Adding "Fujairah bypass terminal" to W4 named asset list. Source reliability note: Rubio's State Dept confirmation that Trump did NOT ask Xi for help (NBC News, Tier 5 confirmed via Tier 1 State Dept) is treated as Hard-tier per methodology (government official statement in named capacity). Polymarket Hormuz normalisation resolved 0% — consistent with 0% being the correct calibration from Day 1 of this tracker (no false alarm generated).
+
+## 2026-05-16 — Day 78 Backtest Entry
+
+### T+1 scoring of 2026-05-15 predictions (scored before drafting Day 78 brief)
+
+**Trend (Worse, Confidence High) — HIT.** UKMTO Warnings 057/26 (vessel seized 38nm NE Fujairah) and 058/26 (Indian livestock carrier sunk off Oman) both Hard-tier. Iran five-condition ultimatum (Fars/PBS/AP). Diplomatic deadlock deepening. All trend vectors confirm continued deterioration.
+
+**Threat level (4/5 Severe) — HELD (correct).** No strike on named Gulf-state energy asset; no new confirmed IRGC ground infiltration; no formal kinetic US resumption. Vessel seizure + sinking qualify as maritime incidents within existing 4/5 pattern — no single event crosses 4→5 threshold per methodology (named energy infrastructure strike, formal closure declaration with kinetic enforcement, or new confirmed Gulf-state ground op).
+
+**W1 (Trump resumes Project Freedom / strikes by EOD 18 May) — PENDING.** No kinetic action as of 06:00 UTC 16 May. EOD 18 May not yet reached.
+
+**W2 (China transmits named verifiable Iran deliverable by EOD 22 May) — PARTIAL / LOW.** Xi pledged no military equipment to Iran (Trump/Fox); White House readout that Hormuz must remain open. But Chinese FM readout omitted Iran; Rubio said Trump asked nothing; no measurable reduction in Chinese oil imports from Iran. Scored as PARTIAL — verbal commitment only, no observable metric. Brier input: P=0.12, outcome remains 0 on Hard definition; tracking.
+
+**W3 (Kharg slick Qatar EEZ by EOD 17 May) — LIKELY MISS.** Copernicus Sentinel and The National (13 May) confirm slick was single-event pattern; May 8 images showed no active continuation. Slick likely dissipated before reaching Qatar EEZ. Scored MISS for practical purposes, pending 17 May satellite confirmation.
+
+**W4 (Strike on named Gulf-state energy infrastructure, rolling 72h) — MISS for window.** No confirmed strike. Rolling forward.
+
+**W5 (IRGC follow-on covert operation on Gulf-state soil, rolling 72h) — MISS for window.** No new confirmed ground infiltration. Rolling forward.
+
+**Brier score inputs (Day 77 / 15 May predictions):**
+- P(Trump kinetic by EOD 18 May) = 0.38 → PENDING
+- P(China named deliverable by EOD 22 May) = 0.12 → PARTIAL (trending toward 0 on Hard definition)
+- P(Kharg slick Qatar EEZ by EOD 17 May) = 0.65 → LIKELY MISS → (0.65−0)² = 0.4225 (poor calibration — overconfident)
+- P(strike named Gulf-state energy asset 72h) = 0.11 → MISS → (0.11−0)² = 0.0121
+- P(IRGC ground op 72h) = 0.18 → MISS → (0.18−0)² = 0.0324
+
+**Surprise log (16 May):**
+- **Iran five-condition ultimatum (Fars / PBS / AP, 15 May):** First time Iran has publicly listed sovereignty over Hormuz as a pre-condition for any talks (not just a negotiating demand). Qualitative escalation in Iranian diplomatic posture — moves from bargaining to position-stating.
+- **IRGC Chinese-vessel admission (14–15 May):** First operational selective-access event since ceasefire that creates a precedent for flag-state bilateral passage agreements under IRGC protocols. Embeds Iranian sovereignty operationally, not just rhetorically.
+- **Indian livestock carrier sunk (UKMTO 058/26, 14 May):** First confirmed sinking of a non-tanker civilian cargo vessel in Gulf of Oman approaches since early conflict period. IRGC attack zone now confirmed to extend to Gulf of Oman sea lanes.
+
+### 2026-05-16 — Predictions logged for scoring at T+1 (17 May), T+3 (19 May), T+7 (23 May)
+
+**Trend:** Worse (Confidence: High — five-condition Iranian ultimatum; two UKMTO Hard-tier incidents; diplomatic track frozen; IRGC sovereignty operationalisation via Chinese access)
+**Threat level:** 4/5 (held — no strike on named energy asset; no formal kinetic US resumption; no new Gulf-state ground op)
+
+**Watchlist predictions:**
+- W1 — Trump resumes Project Freedom or orders new US military strikes — by EOD Mon 18 May
+- W2 — Iran submits verified written response to any new US nuclear proposal via Pakistan channel — rolling 72–96h
+- W3 — Strike on named Gulf-state energy infrastructure (Ras Laffan, Ras Tanura, Fujairah terminal, Habshan) — rolling 72h
+- W4 — China transmits named, verifiable Iran deliverable by EOD Fri 22 May
+- W5 — IRGC follow-on covert operation on Gulf-state soil — rolling 72h
+
+**Scenarios (30d):**
+- A — Negotiated framework — 11% (Δ −2pp)
+- B — Frozen attrition — 38% (Δ 0pp)
+- C — Re-escalation — 51% (Δ +2pp) ← MODAL, 13pp lead
+
+**Brier score inputs (to be evaluated at T+1, T+3, T+7):**
+- P(Trump resumes kinetic operation by EOD 18 May) = 0.35 (slight reduction from 0.38: inflation constraint confirmed, summit outcome soft)
+- P(Iran submits verified written response via Pakistan by EOD 19 May) = 0.25
+- P(Strike on named Gulf-state energy asset within 72h) = 0.10
+- P(China transmits named verifiable Iran deliverable by EOD 22 May) = 0.10 (reduced from 0.12: Chinese FM silent on Iran)
+- P(IRGC ground/maritime infiltration on Gulf-state soil within 72h) = 0.16
+- P(Kharg slick confirmed Qatar EEZ by EOD 17 May) = 0.15 (revised sharply down from 0.65: single-event dissipation pattern confirmed)
+
+**Methodology note (16 May):** Kharg slick probability was over-estimated at 0.65 yesterday — Windward 4-day projection was based on May 8 active slick data; the single-event dissipation pattern confirmed by The National/Copernicus on 13 May should have reduced this materially. Future slick trajectory predictions should incorporate single-event vs. continuous-release distinction before assigning high confidence to drift projections. Adjust Windward trajectory estimates: treat as Hard-tier only when active release confirmed in most recent satellite pass (≤48h old), not legacy drift model alone.
+
+Source reliability update: IRIB/Fars reporting on Chinese vessel admissions was confirmed by Reuters shipping data within 12h — Fars semi-official channel on maritime facts (not political claims) has demonstrated two-day track record of advance signal ahead of western wire confirmation. Upweight Fars maritime operational reporting as Tier 4.5 lead (requires same-day Tier 3 corroboration, not 24h window).
