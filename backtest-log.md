@@ -579,3 +579,69 @@ No strike on named Gulf-state energy infrastructure. No new confirmed IRGC groun
 **Methodology note (16 May):** Iranian leadership incoherence pattern (senior advisor vs FM contradiction) should be treated as a distinct signal category: it indicates internal factional dynamics that make formal diplomatic outcomes less predictable than either a coherent hardline or coherent pragmatist Iranian position would suggest. Future diplomatic signals should be weighted by whether they originate from: (a) Supreme Leader circle (Shamkhani = high authority), (b) FM/MOFА channel (Araghchi/Baghaei = formal diplomatic position), or (c) Parliament (Ghalibaf = political positioning). Contradictions between (a) and (b) are the highest-risk signal pattern for miscalculation.
 
 Source reliability update: PGSA operational reporting (Lloyd's List via The Week, 11 May) — confirmed by multiple Tier 3+ sources. Lloyd's List maritime operational reporting confirmed as reliable Tier 3 signal for Hormuz access mechanics. Upweight to Tier 3 firm on maritime access/transit matters.
+
+## 2026-05-17 — Day 79 Backtest Entry
+
+### T+1 scoring (predictions made Day 78 / 16 May, evaluated at Day 79 / 17 May)
+
+**Trend (Worse, Confidence High) — HELD CORRECT.**
+Supreme Leader Khamenei publicly rejected Trump's 16 May nuclear proposal as "excessive and outrageous" on the same day it was transmitted, closing the Shamkhani/FM incoherence and unifying the Iranian leadership signal at the highest tier in the direction of rejection. EOD 18 May deadline now imminent without accepted framework. Re-escalation scenario moves to 56% (first structural majority in tracker history). Trend assessment Worse confirmed at High confidence.
+
+**Threat level (4/5 Severe) — HELD CORRECT.**
+No confirmed strike on named Gulf-state energy infrastructure. No US kinetic resumption confirmed as of 06:00 UTC 17 May. EOD 18 May not yet passed. Threshold conditions for 4→5 not met.
+
+**W1 (Trump resumes Project Freedom/kinetics by EOD 18 May) — PENDING.**
+EOD 18 May not yet reached at brief cutoff (06:00 UTC 17 May). No kinetic action confirmed. Scoring deferred to T+2.
+
+**W2 (Iran Hard-tier formal response via Pakistan channel by EOD 19 May) — PARTIAL HIT.**
+Khamenei (Supreme Leader tier) publicly rejected Trump's 16 May proposal — this is Hard-tier by source authority but delivered via public statement, not the Pakistan channel specified in the prediction. FM Araghchi's separate channel has not produced a written counter as of cutoff. Scored partial: Supreme Leader response received, but not via Pakistan mediation channel as specified.
+
+**W3 (Strike on named Gulf-state energy asset 72h) — MISS (rolling).**
+No confirmed strike. Rolling forward.
+
+**W4 (China transmits named verifiable Iran deliverable by EOD 22 May) — MISS TRENDING.**
+Trump confirmed he did NOT ask Xi to pressure Iran on Hormuz. Xi offered vague "help." No named verifiable deliverable. Strong trajectory toward miss.
+
+**W5 (IRGC follow-on covert/maritime op on Gulf-state soil 72h) — MISS (rolling).**
+No new confirmed ground infiltration. Rolling forward.
+
+**Brier score inputs (Day 78 / 16 May predictions — evaluated 17 May):**
+- P(Trump resumes kinetic by EOD 18 May) = 0.38 → PENDING
+- P(Iran Hard-tier formal response via Pakistan by EOD 19 May) = 0.30 → PARTIAL HIT (Khamenei public, not Pakistan channel) → (0.30−0.5)² = 0.0400 (partial credit 0.5 outcome)
+- P(Strike named Gulf-state energy asset 72h) = 0.10 → MISS → (0.10−0)² = 0.0100
+- P(China transmits named verifiable deliverable by EOD 22 May) = 0.08 → MISS TRENDING → deferred
+- P(IRGC ground/maritime infiltration 72h) = 0.16 → MISS → (0.16−0)² = 0.0256
+
+**Surprise log (17 May):**
+- **Khamenei same-day public rejection (16 May):** Fastest Supreme Leader–tier rejection of a US proposal in the 79-day tracker history. Closes factional ambiguity; unifies Iranian leadership signal at highest tier in rejection direction.
+- **Re-escalation crosses 50% probability:** First time in tracker history the re-escalation scenario is the structural majority probability (56%).
+
+---
+
+### 2026-05-17 — Predictions logged for scoring at T+1 (18 May), T+3 (20 May), T+7 (24 May)
+
+**Trend:** Worse (Confidence: High — Khamenei Supreme Leader rejection; EOD 18 May imminent; dual blockade intact; Brent $109; no diplomatic framework)
+**Threat level:** 4/5 Severe (held — no named energy-infrastructure strike; no US kinetic resumption confirmed)
+
+**Watchlist predictions:**
+- W1 — Trump EOD 18 May: kinetic resumption OR sixth deadline extension — by EOD Mon 18 May
+- W2 — Iran FM Araghchi written counter via Pakistan channel (distinct from Khamenei public statement) — by EOD Tue 19 May
+- W3 — Strike on named Gulf-state energy infrastructure (Ras Laffan, Ras Tanura, Fujairah terminal, Habshan) — rolling 72h
+- W4 — China transmits named, verifiable Iran deliverable — by EOD Fri 22 May
+- W5 — Houthi resumption of commercial shipping attacks in Red Sea — rolling 72h (trigger: US kinetics)
+
+**Scenarios (30d):**
+- A — Negotiated framework — 8% (Δ −2pp)
+- B — Frozen attrition — 36% (Δ −1pp)
+- C — Re-escalation — 56% (Δ +3pp) ← MODAL, 20pp lead, first structural majority
+
+**Brier score inputs (to be evaluated at T+1, T+3, T+7):**
+- P(Trump resumes kinetics/Project Freedom by EOD 18 May) = 0.42 (increased from 0.38: Khamenei rejection removes diplomatic cover for extension; six-extension credibility cliff)
+- P(Iran FM Araghchi written counter via Pakistan by EOD 19 May) = 0.20 (reduced from 0.30: Khamenei public rejection may substitute for formal written response in US eyes; Pakistan channel quiet)
+- P(Strike on named Gulf-state energy asset within 72h) = 0.14 (raised from 0.10: re-escalation scenario probability increase; IRGC posture unchanged)
+- P(China transmits named verifiable Iran deliverable by EOD 22 May) = 0.07 (reduced from 0.08: Trump confirmed no ask to Xi on Hormuz; Chinese FM silent)
+- P(Houthi resumption of commercial attacks in Red Sea within 72h) = 0.08 (new W5 reformulation; conditional on US kinetics probability; currently sub-threshold absent trigger)
+
+**Methodology note (17 May):** Khamenei's same-day public rejection pattern introduces a new signal-speed benchmark: when Supreme Leader responds within hours of a US proposal transmission, it signals that the Iranian internal decision-making process has already pre-decided rejection — i.e., the proposal was reviewed before formal transmission (or Iran has a rapid-response protocol for maximalist US demands). This means future US proposals should be assessed for pre-rejection probability based on: (a) whether prior Khamenei-circle signals (Shamkhani, etc.) contradict FM signals before the proposal is even sent; (b) whether the proposal's first public element (enrichment zero, nuclear removal) crosses established Khamenei red lines without creative framing. Future proposals that include zero-enrichment language as headline terms should be treated as pre-rejected with >80% probability.
+
+Source reliability update: Wikipedia US–Iran negotiations page (updated daily, well-sourced) has demonstrated 12–24h accuracy on diplomatic events when corroborated by Tier 2 headlines (Bloomberg, Yahoo Finance, Fox News live blogs). Upgrade to Tier 4 lead (requires same-day Tier 2 corroboration, not 24h window) for diplomatic event reporting.
