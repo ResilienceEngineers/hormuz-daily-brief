@@ -645,3 +645,70 @@ No new confirmed ground infiltration. Rolling forward.
 **Methodology note (17 May):** Khamenei's same-day public rejection pattern introduces a new signal-speed benchmark: when Supreme Leader responds within hours of a US proposal transmission, it signals that the Iranian internal decision-making process has already pre-decided rejection — i.e., the proposal was reviewed before formal transmission (or Iran has a rapid-response protocol for maximalist US demands). This means future US proposals should be assessed for pre-rejection probability based on: (a) whether prior Khamenei-circle signals (Shamkhani, etc.) contradict FM signals before the proposal is even sent; (b) whether the proposal's first public element (enrichment zero, nuclear removal) crosses established Khamenei red lines without creative framing. Future proposals that include zero-enrichment language as headline terms should be treated as pre-rejected with >80% probability.
 
 Source reliability update: Wikipedia US–Iran negotiations page (updated daily, well-sourced) has demonstrated 12–24h accuracy on diplomatic events when corroborated by Tier 2 headlines (Bloomberg, Yahoo Finance, Fox News live blogs). Upgrade to Tier 4 lead (requires same-day Tier 2 corroboration, not 24h window) for diplomatic event reporting.
+
+## 2026-05-18 — Day 80 — Backtest entry
+
+### Scoring: Day 79 (17 May) predictions evaluated at T+1 (18 May 06:01 UTC)
+
+**Trend assessment (Worse/High) — CONFIRMED.**
+Barakah NPP outer perimeter drone strike (17 May) — first named energy infrastructure hit in war. Trump rejected Iran proposal as "garbage." Trump meeting military advisers Tuesday to discuss war resumption. Israel–US kinetic coordination confirmed by AP (two sources). Ceasefire explicitly described as "on life support." All confirm Worse/High trend.
+
+**Threat level (4/5 Severe) — HELD CORRECT.**
+Barakah outer perimeter struck but no inner perimeter breach, no confirmed Iranian Hard-tier attribution, no US kinetic resumption. 4→5 threshold conditions not yet met. Held at 4/5.
+
+**W1 (Trump kinetics/Project Freedom or seventh extension by EOD 18 May) — MISS (PENDING FINAL).**
+No confirmed kinetic action by 06:01 UTC 18 May. Trump posted "Clock is Ticking" (Truth Social 17 May), is meeting military advisers Tuesday 19 May. Technically EOD 18 May not yet passed at brief cutoff. Scoring: deadline passed without confirmed kinetic action at 06:01 UTC — MISS on kinetics, but extension not explicitly confirmed either. Seventh extension effectively implied by continued ceasefire. Scored: MISS on kinetic resumption; partial hit on "seventh extension" implicit continuation.
+
+**W2 (Iran FM written counter via Pakistan by EOD 19 May) — MISS TRENDING.**
+Araghchi traveled to Beijing, not to Pakistan channel. No written counter-proposal via Pakistan. Strong trajectory to miss.
+
+**W3 (Strike on named Gulf-state energy asset, rolling 72h) — HIT.**
+Barakah NPP outer perimeter struck 17 May. Confirmed by IAEA, Al Jazeera, CNBC, AP, The National. UAE is a named Gulf state. Barakah is a named energy infrastructure asset. Hit scored. Note: no Hard-tier Iranian attribution yet — UAE investigating.
+Brier: P(W3) = 0.14 → HIT → (0.14−1)² = 0.7396
+
+**W4 (China named verifiable deliverable by EOD 22 May) — MISS CONFIRMED.**
+Trump–Xi summit ended without concrete Hormuz progress (Trading Economics 17 May). US Trade Rep confirmed US did NOT ask China for direct Hormuz action (ABC News 17 May). → MISS CONFIRMED.
+Brier: P(W4) = 0.07 → MISS → (0.07−0)² = 0.0049
+
+**W5 (Houthi resumption commercial attacks 72h) — MISS (rolling).**
+US-Houthi commercial shipping ceasefire holding Day 12. No confirmed large-scale commercial attacks. Rolling forward.
+Brier: P(W5) = 0.08 → MISS → (0.08−0)² = 0.0064
+
+**Brier scores (Day 79 predictions evaluated at T+1):**
+- W1 (kinetics EOD 18 May) = 0.42 → MISS at 06:01 UTC cutoff → (0.42−0)² = 0.1764 (provisional)
+- W2 (Pakistan counter EOD 19 May) = 0.20 → MISS TRENDING → deferred to EOD 19 May
+- W3 (energy asset strike 72h) = 0.14 → HIT → (0.14−1)² = 0.7396
+- W4 (China deliverable EOD 22 May) = 0.07 → MISS → (0.07−0)² = 0.0049
+- W5 (Houthi commercial 72h) = 0.08 → MISS → (0.08−0)² = 0.0064
+
+**Calibration note (18 May):** W3 was severely underweighted at 0.14 given the structural trajectory. The Barakah strike pattern (three drones entering from western border, two intercepted, one through) is consistent with Iranian mainland or Iraqi-proxy launch, not Houthi (which would come from south). Future energy-infrastructure strike probabilities should be weighted higher when: (a) Iran FM has explicitly stated Gulf states hosting US bases are legitimate targets; (b) UAE has hosted Israeli Iron Dome and personnel; (c) prior Fujairah oil zone fire within 2 weeks establishes pattern. Revise energy-infra strike prior from 0.10–0.14 to 0.20–0.25 per 72h window given current posture.
+
+**Source reliability update (18 May):** The National (UAE) demonstrated sub-1h accuracy on Barakah strike details including western border entry direction and UAE MFA language ("treacherous terrorist attack") — upgrade to Tier 3 for UAE-specific energy infrastructure incidents. Fortune/AP joint reporting on Barakah confirmed same-day and aligned with IAEA confirmation within 3 hours — both reliable Hard-tier corroboration.
+
+---
+
+### 2026-05-18 — Predictions logged for scoring at T+1 (19 May), T+3 (21 May), T+7 (25 May)
+
+**Trend:** Worse (Confidence: High — Barakah outer perimeter struck; Trump NSC military-options Tuesday; Israel–US kinetic coordination confirmed; Brent $111; no diplomatic framework; re-escalation 60%)
+**Threat level:** 4/5 Severe (held — Barakah outer perimeter only, no inner breach, no confirmed Iranian attribution, no US kinetic resumption; 4→5 threshold watch active)
+
+**Watchlist predictions:**
+- W1 — Trump authorises kinetics/Project Freedom resumption after Tuesday 19 May NSC meeting — EOD Tue 19 May
+- W2 — UAE formally attributes Barakah drone to Iran/proxy AND declares retaliatory posture — rolling 48h
+- W3 — Araghchi Beijing visit produces named China-mediated verifiable Iran deliverable on Hormuz — by EOD Fri 22 May
+- W4 — Strike on inner perimeter of named Gulf energy asset (Barakah inner core, Ras Tanura, Ras Laffan, Habshan) — rolling 72h
+- W5 — Houthi resumption of commercial shipping attacks in Red Sea — rolling 72h (trigger: US kinetics)
+
+**Scenarios (30d):**
+- A — Negotiated framework — 7% (Δ −1pp) ← record low
+- B — Frozen attrition — 33% (Δ −3pp)
+- C — Re-escalation — 60% (Δ +4pp) ← MODAL, 27pp lead, record high
+
+**Brier score inputs (to be evaluated at T+1, T+3, T+7):**
+- P(Trump kinetics/Project Freedom by EOD 19 May) = 0.45 (raised: NSC meeting confirmed; Israel–US coordination confirmed; "Clock is Ticking" signal; Barakah strike as trigger)
+- P(UAE formal attribution to Iran + retaliatory posture within 48h) = 0.35 (new: UAE investigation ongoing; prior attacks attributed to Iran; western border entry direction; MFA "dangerous escalation" language)
+- P(Araghchi Beijing produces China-mediated named deliverable by EOD 22 May) = 0.10 (slightly raised from W4 0.07: Araghchi actually in Beijing, unlike prior Pakistan-channel miss; but Trump–Xi precedent of no Hormuz action reduces ceiling)
+- P(Strike on inner perimeter of named Gulf energy asset within 72h) = 0.22 (raised significantly from prior 0.14: Barakah pattern establishes capability and intent; outer perimeter breach normalises escalation ladder)
+- P(Houthi resumption commercial attacks within 72h) = 0.25 (raised: conditional probability rises substantially if P(Trump kinetics) = 0.45; trigger relationship confirmed per Houthi ceasefire terms)
+
+**Methodology note (18 May):** The Barakah strike represents a new escalation-ladder rung: attacks on civilian nuclear energy infrastructure in non-belligerent Gulf states. This introduces a new category of Hard-tier observable: "nuclear facility perimeter breach." Future strikes on any nuclear facility (inner or outer perimeter) should automatically trigger a 4→5 threshold review regardless of radiological outcome, because: (a) IAEA involvement activates international law dimension; (b) UAE "123 agreement" non-proliferation architecture creates US treaty-obligation response pressure; (c) one reactor on emergency diesel is a functional safety event, not merely a symbolic one. Revise methodology to add "nuclear facility strike (any perimeter)" as a standalone 4→5 threshold trigger candidate.
