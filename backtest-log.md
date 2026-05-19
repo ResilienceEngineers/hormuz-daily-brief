@@ -712,3 +712,64 @@ Brier: P(W5) = 0.08 → MISS → (0.08−0)² = 0.0064
 - P(Houthi resumption commercial attacks within 72h) = 0.25 (raised: conditional probability rises substantially if P(Trump kinetics) = 0.45; trigger relationship confirmed per Houthi ceasefire terms)
 
 **Methodology note (18 May):** The Barakah strike represents a new escalation-ladder rung: attacks on civilian nuclear energy infrastructure in non-belligerent Gulf states. This introduces a new category of Hard-tier observable: "nuclear facility perimeter breach." Future strikes on any nuclear facility (inner or outer perimeter) should automatically trigger a 4→5 threshold review regardless of radiological outcome, because: (a) IAEA involvement activates international law dimension; (b) UAE "123 agreement" non-proliferation architecture creates US treaty-obligation response pressure; (c) one reactor on emergency diesel is a functional safety event, not merely a symbolic one. Revise methodology to add "nuclear facility strike (any perimeter)" as a standalone 4→5 threshold trigger candidate.
+
+## 2026-05-19 — Backtest scoring + new predictions
+
+### Scoring: Day 80 (18 May) predictions evaluated at T+1 (19 May 06:00 UTC)
+
+**W1 (Trump authorises kinetics/Project Freedom by EOD 19 May) — MISS (conditional)**
+Trump confirmed a strike WAS planned for Tuesday 19 May but stood it down Monday 18 May evening at Gulf leaders' request (CNN/Bloomberg/AFP). Strike was authorised in principle but deferred — not executed at 06:00 UTC cutoff. Scored MISS. Note: probability was 0.45 — the near-outcome (strike planned but deferred) indicates directional accuracy but timing miss.
+Brier: P = 0.45 → MISS → (0.45−0)² = 0.2025
+
+**W2 (UAE formally attributes Barakah to Iran + retaliatory posture within 48h) — MISS**
+UAE still investigating at 06:00 UTC 19 May. No formal Iran attribution. Western border origin noted; UAE reserved "sovereign rights" but no retaliatory posture declared. Investigation Day 2 open.
+Brier: P = 0.35 → MISS → (0.35−0)² = 0.1225
+
+**W3 (Araghchi Beijing produces named China-mediated verifiable deliverable by EOD 22 May) — OPEN**
+Araghchi Beijing visit was 6 May. Iran's revised proposal came via Pakistan channel 18 May — China not the named deliverable channel. Deadline EOD 22 May; tracking. Note: China called for "prompt resumption" but no named verifiable deliverable yet.
+
+**W4 (Strike on inner perimeter of named Gulf energy asset within 72h) — MISS**
+Barakah outer perimeter generator was struck 17 May. No inner-perimeter strike. Outer perimeter already scored as W3 HIT in Day 79 scoring.
+Brier: P = 0.22 → MISS → (0.22−0)² = 0.0484
+
+**W5 (Houthi resumption commercial attacks within 72h) — MISS (rolling)**
+US-Houthi ceasefire holding Day 13. No confirmed large-scale commercial attacks. Strike deferral reduces near-term trigger probability.
+Brier: P = 0.25 → MISS → (0.25−0)² = 0.0625
+
+**Brier scores (Day 80 predictions at T+1):**
+- W1 = 0.45 → MISS → 0.2025
+- W2 = 0.35 → MISS → 0.1225
+- W3 = OPEN (EOD 22 May)
+- W4 = 0.22 → MISS → 0.0484
+- W5 = 0.25 → MISS → 0.0625
+- Mean (4 scored) = 0.109
+
+**Calibration note (19 May):** W1 near-miss (strike planned, deferred) and W4 miss (outer not inner perimeter) both reflect calibration ceiling on Gulf-leader-mediated deferrals. The simultaneous Gulf trio (Qatar/Saudi/UAE) intervention was not modelled as a variable — add "Gulf state collective diplomatic intervention" as a signal that reduces P(kinetics) by 30–40pp when all three sovereigns make direct contact with Trump. This is a new observable class. W2 miss (UAE non-attribution) now at Day 2 — extend attribution prior: UAE is structurally reluctant to formally attribute to Iran when origin ambiguity (western border = Iraq) exists, as formal attribution would compel UAE military response under its own MFA "sovereign rights" language. Revise prior: P(formal UAE attribution within 72h of ambiguous origin) = 0.15–0.20, not 0.35.
+
+---
+
+### 2026-05-19 — Predictions logged for scoring at T+1 (20 May), T+3 (22 May), T+7 (26 May)
+
+**Trend:** Same (Confidence: Medium — strike deferred, not cancelled; Iran responded via Pakistan; diplomatic window open but conditional)
+**Threat level:** 4/5 Severe (held — deferral reduces imminent kinetic risk but structural Severe conditions unchanged: Hormuz closed, Barakah Unit 3 on diesel, Iran missile sites 70% restored, "moment's notice" standby maintained)
+
+**Watchlist predictions:**
+- W1 — Trump/US formal response to Iran's revised Pakistan proposal — accept/reject sequenced framework — EOD Wed 21 May
+- W2 — UAE formal attribution of Barakah drone to Iran or named proxy — rolling 72h
+- W3 — Iran inner-perimeter energy asset strike (Barakah core, Ras Tanura, Ras Laffan, Habshan) — rolling 72h
+- W4 — Houthi resumption commercial attacks Red Sea — rolling 72h (trigger: US kinetics)
+- W5 — Araghchi/China named verifiable Hormuz deliverable — EOD Fri 22 May
+
+**Scenarios (30d):**
+- A — Negotiated framework — 12% (Δ +5pp) ← first upward revision in 10 days
+- B — Frozen attrition — 43% (Δ +10pp) ← MODAL first time in 10 days
+- C — Re-escalation — 45% (Δ −15pp) ← near-modal, still dominant risk
+
+**Brier score inputs (to be evaluated at T+1, T+3, T+7):**
+- P(Trump/US formal accepts/rejects sequenced framework by EOD 21 May) = 0.70 (high: deferral contingent on Iran response being serious; Trump said military ready "moment's notice")
+- P(UAE formal attribution Barakah to Iran/proxy within 72h) = 0.20 (revised down from 0.35 per calibration note above)
+- P(Inner-perimeter Gulf energy asset strike within 72h) = 0.18 (slightly lower: strike deferral removes US kinetics trigger; but Iranian proxy posture unchanged; outer-perimeter precedent elevates baseline)
+- P(Houthi commercial attack resumption within 72h) = 0.12 (reduced: US kinetics deferral is primary trigger; ceasefire Day 13 stable)
+- P(Named China-mediated verifiable Hormuz deliverable by EOD 22 May) = 0.10 (unchanged: China called for "prompt resumption" but no concrete mechanism; Iran used Pakistan not China channel for latest response)
+
+**Methodology note (19 May):** Added "Gulf state collective diplomatic intervention" as a named observable class. When Qatar Emir + Saudi MBS + UAE MBZ make simultaneous direct contact with US president on Iran kinetics, reduce P(imminent kinetics within 24h) by 30–40pp regardless of prior Trump posture. This is observable via public statements and has now demonstrated twice (6 May Project Freedom pause; 18 May Tuesday strike deferral) that it is a reliable mechanism. Log in sources.md as a new leading indicator under Tier 3 (Gulf state direct diplomatic intervention → kinetics deferral signal).
