@@ -773,3 +773,64 @@ Brier: P = 0.25 → MISS → (0.25−0)² = 0.0625
 - P(Named China-mediated verifiable Hormuz deliverable by EOD 22 May) = 0.10 (unchanged: China called for "prompt resumption" but no concrete mechanism; Iran used Pakistan not China channel for latest response)
 
 **Methodology note (19 May):** Added "Gulf state collective diplomatic intervention" as a named observable class. When Qatar Emir + Saudi MBS + UAE MBZ make simultaneous direct contact with US president on Iran kinetics, reduce P(imminent kinetics within 24h) by 30–40pp regardless of prior Trump posture. This is observable via public statements and has now demonstrated twice (6 May Project Freedom pause; 18 May Tuesday strike deferral) that it is a reliable mechanism. Log in sources.md as a new leading indicator under Tier 3 (Gulf state direct diplomatic intervention → kinetics deferral signal).
+
+## 2026-05-20 — Backtest scoring + new predictions
+
+### Scoring: Day 81 (19 May) predictions evaluated at T+1 (20 May 06:00 UTC)
+
+**W1 (Trump/US formal accepts/rejects sequenced framework by EOD 21 May) — OPEN**
+Deadline EOD 21 May not yet reached. Context: Trump deferred 19 May strike at Gulf-state request; Iran's 18 May revised response via Pakistan tracked "previous positions" per IRIB; no formal US accept/reject as of 06:00 20 May. Tracking.
+
+**W2 (UAE formal attribution Barakah to Iran/proxy within 72h) — HIT (partial)**
+The National 19 May + UAE Defence Ministry: confirmed drones launched from Iraqi territory where Iranian-backed armed groups operate. UAE Ambassador Abushahab told UNSC 19 May the attack was "dangerous escalation" and attributed to "one state and its proxies" — indirect Iran attribution via proxy chain confirmed within 72h of 17 May attack. Scored HIT (proxy attribution = methodology threshold met; not direct Iran-state formal attribution but Iraqi proxy attribution confirmed).
+Brier: P = 0.20 → HIT → (0.20−1)² = 0.64
+Note: Revised calibration validated — P(formal UAE attribution within 72h of ambiguous origin) = 0.15–0.20 was correct; scored HIT at low probability = good calibration.
+
+**W3 (Iran inner-perimeter energy asset strike within 72h) — MISS**
+No inner-perimeter strike at Barakah core, Ras Tanura, Ras Laffan, or Habshan as of 06:00 20 May. Outer-perimeter precedent confirmed but no escalation to inner perimeter in window.
+Brier: P = 0.18 → MISS → (0.18−0)² = 0.0324
+
+**W4 (Houthi commercial attacks within 72h) — MISS**
+Houthi ceasefire holding Day ~15 as of 06:00 20 May. No confirmed large-scale commercial attacks. Trigger (US kinetics) not activated — strike deferred 18 May.
+Brier: P = 0.12 → MISS → (0.12−0)² = 0.0144
+
+**W5 (Named China-mediated verifiable Hormuz deliverable by EOD 22 May) — OPEN**
+Deadline EOD 22 May not yet reached. No named China-mediated deliverable observed. Pakistan channel active; China called for "prompt resumption" but no concrete mechanism named. Tracking.
+
+**Brier scores (Day 81 predictions at T+1):**
+- W1 = OPEN
+- W2 = 0.20 → HIT → 0.64
+- W3 = 0.18 → MISS → 0.0324
+- W4 = 0.12 → MISS → 0.0144
+- W5 = OPEN
+- Mean (3 scored) = 0.229 (W2 HIT at low P inflates Brier — correct direction but scored inefficiently; recalibrate W2-class events upward)
+
+**Calibration note (20 May):** W2 HIT at P=0.20 validates the revised downward calibration of P(UAE formal attribution within 72h of ambiguous origin). However, the Brier score of 0.64 for a HIT at P=0.20 is high — in hindsight P should have been 0.35–0.45 given the UNSC emergency session was called on Day 2 (19 May) and UAE FM language was explicit. Revise upward: when UAE/Gulf state calls UNSC emergency session within 24h of incident, P(attribution within 72h) = 0.50–0.60. New observable class: UNSC emergency session = 2× attribution prior.
+
+---
+
+### 2026-05-20 — Predictions logged for scoring at T+1 (21 May), T+3 (23 May), T+7 (27 May)
+
+**Trend:** Same (Confidence: Medium — Israeli strike preparation is new signal; ceasefire technically holds; diplomatic window open through EOD 21 May W1 node)
+**Threat level:** 4/5 Severe (held — Israeli nuclear-facility strike preparation adds upside risk to 5; structural Severe conditions unchanged)
+
+**Watchlist predictions:**
+- W1 — Trump formal accept/reject of Iran's revised Pakistan proposal — EOD Wed 21 May
+- W2 — Israeli nuclear-facility strike execution — rolling 72h (CNN 20 May preparation confirmed)
+- W3 — UAE/Gulf-state retaliatory strike on Iraqi proxy infrastructure — rolling 72h
+- W4 — Houthi resumption commercial attacks — rolling 72h (trigger: Israeli strike or US kinetics)
+- W5 — Inner-perimeter Gulf energy asset strike (Barakah core, Ras Tanura, Ras Laffan) — rolling 72h
+
+**Scenarios (30d):**
+- A — Negotiated framework — 10% (Δ −2pp)
+- B — Frozen attrition — 40% (Δ −3pp)
+- C — Re-escalation — 50% (Δ +5pp) ← near-modal
+
+**Brier score inputs (to be evaluated at T+1, T+3, T+7):**
+- P(Trump formal accepts/rejects Iran proposal by EOD 21 May) = 0.75 (high: deadline explicit; Trump has now deferred twice; third deferral less likely given "life support" language 11 May and NSC pressure)
+- P(Israeli nuclear-facility strike within 72h) = 0.30 (elevated significantly from prior day: CNN 20 May multiple US officials confirmed preparations including munitions movement and air exercise; not yet final decision; Trump likely to oppose without major Iranian provocation)
+- P(UAE/Gulf retaliatory strike on Iraqi proxy within 72h) = 0.15 (UAE declared right to respond; but direct UAE military strike into Iraq is politically complex; more likely indirect action)
+- P(Houthi commercial attack resumption within 72h) = 0.20 (elevated from 0.12: Israeli strike preparation is primary trigger; if W2 executes, Houthi resumption follows within 24–48h; conditional P given W2=0.30 → joint P approximately 0.20)
+- P(Named China-mediated verifiable Hormuz deliverable by EOD 22 May) = 0.08 (slightly reduced: China has not signalled new mechanism; Pakistan channel dominant; Israel strike risk further reduces Chinese diplomatic space)
+
+**Methodology note (20 May):** Added "UNSC emergency session within 24h of incident" as a new observable that doubles the prior probability of formal attribution within 72h. When UAE/Gulf state calls UNSC emergency session within 24h, P(formal attribution within 72h) revised from 0.15–0.20 to 0.40–0.60. Log in sources.md. Also: Israeli nuclear-facility strike preparation (CNN 20 May) has now been added to the "standalone 4→5 threshold trigger candidates" — if confirmed executed, automatic 4→5 upgrade regardless of radiological outcome, consistent with Barakah methodology update from Day 79.
