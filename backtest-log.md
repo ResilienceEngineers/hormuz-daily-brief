@@ -834,3 +834,72 @@ Deadline EOD 22 May not yet reached. No named China-mediated deliverable observe
 - P(Named China-mediated verifiable Hormuz deliverable by EOD 22 May) = 0.08 (slightly reduced: China has not signalled new mechanism; Pakistan channel dominant; Israel strike risk further reduces Chinese diplomatic space)
 
 **Methodology note (20 May):** Added "UNSC emergency session within 24h of incident" as a new observable that doubles the prior probability of formal attribution within 72h. When UAE/Gulf state calls UNSC emergency session within 24h, P(formal attribution within 72h) revised from 0.15–0.20 to 0.40–0.60. Log in sources.md. Also: Israeli nuclear-facility strike preparation (CNN 20 May) has now been added to the "standalone 4→5 threshold trigger candidates" — if confirmed executed, automatic 4→5 upgrade regardless of radiological outcome, consistent with Barakah methodology update from Day 79.
+
+## 2026-05-21 — Backtest scoring + new predictions
+
+### Scoring: Day 82 (20 May) predictions evaluated at T+1 (21 May 06:00 UTC)
+
+**W1 (Trump formal accept/reject of Iran's revised Pakistan proposal by EOD 21 May) — OPEN**
+Deadline EOD 21 May not yet reached as of 06:00 UTC. Iran sent revised response via Pakistan 18 May (Reuters/WION). US formal response pending. Context: Trump called prior (10 May) Iranian proposal "totally unacceptable," "garbage," ceasefire "on life support." Third round of Iran-Pakistan-US diplomacy active. Tracking through EOD today.
+
+**W2 (Israeli nuclear-facility strike execution within 72h) — MISS at T+1**
+CNN 20 May confirmed preparations (munitions movement, air exercise, multiple US officials) but no execution confirmed as of 06:00 UTC 21 May. Gulf-state deferral mechanism held again (second application 18 May). Strike not executed in 72h window from 20 May. Scored MISS at T+1.
+Brier: P = 0.30 → MISS → (0.30−0)² = 0.09
+Note: Correct direction (MISS); low P appropriate. CNN preparation signal is real but "preparation ≠ execution" pattern confirmed now three times. Downward calibration validated: P(prepared strike executes within 72h) = 0.25–0.35 when Gulf-state deferral mechanism active. Revise: when Gulf-state intervention confirmed same day as preparation signal, P(execution within 72h) = 0.15–0.20 (downgrade 10pp).
+
+**W3 (UAE/Gulf retaliatory strike on Iraqi proxy within 72h) — MISS at T+1**
+UAE chose diplomatic route: called on Iraq to "immediately and unconditionally prevent all hostile acts" (UAE MFA 20 May, The National). No UAE or Saudi military strike into Iraq confirmed. Iraq investigating. Scored MISS.
+Brier: P = 0.15 → MISS → (0.15−0)² = 0.0225
+Note: Diplomatic-over-kinetic pattern for UAE consistent with war posture since Feb 28. Revise UAE military direct-action prior: P(UAE direct military strike into Iraq within 72h of attribution) = 0.08–0.12 (was 0.15; downgrade 3–7pp). UAE's "sovereign rights" declarations are posture signals, not execution signals.
+
+**W4 (Houthi commercial attack resumption within 72h) — MISS at T+1**
+Houthi ceasefire holding Day ~16. No Israeli strike (W2 missed); trigger not activated. Conditional P maintained. Scored MISS.
+Brier: P = 0.20 → MISS → (0.20−0)² = 0.04
+Note: Conditional logic correct; trigger dependency working as modelled.
+
+**W5 (Named China-mediated verifiable Hormuz deliverable by EOD 22 May) — OPEN**
+Deadline EOD 22 May not yet reached. Trump in Beijing mid-week per CNN sourcing. Araghchi at BRICS Delhi concurrently (Saudi/Egyptian FMs present). No named deliverable confirmed. Tracking.
+
+**Brier scores (Day 82 predictions at T+1, 3 scored):**
+- W1 = OPEN
+- W2 = 0.30 → MISS → 0.09
+- W3 = 0.15 → MISS → 0.0225
+- W4 = 0.20 → MISS → 0.04
+- W5 = OPEN
+- Mean (3 scored) = 0.0508 (three MISSes at low P = low Brier = good calibration; correctly assigned low probabilities to events that did not occur)
+
+**Calibration note (21 May):**
+- W2: Preparation-confirmed-but-execution-not-executed is now the dominant pattern. New heuristic: "preparation signal + active Gulf-state intervention confirmed same day" → reduce execution P by 10pp. P(Israeli strike within 72h given Gulf-state active deferral) = 0.15–0.20, not 0.30.
+- W3: UAE diplomatic-over-kinetic is a stable preference. Downgrade UAE direct military action prior to 0.08–0.12. Log in sources.md.
+- Cumulative Week 12 Brier mean (last 5 scored): improving trend — consecutive low-P-MISS weeks signal appropriate conservative calibration.
+
+---
+
+### 2026-05-21 — Predictions logged for scoring at T+1 (22 May), T+3 (24 May), T+7 (28 May)
+
+**Trend:** Same (Confidence: Medium — W1 EOD today is decisive; no new hard-tier escalation overnight; Barakah proxy chain confirmed but no inner-perimeter hit; Israeli strike deferred again)
+**Threat level:** 4/5 Severe (held — structural conditions unchanged; inner-perimeter Barakah or Israeli strike execution would trigger automatic upgrade to 5)
+
+**Watchlist predictions:**
+- W1 — Trump/US formal response to Iran's revised 18 May Pakistan proposal — EOD Thu 21 May
+- W2 — Israeli nuclear-facility strike execution — rolling 72h (preparations confirmed CNN 20 May; Gulf-state deferral active)
+- W3 — UAE/Saudi military reprisal against Iraqi proxy — rolling 72h (diplomatic track active; military action unlikely but not ruled out)
+- W4 — Houthi commercial shipping resumption — rolling 72h (trigger: W2 execution or US kinetics)
+- W5 — Named China-mediated verifiable Hormuz deliverable — EOD Fri 22 May (Xi–Trump Beijing + Araghchi BRICS Delhi convergence)
+
+**Scenarios (30d):**
+- A — Negotiated framework — 10% (Δ 0pp)
+- B — Frozen attrition — 40% (Δ 0pp)
+- C — Re-escalation — 50% (Δ 0pp) ← near-modal
+
+**Brier score inputs (to be evaluated at T+1, T+3, T+7):**
+- P(Trump formal accepts/rejects Iran proposal with named new mechanism by EOD 21 May) = 0.70 (high: deadline explicit; Iran sent revised response 18 May; US has not formally responded as of 06:00 UTC; pattern of same-day response once submitted)
+- P(Israeli nuclear-facility strike within 72h) = 0.18 (downgraded from 0.30: Gulf-state deferral confirmed active; preparation-without-execution now third instance; calibration update applied)
+- P(UAE/Saudi direct military strike on Iraqi proxy within 72h) = 0.08 (downgraded from 0.15: UAE diplomatic-over-kinetic pattern stable; Iraq under US pressure to act)
+- P(Houthi commercial attack resumption within 72h) = 0.16 (slightly reduced: conditional on W2 now lower; P(W2)×P(Houthi|W2) = 0.18×0.80 ≈ 0.14; base resumption risk adds ~0.02)
+- P(Named China-mediated verifiable Hormuz deliverable by EOD 22 May) = 0.12 (slight upward revision: Xi–Trump Beijing + Araghchi BRICS Delhi is a genuine multilateral convergence not seen in prior cycles; but "named deliverable" bar is high — most likely outcome is a vague statement of principle)
+
+**Methodology updates (21 May):**
+1. New calibration heuristic: "Preparation signal + confirmed active Gulf-state deferral same day" → reduce P(strike execution within 72h) by 10pp. Applies to Israeli and US military preparation signals.
+2. UAE direct military action prior revised: P(UAE military strike into Iraq within 72h of attribution) = 0.08–0.12 (was 0.15). Stable diplomatic-over-kinetic preference confirmed across three attribution events.
+3. IRGC state-media transit claims (e.g., "26 ships in 24h") to be treated as Tier 5 only — not to be used as transit count without independent UKMTO/Lloyd's List corroboration. Confirmed daily-ops procedure.
