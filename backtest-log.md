@@ -903,3 +903,66 @@ Deadline EOD 22 May not yet reached. Trump in Beijing mid-week per CNN sourcing.
 1. New calibration heuristic: "Preparation signal + confirmed active Gulf-state deferral same day" → reduce P(strike execution within 72h) by 10pp. Applies to Israeli and US military preparation signals.
 2. UAE direct military action prior revised: P(UAE military strike into Iraq within 72h of attribution) = 0.08–0.12 (was 0.15). Stable diplomatic-over-kinetic preference confirmed across three attribution events.
 3. IRGC state-media transit claims (e.g., "26 ships in 24h") to be treated as Tier 5 only — not to be used as transit count without independent UKMTO/Lloyd's List corroboration. Confirmed daily-ops procedure.
+
+## 2026-05-22 — Day 84 Backtest Entry
+
+### T+1 scoring of Day 83 (21 May) predictions
+
+**W1 — Trump/US formal response to Iran's revised 18 May Pakistan proposal — EOD Thu 21 May**
+RESULT: **HIT** — Iran FM Baghaei confirmed 21 May: Iran "received US views and are reviewing them" (Al Jazeera/CNBC 21 May). US counter-response transmitted through Pakistan channel on schedule. "Formal response transmitted" threshold met.
+Brier: P=0.70 → HIT → (0.70−1)² = 0.09
+Note: Response transmitted but Iran reviewing, not accepting — confirms iterative proposal cycle pattern. Calibration note: "formal response transmitted" is not the same as "named new mechanism." Subsequent watchlist items should distinguish these carefully.
+
+**W2 — Israeli nuclear-facility strike execution within 72h — MISS**
+No execution confirmed as of 06:00 UTC 22 May. Gulf-state deferral mechanism active (now third confirmed application). Preparation-without-execution pattern confirmed for third time.
+Brier: P=0.18 → MISS → (0.18−0)² = 0.0324
+Note: Calibration heuristic confirmed: P(Israeli strike within 72h given active Gulf-state deferral) = 0.15–0.20 appropriate. Will maintain.
+
+**W3 — UAE/Saudi military strike on Iraqi proxy within 72h — MISS**
+UAE chose diplomatic path: urged Iraq to prevent hostile acts (UAE MFA 20 May). Iraq investigating. No direct military action.
+Brier: P=0.08 → MISS → (0.08−0)² = 0.0064
+Note: UAE diplomatic-over-kinetic pattern stable. Prior revision to 0.08–0.12 validated.
+
+**W4 — Houthi commercial attack resumption within 72h — MISS**
+Houthi ceasefire holding Day ~16. No Israeli strike (W2 missed); trigger not activated.
+Brier: P=0.16 → MISS → (0.16−0)² = 0.0256
+Note: Conditional logic correct. Trigger dependency working as modelled.
+
+**W5 — Named China-mediated verifiable Hormuz deliverable by EOD 22 May — MISS**
+BRICS FM meeting 14-15 May produced no named Hormuz deliverable. Trump-Xi Beijing described as "relatively fruitless" on Hormuz. China's Wang Yi absent from BRICS. No joint mechanism announced.
+Brier: P=0.12 → MISS → (0.12−0)² = 0.0144
+Note: "Vague statement of principle" outcome correctly predicted as most likely. High bar for "named deliverable" confirmed appropriate.
+
+**Day 83 T+1 Brier mean (5 scored):** (0.09 + 0.0324 + 0.0064 + 0.0256 + 0.0144) / 5 = **0.0338**
+Calibration quality: Excellent. W1 HIT at high P; four MISSes at appropriately low P. Consistent with conservative calibration trend.
+
+---
+
+### 2026-05-22 — Predictions logged for scoring at T+1 (23 May), T+3 (25 May), T+7 (29 May)
+
+**Trend:** Same → (Confidence: Medium — Pakistan shuttle at peak intensity; Iran reviewing US views; no new kinetics; core gap structurally unchanged)
+**Threat level:** 4/5 Severe (held — Barakah outer perimeter struck; Israeli strike preparations unexecuted but confirmed; Vance "locked and loaded"; structural conditions unchanged)
+
+**Watchlist predictions:**
+- W1 — Pakistan Army Chief Munir Tehran visit outcome — EOD Sat 24 May
+- W2 — Trump's "few days" window expiry / kinetics restart — Rolling 72–96h (Sat 24 – Mon 26 May)
+- W3 — Israeli nuclear-facility strike execution — rolling 72h (preparations confirmed; Gulf-state deferral active third time)
+- W4 — Barakah inner-perimeter attack — rolling 72h (outer perimeter struck; Iraqi proxy chain unresolved)
+- W5 — Houthi commercial shipping resumption — conditional / rolling (trigger: W2 or W3)
+
+**Scenarios (30d):**
+- A — Negotiated framework — 10% (Δ 0pp)
+- B — Frozen attrition — 42% (Δ +2pp)
+- C — Re-escalation — 48% (Δ −2pp) ← near-modal
+
+**Brier score inputs (to be evaluated at T+1, T+3, T+7):**
+- P(Munir Tehran visit produces named public Hormuz deliverable by EOD 24 May) = 0.12 (low: five prior proposal cycles produced no named deliverable; "vague statement" is modal outcome; but shuttle intensity is highest yet — slight upward vs base)
+- P(Trump resumes kinetics within 96h absent named deliverable from Munir) = 0.28 (elevated from 0.20 base: "borderline" + "few days" language is strongest pre-strike signalling since Day 70; Gulf-state deferral fourth application would be unprecedented — P(fourth deferral) ≈ 0.50; P(kinetics | no fourth deferral) ≈ 0.55; combined ~0.28)
+- P(Israeli nuclear-facility strike within 72h) = 0.16 (maintained: Gulf-state deferral active; preparation-without-execution three-times confirmed)
+- P(Barakah inner-perimeter attack within 72h) = 0.10 (new watchlist item: outer perimeter proof-of-concept established; Iraqi proxy chain active and unresolved; UAE diplomatic response has not severed chain; Iraq investigation unlikely to produce rapid deterrence)
+- P(Houthi commercial attack resumption within 72h absent trigger) = 0.05 (maintained: conditional on W2/W3 primarily; base resumption very low while ceasefire holds)
+
+**Methodology notes (22 May):**
+1. W1 "formal response transmitted" confirmed as achievable threshold; future watchlist items to specify "transmitted" vs "named new mechanism accepted" as distinct probability events.
+2. Gulf-state deferral mechanism now three-times confirmed as active — elevating its weight as a leading indicator. If a fourth application occurs, note as unprecedented and flag as potential mechanism exhaustion signal.
+3. Barakah inner-perimeter attack added as standalone W4 escalation threshold — outer-perimeter strike establishes proof of concept; should be tracked independently from diplomatic track.
