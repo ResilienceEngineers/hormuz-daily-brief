@@ -966,3 +966,68 @@ Calibration quality: Excellent. W1 HIT at high P; four MISSes at appropriately l
 1. W1 "formal response transmitted" confirmed as achievable threshold; future watchlist items to specify "transmitted" vs "named new mechanism accepted" as distinct probability events.
 2. Gulf-state deferral mechanism now three-times confirmed as active — elevating its weight as a leading indicator. If a fourth application occurs, note as unprecedented and flag as potential mechanism exhaustion signal.
 3. Barakah inner-perimeter attack added as standalone W4 escalation threshold — outer-perimeter strike establishes proof of concept; should be tracked independently from diplomatic track.
+
+## 2026-05-23 — Day 85 Backtest Entry
+
+### T+1 scoring of Day 84 (22 May) predictions
+
+**W1 — Pakistan Army Chief Munir Tehran visit — named public Hormuz deliverable by EOD 24 May**
+RESULT: **MISS** — Munir arrived Tehran 22–23 May and met Araghchi (confirmed). Iran FM Baghaei explicitly stated visits are "a continuation of the same diplomatic process — not near a deal." No named deliverable. Qatar team also in Tehran without producing named mechanism.
+Brier: P=0.12 → MISS → (0.12−0)² = 0.0144
+Note: "Peak intensity without named deliverable" pattern confirmed again. Sixth consecutive proposal cycle producing vague statement, not named mechanism. Calibration of 0.12 for this threshold appropriate.
+
+**W2 — Trump kinetics within 96h absent named deliverable — rolling (scored at T+1, 23 May)**
+RESULT: **MISS at T+1** — No strike resumed. Iran issued NOTAM A1010/26 (western FIR closed to 25 May). US "reviewing military options" per multiple outlets. Gulf-state deferral applied (fourth application — unprecedented). No strike as of 06:00 UTC 23 May.
+Brier: P=0.28 → MISS → (0.28−0)² = 0.0784
+Note: Fourth Gulf-state deferral unprecedented — mechanism may be approaching exhaustion. 25 May NOTAM expiry is next hard node. Will re-evaluate P(kinetics) if NOTAM extends.
+
+**W3 — Israeli nuclear-facility strike within 72h — MISS**
+No execution. Gulf-state deferral active (fourth application). Preparation-without-execution pattern holds.
+Brier: P=0.16 → MISS → (0.16−0)² = 0.0256
+Note: P(Israeli strike | fourth Gulf-state deferral active) calibration remains 0.15–0.18.
+
+**W4 — Barakah inner-perimeter attack within 72h — MISS**
+No inner-perimeter attack. Iraqi-territory attribution confirmed; UAE investigation ongoing. No escalation from proxy chain.
+Brier: P=0.10 → MISS → (0.10−0)² = 0.01
+Note: Outer-perimeter proof-of-concept does not automatically translate to inner-perimeter escalation within 72h. Consider extending window to 7-day horizon for this watchlist item type.
+
+**W5 — Houthi commercial attack resumption absent trigger — MISS**
+Ceasefire holding Day 17. UKMTO confirmed small-craft approach 200nm W of Socotra (23 May) — armed security deployed, craft withdrew. Not attributed to Houthi; not a commercial attack resumption.
+Brier: P=0.05 → MISS → (0.05−0)² = 0.0025
+Note: Socotra incident adds to watchlist as W5 (new) — attribution pending. Does not score as Houthi resumption yet.
+
+**Day 84 T+1 Brier mean (5 scored):** (0.0144 + 0.0784 + 0.0256 + 0.01 + 0.0025) / 5 = **0.0262**
+Calibration quality: Excellent. All five were MISSes at appropriately low probabilities. Consistent with conservative calibration trend across Days 80–85.
+
+**Cumulative T+1 Brier score (Days 80–85):** Mean ≈ 0.030 — well-calibrated conservative forecasting.
+
+---
+
+### 2026-05-23 — Predictions logged for scoring at T+1 (24 May), T+3 (26 May), T+7 (30 May)
+
+**Trend:** Same → (Confidence: Medium — Peak shuttle intensity without named deliverable; NOTAM signal adds kinetic risk; Socotra incident adds alt-route watchlist item; core gap structurally unchanged)
+**Threat level:** 4/5 Severe (held — NOTAM + US military-option review + Israeli preparations active + Barakah inner-perimeter threat standing)
+
+**Watchlist predictions:**
+- W1 — Iran NOTAM A1010/26 western airspace expiry — EOD Mon 25 May
+- W2 — Trump strike resumption / kinetics restart — rolling 72–96h to 26 May
+- W3 — Israeli nuclear-facility strike execution — rolling 72h
+- W4 — Barakah inner-perimeter attack — rolling 72h
+- W5 — Socotra small-craft incident attribution (Houthi link or not) — 48h / 25 May
+
+**Scenarios (30d):**
+- A — Negotiated framework — 10% (Δ 0pp)
+- B — Frozen attrition — 44% (Δ +2pp)
+- C — Re-escalation — 46% (Δ −2pp) ← near-modal
+
+**Brier score inputs (to be evaluated at T+1, T+3, T+7):**
+- P(NOTAM lifts quietly without kinetics by EOD 25 May) = 0.52 (slight majority: diplomatic channel active; fourth deferral precedent; but NOTAM itself is anomalous and US military-review language elevated)
+- P(Trump resumes kinetics before EOD 26 May) = 0.26 (maintained near Day 84 level: fourth deferral unprecedented but not impossible; "limited timeframe" language; NOTAM as potential clearing signal)
+- P(Israeli nuclear-facility strike within 72h) = 0.16 (maintained: Gulf-state deferral active; preparation-without-execution four-times confirmed)
+- P(Barakah inner-perimeter attack within 72h) = 0.09 (slight reduction from 0.10: no escalation in 72h since outer-perimeter; Iraqi investigation marginally deterrent; proxy chain appears in holding pattern during peak diplomacy)
+- P(Socotra incident attributed to Houthi / Houthi ceasefire violation confirmed within 48h) = 0.18 (new item: small-craft approach confirmed by UKMTO Hard source; 5-person approach is consistent with Houthi armed boarding tactics; but attribution unconfirmed; ceasefire holding 17 days)
+
+**Methodology notes (23 May):**
+1. Fourth Gulf-state deferral application confirmed — flag as "unprecedented." If a fifth application occurs, flag "mechanism exhaustion signal" as a structural watchlist item. Reduce P(deferral) from 0.50 to 0.35 for future same-window calculations.
+2. Iran NOTAM closure now establishes a new leading-indicator type: western FIR airport closures (non-conflict-zone) coinciding with US military-option review language. Add to indicator library as "pre-kinetics airspace clearing signal (Iran domestic)" — weight as Tier 2 when corroborated by NOTAM official source.
+3. UKMTO Socotra incident is first confirmed maritime-approach event in Red Sea–adjacent zone since Houthi ceasefire. Add "UKMTO incident within 300nm of Socotra" as a standing ceasefire-perimeter monitor, distinct from full Houthi resumption event.
