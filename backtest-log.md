@@ -1031,3 +1031,65 @@ Calibration quality: Excellent. All five were MISSes at appropriately low probab
 1. Fourth Gulf-state deferral application confirmed — flag as "unprecedented." If a fifth application occurs, flag "mechanism exhaustion signal" as a structural watchlist item. Reduce P(deferral) from 0.50 to 0.35 for future same-window calculations.
 2. Iran NOTAM closure now establishes a new leading-indicator type: western FIR airport closures (non-conflict-zone) coinciding with US military-option review language. Add to indicator library as "pre-kinetics airspace clearing signal (Iran domestic)" — weight as Tier 2 when corroborated by NOTAM official source.
 3. UKMTO Socotra incident is first confirmed maritime-approach event in Red Sea–adjacent zone since Houthi ceasefire. Add "UKMTO incident within 300nm of Socotra" as a standing ceasefire-perimeter monitor, distinct from full Houthi resumption event.
+
+## 2026-05-24 — Day 86 Backtest Entry
+
+### T+1 scoring of Day 85 (23 May) predictions
+
+**W1 (NOTAM) — P(NOTAM lifts quietly without kinetics by EOD 25 May) = 0.52**
+RESULT AT T+1: PENDING (NOTAM expires 25 May 08:30Z; not yet expired as of 06:00 UTC 24 May). Will score at T+2.
+
+**W2 — P(Trump resumes kinetics before EOD 26 May) = 0.26**
+RESULT AT T+1 (24 May 06:00): MISS direction — Trump declared deal "largely negotiated" 23 May evening; described as "leaning toward diplomatic solution." No kinetics. Score: trending MISS. Brier contribution deferred to EOD 26 May.
+
+**W3 — P(Israeli nuclear-facility strike within 72h) = 0.16**
+RESULT AT T+1: MISS — No strike. Netanyahu convened emergency meeting but expressed concern "deferentially." No execution.
+Brier: P=0.16 → MISS → (0.16−0)² = 0.0256
+
+**W4 — P(Barakah inner-perimeter attack within 72h) = 0.09**
+RESULT AT T+1: MISS — No inner-perimeter attack confirmed.
+Brier: P=0.09 → MISS → (0.09−0)² = 0.0081
+
+**W5 — P(Socotra attributed to Houthi / ceasefire violation within 48h) = 0.18**
+RESULT AT T+1: MISS — UKMTO shows 0 new confirmed incidents. No Houthi attribution. Houthi ceasefire Day 18 holding.
+Brier: P=0.18 → MISS → (0.18−0)² = 0.0324
+
+**Scored at T+1 (3 of 5 items):** Mean Brier = (0.0256 + 0.0081 + 0.0324) / 3 = **0.022** — Excellent calibration.
+Items W1 and W2 deferred for EOD 25 May and EOD 26 May scoring respectively.
+
+**NOTE — MAJOR UNFORECAST DEVELOPMENT (Surprise event):**
+Axios/Reuters MOU "largely negotiated" disclosure on 23 May evening (Day 85/86 boundary) was NOT captured in Day 85 watchlist at sufficient probability. Day 85 scenario A was at 10%; actual diplomatic convergence moved A probability to ~30% within 24h. This is the largest single-day scenario revision of the tracker's history.
+
+**Surprise category:** Positive diplomatic surprise — Scenario A probability shift +20pp unforecast. Methodology note: "Peak intensity without named deliverable" pattern (confirmed 6 times) broke on the 7th iteration. Revise P(named deliverable | peak shuttle intensity) from ~0.12 to ~0.25 for future same-configuration calculations. The difference: Munir + Pezeshkian meeting (head-of-state level) + Trump "50/50" public admission + NOTAM expiry convergence all occurred simultaneously, creating a different configuration than prior cycles.
+
+---
+
+### 2026-05-24 — Predictions logged for scoring at T+1 (25 May), T+3 (27 May), T+7 (31 May)
+
+**Trend:** Better (Confidence: Medium — MOU "largely negotiated"; Scenario A +20pp; first genuine convergence of war. Counter-signal: Iran's three unresolved items; unsigned text; Israeli opposition.)
+**Threat level:** 4/5 Severe (held — MOU unsigned; Iranian three-item gap; Netanyahu emergency session; military on standby)
+
+**Watchlist predictions:**
+- W1 — MOU signed / formal announcement — Sunday 24 May → extended to Wed 27 May
+- W2 — NOTAM A1010/26 quiet expiry vs. extension — Mon 25 May 08:30Z
+- W3 — Iran's three unresolved items bridged or not — rolling to MOU signing/collapse
+- W4 — Netanyahu/Israeli unilateral action — rolling 72h, elevated if MOU collapses
+- W5 — Socotra attribution confirmed — 48h / 26 May
+
+**Scenarios (30d):**
+- A — Negotiated framework — 30% (Δ +20pp)
+- B — Frozen attrition — 42% (Δ −2pp) ← modal
+- C — Re-escalation — 28% (Δ −18pp)
+
+**Brier score inputs (T+1, T+3, T+7):**
+- P(MOU formally signed with text published by both sides by EOD 27 May) = 0.35 (Axios/Reuters confirm proximity; Iran FM "3–4 days"; Trump "shortly" — but Iran's three unresolved items and Israeli pressure are live veto points; pattern: every previous "close to deal" moment collapsed)
+- P(NOTAM A1010/26 expires quietly without extension or kinetics by EOD 25 May) = 0.72 (MOU trajectory strongly supports quiet expiry; deal momentum + "leaning toward diplomatic solution" = high probability of no kinetics this window)
+- P(Trump resumes kinetics before EOD 27 May) = 0.12 (reduced from 0.26: MOU trajectory significantly de-risks; but "50/50" framing and Israeli pressure keep non-trivial probability)
+- P(Israeli unilateral strike on Iranian nuclear facility within 72h) = 0.08 (reduced from 0.16: Netanyahu expressing concern "deferentially"; MOU trajectory reduces immediate window; but Israeli alarm is highest since war began)
+- P(Socotra incident attributed to Houthi / ceasefire violation confirmed by 26 May) = 0.15 (maintained: no new UKMTO report; attribution still unconfirmed; Houthi ceasefire structurally reinforced by MOU trajectory)
+
+**Methodology notes (24 May):**
+1. "Peak intensity without named deliverable" pattern broke on 7th iteration (Day 85→86 boundary). Revise P(named deliverable | peak shuttle intensity + head-of-state level meeting + NOTAM expiry convergence) from ~0.12 to ~0.25. The configuration that broke the pattern: simultaneous Munir–Pezeshkian meeting (head of state level), Trump "50/50" public framing, NOTAM expiry convergence, and multi-mediator (Pakistan + Qatar + Turkey + Egypt) simultaneous engagement.
+2. New indicator type confirmed: "NOTAM expiry coinciding with MOU announcement window" — add as Tier 2 corroborating signal for Scenario A (Negotiated framework) when both occur within same 72h window.
+3. IRGC non-compliance risk after MOU signing ("JCPOA erosion scenario") now flagged as W1 implementation variant — add as standing watchlist item if/when MOU is signed. Observable: AIS transit data diverges from signed-MOU expectations within 7 days.
+4. Israel opposition to deal (Netanyahu emergency session, Israeli officials urging resumed strikes) is the strongest remaining Scenario C activating signal. Add "Netanyahu unilateral authorization" as a standalone escalation trigger distinct from Trump-authorized kinetics.
