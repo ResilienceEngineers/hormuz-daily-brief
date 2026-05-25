@@ -1093,3 +1093,59 @@ Axios/Reuters MOU "largely negotiated" disclosure on 23 May evening (Day 85/86 b
 2. New indicator type confirmed: "NOTAM expiry coinciding with MOU announcement window" — add as Tier 2 corroborating signal for Scenario A (Negotiated framework) when both occur within same 72h window.
 3. IRGC non-compliance risk after MOU signing ("JCPOA erosion scenario") now flagged as W1 implementation variant — add as standing watchlist item if/when MOU is signed. Observable: AIS transit data diverges from signed-MOU expectations within 7 days.
 4. Israel opposition to deal (Netanyahu emergency session, Israeli officials urging resumed strikes) is the strongest remaining Scenario C activating signal. Add "Netanyahu unilateral authorization" as a standalone escalation trigger distinct from Trump-authorized kinetics.
+
+## 2026-05-25 — Day 87 Backtest Entry
+
+### T+1 scoring of Day 86 (24 May) predictions
+
+**W2 (NOTAM A1010/26 quiet expiry) — P(quiet expiry by EOD 25 May) = 0.72**
+RESULT AT T+1: HIT — NOTAM expired 08:30Z 25 May without extension or kinetics. No new equivalent NOTAM issued as of 06:01 UTC 25 May.
+Brier: P=0.72 → HIT → (0.72−1)² = 0.0784. Calibration note: probability was appropriately high; clean expiry consistent with MOU trajectory.
+
+**W4 (Israeli unilateral strike within 72h) — P=0.08**
+RESULT AT T+1: MISS (provisional, 72h window closes 27 May) — No Israeli unilateral strike confirmed. Netanyahu issued public statement but no kinetics.
+Brier deferred to 27 May for full 72h window. Provisional score: trending MISS.
+
+**W5 (Socotra attributed to Houthi by 26 May) — P=0.15**
+RESULT AT T+1: MISS trending — No new UKMTO report; attribution unconfirmed as of 06:01 UTC 25 May.
+Brier deferred to 26 May.
+
+**Items W1 (MOU signed by 27 May, P=0.35) and W3 (kinetics by 27 May, P=0.12):** Deferred to T+3 (27 May).
+
+**Scored at T+1 (1 of 5 fully scored):** NOTAM hit. Mean Brier contribution: 0.0784. Cumulative context: calibration still strong on kinetics avoidance predictions; MOU signing prediction structurally harder to score — pattern of "close to deal → extension" now on 7th iteration but this one has Khamenei-level endorsement.
+
+**NOTE — MAJOR DEVELOPMENT (Day 87):**
+MOU "agreed in principle" with Khamenei endorsing broad template (Al Jazeera/CNN 24 May). NOTAM expired cleanly. No signing on Sunday per US official. Lebanon clause and frozen-asset sequencing remain as named veto points. Scenario A moved to co-modal with B (38%/38%).
+
+---
+
+### 2026-05-25 — Predictions logged for scoring at T+1 (26 May), T+3 (28 May), T+7 (1 June)
+
+**Trend:** Better (Confidence: Medium — MOU "in principle" + Khamenei endorsement + clean NOTAM expiry. Counter-signal: Lebanon clause open; IRGC contesting Hormuz framing; unsigned text; Israel "very unhappy.")
+**Threat level:** 4/5 Severe (held — MOU unsigned; Lebanon clause; IRGC sovereignty model intact; Israeli unilateral risk non-zero)
+
+**Watchlist predictions:**
+- W1 — MOU formally signed — rolling to 31 May
+- W2 — Lebanon ceasefire clause bridged — 72h / 28 May
+- W3 — US blockade lift sequencing resolved — rolling / MOU signing
+- W4 — Israeli unilateral action — rolling 72h elevated if MOU collapses
+- W5 — Socotra attribution — 26 May
+
+**Scenarios (30d):**
+- A — Negotiated framework — 38% (Δ +8pp) ← co-modal
+- B — Frozen attrition — 38% (Δ −4pp) ← co-modal
+- C — Re-escalation — 24% (Δ −4pp)
+
+**Brier score inputs (T+1, T+3, T+7):**
+- P(MOU formally signed with text published by both sides by EOD 31 May) = 0.40 (Khamenei template endorsement confirmed; but Lebanon clause named veto point; IRGC Hormuz framing gap; pattern of extension; Iranian system "does not move fast enough")
+- P(Lebanon clause bridged / resolved by 28 May) = 0.35 (named blocking actor is Israel; US cannot bridge without Netanyahu acquiescence; but Trump has overridden Netanyahu on ceasefire before)
+- P(Israeli unilateral strike on Iranian nuclear facility by 28 May) = 0.07 (reduced: NOTAM expired cleanly; MOU in principle reduces immediate window; but Israel structurally opposed to deal)
+- P(Trump resumes kinetics before EOD 27 May) = 0.09 (reduced from 0.12: MOU in-principle status, "serious negotiations" framing — but if Lebanon clause collapses this rises sharply)
+- P(Socotra small-craft incident attributed to Houthi / ceasefire violation by 26 May) = 0.12 (maintained: no new UKMTO report; attribution still pending; 72h since incident)
+- P(IRGC Hormuz permit system begins verifiable wind-down within 7 days / by 1 June) = 0.28 (conditional on MOU signing; even if signed, 30-day phase-out means wind-down starts but not complete; no signing = 0 wind-down)
+
+**Methodology notes (25 May):**
+1. Khamenei "broad template" endorsement is the first supreme-leader-level diplomatic signal confirmed by a Tier 2 source (Al Jazeera citing senior US official + CNN regional source). Upgrades "head-of-state level engagement" signal weight in Scenario A probability calculation.
+2. Lebanon clause identified as the primary veto point with named blocking actor (Israel). Add "Lebanon ceasefire wording resolution" as a standalone binary observable for Scenario A — it now sits above nuclear clause in urgency hierarchy.
+3. IRGC state media (Fars, Tasnim) contesting Trump's Hormuz framing even as MOU progresses — this is a strong leading indicator that IRGC compliance post-MOU signing may be the next structural risk (JCPOA-erosion scenario). Promote W5 (IRGC Hormuz sovereignty assertion) from watchlist to standing structural monitor.
+4. A and B co-modal for first time in tracker history. Add methodology note: when A and B are within 5pp, use Lebanon clause + US blockade sequencing as the discriminating observable rather than general diplomatic language.
