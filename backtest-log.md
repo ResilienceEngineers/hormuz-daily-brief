@@ -1149,3 +1149,59 @@ MOU "agreed in principle" with Khamenei endorsing broad template (Al Jazeera/CNN
 2. Lebanon clause identified as the primary veto point with named blocking actor (Israel). Add "Lebanon ceasefire wording resolution" as a standalone binary observable for Scenario A — it now sits above nuclear clause in urgency hierarchy.
 3. IRGC state media (Fars, Tasnim) contesting Trump's Hormuz framing even as MOU progresses — this is a strong leading indicator that IRGC compliance post-MOU signing may be the next structural risk (JCPOA-erosion scenario). Promote W5 (IRGC Hormuz sovereignty assertion) from watchlist to standing structural monitor.
 4. A and B co-modal for first time in tracker history. Add methodology note: when A and B are within 5pp, use Lebanon clause + US blockade sequencing as the discriminating observable rather than general diplomatic language.
+
+## 2026-05-26 — Day 88 Backtest Entry
+
+### T+1 scoring of Day 87 (25 May) predictions
+
+**W5 (Socotra small-craft attributed to Houthi by 26 May) — P=0.12**
+RESULT AT T+1: MISS — No Houthi attribution confirmed. UKMTO Advisory 061-26 (26 May) reported suspicious armed skiff activity in Gulf of Aden (23 May incident), but this is a separate geographic/actor track from the Socotra incident. No UKMTO or MARAD attribution of Socotra to Houthis as of 06:00 UTC 26 May.
+Brier: P=0.12 → MISS → (0.12−0)² = 0.0144. Calibration: probability was appropriately low. Socotra attribution remains unresolved — retiring from watchlist, replaced by Austria BVT nuclear intelligence as W5.
+
+**NOTAM A1010/26 clean expiry (scored yesterday at T+1 — confirmed HIT):** Already logged. No revision.
+
+**Trend assessment (Day 87): "Better"**
+RESULT AT T+1: PARTIAL MISS — "Better" was supported by NOTAM expiry and MOU in-principle framing. However, Netanyahu's 25 May Lebanon intensification order (Bloomberg/AJ, confirmed Tier 1/2) activated a new escalation vector that was not yet visible at 06:00 UTC 25 May. The "Better" call was directionally premature given the Lebanon contradiction now embedded in MOU framework. Trend revised to "Same" on Day 88. Calibration note: Lebanon clause risk was listed as counter-signal but was not weighted heavily enough given Netanyahu's coalition pressures.
+
+**W2 (Lebanon clause bridged by 28 May — P=0.35):**
+RESULT AT T+1: MISS TRENDING — Netanyahu ordered intensification (25 May evening). Lebanon clause now actively worsening, not bridging. Brier deferred to T+3 (28 May). Provisional assessment: significantly deteriorated; re-estimate P(bridged by 28 May) = 0.15 (down from 0.35).
+
+**W4 (Israeli unilateral strike on Iranian nuclear facility by 28 May — P=0.07):**
+RESULT AT T+1: MISS (provisional) — No nuclear facility strike. IDF Bekaa Valley strikes are Lebanon-theater operations, not classified as "unilateral strike on Iranian nuclear facility." Window closes 28 May. Maintained at low probability but Lebanon kinetics are escalating.
+
+**Items W1 (MOU signed by 31 May, P=0.40) and W3 (frozen-asset sequencing, rolling):** Deferred to T+3/T+7.
+
+**T+1 Brier contribution today: 0.0144 (W5 MISS). Running mean Brier on point predictions this week: 0.046.**
+
+---
+
+### 2026-05-26 — Predictions logged for scoring at T+1 (27 May), T+3 (29 May), T+7 (2 June)
+
+**Trend:** Same (Confidence: Medium — Lebanon clause now structural veto; Netanyahu intensification order issued; MOU unsigned Day 88. Counter-signal: Doha talks ongoing; SNSC path active; Khamenei endorsement standing.)
+**Threat level:** 4/5 Severe (held — Lebanon contradiction active; MOU unsigned; IRGC model intact; Israeli unilateral risk non-zero through 28 May)
+
+**Watchlist predictions:**
+- W1 — MOU formally signed — rolling to 31 May (P=0.35, Δ −5pp from yesterday; Lebanon contradiction reduces near-term probability)
+- W2 — Lebanon clause bridged or collapsed — 28 May (P=0.15 bridged, Δ −20pp; P=0.35 collapsed/deadlocked)
+- W3 — Doha frozen-asset mechanism agreed — 27 May (P=0.55; Ghalibaf/Araghchi/CB governor in Doha with Qatar PM)
+- W4 — Israeli unilateral strike on Iranian nuclear/Beirut-level infrastructure — rolling 72h (P=0.10, elevated from 0.07; Lebanon IDF Bekaa Valley escalation ongoing)
+- W5 — Austria BVT nuclear intelligence corroborated by IAEA or US response — 30 May (P=0.20)
+
+**Scenarios (30d):**
+- A — Negotiated framework — 35% (Δ −3pp)
+- B — Frozen attrition — 40% (Δ +2pp) ← re-modal
+- C — Re-escalation — 25% (Δ +1pp)
+
+**Brier score inputs (T+1, T+3, T+7):**
+- P(MOU formally signed with text published by both sides by EOD 31 May) = 0.35 (Δ −5pp; Lebanon contradiction now structural; Doha financial track cannot resolve Lebanon alone)
+- P(Lebanon clause bridged / resolved by 28 May) = 0.15 (Δ −20pp; Netanyahu intensification order issued; Trump endorsed Israel "freedom of action"; Iran non-negotiable)
+- P(Doha frozen-asset partial-release mechanism agreed by 27 May) = 0.55 (Iran CB governor + Ghalibaf + Araghchi in Doha with Qatar PM; Qatar $12B loan proposal in play per Channel 12)
+- P(Israeli unilateral strike on Iran nuclear facility or Beirut-level Hezbollah HQ by 28 May) = 0.10 (elevated from 0.07; Lebanon IDF escalation confirmed; far-right coalition pressure active; but Trump–Netanyahu relationship constraining)
+- P(Houthi resumption of commercial shipping attacks within 7 days / by 2 June) = 0.12 (Lebanon IDF intensification is primary Houthi trigger; ceasefire holding Day 18; no Houthi statement yet)
+- P(Austria BVT nuclear claim corroborated by IAEA or US intelligence assessment by 30 May) = 0.20 (Iran rejected; pattern of IAEA delayed response; if corroborated hardens US nuclear demands and reduces Scenario A probability)
+
+**Methodology notes (26 May):**
+1. Lebanon clause has overtaken frozen-asset sequencing as the primary discriminating observable. Add Lebanon IDF operational tempo (Northern Command announcements, strike intensity on Nabatieh/Bekaa vs Beirut) as a standing Tier 1 Hard signal in Scenario A/C discrimination framework.
+2. The "three-sided bind" (US endorses Israel Lebanon freedom of action + Iran demands Lebanon ceasefire + Saudi Arabia has no channel to either) identified by houseofsaud.com analysis (Tier 4, useful analytical frame confirmed by multiple Tier 1/2 sources) is a structural constraint, not a cyclical negotiating position. Update methodology: when three-sided binds are identified, add them to the watchlist as structural monitors rather than 72h items.
+3. Austria BVT intelligence report (26 May) on Iranian nuclear weapons program with ballistic missile delivery: treat as Tier 4 pending corroboration. Pattern: intelligence claims that surface during active MOU negotiations have historically been used as spoiling signals by third parties. Add "intelligence claim timing vs. negotiating calendar" as an anti-bias heuristic — do not elevate intelligence claims to Tier 2 during active diplomatic windows without IAEA or US government corroboration.
+4. UKMTO Advisory 061-26 (26 May): Gulf of Aden skiff activity is opportunistic-piracy signal, not Houthi-attributed. Retiring Socotra attribution from watchlist (W5). Replace with Austria BVT nuclear claim as W5. Pattern: unattributed maritime incidents in Gulf of Aden are at baseline risk level given UKMTO advisory history; do not conflate with Houthi ceasefire compliance monitoring unless UKMTO or MARAD explicitly attributes.
