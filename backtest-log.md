@@ -1205,3 +1205,44 @@ RESULT AT T+1: MISS (provisional) — No nuclear facility strike. IDF Bekaa Vall
 2. The "three-sided bind" (US endorses Israel Lebanon freedom of action + Iran demands Lebanon ceasefire + Saudi Arabia has no channel to either) identified by houseofsaud.com analysis (Tier 4, useful analytical frame confirmed by multiple Tier 1/2 sources) is a structural constraint, not a cyclical negotiating position. Update methodology: when three-sided binds are identified, add them to the watchlist as structural monitors rather than 72h items.
 3. Austria BVT intelligence report (26 May) on Iranian nuclear weapons program with ballistic missile delivery: treat as Tier 4 pending corroboration. Pattern: intelligence claims that surface during active MOU negotiations have historically been used as spoiling signals by third parties. Add "intelligence claim timing vs. negotiating calendar" as an anti-bias heuristic — do not elevate intelligence claims to Tier 2 during active diplomatic windows without IAEA or US government corroboration.
 4. UKMTO Advisory 061-26 (26 May): Gulf of Aden skiff activity is opportunistic-piracy signal, not Houthi-attributed. Retiring Socotra attribution from watchlist (W5). Replace with Austria BVT nuclear claim as W5. Pattern: unattributed maritime incidents in Gulf of Aden are at baseline risk level given UKMTO advisory history; do not conflate with Houthi ceasefire compliance monitoring unless UKMTO or MARAD explicitly attributes.
+
+## 2026-05-27 — Day 89 Backtest
+
+### Scoring T+1 from Day 88 (26 May) predictions
+
+| Item | Prediction | P | Outcome | Score | Brier contrib |
+|------|-----------|---|---------|-------|---------------|
+| W3 — Doha frozen-asset mechanism agreed by 27 May | Formal agreement | 0.55 | NEAR-MISS: gaps bridged per AJ source, no formal mechanism signed; Iran demanding $12B/$12B structure, Qatar denying $12B offer | MISS | (0.55−0)²=0.3025 |
+| W4 — Israeli unilateral strike on Iran nuclear by 28 May | Strike | 0.10 | PROVISIONAL MISS: USCENTCOM defensive strikes vs missile sites (not Israeli unilateral nuclear strike); window still open to 28 May | PROVISIONAL MISS | pending |
+| Trend: Same | — | — | CONFIRMED: MOU unsigned, USCENTCOM strikes in southern Iran, Iran accuses US of ceasefire violation; Lebanon clause structurally active. Same/slight worse. | HIT | — |
+| Threat: 4/5 Severe | — | — | CONFIRMED: USCENTCOM strikes + Iran ceasefire violation accusation + MOU gap persist | HIT | — |
+
+**SURPRISE (unforecast):** USCENTCOM "defensive strikes" on Iranian missile sites in southern Iran (37-15); Brent +3% to $99.58 (CNBC). Iran accused US of ceasefire violation. This was a new escalation vector; not on watchlist. Add as standing signal: USCENTCOM strike tempo on Hormuz-region assets is a Tier 1 Hard source for escalation trajectory.
+
+**Running mean Brier (point predictions this week, T+1 horizon):** Prior 0.046 + today W3 0.3025 / 2 items resolved → revised mean approximately 0.11. W3 over-confidence (P=0.55 for formal agreement same day as talks) noted. Calibration delta: "talks advancing" ≠ "formal mechanism agreed same session." Downgrade same-session agreement probability after active mediation day by −15pp going forward.
+
+### Day 89 Predictions logged for T+1 (28 May), T+3 (30 May), T+7 (3 June)
+
+**Trend:** Same (Confidence: Medium — USCENTCOM strikes + Iran ceasefire-violation accusation + MOU unsigned + Lebanon clause active. Counter-signal: Trump "close to finalizing," Doha talks "overall good," Brent near 5-week low signals market pricing in eventual deal.)
+**Threat level:** 4/5 Severe (held — USCENTCOM strikes add kinetic pressure; IRGC sovereignty model intact; Israeli unilateral risk non-zero through 28 May; structural MOU gap on Lebanon + frozen assets)
+
+**Watchlist predictions:**
+- W1 — MOU formally signed — deadline 31 May (P=0.30, Δ −5pp; USCENTCOM strikes + Iran ceasefire-violation accusation reduce near-term window; frozen-asset gap now public and hardened)
+- W2 — Lebanon clause bridged or collapsed — 28 May deadline (P=0.12 bridged Δ −3pp; P=0.40 collapsed/deadlocked Δ +5pp; Israel-Lebanon 45-day ceasefire extension holds structural gap, Trump-Netanyahu call unresolved on Lebanon end)
+- W3 — Frozen-asset partial-release mechanism agreed — rolling to 30 May (P=0.45, Δ −10pp; $12B demand hardened; Qatar denied offer; US position: relief for performance, not upfront; gap significant)
+- W4 — Israeli unilateral strike on Iran nuclear facility by 28 May (P=0.08, Δ −2pp; Netanyahu denial per Wikipedia 57-1; Trump-Netanyahu relationship constraining; window closes 28 May)
+- W5 — Austria BVT nuclear claim corroborated by IAEA or US — 30 May (P=0.20, unchanged)
+
+**Scenarios (30d):**
+- A — Negotiated framework — 32% (Δ −3pp; USCENTCOM strikes + Iran ceasefire-violation accusation + frozen-asset gap hardened)
+- B — Frozen attrition — 43% (Δ +3pp ← modal; structural deadlock confirmed by multiple vectors)
+- C — Re-escalation — 25% (Δ 0pp; USCENTCOM strikes elevated kinetics but ceasefire framework technically intact)
+
+**Brier inputs (T+1/T+3/T+7):**
+- P(MOU formally signed with text published by both sides by EOD 31 May) = 0.30
+- P(Lebanon clause bridged by 28 May) = 0.12
+- P(Frozen-asset partial release agreed in principle by 30 May) = 0.45
+- P(Israeli unilateral strike on Iran nuclear/Beirut-level Hezbollah HQ by 28 May) = 0.08
+- P(Austria BVT claim corroborated IAEA/US by 30 May) = 0.20
+- P(Houthi resumption of commercial shipping attacks by 3 June) = 0.12 (ceasefire Day 19 holding; Lebanon IDF strikes ongoing but Houthi posture unchanged per MARAD 2026-006/UKMTO)
+- P(Brent crude above $105 by 3 June) = 0.22 (currently ~$99; USCENTCOM strikes + Iran ceasefire accusation = upside risk; deal optimism = downside; net: modest upside probability)
