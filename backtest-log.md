@@ -1246,3 +1246,50 @@ RESULT AT T+1: MISS (provisional) — No nuclear facility strike. IDF Bekaa Vall
 - P(Austria BVT claim corroborated IAEA/US by 30 May) = 0.20
 - P(Houthi resumption of commercial shipping attacks by 3 June) = 0.12 (ceasefire Day 19 holding; Lebanon IDF strikes ongoing but Houthi posture unchanged per MARAD 2026-006/UKMTO)
 - P(Brent crude above $105 by 3 June) = 0.22 (currently ~$99; USCENTCOM strikes + Iran ceasefire accusation = upside risk; deal optimism = downside; net: modest upside probability)
+
+## 2026-05-28 — Day 90 Backtest Entry
+
+### Scoring T+1 from Day 89 (27 May) predictions
+
+| Item | Prediction | P | Outcome | Score | Brier contrib |
+|------|-----------|---|---------|-------|---------------|
+| W2 — Lebanon clause bridged by 28 May | Bridged | 0.12 | MISS: IDF struck 150+ Hezbollah targets Tyre/Nabatieh/Bekaa 27 May; ceasefire violations ongoing; Lebanon clause structurally active Day 90. Pentagon military track 29 May still ahead. | MISS | (0.12−0)²=0.014 |
+| W4 — Israeli unilateral strike on Iran nuclear by 28 May | Strike | 0.08 | MISS: No Israeli unilateral nuclear-site strike. USCENTCOM conducted new strikes near Bandar Abbas, but these are US operations, not Israeli unilateral. Window closed 28 May. | MISS | (0.08−0)²=0.006 |
+| Trend: Same | — | — | PARTIAL MISS/UPGRADE: Kinetics escalated (Kuwait air defense activation, IRGC counter-strike on US base, four vessels fired on at Hormuz) — "Same" was too optimistic; actual trajectory is "Worse." Trend upgraded to Worse on Day 90. | PARTIAL MISS | — |
+| Threat: 4/5 Severe | — | — | HIT: Kuwait air defense activation + IRGC counter-strike + four vessels fired on = Severe confirmed. | HIT | — |
+| W1 — MOU formally signed by 31 May (P=0.30) | — | — | PENDING (31 May deadline) | — | — |
+| W3 — Frozen-asset partial release agreed by 30 May (P=0.45) | — | — | PENDING (30 May deadline) | — | — |
+| W5 — Austria BVT corroborated by 30 May (P=0.20) | — | — | PENDING (30 May deadline) | — | — |
+
+**SURPRISE (unforecast Day 90):** Kuwait air defense activation against "hostile missile and drone threats" overnight 27/28 May (CNBC, Tier 2 Hard); IRGC claimed counter-strike on US base after USCENTCOM strikes near Bandar Abbas (CNBC/Tasnim); four vessels fired upon attempting Hormuz transit (CNN). Three-vector kinetic escalation on Day 90 was not on Day 89 watchlist. Add Kuwait infrastructure status as standing Tier 1 monitor signal.
+
+**Methodology delta (Day 90):** Calibration note: Day 89 Trend assessment of "Same" was under-calibrated given USCENTCOM strike history. Heuristic update: when USCENTCOM–IRGC kinetic exchanges occur more than once in 72h AND Gulf state air defenses are activated, default Trend to "Worse" even if ceasefire framework nominally intact. Label: "kinetic-exchange frequency threshold" heuristic.
+
+**Running mean Brier (T+1 point predictions, this week):** Prior mean ~0.11 (W3 over-confidence correction applied Day 89). Day 90 additions: W2 (0.014) + W4 (0.006) = mean revision: (0.11×2 + 0.014 + 0.006)/4 = ~0.06. Note: both Day 90 predictions were well-calibrated at low probability (0.12 and 0.08) — both MISS, but low Brier cost. Calibration delta: low-probability predictions (<0.15) are performing well; over-confidence risk remains at medium-probability tier (0.30–0.55).
+
+### Day 90 Predictions logged for T+1 (29 May), T+3 (31 May), T+7 (4 June)
+
+**Trend:** Worse (Confidence: Medium-High — Kuwait activation, IRGC counter-strike on US base, four vessels fired on at Hormuz, MOU unsigned. Counter-signal: ceasefire framework nominally intact; 29 May Pentagon track still scheduled; Brent MTD −12% signals market pricing deal.)
+**Threat level:** 4/5 Severe (held — three kinetic vectors; Gulf state interceptor depletion; IRGC operating during MOU talks = hardliner signal)
+
+**Watchlist predictions:**
+- W1 — MOU formally signed / text published by both sides by EOD 31 May (P=0.22, Δ −8pp; Kuwait activation + IRGC counter-strike widen negotiating gap; hardliner signal on both sides active Day 90)
+- W2 — Pentagon Lebanon military-track meeting 29 May productive (P=0.45; meeting confirmed scheduled; both parties engaged; but IDF 150+ strikes 27 May are headwind)
+- W3 — Frozen-asset partial-release agreed in principle by 30 May (P=0.35, Δ −10pp; gap hardened further by Day 90 kinetics; Iran domestic approval path complicated)
+- W4 — Kuwait escalation contained within 72h (no IRGC formal ceasefire withdrawal, no Gulf state formal attribution to Iran) (P=0.60; historical pattern: IRGC conducts exchange then steps back; but interceptor depletion creates incentive for escalation)
+- W5 — Austria BVT nuclear claim corroborated by IAEA/US by 30 May (P=0.18, Δ −2pp; no corroboration signals spoiling-signal pattern more likely)
+
+**Scenarios (30d):**
+- A — Negotiated framework — 28% (Δ −4pp)
+- B — Frozen attrition — 42% (Δ −1pp) ← modal
+- C — Re-escalation — 30% (Δ +5pp)
+
+**Brier inputs (T+1/T+3/T+7):**
+- P(MOU formally signed with text published by both sides by EOD 31 May) = 0.22
+- P(29 May Pentagon Lebanon track meeting publicly described as "productive" by State Dept) = 0.45
+- P(Frozen-asset partial release agreed in principle by 30 May) = 0.35
+- P(Kuwait escalation contained — no IRGC formal ceasefire withdrawal declaration within 72h) = 0.60
+- P(Austria BVT claim corroborated IAEA/US by 30 May) = 0.18
+- P(Houthi resumption of commercial shipping attacks by 4 June) = 0.18 (↑ from 0.12; IDF 150+ strikes in Lebanon 27 May approaching Houthi-stated trigger threshold; June 2–3 Lebanon talks critical)
+- P(Brent crude above $100 by 4 June) = 0.35 (currently ~$95.59; Kuwait activation + IRGC counter-strike = upside; but MTD −12% and deal optimism = structural downside; net: moderate upside probability)
+- P(Any Gulf state energy infrastructure multi-day outage by 4 June) = 0.20 (Kuwait Mina al-Ahmadi refinery repeatedly struck; interceptor depletion ~75%; acute risk window elevated by Day 90 kinetics)
