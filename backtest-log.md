@@ -1293,3 +1293,50 @@ RESULT AT T+1: MISS (provisional) — No nuclear facility strike. IDF Bekaa Vall
 - P(Houthi resumption of commercial shipping attacks by 4 June) = 0.18 (↑ from 0.12; IDF 150+ strikes in Lebanon 27 May approaching Houthi-stated trigger threshold; June 2–3 Lebanon talks critical)
 - P(Brent crude above $100 by 4 June) = 0.35 (currently ~$95.59; Kuwait activation + IRGC counter-strike = upside; but MTD −12% and deal optimism = structural downside; net: moderate upside probability)
 - P(Any Gulf state energy infrastructure multi-day outage by 4 June) = 0.20 (Kuwait Mina al-Ahmadi refinery repeatedly struck; interceptor depletion ~75%; acute risk window elevated by Day 90 kinetics)
+
+## 2026-05-29 — Day 91 Backtest Entry
+
+### Scoring T+1 from Day 90 (28 May) predictions
+
+| Item | Prediction | P | Outcome | Score | Brier contrib |
+|------|-----------|---|---------|-------|---------------|
+| W2 — Pentagon Lebanon track 29 May productive | Productive | 0.45 | MISS: IDF struck Beirut Hezbollah missile commander 28 May — first Beirut strike since early May (CNN/NBC); Lebanon military track severely stressed; no "productive" State Dept readout found. Meeting context: headwind confirmed. | MISS | (0.45−0)²=0.203 |
+| W4 — Kuwait escalation contained within 72h (no IRGC formal ceasefire withdrawal) | Contained | 0.60 | PARTIAL HIT: No formal IRGC ceasefire withdrawal declaration. But IRGC warned "next response more decisive"; CENTCOM called missile "egregious ceasefire violation"; Vance said "messy but ceasefire intact." Kinetics did not widen to multi-state war. Scoring as HIT on formal criterion (no withdrawal) despite deterioration. | HIT | (0.60−1)²=0.160 |
+| Trend: Worse | — | — | HIT: Kuwait ballistic missile, 4 vessels fired on, Beirut strike, IRGC escalation warning — "Worse" confirmed on Day 91. | HIT | — |
+| Threat: 4/5 Severe | — | — | HIT: Three kinetic vectors persisting; CENTCOM "egregious violation" framing; no downgrade signals. | HIT | — |
+| W1 — MOU signed by EOD 31 May (P=0.22) | — | — | PENDING (31 May deadline) | — | — |
+| W3 — Frozen-asset partial release by 30 May (P=0.35) | — | — | PENDING (30 May deadline; NBC: deal agreed in outline but both sides delaying) | — | — |
+| W5 — Austria BVT corroborated by 30 May (P=0.18) | — | — | PENDING (30 May deadline; no corroboration found) | — | — |
+
+**SURPRISE (unforecast Day 91):** Trump threatened to "blow up" Oman (27 May cabinet meeting, confirmed State Dept repost on X) and Treasury Bessent formally warned Oman against supporting PGSA tolling. Oman is the primary exit lane and mediation hub — this threat was not on the Day 90 watchlist. Add Oman diplomatic stability as W4 in Day 91 watchlist.
+
+**Methodology delta (Day 91):** Calibration note: W2 over-confidence at P=0.45 for "productive Lebanon track" — IDF Beirut strikes create a structural contradiction between Lebanon ceasefire maintenance and MOU progress that was under-weighted. Heuristic update: when IDF conducts Beirut-level strikes within 24h of scheduled diplomatic meeting, downgrade "productive" probability by at least 20pp from prior estimate. Label: "Beirut-strike diplomatic discount" heuristic.
+
+**Running mean Brier (T+1 point predictions):** Prior mean ~0.06 (Day 90 well-calibrated low-P predictions). Day 91 additions: W2 (0.203) + W4 (0.160) = mean revision: (0.06×4 + 0.203 + 0.160)/6 = ~0.10. Note: W2 is a meaningful calibration hit — 0.45 is medium-probability tier where over-confidence risk was flagged on Day 90. W4 HIT at 0.60 is within calibration range. Net: medium-probability tier (0.30–0.55) is confirmed as over-confidence zone; downweight diplomatic "productive" calls in active kinetic windows.
+
+### Day 91 Predictions logged for T+1 (30 May), T+3 (1 June), T+7 (5 June)
+
+**Trend:** Worse (Confidence: Medium-High — IRGC ballistic missile to Kuwait; 4 vessels fired on; Beirut strike; MOU unsigned; IRGC "more decisive" warning. Counter-signal: deal outline agreed per Arab mediator; Vance "good faith"; Brent structural decline = market pricing deal probability.)
+**Threat level:** 4/5 Severe (held — three kinetic vectors; interceptor depletion; IRGC hardliner signals active during MOU talks)
+
+**Watchlist predictions:**
+- W1 — MOU text formally published by both parties by EOD 31 May (P=0.30, Δ +8pp; NBC Arab-mediator "agreed in Doha" is strongest positive signal to date; offset by Trump sign-off uncertainty and IRGC Tasnim denial)
+- W2 — IRGC follow-through on "more decisive response" within 48h of Day 91 (P=0.30; historical IRGC pattern: signal threat then step back; but ballistic missile to Kuwait represents escalation above prior pattern)
+- W3 — Trump formal sign-off on MOU by 31 May (P=0.30; "Trump decides" per Bessent; Vance "TBD"; Netanyahu/hardliner pressure = key downside)
+- W4 — Oman maintains mediation role / no formal diplomatic downgrade to US by 3 June (P=0.72; Oman has continued engagement through extraordinary pressure to date; "blow up" threat may produce formal protest but unlikely full withdrawal before June 2–3 Lebanon talks)
+- W5 — Houthi public statement or Red Sea maritime incident within 72h of continued IDF Beirut operations (P=0.25; IDF Beirut strike 28 May approaches Houthi stated trigger; conditional on no Lebanon ceasefire talks progress)
+
+**Scenarios (30d):**
+- A — Negotiated framework — 30% (Δ +2pp; deal closer structurally but signing uncertain)
+- B — Frozen attrition — 42% (Δ 0pp) ← modal
+- C — Re-escalation — 28% (Δ −2pp; Kuwait contained; no formal ceasefire withdrawal)
+
+**Brier inputs (T+1/T+3/T+7):**
+- P(MOU text publicly released by both US and Iran by EOD 31 May) = 0.30
+- P(IRGC executes follow-on strike on Kuwait or Gulf-state territory within 48h of Day 91) = 0.30
+- P(Trump formally signs off on MOU by 31 May) = 0.30
+- P(Oman maintains active mediation role without formal diplomatic downgrade through 3 June) = 0.72
+- P(Houthi public escalation statement or Red Sea maritime incident by 1 June) = 0.25
+- P(Austria BVT nuclear claim corroborated by IAEA/US by 30 May) = 0.12 (Δ −6pp; 30 May now <48h away; silence = likely spoiling signal)
+- P(Brent crude above $100 by 5 June) = 0.28 (currently ~$93–97; deal-optimism structural downside; kinetic upside; net: below $100 more likely as deal proximity caps upside)
+- P(Any Gulf-state energy infrastructure multi-day outage by 5 June) = 0.22 (Kuwait Mina al-Ahmadi acutely at risk; IRGC "more decisive" warning active; interceptor depletion ~75%)
