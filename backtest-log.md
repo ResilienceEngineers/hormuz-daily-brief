@@ -1391,3 +1391,51 @@ Prior mean ~0.10 (Day 91). Day 92 additions: W2 MISS (0.090) + W4 HIT (0.078) + 
 - P(Brent above $100 by 6 June) = 0.22 (deal proximity structural downside; IRGC strike = upside tail)
 - P(MOU text published jointly by US and Iran by EOD 5 June) = 0.40 (slightly higher than signing P due to parallel publication possible)
 - P(Any Gulf-state energy infrastructure multi-day outage by 5 June) = 0.18 (Δ −4pp; no follow-through 48h; IRGC standdown pattern confirmed)
+
+## 2026-05-31 — Day 93 Backtest Entry
+
+### Scoring T+1 from Day 92 (30 May) predictions
+
+| Item | Prediction | P | Outcome | Score | Brier contrib |
+|------|-----------|---|---------|-------|---------------|
+| W1 — Trump MOU sign-off by EOD 2 June (P=0.35) | Sign-off | 0.35 | PENDING — Situation Room 29 May concluded without decision; Trump 30 May made fresh demands Iran rejected. Decision not yet at EOD 2 June. | PENDING | — |
+| W2 — Khamenei sign-off by EOD 2 June (P=0.30) | Sign-off | 0.30 | PENDING — JPost 28 May: Mojtaba Khamenei had not approved. IAEA 31 May HEU report adds complication. | PENDING | — |
+| W3 — PGSA enforcement action on non-IRGC vessel (P=0.20) | Enforcement | 0.20 | MISS (72h window): No confirmed PGSA enforcement action 29–31 May. PGSA sanctioned, vowed continuity, no kinetic follow-through. | MISS | (0.20−0)²=0.040 |
+| W4 — Lebanon June 2–3 track not collapsing (P=0.45) | No collapse | 0.45 | PARTIAL — IDF advancing; Hezbollah launching barrages; schools closed northern Israel (CNN 29–30 May). Track strained but not formally collapsed as of 06:01 UTC 31 May. | PARTIAL | — |
+| W5 — No new IRGC kinetic strike on Gulf-state energy infra through 5 June (P=0.70) | No strike | 0.70 | HOLDING HIT: No confirmed IRGC follow-on strike 29–31 May. 72h+ standdown. Pattern consistent. | HOLDING HIT | (0.70−1)²=0.090 (provisional) |
+| Trend: Same → | — | — | HIT: Day 93 opens as Same — IRGC standdown, MOU unsigned, no new kinetics, market pricing flat. | HIT | — |
+| Threat: 4/5 Severe | — | — | HIT: UKMTO Critical, IRGC warning active, Lebanon escalating, nuclear complication added. | HIT | — |
+
+**T+1 scored (Day 92 → 93):**
+W3 MISS (0.040). W5 provisional HIT (0.090). Running mean Brier update: prior ~0.095. Day 93 additions so far: W3 MISS (0.040) + W5 HIT (0.090 provisional). Mean revision pending W1/W2/W4 resolution.
+
+**Methodology delta (Day 93):** IAEA quarterly report landed on Day 93 as a surprise Hard-tier complication to MOU nuclear clause — not anticipated in Day 92 watchlist. Add heuristic: "IAEA quarterly reporting cycles (approx. end-of-February, end-of-May, end-of-August, end-of-November) are structurally timed to intersect with diplomatic windows and should be flagged as scheduled risk events in the watchlist." Label: "IAEA cycle = diplomatic complication risk." Add to forward watchlist for end-August 2026.
+
+---
+
+### Day 93 Predictions logged for T+1 (1 June), T+3 (3 June), T+7 (7 June)
+
+**Trend:** Same → (Confidence: Medium)
+**Threat level:** 4/5 Severe (held)
+
+**Watchlist predictions:**
+- W1 — Trump publicly announces MOU signing by EOD 2 June (P=0.28; Δ −7pp from Day 92; IAEA HEU report + Trump 30 May demand rejection reduce probability; mediation pressure intact)
+- W2 — Iran supreme leadership endorses MOU by EOD 2 June (P=0.25; Δ −5pp; IAEA report hardens IRGC position; Iran FM denials continuing)
+- W3 — Lebanon front: no formal ceasefire collapse by 3 June (P=0.55; IDF advancing but formal collapse requires political decision; Houthi re-entry trigger conditioned on this)
+- W4 — IRGC maintains standdown on Gulf-state energy infrastructure through 5 June (P=0.68; Δ −2pp; 72h pattern holds but IAEA report may provide political cover for escalation signal)
+- W5 — Houthi commercial-shipping standdown continues through 3 June (P=0.78; Day 23+ holding; Lebanon formal collapse would shift to 0.35)
+
+**Scenarios (30d):**
+- A — Negotiated framework — 33% (Δ −2pp; IAEA HEU complication; Trump demand rejection)
+- B — Frozen attrition — 44% (Δ +2pp) ← modal
+- C — Re-escalation — 23% (Δ 0pp)
+
+**Brier inputs (T+1/T+3/T+7):**
+- P(Trump announces MOU signing by EOD 2 June) = 0.28
+- P(Iran supreme leadership endorses MOU by EOD 2 June) = 0.25
+- P(Lebanon formal ceasefire collapse by 3 June) = 0.45 (complement of W3 above)
+- P(IRGC maintains Gulf-state energy infra standdown through 5 June) = 0.68
+- P(Houthi commercial-shipping standdown through 3 June) = 0.78
+- P(Brent above $100 by 7 June) = 0.20 (IAEA report adds tail risk; deal optimism caps upside; physical flows unchanged)
+- P(MOU text published jointly by US and Iran by EOD 5 June) = 0.35 (Δ −5pp; IAEA complication; demand rejection)
+- P(Any Gulf-state energy infrastructure multi-day outage by 5 June) = 0.16 (72h standdown pattern; IRGC restraint in MOU window confirmed again)
