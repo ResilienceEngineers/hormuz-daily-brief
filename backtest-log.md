@@ -1439,3 +1439,55 @@ W3 MISS (0.040). W5 provisional HIT (0.090). Running mean Brier update: prior ~0
 - P(Brent above $100 by 7 June) = 0.20 (IAEA report adds tail risk; deal optimism caps upside; physical flows unchanged)
 - P(MOU text published jointly by US and Iran by EOD 5 June) = 0.35 (Δ −5pp; IAEA complication; demand rejection)
 - P(Any Gulf-state energy infrastructure multi-day outage by 5 June) = 0.16 (72h standdown pattern; IRGC restraint in MOU window confirmed again)
+
+## 1 June 2026 — Day 94
+
+### Scoring T+1 from Day 93 (31 May) predictions
+
+| Item | Prediction | P | Outcome | Score | Brier contrib |
+|------|-----------|---|---------|-------|---------------|
+| W1 — Trump announces MOU signing by EOD 2 June (P=0.28) | Signing | 0.28 | PENDING — No signing confirmed as of 06:01 UTC 1 June. EOD 2 June not yet reached. | PENDING | — |
+| W2 — Khamenei endorses MOU by EOD 2 June (P=0.25) | Endorsement | 0.25 | PENDING — No Mojtaba Khamenei confirmed sign-off as of 06:01 UTC 1 June. | PENDING | — |
+| W3 — Lebanon no formal ceasefire collapse by 3 June (P=0.55) | No collapse | 0.55 | HIT (provisional): Round 4 Israel–Lebanon talks confirmed for Washington 2–3 June. Ceasefire formally holding per Wikipedia. Lebanon ceasefire extended 45 days from 15 May. | HIT provisional | (0.55−1)²=0.203 (provisional) |
+| W4 — IRGC maintains standdown on Gulf-state energy infra through 5 June (P=0.68) | Standdown | 0.68 | HOLDING HIT: No confirmed new IRGC kinetic strike on Gulf-state energy infrastructure 31 May–1 June. Pattern continues. | HIT provisional | (0.68−1)²=0.102 (provisional) |
+| W5 — Houthi commercial-shipping standdown through 3 June (P=0.78) | Standdown | 0.78 | MISS: On 1 June, Houthis targeted Maltese-flagged oil tanker Abliani, cargo ship Maina, and LNG carrier Al Oraiq (Wikipedia Houthi attacks on commercial vessels, 1 June entries). Day 23+ standdown broken. | MISS | (0.78−0)²=0.608 |
+| Trend: Same → | — | — | HIT: Situation remains in frozen-attrition band; no signing, no new major kinetics, Houthi re-emergence a shift but not yet structural escalation. | HIT | — |
+| Threat: 4/5 Severe | — | — | MAINTAINED: UKMTO Critical active, Houthi re-emergence confirms 4/5 structural read. | HIT | — |
+
+**T+1 scored (Day 93 → 94):**
+W5 MISS (0.608) — significant. W3 provisional HIT (0.203). W4 provisional HIT (0.102). Running mean Brier update: prior ~0.095. Day 94 addition: W5 MISS (0.608) is a major calibration signal. Houthi standdown at P=0.78 was overconfident given Lebanon ceasefire tension. Methodology delta: **Houthi standdown probability should decay faster when Lebanon ceasefire is under stress AND MOU window is open; the two conditions together create Houthi incentive for solidarity signaling. Recalibrate: when Lebanon ceasefire violations are actively reported AND US-Iran MOU is unsigned for >7 days, Houthi standdown P ceiling = 0.60, not 0.78.**
+
+**From Day 92 (30 May) — W1/W2/W4 now scored:**
+- W3 Day 92 (PGSA enforcement, P=0.20): MISS — confirmed 31 May.
+- W5 Day 92 (No IRGC kinetic strike through 5 June, P=0.70): HOLDING — still no confirmed Gulf-state energy infra strike.
+- W4 Day 92 (Lebanon June 2–3 track not collapsing, P=0.45): HIT — talks proceeding.
+
+---
+
+### Day 94 Predictions logged for T+1 (2 June), T+3 (4 June), T+7 (8 June)
+
+**Trend:** → Same (Confidence: Medium)
+**Threat level:** 4/5 Severe (held; Houthi re-emergence reconfirms)
+
+**Watchlist predictions:**
+- W1 — Trump formally signs/announces MOU by EOD 2 June (P=0.25; Δ −3pp from Day 93; no new positive signal, Houthi re-emergence complicates momentum)
+- W2 — Iran supreme leadership endorses MOU text by EOD 3 June (P=0.22; Δ −3pp; Mojtaba Khamenei no confirmed yes; IAEA HEU report continues to harden position)
+- W3 — June 2–3 Washington Lebanon talks (Round 4) proceed without formal collapse (P=0.72; talks confirmed; Lebanese delegation led by Karam; Hezbollah opposes but Lebanon government proceeding)
+- W4 — IRGC maintains standdown on Gulf-state energy infrastructure through 5 June (P=0.65; Δ −3pp; Houthi re-emergence may embolden parallel IRGC signaling)
+- W5 — Houthi attacks on commercial shipping continue or expand through 4 June (P=0.70; Abliani/Maina/Al Oraiq 1 June = standdown broken; pattern shift)
+
+**Scenarios (30d):**
+- A — Negotiated framework — 31% (Δ −2pp; no signing, Houthi resumption adds complexity)
+- B — Frozen attrition — 46% (Δ +2pp) ← modal
+- C — Re-escalation — 23% (Δ 0pp)
+
+**Brier inputs (T+1/T+3/T+7):**
+- P(Trump announces MOU signing by EOD 2 June) = 0.25
+- P(Iran supreme leadership confirms MOU endorsement by EOD 3 June) = 0.22
+- P(Lebanon June 2–3 talks proceed without collapse) = 0.72
+- P(IRGC maintains Gulf-state energy infra standdown through 5 June) = 0.65
+- P(Houthi attacks on commercial shipping continue through 4 June) = 0.70
+- P(Brent above $100 by 8 June) = 0.18 (deal optimism caps upside; Houthi re-emergence minor upside tail)
+- P(MOU text jointly published by US and Iran by EOD 5 June) = 0.30 (Δ −5pp; unsigned principal approvals; Houthi complication)
+- P(Any Gulf-state energy infrastructure multi-day outage by 5 June) = 0.15 (IRGC standdown pattern intact; Kuwait interceptor depletion risk)
+- P(Strait of Hormuz commercial transits exceed 10/day by 8 June) = 0.08 (mine clearance + MOU signature required; both absent)
