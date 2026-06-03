@@ -1539,3 +1539,48 @@ W5 MISS (0.608) — significant. W3 provisional HIT (0.203). W4 provisional HIT 
 - P(MOU text jointly published by US and Iran by EOD 9 June) = 0.18 (Δ −12pp; talk suspension + Reuters declining report)
 - P(Any Gulf-state energy infrastructure multi-day outage by 5 June) = 0.20 (Kuwait interceptor ~75% depleted; IRGC BMs active this weekend)
 - P(Bab al-Mandeb formal closure or ≥3 attacks in 24h by EOD 5 June) = 0.30 (Ghaani operational signal; Houthi attacks confirmed 1 Jun)
+
+## 3 June 2026 (Day 96) — Scoring + New Predictions
+
+### Scoring Day 95 predictions (T+1, made 2 June, scored against 3 June evidence)
+
+| Item | Prediction | P | Outcome | Score | Brier contrib |
+|------|-----------|---|---------|-------|---------------|
+| W1 — Iran formally resumes MOU mediator talks by EOD 3 June | Resumption | 0.35 | PARTIAL HIT: Rubio Senate testimony 2 Jun confirmed talks ongoing; CNN regional source "back on track"; Iran Fars said messages stopped but US contradicted; Lebanon Round 4 continuing reduces suspension rationale. Scored 0.5 (ambiguous). | PARTIAL | (0.35−0.5)²=0.023 |
+| W2 — Houthi/Quds Force kinetic action in Bab al-Mandeb by EOD 4 June | Attack | 0.45 | MISS: No confirmed Houthi attack on commercial vessel 2–3 June per Wikipedia Houthi attacks tracker. Next confirmed attacks 5 June (Roza/Vantage Dream). | MISS | (0.45−0)²=0.203 |
+| W3 — IRGC strike on Gulf energy infra by EOD 5 June | Strike | 0.22 | MISS (partial): IRGC BMs intercepted over Kuwait 3 June (CNN); no confirmed energy infrastructure multi-day outage. Interception ≠ outage. | MISS | (0.22−0)²=0.048 |
+| W4 — Lebanon Round 4 talks produce outcome without total breakdown | No collapse | 0.55 | HIT: Talks began 2 June (Times of Israel/AFP); State Dept "progress continues on political and security tracks"; talks continuing 3 June. No collapse. | HIT | (0.55−1)²=0.203 |
+| W5 — US-Iran contact resumes with public senior confirmation by EOD 5 June | Confirmation | 0.40 | HIT: Rubio Senate Foreign Relations testimony 2 June = public senior confirmation; CNN confirmed talks back on track. | HIT | (0.40−1)²=0.360 |
+
+**T+1 Brier mean (Day 95→96):** (0.023+0.203+0.048+0.203+0.360)/5 = 0.167
+
+**Methodology note:** W2 miss confirms pattern: Houthi attacks after standdown break are episodic, not daily. The 1 June attacks were a breakout event; subsequent days may see pauses before next wave. Calibration: reduce daily P(Houthi attack on commercial vessel) from 0.45 to ~0.30 for 24h windows when no fresh trigger/signal exists the same day.
+
+---
+
+### Day 96 Predictions logged for T+1 (4 June), T+3 (6 June), T+7 (10 June)
+
+**Trend:** ↑ Worse (Confidence: Medium)
+**Threat level:** 4/5 Severe (stable; dual-chokepoint activation risk remains primary escalation path to 5/5)
+
+**Watchlist predictions:**
+- W1 — Lebanon Round 4 concludes 3 June with joint communiqué or clear framework (no full collapse) (P=0.60; talks continuing per State Dept; Trump pressed Netanyahu; Hezbollah agreed to stop shooting per Trump claim)
+- W2 — Iran provides public confirmation of active MOU channel via FM or intermediary by EOD 5 June (P=0.38; Rubio confirmed ongoing; Iran Fars denial contradicted by US; Lebanon track proceeding reduces pressure to suspend)
+- W3 — Houthi kinetic action on commercial vessel in Red Sea/Gulf of Aden by EOD 6 June (P=0.55; Abliani/Maina/Al Oraiq 1 Jun; Wikipedia shows next attacks 5 Jun; pattern accelerating)
+- W4 — IRGC BM/drone strike on Kuwait energy or water infrastructure causing confirmed multi-day outage by EOD 7 June (P=0.18; interceptions ongoing; no outage confirmed yet; interceptor depletion risk remains)
+- W5 — Brent closes above $100 by EOD 6 June (P=0.28; currently $96; IEA critical inventory warning; Iran message-stoppage ambiguity; upside tail from dual-chokepoint)
+
+**Scenarios (30d):**
+- A — Negotiated framework — 27% (Δ +2pp; Rubio nuclear concession signal + Lebanon talks continuing = incremental positive)
+- B — Frozen attrition — 46% (Δ +2pp) ← modal
+- C — Re-escalation — 27% (Δ −4pp; Lebanon de-escalation signal reduces immediate tail)
+
+**Brier inputs (T+1/T+3/T+7):**
+- P(Lebanon Round 4 concludes without formal collapse by EOD 3 June) = 0.60
+- P(Iran provides public MOU channel confirmation by EOD 5 June) = 0.38
+- P(Houthi kinetic on commercial vessel Red Sea/GoA by EOD 6 June) = 0.55
+- P(IRGC causes confirmed Gulf energy/water outage ≥ 1 day by EOD 7 June) = 0.18
+- P(Brent above $100 by EOD 6 June) = 0.28
+- P(MOU jointly published by US and Iran by EOD 10 June) = 0.20 (Rubio "could happen today/tomorrow/next week"; nuclear concession signal; still no Trump sign-off)
+- P(Hormuz commercial transits exceed 10/day by EOD 10 June) = 0.06 (mine clearance not started; no MOU signed)
+- P(Any Houthi Bab al-Mandeb formal closure action by EOD 7 June) = 0.15 (attacks resumed but no closure; dual-chokepoint scenario requires deliberate escalation decision)
