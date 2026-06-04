@@ -1584,3 +1584,50 @@ W5 MISS (0.608) — significant. W3 provisional HIT (0.203). W4 provisional HIT 
 - P(MOU jointly published by US and Iran by EOD 10 June) = 0.20 (Rubio "could happen today/tomorrow/next week"; nuclear concession signal; still no Trump sign-off)
 - P(Hormuz commercial transits exceed 10/day by EOD 10 June) = 0.06 (mine clearance not started; no MOU signed)
 - P(Any Houthi Bab al-Mandeb formal closure action by EOD 7 June) = 0.15 (attacks resumed but no closure; dual-chokepoint scenario requires deliberate escalation decision)
+
+## 4 June 2026 (Day 97) — Scoring + New Predictions
+
+### Scoring Day 96 predictions (T+1, made 3 June, scored against 4 June evidence)
+
+| Item | Prediction | P | Outcome | Score | Brier contrib |
+|------|-----------|---|---------|-------|---------------|
+| W1 — Lebanon Round 4 concludes without formal collapse | No collapse | 0.60 | HIT: Israel-Lebanon joint ceasefire statement at State Dept 3 June (Axios, CBS, Xinhua); next round 22 June Washington. No collapse — formal framework agreed. | HIT | (0.60−1)²=0.160 |
+| W2 — Iran public MOU channel confirmation by EOD 5 June | Confirmation | 0.38 | MISS: No Iranian public confirmation; Rubio hardened HEU condition 3 June. Iran has not publicly acknowledged Lebanon ceasefire as precondition met. | MISS | (0.38−0)²=0.144 |
+| W3 — Houthi kinetic on commercial vessel by EOD 6 June | Attack | 0.55 | HIT: Roza + Vantage Dream attacked 5 June Red Sea (Wikipedia Houthi tracker); Maersk Seletar Arabian Sea drone claim also made 5 Jun. | HIT | (0.55−1)²=0.203 |
+| W4 — IRGC confirmed Gulf energy/water outage ≥1 day by EOD 7 June | Outage | 0.18 | PARTIAL HIT: Kuwait Airport struck 3 Jun — civilian transport outage, 1 killed, 63 injured, flights suspended (The National, Arab News). Not energy infra specifically. Score 0.5 (civilian infra outage confirmed, energy infra not). | PARTIAL | (0.18−0.5)²=0.102 |
+| W5 — Brent above $100 by EOD 6 June | >$100 | 0.28 | PARTIAL HIT: Brent $101.36 on morning 3 June (Fortune); closed $96.97 on 4 June (Trading Economics). Crossed $100 intraday. Score 0.5. | PARTIAL | (0.28−0.5)²=0.048 |
+
+**T+1 Brier mean (Day 96→97):** (0.160+0.144+0.203+0.102+0.048)/5 = 0.131
+
+**Methodology note:** Lebanon ceasefire was the highest-information event of the period — well-calibrated at P=0.60. Houthi episodic cluster pattern confirmed again: pause 2–4 June, cluster 5 June. W4 partial on civilian vs energy infrastructure distinction — the Kuwait Airport strike is the leading indicator for the energy infra tail risk, not the event itself. Rubio HEU hardline was a surprise that invalidated W2 (Iran confirmation unlikely while US is moving goalposts).
+
+**Calibration update:** Reduce P(Iran senior public confirmation) for next 48h given Rubio HEU hardening. Increase P(Houthi attack next cluster) given confirmed episodic pattern restoring — raise baseline 24h P from 0.30 to 0.38 when last attack <5 days ago.
+
+---
+
+### Day 97 Predictions logged for T+1 (5 June), T+3 (7 June), T+7 (11 June)
+
+**Trend:** ↑ Worse (Confidence: High)
+**Threat level:** 4/5 Severe (stable; Kuwait Airport civilian fatality raises floor; energy infra strike would trigger 5/5)
+
+**Watchlist predictions:**
+- W1 — Hezbollah verifiably complies with Litani withdrawal — no fresh rocket/drone strikes on Israel for ≥48h by EOD 7 June (P=0.40; Hezbollah conducted several drone attacks 48h post-1 Jun ceasefire; compliance historically poor; Trump pressure high)
+- W2 — Iran provides senior-level public acknowledgment that Lebanon ceasefire meets MOU precondition — via FM Araghchi, Tasnim, or intermediary — by EOD 7 June (P=0.30; Rubio HEU hardening reduces Iran's incentive to publicly accept; Lebanon deal not yet verified by Hezbollah)
+- W3 — Houthi second attack cluster (≥2 commercial vessels) in Red Sea/GoA by EOD 8 June (P=0.55; 5 Jun cluster = Roza/Vantage Dream; episodic pattern predicts next cluster within 3–5 days)
+- W4 — IRGC strike on Gulf-state energy infrastructure (oil terminal, refinery, pipeline, or desalination) causing confirmed ≥1-day outage by EOD 9 June (P=0.25; Kuwait Airport strike is leading indicator; interceptor depletion accelerating; IRGC doctrine now demonstrably targeting civilian-adjacent infrastructure)
+- W5 — US-Iran MOU jointly published and signed by EOD 11 June (P=0.22; Lebanon ceasefire removed key Iranian precondition; but Rubio HEU condition and IRGC escalation create headwinds; Rubio said "could happen today/tomorrow/next week" 2 Jun)
+
+**Scenarios (30d):**
+- A — Negotiated framework — 30% (Δ +3pp; Lebanon ceasefire framework removes Iran's primary precondition)
+- B — Frozen attrition — 43% (Δ −3pp) ← modal
+- C — Re-escalation — 27% (Δ 0pp; Kuwait Airport fatality balanced by Lebanon de-escalation)
+
+**Brier inputs (T+1/T+3/T+7):**
+- P(Hezbollah ≥48h verified ceasefire compliance by EOD 7 June) = 0.40
+- P(Iran public MOU/Lebanon precondition acknowledgment by EOD 7 June) = 0.30
+- P(Houthi ≥2-vessel attack cluster Red Sea/GoA by EOD 8 June) = 0.55
+- P(IRGC Gulf energy infra confirmed outage by EOD 9 June) = 0.25
+- P(MOU jointly signed/published by EOD 11 June) = 0.22
+- P(Brent above $100 by EOD 8 June) = 0.40 (intraday $101 on 3 Jun; EIA inventory draws; Kuwait Airport escalation risk)
+- P(Kuwait Airport suffers second IRGC strike by EOD 10 June) = 0.18 (IRGC 30-missile salvo pattern; precedent now set)
+- P(Hormuz commercial transits exceed 20/day by EOD 11 June) = 0.08 (no MOU signed; mine threat unchanged)
