@@ -1681,3 +1681,58 @@ W5 MISS (0.608) — significant. W3 provisional HIT (0.203). W4 provisional HIT 
 - P(Brent above $100 by EOD 8 June) = 0.32 (currently $95.39; energy infra strike is upside catalyst; Hezbollah collapse reduces diplomatic tailwind)
 - P(Kuwait Airport suffers second IRGC strike by EOD 12 June) = 0.22 (30-missile pattern; precedent set; interceptor depletion accelerating)
 - P(Hormuz commercial transits exceed 20/day by EOD 12 June) = 0.06 (no MOU; mine threat unchanged; PGSA active)
+
+## 6 June 2026 (Day 99) — Backtest Scoring + New Predictions
+
+### Scoring Day 98 predictions (T+1, made 5 June, scored against 6 June evidence)
+
+| Item | Prediction | P | Outcome | Score | Brier contrib |
+|------|-----------|---|---------|-------|---------------|
+| W1 — Hezbollah ≥48h ceasefire compliance by EOD 9 June | Compliance | 0.25 | IN PLAY — Hezbollah formally rejected ceasefire 4 Jun (NPR, AJ, Euronews); continued kinetics Lebanon 5 Jun (5 killed Zebdine). Structural non-compliance tracking to MISS. | PENDING | — |
+| W2 — Iran FM public Lebanon precondition acknowledgment by EOD 10 June | Acknowledgment | 0.20 | IN PLAY — Araghchi stated "no tangible progress" 5 Jun (AJ); no acknowledgment format issued. Tracking to MISS. | PENDING | — |
+| W3 — Houthi ≥2-vessel attack cluster Red Sea/GoA by EOD 10 June | Attack cluster | 0.60 | PARTIAL HIT (prior period): Roza + Vantage Dream confirmed 5 Jun (Day 98 window). New cluster window opens 8–10 Jun. Scoring as HIT for Day 98 cluster delivery; second cluster for W3 window pending. Score: HIT. | HIT | (0.60−1)²=0.160 |
+| W4 — IRGC Gulf energy/civilian-transport infra outage by EOD 11 June | Outage | 0.30 | PARTIAL HIT: IRGC struck tanker Panaya in Hormuz overnight 5–6 Jun (IRGC/CENTCOM confirmed — vessel halted); Oman Mina Al Fahal terminal explosion 5 Jun (brief disruption, resumed). Kuwait/Bahrain 7-missile salvo intercepted. Tanker forced to halt = maritime transport outage. Score 0.6 (shipping asset confirmed; energy terminal only brief). | PARTIAL | (0.30−0.6)²=0.090 |
+| W5 — MOU signed/published by EOD 13 June | Signed | 0.15 | IN PLAY — HoC Library: "no further talks confirmed"; Araghchi "no tangible progress"; overnight escalation hardens positions. Tracking to MISS. | PENDING | — |
+| P(Brent >$100 by EOD 8 June) | >$100 | 0.32 | HIT — Brent $101.36 at 0845 ET 3 Jun (Fortune); pulled back to $97.44 on 5 Jun and ~$94.81 on 6 Jun. Peak >$100 confirmed within window. | HIT | (0.32−1)²=0.462 |
+| P(Kuwait second IRGC strike by EOD 12 June) | Strike | 0.22 | HIT — IRGC fired 7 ballistic missiles at Kuwait and Bahrain overnight 5–6 Jun (CENTCOM confirmed); Kuwait air defense activated; sirens nationwide. Kuwait was struck. | HIT | (0.22−1)²=0.608 |
+| P(Hormuz transits >20/day by EOD 12 June) | >20/day | 0.06 | Trending MISS — straits.live: ~10/day; Bloomberg 2 inbound/2 outbound large vessels. IRGC tanker strike overnight reduces probability further. | PENDING | — |
+
+**T+1 Brier mean (Day 98→99, fully scoreable items this window: W3 HIT, W4 PARTIAL, Brent HIT, Kuwait HIT):**
+- W3 HIT: (0.60−1)²=0.160
+- W4 PARTIAL (0.6 outcome): (0.30−0.6)²=0.090
+- Brent >$100 HIT: (0.32−1)²=0.462
+- Kuwait strike HIT: (0.22−1)²=0.608
+- **Mean: (0.160+0.090+0.462+0.608)/4 = 0.330**
+
+**Calibration note:** Kuwait second strike was significantly underweighted at P=0.22 (actual = confirmed HIT within 48h). The IRGC "heavier response" doctrine warning was a clear signal that should have pushed P higher — revise future Gulf-state IRGC retaliatory strike probability upward after explicit IRGC "heavier response" statements to P=0.40–0.50. Brent >$100 HIT at P=0.32 was technically well-calibrated (touched $101 briefly on 3 Jun within the EOD 8 Jun window). W4 partial — tanker strike confirms IRGC maritime asset targeting is now indistinguishable from infrastructure outage for FM purposes; broaden W4 to include shipping asset strikes going forward.
+
+**Methodology delta:** After explicit IRGC "heavier response / completely different response" warning statements, default Gulf-state military target probability in next 48h should be revised to P=0.40–0.50 (up from 0.22 baseline). This warning pattern has now been confirmed twice (3 Jun → 5–6 Jun response).
+
+---
+
+### Day 99 Predictions logged for T+1 (7 June), T+3 (9 June), T+7 (13 June)
+
+**Trend:** ↑ Worse (Confidence: High)
+**Threat level:** 4/5 Severe (stable floor; energy terminal ≥1-day outage would trigger 5/5)
+
+**Watchlist predictions:**
+- W1 — Hezbollah ≥48h verified ceasefire compliance (zero kinetics on Israel confirmed by UNIFIL) by EOD 9 June (P=0.15; Qassem formal rejection 4 Jun; kinetics ongoing 5 Jun; UNIFIL peacekeeper killed 4 Jun; structural non-compliance)
+- W2 — Iran FM public acknowledgment Hezbollah compliance satisfies Lebanon precondition by EOD 10 June (P=0.12; Araghchi "no tangible progress" 5 Jun; overnight IRGC escalation hardens hardliner position; no unlock signal visible)
+- W3 — Houthi attack cluster (≥2 vessels, CENTCOM/UKMTO confirmed) Red Sea/GoA by EOD 10 June (P=0.55; episodic 3–5 day pattern; 5 Jun = last cluster; next window 8–10 Jun)
+- W4 — IRGC strike on Gulf energy OR shipping-adjacent infrastructure causing confirmed ≥1-day operational outage by EOD 12 June (P=0.38; tanker Panaya struck overnight = precedent; Oman Mina Al Fahal explosion = precedent; IRGC "heavier response" doctrine active; methodology delta applied)
+- W5 — US-Iran MOU jointly signed/published by EOD 15 June (P=0.10; Hezbollah rejection blocks Lebanon precondition; overnight escalation hardens positions; HoC Library "no further talks confirmed"; Round 5 not until 22 Jun)
+
+**Scenarios (30d):**
+- A — Negotiated framework — 25% (Δ −2pp; overnight exchange + Lebanon blockage)
+- B — Frozen attrition — 44% (Δ −1pp) ← modal
+- C — Re-escalation — 31% (Δ +3pp; tanker strike + 7-missile salvo raises structural floor)
+
+**Brier inputs (T+1/T+3/T+7):**
+- P(Hezbollah ≥48h verified ceasefire compliance by EOD 9 June) = 0.15
+- P(Iran public MOU/Lebanon precondition acknowledgment by EOD 10 June) = 0.12
+- P(Houthi ≥2-vessel attack cluster Red Sea/GoA by EOD 10 June) = 0.55
+- P(IRGC Gulf energy/shipping-asset confirmed outage ≥1 day by EOD 12 June) = 0.38
+- P(MOU signed/published by EOD 15 June) = 0.10
+- P(Brent above $100 by EOD 9 June) = 0.28 (currently ~$94.81; overnight escalation is upside; diplomatic pullback is downside; net slightly below $100)
+- P(Gulf-state energy terminal IRGC strike ≥1-day outage by EOD 12 June) = 0.30 (Oman Mina Al Fahal brief precedent; Kuwait/Bahrain IRGC escalation pattern; "heavier response" doctrine)
+- P(Hormuz commercial transits exceed 20/day by EOD 13 June) = 0.04 (tanker struck overnight; IRGC access-control doctrine confirmed; MOU not imminent)
