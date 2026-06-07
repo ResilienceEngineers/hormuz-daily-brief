@@ -1736,3 +1736,50 @@ W5 MISS (0.608) — significant. W3 provisional HIT (0.203). W4 provisional HIT 
 - P(Brent above $100 by EOD 9 June) = 0.28 (currently ~$94.81; overnight escalation is upside; diplomatic pullback is downside; net slightly below $100)
 - P(Gulf-state energy terminal IRGC strike ≥1-day outage by EOD 12 June) = 0.30 (Oman Mina Al Fahal brief precedent; Kuwait/Bahrain IRGC escalation pattern; "heavier response" doctrine)
 - P(Hormuz commercial transits exceed 20/day by EOD 13 June) = 0.04 (tanker struck overnight; IRGC access-control doctrine confirmed; MOU not imminent)
+
+## Day 100 — 7 June 2026
+
+### T+1 Scoring (Day 99 predictions → Day 100 actuals)
+
+| Prediction | P | Outcome | Score (Brier) |
+|---|---|---|---|
+| W3: Houthi ≥2-vessel cluster Red Sea/GoA by EOD 10 Jun | 0.55 | PARTIAL HIT — 7 Jun: Houthis claimed Elbella + AAL Genoa; CENTCOM confirmed 4 ASBMs. No UKMTO vessel-damage confirmation yet. Scoring outcome = 0.6 | (0.55−0.6)²=0.0025 |
+| P(Brent >$100 by EOD 9 Jun) | 0.28 | MISS — Brent $93.09 close 6 Jun; range $92.67–$95.90 on 7 Jun. Not approaching $100. | (0.28−0)²=0.0784 |
+
+**T+1 Brier mean (2 scoreable items): (0.0025 + 0.0784)/2 = 0.0405**
+
+Calibration note: Brent >$100 miss at P=0.28 was directionally correct (diplomatic optimism + demand concerns pulled price down). IRGC $24B impasse and OFAC new sanctions are downside oil-price signals overriding supply-shock upside. Revise: when OFAC is simultaneously issuing new sanctions AND US is redirecting frozen assets (dual economic pressure), diplomatic resolution probability falls → oil price risk premium also falls despite continued kinetics. Update priors accordingly.
+
+### T+3 Pending (from Day 97, resolves ~10 June)
+- W1: Hezbollah ceasefire compliance (P=0.15) → tracking MISS (kinetics ongoing 7 Jun)
+- W2: Iran FM Lebanon precondition acknowledgment (P=0.12) → tracking MISS
+
+### T+7 Pending (from Day 93, resolves ~14 June)
+- No Day 93 T+7 items fully scoreable today.
+
+---
+
+### Day 100 New Predictions (T+1: 8 Jun, T+3: 10 Jun, T+7: 14 Jun)
+
+**Trend:** ↑ Worse (Confidence: High)
+**Threat level:** 4/5 Severe
+
+**Watchlist predictions:**
+- W1: Hezbollah ≥48h ceasefire compliance by EOD 9 Jun (P=0.10; kinetics ongoing 7 Jun; structural non-compliance; further reduction from 0.15)
+- W2: Pakistan back-channel produces public bridging signal on $24B frozen-asset impasse by EOD 12 Jun (P=0.18; Naqvi in Tehran; Khamenei letter; unusual but not confirmed productive)
+- W3: Houthi UKMTO-confirmed vessel damage Red Sea/GoA by EOD 10 Jun (P=0.50; claims made 7 Jun; CENTCOM confirmed ASBMs; independent damage confirmation pending)
+- W4: IRGC strike on Gulf energy or shipping-adjacent infra causing ≥1-day outage by EOD 13 Jun (P=0.35; 7-missile salvo 5–6 Jun; CENTCOM 4th self-defence strike; "heavier response" doctrine still active)
+- W5: US formally announces transfer/seizure of Iranian frozen assets to Gulf allies (beyond assessment phase) triggering Iran diplomatic suspension by EOD 15 Jun (P=0.22; Bessent assessment team active; Iran has explicitly flagged this as red line)
+
+**Probabilistic predictions (Brier inputs):**
+- P(Brent >$100 by EOD 10 Jun) = 0.18 (currently $93; diplomatic hope discount; no supply shock trigger imminent)
+- P(Hormuz commercial transits exceed 20/day by EOD 14 Jun) = 0.04 (structural closure; MOU not imminent; mine risk)
+- P(Gulf-state energy terminal IRGC strike ≥1-day outage by EOD 13 Jun) = 0.30 (IRGC doctrine active; "heavier response" warning repeated; methodology delta: post-explicit-warning probability = 0.35–0.45 in 48h window; now in Day 2–5 of elevated window)
+- P(Pakistan back-channel produces Khamenei-level public de-escalation signal by EOD 12 Jun) = 0.18
+
+**Scenarios (30d):**
+- A: Negotiated framework — 23% (Δ −2pp)
+- B: Frozen attrition — 44% (Δ 0pp) ← modal
+- C: Re-escalation — 33% (Δ +2pp)
+
+**Methodology delta (Day 100):** When US simultaneously pursues dual economic pressure (new OFAC sanctions + redirecting frozen assets to Gulf allies), it removes Iran's primary financial deal incentive. Default: in this configuration, MOU signing probability should be capped at ≤25% until a third-party bridging mechanism for the frozen assets is publicly proposed. The $24B frozen-asset variable is now THE rate-limiting factor for Scenario A — track it as a binary observable, not a continuous variable.
