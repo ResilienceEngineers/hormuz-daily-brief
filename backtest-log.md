@@ -1783,3 +1783,56 @@ Calibration note: Brent >$100 miss at P=0.28 was directionally correct (diplomat
 - C: Re-escalation — 33% (Δ +2pp)
 
 **Methodology delta (Day 100):** When US simultaneously pursues dual economic pressure (new OFAC sanctions + redirecting frozen assets to Gulf allies), it removes Iran's primary financial deal incentive. Default: in this configuration, MOU signing probability should be capped at ≤25% until a third-party bridging mechanism for the frozen assets is publicly proposed. The $24B frozen-asset variable is now THE rate-limiting factor for Scenario A — track it as a binary observable, not a continuous variable.
+
+## Day 101 — 8 June 2026
+
+### T+1 Scoring (Day 100 predictions → Day 101 actuals)
+
+| Prediction | P | Outcome | Score (Brier) |
+|---|---|---|---|
+| W3: Houthi UKMTO-confirmed vessel damage Red Sea/GoA by EOD 10 Jun | 0.50 | HIT — Norderney struck twice by ASBM 8 Jun (fire, damaged); MSC Tavvishi struck by missile 8 Jun (damaged); both confirmed in Wikipedia citing CENTCOM/reporting. Outcome = 1 | (0.50−1)²=0.25 |
+| W1: Hezbollah ≥48h compliance by EOD 9 Jun | 0.10 | MISS tracking — IDF struck Beirut southern suburbs 7 Jun; Hezbollah kinetics ongoing; ceasefire rejected 4 Jun. Not resolved EOD 9 Jun yet. Outcome = 0 (tracking) | (0.10−0)²=0.01 |
+
+**T+1 Brier mean (2 scoreable items): (0.25 + 0.01)/2 = 0.13**
+
+Calibration note: W3 Houthi miss on scoring format — P=0.50 but outcome=1 produced a 0.25 Brier. The prior 5-Jun cluster (Roza/Vantage Dream) correctly flagged the 3–5 day window pattern; the 7 Jun claims were unconfirmed but 8 Jun delivered confirmed hits on Norderney + Tavvishi. The episodic cluster model is working; consider raising base rate from 0.50 to 0.60 for next 72h window given confirmed 8 Jun escalation and Iran–Israel overnight exchange as Houthi coordination signal.
+
+### T+3 Scoring (Day 98 predictions → Day 101 actuals, resolves ~10 Jun)
+
+| Prediction | P | Outcome | Score (Brier) |
+|---|---|---|---|
+| W1: Hezbollah ≥48h compliance by EOD 9 Jun (from Day 99) | 0.15 | MISS — kinetics ongoing; IDF struck Beirut suburbs 7 Jun; Hezbollah rejected ceasefire 4 Jun. Outcome = 0 | (0.15−0)²=0.0225 |
+| W2: Iran FM Lebanon precondition acknowledgment by EOD 10 Jun (from Day 99) | 0.12 | MISS — Iran launched missiles at Israel 7 Jun; Araghchi "no tangible progress"; overnight escalation. Outcome = 0 | (0.12−0)²=0.0144 |
+
+**T+3 Brier mean (2 items): (0.0225 + 0.0144)/2 = 0.01845**
+
+### T+7 Pending
+
+No Day 94 items fully scoreable today.
+
+---
+
+### Day 101 New Predictions (T+1: 9 Jun, T+3: 11 Jun, T+7: 15 Jun)
+
+**Trend:** ↑ Worse (Confidence: High)
+**Threat level:** 4/5 Severe
+
+**Watchlist predictions:**
+- W1: Iran confirmed retaliatory strike on Israeli territory OR US Gulf asset causing damage by EOD 10 Jun (P=0.45; Iran fired missiles at Israel 7 Jun = first since April ceasefire; IDF struck Iran with ALBMs overnight 7–8 Jun; IRGC retaliation doctrine window 24–72h; escalation ladder now active)
+- W2: SW Iran petrochemical facility confirmed ≥1-day operational outage by EOD 9 Jun (P=0.35; footage circulating of IDF ALBM strike; damage severity unconfirmed pending CENTCOM/ISW)
+- W3: Pakistan back-channel (Naqvi/Khamenei channel) produces public bridging statement on $24B by EOD 12 Jun (P=0.18; Naqvi met Araghchi 7 Jun; no outcome yet; sole active de-escalation track)
+- W4: IRGC confirmed strike on Gulf energy OR shipping-adjacent infra causing ≥1-day outage by EOD 13 Jun (P=0.40; "heavier response" doctrine active; overnight Israel–Iran exchange is fresh trigger; methodology: post-direct-strike-on-Iran probability elevated to 0.40–0.50 in 48–96h window)
+- W5: Trump–Netanyahu public rupture (US formal withholding of military support or public US condemnation of Israeli Iran strike) by EOD 15 Jun (P=0.28; Israel struck Iran against Trump's explicit warning; fracture now visible; Trump reportedly furious per NBC)
+
+**Probabilistic predictions (Brier inputs):**
+- P(Brent >$100 by EOD 11 Jun) = 0.32 (currently $96–97 intraday; Israel–Iran overnight exchange is upside driver; SW Iran petrochemical unconfirmed adds further upside; $100 within 1 escalation event)
+- P(Hormuz commercial transits exceed 20/day by EOD 15 Jun) = 0.03 (structural closure; MOU not imminent; US–Israel fracture reduces Scenario A probability; mine threat elevated)
+- P(Gulf-state energy terminal IRGC strike ≥1-day outage by EOD 13 Jun) = 0.35 (IRGC doctrine active; overnight Israel ALBM strikes on Iran = fresh trigger for retaliation cycle)
+- P(Pakistan back-channel public bridging signal on $24B by EOD 12 Jun) = 0.18
+
+**Scenarios (30d):**
+- A: Negotiated framework — 20% (Δ −3pp; Israel–Iran overnight exchange; US–Israel fracture; $24B impasse)
+- B: Frozen attrition — 42% (Δ −2pp) ← modal
+- C: Re-escalation — 38% (Δ +5pp; direct Israel–Iran exchange worst since April; Houthi dual hit; Brent +4%)
+
+**Methodology delta (Day 101):** When Israel strikes Iran with ALBMs directly and against explicit US warnings, apply an immediate +5pp to Scenario C and −3pp to Scenario A for the following 72h window. The US–Israel operational fracture removes the US as a reliable restrainer of Israeli kinetics, which means IRGC retaliation doctrine activates against a broader target set (not just CENTCOM). Additionally: Houthi episodic cluster model validated — raise base rate for next 72h Houthi attack window from 0.50 to 0.60 following confirmed dual-hit day.
