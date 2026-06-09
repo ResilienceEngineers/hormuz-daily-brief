@@ -1836,3 +1836,56 @@ No Day 94 items fully scoreable today.
 - C: Re-escalation — 38% (Δ +5pp; direct Israel–Iran exchange worst since April; Houthi dual hit; Brent +4%)
 
 **Methodology delta (Day 101):** When Israel strikes Iran with ALBMs directly and against explicit US warnings, apply an immediate +5pp to Scenario C and −3pp to Scenario A for the following 72h window. The US–Israel operational fracture removes the US as a reliable restrainer of Israeli kinetics, which means IRGC retaliation doctrine activates against a broader target set (not just CENTCOM). Additionally: Houthi episodic cluster model validated — raise base rate for next 72h Houthi attack window from 0.50 to 0.60 following confirmed dual-hit day.
+
+## 9 June 2026 — Day 102
+
+### T+1 Scoring (Day 101 predictions → Day 102 actuals, 9 Jun)
+
+| Prediction | P | Outcome | Score (Brier) |
+|---|---|---|---|
+| W1: Iran confirmed retaliatory strike on Israeli territory causing damage by EOD 10 Jun | 0.45 | HIT — Iran fired ballistic missiles at Israel 7 Jun (night) + 8 Jun (morning); first direct exchange since April; US fired interceptors; confirmed CNN/NPR/Britannica. Outcome = 1 | (0.45−1)²=0.3025 |
+| W2: SW Iran petrochemical facility confirmed ≥1-day operational outage by EOD 9 Jun | 0.35 | MISS (unresolved as of 06:00 UTC 9 Jun) — IDF confirmed strike on plant (Arab News/IDF), damage severity and outage unconfirmed by CENTCOM/ISW. Treating as 0 pending confirmation by EOD 10 Jun. Outcome = 0 (provisional) | (0.35−0)²=0.1225 |
+
+**T+1 Brier mean (2 scoreable items): (0.3025 + 0.1225)/2 = 0.2125**
+
+Calibration note: W1 was a HIT at P=0.45 — scored 0.3025 Brier, reflecting correct direction but underconfident probability. The Lebanon trigger mechanism (IDF → Iran retaliation) performed exactly as the Day 101 methodology delta predicted. Consider raising Iran retaliation probability to 0.55–0.65 in the next 72h window where Lebanon ops continue and an exchange has already occurred in the prior 48h.
+
+W2 remains open — the IDF strike on SW Iran petrochemical plant is confirmed (Arab News, IDF statement), but operational outage is unconfirmed. This highlights the gap between kinetic event confirmation (fast, Tier 2+) and infrastructure outage confirmation (slow, requires CENTCOM/ISW or satellite assessment). The 35% probability was appropriate given the uncertainty asymmetry.
+
+### T+3 Scoring (Day 99 predictions → Day 102 actuals, resolves ~12 Jun)
+
+| Prediction | P | Outcome | Score (Brier) |
+|---|---|---|---|
+| W3: Pakistan back-channel public bridging signal on $24B by EOD 12 Jun (Day 99) | 0.18 | PENDING — Sharif called for restraint 8 Jun but no $24B bridging proposal. Resolves 12 Jun. | — |
+| W4: IRGC Gulf energy/shipping infra outage ≥1 day by EOD 13 Jun (Day 99) | 0.35 | PENDING — no confirmed outage as of 9 Jun 06:00 UTC. Resolves 13 Jun. | — |
+
+### T+7 Scoring (Day 95 predictions → Day 102 actuals, resolves ~16 Jun)
+
+No Day 95 items fully scoreable today.
+
+---
+
+### Day 102 New Predictions (T+1: 10 Jun, T+3: 12 Jun, T+7: 16 Jun)
+
+**Trend:** → Same (Confidence: Medium)
+**Threat level:** 4/5 Severe
+
+**Watchlist predictions:**
+- W1: Iran resumes missile strikes on Israel following fresh IDF Lebanon action by EOD 12 Jun (P=0.45; IDF struck Tyre 8 Jun hours after Iran's suspension; Netanyahu vowed Lebanon ops continue; Lebanon is active tripwire; methodology: post-exchange + active Lebanon trigger = 48–96h retaliation probability 0.40–0.50)
+- W2: SW Iran petrochemical facility confirmed ≥1-day operational outage by EOD 10 Jun (P=0.35; IDF strike confirmed 8 Jun; CENTCOM/ISW outage assessment pending)
+- W3: Pakistan back-channel public bridging proposal on $24B frozen assets by EOD 12 Jun (P=0.18; Sharif urged restraint but no proposal yet; sole active de-escalation track)
+- W4: IRGC confirmed strike on Gulf energy/shipping infra causing ≥1-day outage by EOD 13 Jun (P=0.38; IRGC 48–96h retaliation window active from 8 Jun exchange; slightly down from 0.40 on Day 101 given Iran's suspension statement signals some restraint intent)
+- W5: Trump formal condemnation of Israeli strikes OR US withholds military support from Israel by EOD 15 Jun (P=0.28; fracture visible but no formal action yet; unchanged)
+
+**Probabilistic predictions (Brier inputs):**
+- P(Brent >$100 by EOD 11 Jun) = 0.28 (Brent currently $93–96 after pullback from $98 intraday 8 Jun; Iran suspension eased; OPEC+ July supply increase headwind; need fresh escalation event to reach $100; slightly down from 0.32 on Day 101)
+- P(Hormuz commercial transits exceed 20/day by EOD 15 Jun) = 0.03 (structural closure; no MOU; IRGC Strait Authority active)
+- P(Gulf-state energy terminal IRGC strike ≥1-day outage by EOD 13 Jun) = 0.38 (IRGC retaliation doctrine active; 48–96h window from 8 Jun)
+- P(Pakistan back-channel public bridging signal on $24B by EOD 12 Jun) = 0.18
+
+**Scenarios (30d):**
+- A: Negotiated framework — 20% (Δ 0pp; Lebanon/asset impasse unchanged; mutual halt does not qualify as MOU-level signal)
+- B: Frozen attrition — 43% (Δ +1pp) ← modal
+- C: Re-escalation — 37% (Δ −1pp; Iran's suspension statement and Brent pullback marginally reduce immediate C probability; Lebanon trigger keeps it elevated)
+
+**Methodology delta (Day 102):** Confirm the Lebanon trigger mechanism as the highest-probability near-term escalation pathway. When Iran conditions ceasefire on Lebanon AND Israel explicitly rejects that condition AND IDF strikes in Lebanon within hours of Iran's suspension statement, the mutual-halt equilibrium half-life is ≤24h. Default: in this configuration, treat the suspension as provisional rather than stable and maintain IRGC retaliation probability at 0.40–0.50 for each 24h window in which Lebanon ops continue. Additionally: W2 (petrochemical outage) scoring gap confirmed — infrastructure outage confirmation lags kinetic event confirmation by 24–48h; build this lag into future watchlist deadline setting (+24h buffer beyond kinetic event date).
