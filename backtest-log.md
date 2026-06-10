@@ -1889,3 +1889,54 @@ No Day 95 items fully scoreable today.
 - C: Re-escalation — 37% (Δ −1pp; Iran's suspension statement and Brent pullback marginally reduce immediate C probability; Lebanon trigger keeps it elevated)
 
 **Methodology delta (Day 102):** Confirm the Lebanon trigger mechanism as the highest-probability near-term escalation pathway. When Iran conditions ceasefire on Lebanon AND Israel explicitly rejects that condition AND IDF strikes in Lebanon within hours of Iran's suspension statement, the mutual-halt equilibrium half-life is ≤24h. Default: in this configuration, treat the suspension as provisional rather than stable and maintain IRGC retaliation probability at 0.40–0.50 for each 24h window in which Lebanon ops continue. Additionally: W2 (petrochemical outage) scoring gap confirmed — infrastructure outage confirmation lags kinetic event confirmation by 24–48h; build this lag into future watchlist deadline setting (+24h buffer beyond kinetic event date).
+
+## 10 June 2026 — Day 103
+
+### T+1 Scoring (Day 102 predictions → Day 103 actuals, 10 Jun)
+
+| Prediction | P | Outcome | Score (Brier) |
+|---|---|---|---|
+| W1: Iran resumes missile strikes on Israel following fresh IDF Lebanon action by EOD 12 Jun (Day 102) | 0.45 | PENDING — Iran declared end to Israel operations 9 Jun; Israel said "fire contained." No new Iran→Israel missiles confirmed 10 Jun AM. Lebanon trigger still active. Resolves EOD 12 Jun. | — |
+| W2: SW Iran petrochemical facility confirmed ≥1-day operational outage by EOD 10 Jun | 0.35 | HIT — Argus Media (Tier 2) confirmed: IDF struck Mahshahr (Karoon hub) 8 Jun + Asaluyeh South Pars complex; Iran NPC confirmed damage and disruption; Bushehr deputy governor confirmed "several petrochemical production units damaged"; widespread power disruptions confirmed. Operational outage ≥1 day confirmed. Outcome = 1 | (0.35−1)²=0.4225 |
+
+**T+1 Brier (1 scoreable item today): 0.4225**
+
+Calibration note: W2 HIT at P=0.35 — underconfident. The infrastructure lag noted on Day 102 (outage confirmation lags kinetic event by 24–48h) was validated — outage confirmed exactly on Day 103 (24h after the Day 102 brief). The +24h buffer methodology delta is confirmed correct. Consider raising initial probability for petrochemical outage following confirmed IDF strikes on utility infrastructure (power/water) to 0.50+ when utility nodes (Mobin/Damavand type) are specifically confirmed struck.
+
+### T+3 Scoring (Day 100 predictions → Day 103 actuals)
+
+| Prediction | P | Outcome | Score (Brier) |
+|---|---|---|---|
+| W3: Pakistan back-channel public bridging signal on $24B by EOD 12 Jun (Day 99/100) | 0.18 | PENDING — Pakistan FM Dar visiting Washington Friday to meet Rubio; no $24B bridging proposal confirmed. Resolves EOD 12 Jun. | — |
+| W4: IRGC Gulf energy/shipping infra ≥1-day outage by EOD 13 Jun (Day 99/100) | 0.35–0.38 | PARTIAL — IRGC struck US military bases (Fifth Fleet Bahrain, Ali Al Salem Kuwait, Azraq Jordan) with missiles/drones 10 Jun (IRGC/CNN/NBC confirmed); Jordan intercepted 5 missiles; Bahrain/Kuwait intercepting. These are US military targets, not Gulf energy/shipping infra per original W4 definition. W4 as written = Gulf energy terminal outage = not yet qualifying. Resolves 13 Jun. | — |
+
+### T+7 Scoring (Day 96 predictions → Day 103 actuals)
+
+No Day 96 items with T+7 deadline reaching today.
+
+---
+
+### Day 103 New Predictions (T+1: 11 Jun, T+3: 13 Jun, T+7: 17 Jun)
+
+**Trend:** ↑ Worse (Confidence: High)
+**Threat level:** 4/5 Severe (floor; approaching Crisis threshold if IRGC strikes Gulf energy terminals)
+
+**Watchlist predictions:**
+- W1: IRGC confirmed strike on GCC energy terminal (Saudi, UAE, Qatar) causing ≥1-day operational outage by EOD 13 Jun (P=0.52; IRGC struck 21 US military targets in Bahrain/Kuwait/Jordan overnight; IRGC escalation doctrine historically expands to Gulf energy infra following direct US kinetic action; precedent: South Pars retaliatory strike on Ras Laffan April 2026; 48-72h window now active)
+- W2: US conducts additional strikes on Iran (beyond overnight Bandar Abbas/Qeshm/Jask/Sirik wave) by EOD 13 Jun (P=0.40; Trump called response "very strong, very powerful"; IRGC retaliation activates second US strike cycle; ceasefire framework severely damaged)
+- W3: 60-day MOU formally collapses OR Iran publicly withdraws from MOU framework by EOD 13 Jun (P=0.55; overnight US strikes on Hormuz strategic sites while MOU "tentative" = direct sabotage of framework; Iran FM Araghchi "clear violation of sovereignty"; Vance "still TBD" + new exchange makes sign-off highly unlikely near-term)
+- W4: Hormuz commercial transits remain ≤5/day through EOD 17 Jun (P=0.95; structural closure; overnight US strikes on Bandar Abbas/Qeshm naval/radar sites INCREASE IRGC Strait Authority enforcement capability threat; no MOU)
+- W5: Brent crude >$100 by EOD 11 Jun (P=0.58; overnight US-Iran military exchange involving Hormuz defense sites — market closed when strikes occurred; opening print likely +5–8%; Brent was ~$92 at straits.live pre-strike; range $96–102 on open)
+
+**Probabilistic predictions (Brier inputs):**
+- P(IRGC GCC energy terminal outage ≥1 day by EOD 13 Jun) = 0.52
+- P(Brent >$100 by EOD 11 Jun) = 0.58
+- P(60-day MOU formally signed/approved by EOD 17 Jun) = 0.07 (down from ~0.20; Apache/Hormuz exchange = framework in crisis)
+- P(Hormuz commercial transits >5/day any day by EOD 17 Jun) = 0.03
+
+**Scenarios (30d):**
+- A: Negotiated framework — 12% (Δ −8pp; MOU framework in acute jeopardy after US struck Hormuz defense sites while "tentative" MOU pending; Iran's "clear violation of sovereignty" framing = negotiating red line triggered)
+- B: Frozen attrition — 38% (Δ −5pp) ← modal (barely; escalation dynamics threatening B stability)
+- C: Re-escalation — 50% (Δ +13pp; DIRECT US strikes on Hormuz sites + IRGC strikes on 3 Gulf US bases = tit-for-tat now US-Iran direct, not just Israel-Iran; this is the re-escalation scenario defining observable)
+
+**Methodology delta (Day 103):** When the US directly strikes Iranian military sites at Hormuz chokepoints (Qeshm, Bandar Abbas, Jask, Sirik) while a draft MOU is simultaneously under negotiation, treat this as an MOU-invalidating event (framework confidence −50%) until explicit US official statement confirms negotiations continuing AND Iran publicly accepts that framing. "Won't hinder talks" (US official to CNN) alone is insufficient while Iran FM calls it "clear violation of sovereignty." Apply IRGC Gulf energy infra strike probability floor of 0.50 for 72h following any direct US strike on Hormuz defense nodes. Additionally: Apache-type incidents (patrol assets downed in contested airspace near Hormuz) should be flagged as HIGH false-flag/escalation ladder risk — ambiguity of whether intentional targeting (US officials divided) means both sides have incentive to interpret events to serve escalation or de-escalation as politically convenient. Default: treat as escalatory until both sides accept non-intentional framing publicly.
