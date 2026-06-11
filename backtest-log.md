@@ -1940,3 +1940,62 @@ No Day 96 items with T+7 deadline reaching today.
 - C: Re-escalation — 50% (Δ +13pp; DIRECT US strikes on Hormuz sites + IRGC strikes on 3 Gulf US bases = tit-for-tat now US-Iran direct, not just Israel-Iran; this is the re-escalation scenario defining observable)
 
 **Methodology delta (Day 103):** When the US directly strikes Iranian military sites at Hormuz chokepoints (Qeshm, Bandar Abbas, Jask, Sirik) while a draft MOU is simultaneously under negotiation, treat this as an MOU-invalidating event (framework confidence −50%) until explicit US official statement confirms negotiations continuing AND Iran publicly accepts that framing. "Won't hinder talks" (US official to CNN) alone is insufficient while Iran FM calls it "clear violation of sovereignty." Apply IRGC Gulf energy infra strike probability floor of 0.50 for 72h following any direct US strike on Hormuz defense nodes. Additionally: Apache-type incidents (patrol assets downed in contested airspace near Hormuz) should be flagged as HIGH false-flag/escalation ladder risk — ambiguity of whether intentional targeting (US officials divided) means both sides have incentive to interpret events to serve escalation or de-escalation as politically convenient. Default: treat as escalatory until both sides accept non-intentional framing publicly.
+
+## Day 104 — 11 June 2026
+
+### T+1 Scoring (Day 103 predictions → Day 104 actuals, 11 Jun 06:00 UTC)
+
+| Prediction | P | Outcome | Score (Brier) |
+|---|---|---|---|
+| W2: Brent crude >$100 by EOD 11 Jun | 0.58 | MISS — Brent trading $89.61–$94.43 range on 11 Jun (Investing.com); did not break $100 despite second US strike wave. SPR releases (58 mb) + OPEC+ +188 kb/d July quota capped price. Outcome = 0 | (0.58−0)²=0.3364 |
+
+**T+1 Brier (1 scoreable item): 0.3364**
+
+Calibration note: W2 MISS at P=0.58 — overconfident on $100 break. Market is discounting diplomatic channel survival and SPR buffer more than kinetic escalation. Delta: when SPR releases are active at scale (>50 mb) AND OPEC+ supply addition is confirmed for the same month, cap Brent >$100 probability at 0.45 even following direct US–Iran strike exchange, unless a GCC energy terminal is struck.
+
+### T+3 Scoring (Day 101 predictions → Day 104 actuals)
+
+| Prediction | P | Outcome | Score (Brier) |
+|---|---|---|---|
+| W1 (Day 103): IRGC GCC energy terminal outage ≥1 day by EOD 13 Jun | 0.52 | PENDING — No confirmed GCC energy terminal outage as of 11 Jun 06:00 UTC. IRGC formal Hormuz closure declared but GCC energy terminal (Ras Tanura/Ras Laffan/Jebel Ali) not confirmed struck. Resolves EOD 13 Jun. | — |
+| W3 (Day 103): MOU formally collapses/Iran withdraws by EOD 13 Jun | 0.55 | PENDING — Iran FM called US strikes "violation of sovereignty"; IRGC closed Hormuz formally; no signed MOU. MOU in acute jeopardy but not formally "collapsed" with Iran public withdrawal statement. Resolves EOD 13 Jun. | — |
+
+### T+7 Scoring (Day 97 predictions → Day 104 actuals)
+
+No Day 97 items with T+7 deadline reaching today.
+
+### Day 103 Pending Items Still Active
+
+| Item | Deadline | Status |
+|---|---|---|
+| W1 (Day 103): IRGC GCC energy terminal outage | EOD 13 Jun | PENDING |
+| W3 (Day 103): MOU formal collapse | EOD 13 Jun | PENDING |
+| W4 (Day 103): Hormuz ≤5/day through 17 Jun | EOD 17 Jun | ON TRACK — IRGC formal closure + 2 vessels struck confirms |
+
+---
+
+### Day 104 New Predictions (T+1: 12 Jun, T+3: 14 Jun, T+7: 18 Jun)
+
+**Trend:** ↑ Worse (Confidence: High)
+**Threat level:** 5/5 Crisis (first Crisis-level in tracker history; IRGC formal all-vessels closure declaration + kinetic enforcement)
+
+**Watchlist predictions:**
+- W1: IRGC confirmed strike on GCC energy terminal (Ras Tanura/Ras Laffan/Jebel Ali) causing ≥1-day operational outage by EOD 13 Jun (P=0.55; IRGC formal Hormuz closure + 2 vessels struck = escalation doctrine validated; 72h IRGC counter-retaliation window active from 11 Jun declaration; methodology delta: 0.50+ floor for 72h after US strike on Hormuz nodes)
+- W2: CENTCOM/Iran FM jointly confirm Hormuz re-opening OR Iran publicly rescinds IRGC closure declaration by EOD 17 Jun (P=0.10; formal closure with kinetic enforcement = Iran has maximized leverage position; rescission requires either US concession or Iranian strategic calculation shift; 72h window too short for diplomacy at this tempo)
+- W3: US third-wave strikes on Iran by EOD 14 Jun (P=0.45; Trump "very strong, very powerful" pattern + Iran retaliation ongoing + IRGC formal closure declaration = US "self-defence" logic provides legal/political basis for third wave; CENTCOM "remains vigilant, lethal, and ready")
+- W4: Pakistan formally suspends mediation OR Iran FM publicly withdraws from MOU framework by EOD 13 Jun (P=0.40; IRGC closure declaration = Iran hardened position; but Pakistan has strong incentive to keep channel open; Iran FM has not yet issued formal withdrawal statement)
+- W5: Houthi confirmed vessel strike in Red Sea/Gulf of Aden 11–14 Jun (P=0.60; Houthi doctrine escalates with Iran-axis tempo; formal Hormuz closure + direct US–Iran exchange = Houthi operational trigger conditions met; Wilson Center Jun 11 entry in progress at 06:00 UTC)
+
+**Probabilistic predictions (Brier inputs):**
+- P(IRGC GCC energy terminal outage ≥1 day by EOD 13 Jun) = 0.55
+- P(Iran rescinds IRGC formal closure by EOD 17 Jun) = 0.10
+- P(US third-wave strikes by EOD 14 Jun) = 0.45
+- P(Brent >$100 by EOD 14 Jun) = 0.35 (revised down from 0.58; SPR/OPEC+ damper confirmed; GCC terminal strike needed to break $100)
+- P(Hormuz commercial transits >5/day any day by EOD 17 Jun) = 0.05
+
+**Scenarios (30d):**
+- A: Negotiated framework — 8% (Δ −4pp; formal IRGC closure declaration + sovereignty framing = MOU signing path blocked; requires Iran to publicly retreat from a declared position)
+- B: Frozen attrition — 30% (Δ −8pp; direct US–Iran exchange now structural; both sides have domestic political constraints preventing rapid de-escalation)
+- C: Re-escalation — 62% (Δ +12pp) ← modal (IRGC formal all-vessels closure + kinetic enforcement + second US strike wave = Scenario C defining observables now fully active)
+
+**Methodology delta (Day 104):** When IRGC issues a formal "closed to all vessels" declaration with kinetic enforcement (vessels struck), treat this as a structural escalation above de-facto closure: (1) IRGC GCC energy terminal strike probability floor rises to 0.55 for 96h; (2) MOU signing probability cap drops to ≤8% until Iran publicly rescinds declaration AND US pauses strike operations; (3) "CENTCOM denies closure" counter-statements do NOT offset IRGC declaration in operational risk assessment — the kinetic enforcement (vessels struck) is the Hard-tier signal. Additionally: Brent $100 break requires GCC energy terminal outage OR SPR depletion signal; US strike waves alone with active SPR releases are insufficient price catalyst (validated by Day 104 $91–96 range).
