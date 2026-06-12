@@ -1999,3 +1999,59 @@ No Day 97 items with T+7 deadline reaching today.
 - C: Re-escalation — 62% (Δ +12pp) ← modal (IRGC formal all-vessels closure + kinetic enforcement + second US strike wave = Scenario C defining observables now fully active)
 
 **Methodology delta (Day 104):** When IRGC issues a formal "closed to all vessels" declaration with kinetic enforcement (vessels struck), treat this as a structural escalation above de-facto closure: (1) IRGC GCC energy terminal strike probability floor rises to 0.55 for 96h; (2) MOU signing probability cap drops to ≤8% until Iran publicly rescinds declaration AND US pauses strike operations; (3) "CENTCOM denies closure" counter-statements do NOT offset IRGC declaration in operational risk assessment — the kinetic enforcement (vessels struck) is the Hard-tier signal. Additionally: Brent $100 break requires GCC energy terminal outage OR SPR depletion signal; US strike waves alone with active SPR releases are insufficient price catalyst (validated by Day 104 $91–96 range).
+
+## Day 105 — 12 June 2026
+
+### T+1 Scoring (Day 104 predictions → Day 105 actuals, 12 Jun 06:00 UTC)
+
+| Prediction | P | Outcome | Score (Brier) |
+|---|---|---|---|
+| W3 (Day 104): US third-wave strikes on Iran by EOD 14 Jun | 0.45 | EARLY MISS — Trump cancelled planned 3rd wave 11 Jun citing breakthrough (AP/PBS confirmed). Outcome = 0 as of 06:01 UTC 12 Jun. Deadline EOD 14 Jun still open — carry as PENDING but directionally MISS. | (0.45−0)²=0.2025 pending |
+| W4 (Day 104): Pakistan suspends mediation OR Iran FM withdraws from MOU by EOD 13 Jun | 0.40 | MISS — Opposite occurred: MOU framework reached 11 Jun with Pakistan mediation central (AP/PBS confirmed). Outcome = 0. | (0.40−0)²=0.16 |
+| Brent >$100 by EOD 14 Jun | 0.35 | MISS — Brent $89.25 on 12 Jun; deal optimism drove –4% on 11 Jun. Gap too large to close by EOD 14 Jun without catastrophic incident. Outcome = 0. | (0.35−0)²=0.1225 |
+
+**T+1 Brier (3 scoreable items, 2 fully resolved): 0.16 (W4 resolved), 0.1225 (Brent, directional); W3 pending EOD 14 Jun**
+
+Calibration note: W3 and W4 MISS pattern = Trump's deal-vs-escalation dynamic consistently resolves toward de-escalation at the last moment (validated: April 7, May 19, June 11). Delta: when Trump has previously backed down from a threatened strike while citing "talks," assign ≤0.30 probability to 3rd-wave materialising within 24h of breakthrough claim. Adjust W3 probability floor downward accordingly in future cycles.
+
+### T+3 Scoring (Day 102 predictions → Day 105 actuals)
+
+No Day 102 items with T+3 deadline resolving today (Day 103/104 items pending per above).
+
+### Day 104 Pending Items Carried Forward
+
+| Item | Deadline | Status |
+|---|---|---|
+| W1 (Day 104): IRGC GCC energy terminal outage | EOD 13 Jun | PENDING — No new strike in 11–12 Jun window; probability drops to ~0.20 during active ceasefire talks |
+| W2 (Day 104): Iran rescinds IRGC closure / Hormuz reopen | EOD 17 Jun | PENDING — Deal framework announced but unsigned; Iran not confirmed; directionally more likely now (reassess to P=0.55) |
+| W3 (Day 104): US 3rd-wave strikes | EOD 14 Jun | PENDING/directional MISS — Trump cancelled; P now 0.10 unless deal collapses |
+| W5 (Day 104): Houthi vessel strike 11–14 Jun | EOD 14 Jun | PARTIAL HIT — UKMTO approach 10 Jun confirmed; probable 12 Jun Wikipedia entry (unconfirmed); resolve EOD 14 Jun |
+
+---
+
+### Day 105 New Predictions (T+1: 13 Jun, T+3: 15 Jun, T+7: 19 Jun)
+
+**Trend:** → Same / Pivoting (Confidence: Medium)
+**Threat level:** 4/5 Severe (down from 5/5 Crisis; breakthrough signal but unsigned deal)
+
+**Watchlist predictions:**
+- W1: Iran FM or Supreme Leader publicly confirms 60-day MOU AND Hormuz reopening commitment by EOD 15 Jun (P=0.45; Trump claims highest-level Iranian approval; Iran FM not publicly confirmed; Fars semi-official "likely to accept" = Soft; signing ceremony planned "this weekend")
+- W2: Signing ceremony takes place with US and Iranian officials present by EOD 15 Jun (P=0.40; Trump says "maybe in Europe"; Vance/Witkoff/Kushner to attend; Netanyahu says Israel not party; Iran not confirmed — significant gap between Trump claim and Iranian side)
+- W3: IRGC formally rescinds "closed to all vessels" declaration by EOD 17 Jun (P=0.50; deal framework includes Hormuz reopening; but IRGC declaration is a separate sovereign act requiring explicit rescission)
+- W4: IRGC GCC energy terminal outage ≥1 day by EOD 13 Jun (P=0.20; 72h kinetic window from 10 Jun IRGC declaration; but ceasefire talks active; methodology delta: lower floor to 0.20 during US offensive pause + breakthrough claim)
+- W5: Houthi confirmed vessel strike or sinking in Red Sea/Gulf of Aden 12–14 Jun (P=0.55; Wikipedia 12 Jun entry suggests new incident; UKMTO approach 10 Jun confirmed; Houthi ban independent of Iran ceasefire; Lebanon outside deal)
+
+**Probabilistic predictions (Brier inputs):**
+- P(Iran FM publicly confirms MOU by EOD 15 Jun) = 0.45
+- P(Signing ceremony by EOD 15 Jun) = 0.40
+- P(IRGC rescinds Hormuz closure declaration by EOD 17 Jun) = 0.50
+- P(Brent <$85 by EOD 14 Jun) = 0.30 (deal optimism sustained; but Iran non-confirmation = uncertainty premium)
+- P(GCC energy terminal outage by EOD 13 Jun) = 0.20
+- P(US third-wave strikes by EOD 14 Jun) = 0.10 (deal talks active; ceasefire nominal; reversible)
+
+**Scenarios (30d):**
+- A: Negotiated framework — 35% (Δ +27pp; strongest de-escalation signal yet; but unsigned = fragile)
+- B: Frozen attrition — 48% (Δ +18pp) ← modal (Iran not confirmed; deal may drag as previous breakthroughs have)
+- C: Re-escalation — 17% (Δ −45pp; 3rd wave cancelled; but tail risk non-zero until IRGC rescission confirmed)
+
+**Methodology delta (Day 105):** When Trump cancels a threatened strike AND cites diplomatic breakthrough with named-party approvals AND planning a signing ceremony (three simultaneous conditions), lower re-escalation scenario probability by ~40pp from prior estimate. This is the strongest observable short of a signed document. However, maintain Soft-tier classification until: (1) Iran FM public confirmation OR (2) signing ceremony confirmed. Do not lower threat below 4/5 until at least one Hard-tier Iranian confirmation exists. Additionally: Brent >$100 now requires active re-escalation (Scenario C trigger) — deal optimism has structurally repriced the conflict risk premium downward.
