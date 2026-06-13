@@ -2055,3 +2055,62 @@ No Day 102 items with T+3 deadline resolving today (Day 103/104 items pending pe
 - C: Re-escalation — 17% (Δ −45pp; 3rd wave cancelled; but tail risk non-zero until IRGC rescission confirmed)
 
 **Methodology delta (Day 105):** When Trump cancels a threatened strike AND cites diplomatic breakthrough with named-party approvals AND planning a signing ceremony (three simultaneous conditions), lower re-escalation scenario probability by ~40pp from prior estimate. This is the strongest observable short of a signed document. However, maintain Soft-tier classification until: (1) Iran FM public confirmation OR (2) signing ceremony confirmed. Do not lower threat below 4/5 until at least one Hard-tier Iranian confirmation exists. Additionally: Brent >$100 now requires active re-escalation (Scenario C trigger) — deal optimism has structurally repriced the conflict risk premium downward.
+
+## Day 106 — 13 June 2026
+
+### T+1 Scoring (Day 105 predictions → Day 106 actuals, 13 Jun 06:01 UTC)
+
+| Prediction | P | Outcome | Score (Brier) |
+|---|---|---|---|
+| W1: Iran FM publicly confirms MOU by EOD 15 Jun | 0.45 | PARTIAL HIT — Araghchi stated on IRIB TV 13 Jun that signing "within few days" and covered terms publicly (Xinhua/Times of Israel confirmed). Counts as public Iranian FM confirmation of framework, not yet signed. Score as HIT directionally. Outcome = 1. | (0.45−1)²=0.3025 |
+| W2: Signing ceremony by EOD 15 Jun | 0.40 | PENDING — Geneva ceremony planned "in coming days" per CNN/AP; no ceremony yet as of 06:01 UTC 13 Jun. Deadline 15 Jun still open. | Pending |
+| W4: IRGC GCC energy terminal outage by EOD 13 Jun | 0.20 | MISS — No confirmed GCC energy terminal strike in 12–13 Jun window. Outcome = 0. | (0.20−0)²=0.04 |
+| W5: Houthi vessel strike 12–14 Jun | 0.55 | HIT — Wilson Center/CENTCOM: Houthi ASBM launched over Red Sea 12 Jun; CENTCOM destroyed 3 ASCM launchers + 1 UAS same day. Operational kinetics confirmed. Outcome = 1. | (0.55−1)²=0.2025 |
+| P(Brent <$85 by EOD 14 Jun) | 0.30 | NEAR MISS / PENDING — Brent ~$87.40 at 06:01 UTC 13 Jun; day range 85.80–89.72. Below $85 still possible by EOD 14 Jun. Pending. | Pending |
+| P(US 3rd-wave strikes by EOD 14 Jun) | 0.10 | On track for MISS — No indication of resumed strikes; deal text confirmed. Will resolve EOD 14 Jun. | Pending |
+
+**T+1 Brier (2 resolved items): W4 MISS 0.04; W5 HIT 0.2025. W1 partial HIT 0.3025. Running 3-item Brier = 0.1825.**
+
+Calibration note: W5 (Houthi) HIT validates maintaining ≥0.50 Houthi ASBM probability during active Iran–US kinetic exchange window even when ceasefire nominal — Houthi operational tempo confirmed independent of US–Iran deal talks. W4 MISS (GCC terminal) confirms methodology delta from Day 105: lower floor to 0.10–0.20 during active MOU finalisation + ceasefire nominal period. W1 HIT confirms: when Iran FM speaks publicly on IRIB TV about MOU terms and timeline, treat as Hard-tier Iranian confirmation (state broadcaster = regime position, but public commitment carries signalling weight above prior Fars/semi-official leaks).
+
+### T+3 Scoring (Day 103 predictions → Day 106 actuals)
+
+No Day 103 items with T+3 deadline resolving today per prior log.
+
+### Day 105 Pending Items Carried Forward
+
+| Item | Deadline | Status |
+|---|---|---|
+| W2 (Day 105): Signing ceremony by EOD 15 Jun | EOD 15 Jun | PENDING — Geneva ceremony planned; reassess EOD 15 Jun |
+| W3 (Day 104/105): IRGC rescinds closure declaration | EOD 17 Jun | PENDING — No rescission; Araghchi sovereignty framing complicates; P reassessed 0.45 |
+| W3 (Day 104): US 3rd-wave strikes by EOD 14 Jun | EOD 14 Jun | PENDING/directional MISS — P now 0.05; will resolve EOD 14 Jun |
+| P(Brent <$85 by EOD 14 Jun) | EOD 14 Jun | PENDING — $87.40 current; day range touched $85.80 |
+
+---
+
+### Day 106 New Predictions (T+1: 14 Jun, T+3: 16 Jun, T+7: 20 Jun)
+
+**Trend:** ↓ Better (Confidence: Medium)
+**Threat level:** 3/5 Concerning (down from 4/5 Severe; Pakistan PM text confirmation + Iran FM public IRIB statement = two-source threshold met)
+
+**Watchlist predictions:**
+- W1: MOU Islamabad Declaration formally signed with simultaneous US + Iranian public announcements by EOD 17 Jun (P=0.55; Pakistan PM text confirmed; Araghchi "few days"; Geneva ceremony planned; Trump G7 travel next week as natural signing window)
+- W2: IRGC formally rescinds 11 Jun closure declaration by EOD 20 Jun (P=0.45; deal framework includes Hormuz reopening; but Araghchi's sovereignty framing suggests new legal instrument — not automatic on MOU signing)
+- W3: Iran–Oman joint Hormuz transit framework announced by EOD 30 Jun (P=0.30; Araghchi flagged Oman discussions; required for commercial insurance normalisation; logistically complex)
+- W4: Houthi confirmed vessel strike or sinking in Red Sea/Gulf of Aden 13–17 Jun (P=0.55; ASBM launched 12 Jun; ban on Israel-linked ships active; Lebanon unresolved; Houthi campaign structurally independent)
+- W5: Deal collapse signal — Trump public withdrawal OR Iran Supreme Leader public contradiction of Araghchi by EOD 17 Jun (P=0.15; Netanyahu spoiler vector active; prior breakthroughs reversed; but three-condition methodology delta lowers re-escalation floor)
+
+**Probabilistic predictions (Brier inputs):**
+- P(MOU signed by EOD 17 Jun) = 0.55
+- P(IRGC rescinds Hormuz closure by EOD 20 Jun) = 0.45
+- P(Brent <$82 by EOD 17 Jun) = 0.35 (signed MOU + IRGC rescission would push into $80–82 range)
+- P(Brent >$95 by EOD 17 Jun) = 0.12 (requires deal collapse or new kinetics)
+- P(Houthi vessel strike 13–17 Jun) = 0.55
+- P(Deal collapse signal by EOD 17 Jun) = 0.15
+
+**Scenarios (30d):**
+- A: Negotiated framework — 52% (Δ +44pp vs Day 104; strongest dual-signal; Pakistan text + Iran FM public)
+- B: Frozen attrition/drag — 38% (Δ −10pp; unsigned deal + sovereignty framing + Lebanon friction)
+- C: Re-escalation — 10% (Δ −52pp vs Day 104; nominal ceasefire 48h+; GCC terminal W4 MISS)
+
+**Methodology delta (Day 106):** When Iran FM speaks publicly on state TV (IRIB) about MOU terms, timeline, and signing modality — treat as Hard-tier Iranian state commitment signal, not merely Soft-tier (state media as regime position). This is qualitatively above prior Fars/Tasnim semi-official leaks. Update source weight: IRIB public FM statement = Hard tier for diplomatic commitments (but NOT for military/operational claims, which remain Soft until IRGC/CENTCOM corroboration). Log in sources.md.
