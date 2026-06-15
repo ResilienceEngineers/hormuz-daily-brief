@@ -2158,3 +2158,59 @@ Calibration note: W4 Houthi HIT (second consecutive day) confirms 0.55 base rate
 - C: Re-escalation — 8% (Δ −2pp; ceasefire nominal 96h+; US C-17 Geneva posture; Houthi independent)
 
 **Methodology delta (Day 107):** No new delta. Confirm Day 106 delta: IRIB public FM statement = Hard tier for diplomatic commitments. Wave 3 (post-MOU reopening crunch) now formally added to wave assessment as a forming risk category — logistics planning horizon for mine-clearance + IRGC rescission + insurance lag should begin now under Scenario A base-case assumption.
+
+## Day 108 — 15 June 2026
+
+### T+1 Scoring (Day 107 predictions → Day 108 actuals, 15 Jun 06:00 UTC)
+
+| Prediction | P | Outcome | Score (Brier) |
+|---|---|---|---|
+| W1: MOU signed by EOD 17 Jun | 0.65 | PARTIAL HIT — Framework reached 14 Jun; Pakistan PM + Trump confirmed; Iran Deputy FM confirmed text; formal signing ceremony set for 19 Jun (not EOD 17 Jun). Electronic pre-signing underway. Resolve EOD 17 Jun (electronic only may count as signed). | Pending — resolve EOD 17 Jun |
+| W2: Iran Supreme Leader endorses MOU by EOD 17 Jun | 0.40 | TRACKING HIT — Gharibabadi (Deputy FM) confirmed; state TV framing of "US defeat" = functional elite endorsement. No explicit Supreme Leader (Mojtaba Khamenei) public statement found. Track through 19 Jun. | Pending |
+| W2: Hardliner bloc formally moves to block by EOD 17 Jun | 0.20 | TRACKING MISS — No formal Majlis motion found; hardliner statements (Ben Gvir = Israel, not Iran hardliners). Watch through 17 Jun. | Pending |
+| W3: IRGC formally rescinds Hormuz closure by EOD 22 Jun | 0.45 | PENDING — Trump declared Hormuz open but IRGC formal rescission not confirmed as of 06:00 UTC 15 Jun. | Pending |
+| W4: Houthi vessel strike 14–18 Jun | 0.55 | PENDING — No confirmed new strike 14–15 Jun as of 06:00 UTC. Verbena (13 Jun) counted for Day 107. Window open through 18 Jun. | Pending |
+| W5: Israel publicly breaks with US on Iran deal by EOD 17 Jun | 0.12 | HIT — Netanyahu "not a party"; Ben Gvir "not bound, not subordinate to US"; IDF instructed to preserve Iran strike capability; Israel struck Beirut 14 Jun nearly collapsing deal; Trump publicly furious. P=0.12, outcome=1. | (0.12−1)²=0.7744 |
+| P(MOU signed by EOD 17 Jun) | 0.65 | PENDING — Framework reached; electronic signing in progress; formal ceremony 19 Jun. Resolve EOD 17 Jun. | Pending |
+| P(Brent <$82 by EOD 17 Jun) | 0.40 | TRACKING HIT — Brent <$84 Sunday night (14 Jun futures open); WTI <$81. Markets open Mon 16 Jun. On trajectory toward $82 range. Resolve EOD 17 Jun. | Pending |
+| P(Brent >$92 by EOD 17 Jun) | 0.10 | TRACKING MISS — $83–84 range; deal confirmed. | Pending |
+| P(Houthi vessel strike 14–18 Jun) | 0.55 | PENDING | Pending |
+| P(Deal collapse signal by EOD 17 Jun) | 0.12 | TRACKING MISS — Framework reached; Israel non-participation ≠ collapse signal. W5 HIT is Israeli breaking, not deal collapse. | Pending |
+
+**T+1 resolved items (Day 107 → 15 Jun): W5 HIT (0.7744). Note: high Brier cost because P was well-calibrated as low (0.12) — correct low-probability outcome materialized. Running Day 108 single-item Brier = 0.7744.**
+
+Calibration note: W5 HIT at P=0.12 confirms Israel spoiler vector was correctly identified as low-probability but non-negligible. The Beirut strike 14 Jun was a realized tail risk that nearly collapsed the deal. Raise Israel spoiler risk for Day 109 given Ben Gvir "not bound" statement and IDF independent action order. However, Trump's rapid damage-control ("serious concessions" to Iran) and deal survival confirms US-Israel friction as a managed rather than decisive variable at this probability level.
+
+**Previously pending items now resolving:**
+- W4 Day 106/107 (Houthi 13 Jun): HIT confirmed (Verbena, CBS/CENTCOM). Brier for Day 107 W4: (0.55−1)²=0.2025 (already scored in Day 107 entry).
+- P(MOU signed by EOD 17 Jun, Day 106, P=0.55): TRACKING HIT — framework reached; resolution depends on whether electronic pre-signing counts. EOD 17 Jun resolve.
+- P(Brent <$82 by EOD 17 Jun, Day 106, P=0.35): TRACKING PARTIAL — Brent <$84; below $82 possible by Mon 16 Jun market open. Resolve EOD 17 Jun.
+
+---
+
+### Day 108 New Predictions (T+1: 16 Jun, T+3: 18 Jun, T+7: 22 Jun)
+
+**Trend:** ↓ Better (Confidence: High)
+**Threat level:** 3/5 Concerning (maintained; structural uncertainty transferred to 60-day technical window)
+
+**Watchlist predictions:**
+- W1: Geneva MOU formally signed with unified text by EOD 19 Jun (P=0.78; raised from W1 EOD-17 basis; framework reached, four Hard-tier confirmations, VP Vance travelling; risk: Doha technical talks text dispute this week)
+- W2: Iran Supreme Leader (Mojtaba Khamenei) publicly endorses MOU OR Majlis hardliner bloc formally moves to block ratification by EOD 19 Jun (P endorsement=0.45; P bloc opposition=0.15)
+- W3: IRGC formally rescinds Hormuz closure declaration and issues safe-passage notice by EOD 25 Jun (P=0.55; raised from 0.45; MOU framework creates political pressure; but IRGC triumphalist framing and "fingers on trigger" statement suggests institutional resistance)
+- W4: Houthi confirmed vessel strike Red Sea / Gulf of Aden 15–19 Jun (P=0.50; slightly reduced from 0.55; no new strike 14–15 Jun; MOU Lebanon clause may create temporary Houthi pause signal — but Lebanon unresolved so maintain elevated)
+- W5: Israeli unilateral kinetic action against Iran nuclear/IRGC assets before or within 72h of Geneva signing (P=0.10; Ben Gvir non-bound + IDF independent action order; constrained by Trump fury and US relationship risk)
+
+**Probabilistic predictions (Brier inputs):**
+- P(Geneva MOU signed by EOD 19 Jun) = 0.78
+- P(IRGC rescinds Hormuz closure by EOD 25 Jun) = 0.55
+- P(Brent <$80 by EOD 19 Jun) = 0.35 (signed MOU + further market repricing; physical reopening lag limits downside)
+- P(Brent >$90 by EOD 19 Jun) = 0.08 (requires deal collapse or Israeli strike)
+- P(Houthi vessel strike 15–19 Jun) = 0.50
+- P(Israeli unilateral strike by EOD 22 Jun) = 0.10
+
+**Scenarios (30d):**
+- A: Negotiated framework — 72% (Δ +10pp vs Day 107; four Hard-tier confirmations 14 Jun; VP Vance Geneva-bound; market fully pricing)
+- B: Technical slip/implementation drag — 21% (Δ −9pp; Doha text-version dispute; Iran "funds first" sequencing; hardliner ratification risk)
+- C: Re-escalation — 7% (Δ −1pp; Israel spoiler confirmed but constrained by Trump; deal survived Beirut strike test)
+
+**Methodology delta (Day 108):** Wave 3 (post-MOU logistics crunch) formally activated as primary planning horizon. Add to methodology: When a political deal announcement precedes formal signing by 5+ days, treat the announcement date as a Soft operational signal and the signing date as T0 for Hard operational planning. Physical reopening clock does not start until: (a) formal signing, (b) IRGC formal rescission, (c) UKMTO clear-water advisory. All three required — none substitutes for another.
