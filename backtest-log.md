@@ -2214,3 +2214,51 @@ Calibration note: W5 HIT at P=0.12 confirms Israel spoiler vector was correctly 
 - C: Re-escalation — 7% (Δ −1pp; Israel spoiler confirmed but constrained by Trump; deal survived Beirut strike test)
 
 **Methodology delta (Day 108):** Wave 3 (post-MOU logistics crunch) formally activated as primary planning horizon. Add to methodology: When a political deal announcement precedes formal signing by 5+ days, treat the announcement date as a Soft operational signal and the signing date as T0 for Hard operational planning. Physical reopening clock does not start until: (a) formal signing, (b) IRGC formal rescission, (c) UKMTO clear-water advisory. All three required — none substitutes for another.
+
+## Day 109 — 16 June 2026
+
+### Backtest scoring (T+1 from Day 108 predictions, resolved as of 06:00 UTC 16 Jun)
+
+| Prediction | P | Outcome | Brier |
+|---|---|---|---|
+| MOU electronically signed by EOD 19 Jun (Day 108 W1 early proxy: e-sign confirmed 15 Jun) | 0.78 | HIT — Trump + Vance + Ghalibaf digitally signed 15 Jun per 4 Tier-1 sources | (0.78−1)²=0.0484 |
+| Brent <$80 by EOD 19 Jun | 0.35 | TRACKING — WTI $80.47, Brent $83.27 as of 16 Jun; resolve EOD 19 Jun | Pending |
+| Brent >$90 by EOD 19 Jun | 0.08 | TRACKING MISS — $83 range | Pending |
+| Houthi vessel strike 15–19 Jun | 0.50 | PENDING — No confirmed strike 15–16 Jun; window open through 19 Jun | Pending |
+| Israeli unilateral strike by EOD 22 Jun | 0.10 | PENDING — Netanyahu "security independence" but no kinetic action; window open | Pending |
+| IRGC rescinds Hormuz by EOD 25 Jun | 0.55 | TRACKING — IRGC issued "last warning" to US destroyer 15 Jun; NOT a rescission; downward pressure on P | Pending |
+
+**Day 108 single-item Brier (resolved):** 0.0484 (MOU e-sign HIT)
+**Running cumulative Day 109 Brier (partial):** 0.0484
+
+**Calibration note:** MOU e-sign HIT at P=0.78 is well-calibrated (low Brier penalty). The IRGC dual-signal of 15 Jun (UN notification + "last warning" to US destroyer simultaneously) was an unforecast surprise — adds to methodology: when a state issues simultaneous diplomatic and operational counter-signals, treat the operational signal as the operative planning input until UKMTO/insurer confirms the diplomatic signal is effective in the water.
+
+---
+
+### Day 109 New Predictions (T+1: 17 Jun, T+3: 19 Jun, T+7: 23 Jun)
+
+**Trend:** ↓ Better (Confidence: High)
+**Threat level:** 3/5 Concerning (maintained; 60-day nuclear window is new structural uncertainty)
+
+**Watchlist predictions:**
+- W1: Geneva MOU formal signing ceremony proceeds 19 Jun with Vance + Kushner present AND full MOU text publicly released (P=0.88; e-sign confirmed, G7 political momentum, 4 Tier-1 sources; constrained by Israel spoiler P=0.09 and IRGC non-cooperation)
+- W2: IRGC formally rescinds June 11 Hormuz closure AND issues safe-passage notice without conditions by EOD 25 Jun (P=0.50; reduced from 0.55 given 15 Jun dual-signal showing IRGC institutional resistance concurrent with political deal)
+- W3: Israeli unilateral kinetic action on Iran assets by EOD 22 Jun (P=0.09; Netanyahu "security independence" + IDF retained strike capability; constrained by Trump G7 presence and deal momentum)
+- W4: Houthi confirmed vessel strike Red Sea / Gulf of Aden 16–21 Jun (P=0.50; MOU Lebanon clause unresolved; Netanyahu Lebanon permanence = Houthi operational rationale intact; no new strike 14–16 Jun is mild negative signal)
+- W5: MOU text released publicly confirms major text dispute (Iran "funds first" / "toll-free 60-day" vs US version) by EOD 20 Jun (P=0.55; competing accounts visible in Bloomberg/Reuters vs Mehr/Tasnim; Vance framing as "broad framework" consistent with text being thin)
+
+**Probabilistic predictions (Brier inputs):**
+- P(Geneva ceremony proceeds 19 Jun) = 0.88
+- P(IRGC Hormuz rescission by EOD 25 Jun) = 0.50
+- P(Brent <$80 by EOD 19 Jun) = 0.40 (WTI already $80.47; deal momentum could push below $80 on formal signing day)
+- P(Brent >$88 by EOD 19 Jun) = 0.06 (requires deal collapse or Israeli strike)
+- P(Houthi vessel strike 16–21 Jun) = 0.50
+- P(Israeli unilateral strike by EOD 22 Jun) = 0.09
+- P(MOU text dispute publicly surfaces before/at Geneva) = 0.55
+
+**Scenarios (30d):**
+- A: Negotiated framework — 78% (Δ +6pp vs Day 108; e-sign confirmed; Geneva on track; market fully pricing)
+- B: Technical slip/implementation drag — 16% (Δ −5pp; text disputes, Israel spoiler, IRGC institutional resistance, 60-day nuclear window fragility)
+- C: Re-escalation — 6% (Δ −1pp; Israel constrained but non-party; IRGC dual-signal = friction not escalation)
+
+**Methodology delta (Day 109):** Add rule: When a state simultaneously issues (a) a diplomatic opening signal (UN transit notification) and (b) an operational counter-signal (IRGC radio warning to demining forces) on the same day, the operational signal governs maritime planning posture until a UKMTO or equivalent Tier-1 maritime authority issues a safe-water advisory. Diplomatic signals without operational confirmation are classified as Soft-tier regardless of official source.
