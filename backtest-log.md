@@ -2262,3 +2262,59 @@ Calibration note: W5 HIT at P=0.12 confirms Israel spoiler vector was correctly 
 - C: Re-escalation — 6% (Δ −1pp; Israel constrained but non-party; IRGC dual-signal = friction not escalation)
 
 **Methodology delta (Day 109):** Add rule: When a state simultaneously issues (a) a diplomatic opening signal (UN transit notification) and (b) an operational counter-signal (IRGC radio warning to demining forces) on the same day, the operational signal governs maritime planning posture until a UKMTO or equivalent Tier-1 maritime authority issues a safe-water advisory. Diplomatic signals without operational confirmation are classified as Soft-tier regardless of official source.
+
+## Day 110 — 17 June 2026
+
+### Backtest scoring (T+1 from Day 109 predictions, resolved as of 06:01 UTC 17 Jun)
+
+| Prediction | P | Outcome | Score |
+|---|---|---|---|
+| Geneva ceremony proceeds 19 Jun | 0.88 | TRACKING HIT — confirmed by NBC, PBS, Axios, RFE/RL (Tier 1 ×4); Vance confirmed; Pakistan hosting; Iran confirmed. P upgraded to 0.92. | Pending EOD 19 Jun |
+| IRGC Hormuz rescission by EOD 25 Jun | 0.50 | TRACKING — Strait still 0 transits (straits.live 17 Jun); Iran explicitly will not implement until 19 Jun signing; IRGC no rescission statement. P maintained 0.52. | Pending |
+| Brent <$80 by EOD 19 Jun | 0.40 | **HIT (early)** — Brent $78.57 as of 17 Jun morning (OilPrice.com); crossed <$80 threshold. HIT before deadline. Brier: (0.40−1)²=0.36 |
+| Brent >$88 by EOD 19 Jun | 0.06 | **CLEAR MISS** — $78.57; not tracking. Brier: (0.06−0)²=0.0036 |
+| Houthi vessel strike 16–21 Jun | 0.50 | PENDING — No confirmed strike 16–17 Jun; window open through 21 Jun. Mild negative signal (MOU Lebanon clause). | Pending |
+| Israeli unilateral strike by EOD 22 Jun | 0.09 | PENDING — Netanyahu "freedom of action" language but no kinetic action 16–17 Jun. | Pending |
+| MOU text dispute surfaces publicly | 0.55 | PARTIAL HIT TRACKING — text not yet public; competing US/Iran framings (toll-free vs 60-day; funds-first); PBS/NBC confirm dispute signals. | Pending EOD 20 Jun |
+
+**Resolved Brier scores Day 109→110:**
+- Brent <$80 HIT: (0.40−1)²=0.3600
+- Brent >$88 MISS: (0.06−0)²=0.0036
+- Day 109 partial Brier (2 resolved): **0.1818 avg**
+
+**Calibration note (Day 110):** Brent <$80 resolved as HIT but at below-median probability (0.40) — underconfident; oil market moved faster than physical reopening timeline suggested. In future: when MOU e-sign is confirmed AND Geneva ceremony is locked with Tier-1 confirmation, assign higher P to Brent <$80 within 48h. Methodology update: add rule — "Market pricing of physical reopening outruns operational confirmation by 48–72h minimum; model Brent decline as leading indicator, not confirmation signal."
+
+**Running cumulative Brier (resolved items only):**
+- Day 108: 0.0484 (MOU e-sign HIT)
+- Day 109→110: 0.3600 + 0.0036 = 0.1818 avg (2 items)
+- Cumulative 3-item avg: (0.0484 + 0.3600 + 0.0036) / 3 = **0.1373**
+
+---
+
+### Day 110 New Predictions (T+1: 18 Jun, T+3: 20 Jun, T+7: 24 Jun)
+
+**Trend:** ↓ Better (Confidence: High)
+**Threat level:** 3/5 Concerning (maintained)
+
+**Watchlist predictions:**
+- W1: Geneva MOU formal signing ceremony proceeds 19 Jun with Vance present AND full MOU text publicly released (P=0.92; four Tier-1 confirmations; constrained by Israeli spoiler P=0.08 and IRGC non-cooperation)
+- W2: IRGC formally rescinds June 11 Hormuz closure AND issues unconditional safe-passage notice by EOD 25 Jun (P=0.52; slight uptick — Lebanon clause in MOU reduces IRGC political cover for non-compliance)
+- W3: Israeli unilateral kinetic action on Iran assets by EOD 22 Jun (P=0.08; Netanyahu hardliner pressure; constrained by Trump/G7 deal momentum; no kinetic action 16–17 Jun is mild negative signal)
+- W4: Houthi confirmed vessel strike Red Sea / Gulf of Aden 17–22 Jun (P=0.40; revised down from 0.50; MOU Lebanon clause mildly reduces short-term rationale; structural capability intact; no strike 16–17 Jun negative signal)
+- W5: UKMTO or Lloyd's/JWC formally downgrades Hormuz war-risk designation following Geneva signing by EOD 26 Jun (P=0.35; prerequisite for major operators to resume; new watchlist item)
+
+**Probabilistic predictions (Brier inputs):**
+- P(Geneva ceremony proceeds EOD 19 Jun) = 0.92
+- P(IRGC Hormuz rescission by EOD 25 Jun) = 0.52
+- P(Brent <$75 by EOD 22 Jun) = 0.25 (post-signing optimism overshooting; physical disappointment risk)
+- P(Brent >$85 by EOD 22 Jun) = 0.08 (requires deal collapse or Israeli strike)
+- P(Houthi vessel strike 17–22 Jun) = 0.40
+- P(Israeli unilateral strike by EOD 22 Jun) = 0.08
+- P(UKMTO Hormuz advisory step-down by EOD 26 Jun) = 0.35
+
+**Scenarios (30d):**
+- A: Negotiated framework — 82% (Δ +4pp vs Day 109; four Hard-tier Tier-1 confirmations of Geneva; Brent fully priced)
+- B: Technical slip/implementation drag — 13% (Δ −3pp; text disputes unresolved until text public; IRGC no rescission; Mitsui/Maersk waiting; 60-day nuclear window fragile)
+- C: Re-escalation — 5% (Δ −1pp; Israeli hardliner constrained but non-zero; IRGC dual-signal = institutional resistance not escalation)
+
+**Methodology delta (Day 110):** Add rule — "Oil market pricing of physical Hormuz reopening leads operational reality by 48–72h minimum. When both (a) MOU e-sign confirmed and (b) Geneva ceremony is Tier-1 locked, assign P(Brent <pre-crisis-level within 48h) ≥0.55 regardless of physical gate status. Brent decline is a leading political-confidence indicator, not an operational confirmation signal — do not treat as evidence that Hormuz is physically open."
