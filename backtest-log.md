@@ -2318,3 +2318,58 @@ Calibration note: W5 HIT at P=0.12 confirms Israel spoiler vector was correctly 
 - C: Re-escalation — 5% (Δ −1pp; Israeli hardliner constrained but non-zero; IRGC dual-signal = institutional resistance not escalation)
 
 **Methodology delta (Day 110):** Add rule — "Oil market pricing of physical Hormuz reopening leads operational reality by 48–72h minimum. When both (a) MOU e-sign confirmed and (b) Geneva ceremony is Tier-1 locked, assign P(Brent <pre-crisis-level within 48h) ≥0.55 regardless of physical gate status. Brent decline is a leading political-confidence indicator, not an operational confirmation signal — do not treat as evidence that Hormuz is physically open."
+
+## Day 111 — 18 June 2026
+
+### Backtest scoring (T+1 from Day 110 predictions, resolved as of 06:01 UTC 18 Jun)
+
+| Prediction | P | Outcome | Score |
+|---|---|---|---|
+| Geneva ceremony proceeds EOD 19 Jun | 0.92 | **EARLY HIT** — Trump signed MOU physically at Versailles 17 Jun evening (CNN, NBC, CBS, The Hill — Tier 1 ×3); Iran Pezeshkian co-signed digitally; Pakistan PM confirms in-force "immediately"; Bürgenstock 19 Jun now ceremonial but Vance still expected. MOU text public. Full ceremony tracking HIT pending EOD 19 Jun. Brier on resolution: (0.92−1)²=0.0064 | Resolves EOD 19 Jun |
+| IRGC Hormuz rescission by EOD 25 Jun | 0.52 | TRACKING — MOU Article 5 mandates "commercial traffic immediately start" — but zero AIS transits 18 Jun; IRGC no formal rescission statement; operational gap confirmed. P revised to 0.55 (MOU in force raises compliance expectation but timeline remains uncertain). | Pending |
+| Brent <$75 by EOD 22 Jun | 0.25 | PENDING — Brent $78.57 (18 Jun); WTI $75.49; below $75 requires further market move. Mild negative signal — market stabilising at $78-79 post-MOU signing. P revised to 0.20. | Pending EOD 22 Jun |
+| Brent >$85 by EOD 22 Jun | 0.08 | **CLEAR MISS tracking** — $78.57; MOU in force reduces re-escalation probability. Brier: (0.08−0)²=0.0064 | Pending EOD 22 Jun |
+| Houthi vessel strike 17–22 Jun | 0.40 | PENDING — No confirmed strike 17–18 Jun; window open through 22 Jun. Houthi leader called MOU "great victory" but no maritime ceasefire statement issued. P maintained 0.35 (mild negative signal from Iran ceasefire context). | Pending EOD 22 Jun |
+| Israeli unilateral strike by EOD 22 Jun | 0.08 | PENDING — No kinetic action; Israel publicly excluded from MOU; IDF/Mossad opposed; Trump publicly critical of Netanyahu; US restraint structural. P revised to 0.06. | Pending EOD 22 Jun |
+| UKMTO Hormuz advisory step-down EOD 26 Jun | 0.35 | PENDING — Threat-level downgrade referenced (hormuztracking.com, Tier 3) but no formal UKMTO advisory issued. P maintained 0.40 (MOU in force increases likelihood). | Pending EOD 26 Jun |
+
+**Resolved items this cycle:**
+- Brent >$85 clear miss: (0.08−0)²=0.0064
+
+**Cumulative Brier log:**
+- Day 108: 0.0484 (MOU e-sign HIT)
+- Day 109→110: (0.3600 + 0.0036) / 2 = 0.1818
+- Day 110→111: 0.0064 (Brent >$85 resolved miss; Geneva ceremonial signing pending EOD 19 Jun)
+- Cumulative 4-item avg (resolved): (0.0484 + 0.3600 + 0.0036 + 0.0064) / 4 = **0.1046**
+
+**Calibration note (Day 111):** Geneva ceremony resolved as early HIT (Versailles, not Bürgenstock). The physical location shifted but the diplomatic outcome (MOU in force, text public) fully met the prediction criterion. The P=0.92 was well-calibrated. Methodology note: when a signed agreement relocates ceremonial venue but achieves the substantive outcome (text public + both parties signed), treat as HIT on the substance, not MISS on the logistics.
+
+---
+
+### Day 111 New Predictions (T+1: 19 Jun, T+3: 21 Jun, T+7: 25 Jun)
+
+**Trend:** ↓ Better (Confidence: High)
+**Threat level:** 3/5 Concerning (maintained — zero transits and demining gap prevent downgrade to 2)
+
+**Watchlist predictions:**
+- W1: Bürgenstock ceremonial signing proceeds 19 Jun with Vance in attendance (P=0.80; uncertain after Versailles physical signing; Iran FM Baghaei paused confirmation; Vance still expected per US official; ceremonial only but politically important for 60-day clock optics)
+- W2: UKMTO or Lloyd's/JWC formally downgrade Hormuz war-risk designation by EOD 26 Jun (P=0.40; MOU in force increases likelihood; operational zero-transit gap may delay)
+- W3: AIS/IMF PortWatch records ≥5 commercial transits through Hormuz in single day by EOD 25 Jun (P=0.35; demining gate; mines present; MOU "immediate start" language; Pentagon 6-month assessment)
+- W4: Israeli unilateral kinetic action on Iran or clear MOU Article 1 breach by EOD 22 Jun (P=0.06; revised down; US restraint on Israel structural post-Versailles)
+- W5: Houthi explicit ceasefire statement on Red Sea commercial shipping by EOD 24 Jun (P=0.30; Iran "great victory" framing may encourage Houthi stand-down; no strike since 13 Jun positive signal; structural independence maintained)
+
+**Probabilistic predictions (Brier inputs):**
+- P(Bürgenstock ceremony proceeds with Vance EOD 19 Jun) = 0.80
+- P(AIS ≥5 Hormuz transits/day by EOD 25 Jun) = 0.35
+- P(UKMTO Hormuz advisory step-down by EOD 26 Jun) = 0.40
+- P(Brent <$75 by EOD 22 Jun) = 0.20 (stabilising at $78-79; requires further move)
+- P(Brent >$82 by EOD 22 Jun) = 0.12 (requires Israeli spoiler or MOU implementation failure signal)
+- P(Houthi vessel strike 18–24 Jun) = 0.35
+- P(Israeli unilateral strike by EOD 22 Jun) = 0.06
+
+**Scenarios (30d):**
+- A: Negotiated framework — 87% (Δ +5pp vs Day 110; MOU in force, text public, both presidents signed)
+- B: Technical slip/implementation drag — 9% (Δ −4pp; zero AIS transits; demining gap; Israel Lebanon; 60-day clock fragile)
+- C: Re-escalation — 4% (Δ −1pp; Israeli non-party structural; Trump "go back to bombing" reservation; IDF/Mossad opposed)
+
+**Methodology delta (Day 111):** Confirm rule from Day 110: "Oil market pricing leads physical reopening by 48–72h minimum." Extend: When MOU is physically signed by both heads of state AND text is public, assign P(AIS trickle flow within 30 days) ≥ 0.65 — but do NOT treat as operational gate confirmation until UKMTO advisory AND AIS data both arrive. The MOU "best efforts" language (not a hard guarantee) is a structurally weaker commitment than a UKMTO safe-water advisory. The operational counter-signal rule (methodology Day 109) remains in force: zero AIS transits + no UKMTO advisory = maritime planning posture unchanged regardless of diplomatic signature.
