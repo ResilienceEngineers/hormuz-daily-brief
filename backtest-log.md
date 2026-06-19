@@ -2373,3 +2373,60 @@ Calibration note: W5 HIT at P=0.12 confirms Israel spoiler vector was correctly 
 - C: Re-escalation — 4% (Δ −1pp; Israeli non-party structural; Trump "go back to bombing" reservation; IDF/Mossad opposed)
 
 **Methodology delta (Day 111):** Confirm rule from Day 110: "Oil market pricing leads physical reopening by 48–72h minimum." Extend: When MOU is physically signed by both heads of state AND text is public, assign P(AIS trickle flow within 30 days) ≥ 0.65 — but do NOT treat as operational gate confirmation until UKMTO advisory AND AIS data both arrive. The MOU "best efforts" language (not a hard guarantee) is a structurally weaker commitment than a UKMTO safe-water advisory. The operational counter-signal rule (methodology Day 109) remains in force: zero AIS transits + no UKMTO advisory = maritime planning posture unchanged regardless of diplomatic signature.
+
+## Day 112 — 19 June 2026
+
+### Backtest scoring (T+1 from Day 111 predictions, resolved as of 06:01 UTC 19 Jun)
+
+| Prediction | P | Outcome | Score |
+|---|---|---|---|
+| Bürgenstock ceremony proceeds with Vance in attendance EOD 19 Jun | 0.80 | **MISS** — Vance canceled overnight; White House cited "difficult logistical conditions"; Switzerland confirmed all talks canceled by 07:34 local (Times of Israel, Tier 2; Reuters, Tier 1; bluewin.ch, Tier 2). Ceremony did not proceed. MOU substantively in force but ceremonial prediction fully missed. Brier: (0.80−0)²=**0.6400** |
+| UKMTO/JWC formally downgrade Hormuz war-risk EOD 26 Jun | 0.40 | TRACKING — JMIC downgraded "Severe"→"Substantial" 17 Jun (CNBC, Tier 1). This is JMIC (US-led), not formal JWC/UKMTO listed-area step-down. Partial positive signal. Watchlist item reset to W2 with EOD 30 Jun deadline. P revised to 0.45. |
+| AIS ≥5 commercial transits Hormuz single day EOD 25 Jun | 0.35 | EARLY POSITIVE — Kpler confirms 3 Saudi VLCCs transited 19 Jun (discoveryalert.com.au, Tier 3; TradingEconomics corroboration, Tier 3). IMF PortWatch full-day count pending. 3 < 5 threshold but strongly directional. Watchlist reset to ≥10/day ×2 days (Wave 3 trigger). P(≥5 single day by EOD 25 Jun) revised to 0.55. |
+| Israeli unilateral strike by EOD 22 Jun | 0.06 | TRACKING — No kinetic action. Window open through 22 Jun. US restraint on Israel structurally confirmed (Vance "weapons protecting you" statement). P revised to 0.05. |
+| Houthi vessel strike 18–24 Jun | 0.35 | TRACKING — No confirmed strike 18–19 Jun. Window open through 24 Jun. No explicit ceasefire statement. MARAD 2026-006 in force. P maintained 0.30 (mild positive from Iran ceasefire context; Hezbollah Lebanon active maintains justification). |
+| Brent <$75 by EOD 22 Jun | 0.20 | TRACKING — Brent $77.22–79.31 (19 Jun session). Requires further ~$4+ move. P revised to 0.15 (stabilizing in $77–79 band). |
+| Brent >$82 by EOD 22 Jun | 0.12 | TRACKING MISS — $77–79; no re-escalation trigger. P revised to 0.05. |
+
+**Resolved items this cycle:**
+- Bürgenstock ceremony with Vance: MISS (0.80−0)²=0.6400
+
+**Cumulative Brier log:**
+- Day 108: 0.0484
+- Day 109→110: 0.1818
+- Day 110→111: 0.0064
+- Day 111→112: 0.6400 (Vance cancellation; Bürgenstock prediction overconfident at P=0.80)
+- Cumulative 5-item avg (resolved): (0.0484 + 0.3600 + 0.0036 + 0.0064 + 0.6400) / 5 = **0.2117**
+
+**Calibration note (Day 112):** P=0.80 on Bürgenstock-with-Vance was overconfident. The prediction conflated the substantive outcome (MOU in force — already achieved at Versailles) with the ceremonial logistics. Methodology update: When a substantive diplomatic outcome has already been achieved at a prior venue, do not assign P>0.60 to a separate ceremonial event dependent on high-profile travel logistics — logistical cancellations are common even when political will is intact. Future rule: "Ceremonial logistics ≠ diplomatic substance. Cap P(ceremony-specific prediction) at 0.65 when substantive outcome is already locked."
+
+---
+
+### Day 112 New Predictions (T+1: 20 Jun, T+3: 22 Jun, T+7: 26 Jun)
+
+**Trend:** ↓ Better (Confidence: Medium)
+**Threat level:** 3/5 Concerning (maintained — trickle AIS positive but JWC unchanged; demining gap persists)
+
+**Watchlist predictions:**
+- W1: IMF PortWatch records ≥10 commercial transits/day through Hormuz for 2 consecutive days by EOD 28 Jun (P=0.25; 3 VLCCs positive signal but large gap to 10; JWC unchanged; BIMCO caution; demining)
+- W2: JWC removes Hormuz from Lloyd's Listed Areas OR UKMTO formal advisory step-down by EOD 30 Jun (P=0.45; JMIC "Substantial" is upstream signal; JWC typically lags JMIC by 1–2 weeks)
+- W3: IAEA Grossi confirms date for Iranian site inspection under MOU side-letter by EOD 26 Jun (P=0.55; Witkoff briefed Congress AP Tier 1; side-letter confirmed; scheduling step expected quickly)
+- W4: Houthi confirmed vessel attack OR explicit Red Sea ceasefire statement by EOD 24 Jun (P=0.30 attack / 0.20 ceasefire; mutually exclusive; Hezbollah Lebanon active maintains Houthi justification)
+- W5: IRGC formal Hormuz rescission statement by EOD 25 Jun (P=0.30; MOU Article 5 "immediate start" but IRGC no statement yet; split-signal from 15 Jun "last warning" persists)
+
+**Probabilistic predictions (Brier inputs):**
+- P(IMF PortWatch ≥10 transits/day ×2 consecutive days by EOD 28 Jun) = 0.25
+- P(JWC/UKMTO formal Hormuz step-down by EOD 30 Jun) = 0.45
+- P(IAEA Grossi confirms inspection date by EOD 26 Jun) = 0.55
+- P(Houthi vessel strike 19–24 Jun) = 0.30
+- P(Brent <$75 by EOD 22 Jun) = 0.15
+- P(Brent >$82 by EOD 22 Jun) = 0.05
+- P(Israeli unilateral strike by EOD 22 Jun) = 0.05
+- P(≥5 IMF PortWatch transits/day single day by EOD 25 Jun) = 0.55
+
+**Scenarios (30d):**
+- A: Negotiated framework — 85% (Δ −2pp vs Day 111; Vance withdrawal reduces ceremonial momentum; IAEA side-letter positive)
+- B: Implementation drag — 12% (Δ +3pp; Bürgenstock collapse; demining 40–180d; JWC unchanged; Lebanon)
+- C: Re-escalation — 3% (Δ −1pp; no kinetic trigger; US restraint on Israel structurally confirmed)
+
+**Methodology delta (Day 112):** Add rule: "Ceremonial logistics ≠ diplomatic substance. When a substantive outcome (signature, text public, legal entry into force) has already been achieved, cap P(separate ceremonial event with travel-dependent officials) at 0.65. Ceremonial collapses are frequent even under intact political will." Append to methodology.md.
