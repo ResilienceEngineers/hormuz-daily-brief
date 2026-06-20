@@ -2430,3 +2430,59 @@ Calibration note: W5 HIT at P=0.12 confirms Israel spoiler vector was correctly 
 - C: Re-escalation — 3% (Δ −1pp; no kinetic trigger; US restraint on Israel structurally confirmed)
 
 **Methodology delta (Day 112):** Add rule: "Ceremonial logistics ≠ diplomatic substance. When a substantive outcome (signature, text public, legal entry into force) has already been achieved, cap P(separate ceremonial event with travel-dependent officials) at 0.65. Ceremonial collapses are frequent even under intact political will." Append to methodology.md.
+
+## Day 113 — 20 June 2026
+
+### Backtest scoring (T+1 from Day 112 predictions, resolved as of 06:00 UTC 20 Jun)
+
+| Prediction | P | Outcome | Score |
+|---|---|---|---|
+| IMF PortWatch ≥10 transits/day ×2 consecutive days by EOD 28 Jun | 0.25 | TRACKING — 0 transits 19 Jun (straits.live Tier 3; hormuztracking Tier 3); 7-day avg 2.6. Deadline 28 Jun open. P revised to 0.20 (slight downward; trickle reversed 19 Jun). |
+| JWC/UKMTO formal Hormuz step-down by EOD 30 Jun | 0.45 | NEGATIVE UPDATE — Lloyd's/Chubb consortium launched 19 Jun (Tier 1) but explicitly not a JWC listed-area change. HouseOfSaud analysis: earliest JWC delisting mid-2027. P revised DOWN to 0.15. Brier input pending resolution. |
+| IAEA Grossi confirms inspection date by EOD 26 Jun | 0.55 | TRACKING — No inspection date confirmed. Bürgenstock canceled removes venue; IAEA Board resolution 10 Jun urges cooperation but no scheduling. P revised to 0.40 (Bürgenstock cancellation negative). |
+| Houthi vessel strike 19–24 Jun | 0.30 | IMPROVING MISS-TRACK — No strike 19–20 Jun. Israel-Hezbollah ceasefire agreed 20 Jun (CBS/Reuters Tier 1) reduces Houthi justification. Window open through 24 Jun. P revised to 0.20. |
+| Brent <$75 by EOD 22 Jun | 0.15 | TRACKING MISS — Brent $80.59 (19 Jun). Requires ~$6+ further move. P revised to 0.08. |
+| Brent >$82 by EOD 22 Jun | 0.05 | TRACKING — In $78–81 band. No escalation driver. P maintained 0.08. |
+| Israeli unilateral strike by EOD 22 Jun | 0.05 | TRACKING NEAR-MISS — Israel-Hezbollah ceasefire agreed 20 Jun; IDF operations in Lebanon continuing per Katz but no strike on Iran. P revised to 0.03. |
+| ≥5 IMF PortWatch transits/day single day by EOD 25 Jun | 0.55 | DOWNWARD REVISION — 0 transits 19 Jun after Saudi VLCC trickle. CENTCOM blockade lift is positive; Lloyd's consortium positive. Demining and IRGC warning inhibiting first-mover. P revised to 0.45. |
+
+**Resolved items this cycle:** None (all tracking items remain open; deadlines not yet reached).
+
+**Cumulative Brier log (resolved items):**
+- Day 108: 0.0484
+- Day 109→110: 0.1818
+- Day 110→111: 0.0064
+- Day 111→112: 0.6400
+- Cumulative 4-item avg (resolved through Day 112): **0.2117**
+
+---
+
+### Day 113 New Predictions (T+1: 21 Jun, T+3: 23 Jun, T+7: 27 Jun)
+
+**Trend:** ↓ Better (Confidence: Medium)  
+**Threat level:** 3/5 Concerning (maintained — Lloyd's consortium and blockade lift are positive but physical closure persists; JWC unchanged)
+
+**Watchlist predictions:**
+- W1: IMF PortWatch ≥10 commercial transits/day ×2 consecutive days by EOD 28 Jun (P=0.20; 0 transits 19 Jun reversal from Saudi VLCC trickle; demining + IRGC warning dominant constraint)
+- W2: JWC removes Hormuz from Lloyd's Listed Areas OR UKMTO formal step-down by EOD 30 Jun (P=0.15; HouseOfSaud: earliest delisting mid-2027; Lloyd's consortium explicitly not a JWC change)
+- W3: IAEA Grossi confirms Iranian nuclear site inspection date by EOD 26 Jun (P=0.40; Bürgenstock cancellation removes venue; clock running day 5 of 60; no scheduling confirmed)
+- W4: Israel-Hezbollah ceasefire holds through Lebanon Round 5 (22–23 Jun) without IDF kinetic breach (P=0.60 hold / 0.25 breach; Katz counter-signal; agreed 20 Jun effective 09:00 ET)
+- W5: IRGC issues formal Hormuz passage authorization OR conducts new vessel warning/intercept by EOD 25 Jun (P=0.25 authorization / 0.15 new warning; split-signal from 15 Jun unresolved)
+
+**Probabilistic predictions (Brier inputs):**
+- P(IMF PortWatch ≥10/day ×2 consecutive days by EOD 28 Jun) = 0.20
+- P(JWC/UKMTO formal Hormuz step-down by EOD 30 Jun) = 0.15
+- P(IAEA Grossi inspection date confirmed by EOD 26 Jun) = 0.40
+- P(Houthi vessel strike 19–24 Jun) = 0.20
+- P(Israel-Hezbollah ceasefire holds through Lebanon Round 5 EOD 23 Jun) = 0.60
+- P(Brent <$75 by EOD 22 Jun) = 0.08
+- P(Brent >$82 by EOD 22 Jun) = 0.08
+- P(Israeli unilateral strike on Iran by EOD 22 Jun) = 0.03
+- P(≥5 IMF PortWatch transits/day single day by EOD 25 Jun) = 0.45
+
+**Scenarios (30d):**
+- A: Negotiated framework — 84% (Δ −1pp vs Day 112; CENTCOM blockade lift and Israel-Hezbollah ceasefire positive; zero transits and Bürgenstock cancellation limit upward revision)
+- B: Implementation drag — 13% (Δ +1pp; demining 40–180d; JWC mid-2027 earliest; IRGC unrescinded; no IAEA date; Bürgenstock canceled)
+- C: Re-escalation — 3% (unchanged; Israel-Hezbollah ceasefire agreed; US restraint confirmed; no kinetic trigger)
+
+**Methodology note (Day 113):** Calibration flag: P=0.45 on JWC/UKMTO formal step-down by EOD 30 Jun (Day 112) was significantly overconfident. New data: HouseOfSaud structural analysis (Tier 3) indicates JWC listed-area designation requires minimum two quarterly review cycles — earliest delisting mid-2027 under optimistic assumptions. Rule addition: "JWC listed-area delisting is a structural lagging indicator with 6–12 month minimum lag from ceasefire date. Cap P(JWC delisting within 30 days of any ceasefire) at 0.10 unless JWC itself issues a public review announcement." P revised to 0.15 (factoring small probability of extraordinary JWC action given Lloyd's consortium launch signals market appetite change).
