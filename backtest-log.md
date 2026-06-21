@@ -2486,3 +2486,63 @@ Calibration note: W5 HIT at P=0.12 confirms Israel spoiler vector was correctly 
 - C: Re-escalation — 3% (unchanged; Israel-Hezbollah ceasefire agreed; US restraint confirmed; no kinetic trigger)
 
 **Methodology note (Day 113):** Calibration flag: P=0.45 on JWC/UKMTO formal step-down by EOD 30 Jun (Day 112) was significantly overconfident. New data: HouseOfSaud structural analysis (Tier 3) indicates JWC listed-area designation requires minimum two quarterly review cycles — earliest delisting mid-2027 under optimistic assumptions. Rule addition: "JWC listed-area delisting is a structural lagging indicator with 6–12 month minimum lag from ceasefire date. Cap P(JWC delisting within 30 days of any ceasefire) at 0.10 unless JWC itself issues a public review announcement." P revised to 0.15 (factoring small probability of extraordinary JWC action given Lloyd's consortium launch signals market appetite change).
+
+## Day 114 — 21 June 2026
+
+### Backtest scoring (T+1 from Day 113 predictions, resolved as of 06:00 UTC 21 Jun)
+
+| Prediction | P | Outcome | Score |
+|---|---|---|---|
+| IMF PortWatch ≥10/day ×2 consecutive days by EOD 28 Jun | 0.20 | DOWNWARD — IRGC re-declared Hormuz closed 20 Jun (CNN/IRIB Tier 1); 0 AIS transits. Deadline open. P revised DOWN to 0.12. |
+| JWC/UKMTO formal step-down by EOD 30 Jun | 0.15 | TRACKING — No change. IRGC re-closure makes step-down more remote. P revised DOWN to 0.08. |
+| IAEA Grossi inspection date by EOD 26 Jun | 0.40 | TRACKING — No date confirmed. Burgenstock opens; IAEA not on Day 1 agenda. P maintained 0.30. |
+| Houthi vessel strike 19–24 Jun | 0.20 | **PARTIAL HIT** — UKMTO confirmed Houthi ballistic-missile attack on Transworld Navigator in Gulf of Aden 21 Jun, no casualties (UKMTO Tier 1). Window closes 24 Jun. Brier input: P=0.20, outcome partial (within window) = tracking as HIT for Brier when window closes. |
+| Israel-Hezbollah ceasefire holds through Lebanon Round 5 EOD 23 Jun | 0.60 hold | CONTESTED — Ceasefire renewed 19 Jun (CNN Tier 1) but IDF conducted 150+ strikes 19–20 Jun; IRGC cited violations. Hold probability revised to 0.45; breach probability 0.45. Deadline 23 Jun open. |
+| Brent <$75 by EOD 22 Jun | 0.08 | TRACKING MISS — Brent ~$80. P maintained 0.05 (IRGC closure prevents further decline). |
+| Brent >$82 by EOD 22 Jun | 0.08 | TRACKING — Brent ~$80; IRGC closure modestly bullish. P revised to 0.12 (slight upward on closure news). |
+| Israeli unilateral strike on Iran by EOD 22 Jun | 0.03 | TRACKING — No confirmed strike on Iran. Window open. P maintained 0.03. |
+| ≥5 IMF PortWatch transits single day by EOD 25 Jun | 0.45 | DOWNWARD — IRGC re-closure operative. P revised DOWN to 0.25. |
+
+**Resolved items this cycle:** Houthi vessel strike 19–24 Jun — **HIT** (UKMTO confirmed 21 Jun). Brier score: (0.20−1)² = 0.6400. Running cumulative. (Full resolution at EOD 24 Jun for window close.)
+
+**Cumulative Brier log (resolved items):**
+- Day 108: 0.0484
+- Day 109→110: 0.1818
+- Day 110→111: 0.0064
+- Day 111→112: 0.6400
+- Day 113→114 (Houthi strike, partial): 0.6400 (tracking)
+- Cumulative 5-item avg (tracking): **0.3033**
+
+---
+
+### Day 114 New Predictions (T+1: 22 Jun, T+3: 24 Jun, T+7: 28 Jun)
+
+**Trend:** ↑ Worse (Confidence: High)
+**Threat level:** 4/5 Severe (upgraded from 3 — IRGC formal re-closure declaration + UKMTO-confirmed Houthi strike meets dual Hard-source threshold for threat elevation)
+
+**Watchlist predictions:**
+- W1: Burgenstock joint statement includes Lebanon ceasefire compliance mechanism by EOD 22 Jun (P=0.45; both delegations present; Lebanon added as emergency opening agenda item; Pakistan PM personal presence strong positive signal; hardliner opposition is constraining factor)
+- W2: IRGC formally rescinds Hormuz closure OR conducts vessel warning/intercept by EOD 23 Jun (P=0.50 rescinds conditional on Burgenstock outcome / 0.15 intercept; linked to W1)
+- W3: IAEA Grossi confirms Iranian nuclear site inspection date by EOD 26 Jun (P=0.30; Burgenstock Lebanon track takes priority; nuclear clause secondary at Day 1; clock at Day 6)
+- W4: IMF PortWatch ≥10 commercial transits/day ×2 consecutive days by EOD 28 Jun (P=0.12; IRGC re-closure operative; contingent on W1+W2 both resolved positively)
+- W5: Further Houthi vessel strike OR Houthi formal maritime ceasefire announcement by EOD 25 Jun (P=0.35 further strike / 0.10 ceasefire; Transworld Navigator strike 21 Jun reactivates threat ladder; Lebanon fighting increases Houthi justification)
+
+**Probabilistic predictions (Brier inputs):**
+- P(Burgenstock Lebanon joint statement by EOD 22 Jun) = 0.45
+- P(IRGC closure formally rescinded by EOD 23 Jun) = 0.40
+- P(IRGC vessel intercept/warning under new closure order by EOD 23 Jun) = 0.15
+- P(IAEA Grossi inspection date by EOD 26 Jun) = 0.30
+- P(IMF PortWatch ≥10/day ×2 consecutive by EOD 28 Jun) = 0.12
+- P(JWC/UKMTO formal step-down by EOD 30 Jun) = 0.08
+- P(Israel-Hezbollah ceasefire holds through Lebanon Round 5 EOD 23 Jun) = 0.45
+- P(Houthi vessel strike 22–25 Jun) = 0.35
+- P(Brent <$75 by EOD 22 Jun) = 0.05
+- P(Brent >$82 by EOD 22 Jun) = 0.12
+- P(≥5 IMF PortWatch transits single day by EOD 25 Jun) = 0.25
+
+**Scenarios (30d):**
+- A: Negotiated framework — 82% (Δ −2pp vs Day 113; Burgenstock open but IRGC closure + Lebanon compliance gap regressive)
+- B: Implementation drag — 15% (Δ +2pp; IRGC re-closure operative; Lebanon fragile; IAEA no date)
+- C: Re-escalation — 3% (unchanged; coercive closure ≠ kinetic exit from diplomacy)
+
+**Methodology note (Day 114):** New rule applied: "IRGC re-closure declarations linked to a specific diplomatic demand (Lebanon ceasefire) are analytically distinct from kinetic re-escalation. Classify as 'coercive leverage' not 're-escalation trigger' unless accompanied by: (a) confirmed vessel intercept/boarding, (b) mine deployment confirmation, or (c) official IRGC statement withdrawing from MOU entirely. Coercive closure = Threat 4 maintained; kinetic enforcement = Threat 5 trigger." Append to methodology.md.
