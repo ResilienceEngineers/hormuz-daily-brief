@@ -2546,3 +2546,67 @@ Calibration note: W5 HIT at P=0.12 confirms Israel spoiler vector was correctly 
 - C: Re-escalation — 3% (unchanged; coercive closure ≠ kinetic exit from diplomacy)
 
 **Methodology note (Day 114):** New rule applied: "IRGC re-closure declarations linked to a specific diplomatic demand (Lebanon ceasefire) are analytically distinct from kinetic re-escalation. Classify as 'coercive leverage' not 're-escalation trigger' unless accompanied by: (a) confirmed vessel intercept/boarding, (b) mine deployment confirmation, or (c) official IRGC statement withdrawing from MOU entirely. Coercive closure = Threat 4 maintained; kinetic enforcement = Threat 5 trigger." Append to methodology.md.
+
+## Day 115 — 22 June 2026
+
+### Backtest scoring (T+1 from Day 114 predictions, resolved as of 06:00 UTC 22 Jun)
+
+| Prediction | P | Outcome | Score |
+|---|---|---|---|
+| Burgenstock Lebanon joint statement by EOD 22 Jun | 0.45 | **HIT** — Qatar/Pakistan joint statement issued after Round 1: Lebanon de-confliction cell established, 60-day roadmap, Hormuz comms line (CNN/CNBC/The National Tier 1). Brier: (0.45−1)² = 0.3025 |
+| IRGC closure formally rescinded by EOD 23 Jun | 0.40 | TRACKING — Unrescinded as of 06:00 UTC 22 Jun. Window open through EOD 23 Jun. P maintained 0.40 contingent on Lebanon de-confliction cell first-test outcome. |
+| IRGC vessel intercept/warning under new closure order by EOD 23 Jun | 0.15 | TRACKING — No confirmed intercept as of 06:00 UTC. Window open. P maintained 0.15. |
+| IAEA Grossi inspection date by EOD 26 Jun | 0.30 | TRACKING — Nuclear working group established at Burgenstock; inspection access on agenda for technical talks this week (RFE/RL Tier 1). No date confirmed yet. P maintained 0.30. |
+| IMF PortWatch ≥10/day × 2 consecutive by EOD 28 Jun | 0.12 | TRACKING — Last published PortWatch = 0 (Jun 14). Physical transits ~32/day (Windward, state operators only). AIS-commercial = ~0. P revised DOWN to 0.10 (Burgenstock provides marginal positive but IRGC unrescinded). |
+| JWC/UKMTO formal step-down by EOD 30 Jun | 0.08 | TRACKING — No change. P maintained 0.08 (capped at 0.10 per methodology). |
+| Israel-Hezbollah ceasefire holds through Lebanon Round 5 EOD 23 Jun | 0.45 | TRACKING — De-confliction cell established; IDF strikes continued 19–20 Jun; Round 5 bilateral talks start week of 22 Jun. Ceasefire fragile. P maintained 0.45. |
+| Houthi vessel strike 22–25 Jun | 0.35 | **PARTIAL HIT (window open)** — Transworld Navigator ballistic-missile attack 21 Jun (UKMTO Tier 1) confirms capability; window 22–25 Jun open. Brier scored at window close EOD 25 Jun. |
+| Brent <$75 by EOD 22 Jun | 0.05 | **MISS** — Brent ~$79–81. Brier: (0.05−0)² = 0.0025 |
+| Brent >$82 by EOD 22 Jun | 0.12 | **MISS** — Brent ~$79–81. Brier: (0.12−0)² = 0.0144 |
+| ≥5 IMF PortWatch transits single day by EOD 25 Jun | 0.25 | TRACKING — PortWatch last published = 0 (14 Jun). Windward shows 32 total (state operators). P maintained 0.25 pending updated PortWatch publication. |
+
+**Resolved items this cycle:** Burgenstock Lebanon joint statement — **HIT** (0.3025). Brent <$75 — **MISS** (0.0025). Brent >$82 — **MISS** (0.0144).
+
+**Cumulative Brier log (resolved items):**
+- Day 108: 0.0484
+- Day 109→110: 0.1818
+- Day 110→111: 0.0064
+- Day 111→112: 0.6400
+- Day 113→114 (Houthi strike Transworld Navigator): **HIT** confirmed — Brier (0.20−1)² = 0.6400 (resolved)
+- Day 114→115 (Burgenstock Lebanon statement): **HIT** — Brier (0.45−1)² = 0.3025
+- Day 114→115 (Brent <$75): **MISS** — Brier 0.0025
+- Day 114→115 (Brent >$82): **MISS** — Brier 0.0144
+- Cumulative 8-item avg: **(0.0484+0.1818+0.0064+0.6400+0.6400+0.3025+0.0025+0.0144) / 8 = 1.836 / 8 = 0.2295**
+
+---
+
+### Day 115 New Predictions (T+1: 23 Jun, T+3: 25 Jun, T+7: 29 Jun)
+
+**Trend:** → Same (Confidence: Medium)
+**Threat level:** 4/5 Severe (maintained; IRGC closure unrescinded; Houthi strike confirmed; Burgenstock positive but not yet operative)
+
+**Watchlist predictions:**
+- W1: IRGC formally rescinds Hormuz re-closure OR Lebanon de-confliction cell achieves first verified compliance hold (IDF pause ≥48h) by EOD 24 Jun (P=0.35 rescission; P=0.30 compliance hold; linked — rescission likely follows compliance hold by 12–24h)
+- W2: IAEA Grossi confirms inspection date at Fordow/Natanz/Isfahan by EOD 26 Jun (P=0.30; nuclear working group now formally established at Burgenstock; positive signal but Iran historically slow on nuclear access commitment)
+- W3: IMF PortWatch ≥10 AIS-commercial transits/day × 2 consecutive days by EOD 28 Jun (P=0.10; IRGC closure unrescinded; CENTCOM/Lloyd's "grey transits" not captured by PortWatch AIS-commercial metric)
+- W4: Further Houthi vessel strike by EOD 25 Jun (P=0.30; Transworld Navigator 21 Jun demonstrates maintained capability; Lebanon compliance is the primary moderating variable)
+- W5: JWC removes Hormuz from Lloyd's Listed Areas by EOD 30 Jun (P=0.08; structural lagging indicator; 6–12 month minimum lag from ceasefire per methodology)
+
+**Probabilistic predictions (Brier inputs):**
+- P(IRGC closure formally rescinded by EOD 23 Jun) = 0.30 (down from 0.40; Lebanon de-confliction cell needs time to demonstrate compliance)
+- P(Lebanon de-confliction cell compliance hold ≥48h IDF pause by EOD 24 Jun) = 0.30
+- P(IAEA inspection date confirmed by EOD 26 Jun) = 0.30
+- P(IMF PortWatch ≥10/day × 2 consecutive by EOD 28 Jun) = 0.10
+- P(JWC step-down by EOD 30 Jun) = 0.08
+- P(Israel-Hezbollah ceasefire holds through Lebanon Round 5 EOD 23 Jun) = 0.45
+- P(Houthi vessel strike 22–25 Jun) = 0.30 (down from 0.35; Transworld Navigator already struck 21 Jun, within prior window; Lebanon de-confliction cell marginal moderating factor)
+- P(Brent <$75 by EOD 25 Jun) = 0.04
+- P(Brent >$85 by EOD 25 Jun) = 0.08
+- P(≥5 IMF PortWatch transits single day by EOD 25 Jun) = 0.20
+
+**Scenarios (30d):**
+- A: Negotiated framework — 80% (Δ −2pp vs Day 114; Burgenstock de-confliction cell positive; IRGC closure unrescinded; Lebanon compliance untested)
+- B: Implementation drag — 17% (Δ +2pp; IRGC re-closure operative; Lebanon fragile; IAEA no date yet)
+- C: Re-escalation — 3% (unchanged; declaratory closure ≠ kinetic re-escalation; Burgenstock engagement ongoing)
+
+**Methodology note (Day 115):** Confirmed: Lebanon de-confliction cell is now the primary structural variable — more concrete than prior MOU language alone. New calibration note: Burgenstock "encouraging progress" joint statements from Qatar/Pakistan are reliable Tier 1 signals (confirmed two for two against watchlist prediction). However, IRGC closure rescission does NOT automatically follow joint statements — requires demonstrated Lebanon compliance first. Araghchi's public framing of Lebanon as "first real test" is analytical confirmation of this sequencing. Rule: "Do not revise IRGC closure rescission probability >0.40 based on joint mediator statement alone; require Lebanon compliance observable (IDF pause ≥48h) or direct IRGC statement before revising above 0.50."
