@@ -2610,3 +2610,60 @@ Calibration note: W5 HIT at P=0.12 confirms Israel spoiler vector was correctly 
 - C: Re-escalation — 3% (unchanged; declaratory closure ≠ kinetic re-escalation; Burgenstock engagement ongoing)
 
 **Methodology note (Day 115):** Confirmed: Lebanon de-confliction cell is now the primary structural variable — more concrete than prior MOU language alone. New calibration note: Burgenstock "encouraging progress" joint statements from Qatar/Pakistan are reliable Tier 1 signals (confirmed two for two against watchlist prediction). However, IRGC closure rescission does NOT automatically follow joint statements — requires demonstrated Lebanon compliance first. Araghchi's public framing of Lebanon as "first real test" is analytical confirmation of this sequencing. Rule: "Do not revise IRGC closure rescission probability >0.40 based on joint mediator statement alone; require Lebanon compliance observable (IDF pause ≥48h) or direct IRGC statement before revising above 0.50."
+
+## Day 119 — 26 June 2026
+
+### Scoring of Day 115 predictions (T+1: 23 Jun, T+3: 25 Jun, T+7: 29 Jun)
+
+**Resolved items (window closed by 26 Jun):**
+
+| Prediction | P | Outcome | Brier |
+|---|---|---|---|
+| IRGC closure formally rescinded by EOD 23 Jun | 0.30 | MISS — IRGC doubled down on corridor control; no rescission | (0.30−0)² = 0.0900 |
+| Lebanon de-confliction cell compliance hold ≥48h IDF pause by EOD 24 Jun | 0.30 | MISS — IDF strikes continued in S. Lebanon throughout Round 5 (25 Jun kills confirmed) | (0.30−0)² = 0.0900 |
+| IAEA inspection date confirmed by EOD 26 Jun | 0.30 | MISS — Iran deputy FM Gharibabadi explicitly decoupled IAEA access from MOU on 24 Jun; no date confirmed | (0.30−0)² = 0.0900 |
+| Houthi vessel strike 22–25 Jun | 0.30 | MISS — No UKMTO-confirmed Houthi vessel strike in window (Transworld Navigator was 21 Jun, prior window) | (0.30−0)² = 0.0900 |
+| Brent <$75 by EOD 25 Jun | 0.04 | HIT — Brent ~$74.43 on 26 Jun; TradingEconomics confirms sub-$75 on 25–26 Jun | (0.04−1)² = 0.9216 |
+| Brent >$85 by EOD 25 Jun | 0.08 | MISS — Brent ~$74 range | (0.08−0)² = 0.0064 |
+
+**Tracking items (window open):**
+- IMF PortWatch ≥10/day × 2 consecutive by EOD 28 Jun: P maintained 0.10 (IMO evacuation paused; Ever Lovely attack sets back trajectory)
+- JWC step-down by EOD 30 Jun: P maintained 0.08
+- ≥5 IMF PortWatch transits single day by EOD 25 Jun: LIKELY MISS — evacuation paused; no PortWatch publication found confirming ≥5 commercial AIS transits; scoring MISS — (0.20−0)² = 0.0400
+
+**New resolved items this cycle (cumulative update):**
+- Cumulative resolved items: 8 prior + 6 new = 14 items
+- New Brier sum: 0.1836 (prior 8-item sum) + 0.0900 + 0.0900 + 0.0900 + 0.0900 + 0.9216 + 0.0064 + 0.0400 = 1.5116
+- Cumulative 14-item average Brier: **1.5116 / 14 = 0.1080** ← Note: prior 8-item sum was listed as 1.836/8; re-adding here. Correct prior: 0.0484+0.1818+0.0064+0.6400+0.6400+0.3025+0.0025+0.0144 = 1.836. New total: 1.836 + 0.0900+0.0900+0.0900+0.0900+0.9216+0.0064+0.0400 = 3.128. 15-item average (including PortWatch miss): **3.128/15 = 0.2085**
+
+**Calibration note (Day 119):** The Brent <$75 prediction was assigned P=0.04 but came in — a costly low-probability hit (Brier 0.9216 — the worst single item score). This reflects an underestimation of how quickly the MOU would collapse oil prices. Rule to add: "Post-MOU Brent trajectory is driven by supply expectation, not threat premium — revise price-ceiling forecasts DOWN faster when MOU/ceasefire structural signal is present, regardless of still-unresolved kinetic risks." The P(IRGC rescission) = 0.30 over-attribution also confirms: joint mediator statements ≠ IRGC compliance observable. Confirmed heuristic from Day 115 methodology note holds: require Lebanon compliance observable before revising IRGC rescission above 0.50.
+
+---
+
+### Day 119 New Predictions (T+1: 27 Jun, T+3: 29 Jun, T+7: 3 Jul)
+
+**Trend:** ↑ Worse (Confidence: High)
+**Threat level:** 4/5 Severe (maintained; Ever Lovely attack demonstrates IRGC kinetic enforcement inside MOU window)
+
+**Watchlist predictions:**
+- W1: IMO evacuation resumes with IRGC-accepted southern corridor safety guarantees by EOD 30 Jun (P=0.25; Ever Lovely attack reset the trajectory; IRGC must formally accept IMO framework OR integrate southern route — currently at zero)
+- W2: US formal response to Ever Lovely attribution (sanctions, protest, or kinetic signal) by EOD 27 Jun (P=0.35; two US officials told Reuters Iran fired; Trump previously warned renewed bombing; 24h window for response posture)
+- W3: Lebanon de-confliction cell: IDF pause ≥48h verified by EOD 3 Jul (P=0.20; IDF struck during Round 5; US intel assesses continued operations likely)
+- W4: IAEA inspection date confirmed by EOD 10 Jul (P=0.15; reduced from 0.30; Iran deputy FM explicitly decoupled IAEA from MOU; round 2 talks are the next gate)
+- W5: IMF PortWatch ≥10 AIS-commercial/day × 2 consecutive days by EOD 14 Jul (P=0.10; evacuation pause extends timeline significantly)
+
+**Probabilistic predictions (Brier inputs):**
+- P(IMO evacuation fully resumes by EOD 30 Jun) = 0.25
+- P(US kinetic/sanctions response to Ever Lovely by EOD 27 Jun) = 0.35
+- P(Lebanon IDF pause ≥48h verified by EOD 3 Jul) = 0.20
+- P(IAEA inspection date confirmed by EOD 10 Jul) = 0.15
+- P(JWC/UKMTO formal Hormuz step-down by EOD 30 Jun) = 0.05 (down from 0.08; Ever Lovely attack re-tightens)
+- P(Houthi vessel strike 26 Jun–3 Jul) = 0.25 (Lebanon conditional; Round 5 non-compliance increases Houthi activation risk)
+- P(Brent <$72 by EOD 3 Jul) = 0.20 (market on third weekly decline; corridor dispute adds supply uncertainty)
+- P(Brent >$80 by EOD 3 Jul) = 0.12 (Ever Lovely + potential US response could spike; but supply momentum persistent)
+- P(IRGC attacks second IMO-framework vessel by EOD 3 Jul) = 0.10 (escalation of enforcement from non-framework to framework vessel would be significant threshold crossing)
+
+**Scenarios (30d):**
+- A: Negotiated framework — 72% (Δ −8pp vs Day 115; Ever Lovely + corridor dispute + IAEA decoupling)
+- B: Implementation drag — 23% (Δ +6pp; IRGC corridor control hardening; Lebanon fragile; IAEA blocked)
+- C: Re-escalation — 5% (Δ +2pp; US attribution of Ever Lovely to Iran; Trump MOU violation warning operative)
