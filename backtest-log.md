@@ -2726,3 +2726,62 @@ Calibration note: W5 HIT at P=0.12 confirms Israel spoiler vector was correctly 
 - A: Negotiated framework — 68% (Δ −4pp vs Day 119; Lebanon framework positive; Round 2 talks imminent; Hezbollah non-signatory and IAEA access unconfirmed as offsets)
 - B: Implementation drag — 26% (Δ +3pp; dual-corridor unresolved; IMO pause active; IAEA blocked; Houthi active)
 - C: Re-escalation — 6% (Δ +1pp; Houthi incidents 26–27 Jun; IRGC corridor enforcement precedent; MOU fragility)
+
+## Day 121 — 28 June 2026
+
+### Scoring of Day 120 predictions (T+1: 28 Jun; T+3: 30 Jun open; T+7: 4 Jul open)
+
+**Resolved T+1 items:**
+
+| Prediction | P | Outcome | Brier |
+|---|---|---|---|
+| Houthi UKMTO-confirmed vessel strike by EOD 4 Jul (W4 partial T+1 check) | 0.35 | HIT — Three UKMTO-confirmed incidents: missile near Aden 26 Jun, USV near Hudaydah 27 Jun, 5 missiles targeting Delonix NW Hudaydah 28 Jun (Wikipedia Houthi attacks log / UKMTO) | (0.35−1)² = 0.4225 |
+
+**T+1 resolved Brier sum this cycle: 0.4225**
+
+**Cumulative Brier running total:**
+- Prior 18-item sum: 3.853
+- New T+1 item: +0.4225 = 4.2755 / 19 items = **0.2250 running average Brier**
+
+**Calibration note (Day 121):** Houthi 3-incident 72h surge is the strongest single-cycle Houthi signal since war began. Confirms: "Houthi maritime activation risk P≥0.35 when Lebanon IDF-Hezbollah fighting actively ongoing." Raises baseline Houthi strike P from 0.35 to 0.45 per 7-day window while Lebanon fighting continues. The W4 prediction (P=0.35) was set conservatively; the actual 3-incident outcome in 72h suggests the calibration floor should rise. Methodology delta: When Lebanon active AND Hezbollah non-signatory to any ceasefire, set Houthi weekly maritime activation P=0.45 as default.
+
+**Tracking items (windows open):**
+- P(Round 2 Burgenstock produces agreed corridor framework by EOD 29 Jun) = 0.40 → Still OPEN; talks confirmed underway today 28 Jun
+- P(IMO evacuation formally resumes by EOD 5 Jul) = 0.35 → Still OPEN; paused at 115 vessels out; Round 2 today is gate
+- P(Lebanon de-confliction cell holds ≥48h no major IDF strike AND no Hezbollah rocket by EOD 3 Jul) = 0.40 → T+1: Lebanon framework signed 26 Jun; Hezbollah "null and void" rejection; IDF not withdrawing. No confirmed 48h halt. Revised tracking P: 0.25 (Hezbollah rejection + IDF buffer zone permanence reduces probability vs Day 120 trajectory)
+- P(IAEA inspection date confirmed by EOD 10 Jul) = 0.20 → Still OPEN; Grossi "hope to be there soon"; Iran decoupled
+- P(Second IRGC vessel attack by EOD 4 Jul) = 0.08 → Still OPEN; Round 2 talks active; no second confirmed attack
+- P(JWC formal step-down by EOD 30 Jun) = 0.05 → Still OPEN; no JWC bulletin
+- P(Brent <$70 by EOD 4 Jul) = 0.15 → Brent ~$72–73; WTI touched $69.63 (24 Jun). Still OPEN but Brent has rebounded above $70. Lower P: 0.10
+- P(IMF PortWatch ≥10/day × 2 consecutive by EOD 14 Jul) = 0.15 → Still OPEN
+
+---
+
+### Day 121 New Predictions (T+1: 29 Jun, T+3: 1 Jul, T+7: 5 Jul)
+
+**Trend:** → Same (Lebanon framework paper-positive but Hezbollah non-signatory; 3 Houthi strikes in 72h; IMO evacuation paused; Round 2 Burgenstock ongoing). Confidence: Medium.
+**Threat level:** 4/5 Severe (maintained)
+
+**Watchlist predictions:**
+- W1: Round 2 Burgenstock corridor-route statement by EOD 29 Jun (P=0.40; talks confirmed underway; corridor dispute is structural but Round 2 is the designated gate; Iran precedent of negotiating on corridor runs counter to IRGC operational posture)
+- W2: Lebanon de-confliction cell: IDF hold ≥48h AND Hezbollah reciprocal halt by EOD 3 Jul (P=0.25; reduced from 0.40 — Hezbollah "null and void" rejection of 26 Jun framework is hard negative signal; IDF buffer zone non-withdrawal stated)
+- W3: IAEA inspection date confirmed by EOD 10 Jul (P=0.20; unchanged — Grossi positive but Iran decoupled)
+- W4: Fourth Houthi UKMTO-confirmed strike OR second IRGC vessel attack by EOD 4 Jul (P=0.45; raised from 0.30 — three Houthi incidents in 72h; Lebanon fighting active; Houthi full operational tempo confirmed)
+- W5: IMF PortWatch ≥10 AIS-commercial/day × 2 consecutive days by EOD 14 Jul (P=0.15; unchanged — evacuation pause is active ceiling on Wave 3)
+
+**Probabilistic predictions (Brier inputs):**
+- P(Round 2 Burgenstock joint corridor statement by EOD 29 Jun) = 0.40
+- P(IMO evacuation formally resumes by EOD 5 Jul) = 0.30 (reduced from 0.35 — corridor dispute more entrenched than expected)
+- P(Lebanon de-confliction cell holds ≥48h by EOD 3 Jul) = 0.25 (reduced from 0.40 — Hezbollah "null and void" is a hard negative signal)
+- P(IAEA inspection date confirmed by EOD 10 Jul) = 0.20
+- P(Fourth Houthi UKMTO-confirmed strike by EOD 4 Jul) = 0.45 (raised from 0.35 — 3 strikes in 72h baseline)
+- P(Second IRGC vessel attack by EOD 4 Jul) = 0.08 (unchanged; Round 2 active)
+- P(JWC formal step-down by EOD 30 Jun) = 0.05 (unchanged)
+- P(Brent <$70 by EOD 5 Jul) = 0.10 (reduced; Brent $72–73 range with MOU equilibrium; re-escalation tail prevents deeper)
+- P(Brent >$78 by EOD 5 Jul) = 0.15 (raised from 0.10 — three Houthi strikes in 72h; Hezbollah framework rejection adds re-escalation tail)
+- P(IMO evacuation complete by EOD 14 Jul) = 0.20
+
+**Scenarios (30d):**
+- A: Negotiated framework — 65% (Δ −3pp vs Day 120; Lebanon framework paper-positive but Hezbollah non-signatory; Houthi 72h surge as offsets)
+- B: Implementation drag — 28% (Δ +2pp; corridor dispute entrenched; IMO pause extended; Houthi activation confirmed; IAEA decoupled)
+- C: Re-escalation — 7% (Δ +1pp; 3 Houthi strikes; Hezbollah framework rejection; IRGC corridor precedent)
