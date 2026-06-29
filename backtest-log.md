@@ -2785,3 +2785,63 @@ Calibration note: W5 HIT at P=0.12 confirms Israel spoiler vector was correctly 
 - A: Negotiated framework — 65% (Δ −3pp vs Day 120; Lebanon framework paper-positive but Hezbollah non-signatory; Houthi 72h surge as offsets)
 - B: Implementation drag — 28% (Δ +2pp; corridor dispute entrenched; IMO pause extended; Houthi activation confirmed; IAEA decoupled)
 - C: Re-escalation — 7% (Δ +1pp; 3 Houthi strikes; Hezbollah framework rejection; IRGC corridor precedent)
+
+## Day 122 — 29 June 2026
+
+### Scoring of Day 121 predictions (T+1: 29 Jun; T+3: 1 Jul open; T+7: 5 Jul open)
+
+**Resolved T+1 items:**
+
+| Prediction | P | Outcome | Brier |
+|---|---|---|---|
+| Round 2 Burgenstock joint corridor statement by EOD 29 Jun | 0.40 | MISS — No joint statement; mutual US-Iran strikes 26–28 Jun disrupted talks; Iran threatened "complete halt" to negotiations; no corridor agreement issued (PBS/AP, CNN, Al Jazeera Tier 1) | (0.40−0)² = 0.1600 |
+| Second IRGC vessel attack by EOD 4 Jul | 0.08 | HIT (early) — IRGC attacked cargo vessel *Kiku* on Omani corridor route 25–26 Jun (CENTCOM confirmed via Reuters/CBS News Tier 1); attack triggered US counter-strikes | (0.08−1)² = 0.8464 |
+
+**T+1 resolved Brier sum this cycle: 0.1600 + 0.8464 = 1.0064**
+
+**Cumulative Brier running total:**
+- Prior 19-item sum: 4.2755
+- New T+1 items: +1.0064 = 5.2819 / 21 items = **0.2515 running average Brier**
+
+**Calibration note (Day 122):** The IRGC vessel attack prediction was severely underweighted (P=0.08 when the attack occurred before the prediction window even fully opened). The 25–26 Jun Kiku attack preceded the Day 121 brief — it was a backtest scoring failure and a real-time intelligence gap. The IRGC's willingness to attack vessels on the Omani corridor route was the decisive escalation signal. Raises baseline: "When JMIC designates a corridor competing with IRGC framework, P(IRGC attack on that corridor) ≥ 0.45 per 72h." The Burgenstock corridor statement miss was calibrated correctly directionally (P=0.40 = uncertainty) but the mutual-strike cascade made the miss predictable in retrospect. The single biggest failure: not raising Threat 5/5 when the first vessel attack was confirmed.
+
+**Methodology delta:** When a kinetic incident occurs in the Hormuz corridor dispute (IRGC attacks vessel, US strikes Iran or vice versa), IMMEDIATELY set Threat 5/5 and Scenario C ≥ 15%. Do not wait for GCC base strikes to confirm.
+
+**Tracking items (windows open):**
+- P(Lebanon de-confliction cell holds ≥48h by EOD 3 Jul) = 0.25 → IDF soldier killed by Hezbollah fire 28 Jun; framework unsigned by Hezbollah. Still OPEN. Revised tracking P: 0.15
+- P(IAEA inspection date confirmed by EOD 10 Jul) = 0.20 → Still OPEN; Iran position unchanged
+- P(Fourth Houthi UKMTO-confirmed strike by EOD 4 Jul) = 0.45 → No new confirmed strike today; still OPEN
+- P(JWC formal step-down by EOD 30 Jun) = 0.05 → Deadline tomorrow; no bulletin. Likely MISS
+- P(Brent <$70 by EOD 5 Jul) = 0.10 → Brent ~$72 before 28 Jun escalation; post-escalation spike likely $75–78; lower P: 0.05
+- P(Brent >$78 by EOD 5 Jul) = 0.15 → 28 Jun IRGC GCC strikes and IMO suspension likely to spike Brent; raise P: 0.35
+- P(IMO evacuation complete by EOD 14 Jul) = 0.20 → Evacuation suspended; lower P: 0.05
+
+---
+
+### Day 122 New Predictions (T+1: 30 Jun, T+3: 2 Jul, T+7: 6 Jul)
+
+**Trend:** ↑ Worse (US–Iran mutual strikes 26–28 Jun; IRGC ballistic missiles on Kuwait/Bahrain US bases; IMO evacuation suspended; Iran "complete halt" threat; Burgenstock Round 2 disrupted). Confidence: High.
+**Threat level:** 5/5 Crisis (raised from 4/5 Severe)
+
+**Watchlist predictions:**
+- W1: US–Iran kinetic 48h pause AND negotiating channel confirmed active by EOD 1 Jul (P=0.35; mutual strikes cycle shows rapid escalation-de-escalation; mediator Qatar/Pakistan role is active; IRGC "complete halt" threat is warning, not withdrawal)
+- W2: IMO evacuation formally resumes by EOD 5 Jul (P=0.15; reduced from 0.30 — evacuation suspension is now tied to corridor framework resolution; no resolution in sight)
+- W3: Further IRGC strike on GCC US-base infrastructure causing US casualties by EOD 4 Jul (P=0.20; all 28 Jun projectiles intercepted; IRGC has demonstrated capability but US interception robust)
+- W4: Houthi UKMTO-confirmed vessel strike OR Bab al-Mandeb closure threat by EOD 7 Jul (P=0.45; Lebanon fighting active; Houthi elevated baseline maintained)
+- W5: IAEA inspection date confirmed AND Round 3 Burgenstock scheduled by EOD 10 Jul (P=0.15; reduced from 0.20 — kinetic exchange has disrupted Round 2; Round 3 contingent on mutual-strikes pause)
+
+**Probabilistic predictions (Brier inputs):**
+- P(US–Iran 48h kinetic pause by EOD 1 Jul) = 0.35
+- P(IMO evacuation resumes by EOD 5 Jul) = 0.15
+- P(IRGC strike on GCC US-base causing US casualties by EOD 4 Jul) = 0.20
+- P(Fourth Houthi UKMTO-confirmed vessel strike by EOD 7 Jul) = 0.45
+- P(JWC formal step-down by EOD 30 Jun) = 0.05 (essentially expired)
+- P(Brent <$70 by EOD 6 Jul) = 0.05 (escalation spike underway)
+- P(Brent >$78 by EOD 6 Jul) = 0.35 (raised sharply — IRGC GCC strikes + IMO suspension + Iran "halt" threat)
+- P(IAEA inspection date confirmed by EOD 10 Jul) = 0.12 (reduced — diplomatic framework fragmenting)
+- P(MOU formally suspended by Iran by EOD 17 Aug) = 0.25 (new tracking item — elevated by 28 Jun escalation)
+
+**Scenarios (30d):**
+- A: Negotiated framework — 42% (Δ −23pp vs Day 121; IRGC GCC strikes, Iran "complete halt" threat, IMO evacuation suspended, Round 2 disrupted)
+- B: Implementation drag — 38% (Δ +10pp; mutual strikes may de-escalate below collapse threshold; corridor dispute structural but not yet MOU-fatal)
+- C: Re-escalation / MOU collapse — 20% (Δ +13pp; IRGC has struck GCC US bases; escalation ladder is steep; next US strike risk is high; Trump "will no longer exist" rhetoric)
