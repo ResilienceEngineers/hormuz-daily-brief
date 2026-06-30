@@ -2845,3 +2845,63 @@ Calibration note: W5 HIT at P=0.12 confirms Israel spoiler vector was correctly 
 - A: Negotiated framework — 42% (Δ −23pp vs Day 121; IRGC GCC strikes, Iran "complete halt" threat, IMO evacuation suspended, Round 2 disrupted)
 - B: Implementation drag — 38% (Δ +10pp; mutual strikes may de-escalate below collapse threshold; corridor dispute structural but not yet MOU-fatal)
 - C: Re-escalation / MOU collapse — 20% (Δ +13pp; IRGC has struck GCC US bases; escalation ladder is steep; next US strike risk is high; Trump "will no longer exist" rhetoric)
+
+## Day 123 — 30 June 2026
+
+### Scoring of Day 122 predictions (T+1: 30 Jun)
+
+**Resolved T+1 items:**
+
+| Prediction | P | Outcome | Brier |
+|---|---|---|---|
+| P(US–Iran 48h kinetic pause by EOD 1 Jul) = 0.35 | 0.35 | HIT — US official confirmed "we decided to stop all the kinetic activity" as of 29 Jun; Witkoff en route Doha; RFERL/Axios/CNN (Tier 1) | (0.35−1)² = 0.4225 |
+| P(JWC formal step-down by EOD 30 Jun) = 0.05 | 0.05 | MISS — No bulletin; deadline expired | (0.05−0)² = 0.0025 |
+
+**T+1 resolved Brier sum this cycle: 0.4225 + 0.0025 = 0.4250**
+
+**Cumulative Brier running total:**
+- Prior 21-item sum: 5.2819
+- New T+1 items: +0.4250 = 5.7069 / 23 items = **0.2481 running average Brier**
+
+**Calibration note (Day 123):** Kinetic pause prediction (P=0.35) was modestly underweighted — the US and Iran both had strong incentives to de-escalate before Doha. The Doha talks opening was the decisive signal missed at P=0.35; should have been P=0.50 given both delegations were already en route. JWC step-down miss was correctly low-probability. Running Brier improving slightly to 0.2481. Methodology delta: "When US envoy confirmed in transit to mediation venue AND both sides have de-escalation incentive (pending talks), P(tactical kinetic pause within 48h) ≥ 0.55."
+
+**Tracking items (windows still open):**
+- P(IMO evacuation resumes by EOD 5 Jul) = 0.15 → Still suspended; no resumption date. Revise: 0.15 (unchanged — Doha outcome unknown)
+- P(IRGC strike on GCC US-base causing US casualties by EOD 4 Jul) = 0.20 → Kinetic pause; Doha opening. Revise: 0.10 (pause reduces near-term P)
+- P(Fourth Houthi UKMTO-confirmed vessel strike by EOD 7 Jul) = 0.45 → No new confirmed strike. OPEN. Maintain 0.45
+- P(Brent <$70 by EOD 6 Jul) = 0.05 → Brent $74.06. OPEN. Maintain 0.05
+- P(Brent >$78 by EOD 6 Jul) = 0.35 → Brent $74.06, +0.6%. OPEN. Revise: 0.20 (muted market reaction; supply buffer absorbing)
+- P(IAEA inspection date confirmed by EOD 10 Jul) = 0.12 → Iran position unchanged ("after final deal only"). OPEN. Maintain 0.12
+- P(MOU formally suspended by Iran by EOD 17 Aug) = 0.25 → OPEN. Maintain 0.25 (kinetic pause marginally reduces near-term P; structural issues persist)
+- P(Lebanon de-confliction — Hezbollah accepts framework by EOD 5 Jul) = 0.15 → Hezbollah "null and void." OPEN. Revise: 0.10
+
+---
+
+### Day 123 New Predictions (T+1: 1 Jul, T+3: 3 Jul, T+7: 7 Jul)
+
+**Trend:** → Same. Confidence: Medium.
+**Threat level:** 4/5 Severe (reduced from 5/5 — kinetic pause holds; Doha talks opening; no new GCC-base strikes; muted oil market response)
+
+**Watchlist predictions:**
+- W1: Doha meeting produces joint MOU corridor communiqué or technical statement by EOD 30 Jun (P=0.25; Iran "no talks" posture vs US "high-level meetings" — messaging gap wide; parallel-track more likely than joint statement)
+- W2: IMO evacuation formally resumes by EOD 7 Jul (P=0.20; requires Iran safety-guarantee — contingent on Doha producing corridor language; raised from 0.15 on kinetic pause)
+- W3: Lebanon Hezbollah accepts framework or kinetic exchange resumes (MOU Clause 1 trigger) by EOD 5 Jul (P=0.15 acceptance / P=0.35 kinetic resumption)
+- W4: IRGC corridor vessel strike OR Houthi UKMTO-confirmed vessel strike by EOD 7 Jul (P=0.40; kinetic pause reduces near-term IRGC P; Houthi remains at elevated baseline)
+- W5: IAEA inspection date confirmed AND Round 3 Doha/Burgenstock scheduled by EOD 14 Jul (P=0.12; Iran position unchanged)
+
+**Probabilistic predictions (Brier inputs):**
+- P(Doha produces joint statement by EOD 30 Jun) = 0.25
+- P(IMO evacuation resumes by EOD 7 Jul) = 0.20
+- P(IRGC corridor vessel strike by EOD 4 Jul) = 0.15 (reduced from 0.20 — kinetic pause active)
+- P(Houthi UKMTO-confirmed vessel strike by EOD 7 Jul) = 0.45 (maintained)
+- P(Brent >$78 by EOD 6 Jul) = 0.20 (revised down from 0.35 — muted market; supply buffer)
+- P(Brent <$70 by EOD 6 Jul) = 0.05 (maintained)
+- P(IAEA inspection date confirmed by EOD 10 Jul) = 0.12 (maintained)
+- P(MOU formally suspended by Iran by EOD 17 Aug) = 0.25 (maintained)
+- P(Lebanon: Hezbollah accepts framework by EOD 5 Jul) = 0.10 (revised down from 0.15)
+- P(Lebanon: kinetic exchange Hezbollah-IDF resumes full-scale by EOD 7 Jul) = 0.30
+
+**Scenarios (30d):**
+- A: Negotiated framework — 40% (Δ −2pp vs Day 122; Doha opening but messaging gap; Hezbollah "null and void"; IAEA unresolved)
+- B: Implementation drag — 42% (Δ +4pp; kinetic pause holds but corridor/Lebanon/IAEA structural; modal)
+- C: Re-escalation / MOU collapse — 18% (Δ −2pp; tactical pause reduces near-term risk; IRGC precedent set but not repeated today)
