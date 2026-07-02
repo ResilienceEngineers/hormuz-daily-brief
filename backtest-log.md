@@ -2969,3 +2969,69 @@ Calibration note: W5 HIT at P=0.12 confirms Israel spoiler vector was correctly 
 - A: Negotiated framework — 40% (→ 0pp vs Day 123)
 - B: Implementation drag — 43% (+1pp; modal — Doha positive but structural blockers intact; Khamenei funeral period temporarily reduces IRGC tempo)
 - C: Re-escalation / MOU collapse — 17% (−1pp; kinetic pause holds; Trump not resuming broad campaign per WSJ)
+
+## 2 July 2026 (Day 125)
+
+### Scoring of Day 124 predictions (T+1: 2 Jul)
+
+**Resolved T+1 items:**
+
+| Prediction | P | Outcome | Brier |
+|---|---|---|---|
+| P(Iran–Qatar talks 1 Jul produce corridor / safe-passage language) = 0.15 | 0.15 | MISS — Qatar/Pakistan confirmed "positive progress" on MOU implementation issues; no corridor/safe-passage language; sovereign control dispute unchanged; IMO evacuation not restarted (Qatar FM/Axios/CBS, Tier 1) | (0.15−0)² = 0.0225 |
+
+**T+1 resolved Brier sum this cycle: 0.0225**
+
+**Cumulative Brier running total:**
+- Prior 26-item sum: 5.8019 (corrected: 5.7794 + 0.0225)
+- Items total: 26
+- **Running average Brier: 5.8019 / 26 = 0.2232**
+
+**Calibration note (Day 125):** Corridor-language miss was well-calibrated at P=0.15 — Doha produced "positive progress" framing which is deliberately ambiguous but did not yield safe-passage language or IMO evacuation restart. Iran's sovereign-control stance unchanged. Running Brier improves marginally to 0.2232. No methodology delta required.
+
+**Tracking items (windows still open):**
+
+| Prediction | P (Day 124) | Revised P (Day 125) | Reasoning |
+|---|---|---|---|
+| P(IMO evacuation resumes by EOD 7 Jul) | 0.15 | 0.12 | No corridor language from Doha; next session deferred to post-funeral (~10 Jul); window closes before next session likely |
+| P(IRGC corridor vessel strike by EOD 4 Jul) | 0.10 | 0.08 | Kinetic pause holds through 2 Jul; Khamenei funeral reduces IRGC offensive tempo; window narrow |
+| P(Houthi UKMTO-confirmed vessel strike by EOD 7 Jul) | 0.45 | 0.40 | UN SC report: no confirmed incidents 9 May–9 Jun; Houthi pause since MOU 17 Jun; MARAD 2026-006 in force but no new strike; reducing slightly on sustained pause |
+| P(Brent >$78 by EOD 6 Jul) | 0.12 | 0.05 | Brent ~$70.89; WTI ~$67.89; supply glut + diplomacy pricing; gap to $78 now ~$7; near-impossible in window |
+| P(Brent <$70 by EOD 6 Jul) | 0.08 | 0.18 | WTI below $68; Brent approaching $70; trend accelerating downward; EIA STEO 7 Jul could catalyse further; raising probability |
+| P(IAEA inspection date confirmed by EOD 10 Jul) | 0.12 | 0.10 | No signal; next Doha session post-funeral; IAEA not discussed in Doha 1–2 Jul per available reporting |
+| P(MOU formally suspended by Iran by EOD 17 Aug) | 0.20 | 0.18 | Doha "positive"; frozen asset mechanism discussed; Assembly of Experts fracture adds uncertainty both ways; marginal reduction |
+| P(Khamenei funeral without IRGC incident by EOD 9 Jul) | 0.70 | 0.68 | Still likely; but Katz "marked for death" threat adds tail risk; Mojtaba physical appearance unconfirmed |
+| P(Mojtaba Khamenei public appearance by EOD 9 Jul) | 0.15 | 0.20 | Funeral in 4 days; regime framing as authority test; "the son leads the prayers" tradition; raised slightly |
+| P(Lebanon IDF-Hezbollah full-scale resumption by EOD 7 Jul) | 0.25 | 0.22 | IDF Manzala strike contained; US restraining Israel; Hezbollah "null and void" but no full-scale resumption signal |
+
+---
+
+### Day 125 New Predictions (T+1: 3 Jul, T+3: 5 Jul, T+7: 9 Jul)
+
+**Trend:** → Same. Confidence: Medium.
+**Threat level:** 4/5 Severe (maintained — kinetic pause ~6 Jul expiry; funeral window 4–9 Jul; corridor sovereignty unresolved).
+
+**Watchlist predictions:**
+- W1: Khamenei funeral 4–9 Jul without IDF strike on Mojtaba OR IRGC kinetic breakout (P=0.68 no incident; P=0.10 Mojtaba strike/attempt; P=0.22 IRGC breakout)
+- W2: Emergency US–Iran comm channel operational AND next Doha session scheduled for post-funeral period (P=0.55 both; P=0.75 channel only)
+- W3: IRGC kinetic pause expires ~6 Jul: vessel strike or corridor interdiction within 48h of expiry (P=0.18)
+- W4: Houthi UKMTO-confirmed vessel strike by EOD 9 Jul (P=0.40)
+- W5: IAEA inspection date confirmed AND frozen assets $3bn tranche formally released (P=0.10 both; P=0.25 assets only)
+
+**Probabilistic predictions (Brier inputs):**
+- P(IMO evacuation resumes by EOD 7 Jul) = 0.12
+- P(IRGC corridor vessel strike by EOD 4 Jul) = 0.08
+- P(Houthi UKMTO-confirmed vessel strike by EOD 9 Jul) = 0.40
+- P(Brent >$78 by EOD 6 Jul) = 0.05
+- P(Brent <$70 by EOD 6 Jul) = 0.18
+- P(IAEA inspection date confirmed by EOD 10 Jul) = 0.10
+- P(MOU formally suspended by Iran by EOD 17 Aug) = 0.18
+- P(Khamenei funeral without IRGC incident by EOD 9 Jul) = 0.68
+- P(Mojtaba Khamenei public appearance by EOD 9 Jul) = 0.20
+- P(Lebanon IDF-Hezbollah full-scale resumption by EOD 9 Jul) = 0.22
+- P(Emergency US–Iran comm channel operational by EOD 3 Jul) = 0.65
+
+**Scenarios (30d):**
+- A: Negotiated framework — 38% (↓2pp; MOU Day 16/60; implementation disputes consuming window; nuclear talks not yet started)
+- B: Implementation drag — 45% (+2pp; modal — Doha "positive", kinetic pause, but structural blockers: corridor, Lebanon, IAEA)
+- C: Re-escalation / MOU collapse — 17% (→; kinetic pause expiry ~6 Jul + funeral window maintains floor; Katz threat adds tail risk)
