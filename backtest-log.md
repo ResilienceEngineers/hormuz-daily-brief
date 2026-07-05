@@ -3173,3 +3173,65 @@ Calibration note: W5 HIT at P=0.12 confirms Israel spoiler vector was correctly 
 - A: Negotiated framework — 36% (↓1pp; MOU Day 18/60; funeral pause consuming window; nuclear not started; corridor unresolved)
 - B: Implementation drag — 47% (↑1pp; modal — comm channel + asset mechanism positive; structural blockers intact; post-funeral session ~10 Jul decisive gate)
 - C: Re-escalation / MOU collapse — 17% (→; kinetic pause Day 18 strong; funeral window slight tail risk; Hezbollah Lebanon wild-card)
+
+## 5 July 2026 (Day 128)
+
+### Scoring of Day 127 predictions (T+1: 5 Jul)
+
+**Resolved T+1 items:**
+
+| Prediction | P | Outcome | Brier |
+|---|---|---|---|
+| P(Brent <$70 by EOD 6 Jul) = 0.22 | 0.22 | PENDING — Brent ~$72.12 on 4 Jul (Investing.com); window closes EOD 6 Jul; currently above $70 | — |
+| P(Brent >$78 by EOD 6 Jul) = 0.01 | 0.01 | NEAR-CERTAIN MISS — Brent $71.30–72.49 on 4 Jul; gap $5.5+; essentially impossible | Scoring EOD 6 Jul |
+
+**Tracking items revised (Day 128):**
+
+| Prediction | P (Day 127) | Revised P (Day 128) | Reasoning |
+|---|---|---|---|
+| P(Brent <$70 by EOD 6 Jul) | 0.22 | 0.10 | Brent $72.12 on 4 Jul; only 1 day left; needs $2+ drop; narrow window |
+| P(Brent >$78 by EOD 6 Jul) | 0.01 | 0.01 | Unchanged; essentially impossible |
+| P(IAEA inspection date confirmed by EOD 10 Jul) | 0.05 | 0.04 | Funeral pause; post-funeral session not yet convened; nuclear not started |
+| P(MOU formally suspended by Iran by EOD 17 Aug) | 0.16 | 0.16 | Unchanged; funeral Day 2 clean; comm channel intact |
+| P(Khamenei funeral without IRGC incident by EOD 9 Jul) | 0.72 | 0.76 | Day 2 clean; 5 Jul funeral prayers without incident; main procession 6 Jul still highest risk |
+| P(Mojtaba Khamenei public appearance by EOD 9 Jul) | 0.04 | 0.03 | Confirmed absent Day 2 (CNN/AP Tier 1); communicating via written statements only; near-certain MISS |
+| P(Lebanon IDF-Hezbollah full-scale resumption by EOD 9 Jul) | 0.18 | 0.16 | Israel struck 10 Hezbollah sites 3 Jul; Iran warned; but US restraining; not full-scale |
+| P(Post-funeral Doha/Muscat session convened by EOD 14 Jul) | 0.47 | 0.50 | Qatar FM confirmed "earliest possible time" post-9 Jul; slight lift on explicit commitment |
+| P($3 bn asset mechanism formally activated by EOD 10 Jul) | 0.28 | 0.22 | Iran claims agreed; US has not confirmed; funeral pause = administrative delay; reduction |
+| P(Houthi UKMTO-confirmed strike by EOD 12 Jul) | 0.33 | 0.32 | Pause holds Day 19; post-funeral window 10–12 Jul still open |
+| P(EIA STEO 7 Jul Brent Q3 forecast <$80) | 0.85 | 0.88 | Brent $72 vs $105 forecast; large revision essentially certain; slight lift |
+
+**T+1 resolved Brier this cycle:** 0 items scored (all pending)
+**Cumulative running total:** 5.9280 (28 items) — unchanged pending EOD 6 Jul resolution
+
+---
+
+### Day 128 New Predictions (T+1: 6 Jul, T+3: 8 Jul, T+7: 12 Jul)
+
+**Trend:** → Same. Confidence: Medium.
+**Threat level:** 4/5 Severe (maintained — funeral Day 2 clean but main procession 6 Jul; Mojtaba absent; corridor unresolved; 8 vessel U-turns confirm IRGC enforcement).
+
+**Watchlist predictions:**
+- W1: Khamenei funeral 4–9 Jul concludes without IRGC incident or Israeli strike (P=0.76 clean; P=0.13 Israeli/IRGC incident; main procession 6 Jul highest risk)
+- W2: Post-funeral Doha/Muscat session convenes with corridor + nuclear working groups by EOD 14 Jul (P=0.50; slight lift on Qatar FM explicit commitment)
+- W3: $3 bn asset mechanism formally activated by EOD 10 Jul (P=0.22; US non-confirmation reduces)
+- W4: Houthi UKMTO-confirmed vessel strike by EOD 12 Jul (P=0.32)
+- W5: EIA STEO 7 Jul Brent Q3 forecast <$80 (P=0.88; essentially certain given $72 actual vs $105 forecast)
+
+**Probabilistic predictions (Brier inputs):**
+- P(Brent <$70 by EOD 6 Jul) = 0.10
+- P(Brent >$78 by EOD 6 Jul) = 0.01
+- P(IAEA inspection date confirmed by EOD 10 Jul) = 0.04
+- P(MOU formally suspended by Iran by EOD 17 Aug) = 0.16
+- P(Khamenei funeral without IRGC incident by EOD 9 Jul) = 0.76
+- P(Mojtaba Khamenei public appearance by EOD 9 Jul) = 0.03
+- P(Lebanon IDF-Hezbollah full-scale resumption by EOD 9 Jul) = 0.16
+- P(Post-funeral Doha/Muscat session convened by EOD 14 Jul) = 0.50
+- P($3 bn asset mechanism formally activated by EOD 10 Jul) = 0.22
+- P(Houthi UKMTO-confirmed strike by EOD 12 Jul) = 0.32
+- P(EIA STEO 7 Jul Brent Q3 forecast <$80) = 0.88
+
+**Scenarios (30d):**
+- A: Negotiated framework — 36% (→; MOU Day 19/60; funeral pause; nuclear not started; corridor unresolved; vessel U-turns confirm IRGC enforcement)
+- B: Implementation drag — 47% (↑1pp; modal; comm channel intact; asset mechanism ambiguous; post-funeral session ~10 Jul next gate)
+- C: Re-escalation / MOU collapse — 17% (→; kinetic pause Day 19 strong; funeral window tail risk; Lebanon wild-card via Israel–Hezbollah)
