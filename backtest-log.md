@@ -3298,3 +3298,73 @@ Calibration note: W5 HIT at P=0.12 confirms Israel spoiler vector was correctly 
 - A: Negotiated framework — 35% (↓1pp; post-funeral session decisive gate; nuclear not started; corridor fee dispute unresolved; UKMTO attack 5 Jul adds noise)
 - B: Implementation drag — 48% (↑1pp; modal; Qatar committed; OPEC+ supply recovery; MOU Day 20/60; NATO Ankara adds multilateral pressure on Iran; extension probable)
 - C: Re-escalation / MOU collapse — 17% (→; UKMTO 5 Jul attack = early signal; Lebanon front; Mojtaba in hiding adds succession uncertainty)
+
+## 2026-07-07 (Day 130) — Backtest Entry
+
+### Scoring of Day 129 predictions (T+1: 7 Jul)
+
+**Resolved T+1 items:**
+
+| Prediction | P | Outcome | Brier |
+|---|---|---|---|
+| P(NATO Ankara summit issues Hormuz statement) = 0.93 | 0.93 | HIT — Draft declaration confirmed: "Iran must never have nuclear weapon and call on Iran to fully respect freedom of navigation in the Strait of Hormuz" (Reuters/AP, 3 Jul; US News confirms). | (0.93−1)² = 0.0049 |
+| P(EIA STEO 7 Jul Brent Q3 forecast <$80) = 0.92 | 0.92 | PENDING — EIA releases today; June forecast $105/b vs actual $72; near-certain HIT; score at close. |  |
+
+**T+1 resolved Brier this cycle:** 0.0049 (1 fully resolved item; EIA pending)
+**Cumulative running total (carry-forward):** 5.9430 (31 items)
+
+**Tracking items — status as of 7 Jul:**
+
+| Prediction | P (Day 129) | Status | Revised P |
+|---|---|---|---|
+| P(IAEA inspection date confirmed by EOD 10 Jul) | 0.04 | Talks still paused for funeral; nuclear not started | 0.04 |
+| P(MOU formally suspended by Iran by EOD 17 Aug) | 0.15 | Funeral pause Day 4 intact; no suspension signal | 0.15 |
+| P(Khamenei funeral without IRGC incident by EOD 9 Jul) | 0.78 | Days 1–6 clear; Day 4 (Iraq) underway 7 Jul; residual risk at Mashhad burial 9 Jul | 0.82 (↑4pp; only Mashhad Day 9 remains) |
+| P(Mojtaba Khamenei public appearance by EOD 9 Jul) | 0.02 | Still absent; no change | 0.02 |
+| P(Lebanon IDF-Hezbollah full-scale resumption by EOD 9 Jul) | 0.14 | No full-scale resumption signal | 0.13 |
+| P(Post-funeral Doha/Muscat session convened by EOD 14 Jul) | 0.52 | Pakistan PM attended funeral; Qatar committed; NATO Ankara adds pressure | 0.55 |
+| P($3 bn asset mechanism formally activated by EOD 10 Jul) | 0.14 | Funeral pause week; no confirmation; deadline approaching | 0.10 (↓4pp; only 3 days remain after 9 Jul burial) |
+| P(Additional Houthi UKMTO-confirmed strike by EOD 12 Jul) | 0.55 | FULLY RESOLVED HIT — Magic Seas sunk 6 Jul (UKMTO-confirmed). Scoring: (0.55−1)² = 0.2025. Adding to backtest. | RESOLVED — HIT |
+| P(Brent <$70 by EOD 13 Jul) | 0.20 | Brent $71.99 on 6 Jul; below $70 requires further decline; OPEC+ output + Saudi discounts add pressure | 0.22 |
+| P(Brent >$78 by EOD 13 Jul) | 0.03 | No upward catalyst visible | 0.03 |
+
+**Additional T+1 resolved item (W4 final score):**
+
+| Prediction | P | Outcome | Brier |
+|---|---|---|---|
+| P(Additional Houthi UKMTO-confirmed strike by EOD 12 Jul) = 0.55 | 0.55 | HIT — Magic Seas sunk 6 Jul by Houthis; UKMTO-confirmed | (0.55−1)² = 0.2025 |
+
+**Updated cumulative Brier total:** 5.9430 + 0.2025 = 6.1455 (32 items)
+
+---
+
+### Day 130 New Predictions (T+1: 8 Jul, T+3: 10 Jul, T+7: 14 Jul)
+
+**Trend:** → Same. Confidence: Medium-High.
+**Threat level:** 4/5 Severe (maintained — Red Sea escalated with Magic Seas sinking; Hormuz IRGC enforcement active; Mojtaba absent; funeral still ongoing through 9 Jul; post-funeral session not yet confirmed).
+
+**Watchlist predictions:**
+- W1: Khamenei funeral 4–9 Jul concludes without IRGC/Israeli kinetic incident (P=0.82; Day 4 Iraq ongoing; Mashhad 9 Jul final gate)
+- W2: Post-funeral Doha session convened with corridor + nuclear agenda by EOD 14 Jul (P=0.55; Pakistan + Qatar signals positive; NATO Ankara adds pressure)
+- W3: $3 bn frozen-asset mechanism formally activated by EOD 10 Jul (P=0.10; only 1 day post-funeral before deadline; administrative lag likely)
+- W4: Houthi formal claim of Magic Seas sinking by EOD 12 Jul (P=0.65; Magic Seas sunk 6 Jul with Houthi-signature tactics; no claim yet; historical Houthi claim rate on sinkings near 100%)
+- W5: EIA STEO 7 Jul Brent Q3 forecast <$80 (P=0.95; release today; June was $105; actual $72; near-certain downward revision)
+
+**Probabilistic predictions (Brier inputs):**
+- P(Brent <$70 by EOD 14 Jul) = 0.22 (OPEC+ +188k b/d + Saudi discount pressure; $72 current)
+- P(Brent >$78 by EOD 14 Jul) = 0.03
+- P(IAEA inspection date confirmed by EOD 10 Jul) = 0.04
+- P(MOU formally suspended by Iran by EOD 17 Aug) = 0.15
+- P(Khamenei funeral without IRGC incident by EOD 9 Jul) = 0.82
+- P(Mojtaba Khamenei public appearance by EOD 9 Jul) = 0.02
+- P(Lebanon IDF-Hezbollah full-scale resumption by EOD 9 Jul) = 0.13
+- P(Post-funeral Doha/Muscat session convened by EOD 14 Jul) = 0.55
+- P($3 bn asset mechanism formally activated by EOD 10 Jul) = 0.10
+- P(Houthi formal claim of Magic Seas sinking by EOD 12 Jul) = 0.65
+- P(EIA STEO 7 Jul Brent Q3 forecast <$80) = 0.95
+- P(NATO Ankara final declaration adopted with Hormuz language) = 0.97
+
+**Scenarios (30d):**
+- A: Negotiated framework — 35% (→; post-funeral session decisive gate; nuclear not started; corridor fee unresolved)
+- B: Implementation drag — 49% (↑1pp; modal; funeral passing without kinetic; IRGC Vahidi visible; Hormuz corridor normalising; OPEC+ output supports Brent decline)
+- C: Re-escalation / MOU collapse — 16% (↓1pp; Magic Seas sinking = Houthi escalation signal; counter-trend to modal; Mojtaba in hiding = succession uncertainty)
