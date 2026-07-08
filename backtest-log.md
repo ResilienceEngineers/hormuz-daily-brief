@@ -3368,3 +3368,67 @@ Calibration note: W5 HIT at P=0.12 confirms Israel spoiler vector was correctly 
 - A: Negotiated framework — 35% (→; post-funeral session decisive gate; nuclear not started; corridor fee unresolved)
 - B: Implementation drag — 49% (↑1pp; modal; funeral passing without kinetic; IRGC Vahidi visible; Hormuz corridor normalising; OPEC+ output supports Brent decline)
 - C: Re-escalation / MOU collapse — 16% (↓1pp; Magic Seas sinking = Houthi escalation signal; counter-trend to modal; Mojtaba in hiding = succession uncertainty)
+
+## 2026-07-08 (Day 131) — Backtest Entry
+
+### Scoring of Day 130 predictions (T+1: 8 Jul)
+
+**Resolved T+1 items:**
+
+| Prediction | P | Outcome | Brier |
+|---|---|---|---|
+| P(Khamenei funeral without IRGC incident by EOD 9 Jul) = 0.82 | 0.82 | **MISS** — IRGC attacked 3 vessels 7 Jul during funeral (Al-Rekayyat LNG Qatar, Saudi Wedyan crude, third vessel); CENTCOM 80+ retaliatory strikes (CENTCOM.mil, Tier 1); ceasefire "clear violation" per CENTCOM. Full kinetic incident mid-funeral. | (0.82−0)² = 0.6724 |
+| P(EIA STEO 7 Jul Brent Q3 forecast <$80) = 0.95 | 0.95 | **HIT** — EIA July STEO: Brent Q3 2026 avg $74/b (↓$27 from June); confirmed (EIA.gov, Tier 1). | (0.95−1)² = 0.0025 |
+
+**T+1 resolved Brier this cycle:** 0.6724 + 0.0025 = 0.6749 (2 items)
+**Cumulative running total:** 6.1455 + 0.6749 = 6.8204 (34 items)
+**Running Brier mean:** 6.8204 / 34 = 0.201
+
+**Note — major calibration failure:** W1 prediction P=0.82 was a MISS. The funeral kinetic restraint assumption (Days 1–6 clean) proved fragile; IRGC acted on Day 8 of the 9-day window, targeting vessels on the southern Omani route the US had been promoting. The model over-estimated the funeral restraint window — likely because IRGC acted precisely on the ambiguity between "MOU compliance" and "route enforcement." Heuristic adjustment: funeral/ceasefire restraint does NOT inhibit IRGC route-enforcement actions when the IRGC frames them as regulatory rather than offensive.
+
+---
+
+**Tracking items — status as of 8 Jul:**
+
+| Prediction | P (Day 130) | Status | Revised P |
+|---|---|---|---|
+| P(Post-funeral Doha/Muscat session convened by EOD 14 Jul) | 0.55 | **SEVERE STRAIN** — US revoked oil-sale waiver (effective 17 Jul); CENTCOM struck 80+ targets; Iran launched retaliatory missiles at Bahrain/Kuwait; MOU under acute pressure; funeral still has Mashhad burial 9 Jul | 0.25 (↓30pp; post-strike session requires both sides to step back from active exchanges) |
+| P($3bn asset mechanism formally activated by EOD 10 Jul) | 0.10 | US revoked waiver; assets likely frozen pending de-escalation; deadline 10 Jul | 0.03 (↓7pp; near-zero; waiver revocation is opposite signal) |
+| P(Mojtaba Khamenei public appearance by EOD 9 Jul) | 0.02 | Still absent; IRGC kinetics during funeral confirm extreme security posture; Mashhad 9 Jul final gate | 0.01 (↓1pp) |
+| P(Lebanon IDF-Hezbollah full-scale resumption by EOD 9 Jul) | 0.13 | Israel continued Lebanon strikes 6 Jul; no full-scale resumption | 0.12 (→) |
+| P(Houthi formal claim of Magic Seas sinking by EOD 12 Jul) | 0.65 | No claim yet; Houthi spokesperson silent; IRGC action 7 Jul may overshadow Houthi comms | 0.68 (↑3pp) |
+| P(Brent <$70 by EOD 14 Jul) | 0.22 | Brent $76+ on 8 Jul; strikes/sanctions reversal → upward pressure | 0.05 (↓17pp) |
+| P(Brent >$78 by EOD 14 Jul) | 0.03 | Now plausible; Brent $76.07 as of 04:00 GMT 8 Jul | 0.38 (↑35pp) |
+| P(NATO Ankara final declaration adopted with Hormuz language) | 0.97 | Trump expressed disappointment with NATO allies; declaration details still PENDING as of 8 Jul 06:00 UTC | 0.85 (↓12pp; Trump FAFO posture may weaken multilateral text) |
+| P(MOU formally suspended by Iran by EOD 17 Aug) | 0.15 | US revoked oil waiver; CENTCOM struck 80+ targets; Iran launched retaliatory strikes; MOU under acute stress | 0.35 (↑20pp; very significant revision) |
+
+---
+
+### Day 131 New Predictions (T+1: 9 Jul, T+3: 11 Jul, T+7: 15 Jul)
+
+**Trend:** ↑ Worse. Confidence: High.
+**Threat level:** 5/5 Crisis (↑ from 4; IRGC attacked 3 vessels; CENTCOM 80+ retaliatory strikes; Iran counter-strike on Bahrain/Kuwait; US oil-sale waiver revoked; MOU in acute breach; Brent surging; funeral Mashhad gate still open 9 Jul)
+
+**Watchlist predictions:**
+- W1: Iran declares MOU formally suspended or issues closure declaration within 7 days of 9 Jul (P=0.28; IRGC strike + US sanctions reversal = structural trigger; Iran counter-strikes on Bahrain/Kuwait = escalation ladder entered)
+- W2: Post-funeral Doha session convened despite strikes — emergency de-escalation session by EOD 14 Jul (P=0.25; Qatar still mediating; both sides have incentive to avoid full resumption; but US waiver revocation = major diplomatic obstacle)
+- W3: Iran retaliatory missiles cause confirmed damage to US base assets in Bahrain/Kuwait by EOD 9 Jul (P=0.45; sirens confirmed; IRGC claimed 85 installations; CENTCOM response pending; confirmation lag expected)
+- W4: Houthi formal claim of Magic Seas sinking by EOD 12 Jul (P=0.68; pattern: Houthi historical claim rate on sinkings ~100%; no claim after 48 hours = unusual; IRGC noise may have suppressed Houthi comms)
+- W5: Mashhad burial 9 Jul completes without additional kinetic incident at funeral site (P=0.78; logistical security is extremely high; IRGC already struck ships; unlikely to strike own funeral convoy)
+
+**Probabilistic predictions (Brier inputs):**
+- P(Brent >$78 by EOD 15 Jul) = 0.42 (CENTCOM strikes + waiver revocation = upward pressure; but OPEC+ output + demand destruction caps)
+- P(Brent <$70 by EOD 15 Jul) = 0.04 (price floor raised by strikes)
+- P(MOU formally suspended by Iran by EOD 17 Aug) = 0.35 (↑20pp; acute stress)
+- P(Iran retaliatory damage confirmed at Bahrain/Kuwait base by EOD 9 Jul) = 0.45
+- P(Mojtaba Khamenei public appearance by EOD 9 Jul) = 0.01
+- P(Post-funeral emergency Doha session by EOD 14 Jul) = 0.25
+- P(Houthi formal claim Magic Seas by EOD 12 Jul) = 0.68
+- P(Mashhad burial 9 Jul without kinetic incident at funeral site) = 0.78
+- P(IAEA inspection date confirmed by EOD 17 Jul) = 0.03
+- P(Lebanon IDF-Hezbollah full-scale resumption by EOD 15 Jul) = 0.18 (↑; IRGC resurgence emboldens Hezbollah)
+
+**Scenarios (30d):**
+- A: Negotiated framework — 18% (↓17pp; MOU in acute breach; US waiver revoked; bilateral strikes ongoing; diplomatic channel in severe stress)
+- B: Frozen attrition / managed crisis — 42% (↓7pp; modal shifts; both sides may step back from full resumption after strike exchange; Qatar/Pakistan emergency mediation)
+- C: Re-escalation / MOU collapse — 40% (↑24pp; IRGC struck 3 vessels; CENTCOM 80+ targets; Iran counter-struck Bahrain/Kuwait; US sanctions reversal; structural escalation ladder entered)
