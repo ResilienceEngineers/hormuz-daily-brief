@@ -3432,3 +3432,64 @@ Calibration note: W5 HIT at P=0.12 confirms Israel spoiler vector was correctly 
 - A: Negotiated framework — 18% (↓17pp; MOU in acute breach; US waiver revoked; bilateral strikes ongoing; diplomatic channel in severe stress)
 - B: Frozen attrition / managed crisis — 42% (↓7pp; modal shifts; both sides may step back from full resumption after strike exchange; Qatar/Pakistan emergency mediation)
 - C: Re-escalation / MOU collapse — 40% (↑24pp; IRGC struck 3 vessels; CENTCOM 80+ targets; Iran counter-struck Bahrain/Kuwait; US sanctions reversal; structural escalation ladder entered)
+
+## Day 132 — 9 July 2026
+
+### T+1 scoring (Day 131 predictions, resolved by 9 Jul)
+
+| Prediction | P (Day 131) | Outcome | Brier (p−o)² |
+|---|---|---|---|
+| P(Mashhad burial 9 Jul without kinetic incident at funeral site) = 0.78 | 0.78 | **TRACKING** — Mashhad burial underway 9 Jul; no confirmed kinetic incident at funeral site as of 06:00 UTC; will resolve EOD 9 Jul. Score deferred. | — |
+| P(Iran retaliatory damage confirmed at Bahrain/Kuwait base by EOD 9 Jul) = 0.45 | 0.45 | **MISS (strict)** — IRGC struck Bahrain/Kuwait (confirmed); Bahrain: residential building damaged near airport, NOT US military base; Kuwait: air defences intercepted, no damage confirmed. P=0.45 assigned to "confirmed US base damage." Outcome = 0. | (0.45−0)² = 0.2025 |
+| P(Mojtaba Khamenei public appearance by EOD 9 Jul) = 0.01 | 0.01 | **TRACKING** — Still absent as of 06:00 UTC; Mashhad burial today is last gate. Score deferred pending EOD. | — |
+
+**T+1 resolved Brier this cycle (partial):** 0.2025 (1 item resolved; 2 deferred to EOD 9 Jul)
+**Cumulative running total (pre-today):** 6.8204 + 0.2025 = 7.0229 (35 items)
+
+### Tracking items updated — 9 Jul
+
+| Prediction | Prior P | Status | Revised P |
+|---|---|---|---|
+| P(Post-funeral Doha session by EOD 14 Jul) | 0.25 | Collapsed — Trump "ceasefire over"; Iran FM threatened negotiation halt; no Qatar FM session signal | 0.08 (↓17pp) |
+| P(Brent >$78 by EOD 15 Jul) | 0.42 | **Active HIT** — Brent hit $78 on 8 Jul; range 9 Jul $75.47–$79.24; sustained above $78 | 0.72 (↑30pp) |
+| P(Brent <$70 by EOD 15 Jul) | 0.04 | Effectively zero — blockade reimposed; sanctions reversed | 0.01 (↓3pp) |
+| P(MOU formally suspended by Iran by EOD 17 Aug) | 0.35 | Iran FM threatened "complete halt"; GL-X revoked; Trump "ceasefire over" — structural suspension underway informally | 0.55 (↑20pp) |
+| P(Houthi formal claim Magic Seas sinking by EOD 12 Jul) | 0.68 | Still no Houthi formal claim on Magic Seas specifically; Houthis active on other vessels (Maersk Sentosa 9 Jul) | 0.60 (↓8pp — attention shifted) |
+| P(Lebanon IDF-Hezbollah full-scale resumption by EOD 15 Jul) | 0.18 | Israel-Lebanon talks confirmed Rome 15–16 Jul; no full-scale resumption | 0.14 (↓4pp) |
+| P(NATO Ankara declaration adopted with Hormuz language) | 0.85 | **HIT** — Declaration adopted: "Iran must never have nuclear weapon; must respect freedom of navigation in Hormuz" (NBC/AP Tier 1) | 1.0 → resolved; Brier (0.85−1)² = 0.0225 |
+| P(IAEA inspection date confirmed by EOD 17 Jul) | 0.03 | No signal; IAEA access to Natanz/Isfahan/Fordow still denied | 0.03 (→) |
+
+**NATO declaration HIT resolved:** (0.85−1)² = 0.0225
+**Running total update:** 7.0229 + 0.0225 = 7.0454 (36 items)
+**Running Brier mean:** 7.0454 / 36 = 0.196
+
+### Day 132 New Predictions (T+1: 10 Jul, T+3: 12 Jul, T+7: 16 Jul)
+
+**Trend:** ↑ Worse. Confidence: High.
+**Threat level:** 5 / 5 · Crisis (sustained)
+
+**Watchlist predictions:**
+- W1: US naval blockade on Iranian ports formally reinstated via CENTCOM order, scope confirmed by EOD 11 Jul (P=0.75; Trump said "we may put the blockade back" at NATO; CENTCOM operational language pending; reimposition announced but formal CENTCOM order publication key)
+- W2: Iran formally suspends negotiations — FM Araghchi official statement of halt by EOD 12 Jul (P=0.38; pre-conditional threat is not yet declarative; Qatar may still hold a back-channel; Iran has historically threatened and then continued)
+- W3: Mojtaba Khamenei public appearance at Mashhad 9 Jul (P=0.35 revised upward from 0.01; NYT report: he wants to appear; IRGC security split; will resolve today)
+- W4: UKMTO formal advisory for Maersk Sentosa / Nishtun attack 9 Jul confirmed by EOD 10 Jul (P=0.70; Houthi claim made; pattern consistent; UKMTO typically confirms within 24h)
+- W5: Trump–Netanyahu meeting held by EOD 15 Jul (P=0.55; Israeli source confirmed; NATO summit context; mutual interest in coordinating Iran posture)
+
+**Probabilistic predictions (Brier inputs):**
+- P(Brent >$80 by EOD 16 Jul) = 0.48 (blockade reimposition + sanctions reversal = upward pressure; OPEC+ output caps upside)
+- P(Brent <$72 by EOD 16 Jul) = 0.05 (structural floor raised by escalation)
+- P(MOU formally suspended by Iran by EOD 17 Aug) = 0.55 (↑20pp; acute stress; both sides publicly repudiating)
+- P(Third consecutive night of CENTCOM strikes, 9 Jul) = 0.55 (Trump said "I may hit them again tonight"; pattern of 2 consecutive nights)
+- P(Iran declares formal negotiation halt by EOD 12 Jul) = 0.38
+- P(Mojtaba Khamenei public appearance by EOD 9 Jul) = 0.35 (revised from 0.01; NYT report changes prior)
+- P(UKMTO confirms Maersk Sentosa/Nishtun attack by EOD 10 Jul) = 0.70
+- P(Trump–Netanyahu meeting by EOD 15 Jul) = 0.55
+- P(Lebanon IDF-Hezbollah full-scale resumption by EOD 16 Jul) = 0.14 (→)
+- P(Houthi Magic Seas formal claim by EOD 12 Jul) = 0.60 (↓8pp)
+
+**Scenarios (30d):**
+- A: Negotiated framework — 10% (↓8pp; structural MOU breach from both sides; Trump "finish the job" posture)
+- B: Frozen attrition — 35% (↓7pp; contingent on back-channel Qatar contact; survivable if Trump rhetorical ceiling holds)
+- C: Re-escalation / MOU collapse — 55% (↑15pp; modal; structural triggers met; both sides' public repudiation of MOU; blockade + sanctions reversal)
+
+**Methodology note:** Revised heuristic applied — presidential "ceasefire over" declaration combined with sanctions reversal and naval blockade reimposition constitutes a structural MOU breach requiring Scenario C modal re-designation. This overrides the prior 72h restraint window heuristic. Counter-signal (Trump hedging on "long-term military action") is noted but insufficient to prevent C designation at this threshold.
