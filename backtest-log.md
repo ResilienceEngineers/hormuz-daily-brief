@@ -3493,3 +3493,59 @@ Calibration note: W5 HIT at P=0.12 confirms Israel spoiler vector was correctly 
 - C: Re-escalation / MOU collapse — 55% (↑15pp; modal; structural triggers met; both sides' public repudiation of MOU; blockade + sanctions reversal)
 
 **Methodology note:** Revised heuristic applied — presidential "ceasefire over" declaration combined with sanctions reversal and naval blockade reimposition constitutes a structural MOU breach requiring Scenario C modal re-designation. This overrides the prior 72h restraint window heuristic. Counter-signal (Trump hedging on "long-term military action") is noted but insufficient to prevent C designation at this threshold.
+
+## Day 133 — 10 July 2026
+
+### T+1 scoring (Day 132 predictions, resolved by 10 Jul)
+
+| Prediction | P (Day 132) | Outcome | Brier (p−o)² |
+|---|---|---|---|
+| P(Third consecutive night CENTCOM strikes, 9 Jul) = 0.55 | 0.55 | **MISS** — US officials denied Iranian state media claims of new strikes as of ~01:00 EDT 10 Jul (CNN); no CENTCOM press release issued for night of 9 Jul; "wait-and-see mode" per US official. Outcome = 0. | (0.55−0)² = 0.3025 |
+| P(Mojtaba Khamenei public appearance by EOD 9 Jul) = 0.35 | 0.35 | **MISS** — Mojtaba absent from Mashhad burial; burial completed 10 Jul early morning without him; still no image/video/audio (BusinessToday 10 Jul; JPost 10 Jul; Reuters/Spokesman). Outcome = 0. | (0.35−0)² = 0.1225 |
+| P(UKMTO confirms Maersk Sentosa/Nishtun attack by EOD 10 Jul) = 0.70 | 0.70 | **HIT** — Maersk corporate confirmed attack (Tier 2); Houthis claimed; Wikipedia corroborated; UKMTO JMIC update 067 (5 Jul) was pre-incident but pattern consistent; using Maersk corporate + Houthi claim + Wikipedia as confirmation. Outcome = 1. | (0.70−1)² = 0.09 |
+
+**T+1 resolved Brier this cycle:** 0.3025 + 0.1225 + 0.09 = 0.515 (3 items)
+**Cumulative running total:** 7.0454 + 0.515 = 7.5604 (39 items)
+**Running Brier mean:** 7.5604 / 39 = 0.194
+
+### Tracking items updated — 10 Jul
+
+| Prediction | Prior P | Status | Revised P |
+|---|---|---|---|
+| P(Brent >$80 by EOD 16 Jul) | 0.48 | Active — range $76.77–$79.54 on 9 Jul; $78.01 YF morning 10 Jul; not yet above $80; Kharg threat = upside catalyst | 0.42 (↓6pp — back-channel softens ceiling) |
+| P(Iran declares formal negotiation halt by EOD 12 Jul) | 0.38 | Iran contacted US seeking new deal post-strikes (Trump statement); FM calling mediators; MOU not formally withdrawn | 0.18 (↓20pp — significant reversal signal) |
+| P(Trump–Netanyahu meeting by EOD 15 Jul) | 0.55 | White House confirmed "no plans for meeting" as of 10 Jul (Jerusalem Post/Walla) | 0.20 (↓35pp — explicit denial) |
+| P(MOU formally suspended by Iran by EOD 17 Aug) | 0.55 | Iran back-channel contact counters formal suspension; both sides still accuse each other of violation but neither withdrew formally | 0.45 (↓10pp) |
+| P(Lebanon IDF-Hezbollah full-scale resumption by EOD 16 Jul) | 0.14 | Rome talks 15–16 Jul; no resumption signal; Israel-Lebanon ceasefire holding | 0.12 (↓2pp) |
+| P(Houthi Magic Seas formal claim by EOD 12 Jul) | 0.60 | No Magic Seas claim; Houthis focused on Maersk Sentosa, Minervagracht 9 Jul | 0.35 (↓25pp — attention fully shifted) |
+
+### Day 133 New Predictions (T+1: 11 Jul, T+3: 13 Jul, T+7: 17 Jul)
+
+**Trend:** ↑ Worse. Confidence: High.
+**Threat level:** 5 / 5 · Crisis (sustained)
+
+**Watchlist predictions:**
+- W1: Mojtaba Khamenei public appearance at Sat 11 Jul condolence ceremony (P=0.40; Tasnim announced he will lead prayers; IRGC security still blocking; injury still cited; but this is the announced last gate)
+- W2: Iran–US back-channel confirmed technical session announced by EOD 14 Jul (P=0.45; Iran contacted US; Pakistan–Qatar active; but no session confirmed yet; funeral period just ended)
+- W3: CENTCOM third confirmed strike wave (night 9–10 Jul) — formal CENTCOM press release by EOD 10 Jul (P=0.20; US officials denied Iranian claims; "wait-and-see" mode cited; lower probability)
+- W4: Trump formal naval blockade CENTCOM order on Iranian ports by EOD 12 Jul (P=0.30; threatened at NATO; no order yet; coercive rhetoric pattern)
+- W5: Kharg Island strike by EOD 17 Jul (P=0.22; Trump explicitly threatened; CENTCOM targets to date limited to military infrastructure; Kharg = economic warfare escalation requiring deliberate decision)
+
+**Probabilistic predictions (Brier inputs):**
+- P(Brent >$80 by EOD 16 Jul) = 0.42 (↓6pp; back-channel softens Kharg threat ceiling)
+- P(Brent <$72 by EOD 16 Jul) = 0.05 (→; structural floor from GL-X revocation)
+- P(MOU formally suspended by Iran by EOD 17 Aug) = 0.45 (↓10pp; Iran back-channel contact reversal)
+- P(Iran declares formal negotiation halt by EOD 12 Jul) = 0.18 (↓20pp; Iran contacted US seeking deal)
+- P(Trump–Netanyahu in-person meeting by EOD 15 Jul) = 0.20 (↓35pp; White House denied plans)
+- P(Mojtaba Khamenei public appearance by EOD 11 Jul) = 0.40 (Tasnim announced ceremony; IRGC security risk cited)
+- P(Confirmed next US–Iran technical session by EOD 14 Jul) = 0.45
+- P(Kharg Island strike by EOD 17 Jul) = 0.22
+- P(Lebanon IDF-Hezbollah full-scale resumption by EOD 16 Jul) = 0.12 (↓2pp)
+- P(CENTCOM formal third-night strike wave confirmed by EOD 10 Jul) = 0.20
+
+**Scenarios (30d):**
+- A: Negotiated framework — 10% (→)
+- B: Frozen attrition / back-channel survives — 38% (↑3pp; Iran contacted US; Pakistan–Qatar mediation active)
+- C: Re-escalation / MOU collapse — 52% (↓3pp; modal; softened marginally by back-channel signal)
+
+**Methodology note:** Applied "strike-and-talk" heuristic — when both kinetic escalation AND back-channel contact occur simultaneously within 24h, Scenario B probability floor rises by ~3–5pp from prior day's C-dominant reading. This is consistent with June MOU precedent where Trump struck and negotiated concurrently. Counter-signal (Iran contacting US) was Tier 1 (NBC/Trump public statement) and independently confirmed (CNN US official statement) — meets Hard source threshold.
