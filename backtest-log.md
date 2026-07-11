@@ -3549,3 +3549,53 @@ Calibration note: W5 HIT at P=0.12 confirms Israel spoiler vector was correctly 
 - C: Re-escalation / MOU collapse — 52% (↓3pp; modal; softened marginally by back-channel signal)
 
 **Methodology note:** Applied "strike-and-talk" heuristic — when both kinetic escalation AND back-channel contact occur simultaneously within 24h, Scenario B probability floor rises by ~3–5pp from prior day's C-dominant reading. This is consistent with June MOU precedent where Trump struck and negotiated concurrently. Counter-signal (Iran contacting US) was Tier 1 (NBC/Trump public statement) and independently confirmed (CNN US official statement) — meets Hard source threshold.
+
+## Day 134 — 11 July 2026
+
+### T+1 scoring (Day 133 predictions, resolved by 11 Jul 06:01 UTC)
+
+| Prediction | P (Day 133) | Outcome | Brier (p−o)² |
+|---|---|---|---|
+| P(Iran declares formal negotiation halt by EOD 12 Jul) = 0.18 | 0.18 | **MISS** — Iran FM traveling to Oman for Hormuz talks; back-channel fully active; Iran sought continuation not halt. Outcome = 0. | (0.18−0)² = 0.0324 |
+| P(Confirmed next US–Iran technical session by EOD 14 Jul) = 0.45 | 0.45 | **HIT** — Araghchi confirmed Oman visit today (11 Jul); US officials confirmed negotiations resuming; Axios: possible new round next week; Qatari delegation in Iran (Reuters). Outcome = 1. | (0.45−1)² = 0.3025 |
+| P(CENTCOM formal third-night strike wave confirmed by EOD 10 Jul) = 0.20 | 0.20 | **MISS** — No CENTCOM formal third-wave press release; night of 9–10 Jul was quieter; US officials in "wait-and-see" mode. Outcome = 0. | (0.20−0)² = 0.04 |
+
+**W1 (Mojtaba appearance):** PENDING — ceremony tonight (after Maghrib/Isha, local evening); cannot score at 06:01 UTC. Carry forward.
+**W3 (CENTCOM third wave):** MISS — scored above.
+**W4 (Trump blockade by EOD 12 Jul):** Active — deadline not passed.
+**W5 (Kharg strike by EOD 17 Jul):** Active.
+
+**T+1 resolved Brier this cycle:** 0.0324 + 0.3025 + 0.04 = 0.3749 (3 items)
+**Cumulative running total:** 7.5604 + 0.3749 = 7.9353 (42 items)
+**Running Brier mean:** 7.9353 / 42 = 0.189
+
+### Day 134 New Predictions (T+1: 12 Jul, T+3: 14 Jul, T+7: 18 Jul)
+
+**Trend:** → Same. Confidence: Medium.
+**Threat level:** 4 / 5 · Severe (↓ from 5; downgraded on strike pause + active diplomacy; not yet structural improvement)
+
+**Watchlist predictions:**
+- W1: Mojtaba Khamenei confirmed public appearance at Qom ceremony tonight (P=0.35; ceremony announced by Tasnim; Bloomberg did not confirm his attendance role; injury/security concerns persist; prior MISS pattern through 10 Jul; tonight is last announced gate)
+- W2: Araghchi–Busaidi Oman outcome — Iran issues public statement acknowledging Hormuz open and committing to no ship attacks by EOD 11 Jul (P=0.40; US set Saturday deadline with threat; Araghchi traveling; Iran spokesman said Iran already fulfilling MOU responsibilities; ambiguous statement likely)
+- W3: Trump formal naval blockade CENTCOM order by EOD 12 Jul (P=0.18; dependent on Oman failure; still at coercive-rhetoric phase; positive Oman outcome lowers this further)
+- W4: US–Iran direct technical session confirmed by EOD 14 Jul (P=0.60; Axios reported "possible next week"; Araghchi in Oman today; strong directional signal)
+- W5: Kharg Island strike by EOD 17 Jul (P=0.20; Trump threatened; Oman talks reduce immediate probability; CENTCOM strike pattern limited to military targets to date)
+
+**Probabilistic predictions (Brier inputs):**
+- P(Brent >$80 by EOD 16 Jul) = 0.30 (↓12pp; back-channel active; Oman talks positive signal; Hormuz premium sustained but ceiling lower)
+- P(Brent <$72 by EOD 16 Jul) = 0.08 (↑3pp; positive Oman outcome could push toward floor)
+- P(Iran issues public Hormuz statement from Oman by EOD 11 Jul) = 0.40
+- P(Mojtaba confirmed public appearance by EOD 11 Jul) = 0.35 (↓5pp; Bloomberg did not confirm his attendance role)
+- P(CENTCOM Day 3 strike wave confirmed by EOD 12 Jul) = 0.25 (active if Oman fails)
+- P(US–Iran direct technical session announced by EOD 14 Jul) = 0.60 (↑15pp; Araghchi in Oman today)
+- P(Kharg Island strike by EOD 17 Jul) = 0.20 (→)
+- P(Houthi full Red Sea campaign resumption by EOD 14 Jul) = 0.18 (↑6pp; Maersk Sentosa GoA 9 Jul; Oman failure = trigger)
+- P(MOU formally suspended by Iran by EOD 17 Aug) = 0.42 (↓3pp; Iran FM traveling to Oman counters formal suspension)
+- P(Trump–Netanyahu in-person meeting by EOD 15 Jul) = 0.18 (→; White House denied)
+
+**Scenarios (30d):**
+- A: Negotiated framework — 12% (↑2pp; Oman talks today, US-Iran back-channel confirmed)
+- B: Frozen attrition / back-channel survives — 43% (↑5pp; modal; strike pause + FM in Oman)
+- C: Re-escalation / MOU collapse — 45% (↓7pp; still elevated; Oman outcome tonight is binary gate)
+
+**Methodology note:** Threat level downgraded from 5 to 4 today based on: (1) confirmed CENTCOM strike pause night of 10–11 Jul; (2) FM-level diplomatic contact confirmed (Araghchi in Oman); (3) US "wait-and-see" posture signalled (Axios). Structural threat remains Severe, not Crisis, during an active diplomatic gate. Heuristic applied: threat level 5 requires active kinetic exchanges AND no diplomatic channel; the presence of both a 24h strike pause AND FM-level talks warrants one-notch reduction. Will restore to 5 immediately if CENTCOM strike resumes or Oman talks produce explicit breakdown statement.
