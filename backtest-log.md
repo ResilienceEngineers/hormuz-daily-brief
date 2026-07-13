@@ -3649,3 +3649,54 @@ Calibration note: W5 HIT at P=0.12 confirms Israel spoiler vector was correctly 
 - C: Re-escalation / full closure lock-in — 60% (↑15pp; modal; IRGC formal closure + 300+ CENTCOM targets = structural not tactical)
 
 **Methodology note:** Restored threat level to 5/Crisis per heuristic: Threat 5 requires active kinetic exchanges AND formal closure declaration AND multi-state retaliation. All three are now confirmed by Tier 1 sources (CENTCOM.mil, UKMTO, Arab News, Al Jazeera live blogs). The Day 134 reduction to 4 was correct given the strike pause + Araghchi travel; the restoration to 5 today is justified by the reversal of both conditions overnight. Calibration correction applied: CENTCOM Day N+1 strike probability now floors at 0.50 when (a) Iran attacks a commercial vessel AND (b) CENTCOM has issued a "failed MOU test" statement AND (c) no formal pause is announced. Prior 0.25 estimate was systematically underweight.
+
+## 13 July 2026 — Day 136
+
+### T+1 scoring (Day 135 predictions, resolved by 13 Jul 06:01 UTC)
+
+| Prediction | P (Day 135) | Outcome | Brier (p−o)² |
+|---|---|---|---|
+| P(CENTCOM Day 4 strike wave by EOD 13 Jul) = 0.55 | 0.55 | **HIT** — Middle East Eye (Tier 2): CENTCOM completed Wave 5 at 03:56 BST 13 Jul; J.Post corroborated. Outcome = 1. | (0.55−1)² = 0.2025 |
+| P(Brent >$80 by EOD 16 Jul) = 0.72 | 0.72 | **PENDING** — Brent at $79.02–79.22 on 13 Jul open; not yet EOD 16 Jul. Carry. | — |
+| P(Brent >$88 by EOD 16 Jul) = 0.32 | 0.32 | **PENDING** — Carry to EOD 16 Jul. | — |
+| P(Mojtaba confirmed public appearance by EOD 25 Jul) = 0.30 | 0.30 | **PENDING** — No confirmed appearance through 13 Jul 06:01 UTC. Mashhad memorial 10–12 Jul: Bloomberg confirmed no specified attendance. Carry. | — |
+| P(Oman two-corridor proposal formally accepted by EOD 16 Jul) = 0.22 | 0.22 | **PENDING** — Draft exists (CNN); no acceptance. Carry. | — |
+| P(Houthi full Red Sea commercial resumption by EOD 14 Jul) = 0.25 | 0.25 | **PENDING** — UKMTO/SC Report: threats + skiff incidents; no confirmed full resumption 06:01 UTC 13 Jul. Carry to EOD 14 Jul. | — |
+| P(US–Iran direct technical session firm date by EOD 15 Jul) = 0.35 | 0.35 | **PENDING** — CBS News: no direct US–Iran contact; Iran conditions on prior compliance. Carry. | — |
+
+**T+1 resolved this cycle (1 item):** 0.2025
+**Cumulative running total:** 8.8227 + 0.2025 = **9.0252** (48 items)
+**Running Brier mean:** 9.0252 / 48 = **0.1880**
+
+**Calibration note:** Day 135 W3 prediction (CENTCOM Day 4, P=0.55) was a HIT, confirming the calibration correction from Day 134 (floor CENTCOM next-wave probability at ≥0.50 when: Iran attacks commercial vessel + CENTCOM issues "failed MOU test" statement + no formal pause). The Brier cost (0.2025) is materially lower than the Day 134 miss (0.5625), validating the heuristic upgrade. New floor applied: CENTCOM Wave N+1 probability = 0.60 when above three conditions are met simultaneously AND Iran strikes a Gulf state in the same 24h window (adds fourth condition now observed).
+
+### Day 136 New Predictions (T+1: 14 Jul, T+3: 16 Jul, T+7: 20 Jul)
+
+**Trend:** ↑ Worse. Confidence: High.
+**Threat level:** 5 / 5 · Crisis (maintained; CENTCOM Wave 5 + six-state IRGC barrage = all structural criteria reinforced).
+
+**Watchlist predictions (carried or updated):**
+- W1: Mojtaba Khamenei confirmed public appearance by EOD 25 Jul (P=0.27; ↓3pp; Mashhad memorial closed without appearance; no next scheduled gate identified; carry)
+- W2: Oman two-corridor proposal formally accepted by both US and Iran by EOD 16 Jul (P=0.18; ↓4pp; Iran's circular precondition + IRGC Musandam strike = reduced Oman leverage)
+- W3: GL-X waiver non-renewed by EOD 17 Jul (P=0.62; ↑new; no renewal signal; Trump "ceasefire is over"; non-renewal = market catalyst)
+- W4: Kharg Island strike by EOD 19 Jul (P=0.31; ↑3pp; five waves have not yet hit Kharg; GL-X expiry 17 Jul is coercive pressure gate)
+- W5: Houthi full Red Sea/GoA commercial campaign resumption by EOD 16 Jul (P=0.28; ↑3pp; IRGC Musandam strike + ongoing Gulf escalation = stronger Houthi activation permission signal)
+
+**Probabilistic predictions (Brier inputs):**
+- P(CENTCOM Wave 6 confirmed by EOD 14 Jul) = 0.65 (↑10pp; Iran struck commercial vessel 12 Jul + IRGC attacked six Gulf states overnight; heuristic floor now 0.60 under four-condition trigger — all four met)
+- P(Brent >$80 by EOD 16 Jul) = 0.74 (↑2pp; carry; today already $79.22; GL-X gate 17 Jul)
+- P(Brent >$88 by EOD 16 Jul) = 0.28 (↓4pp; no Kharg strike yet; ceiling held)
+- P(GL-X waiver non-renewed by EOD 17 Jul) = 0.62 (new; Trump rhetoric "ceasefire over"; no renewal signal)
+- P(Houthi full Red Sea commercial resumption by EOD 16 Jul) = 0.28 (↑3pp)
+- P(Oman two-corridor proposal accepted by EOD 16 Jul) = 0.18 (↓4pp)
+- P(Mojtaba confirmed public appearance by EOD 25 Jul) = 0.27 (↓3pp)
+- P(Kharg Island strike by EOD 19 Jul) = 0.31 (↑3pp)
+- P(US–Iran direct session firm date by EOD 17 Jul) = 0.22 (↓13pp; Iran circular precondition + no contact confirmed)
+- P(MOU formally suspended/repudiated by Iran by EOD 17 Aug) = 0.60 (↑5pp; five waves + IRGC Musandam strike on Oman = de facto MOU collapse deepening)
+
+**Scenarios (30d):**
+- A: Negotiated framework — 7% (↓1pp)
+- B: Frozen attrition / back-channel survives — 28% (↓4pp)
+- C: Re-escalation / full closure lock-in — 65% (↑5pp; modal)
+
+**Methodology note:** Upgraded CENTCOM Wave N+1 heuristic floor to 0.60 (from 0.55) when all four conditions met: (1) Iran attacks commercial vessel, (2) CENTCOM issues "failed MOU test" statement, (3) no formal pause announced, (4) Iran strikes a Gulf state in the same 24h cycle. All four conditions met on 12–13 Jul. New heuristic logged. Also: IRGC Musandam strike on Oman (mediator state) is a qualitatively new escalation vector — added to heuristic watch: "if IRGC strikes mediator state territory, downgrade Scenario B by ≥3pp immediately."
