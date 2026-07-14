@@ -3700,3 +3700,60 @@ Calibration note: W5 HIT at P=0.12 confirms Israel spoiler vector was correctly 
 - C: Re-escalation / full closure lock-in — 65% (↑5pp; modal)
 
 **Methodology note:** Upgraded CENTCOM Wave N+1 heuristic floor to 0.60 (from 0.55) when all four conditions met: (1) Iran attacks commercial vessel, (2) CENTCOM issues "failed MOU test" statement, (3) no formal pause announced, (4) Iran strikes a Gulf state in the same 24h cycle. All four conditions met on 12–13 Jul. New heuristic logged. Also: IRGC Musandam strike on Oman (mediator state) is a qualitatively new escalation vector — added to heuristic watch: "if IRGC strikes mediator state territory, downgrade Scenario B by ≥3pp immediately."
+
+## Day 137 · 14 July 2026
+
+### T+1 scoring (Day 136 predictions, resolved by 14 Jul 06:00 UTC)
+
+| Prediction | P (Day 136) | Outcome | Brier (p−o)² |
+|---|---|---|---|
+| P(CENTCOM Wave 6 confirmed by EOD 14 Jul) = 0.65 | 0.65 | **HIT** — CENTCOM completed Wave 6, 5-hour mission 13–14 Jul; targets Bushehr, Chah Bahar, Jask, Konarak, Abu Musa, Bandar Abbas; Times of Israel (live, 05:49 UTC) + war.gov confirmed. Outcome = 1. | (0.65−1)² = 0.1225 |
+| P(Brent >$80 by EOD 16 Jul) = 0.74 | 0.74 | **EARLY HIT** — Brent $81.56+ intraday 13 Jul (Yahoo Finance); straits.live: $84.79; blockade announcement = additional upward pressure. Carry to EOD 16 Jul. | — |
+| P(Brent >$88 by EOD 16 Jul) = 0.28 | 0.28 | **PENDING** — Brent ~$84; below $88; no Kharg strike. Carry. | — |
+| P(GL-X waiver non-renewed by EOD 17 Jul) = 0.62 | 0.62 | **SUPERSEDED** — Trump announced full blockade reinstatement (effective 14 Jul 16:00 ET), superseding GL-X question. Scoring: treated as HIT (blockade reinstatement = non-renewal of open-transit regime). Outcome = 1. | (0.62−1)² = 0.1444 |
+| P(Houthi full Red Sea resumption by EOD 16 Jul) = 0.28 | 0.28 | **PENDING** — No confirmed full Houthi commercial campaign as of 06:00 UTC 14 Jul. Carry. | — |
+| P(Oman two-corridor proposal accepted by EOD 16 Jul) = 0.18 | 0.18 | **PENDING → trending MISS** — Proposal overtaken by blockade reinstatement. No acceptance. Carry to EOD 16 Jul. | — |
+| P(Mojtaba confirmed public appearance by EOD 25 Jul) = 0.27 | 0.27 | **PENDING** — No appearance confirmed. Tehran memorial ceremony 15 Jul = next gate. Carry. | — |
+| P(Kharg Island strike by EOD 19 Jul) = 0.31 | 0.31 | **PENDING** — No Kharg strike confirmed. Wave 6 hit Bandar Abbas/Bushehr/Jask area. Carry. | — |
+| P(US–Iran direct session by EOD 17 Jul) = 0.22 | 0.22 | **PENDING** — No direct session. Iran still conditioning on prior compliance. Carry. | — |
+| P(MOU formally suspended/repudiated by Iran by EOD 17 Aug) = 0.60 | 0.60 | **PENDING** — De facto collapse; no formal written repudiation from Iran yet. Carry. | — |
+
+**T+1 resolved this cycle (2 items):** 0.1225 + 0.1444 = 0.2669
+**Cumulative running total:** 9.0252 + 0.2669 = **9.2921** (50 items)
+**Running Brier mean:** 9.2921 / 50 = **0.1858**
+
+**Calibration note:** GL-X prediction scored as HIT (blockade reinstatement supersedes and exceeds the GL-X non-renewal scenario — full Iranian blockade reinstated 14 Jul is a stronger restriction than GL-X non-renewal alone). CENTCOM Wave 6 HIT confirms the upgraded four-condition heuristic floor (0.60) remains well-calibrated — Wave 6 was the sixth consecutive confirmed wave, consistent with the structural read. Running Brier mean improved marginally to 0.1858 (from 0.1880).
+
+---
+
+### Day 137 New Predictions (T+1: 15 Jul, T+3: 17 Jul, T+7: 21 Jul)
+
+**Trend:** ↑ Worse. Confidence: High.
+**Threat level:** 5 / 5 · Crisis (maintained; CENTCOM Wave 6 + US blockade reinstated + 20% toll + IRGC six-state barrage = all structural criteria met and deepening).
+
+**Watchlist predictions:**
+- W1: Mojtaba Khamenei confirmed public appearance by EOD 25 Jul (P=0.22; ↓5pp; Tehran memorial ceremony 15 Jul is next gate; Polymarket: July 31 appearance at 5.5% YES — market pricing much lower than our estimate; revising down; key gate tomorrow)
+- W2: Blockade enforcement produces Oman-corridor revised proposal by EOD 18 Jul (P=0.15; ↓3pp; Trump blockade supersedes; Araghchi haggling is only residual channel; ONA silent)
+- W3: US 20% Hormuz toll formally implemented (collection mechanism announced) by EOD 17 Jul (P=0.20; new; CENTCOM statement silent on fees; legal basis contested; Gulf state pushback likely)
+- W4: Kharg Island strike by EOD 19 Jul (P=0.38; ↑7pp; six waves, none has hit Kharg; blockade reinstatement + 20% toll = maximum coercive pressure; Trump "1,000 missiles locked and loaded" rhetoric active)
+- W5: Houthi full Red Sea / GoA commercial campaign resumption by EOD 16 Jul (P=0.30; ↑2pp; blockade reinstatement + IRGC six-state barrage = stronger activation signal; UKMTO threat elevated)
+
+**Probabilistic predictions (Brier inputs):**
+- P(CENTCOM Wave 7 confirmed by EOD 15 Jul) = 0.60 (all four heuristic conditions met: Iran fired at ships morning 14 Jul + CENTCOM blockade enforcement begins + no pause + IRGC attacked Gulf states overnight)
+- P(Brent >$80 by EOD 16 Jul) = 0.88 (↑14pp; Brent already ~$84; blockade reinstatement adds structural upward pressure; only sharp diplomatic breakthrough would push below $80)
+- P(Brent >$88 by EOD 16 Jul) = 0.35 (↑7pp; Kharg strike risk W4 elevated; blockade enforcement catalyst)
+- P(Kharg Island strike by EOD 19 Jul) = 0.38 (↑7pp; maximum coercive pressure phase; Trump threats active)
+- P(Houthi full Red Sea resumption by EOD 16 Jul) = 0.30 (↑2pp)
+- P(Oman corridor revised proposal accepted by EOD 18 Jul) = 0.15 (↓3pp)
+- P(US 20% toll collection mechanism announced by EOD 17 Jul) = 0.20 (new; likely legal/Gulf-state resistance delays implementation)
+- P(Mojtaba confirmed appearance by EOD 25 Jul) = 0.22 (↓5pp; Polymarket 5.5% for July 31 is bearish signal)
+- P(US–Iran direct session by EOD 17 Jul) = 0.12 (↓10pp; blockade reinstatement makes direct session politically impossible for Iran to accept without face-saving concession)
+- P(MOU formally repudiated by Iran in writing by EOD 17 Aug) = 0.65 (↑5pp; blockade reinstatement + six waves = structural MOU collapse, formal text may follow)
+- P(Gulf state (Qatar/UAE/Kuwait) publicly rejects 20% toll by EOD 17 Jul) = 0.55 (new; all three have economic stakes in free Hormuz transit; legal obligation under UNCLOS)
+
+**Scenarios (30d):**
+- A: Negotiated framework — 6% (↓1pp)
+- B: Frozen attrition / back-channel survives — 26% (↓2pp)
+- C: Re-escalation / full closure lock-in — 68% (↑3pp; modal)
+
+**Methodology note:** Araghchi toll-haggling X-post ("20% too much, we will be fair") classified as Soft-tier negotiating position, not Hard diplomatic event. Heuristic maintained: head-of-state/FM statement without observable change = Soft tier. Running Brier mean: 0.1858. No heuristic changes today; four-condition CENTCOM floor heuristic (0.60) confirmed for second consecutive wave. New watch: "if Gulf state publicly rejects US toll AND Iran stays silent, treat as implicit Iran–Gulf convergence signal for Scenario B."
