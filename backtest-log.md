@@ -3757,3 +3757,61 @@ Calibration note: W5 HIT at P=0.12 confirms Israel spoiler vector was correctly 
 - C: Re-escalation / full closure lock-in — 68% (↑3pp; modal)
 
 **Methodology note:** Araghchi toll-haggling X-post ("20% too much, we will be fair") classified as Soft-tier negotiating position, not Hard diplomatic event. Heuristic maintained: head-of-state/FM statement without observable change = Soft tier. Running Brier mean: 0.1858. No heuristic changes today; four-condition CENTCOM floor heuristic (0.60) confirmed for second consecutive wave. New watch: "if Gulf state publicly rejects US toll AND Iran stays silent, treat as implicit Iran–Gulf convergence signal for Scenario B."
+
+## 15 July 2026 (Day 138) — Scoring + New Predictions
+
+### T+1 scoring from Day 137 predictions (target date: 15 Jul 2026)
+
+| Prediction | P | Outcome | Brier |
+|---|---|---|---|
+| P(CENTCOM Wave 7 confirmed by EOD 15 Jul) = 0.60 | 0.60 | **HIT** — MEE 04:50 BST 15 Jul confirms "seven-hour wave of attacks against Iran complete" (= Wave 7 on 14 Jul night); CENTCOM "fourth consecutive night." Outcome = 1. | (0.60−1)² = 0.1600 |
+| P(Gulf state publicly rejects 20% toll by EOD 17 Jul) = 0.55 | 0.55 | **HIT EARLY** — IMO declared toll has "no legal basis"; Axios: Gulf source said toll not discussed with allies; Trump reversed 15 Jul to Gulf Trade Deals = implicit Gulf rejection confirmed. Outcome = 1. | (0.55−1)² = 0.2025 |
+
+**T+1 resolved this cycle (2 items):** 0.1600 + 0.2025 = 0.3625
+**Cumulative running total:** 9.2921 + 0.3625 = **9.6546** (52 items)
+**Running Brier mean:** 9.6546 / 52 = **0.1857**
+
+### Pending carries from prior cycles
+
+| Prediction | P | Status |
+|---|---|---|
+| P(Brent >$80 by EOD 16 Jul) = 0.88 | 0.88 | **HIT EARLY** — Brent $85.84 on 15 Jul; $86.35 on 14 Jul. Carry to EOD 16 Jul for formal score. |
+| P(Brent >$88 by EOD 16 Jul) = 0.35 | 0.35 | **PENDING** — $85.84; below $88. Carry. |
+| P(Kharg Island strike by EOD 19 Jul) = 0.38 | 0.38 | **PENDING** — No confirmed Kharg strike. Carry. |
+| P(Houthi full Red Sea resumption by EOD 16 Jul) = 0.30 | 0.30 | **TRENDING MISS** — Houthi threat to siege Saudi Arabia (Al Jazeera 14 Jul) but no confirmed full commercial campaign. Carry. |
+| P(Oman corridor revised proposal accepted by EOD 18 Jul) = 0.15 | 0.15 | **TRENDING MISS** — No acceptance; Houthi–Saudi exchange complicates Oman mediation. Carry. |
+| P(US 20% toll collection mechanism announced by EOD 17 Jul) = 0.20 | 0.20 | **TRENDING MISS** — Trump reversed to Gulf Trade Deals 15 Jul; no formal mechanism. Carry. |
+| P(Mojtaba confirmed appearance by EOD 25 Jul) = 0.22 | 0.22 | **PENDING** — 15 Jul memorial ceremony held; no confirmed public appearance. Carry. |
+| P(US–Iran direct session by EOD 17 Jul) = 0.12 | 0.12 | **TRENDING MISS** — No direct session; mediators only (Oman/Qatar/Pakistan). Carry. |
+| P(MOU formally repudiated in writing by Iran by EOD 17 Aug) = 0.65 | 0.65 | **PENDING** — De facto collapse; no formal written repudiation. Carry. |
+
+### Day 138 New Predictions (T+1: 16 Jul, T+3: 18 Jul, T+7: 22 Jul)
+
+**Trend:** ↑ Worse. Confidence: High.
+**Threat level:** 5 / 5 · Crisis (maintained and deepening; Wave 7 confirmed, blockade enforcement active, Houthi–Saudi exchange re-opens Yemen front, dual-chokepoint risk elevated).
+
+**Watchlist predictions:**
+- W1: Mojtaba Khamenei confirmed public appearance by EOD 25 Jul (P=0.18; ↓4pp; 15 Jul Tehran memorial ceremony = strong gate; no appearance confirmed as of 06:00 UTC; security threat Israeli "marked for death" label persists; Polymarket ~5.5% for July 31 remains bearish; revising down)
+- W2: Houthi attack on Saudi energy infrastructure or Red Sea shipping by EOD 19 Jul (P=0.45; new/upgraded; Houthi "siege" threat active; Saudi-Houthi exchange re-escalated 14 Jul; Sanaa airport attack = tit-for-tat cycle live)
+- W3: CENTCOM Wave 8 confirmed by EOD 17 Jul (P=0.65; four-condition heuristic fully met: Iran still firing, blockade enforcement active, no pause, IRGC regional campaign live)
+- W4: Kharg Island strike by EOD 19 Jul (P=0.35; ↓3pp; six consecutive waves have not hit Kharg; US pattern shows targeting of military/maritime capabilities not oil export infra; revising slightly down)
+- W5: Bab al-Mandeb formal Houthi closure/commercial ban by EOD 20 Jul (P=0.35; new; Houthi "siege" threat explicit; Saudi East-West pipeline = viable target; dual-chokepoint risk is now the primary tail risk)
+
+**Probabilistic predictions (Brier inputs):**
+- P(CENTCOM Wave 8 confirmed by EOD 17 Jul) = 0.65
+- P(Brent >$88 by EOD 16 Jul) = 0.35 (carry unchanged)
+- P(Brent >$90 by EOD 19 Jul) = 0.30 (new; requires Kharg or Houthi activation)
+- P(Kharg Island strike by EOD 19 Jul) = 0.35 (↓3pp)
+- P(Houthi full Red Sea/GoA commercial campaign by EOD 20 Jul) = 0.38 (↑8pp; Houthi–Saudi tit-for-tat active)
+- P(Mojtaba confirmed public appearance by EOD 25 Jul) = 0.18 (↓4pp; 15 Jul gate passed without appearance)
+- P(US–Iran direct session by EOD 17 Jul) = 0.10 (↓2pp; blockade + wave cycle = structurally impossible for Iran to accept face-saving terms)
+- P(MOU formally repudiated in writing by Iran by EOD 17 Aug) = 0.68 (↑3pp; blockade enforcement + 7 waves = formal repudiation increasingly likely)
+- P(Oman mediation formally suspended by EOD 20 Jul) = 0.30 (new; IRGC struck inside Omani territorial waters — Oman sovereignty violation = structural mediation risk)
+- P(Saudi East-West pipeline / Yanbu disrupted by Houthi strike by EOD 22 Jul) = 0.22 (new; Houthi "siege" threat + Saudi retaliation cycle)
+
+**Scenarios (30d):**
+- A: Negotiated framework — 5% (↓1pp)
+- B: Frozen attrition / back-channel survives — 22% (↓2pp)
+- C: Re-escalation / full closure lock-in — 73% (↑3pp; modal)
+
+**Calibration note:** Wave 7 HIT (sixth consecutive correct prediction at P≥0.60) confirms the four-condition heuristic floor. Gulf toll reversal HIT (P=0.55) validates the Gulf-state pushback signal identified 14 Jul as directionally material. Running Brier mean stable at 0.1857. New heuristic added: "Houthi–Saudi tit-for-tat exchange = Bab al-Mandeb escalation gate; upgrade Houthi commercial ban probability by +8–12pp per confirmed Saudi airstrike inside Houthi-controlled territory."
