@@ -3815,3 +3815,68 @@ Calibration note: W5 HIT at P=0.12 confirms Israel spoiler vector was correctly 
 - C: Re-escalation / full closure lock-in — 73% (↑3pp; modal)
 
 **Calibration note:** Wave 7 HIT (sixth consecutive correct prediction at P≥0.60) confirms the four-condition heuristic floor. Gulf toll reversal HIT (P=0.55) validates the Gulf-state pushback signal identified 14 Jul as directionally material. Running Brier mean stable at 0.1857. New heuristic added: "Houthi–Saudi tit-for-tat exchange = Bab al-Mandeb escalation gate; upgrade Houthi commercial ban probability by +8–12pp per confirmed Saudi airstrike inside Houthi-controlled territory."
+
+## 16 July 2026 (Day 139) — Scoring + New Predictions
+
+### T+1 scoring from Day 138 predictions (target date: 16 Jul 2026)
+
+| Prediction | P | Outcome | Brier |
+|---|---|---|---|
+| P(CENTCOM Wave 8 confirmed by EOD 17 Jul) = 0.65 | 0.65 | **HIT** — CENTCOM confirmed dual-wave operation 15–16 Jul (morning Greater Tunb Island + afternoon Bandar Abbas); IRGC independently confirmed Wave 8 "Operation Nasr 2." Multiple Tier 1 (CENTCOM.mil) + Tier 2 (Iran Int'l) corroboration. Outcome = 1. | (0.65−1)² = 0.1225 |
+| P(Brent >$88 by EOD 16 Jul) = 0.35 | 0.35 | **TRENDING MISS** — Brent $84.73 on 15 Jul; straits.live $85.36 on 16 Jul; below $88. Carry to EOD 16 Jul for formal score. | PENDING |
+
+**T+1 partially resolved (1 item):** 0.1225
+**Cumulative running total:** 9.6546 + 0.1225 = **9.7771** (53 items)
+**Running Brier mean:** 9.7771 / 53 = **0.1845**
+
+### Pending carries from prior cycles
+
+| Prediction | P | Status |
+|---|---|---|
+| P(Brent >$80 by EOD 16 Jul) = 0.88 | 0.88 | **HIT** — Brent ~$84–85 on 15–16 Jul. Score: (0.88−1)² = 0.0144. Running total: 9.7771 + 0.0144 = 9.7915 (54 items). Mean: 0.1813. |
+| P(Brent >$88 by EOD 16 Jul) = 0.35 | 0.35 | **MISS** — Brent ~$85.36 on 16 Jul; below $88. Score: (0.35−0)² = 0.1225. Running total: 9.7915 + 0.1225 = 9.9140 (55 items). Mean: 0.1803. |
+| P(Kharg Island strike by EOD 19 Jul) = 0.35 | 0.35 | **PENDING** — No new Kharg oil-infra strike confirmed. Trump stated "saving energy targets for last." Carry. |
+| P(Houthi full Red Sea/GoA commercial campaign by EOD 20 Jul) = 0.38 | 0.38 | **TRENDING ESCALATORY** — Houthi cargo attack near Hodeidah (Tier 3 only; not yet Tier 1-2 confirmed). No formal commercial campaign declaration. Carry. |
+| P(Mojtaba confirmed public appearance by EOD 25 Jul) = 0.18 | 0.18 | **PENDING** — No appearance. 15 Jul gate passed. Carry. |
+| P(US–Iran direct session by EOD 17 Jul) = 0.10 | 0.10 | **TRENDING MISS** — Trump "Iran wants to meet" = Soft tier only; no confirmed session. Carry to EOD 17 Jul. |
+| P(MOU formally repudiated in writing by Iran by EOD 17 Aug) = 0.68 | 0.68 | **PENDING** — De facto collapse; no formal written repudiation confirmed. Carry. |
+| P(Oman mediation formally suspended by EOD 20 Jul) = 0.30 | 0.30 | **PENDING** — No formal suspension confirmed. Carry. |
+| P(Saudi East-West pipeline / Yanbu disrupted by Houthi strike by EOD 22 Jul) = 0.22 | 0.22 | **PENDING** — No confirmed strike. Houthi cargo attack near Hodeidah escalates risk. Carry. |
+| P(Brent >$90 by EOD 19 Jul) = 0.30 | 0.30 | **PENDING** — Brent ~$85; approaching but not yet triggered. Carry. |
+
+### Calibration note
+Wave 8 HIT (seventh consecutive correct prediction at P≥0.60) reconfirms the four-condition heuristic floor. Brent >$80 HIT (P=0.88) correctly resolved. Brent >$88 MISS (P=0.35) correctly low-probability — no escalation to oil infra. Running Brier mean revised: ~0.1803 (55 items). Four-condition heuristic extended for Wave 9 at P=0.70. New heuristic consideration: "Dual-wave same-day pattern = operational tempo indicator; upgrade next-wave probability by +5pp."
+
+### Day 139 New Predictions (T+1: 17 Jul, T+3: 19 Jul, T+7: 23 Jul)
+
+**Trend:** ↑ Worse. Confidence: High.
+**Threat level:** 5 / 5 · Crisis (maintained and deepening; Wave 8 dual-day confirmed; Trump power-plant ultimatum live; dual-chokepoint risk upgraded).
+
+**Watchlist predictions:**
+- W1: Mojtaba Khamenei confirmed public appearance by EOD 25 Jul (P=0.17; ↓1pp; 15 Jul gate passed; security threat unchanged; Polymarket bearish)
+- W2: Trump executes power plant/bridge strikes by EOD 22 Jul (P=0.55; new primary gate; Fox News ultimatum explicit "next week"; Iran has not offered verifiable negotiating concession)
+- W3: CENTCOM Wave 9 confirmed by EOD 17 Jul (P=0.70; ↑5pp; dual-wave day pattern = operational tempo indicator; four-condition heuristic fully met)
+- W4: Houthi formal Bab al-Mandeb commercial ban or confirmed Yanbu-range strike by EOD 20 Jul (P=0.42; ↑4pp; Houthi cargo attack near Hodeidah + Mahan Air Sanaa flight = capability-rebuild + activation-cue combination)
+- W5: IRGC strikes Gulf-state energy infrastructure (UAE/Saudi/Qatar oil ports or pipelines) by EOD 22 Jul (P=0.28; new; IRGC "no oil from region" explicit threat = Soft-tier escalation signal; prior pattern shows IRGC acts on stated threats within 3–5 days)
+
+**Probabilistic predictions (Brier inputs):**
+- P(CENTCOM Wave 9 confirmed by EOD 17 Jul) = 0.70
+- P(Trump power plant/bridge strikes by EOD 22 Jul) = 0.55 (new primary gate)
+- P(Brent >$88 by EOD 19 Jul) = 0.40 (↑10pp; Trump power-plant threat + dual-chokepoint risk)
+- P(Brent >$95 by EOD 22 Jul) = 0.30 (new; requires power-plant strike or Houthi Bab al-Mandeb activation)
+- P(Kharg Island oil infrastructure strike by EOD 22 Jul) = 0.30 (↓5pp; "saving energy targets for last" explicit; Trump needs Iran non-compliance for ≥1 more week)
+- P(Houthi formal Bab al-Mandeb commercial ban by EOD 20 Jul) = 0.42 (↑4pp; Houthi cargo attack confirmed; IRGC activation cue explicit)
+- P(Mojtaba confirmed public appearance by EOD 25 Jul) = 0.17 (↓1pp)
+- P(US–Iran direct session by EOD 17 Jul) = 0.08 (↓2pp; structurally impossible under dual-wave + power-plant ultimatum conditions)
+- P(MOU formally repudiated in writing by Iran by EOD 17 Aug) = 0.70 (↑2pp; de facto void; open hostilities resumed)
+- P(Saudi East-West pipeline / Yanbu disrupted by EOD 22 Jul) = 0.25 (↑3pp; Houthi escalation trajectory)
+- P(IRGC strikes Gulf-state energy infrastructure by EOD 22 Jul) = 0.28 (new)
+
+**Scenarios (30d):**
+- A: Negotiated framework — 4% (↓1pp)
+- B: Frozen attrition / back-channel survives — 19% (↓3pp)
+- C: Re-escalation / full closure lock-in — 77% (↑4pp; modal)
+
+**New heuristics:**
+- "Dual-wave same-day CENTCOM pattern = operational tempo indicator; upgrade next-wave probability by +5pp over single-wave baseline."
+- "Trump explicit civilian infrastructure ultimatum with named deadline = 55% base probability of execution within stated timeframe, based on Fox News interview specificity (bridges + power plants + 'next week' = three escalation signals in one statement)."
