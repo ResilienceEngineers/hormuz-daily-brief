@@ -3880,3 +3880,70 @@ Wave 8 HIT (seventh consecutive correct prediction at P≥0.60) reconfirms the f
 **New heuristics:**
 - "Dual-wave same-day CENTCOM pattern = operational tempo indicator; upgrade next-wave probability by +5pp over single-wave baseline."
 - "Trump explicit civilian infrastructure ultimatum with named deadline = 55% base probability of execution within stated timeframe, based on Fox News interview specificity (bridges + power plants + 'next week' = three escalation signals in one statement)."
+
+## 17 July 2026 (Day 140)
+
+### T+1 scoring (predictions made Day 139, due EOD 17 Jul)
+
+| Prediction | P | Outcome | Score (Brier) |
+|---|---|---|---|
+| P(CENTCOM Wave 9 confirmed by EOD 17 Jul) = 0.70 | 0.70 | **HIT** — CENTCOM completed 6th consecutive night of strikes at 9:40 PM ET 16 Jul (confirmed CENTCOM.mil Tier 1, CNN Tier 1, ABC News Tier 2). Multiple distinct wave releases. Outcome = 1. | (0.70−1)² = 0.09 |
+| P(US–Iran direct session by EOD 17 Jul) = 0.08 | 0.08 | **MISS** — Iran FM explicitly stated "no plans for negotiations." WH Leavitt "Iran wants to talk" = Soft tier only, no confirmed session. Outcome = 0. | (0.08−0)² = 0.0064 |
+
+**T+1 items scored today: 2**
+**Running Brier total:** 9.9140 + 0.09 + 0.0064 = **10.0104** (57 items)
+**Running Brier mean:** 10.0104 / 57 = **0.1757**
+
+### Pending carries from prior cycles (updated)
+
+| Prediction | P | Status |
+|---|---|---|
+| P(Brent >$88 by EOD 19 Jul) = 0.40 | 0.40 | **CARRY** — Brent $85.05 on 17 Jul AM; below $88. Carry to EOD 19 Jul. |
+| P(Brent >$95 by EOD 22 Jul) = 0.38 | 0.38 | **CARRY** — No power-plant strike yet. Carry to EOD 22 Jul. |
+| P(Kharg Island oil infrastructure strike by EOD 22 Jul) = 0.35 | 0.35 | **CARRY** — Oil spared per Trump statement; active option per CNN 2 officials. Carry. |
+| P(Houthi formal Bab al-Mandeb commercial ban by EOD 20 Jul) = 0.50 | 0.50 | **UPGRADED from 0.42** — Reuters Tier 1 confirms Iran standby order to Houthis. Carry to EOD 20 Jul. |
+| P(Trump power plant/bridge strikes by EOD 22 Jul) = 0.60 | 0.60 | **UPGRADED from 0.55** — Fox News explicit pledge + Marines in theater + no Iranian concession. Carry. |
+| P(Mojtaba confirmed public appearance by EOD 25 Jul) = 0.17 | 0.17 | **CARRY** — No appearance. Carry. |
+| P(MOU formally repudiated in writing by Iran by EOD 17 Aug) = 0.70 | 0.70 | **CARRY** — De facto void; no formal written repudiation. Carry. |
+| P(Saudi East-West pipeline / Yanbu disrupted by EOD 22 Jul) = 0.32 | 0.32 | **UPGRADED from 0.25** — Houthi forces pre-positioned; Iran standby order active. Carry. |
+| P(IRGC strikes Gulf-state energy infrastructure by EOD 22 Jul) = 0.30 | 0.30 | **CARRY** — Iran struck military bases in Qatar, Kuwait, Jordan, Bahrain, Syria but no confirmed energy infra strike yet. Carry. |
+| P(Qatar mediation formally suspended by EOD 19 Jul) = 0.40 | 0.40 | **NEW gate** — Iran struck Qatar overnight 16–17 Jul; Qatar previously stated it would not mediate while under attack. |
+| P(Brent >$90 by EOD 19 Jul) = 0.30 | 0.30 | **CARRY** — $85 range; approaching but not triggered. Carry. |
+
+### Calibration note
+Wave 9 HIT (eighth consecutive correct prediction at P≥0.60) further validates four-condition heuristic. US–Iran direct session MISS at P=0.08 correctly low-probability. Running Brier mean improved to 0.1757 (57 items). Dual-wave heuristic (+5pp) continues to perform well. New critical calibration note: Reuters Tier 1 confirmation of Iran–Houthi standby order for Bab al-Mandeb should be treated as a Hard signal — upgraded Bab al-Mandeb closure probability from 0.42 to 0.50 accordingly.
+
+### Day 140 New Predictions (T+1: 18 Jul, T+3: 20 Jul, T+7: 24 Jul)
+
+**Trend:** ↑ Worse. Confidence: High.
+**Threat level:** 5 / 5 · Crisis (maintained; dual-chokepoint tripwire now operationally live; Qatar mediation critically strained).
+
+**Watchlist predictions:**
+- W1: Trump executes power plant or bridge strike on Iran by EOD 22 Jul (P=0.60; ↑5pp; Fox News explicit pledge + Marines in theater + no Iranian concession + 6 consecutive nights pattern)
+- W2: Houthi formal Bab al-Mandeb commercial ban or confirmed anti-shipping strike by EOD 20 Jul (P=0.50; ↑8pp; Reuters Tier 1 Iran standby order confirmed; forces pre-positioned)
+- W3: Trump orders Kharg Island seizure or Pickaxe Mountain nuclear-site strike by EOD 22 Jul (P=0.35; ↑5pp; CNN 2-official confirmation upgrades from planning to active option)
+- W4: Qatar mediation formally suspended by EOD 19 Jul (P=0.40; new; Iran struck Qatar overnight 16–17 Jul; Qatar's own red line)
+- W5: Mojtaba Khamenei confirmed public appearance by EOD 25 Jul (P=0.17; unchanged)
+
+**Probabilistic predictions (Brier inputs):**
+- P(CENTCOM Wave 10 confirmed by EOD 18 Jul) = 0.75 (↑5pp; six-consecutive-night pattern + four-condition heuristic fully met + dual-wave tempo)
+- P(Trump power-plant/bridge strikes by EOD 22 Jul) = 0.60 (↑5pp)
+- P(Houthi formal Bab al-Mandeb commercial ban by EOD 20 Jul) = 0.50 (↑8pp; Reuters Tier 1 confirmation)
+- P(Brent >$88 by EOD 19 Jul) = 0.42 (↑2pp; approaching 52-week high $87.55; power-plant threat active)
+- P(Brent >$90 by EOD 19 Jul) = 0.30 (carry)
+- P(Brent >$95 by EOD 22 Jul) = 0.38 (↑8pp; dual-chokepoint activation probability elevated)
+- P(Kharg Island oil infrastructure strike by EOD 22 Jul) = 0.35 (carry; CNN 2-official confirmation)
+- P(Qatar mediation formally suspended by EOD 19 Jul) = 0.40 (new)
+- P(Saudi East-West pipeline / Yanbu disrupted by EOD 22 Jul) = 0.32 (↑7pp)
+- P(IRGC strikes Gulf-state energy infrastructure by EOD 22 Jul) = 0.32 (↑2pp; Iran now striking mediator Qatar = constraint loosening)
+- P(Mojtaba confirmed public appearance by EOD 25 Jul) = 0.17 (unchanged)
+- P(MOU formally repudiated in writing by Iran by EOD 17 Aug) = 0.72 (↑2pp; Iran FM "focused on defense" + 6 consecutive strike nights)
+
+**Scenarios (30d):**
+- A: Negotiated framework — 3% (↓1pp)
+- B: Frozen attrition / back-channel survives — 15% (↓4pp)
+- C: Re-escalation / dual-chokepoint lock-in — 82% (↑5pp; modal)
+
+**New heuristics:**
+- "Reuters Tier 1 source confirmation of an Iran-to-proxy conditional activation order = Hard signal; upgrade probability of proxy action by +8pp over prior baseline, regardless of whether proxy has yet confirmed."
+- "Iran striking a sitting mediator state (Qatar) = mediation suspension probability set to ≥0.40 within 48 hours, based on Qatar's own stated red line."
