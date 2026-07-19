@@ -3947,3 +3947,79 @@ Wave 9 HIT (eighth consecutive correct prediction at P≥0.60) further validates
 **New heuristics:**
 - "Reuters Tier 1 source confirmation of an Iran-to-proxy conditional activation order = Hard signal; upgrade probability of proxy action by +8pp over prior baseline, regardless of whether proxy has yet confirmed."
 - "Iran striking a sitting mediator state (Qatar) = mediation suspension probability set to ≥0.40 within 48 hours, based on Qatar's own stated red line."
+
+## 19 July 2026 (Day 142)
+
+### T+1 scoring (predictions made Day 141, due EOD 18 Jul)
+
+| Prediction | P | Outcome | Score (Brier) |
+|---|---|---|---|
+| P(CENTCOM Wave 10 confirmed by EOD 18 Jul) = 0.75 | 0.75 | **HIT** — CENTCOM completed 8th consecutive night of strikes 18 Jul (confirmed CENTCOM.mil Tier 1, RFE/RL Tier 2, Fox News Tier 2). Outcome = 1. | (0.75−1)² = 0.0625 |
+| P(Qatar mediation formally suspended by EOD 19 Jul) = 0.40 | 0.40 | **HIT** — Iran Deputy FM Gharibabadi formally suspended all MOU commitments 18 Jul (CNBC Tier 1, ABC News Tier 1, Middle East Eye Tier 2). Qatar mediation structurally ended. Outcome = 1. | (0.40−1)² = 0.3600 |
+| P(Brent >$88 by EOD 19 Jul) = 0.42 | 0.42 | **HIT** — Brent hit $88.09 on 17 Jul, $88.10 current (Trading Economics Tier 3, Investing.com Tier 3). Outcome = 1. | (0.42−1)² = 0.3364 |
+| P(Brent >$90 by EOD 19 Jul) = 0.30 | 0.30 | **MISS** — Brent ~$85–88 range; $88.10 peak but not above $90 as of 06:00 UTC 19 Jul. Outcome = 0. | (0.30−0)² = 0.0900 |
+
+**Early-close carry item:**
+| P(IRGC strikes Gulf-state energy infrastructure by EOD 22 Jul) = 0.32 | 0.32 | **HIT EARLY** — Iran struck Kuwait Petroleum Corporation oil facility + 2 power/desalination plants 17–18 Jul (Reuters/NBC/Fox News Tier 1). Outcome = 1. Gate closed early. | (0.32−1)² = 0.4624 |
+
+**T+1 items scored today: 4 (+ 1 early close)**
+**Running Brier total:** 10.0104 + 0.0625 + 0.3600 + 0.3364 + 0.0900 + 0.4624 = **11.3217** (62 items)
+**Running Brier mean:** 11.3217 / 62 = **0.1826**
+
+Note: Brier mean edged up due to Qatar mediation HIT at P=0.40 (under-confident) and IRGC energy-infra HIT at P=0.32 (significantly under-confident — should have been 0.55+ given KPC attacks on naval vessel 14 Jul were a precursor). Calibration note: once Iran crosses into striking a country's military assets, energy-infrastructure strikes in the same country follow within 4 days. Add to heuristics.
+
+### Pending carries updated (Day 142)
+
+| Prediction | P | Status |
+|---|---|---|
+| P(Brent >$95 by EOD 22 Jul) = 0.52 | 0.52 | **UPGRADED from 0.38** — KPC oil strike + Yanbu alert + KIA mandate + MOU void. Carry to EOD 22 Jul. |
+| P(Kharg Island oil infrastructure strike by EOD 22 Jul) = 0.35 | 0.35 | **CARRY** — Tanker Belma struck at Kharg 17 Jul but not oil export terminal. Carry. |
+| P(Houthi formal Bab al-Mandeb commercial ban by EOD 21 Jul) = 0.55 | 0.55 | **UPGRADED from 0.50** — KPC strike = power-infra precedent; Yanbu alert; KIA mandate. Carry to EOD 21 Jul. |
+| P(Trump power plant / bridge strikes by EOD 22 Jul) = 0.70 | 0.70 | **UPGRADED from 0.60** — KIA creates domestic mandate; Wave 8 depth to Yazd shows capability. Carry. |
+| P(Mojtaba confirmed public appearance by EOD 25 Jul) = 0.17 | 0.17 | **CARRY** — Written statement 18 Jul but no in-person appearance. Carry. |
+| P(MOU formally repudiated in writing by Iran by EOD 17 Aug) = 1.00 | 1.00 | **GATE CLOSED — HIT** — Formally suspended 18 Jul. Score at close: (0.72−1)² = 0.0784. |
+| P(Saudi East-West pipeline / Yanbu disrupted by EOD 22 Jul) = 0.40 | 0.40 | **UPGRADED from 0.32** — Civil-defence alert 18 Jul; IRGC Nasr 2 active. Carry. |
+| P(Brent >$90 by EOD 19 Jul) = 0.30 | 0.30 | **MISS** — Scored above; gate closed. |
+| P(IRGC strikes Gulf-state energy infrastructure by EOD 22 Jul) = 0.32 | 0.32 | **GATE CLOSED — HIT EARLY** — Scored above. |
+
+**Additional gate closed:**
+| P(MOU formally repudiated in writing by Iran by EOD 17 Aug) = 0.72 | 0.72 | **HIT** (Day 141 carry) — Gharibabadi formal suspension 18 Jul. Outcome = 1. | (0.72−1)² = 0.0784 |
+
+**Running Brier total (with MOU gate close):** 11.3217 + 0.0784 = **11.4001** (63 items)
+**Running Brier mean:** 11.4001 / 63 = **0.1810**
+
+### Calibration note (Day 142)
+MOU suspension HIT under-confident at P=0.72 (should have been 0.85+ once Iran struck Qatar, Oman as mediators AND formal talks produced no product AND strikes continued 7 consecutive nights). Qatar mediation HIT at P=0.40 is a significant under-confidence gap — the heuristic "Iran striking a sitting mediator = mediation suspension within 48h" was applied but probability should have been 0.65+. New heuristic added: "Once a state formally suspends MOU commitments in writing, P(any replacement framework within 30 days) = ≤0.08." IRGC energy-infra HIT at P=0.32 is largest calibration gap of the cycle — new heuristic: "Once Iran strikes a Gulf state's naval assets, energy-infrastructure strikes in same country follow within 96h; set P(energy-infra) to ≥0.55 after naval-asset strike confirmed."
+
+### Day 142 New Predictions (T+1: 19 Jul EOD, T+3: 21 Jul, T+7: 25 Jul)
+
+**Trend:** ↑ Worse. Confidence: High.
+**Threat level:** 5 / 5 · Crisis (sustained at maximum; MOU void + KIA + energy-infra crosses = all constraint layers removed).
+
+**Watchlist predictions:**
+- W1: Trump orders power-plant or Tehran-area bridge strike on Iran by EOD 22 Jul (P=0.70; ↑10pp; KIA mandate + Wave 8 depth to Yazd + Rezaei ultimatum ~20 Jul + four-condition heuristic fully met)
+- W2: Houthi formal Bab al-Mandeb commercial ban or confirmed anti-shipping strike by EOD 21 Jul (P=0.55; ↑5pp; KPC strike precedent; Yanbu alert; IRGC controls timing)
+- W3: Saudi East-West pipeline / Yanbu disrupted by EOD 22 Jul (P=0.40; ↑8pp; civil-defence alert; Houthi range; IRGC Nasr 2 active)
+- W4: CENTCOM Wave 9 confirmed by EOD 19 Jul (P=0.85; ↑10pp; KIA mandate; 8-consecutive-night pattern; four conditions met)
+- W5: Mojtaba Khamenei confirmed public appearance by EOD 25 Jul (P=0.20; ↑3pp; written statement 18 Jul suggests operational continuity but in-person still unconfirmed)
+
+**Probabilistic predictions (Brier inputs):**
+- P(CENTCOM Wave 9 confirmed by EOD 19 Jul) = 0.85
+- P(Trump power-plant/bridge strikes by EOD 22 Jul) = 0.70 (↑10pp)
+- P(Houthi formal Bab al-Mandeb commercial ban by EOD 21 Jul) = 0.55 (↑5pp)
+- P(Brent >$90 by EOD 21 Jul) = 0.50 (new gate)
+- P(Brent >$95 by EOD 22 Jul) = 0.52 (↑14pp)
+- P(Kharg Island oil terminal strike by EOD 22 Jul) = 0.38 (↑3pp)
+- P(Saudi East-West pipeline / Yanbu disrupted by EOD 22 Jul) = 0.40 (↑8pp)
+- P(New diplomatic framework initiated by EOD 25 Jul) = 0.06 (new gate)
+- P(Mojtaba confirmed public appearance by EOD 25 Jul) = 0.20 (↑3pp)
+
+**Scenarios (30d):**
+- A: Negotiated framework — 2% (↓1pp)
+- B: Frozen attrition / new back-channel — 8% (↓7pp; MOU void collapses prior B path)
+- C: Re-escalation / dual-chokepoint lock-in — 90% (↑8pp; modal)
+
+**New heuristics (Day 142):**
+- "Once Iran strikes a Gulf state's naval assets, energy-infrastructure strikes in the same country follow within 96 hours. Set P(energy-infra strike) to ≥0.55 after naval-asset confirmation."
+- "Once a state formally suspends MOU commitments in writing with no counter-offer, P(any replacement framework within 30 days) ≤ 0.08."
+- "US KIA by direct Iranian fire historically triggers within-72h targeting upgrade. Set P(escalated target set) to +15pp over prior baseline on day of KIA announcement."
