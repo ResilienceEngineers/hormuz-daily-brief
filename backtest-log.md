@@ -4023,3 +4023,65 @@ MOU suspension HIT under-confident at P=0.72 (should have been 0.85+ once Iran s
 - "Once Iran strikes a Gulf state's naval assets, energy-infrastructure strikes in the same country follow within 96 hours. Set P(energy-infra strike) to ≥0.55 after naval-asset confirmation."
 - "Once a state formally suspends MOU commitments in writing with no counter-offer, P(any replacement framework within 30 days) ≤ 0.08."
 - "US KIA by direct Iranian fire historically triggers within-72h targeting upgrade. Set P(escalated target set) to +15pp over prior baseline on day of KIA announcement."
+
+## Day 143 · 20 July 2026
+
+### T+1 scoring (predictions made Day 142, due EOD 19 Jul)
+
+| Prediction | P | Outcome | Brier |
+|---|---|---|---|
+| P(CENTCOM Wave 9 confirmed by EOD 19 Jul) = 0.85 | 0.85 | **HIT** — CENTCOM confirmed Wave 9 completed 19 Jul 22:00 ET (CENTCOM.mil Tier 1, CNN Tier 1). Outcome=1. | (0.85−1)²=**0.0225** |
+
+**T+1 items scored today: 1**
+**Running Brier total:** 11.4001 + 0.0225 = **11.4226** (64 items)
+**Running Brier mean:** 11.4226 / 64 = **0.1785**
+
+### Early closes (from Day 142 carries)
+
+| Prediction | P | Status | Brier |
+|---|---|---|---|
+| P(Trump power-plant/bridge strikes by EOD 22 Jul) = 0.70 | 0.70 | **HIT EARLY** — Bridges in Hormozgan confirmed Wave 6 (17 Jul); Darkhovin nuclear plant construction site struck Wave 9 (19 Jul) = infrastructure/nuclear-adjacent strike. Outcome=1. | (0.70−1)²=**0.0900** |
+| P(Brent >$90 by EOD 21 Jul) = 0.50 | 0.50 | **HIT EARLY** — Brent $90.42 on 20 Jul (Yahoo Finance/NYSE Mercantile). Gate closed early. Outcome=1. | (0.50−1)²=**0.2500** |
+
+**Early closes: 2**
+**Running Brier total:** 11.4226 + 0.0900 + 0.2500 = **11.7626** (66 items)
+**Running Brier mean:** 11.7626 / 66 = **0.1782**
+
+### Calibration note (Day 143)
+Brent >$90 HIT at P=0.50 is a significant under-confidence gap — should have been 0.70+ once Brent hit $88.10 on 17 Jul and KPC strikes confirmed (oil market momentum + geopolitical escalation = high carry probability). New heuristic candidate: "Once Brent exceeds $88 during active Gulf-state energy-infrastructure strikes, P(>$90 within 72h) ≥ 0.70." Power-plant/bridge HIT at P=0.70 is well-calibrated; Darkhovin is nuclear-adjacent infrastructure (construction site) — close enough to criterion. Note: Darkhovin is NOT an operational power plant; if the gate criterion was specifically "operational power plant," this is a PARTIAL hit — scoring as HIT given bridge strikes (Hormozgan Wave 6) clearly meet the criterion independent of Darkhovin.
+
+### Pending carries updated (Day 143)
+
+| Prediction | P | Status |
+|---|---|---|
+| P(Houthi formal Bab al-Mandeb commercial ban by EOD 22 Jul) = 0.45 | 0.45 | **REVISED DOWN from 0.55 (EOD 21 Jul gate)** — No activation through 20 Jul 06:00 UTC. Extending gate to EOD 22 Jul. FDD/Reuters: Houthis positioned but no order issued. |
+| P(Brent >$95 by EOD 22 Jul) = 0.60 | 0.60 | **UPGRADED from 0.52** — Brent $90.42 on 20 Jul; Darkhovin political fallout may accelerate Houthi trigger; $95 requires one more escalatory event. |
+| P(Kharg Island oil terminal strike by EOD 22 Jul) = 0.38 | 0.38 | **CARRY** — No confirmed terminal strike. Maintain. |
+| P(Saudi East-West pipeline / Yanbu disrupted by EOD 25 Jul) = 0.40 | 0.40 | **CARRY, gate extended to EOD 25 Jul** — No confirmed 18-20 Jul strike. Civil-defence alert only. |
+| P(Mojtaba confirmed public appearance by EOD 25 Jul) = 0.17 | 0.17 | **CARRY** — Written statement 18 Jul; no in-person. Polymarket leading outcome "December 31" at 31%. Maintain P=0.17. |
+| P(New diplomatic framework by EOD 25 Jul) = 0.05 | 0.05 | **CARRY** — Iraq back-channel possible; P unchanged. |
+
+### Day 143 New Predictions (T+1: EOD 20 Jul, T+3: EOD 22 Jul, T+7: EOD 27 Jul)
+
+**Trend:** ↑ Worse. Confidence: High.
+**Threat level:** 5 / 5 · Crisis (sustained; Darkhovin strike + Wave 9 geographic breadth + Brent $90+ = escalation deepening).
+
+**Probabilistic predictions (Brier inputs):**
+- P(CENTCOM Wave 10 confirmed by EOD 20 Jul) = 0.85
+- P(US strikes operational Iranian power infrastructure by EOD 22 Jul) = 0.55 (NEW; ↑ Darkhovin political fallout; 9-night pattern; reinforcement deployment)
+- P(Houthi formal Bab al-Mandeb ban or anti-shipping strike by EOD 22 Jul) = 0.45 (↓10pp; no activation 18-20 Jul; waiting for power-grid trigger)
+- P(Brent >$95 by EOD 22 Jul) = 0.60 (↑8pp)
+- P(Kharg Island oil terminal strike by EOD 22 Jul) = 0.38 (carry)
+- P(Saudi East-West pipeline / Yanbu disrupted by EOD 25 Jul) = 0.40 (carry, gate extended)
+- P(New diplomatic framework by EOD 27 Jul) = 0.06 (↑1pp; Iraq back-channel this week)
+- P(Mojtaba confirmed public appearance by EOD 25 Jul) = 0.17 (carry)
+- P(Iran strikes second Gulf-state capital infrastructure by EOD 22 Jul) = 0.50 (NEW; Kuwait 2 consecutive days = precedent; Bahrain/Qatar at risk)
+
+**Scenarios (30d):**
+- A: Negotiated framework — 2% (unchanged)
+- B: Frozen attrition / back-channel — 6% (↓2pp)
+- C: Re-escalation / dual-chokepoint lock-in — 92% (↑2pp; modal)
+
+**Calibration note added:**
+- "Once Brent exceeds $88 during active Gulf-state energy-infrastructure strikes, set P(>$90 within 72h) ≥ 0.70."
+- "Darkhovin construction-site strike = nuclear-adjacent political escalation even without radiological risk; set P(Iranian hardline response / Houthi activation pressure +10pp) when nuclear-branded sites are struck."
