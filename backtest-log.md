@@ -4085,3 +4085,66 @@ Brent >$90 HIT at P=0.50 is a significant under-confidence gap — should have b
 **Calibration note added:**
 - "Once Brent exceeds $88 during active Gulf-state energy-infrastructure strikes, set P(>$90 within 72h) ≥ 0.70."
 - "Darkhovin construction-site strike = nuclear-adjacent political escalation even without radiological risk; set P(Iranian hardline response / Houthi activation pressure +10pp) when nuclear-branded sites are struck."
+
+## Day 144 · 21 July 2026
+
+### T+1 scoring (predictions made Day 143, due EOD 20 Jul)
+
+| Prediction | P | Outcome | Brier |
+|---|---|---|---|
+| P(CENTCOM Wave 10 confirmed by EOD 20 Jul) = 0.85 | 0.85 | **HIT** — CENTCOM confirmed Wave 10 initiated 4 pm ET, completed 9 pm ET, 20 Jul (CENTCOM.mil Tier 1). Outcome=1. | (0.85−1)²=**0.0225** |
+
+**T+1 items scored today: 1**
+
+### Early closes (from Day 143 carries)
+
+| Prediction | P | Outcome | Brier |
+|---|---|---|---|
+| P(Houthi formal Bab al-Mandeb ban or anti-shipping strike by EOD 22 Jul) = 0.45 | 0.45 | **HIT EARLY** — Houthis declared maritime embargo on Saudi Arabia effective 20 Jul (AP/Reuters/NBC/UPI Tier 1 ×4). Outcome=1. | (0.45−1)²=**0.3025** |
+| P(Iran strikes second Gulf-state capital infrastructure by EOD 22 Jul) = 0.50 | 0.50 | **HIT EARLY** — Kuwait power/desalination hit 3rd time 19–20 Jul; Bahrain warning sirens/intercepts 20 Jul (The National Tier 2; AJ Tier 2; CNN Tier 1). Outcome=1. | (0.50−1)²=**0.2500** |
+
+**Early closes: 2**
+
+**Running Brier total:** 11.7626 + 0.0225 + 0.3025 + 0.2500 = **12.3376** (69 items)
+**Running Brier mean:** 12.3376 / 69 = **0.1788**
+
+### Calibration note (Day 144)
+Houthi embargo HIT at P=0.45 is a significant under-confidence gap — Houthi activation probability should have been higher given the declared Iranian order (Reuters 16 Jul, 3 sources) + Darkhovin nuclear-adjacent trigger met. Applying prior heuristic: "Darkhovin construction-site strike = nuclear-adjacent political escalation even without radiological risk; set P(Iranian hardline response / Houthi activation pressure +10pp)." That would have moved it to 0.55 but still an under-call. New heuristic candidate: "Once Iran issues a formal written order to Houthis with named trigger condition, and that trigger condition is met within 48h, P(Houthi activation within 72h) ≥ 0.70." Iran strikes second Gulf-state capital HIT at P=0.50 is well-calibrated — Kuwait was the repeat target (3rd time), not a genuinely new second capital.
+
+### Pending carries updated (Day 144)
+
+| Prediction | P | Status |
+|---|---|---|
+| P(US strikes operational Iranian power infrastructure by EOD 22 Jul) = 0.55 | 0.55 | **CARRY** — Electrical/bridge infra struck Wave 10; no confirmed operational power plant strike (non-construction). Pattern consistent with ladder; maintain. |
+| P(Brent >$95 by EOD 22 Jul) = 0.52 | 0.52 | **REVISED DOWN from 0.60** — Ceasefire proposal causing $1–2 intraday correction; Brent ~$89; $95 requires additional escalatory event within 48h; revised down given diplomatic floor. |
+| P(Kharg Island oil terminal strike by EOD 22 Jul) = 0.38 | 0.38 | **CARRY** — No terminal strike confirmed. Maintain. |
+| P(Saudi East-West pipeline / Yanbu disrupted by EOD 25 Jul) = 0.55 | 0.55 | **UPGRADED from 0.40** — Houthi embargo declared 20 Jul; Yanbu exports at direct risk; applying new heuristic. |
+| P(Mojtaba confirmed public appearance by EOD 25 Jul) = 0.17 | 0.17 | **CARRY** — No in-person confirmed. Maintain. |
+| P(New diplomatic framework by EOD 25 Jul) = 0.07 | 0.07 | **↑2pp** — 10-day ceasefire proposal active; Iran not formally rejected; Iraq mediation 21–24 Jul. |
+| P(Brent >$95 by EOD 25 Jul) = 0.65 | 0.65 | **NEW GATE** — Houthi enforcement + US escalation window makes $95 more probable by 25 Jul than 22 Jul. |
+
+### Day 144 New Predictions (T+1: EOD 21 Jul, T+3: EOD 23 Jul, T+7: EOD 27 Jul)
+
+**Trend:** ↑ Worse. Confidence: High.
+**Threat level:** 5 / 5 · Crisis (sustained; dual-chokepoint declared; US KIA mandate active; reinforcement deploying).
+
+**Probabilistic predictions (Brier inputs):**
+- P(CENTCOM Wave 11 confirmed by EOD 21 Jul) = 0.88 (↑3pp; KIA mandate + reinforcement deployment; 10-night unbroken cadence)
+- P(Houthi confirmed enforcement strike on Saudi vessel by EOD 23 Jul) = 0.55 (NEW; embargo declared; activation order in force; 72h enforcement window)
+- P(US strikes operational Iranian power plant by EOD 22 Jul) = 0.55 (carry)
+- P(Brent >$95 by EOD 22 Jul) = 0.52 (↓8pp; ceasefire speculation partial offset)
+- P(Brent >$95 by EOD 25 Jul) = 0.65 (new gate)
+- P(Kharg Island oil terminal strike by EOD 25 Jul) = 0.42 (↑4pp; extended gate; Congressional debate 21–25 Jul)
+- P(Saudi East-West pipeline / Yanbu disrupted by EOD 25 Jul) = 0.55 (↑15pp; Houthi embargo active)
+- P(10-day ceasefire proposal accepted by both parties by EOD 24 Jul) = 0.07 (new gate)
+- P(New diplomatic framework by EOD 27 Jul) = 0.08 (↑1pp; Iraqi mediation underway)
+- P(Mojtaba confirmed public appearance by EOD 25 Jul) = 0.17 (carry)
+
+**Scenarios (30d):**
+- A: Negotiated framework — 3% (↑1pp; mediator proposal)
+- B: Frozen attrition / back-channel — 7% (↓1pp)
+- C: Re-escalation / dual-chokepoint lock-in — 90% (unchanged; modal; dual-chokepoint declared)
+
+**New heuristics (Day 144):**
+- "Once Iran issues a formal written order to Houthis with named trigger condition, and that trigger condition is met within 48h, P(Houthi activation within 72h) ≥ 0.70." (Replaces: prior Houthi activation forecasts underweighted formal-order mechanism.)
+- "Full dual-chokepoint lock-in (both Hormuz + Bab al-Mandeb declared closed) sets P(Brent >$95 within 5 days) ≥ 0.65 independent of ceasefire speculation."
