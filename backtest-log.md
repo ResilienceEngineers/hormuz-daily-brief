@@ -4148,3 +4148,57 @@ Houthi embargo HIT at P=0.45 is a significant under-confidence gap — Houthi ac
 **New heuristics (Day 144):**
 - "Once Iran issues a formal written order to Houthis with named trigger condition, and that trigger condition is met within 48h, P(Houthi activation within 72h) ≥ 0.70." (Replaces: prior Houthi activation forecasts underweighted formal-order mechanism.)
 - "Full dual-chokepoint lock-in (both Hormuz + Bab al-Mandeb declared closed) sets P(Brent >$95 within 5 days) ≥ 0.65 independent of ceasefire speculation."
+
+## Day 145 · 22 July 2026
+
+### T+1 scoring (predictions made Day 144, due EOD 21 Jul)
+
+| Prediction | P | Outcome | Brier |
+|---|---|---|---|
+| P(CENTCOM Wave 11 confirmed by EOD 21 Jul) = 0.88 | 0.88 | **HIT** — CENTCOM.mil confirmed Wave 11 completed 8:15 PM ET 21 Jul (Tier 1). Outcome=1. | (0.88−1)²=**0.0144** |
+
+**T+1 items scored: 1**
+
+### EOD 22 Jul gate closes (carries from Day 144)
+
+| Prediction | P | Outcome | Brier |
+|---|---|---|---|
+| P(US strikes operational Iranian power plant by EOD 22 Jul) = 0.55 | 0.55 | **MISS** — Wave 11 targeted ops centers, hangars, drone storage, logistics; no operational power plant confirmed (CENTCOM.mil; GlobalSecurity Day 144 update). Outcome=0. | (0.55−0)²=**0.3025** |
+| P(Brent >$95 by EOD 22 Jul) = 0.52 | 0.52 | **MISS** — Brent at $90.35–$91.10 (Trading Economics 21 Jul; OilPrice.com 22 Jul). Outcome=0. | (0.52−0)²=**0.2704** |
+| P(Kharg Island oil terminal strike by EOD 22 Jul) = 0.38 | 0.38 | **MISS** — No terminal strike confirmed as of 06:00 UTC 22 Jul (GlobalSecurity; CENTCOM). Outcome=0. | (0.38−0)²=**0.1444** |
+
+**EOD 22 Jul gate: 3 items scored**
+
+**Running Brier total:** 12.3376 + 0.0144 + 0.3025 + 0.2704 + 0.1444 = **13.0693** (73 items)
+**Running Brier mean:** 13.0693 / 73 = **0.1790**
+
+### Calibration note (Day 145)
+Three misses on the EOD 22 Jul gate cluster around the "ladder escalation" timing problem: the model correctly identifies the escalation candidates (power plant, Pickaxe, Kharg terminal) but systematically over-estimates the *speed* of US target-set expansion. Trump's Pickaxe public commitment (21 Jul) now provides a harder signal; recalibrate the "within 72h" window after a public presidential commitment. Proposed heuristic candidate: "Once Trump makes a named public commitment to a specific Iran target (by name, on record at White House), P(strike within 7 days) ≥ 0.65." Power plant strikes remain unclosed — carry forward.
+
+### Pending carries updated (Day 145)
+
+| Prediction | P | Status |
+|---|---|---|
+| P(Houthi confirmed enforcement kinetic strike on Saudi-linked vessel by EOD 24 Jul) = 0.62 | 0.62 | **UPGRADED from 0.55** — Houthi email to all shipowners 21 Jul; 3 VLCCs U-turned; tanker market responding. Enforcement is now proximate. |
+| P(Brent >$95 by EOD 25 Jul) = 0.65 | 0.65 | **CARRY** — Dual-chokepoint declared; Saudi Red Sea exports disrupted; enforcement window 22–25 Jul. Maintain. |
+| P(Saudi East-West pipeline / Yanbu disrupted by EOD 25 Jul) = 0.60 | 0.60 | **UPGRADED from 0.55** — Houthi email explicit; VLCC U-turns confirm market pricing the threat. |
+| P(Kharg Island oil terminal strike by EOD 25 Jul) = 0.42 | 0.42 | **CARRY** — No strike yet; GlobalSecurity confirms threats not executed. Maintain. |
+| P(10-day ceasefire accepted by both parties by EOD 25 Jul) = 0.05 | 0.05 | **↓2pp** — Rubio "not serious" framing; Trump Pickaxe commitment. |
+| P(New diplomatic framework by EOD 27 Jul) = 0.06 | 0.06 | **↓2pp** — Same drivers. Iraq/Pakistan mediation keep-alive only. |
+| P(Mojtaba Khamenei confirmed public in-person appearance by EOD 25 Jul) = 0.17 | 0.17 | **CARRY** — Washington Times reports whereabouts uncertain; Russia speculation. Maintain. |
+| P(US strikes operational Iranian power plant by EOD 25 Jul) = 0.52 | 0.52 | **NEW GATE** — Missed EOD 22 Jul but pattern + Hegseth testimony + pre-positioning consistent with next wave. |
+| P(CENTCOM Wave 12 confirmed by EOD 22 Jul) = 0.90 | 0.90 | **NEW T+1** — 11-night unbroken cadence; IRGC counterattack pre-dawn 22 Jul; no evidence of US pause. |
+| P(Pickaxe Mountain / nuclear-adjacent strike by EOD 26 Jul) = 0.55 | 0.55 | **NEW** — Trump on-record public commitment 21 Jul; applying proposed heuristic. |
+
+### Day 145 New Predictions
+
+**Trend:** ↑ Worse. Confidence: High.
+**Threat level:** 5 / 5 · Crisis (sustained; dual-chokepoint physically active; Pickaxe nuclear escalation imminent).
+
+**Scenarios (30d):**
+- A: Negotiated framework — 3% (unchanged)
+- B: Frozen attrition / back-channel — 7% (unchanged)
+- C: Re-escalation / dual-chokepoint lock-in — 90% (unchanged; now observably underway)
+
+**New heuristic candidate:**
+- "Once Trump makes a named public commitment to a specific Iran target (by name, on-record at White House), P(strike within 7 days) ≥ 0.65." (Replaces: prior approach of forecasting target-set expansion without anchoring to presidential commitment timelines.)
