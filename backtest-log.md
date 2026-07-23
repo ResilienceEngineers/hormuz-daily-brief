@@ -4202,3 +4202,46 @@ Three misses on the EOD 22 Jul gate cluster around the "ladder escalation" timin
 
 **New heuristic candidate:**
 - "Once Trump makes a named public commitment to a specific Iran target (by name, on-record at White House), P(strike within 7 days) ≥ 0.65." (Replaces: prior approach of forecasting target-set expansion without anchoring to presidential commitment timelines.)
+
+## Day 146 · 23 July 2026
+
+### T+1 scoring (predictions made Day 145, due EOD 22 Jul)
+
+| Prediction | P | Outcome | Brier |
+|---|---|---|---|
+| P(CENTCOM Wave 12 confirmed by EOD 22 Jul) = 0.90 | 0.90 | **HIT** — CENTCOM.mil/DVIDS confirmed Wave 12 completed 10:30 PM ET 22 Jul, 12th consecutive night; targets maritime capabilities, missile/drone storage, coastal surveillance, air defence (Tier 1). Outcome=1. | (0.90−1)²=**0.0100** |
+| P(Houthi confirmed enforcement kinetic strike on Saudi-linked vessel by EOD 24 Jul) = 0.62 | 0.62 | **HIT (early)** — Houthis struck tankers Encelia and Layla on 22 Jul using ballistic/cruise missiles and drones (Al Jazeera Tier 2; WaPo/Reuters Tier 1 corroborated). Outcome=1. Gate closes EOD 24 Jul but outcome confirmed. | (0.62−1)²=**0.1444** |
+
+**T+1 items scored: 2**
+
+**Running Brier total:** 13.0693 + 0.0100 + 0.1444 = **13.2237** (75 items)
+**Running Brier mean:** 13.2237 / 75 = **0.1763**
+
+### Pending carries updated (Day 146)
+
+| Prediction | P | Status |
+|---|---|---|
+| P(Brent >$95 by EOD 25 Jul) = 0.70 | 0.70 | **UPGRADED from 0.65** — Brent $94.13 on 22 Jul; within $1; Pickaxe window open; dual-chokepoint heuristic in force. |
+| P(Saudi E-W pipeline / Yanbu kinetic strike by EOD 25 Jul) = 0.52 | 0.52 | **↓8pp from 0.60** — Commercial interdiction achieved without kinetic strike; Houthis calibrating; gate still open. |
+| P(Pickaxe Mountain / nuclear-adjacent strike by EOD 29 Jul) = 0.65 | 0.65 | **EXTENDED + UPGRADED from 0.55** — Applying presidential-commitment heuristic; Iran widened-war warning; gate extended 3 days. |
+| P(US strikes operational Iranian power plant by EOD 28 Jul) = 0.50 | 0.50 | **↓2pp** — Wave 12 did not include power plant; pattern consistent but gate extended. |
+| P(10-day ceasefire accepted by both parties by EOD 25 Jul) = 0.03 | 0.03 | **↓2pp** — Structurally incompatible with Pickaxe commitment. |
+| P(New diplomatic framework by EOD 27 Jul) = 0.05 | 0.05 | **↓1pp** — Same drivers; mediation survives but no gate. |
+| P(Mojtaba Khamenei confirmed public in-person appearance by EOD 28 Jul) = 0.17 | 0.17 | **CARRY + gate extended** — No confirmation; IRGC autonomous authority persists. |
+| P(CENTCOM Wave 13 confirmed by EOD 23 Jul) = 0.92 | 0.92 | **NEW T+1** — 12-night unbroken cadence; no pause signal; Pickaxe window opening increases pace. |
+
+### Day 146 New Predictions
+
+**Trend:** ↑ Worse. Confidence: High.
+**Threat level:** 5 / 5 · Crisis (sustained; dual-chokepoint physically active; Pickaxe nuclear escalation imminent).
+
+**Scenarios (30d):**
+- A: Negotiated framework — 3% (unchanged)
+- B: Frozen attrition / back-channel — 6% (↓1pp)
+- C: Re-escalation / dual-chokepoint lock-in — 91% (↑1pp; both chokepoints kinetically active)
+
+### Calibration note (Day 146)
+P(Yanbu kinetic strike) was ↓8pp despite Houthi commercial interdiction being achieved. This suggests the Houthis are pursuing functional blockade without kinetic infrastructure destruction — consistent with avoiding direct US retaliation on Yemen. Update heuristic candidate: "Houthi enforcement in active embargo phase tends to achieve commercial interdiction via vessel threats and warnings before escalating to kinetic pipeline/port infrastructure strikes. P(kinetic infrastructure escalation within 72h of commercial interdiction) ≈ 0.40, not 0.60." Apply to P(Yanbu kinetic strike) gate.
+
+**New heuristic confirmed:**
+- "Once Trump makes a named public commitment to a specific Iran target (by name, on-record at White House), P(strike within 7 days) ≥ 0.65." (Confirmed as prediction-driving heuristic; applied to Pickaxe at 0.65.)
