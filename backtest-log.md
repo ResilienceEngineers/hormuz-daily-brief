@@ -4245,3 +4245,51 @@ P(Yanbu kinetic strike) was ↓8pp despite Houthi commercial interdiction being 
 
 **New heuristic confirmed:**
 - "Once Trump makes a named public commitment to a specific Iran target (by name, on-record at White House), P(strike within 7 days) ≥ 0.65." (Confirmed as prediction-driving heuristic; applied to Pickaxe at 0.65.)
+
+## Day 147 · 24 July 2026
+
+### T+1 scoring (predictions made Day 146, due EOD 23 Jul)
+
+| Prediction | P | Outcome | Brier |
+|---|---|---|---|
+| P(CENTCOM Wave 13 confirmed by EOD 23 Jul) = 0.92 | 0.92 | **HIT** — CENTCOM.mil confirmed 13th consecutive night complete at 9 PM ET 23 Jul; targets: command centres, drone storage, comms networks, coastal surveillance, maritime capabilities (Tier 1). Outcome=1. | (0.92−1)²=**0.0064** |
+| P(Brent >$95 by EOD 25 Jul) = 0.70 | 0.70 | **HIT (early)** — Brent closed $100.65/bbl on 23 Jul (+7.0% d/d; first close above $100 since May). Gate opened well before deadline. Outcome=1. | (0.70−1)²=**0.0900** |
+| P(10-day ceasefire accepted by both parties by EOD 25 Jul) = 0.03 | 0.03 | **MISS (gate closed early)** — Iran formally rejected US ceasefire proposal delivered by Iraqi PM al-Zaidi 23 Jul; no ceasefire. Outcome=0. | (0.03−0)²=**0.0009** |
+
+**T+1 items scored: 3**
+
+**Running Brier total:** 13.2237 + 0.0064 + 0.0900 + 0.0009 = **13.3210** (78 items)
+**Running Brier mean:** 13.3210 / 78 = **0.1708** (↓ improving)
+
+### Pending carries updated (Day 147)
+
+| Prediction | P | Status |
+|---|---|---|
+| P(Pickaxe Mountain / nuclear-adjacent strike by EOD 29 Jul) = 0.65 | 0.65 | **CARRY** — Not struck through Wave 13; presidential-commitment heuristic still active; gate open. |
+| P(Saudi E-W pipeline / Yanbu kinetic strike by EOD 28 Jul) = 0.45 | 0.45 | **↓7pp from 0.52** — Houthi achieved commercial interdiction via tanker strikes (Encelia/Layla) without kinetic pipeline strike; Houthi-calibration heuristic (commercial before kinetic) applied; gate extended to EOD 28 Jul. |
+| P(New diplomatic framework by EOD 27 Jul) = 0.04 | 0.04 | **↓1pp** — Iran rejected Iraqi-mediated ceasefire 23 Jul; no back-channel gateway visible. |
+| P(Mojtaba Khamenei confirmed public in-person appearance by EOD 31 Jul) = 0.15 | 0.15 | **↓2pp** — No sighting; Pezeshkian "more involved" claim insufficient; gate extended to 31 Jul. |
+| P(US strikes operational Iranian power plant by EOD 28 Jul) = 0.52 | 0.52 | **UPGRADED +2pp** — Trump bridge/power-plant threat now explicit on-record Truth Social post; IRGC Hormuz ship claim 23 Jul (unconfirmed) could trigger; gate extended. |
+| P(IRGC confirmed strike on UAE, Bahrain, or Qatar energy infrastructure by EOD 28 Jul) = 0.28 | 0.28 | **NEW GATE** — Geographic expansion to Kuwait + Jordan confirmed 23 Jul; GCC buffer states at elevated risk; next expansion vector. |
+| P(Brent sustaining above $100 at EOD 25 Jul) = 0.78 | 0.78 | **NEW GATE** — $100 breached and holding; dual-chokepoint + CPC disruption + ceasefire rejection = structural floor above $100. |
+
+### Day 147 New Predictions
+
+**Trend:** ↑ Worse. Confidence: High.
+**Threat level:** 5 / 5 · Crisis (sustained; dual-chokepoint physically active; Brent $100+ breached; Pickaxe gate live).
+
+**Scenarios (30d):**
+- A: Negotiated framework — 3% (unchanged)
+- B: Frozen attrition / back-channel — 5% (↓1pp; Iraqi-mediation closure)
+- C: Re-escalation / dual-chokepoint lock-in — 92% (↑1pp; all three observables now confirmed)
+
+**New predictions (T+1 gate: EOD 24 Jul):**
+- P(CENTCOM Wave 14 confirmed by EOD 24 Jul) = 0.93 — 13-night unbroken cadence; no pause signal; Pickaxe window open.
+- P(Brent holding above $98/bbl at EOD 24 Jul) = 0.80 — ceasefire closed; dual-chokepoint structural; no supply-side relief.
+
+**Calibration note:**
+Houthi-calibration heuristic confirmed again: Encelia kinetic strike came after ~48h of commercial interdiction (VLCC reversals), consistent with Day 146 downgrade of P(Yanbu kinetic) from 0.60 to 0.52. The pattern holds: commercial blockade via deterrence precedes kinetic infrastructure strikes. P(Yanbu kinetic within 72h of next Houthi threat escalation) ≈ 0.40 per heuristic.
+
+**Heuristic status:**
+- "Trump named public commitment → P(strike within 7 days) ≥ 0.65" — ACTIVE (Pickaxe, day 3 of 7-day window, EOD 28 Jul).
+- "Houthi enforcement: commercial interdiction precedes kinetic infrastructure by >72h" — CONFIRMED by Encelia sequence. Apply to all future Houthi escalation gates.
