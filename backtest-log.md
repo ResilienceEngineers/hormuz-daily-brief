@@ -4293,3 +4293,49 @@ Houthi-calibration heuristic confirmed again: Encelia kinetic strike came after 
 **Heuristic status:**
 - "Trump named public commitment → P(strike within 7 days) ≥ 0.65" — ACTIVE (Pickaxe, day 3 of 7-day window, EOD 28 Jul).
 - "Houthi enforcement: commercial interdiction precedes kinetic infrastructure by >72h" — CONFIRMED by Encelia sequence. Apply to all future Houthi escalation gates.
+
+## Day 148 · 25 July 2026
+
+### T+1 scoring (predictions made Day 147, due EOD 24 Jul)
+
+| Prediction | P | Outcome | Brier |
+|---|---|---|---|
+| P(CENTCOM Wave 14 confirmed by EOD 24 Jul) = 0.93 | 0.93 | **MISS** — CNN confirmed CENTCOM did not announce strikes on Friday 24 Jul ET; no Wave 14 announcement as of 06:01 UTC 25 Jul. First break in 13-night consecutive cadence. Outcome=0. | (0.93−0)²=**0.8649** |
+| P(Brent holding above $98/bbl at EOD 24 Jul) = 0.80 | 0.80 | **MISS** — Brent settled ~$97/bbl on 24 Jul (Bloomberg: ~$97 close; −4% d/d on Pakistan–China mediation signal). Below $98 threshold. Outcome=0. | (0.80−0)²=**0.6400** |
+
+**T+1 items scored: 2**
+
+**Running Brier total:** 13.3210 + 0.8649 + 0.6400 = **14.8259** (80 items)
+**Running Brier mean:** 14.8259 / 80 = **0.1853** (↑ deteriorating — two significant misses on high-confidence predictions)
+
+### Calibration note (Day 148)
+Two high-confidence misses in one day (P=0.93 Wave 14, P=0.80 Brent >$98) were driven by a single unmodelled event: Pakistan–China mediation revival signal causing CENTCOM pause AND Brent correction simultaneously. This suggests a correlated diplomatic-signal risk that the model did not adequately weight. The 13-night cadence was treated as near-certain (P=0.93) without adequately pricing the first-pause risk. Heuristic candidate: "After 10+ consecutive nights of strikes, P(tactical pause within next 3 nights) ≥ 0.20 — operational refit, weather, and diplomatic de-confliction all create pause pressure." Apply going forward.
+
+### Pending carries updated (Day 148)
+
+| Prediction | P | Status |
+|---|---|---|
+| P(Pickaxe Mountain / nuclear-adjacent strike by EOD 28 Jul) = 0.62 | 0.62 | **↓3pp** — CENTCOM pause on night 14 introduces ambiguity; window shrinking with 4 days left; no execution signal confirmed. |
+| P(Saudi E-W pipeline / Yanbu kinetic strike by EOD 28 Jul) = 0.42 | 0.42 | **↓3pp** — Saudi Arabia now counter-striking Yemen (deterrence effect); Houthi calibration heuristic: commercial interdiction achieved; direct infrastructure strike risk slightly reduced short-term. |
+| P(New diplomatic framework by EOD 27 Jul) = 0.08 | 0.08 | **↑4pp** — Pakistan–China mediation active; CENTCOM pause; Trump "deal" language. No framework text yet. |
+| P(Mojtaba Khamenei confirmed public in-person appearance by EOD 31 Jul) = 0.15 | 0.15 | **CARRY** — No confirmation; IRGC autonomous authority posture unchanged. |
+| P(US strikes operational Iranian power plant by EOD 28 Jul) = 0.48 | 0.48 | **↓4pp** — CENTCOM pause reduces short-term probability; Trump threat still on record. |
+| P(IRGC confirmed strike on GCC energy infrastructure by EOD 28 Jul) = 0.30 | 0.30 | **CARRY** — Ali Al Salem AB strike (Kuwait) confirmed by IRGC; US/coalition damage unconfirmed; energy infrastructure not yet kinetically hit. |
+| P(Brent sustaining above $95 at EOD 28 Jul) = 0.72 | 0.72 | **NEW GATE** — Structural disruption unchanged; mediation signals suppress speculation premium but not supply premium. |
+
+### Day 148 New Predictions
+
+**Trend:** ↑ Worse. Confidence: Medium (first genuine ambiguity in 14 days).
+**Threat level:** 5 / 5 · Crisis (structural; dual-chokepoint physically active; GCC buffer-state retaliation kinetically confirmed).
+
+**Scenarios (30d):**
+- A: Negotiated framework — 4% (↑1pp)
+- B: Frozen attrition / back-channel — 8% (↑3pp; Pakistan–China mediation + CENTCOM pause)
+- C: Re-escalation / dual-chokepoint lock-in — 88% (↓4pp; first genuine ambiguity)
+
+**New predictions (T+1 gate: EOD 25 Jul):**
+- P(CENTCOM Wave 14/15 confirmed by EOD 25 Jul) = 0.75 — pause may be 24h operational; but diplomatic signalling raises non-resumption probability to 25%.
+- P(Brent closing above $95/bbl EOD 25 Jul) = 0.65 — structural disruption supports floor; mediation signal already partially priced.
+
+**Calibration note:**
+New heuristic under evaluation: "After 10+ consecutive nights of strikes, P(tactical pause within next 3 nights) ≥ 0.20." Will score against Day 148 outcome. The correlated diplomatic-signal / Brent retreat / CENTCOM pause pattern suggests that Pakistan–China interventions carry higher market-and-military impact than the model assigned. Weight Pakistani/Chinese diplomatic signals higher when both actors signal simultaneously.
