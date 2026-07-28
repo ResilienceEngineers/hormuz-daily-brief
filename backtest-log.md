@@ -4445,3 +4445,64 @@ Also: CENTCOM pause pattern now confirmed across 4 nights (24, 25, 26, 27 Jul). 
 **New heuristics logged:**
 1. "During active diplomatic window with ≥2 of Pakistan/China/Saudi + confirmed bilateral back-channel, P(continued CENTCOM pause next night) ≥ 0.65." (Raised from 0.50, confirmed Day 148–150.)
 2. "When mutual operational pause activates + bilateral summit within 72h, reduce Brent floor prediction by $5–8/bbl regardless of structural disruption." (New — Day 150 calibration.)
+
+## Day 151 · 28 July 2026
+
+### T+1 scoring (predictions from Day 150, gate: EOD 27 Jul ET / ~04:00 UTC 28 Jul)
+
+| Prediction | P | Outcome | Brier |
+|---|---|---|---|
+| P(CENTCOM strike announced tonight ET, 27 Jul) = 0.30 | 0.30 | **HIT** — Times of Israel (Tier 2) confirms "no US attacks reported on Saturday or Sunday"; CENTCOM pause holds Day 3/4. Outcome=0. | (0.30−0)²=**0.0900** |
+| P(Brent closing above $88/bbl EOD 27 Jul) = 0.62 | 0.62 | **MISS** — CNN/Barchart (Tier 1): Brent closed $85.87 on 27 Jul (−11.3% on day). Outcome=0. | (0.62−0)²=**0.3844** |
+
+**T+1 items scored: 2**
+
+### T+3 scoring (predictions from Day 148, gate: EOD 28 Jul)
+
+| Prediction | P | Outcome | Brier |
+|---|---|---|---|
+| P(Pickaxe Mountain strike by EOD 28 Jul) = 0.22 | 0.22 | **HIT** (low P assigned, no strike) — CENTCOM pause active; no nuclear-adjacent strike confirmed; window closes today. Outcome=0. | (0.22−0)²=**0.0484** |
+| P(Brent above $90 at EOD 28 Jul) = 0.48 | 0.48 | **MISS** — Investing.com/Barchart: Brent ~$85 in Asian trade 28 Jul; well below $90. Outcome=0. | (0.48−0)²=**0.2304** |
+| P(US strikes operational Iranian power plant by EOD 28 Jul) = 0.15 | 0.15 | **HIT** (low P assigned, no strike) — CENTCOM pause; no power plant strike confirmed. Outcome=0. | (0.15−0)²=**0.0225** |
+
+**T+3 items scored: 3**
+
+**Running Brier total:** 16.4793 + 0.0900 + 0.3844 + 0.0484 + 0.2304 + 0.0225 = **17.2550** (89 items)
+**Running Brier mean:** 17.2550 / 89 = **0.1939** (↓ marginal improvement; correct low-P assignment on CENTCOM/Pickaxe/power plant; continued Brent-floor miss pattern)
+
+### Calibration note (Day 151)
+
+Brent floor miss pattern continues: assigned P=0.62 to above $88 EOD 27 Jul; outcome $85.87. The "diplomacy + pause → reduce floor by $5–8" heuristic introduced Day 150 was applied (original structural floor would have been ~$93–95) but still insufficient — the market repriced a full $11.3% on a single day's pause continuation + summit news. **Revised heuristic: "When operational pause extends to Day 3+ AND summit of primary belligerent leaders is confirmed within 24h, apply floor reduction of $10–15/bbl from structural baseline, not $5–8."** Heuristic now reads: $10–15/bbl reduction from structural disruption baseline during confirmed summit + Day 3+ pause window.
+
+Positive: correct low-P predictions on Pickaxe Mountain (0.22→hit), CENTCOM night strike (0.30→hit), power plant (0.15→hit) all scoring well. The direction of the shift (diplomatic window suppresses kinetic) is being modelled correctly; the magnitude of oil price response is still being underestimated.
+
+### Day 151 New Predictions (T+1 gate: EOD 28 Jul ET / ~04:00 UTC 29 Jul)
+
+**Trend:** → Same. Confidence: Medium.
+**Threat level:** 5 / 5 · Crisis
+
+**Scenarios (30d):**
+- A: Negotiated framework — 18% (↑8pp)
+- B: Frozen attrition / diplomatic limbo — 30% (↑8pp)
+- C: Re-escalation / dual-chokepoint lock-in — 52% (↓16pp; still modal)
+
+**New T+1 predictions (gate EOD 28 Jul):**
+- P(Trump–Netanyahu joint statement signals de-escalation framework for Iran by EOD 28 Jul) = 0.32 — summit underway; structural gap on Hormuz tolls + Iran denial of US talks makes binding framework text unlikely today; but signal language possible
+- P(CENTCOM strike announced tonight ET, 28 Jul) = 0.25 — summit context + pause Day 4; diplomatic heuristic applied (P(continued pause) ≥ 0.65); Trump conditional threat leaves uncertainty
+- P(Brent closing above $82/bbl EOD 28 Jul) = 0.58 — Asian trade ~$85 at 06:00 UTC; floor compression from diplomacy but structural supply deficit prevents further collapse absent confirmed deal
+
+**Pending T+3 gate (EOD 30 Jul):**
+- P(Yanbu sustained physical damage by EOD 30 Jul) = 0.48 — Houthi embargo active; two VLCCs loading; "escalation with escalation" vow
+- P(CENTCOM strike resuming within 48h of summit if no framework text) = 0.55
+- P(Iran–Oman Hormuz protocol text announced by EOD 31 Jul) = 0.22
+
+**New watchlist carries:**
+- W1: Trump–Netanyahu joint statement → EOD 28 Jul
+- W2: Yanbu sustained damage → EOD 30 Jul
+- W3: CENTCOM resumption post-summit → EOD 29 Jul
+- W4: Iran–Oman Hormuz protocol text → EOD 31 Jul
+- W5: Mojtaba Khamenei appearance → EOD 31 Jul
+
+**Heuristics updated:**
+1. "During active diplomatic window with ≥2 of Pakistan/China/Saudi + confirmed bilateral back-channel, P(continued CENTCOM pause next night) ≥ 0.65." — CONFIRMED Day 150–151.
+2. "When mutual operational pause extends to Day 3+ AND summit of primary belligerent leaders confirmed within 24h, apply Brent floor reduction of $10–15/bbl from structural baseline (not $5–8)." — REVISED upward Day 151 calibration.
