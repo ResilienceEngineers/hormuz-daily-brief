@@ -4506,3 +4506,68 @@ Positive: correct low-P predictions on Pickaxe Mountain (0.22→hit), CENTCOM ni
 **Heuristics updated:**
 1. "During active diplomatic window with ≥2 of Pakistan/China/Saudi + confirmed bilateral back-channel, P(continued CENTCOM pause next night) ≥ 0.65." — CONFIRMED Day 150–151.
 2. "When mutual operational pause extends to Day 3+ AND summit of primary belligerent leaders confirmed within 24h, apply Brent floor reduction of $10–15/bbl from structural baseline (not $5–8)." — REVISED upward Day 151 calibration.
+
+## Day 152 · 29 July 2026 — Backtest Entry
+
+### T+1 Scoring (predictions from Day 151, gate: EOD 28 Jul ET / ~04:00 UTC 29 Jul)
+
+| Prediction | P | Outcome | Score | Brier |
+|---|---|---|---|---|
+| P(Trump–Netanyahu joint statement signals de-escalation framework for Iran by EOD 28 Jul) = 0.32 | 0.32 | **HIT** (low-P direction) — Summit was private, "productive" but NO de-escalation framework text issued (Axios, JPost, Irish Times Tier 1). Outcome=0. | Correct direction | (0.32−0)²=**0.1024** |
+| P(CENTCOM strike announced tonight ET, 28 Jul) = 0.25 | 0.25 | **MISS** (underestimated) — US + Saudi Arabia conducted joint strikes in eastern Iraq (CENTCOM Hard Tier 1); IRGC also struck US forces in Jordan. Broad "CENTCOM strike announced" = TRUE. Outcome=1. | Wrong direction | (0.25−1)²=**0.5625** |
+| P(Brent closing above $82/bbl EOD 28 Jul) = 0.58 | 0.58 | **HIT** — Bloomberg (Tier 1): Brent settled ~$84/bbl on 28 Jul. Outcome=1. | Correct | (0.58−1)²=**0.1764** |
+
+**T+1 items scored: 3**
+
+### T+3 Scoring (predictions from Day 149, gate: EOD 30 Jul — PENDING; gate not yet reached)
+
+No T+3 items mature today (gate = EOD 30 Jul). Will score on Day 153.
+
+**Running Brier total:** 17.2550 + 0.1024 + 0.5625 + 0.1764 = **18.0963** (92 items)  
+**Running Brier mean:** 18.0963 / 92 = **0.1967** (↑ slight deterioration from 0.1939; CENTCOM strike prediction badly missed — assigned 0.25 to event that occurred with both US and Saudi component)
+
+### Calibration note (Day 152)
+
+Key miss: P(CENTCOM strike) = 0.25 when the actual event was both Iran attacking US AND US+Saudi attacking Iraq. The prediction framing was "CENTCOM offensive strike against Iran" — the reality was a defensive intercept + proxy strike. Heuristic update needed: distinguish between (a) CENTCOM offensive strike against Iran proper and (b) CENTCOM defensive/proxy-response action. These are different events. Revised framing going forward:
+- "P(CENTCOM offensive strike against Iran proper)" — use for offensive targeting of Iranian territory
+- "P(CENTCOM kinetic action of any kind)" — use for any military action including proxy/defensive
+
+Key invalidated heuristic: "Active diplomatic window with ≥2 mediators suppresses kinetic (P(continued pause) ≥ 0.65)" — IRGC struck during peak diplomatic activity (Trump-Netanyahu summit day). Heuristic is INVALIDATED. Replace with: "Diplomatic window suppresses CENTCOM offensive strikes but does NOT suppress IRGC autonomous action. Treat as independent processes."
+
+Key confirmation: Brent floor prediction (0.58 above $82) correctly called — useful that we revised floor down aggressively after Day 150–151 calibration.
+
+---
+
+### Day 152 New Predictions (T+1 gate: EOD 29 Jul ET / ~04:00 UTC 30 Jul)
+
+**Trend:** ↑ Worse. Confidence: High.  
+**Threat level:** 5 / 5 · Crisis
+
+**Scenarios (30d):**
+- A: Negotiated framework — 12% (↓6pp)
+- B: Frozen attrition / diplomatic limbo — 25% (↓5pp)
+- C: Re-escalation / dual-chokepoint lock-in — 63% (↑11pp; modal)
+
+**New T+1 predictions (gate EOD 29 Jul):**
+- P(CENTCOM offensive strike against Iran proper announced by EOD 29 Jul ET) = 0.48 — IRGC Jordan attack creates political/military pressure; Trump bridge-bombing threat active; but diplomatic window still nominally open; heuristic: "offensive strike probability elevated post-IRGC attack but not certain within 24h"
+- P(Brent closing above $87/bbl EOD 29 Jul) = 0.55 — structural floor reasserted by IRGC attack; after-hours rebound on Iran missile news; but three-session 16% decline has compressed floor; uncertainty high on whether after-hours moves hold
+- P(Houthi confirmed physical damage to East-West pipeline / Abqaiq reported by EOD 29 Jul) = 0.38 — satellite confirmation of 28 Jul drone strike pending; Aramco silent; Houthi claim made but unverified
+
+**Pending T+3 gate (EOD 31 Jul):**
+- P(CENTCOM strikes Iran proper by EOD 31 Jul) = 0.62 — 72h window from IRGC Jordan attack; Trump domestic pressure; bridge-bombing threat on record
+- P(Yanbu confirmed throughput loss by EOD 31 Jul) = 0.52 — East-West pipeline drone attack 28 Jul; satellite confirmation pending
+- P(Mojtaba Khamenei confirmed public appearance by EOD 31 Jul) = 0.35
+
+**New watchlist carries:**
+- W1: CENTCOM strike on Iran proper — EOD 31 Jul
+- W2: Yanbu/E-W pipeline confirmed throughput loss — EOD 31 Jul
+- W3: Iran–Oman Hormuz protocol new proposal or counter-rejection — EOD 1 Aug
+- W4: Saudi direct kinetic escalation in Yemen (beyond current airstrikes) — EOD 2 Aug
+- W5: Mojtaba Khamenei public appearance — EOD 31 Jul
+
+**Heuristics updated:**
+1. ~~"Active diplomatic window with ≥2 mediators, P(continued pause next night) ≥ 0.65"~~ — **INVALIDATED Day 152.** IRGC struck during peak diplomatic activity. Diplomatic window suppresses CENTCOM offensive strikes but NOT IRGC autonomous action. Replace with two separate heuristics:
+   - 1a. "P(CENTCOM offensive strike against Iran proper) reduced by 0.25–0.35 during active summit + mediator window" — still operative for US offensive action
+   - 1b. "IRGC autonomous kinetic action probability is independent of diplomatic window status; treat as structurally elevated at ~0.20–0.30/day during active conflict regardless of diplomacy"
+2. "When operational pause ends via IRGC surprise attack, apply Brent floor elevation of $8–12/bbl from prior session close within 24h" — New, derived from Day 152 after-hours pattern.
+3. "Distinguish CENTCOM offensive strike (against Iran territory) from CENTCOM kinetic action (defensive intercept + proxy response)" — New framing heuristic.
