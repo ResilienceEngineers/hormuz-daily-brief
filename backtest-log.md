@@ -4571,3 +4571,71 @@ Key confirmation: Brent floor prediction (0.58 above $82) correctly called — u
    - 1b. "IRGC autonomous kinetic action probability is independent of diplomatic window status; treat as structurally elevated at ~0.20–0.30/day during active conflict regardless of diplomacy"
 2. "When operational pause ends via IRGC surprise attack, apply Brent floor elevation of $8–12/bbl from prior session close within 24h" — New, derived from Day 152 after-hours pattern.
 3. "Distinguish CENTCOM offensive strike (against Iran territory) from CENTCOM kinetic action (defensive intercept + proxy response)" — New framing heuristic.
+
+## Day 153 · 30 July 2026 — Backtest Entry
+
+### T+1 Scoring (predictions from Day 152, gate: EOD 29 Jul ET / ~04:00 UTC 30 Jul)
+
+| Prediction | P | Outcome | Score | Brier |
+|---|---|---|---|---|
+| P(CENTCOM offensive strike against Iran proper by EOD 29 Jul ET) = 0.48 | 0.48 | **HIT** — CENTCOM.mil (Hard T1): "heavy wave of strikes against Iran" 8–10 p.m. ET Jul 29; Al-Monitor, CNN, The Hill, US News all confirmed. Outcome=1. | Correct direction | (0.48−1)²=**0.2704** |
+| P(Brent closing above $87/bbl EOD 29 Jul) = 0.55 | 0.55 | **HIT** — Forbes Advisor: Brent +6.92% to $89.43 Jul 29; OilPrice.com: $90.46; Fortune: $89.53 at 5:05 a.m. ET. Outcome=1. | Correct | (0.55−1)²=**0.2025** |
+| P(Houthi confirmed physical damage to East-West pipeline/Abqaiq by EOD 29 Jul) = 0.38 | 0.38 | **HIT** — Islam Times/Windward-Vortexa: Yanbu loading −40% (5.16→3.09 mb/d confirmed); NASA FIRMS multiple Abqaiq hotspots; satellite fire damage confirmed. Outcome=1. | Correct direction | (0.38−1)²=**0.3844** |
+
+**T+1 items scored: 3. All HIT.**
+
+### T+3 Scoring (predictions from Day 150, gate: EOD 31 Jul — PENDING; gate not yet reached)
+
+Will score Day 154.
+
+**Running Brier total:** 18.0963 + 0.2704 + 0.2025 + 0.3844 = **18.9536** (95 items)
+**Running Brier mean:** 18.9536 / 95 = **0.1995** (↑ slight deterioration; all three hits correct direction but low P on CENTCOM strike still costing; calibration improving on energy infrastructure signals)
+
+### Calibration note (Day 153)
+
+All three T+1 predictions were directionally correct. Key calibration observation: P(CENTCOM strike) = 0.48 was modestly underconfident — given the Trump "our turn" statement and IRGC Jordan attack pattern, 0.60–0.65 would have been better calibrated. Heuristic update: "After confirmed IRGC ballistic missile attack on US base with Trump public vow to retaliate, P(CENTCOM offensive strike within 24h) ≥ 0.60."
+
+P(Yanbu/Abqaiq damage) = 0.38 was substantially underconfident — actual throughput loss −40% is a major event. Satellite confirmation was faster than expected. Heuristic update: "When Saudi Aramco is silent post-attack AND NASA FIRMS detects hotspots AND OSINT shows processing unit fire, treat as confirmed throughput loss for planning purposes; do not wait for Aramco statement."
+
+---
+
+### Day 153 New Predictions (T+1 gate: EOD 30 Jul ET / ~04:00 UTC 31 Jul)
+
+**Trend:** ↑ Worse. Confidence: High.
+**Threat level:** 5 / 5 · Crisis
+
+**Scenarios (30d):**
+- A: Negotiated framework — 8% (↓4pp)
+- B: Frozen attrition / diplomatic limbo — 20% (↓5pp)
+- C: Re-escalation / dual-chokepoint lock-in — 72% (↑9pp; modal)
+
+**New T+1 predictions (gate EOD 30 Jul ET):**
+- P(IRGC autonomous kinetic action of any kind by EOD 30 Jul ET) = 0.30 — post-retaliation pause pattern (36–72h observed in Days 150–153); CENTCOM heavy-wave completed 29 Jul; IRGC typically pauses 36–72h before next autonomous action; but structural rate ~0.25/day per heuristic 1b
+- P(Brent holding above $87/bbl EOD 30 Jul ET) = 0.62 — CENTCOM retaliation complete; markets partially priced in; Yanbu −40% structural floor support; but no new escalation overnight reduces spike premium; $87 floor likely
+- P(CENTCOM announcing further strikes against Iran EOD 30 Jul ET) = 0.28 — heavy wave completed 29 Jul; typical pattern: 1 night off after heavy wave before resuming; but Trump has not announced pause
+
+**T+3 predictions (gate EOD 1 Aug):**
+- P(Abqaiq throughput loss officially confirmed by Saudi Aramco or Saudi MoD by EOD 1 Aug) = 0.42 — satellite data compelling; Aramco historically silent for 48–72h post-attack before disclosing
+- P(Iran–Oman Hormuz talks formally suspended or new proposal issued by EOD 1 Aug) = 0.45 — post-CENTCOM heavy-wave, Iran faces internal pressure not to negotiate; but Oman channel structurally preserved
+- P(Houthi Bab al-Mandeb fee regime implemented / first vessel charged by EOD 1 Aug) = 0.18 — discussed with Iran but implementation requires logistics setup; unlikely within 48h of discussion
+
+**T+7 predictions (gate EOD 5 Aug):**
+- P(CENTCOM strikes Iranian port or energy infrastructure by EOD 5 Aug) = 0.35 — scope creep risk if IRGC continues autonomous attacks; current restraint on energy targets likely diplomatically conditioned
+- P(Brent above $95/bbl on any day by EOD 5 Aug) = 0.48 — requires Abqaiq confirmation OR Houthi Bab fee implementation OR new IRGC attack on Saudi infrastructure
+- P(Hormuz transits recovering to ≥20/day by EOD 5 Aug) = 0.08 — structural impediments: CENTCOM strikes destroyed maritime surveillance/coastal capability; IRGC less capable of enforcing fee-passage but also less capable of managing traffic
+
+**Pending T+3 gate (EOD 31 Jul — from Day 150 predictions):**
+- Will score Day 154
+
+**Watchlist carries (Day 153):**
+- W1: Abqaiq throughput official confirmation — EOD 1 Aug
+- W2: CENTCOM strike scope creep to energy/port targets — EOD 1 Aug
+- W3: Iran–Oman Hormuz protocol: suspension or new proposal — EOD 2 Aug
+- W4: Houthi Bab al-Mandeb fee implementation — EOD 3 Aug
+- W5: Mojtaba Khamenei verified live public appearance — EOD 5 Aug
+
+**Heuristics updated (Day 153):**
+1. NEW: "After confirmed IRGC ballistic missile attack on US base with Trump public vow to retaliate, P(CENTCOM offensive strike within 24h) ≥ 0.60" — derived from Days 152–153 pattern.
+2. NEW: "When Saudi Aramco is silent post-attack AND NASA FIRMS detects hotspots AND OSINT shows processing unit fire, treat as confirmed throughput loss for planning purposes without waiting for Aramco statement."
+3. NEW: "IRGC post-retaliation pause: 36–72h typical before next autonomous action; structural baseline rate ~0.25/day persists regardless of diplomatic window (heuristic 1b confirmed)."
+4. CONFIRMED: Heuristic 1b — "IRGC autonomous kinetic action probability is independent of diplomatic window status; ~0.20–0.30/day structural rate during active conflict."
