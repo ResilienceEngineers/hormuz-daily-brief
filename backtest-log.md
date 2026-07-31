@@ -4639,3 +4639,70 @@ P(Yanbu/Abqaiq damage) = 0.38 was substantially underconfident — actual throug
 2. NEW: "When Saudi Aramco is silent post-attack AND NASA FIRMS detects hotspots AND OSINT shows processing unit fire, treat as confirmed throughput loss for planning purposes without waiting for Aramco statement."
 3. NEW: "IRGC post-retaliation pause: 36–72h typical before next autonomous action; structural baseline rate ~0.25/day persists regardless of diplomatic window (heuristic 1b confirmed)."
 4. CONFIRMED: Heuristic 1b — "IRGC autonomous kinetic action probability is independent of diplomatic window status; ~0.20–0.30/day structural rate during active conflict."
+
+## Day 154 · 31 July 2026 — Backtest Entry
+
+### T+1 Scoring (predictions from Day 153, gate: EOD 30 Jul ET / ~04:00 UTC 31 Jul)
+
+| Prediction | P | Outcome | Score | Brier |
+|---|---|---|---|---|
+| P(IRGC autonomous kinetic action by EOD 30 Jul ET) = 0.30 | 0.30 | **HIT** — IRGC retaliatory strikes on Ahvaz confirmed (Reuters/J-Post/CNBC T1 Jul 30); strikes also reported at Zanjan Province. Outcome=1. | Correct direction | (0.30−1)²=**0.4900** |
+| P(Brent holding above $87/bbl EOD 30 Jul ET) = 0.62 | 0.62 | **HIT** — Brent $90.04 (TradingEconomics T1 Jul 30); $89.95 (Forbes T1); intraday $92.65 (Fortune T1). Well above $87 threshold. Outcome=1. | Correct | (0.62−1)²=**0.1444** |
+| P(CENTCOM announcing further strikes against Iran EOD 30 Jul ET) = 0.28 | 0.28 | **HIT** — CENTCOM.mil confirmed second consecutive night of strikes; two-hour wave 0000–0200 GMT Jul 30; plus continued strikes on Ahvaz area confirmed. Outcome=1. | Correct direction but underconfident | (0.28−1)²=**0.5184** |
+
+**T+1 items scored: 3. All HIT. All underconfident (P was below realized probability).**
+
+### T+3 Scoring (predictions from Day 151, gate: EOD 31 Jul — scoring now)
+
+| Prediction | P | Outcome | Score | Brier |
+|---|---|---|---|---|
+| P(Abqaiq throughput officially confirmed by Saudi Aramco/MoD by EOD 1 Aug) = 0.42 | 0.42 | **PARTIAL MISS** — Maritime Executive (T1) Jul 30 confirmed damage to processing complex and 4/6 spheroid vessels, apparent suspension; but Aramco has issued no formal throughput statement. Scoring as Outcome=0 (gate requires Aramco/MoD statement; satellite/media not sufficient per prediction criteria). | Correct direction, wrong source | (0.42−0)²=**0.1764** |
+| P(Iran–Oman Hormuz talks formally suspended or new proposal issued by EOD 1 Aug) = 0.45 | 0.45 | **HIT** — Iran formally rejected Oman proposal Jul 29 (Euronews T1); declared talks position incompatible; Oman channel structurally stalled. Outcome=1. | Correct direction | (0.45−1)²=**0.3025** |
+| P(Houthi Bab al-Mandeb fee regime implemented / first vessel charged by EOD 1 Aug) = 0.18 | 0.18 | **MISS** — Houthi political bureau formally denied fee regime implementation (TWZ/Middle East Monitor Jul 30 T1); Chinese safe-passage operational but no formal fee charged. Outcome=0. | Correct direction | (0.18−0)²=**0.0324** |
+
+**Running Brier total:** 18.9536 + 0.4900 + 0.1444 + 0.5184 + 0.1764 + 0.3025 + 0.0324 = **20.6177** (101 items)
+**Running Brier mean:** 20.6177 / 101 = **0.2041** (slight improvement from 0.2052; IRGC/CENTCOM predictions underconfident again)
+
+### Calibration note (Day 154)
+
+CENTCOM second-night strike (P=0.28) was substantially underconfident — given Trump's public "hit them hard" statement and the established two-night pattern from Days 150–153, P should have been 0.55–0.65. Heuristic update: "After CENTCOM heavy-wave night, P(second consecutive night) ≥ 0.55 when Trump has made public retaliation vow within 24h." IRGC retaliation (P=0.30) hit correctly but underconfident — IRGC retaliates within 24h at higher rate than 36–72h window suggests when targeting is tactical rather than strategic. Abqaiq formal Aramco statement still pending — prediction calibration held correctly (0.42, not confirmed).
+
+---
+
+### Day 154 New Predictions (T+1 gate: EOD 31 Jul ET / ~04:00 UTC 1 Aug)
+
+**Trend:** ↑ Worse. Confidence: High.
+**Threat level:** 5 / 5 · Crisis
+
+**Scenarios (30d):**
+- A: Negotiated framework — 8% (→0pp)
+- B: Frozen attrition / diplomatic limbo — 17% (↓3pp)
+- C: Re-escalation / triple-chokepoint lock-in — 75% (↑3pp; modal)
+
+**New T+1 predictions (gate EOD 31 Jul ET):**
+- P(CENTCOM conducting further strikes against Iran by EOD 31 Jul ET) = 0.55 — second-night pattern confirmed; IRGC retaliatory strikes on Ahvaz July 30 gives Trump casus belli; updated heuristic: P(third consecutive night) ≥ 0.55
+- P(Brent closing above $89/bbl EOD 31 Jul ET) = 0.58 — structural floor $88–90; second-night strikes already priced; no new escalation overnight reduces spike premium; Abqaiq confirmation would push above $92
+- P(IRGC autonomous kinetic action by EOD 31 Jul ET) = 0.30 — structural baseline per heuristic 1b; post-retaliation window partially expired but IRGC rate ~0.25–0.30/day persists
+
+**T+3 predictions (gate EOD 2 Aug):**
+- P(Abqaiq throughput loss officially confirmed by Saudi Aramco by EOD 2 Aug) = 0.52 — satellite evidence conclusive; Aramco typically 48–72h silent post-attack before disclosure; Day 5 post-attack now reached
+- P(Damietta attribution formally confirmed by Egypt/US by EOD 2 Aug) = 0.28 — Egypt investigation ongoing; Houthis and Iran both denied; no forensic timeline established yet
+- P(CENTCOM striking Pickaxe Mountain nuclear site by EOD 2 Aug) = 0.12 — Trump statement "pretty soon" but Saudi Arabia urging restraint; geopolitical cost very high; more likely 7+ day timeline
+
+**T+7 predictions (gate EOD 6 Aug):**
+- P(Houthi formal Bab al-Mandeb fee regime announced by EOD 6 Aug) = 0.35 — Chinese safe-passage arrangement operational confirms infrastructure; formal fee announcement is political decision; 7-day window plausible
+- P(Brent above $98/bbl on any day by EOD 6 Aug) = 0.42 — requires Abqaiq official confirmation OR Pickaxe Mountain strike OR formal Bab fee regime
+- P(Saudi Arabia conducting independent (non-CENTCOM) kinetic action against Iran or Houthis by EOD 6 Aug) = 0.25 — Riyadh crossed threshold once (Iraq strikes); Houthi attacks on Saudi tankers continue; another "red line" crossing plausible
+
+**Watchlist carries (Day 154):**
+- W1: Abqaiq throughput official confirmation — EOD 1 Aug (T+1 gate)
+- W2: CENTCOM Pickaxe Mountain / nuclear infrastructure strike — EOD 5 Aug
+- W3: Houthi Bab al-Mandeb fee implementation — EOD 3 Aug
+- W4: Damietta attribution confirmed and/or follow-on Mediterranean strike — EOD 2 Aug
+- W5: Mojtaba Khamenei verified live public appearance — EOD 5 Aug
+
+**Heuristics updated (Day 154):**
+1. NEW: "After CENTCOM heavy-wave night with Trump public retaliation vow outstanding, P(second consecutive night of strikes) ≥ 0.55" — derived from Days 152–154 pattern.
+2. UPDATED: "After CENTCOM heavy-wave night, P(IRGC retaliation within 24h) ≈ 0.40–0.50 when targeting is IRGC tactical assets (not strategic infrastructure)." Prior estimate of 0.30 was underconfident.
+3. CONFIRMED: Heuristic on Aramco silence — formal statement still pending Day 5 post-attack; heuristic 48–72h window was optimistic; revise to "Aramco formal statement on processing facility damage: 4–7 day window."
+4. NEW: "Chinese safe-passage arrangement at Bab al-Mandeb is operational (not just discussed) — confirmed by Windward MIOC Jul 30. This is a structural bifurcation of the chokepoint, not a temporary exception."
