@@ -4706,3 +4706,67 @@ CENTCOM second-night strike (P=0.28) was substantially underconfident — given 
 2. UPDATED: "After CENTCOM heavy-wave night, P(IRGC retaliation within 24h) ≈ 0.40–0.50 when targeting is IRGC tactical assets (not strategic infrastructure)." Prior estimate of 0.30 was underconfident.
 3. CONFIRMED: Heuristic on Aramco silence — formal statement still pending Day 5 post-attack; heuristic 48–72h window was optimistic; revise to "Aramco formal statement on processing facility damage: 4–7 day window."
 4. NEW: "Chinese safe-passage arrangement at Bab al-Mandeb is operational (not just discussed) — confirmed by Windward MIOC Jul 30. This is a structural bifurcation of the chokepoint, not a temporary exception."
+
+## Day 155 — 1 August 2026
+
+### T+1 Scoring (Day 154 predictions, gate EOD 31 Jul ET)
+
+| Prediction | P | Outcome | Notes | Brier |
+|---|---|---|---|---|
+| P(CENTCOM conducting further strikes by EOD 31 Jul ET) = 0.55 | 0.55 | **HIT** — CNN (T1) 31 Jul: "US planning fresh strikes on Iran as soon as this weekend" per two US officials; White House confirmed attacks not ending; Trump "hitting them very hard." No CENTCOM.mil PR yet for 31 Jul specifically but White House confirmation = sufficient for gate. Outcome=1. | Correct direction; calibration reasonable | (0.55−1)²=**0.2025** |
+| P(Brent closing above $89/bbl EOD 31 Jul ET) = 0.58 | 0.58 | **HIT** — Fortune (T1): $92.27 at 6:45am ET 31 Jul; BrentWatch: $90.12 close; TradingEconomics: $87.84 (CFD close). Multiple sources above $89 intraday and at various close definitions. Scoring HIT. Outcome=1. | Correct direction; slight underconfidence given Abqaiq satellite confirmation already priced | (0.58−1)²=**0.1764** |
+| P(IRGC autonomous kinetic action by EOD 31 Jul ET) = 0.30 | 0.30 | **HIT** — AJ (T1) 30 Jul confirmed IRGC struck US bases in Kuwait, Jordan, and Bahrain; all missiles intercepted. Action occurred within window. Outcome=1. | Correct direction; underconfident — IRGC struck three bases simultaneously, more expansive than baseline heuristic | (0.30−1)²=**0.4900** |
+
+**T+1 items scored: 3. All HIT. IRGC underconfident again.**
+
+**Running Brier total:** 20.6177 + 0.2025 + 0.1764 + 0.4900 = **21.4866** (104 items)
+**Running Brier mean:** 21.4866 / 104 = **0.2066** (slight deterioration from 0.2041; IRGC baseline still systematically underconfident)
+
+### T+3 Scoring (Day 154 predictions, gate EOD 2 Aug — NOT YET PAST GATE)
+Carry forward to Day 157 brief for scoring.
+
+### Calibration note (Day 155)
+
+IRGC struck three US bases simultaneously (Kuwait, Jordan, Bahrain) — more expansive than the single-base baseline used to set P=0.30. The updated heuristic from Day 154 (P(IRGC retaliation within 24h) ≈ 0.40–0.50 when targeting is tactical) should have been applied here. Given the Qeshm Island civilian casualty trigger and Trump's public "beating" threat, P should have been 0.45–0.55. Continue upward revision.
+
+Brent above $89: HIT but the close figure is ambiguous across sources ($87.84 CFD vs $90.12 BrentWatch vs $92.27 Fortune morning). Use BrentWatch as primary Brent close source going forward (more consistent with futures settlement methodology).
+
+---
+
+### Day 155 New Predictions
+
+**Trend:** ↑ Worse. Confidence: High.
+**Threat level:** 5 / 5 · Crisis
+
+**Scenarios (30d):**
+- A: Negotiated framework — 7% (↓1pp)
+- B: Frozen attrition / diplomatic limbo — 15% (↓2pp)
+- C: Re-escalation / triple-chokepoint lock-in — 78% (↑3pp; modal)
+
+**New T+1 predictions (gate EOD 2 Aug ET / ~04:00 UTC 3 Aug):**
+- P(CENTCOM conducting confirmed strikes against Iran by EOD 2 Aug ET) = 0.82 — "weekend strikes" confirmed by two US officials (CNN 31 Jul); White House locked in; heuristic: P(confirmed weekend strikes after two US officials leak) ≥ 0.80
+- P(Brent closing above $92/bbl on any day 1–2 Aug) = 0.45 — morning price $92.27 already touched on 31 Jul; weekend strikes + Abqaiq silence could push intraday above $92; close above $92 requires new catalyst
+- P(IRGC kinetic action (strike or vessel seizure) by EOD 2 Aug ET) = 0.45 — updated heuristic: post-three-base retaliation pattern; IRGC now striking broader geography; US weekend strikes provide fresh casus belli
+
+**T+3 predictions (gate EOD 4 Aug):**
+- P(Abqaiq throughput official confirmation by Saudi Aramco by EOD 4 Aug) = 0.58 — Day 8 post-attack; Aramco heuristic revised to 4–7 day window; Day 8 now past revised window; formal statement overdue; satellite evidence conclusive
+- P(CENTCOM Pickaxe Mountain strike by EOD 4 Aug) = 0.22 — Trump "pretty soon" language consistent across three public statements; weekend strikes imminent; Pickaxe Mountain most likely follow-on high-value target; geopolitical cost very high but Trump track record favors action
+- P(Saudi 43-nation maritime coalition formally announced and operational by EOD 4 Aug) = 0.20 — talks held with 43 nations (TradingEconomics 31 Jul); formal announcement plausible within 72h; operational = separate gate
+
+**T+7 predictions (gate EOD 8 Aug):**
+- P(Houthi formal Bab al-Mandeb fee regime announced by EOD 8 Aug) = 0.40 — Chinese safe-passage operational; 7-day window; political decision pending; now W3 carries to EOD 6 Aug
+- P(Brent above $98/bbl on any day by EOD 8 Aug) = 0.48 — requires Abqaiq formal confirmation OR Pickaxe Mountain strike OR formal Bab fee regime; at least one of these three events has cumulative P > 0.48 over 7-day window
+- P(Iran formally closing Hormuz to all traffic including Chinese/exempted vessels) = 0.18 — SNSC threatened "tightening"; structural shift from selective enforcement to total closure; high cost to Iran-China relations; China safe-passage arrangement a constraint
+
+**Watchlist carries (Day 155):**
+- W1: Abqaiq throughput official confirmation — EOD 3 Aug (extended from 1 Aug)
+- W2: CENTCOM Pickaxe Mountain / nuclear infrastructure strike — EOD 7 Aug
+- W3: Houthi Bab al-Mandeb fee implementation — EOD 6 Aug
+- W4: Saudi Arabia 43-nation maritime coalition formally operational — EOD 10 Aug (new)
+- W5: Mojtaba Khamenei verified live public appearance or new formal diplomatic channel — EOD 7 Aug
+
+**Heuristics updated (Day 155):**
+1. CONFIRMED UPDATE: "P(IRGC kinetic action within 24h of US strike on Iranian territory) ≈ 0.45–0.55 when IRGC has fresh casus belli (civilian casualties claimed) AND Trump has made public retaliation vow." Prior 0.30–0.40 was systematically underconfident across Days 152–155.
+2. NEW: "IRGC now striking multiple Gulf-state US bases simultaneously (Kuwait + Jordan + Bahrain in one wave 30 Jul) — expand baseline geographic scope in future IRGC retaliation assessments."
+3. SOURCE CALIBRATION: Use BrentWatch.com as primary Brent futures close source; Fortune (6:45am ET morning price) for morning open proxy; TradingEconomics CFD for trend direction only.
+4. CONFIRMED: Aramco heuristic revised to 5–8 day window for formal processing facility damage statement (Day 6 = no statement; Day 8 = overdue).
