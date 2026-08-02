@@ -4770,3 +4770,71 @@ Brent above $89: HIT but the close figure is ambiguous across sources ($87.84 CF
 2. NEW: "IRGC now striking multiple Gulf-state US bases simultaneously (Kuwait + Jordan + Bahrain in one wave 30 Jul) — expand baseline geographic scope in future IRGC retaliation assessments."
 3. SOURCE CALIBRATION: Use BrentWatch.com as primary Brent futures close source; Fortune (6:45am ET morning price) for morning open proxy; TradingEconomics CFD for trend direction only.
 4. CONFIRMED: Aramco heuristic revised to 5–8 day window for formal processing facility damage statement (Day 6 = no statement; Day 8 = overdue).
+
+## Day 156 — 2 August 2026
+
+### T+1 Scoring (Day 155 predictions, gate EOD 2 Aug ET)
+
+| Prediction | P | Result | Brier |
+|---|---|---|---|
+| P(CENTCOM confirmed strikes against Iran by EOD 2 Aug ET) = 0.82 | 0.82 | **HIT** — war.gov (Hard T1) confirmed "new wave of offensive strikes against Iran" Jul 30–31; CENTCOM continuous strike campaign through at least Jul 30; pattern unbroken. Outcome=1. | (0.82−1)²=**0.0324** |
+| P(Brent closing above $92/bbl on any day 1–2 Aug) = 0.45 | 0.45 | **MISS** — TradingEconomics: Brent $87.84 Jul 31; Forbes: $88.46; Investing.com range $84.63–$88.99; no evidence of close above $92 on Aug 1–2. Outcome=0. | (0.45−0)²=**0.2025** |
+| P(IRGC kinetic action (strike or vessel seizure) by EOD 2 Aug ET) = 0.45 | 0.45 | **HIT** — AJ (T1) Jul 31: IRGC struck Kuwait Ahmad Al-Jaber airbase with drones Jul 31; 1 civilian killed; within gate window. Outcome=1. | (0.45−1)²=**0.3025** |
+
+**T+1 items scored: 3. 2 HIT, 1 MISS. Brent $92 miss — SPR release expectation and demand destruction suppressing price discovery as noted in brief.**
+
+**Running Brier total:** 21.4866 + 0.0324 + 0.2025 + 0.3025 = **22.0240** (107 items)
+**Running Brier mean:** 22.0240 / 107 = **0.2058** (slight improvement from 0.2066; IRGC HIT reduces mean)
+
+### T+3 Scoring (Day 154 predictions, gate EOD 2 Aug — NOW PAST GATE)
+
+| Prediction | P | Result | Brier |
+|---|---|---|---|
+| P(Abqaiq throughput official confirmation by Saudi Aramco by EOD 4 Aug) = 0.58 | 0.58 | **CARRY** — Gate is EOD 4 Aug, not EOD 2 Aug. Score in Day 157 brief. | — |
+| P(CENTCOM Pickaxe Mountain strike by EOD 4 Aug) = 0.22 | 0.22 | **CARRY** — Gate is EOD 4 Aug. Score in Day 157 brief. | — |
+| P(Saudi 43-nation maritime coalition formally announced and operational by EOD 4 Aug) = 0.20 | 0.20 | **CARRY** — Gate is EOD 4 Aug. Score in Day 157 brief. | — |
+
+**Note:** The Day 154 T+3 predictions carried forward from the backtest log had gate EOD 4 Aug, not EOD 2 Aug as previously noted. Scoring deferred to Day 157.
+
+### T+7 Scoring (Day 152 predictions, gate EOD 2 Aug — if applicable)
+No Day 152 T+7 predictions with EOD 2 Aug gate in log. Carry.
+
+---
+
+### Day 156 New Predictions
+
+**Trend:** ↑ Worse. Confidence: High.
+**Threat level:** 5 / 5 · Crisis
+
+**Scenarios (30d):**
+- A: Negotiated framework — 7% (→ unchanged)
+- B: Frozen attrition / diplomatic limbo — 15% (→ unchanged)
+- C: Re-escalation / triple-chokepoint lock-in — 78% (→ unchanged; modal)
+
+**New T+1 predictions (gate EOD 3 Aug ET / ~04:00 UTC 4 Aug):**
+- P(CENTCOM conducting confirmed strikes against Iran by EOD 3 Aug ET) = 0.85 — continuous strike campaign; war.gov confirms "another wave" Jul 30–31; no ceasefire signal; heuristic: P(CENTCOM strike on any given night) ≥ 0.85 given 13+ consecutive nights pattern
+- P(Brent closing above $89/bbl on any day 2–3 Aug) = 0.52 — current $87–88; Abqaiq statement imminent (Day 9, past window); any Aramco statement could push above $89 on release day; without statement, range $86–90
+- P(IRGC kinetic action (strike or vessel seizure) by EOD 3 Aug ET) = 0.52 — updated heuristic 0.50–0.60; Kuwait strike Jul 31 shows pattern maintained; CENTCOM continued strikes provide fresh casus belli daily
+
+**T+3 predictions (gate EOD 5 Aug):**
+- P(Abqaiq throughput official Aramco statement by EOD 5 Aug) = 0.70 — Day 9 offline, now past 5–8 day revised window; Day 10/11 by gate; formal statement structurally overdue; market pressure building
+- P(CENTCOM Pickaxe Mountain strike by EOD 5 Aug) = 0.25 — Trump "pretty soon" language repeated Jul 21–22; Iran centrifuges confirmed moved; geopolitical cost very high but Trump track record and Israeli pressure favor action within week; not yet struck as of Aug 2
+- P(Saudi 43-nation maritime coalition operational announcement by EOD 5 Aug) = 0.18 — talks held (TradingEconomics Jul 31); formal operational announcement within 3 days uncertain; no Hard-tier signal yet
+
+**T+7 predictions (gate EOD 9 Aug):**
+- P(Houthi formal Bab al-Mandeb fee regime announced and charged by EOD 9 Aug) = 0.38 — HOCC public denial Aug 1 reduces near-term probability slightly; Iranian advisers on ground; implementation timeline unclear; reduce from 0.40 to 0.38
+- P(Brent above $98/bbl on any day by EOD 9 Aug) = 0.50 — requires Abqaiq formal statement OR Pickaxe Mountain strike OR Bab fee formal implementation; cumulative P(at least one of three) over 7 days ≥ 0.50
+- P(Iran formally closing Hormuz to all traffic including Chinese/exempted vessels) = 0.15 — SNSC threatened "tightening"; Chinese safe-passage arrangement is structural constraint; reduce from 0.18 to 0.15
+
+**Watchlist carries (Day 156):**
+- W1: Abqaiq throughput official confirmation — EOD 4 Aug (extended again; Day 9 past window)
+- W2: CENTCOM Pickaxe Mountain / nuclear infrastructure strike — EOD 9 Aug (extended from EOD 7 Aug)
+- W3: Houthi Bab al-Mandeb fee formal implementation — EOD 8 Aug (extended from EOD 6 Aug; HOCC denial adds 2 days)
+- W4: Saudi Arabia 43-nation maritime coalition formally operational — EOD 10 Aug (unchanged)
+- W5: Mojtaba Khamenei verified live public appearance or new formal diplomatic channel — EOD 9 Aug (extended from EOD 7 Aug)
+
+**Heuristics updated (Day 156):**
+1. CONFIRMED: Brent price at ~$88 is NOT a reliable indicator of physical supply reality when SPR-release expectations are priced in. Use Abqaiq statement as the price-discovery trigger, not current spot price.
+2. CONFIRMED: Houthi public HOCC denial of fee regime (Aug 1) is a "plausible deniability" pattern matching Iran's Hormuz fee playbook — operational planning continues behind public denial. Do not treat HOCC statements as authoritative on fee implementation timeline.
+3. SOURCE NOTE: war.gov appears to be the US Department of War (formerly DoD) public releases site — treat as equivalent to Hard T1 (CENTCOM.mil). Confirm URL on next search cycle.
+4. BRENT MISS ANALYSIS: P(Brent >$92) = 0.45 was a MISS; price stayed $87–88. Revised heuristic: without an Abqaiq formal statement or Pickaxe Mountain strike as explicit catalyst, Brent is constrained to $85–92 range despite physical supply reality. Raise catalyst-threshold for $90+ price predictions going forward.
