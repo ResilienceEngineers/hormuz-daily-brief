@@ -4838,3 +4838,70 @@ No Day 152 T+7 predictions with EOD 2 Aug gate in log. Carry.
 2. CONFIRMED: Houthi public HOCC denial of fee regime (Aug 1) is a "plausible deniability" pattern matching Iran's Hormuz fee playbook — operational planning continues behind public denial. Do not treat HOCC statements as authoritative on fee implementation timeline.
 3. SOURCE NOTE: war.gov appears to be the US Department of War (formerly DoD) public releases site — treat as equivalent to Hard T1 (CENTCOM.mil). Confirm URL on next search cycle.
 4. BRENT MISS ANALYSIS: P(Brent >$92) = 0.45 was a MISS; price stayed $87–88. Revised heuristic: without an Abqaiq formal statement or Pickaxe Mountain strike as explicit catalyst, Brent is constrained to $85–92 range despite physical supply reality. Raise catalyst-threshold for $90+ price predictions going forward.
+
+## Day 157 · 3 August 2026
+
+### T+1 Scoring (Day 156 predictions, gate EOD 3 Aug ET)
+
+| Prediction | P | Result | Brier |
+|---|---|---|---|
+| P(CENTCOM conducting confirmed strikes against Iran by EOD 3 Aug ET) = 0.85 | 0.85 | **MISS** — Trump cancelled planned "massive attack" 2 Aug at Gulf allies' request; no new CENTCOM strike release Aug 2–3 (as of 06:01 UTC); last confirmed wave Jul 29. Outcome=0. | (0.85−0)²=**0.7225** |
+| P(Brent closing above $89/bbl on any day 2–3 Aug) = 0.52 | 0.52 | **HIT** — Investing.com: Brent day-high $90.80 on Aug 2 before Trump announcement; closed ~$85 after ~5.6% drop on pause news (CNN). Intraday touch above $89 on Aug 2 counts as threshold crossed. Outcome=1. | (0.52−1)²=**0.2304** |
+| P(IRGC kinetic action (strike or vessel seizure) by EOD 3 Aug ET) = 0.52 | 0.52 | **HIT** — ISW/CTP (T1) Aug 1: Kuwaiti air defenses intercepted Iranian drones targeting Kuwait 1 Aug; within window. Outcome=1. | (0.52−1)²=**0.2304** |
+
+**T+1 items scored: 3. 2 HIT, 1 MISS. CENTCOM miss (0.7225) is largest single-item error in log — Trump overrode CENTCOM strike cycle with <12h notice. Heuristic update required (see below).**
+
+**Running Brier total:** 22.0240 + 0.7225 + 0.2304 + 0.2304 = **23.2073** (110 items)
+**Running Brier mean:** 23.2073 / 110 = **0.2110** (degradation from 0.2058 — Trump override event)
+
+### T+3 Scoring (Day 154 predictions, gate EOD 4 Aug — not yet past gate as of 06:01 UTC 3 Aug)
+
+| Prediction | P | Result | Brier |
+|---|---|---|---|
+| P(Abqaiq throughput official Aramco confirmation by EOD 4 Aug) = 0.58 | — | **CARRY** — Gate EOD 4 Aug not yet reached; Abqaiq Day 10 offline, no statement as of 06:01 UTC. Score in Day 158 brief. | — |
+| P(CENTCOM Pickaxe Mountain strike by EOD 4 Aug) = 0.22 | — | **CARRY** — YouTube unconfirmed blast report (Tier 6); not Hard-tier corroborated. Gate not reached. Score in Day 158 brief. | — |
+| P(Saudi 43-nation maritime coalition formally announced by EOD 4 Aug) = 0.20 | — | **CARRY** — No operational announcement found. Gate not yet reached. Score in Day 158 brief. | — |
+
+### T+7 Scoring (Day 150 predictions — no applicable gate items)
+
+Carry.
+
+---
+
+### Day 157 New Predictions
+
+**Trend:** ↓ Better (first). Confidence: Medium.
+**Threat level:** 4 / 5 · Severe
+
+**Scenarios (30d):**
+- A: Negotiated framework — 22% (↑+15pp — largest single-day shift)
+- B: Frozen attrition / diplomatic limbo — 55% (↑+40pp; becomes modal)
+- C: Re-escalation / triple-chokepoint lock-in — 23% (↓−55pp)
+
+**New T+1 predictions (gate EOD 4 Aug ET / ~04:00 UTC 5 Aug):**
+- P(US–Iran Monday talks (3 Aug) producing joint public statement with Hormuz timeline) = 0.22 — Araghchi "final stages" is Tier 5; Iranian state media silent on Tehran's request; factional split; P(joint statement within 24h of first session) structurally low even in good-faith talks
+- P(IRGC kinetic action (strike or vessel seizure) during talks window by EOD 4 Aug ET) = 0.48 — reduced from 0.52; diplomatic pause reduces IRGC authorization likelihood but hardliner bloc can act independently; Kuwait intercept 1 Aug shows pattern; reduce slightly for 24h courtesy window
+- P(Brent closing above $89/bbl on any day 3–4 Aug) = 0.35 — current ~$85 after 5.6% drop; would require talks collapse signal or new kinetic event; base case is range $82–88 during talks window
+
+**T+3 predictions (gate EOD 6 Aug):**
+- P(Abqaiq throughput official Aramco statement by EOD 6 Aug) = 0.72 — Day 12 by gate; diplomatic pause may actually accelerate Aramco silence-breaking (less kinetic risk to disclose); structural pressure mounting; highest-probability watchlist item
+- P(US–Iran talks producing observable Hormuz reopening mechanism by EOD 6 Aug) = 0.18 — "final stages" does not mean "agreed"; Iranian hardliners can veto; Oman process has failed before; three-day window for complex multi-party agreement is tight
+- P(CENTCOM resuming strikes by EOD 6 Aug) = 0.42 — Trump's third pause; historical pattern: pause lasts 3–7 days; if talks produce no joint statement by EOD 5 Aug, CENTCOM resumes; reduce below 0.50 only because Gulf allies are actively mediating
+
+**T+7 predictions (gate EOD 10 Aug):**
+- P(Hormuz formally reopened with verified AIS transit uplift ≥3× sustained ≥72h by EOD 10 Aug) = 0.15 — requires full diplomatic agreement + IRGC stand-down + mine clearance/insurance normalization; 7-day window is very tight for all four conditions
+- P(Brent above $95/bbl on any day by EOD 10 Aug) = 0.38 — requires talks collapse + CENTCOM resumption OR Abqaiq statement; P(at least one catalyst in 7 days) = 0.38; reduced from 0.50 due to diplomatic pause dampening near-term kinetic risk
+- P(Houthi Bab al-Mandeb fee formal implementation by EOD 10 Aug) = 0.30 — diplomatic pause at Hormuz level may reduce Iranian pressure on Houthis to formalize; but Iranian adviser architecture still active; HOCC denial pattern = plausible deniability, not cancellation; reduce from 0.38
+
+**Watchlist carries (Day 157):**
+- W1: Abqaiq throughput official Aramco statement — EOD 5 Aug (tightened from EOD 5 Aug; Day 12 by gate)
+- W2: US–Iran joint communiqué with Hormuz reopening timeline — EOD 5 Aug (NEW — replaces Pickaxe Mountain as primary watch; Monday talks gate)
+- W3: Houthi Bab al-Mandeb fee formal implementation — EOD 10 Aug (extended from EOD 8 Aug; diplomatic pause reduces urgency)
+- W4: CENTCOM resumes strikes — EOD 7 Aug (NEW — replaces W4 coalition; third pause pattern means 3–7 day window)
+- W5: Iranian factional hardliner kinetic override during talks — EOD 9 Aug (NEW — IRGC action during Monday talks = talks-collapse signal)
+
+**Heuristics updated (Day 157):**
+1. **NEW — TRUMP OVERRIDE HEURISTIC:** Trump can and does override CENTCOM targeting cycles with <12h notice, triggered by Gulf ally phone calls. Do not assign P>0.70 to "CENTCOM strikes on any given night" when: (a) Trump has had recent Gulf leader contact, (b) oil price has dropped recently (reducing pressure to act), (c) Iranian FM is making public diplomatic overtures. Reduce P(strike|all three conditions) to 0.30–0.40.
+2. **CONFIRMED — BRENT LAGGING INDICATOR:** Brent $90.80 → $85 intraday on single Trump announcement. Market is pricing political/kinetic risk, not physical supply. Physical supply unchanged. Continue treating price as noise until Abqaiq statement or Hormuz reopening observable.
+3. **CONFIRMED — HOCC DENIAL PATTERN:** Houthi HOCC denial of fee regime (Aug 1–2) matches Iranian Hormuz playbook. Yemen FM-designate simultaneously confirmed "copying Iranian model." Treat HOCC denials as operational-security statements, not policy reversals.
+4. **NEW — IRANIAN FACTIONAL SPLIT SIGNAL:** Iranian state media silence on Trump's claim that Iran asked for a pause is a factional-split indicator. When Iranian FM (negotiation track) acts and IRGC simultaneously conducts kinetic operations, treat as internal power contest rather than coordinated policy. Watch for IRGC kinetic action during talks as hardliner-override signal.
