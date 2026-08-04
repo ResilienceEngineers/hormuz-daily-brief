@@ -4905,3 +4905,63 @@ Carry.
 2. **CONFIRMED — BRENT LAGGING INDICATOR:** Brent $90.80 → $85 intraday on single Trump announcement. Market is pricing political/kinetic risk, not physical supply. Physical supply unchanged. Continue treating price as noise until Abqaiq statement or Hormuz reopening observable.
 3. **CONFIRMED — HOCC DENIAL PATTERN:** Houthi HOCC denial of fee regime (Aug 1–2) matches Iranian Hormuz playbook. Yemen FM-designate simultaneously confirmed "copying Iranian model." Treat HOCC denials as operational-security statements, not policy reversals.
 4. **NEW — IRANIAN FACTIONAL SPLIT SIGNAL:** Iranian state media silence on Trump's claim that Iran asked for a pause is a factional-split indicator. When Iranian FM (negotiation track) acts and IRGC simultaneously conducts kinetic operations, treat as internal power contest rather than coordinated policy. Watch for IRGC kinetic action during talks as hardliner-override signal.
+
+## Day 158 — 4 August 2026
+
+### T+1 Scoring (Day 157 predictions, gate EOD 4 Aug ET)
+
+| Prediction | P | Outcome | Brier | Note |
+|---|---|---|---|---|
+| P(US–Iran joint public statement with Hormuz timeline by EOD 4 Aug) = 0.22 | 0.22 | 0 (MISS) | 0.0484 | Iran denied US talks; Oman channel only; no joint statement |
+| P(IRGC kinetic action during talks window by EOD 4 Aug ET) = 0.48 | 0.48 | 1 (HIT) | 0.2704 | Tanker struck off Oman 3 Aug (Reuters/USNews T1) |
+| P(Brent closing above $89/bbl on any day 3–4 Aug) = 0.35 | 0.35 | 0 (MISS — correct direction) | 0.1225 | Brent fell to $82.92–$83.82 on 3 Aug on diplomatic pause signal |
+
+### T+3 Scoring (Day 154 predictions, gate EOD 4 Aug — now scored)
+
+| Prediction | P | Outcome | Brier | Note |
+|---|---|---|---|---|
+| P(Abqaiq official Aramco confirmation by EOD 4 Aug) = 0.58 | 0.58 | 0 (MISS) | 0.3364 | Aramco still silent; "remarkably quiet" (Yahoo Finance); Day 11 offline |
+| P(CENTCOM Pickaxe Mountain strike by EOD 4 Aug) = 0.22 | 0.22 | 0 (MISS — no Hard-tier confirmation) | 0.0484 | Pause in effect; no nuclear infrastructure strike confirmed |
+| P(Saudi 43-nation maritime coalition announced by EOD 4 Aug) = 0.20 | 0.20 | 0 (MISS — correct low P) | 0.0400 | No announcement; coalition concept dormant |
+
+**Day 158 batch Brier total:** 0.0484 + 0.2704 + 0.1225 + 0.3364 + 0.0484 + 0.0400 = **0.8661** (6 items)
+**Running Brier total:** 23.2073 + 0.8661 = **24.0734** (116 items)
+**Running Brier mean:** 24.0734 / 116 = **0.2075** (marginal improvement from 0.2110 — Brent and coalition miss both correct direction)
+
+**Heuristic update (Day 158):**
+- INTERCEPTOR-STOCK BRAKE added to Trump-Override Heuristic: CENTCOM pause driven partly by Adm. Cooper citing depleted air-defense interceptors (Axios/Yahoo T1, 1 Aug). When interceptor-stock warning is active AND Gulf allies are mediating AND Brent has dropped, reduce P(CENTCOM resumes within 72h) to 0.25–0.35. This is a new brake independent of Trump's political calculation.
+- ARAMCO SILENCE EXTENDED: Day 11 without statement. Each day of silence beyond Day 7 increases P(significant Abqaiq impairment) — silence is not neutrality. Raise confidence in extended-outage scenario.
+
+---
+
+### Day 158 New Predictions
+
+**Trend:** → Same. Confidence: Medium.
+**Threat level:** 4 / 5 · Severe
+
+**Scenarios (30d):**
+- A: Negotiated framework — 25% (↑+3pp)
+- B: Frozen attrition / diplomatic limbo — 52% (↓−3pp; modal)
+- C: Re-escalation / triple-chokepoint lock-in — 23% (→ unchanged)
+
+**New T+1 predictions (gate EOD 5 Aug ET / ~04:00 UTC 6 Aug):**
+- P(Oman–Iran Hormuz route deal text publicly released by EOD 5 Aug) = 0.18 — "final stages" is FM-level; IRGC veto active; ISW Hard-tier factional split confirmed; 24h window is very tight for complex multi-party text
+- P(IRGC kinetic action — vessel strike or base attack — by EOD 5 Aug ET) = 0.42 — tanker struck 3 Aug during pause confirms IRGC operational continuity; pattern suggests 24–48h cadence during talks window; reduce slightly from 0.45 for 24h courtesy window
+- P(Brent closing above $87/bbl on any day 4–5 Aug) = 0.22 — would require talks collapse signal or new major kinetic event; base case is $80–86 range during Oman talks window
+
+**T+3 predictions (gate EOD 7 Aug):**
+- P(Aramco official Abqaiq throughput statement by EOD 7 Aug) = 0.65 — Day 13–14 by gate; pressure mounting; diplomatic pause reduces cover for continued silence; but Saudi government may be awaiting Oman deal text before disclosing
+- P(CENTCOM resumes strikes by EOD 7 Aug) = 0.38 — interceptor-stock brake reduces from prior 0.42; Trump's "last chance" language + no deal text by EOD 5 Aug → resumption likely within 48h; Cooper brake adds 0.05 friction
+- P(US–Iran direct talks (not Oman channel) publicly confirmed by EOD 7 Aug) = 0.25 — Trump claiming talks "ongoing"; Iran denying; structural incentive for Iran to use Oman as cover for indirect US contact; 3-day window for disclosure moderate
+
+**T+7 predictions (gate EOD 11 Aug):**
+- P(Hormuz formally reopened with verified AIS transit uplift ≥3× sustained ≥72h by EOD 11 Aug) = 0.15 — unchanged; requires full deal + IRGC stand-down + mine clearance; 7-day window tight for all conditions
+- P(Brent above $93/bbl on any day by EOD 11 Aug) = 0.35 — requires talks collapse + CENTCOM resumption OR Abqaiq statement; P(at least one catalyst in 7 days) = 0.35; diplomatic pause dampening but IRGC override and Aramco silence are live triggers
+- P(Houthi Bab al-Mandeb fee formal implementation by EOD 11 Aug) = 0.28 — HOCC denial operational-security cover; Iranian adviser architecture active; Saudi blockade operational; Saudi tanker Cape-diversions confirm blockade real; slight reduction for diplomatic pause dampening Iranian pressure on Houthis
+
+**Watchlist carries (Day 158):**
+- W1: Abqaiq official Aramco throughput statement — EOD 6 Aug
+- W2: Iran–Oman Hormuz route deal operationalised (public text + IRGC stand-down) — EOD 6 Aug
+- W3: Mojtaba Khamenei verified live appearance OR IRGC kinetic override collapses Oman talks — EOD 9 Aug
+- W4: CENTCOM resumes strikes — EOD 7 Aug
+- W5: Houthi Bab al-Mandeb fee formal implementation — EOD 10 Aug
