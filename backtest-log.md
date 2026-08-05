@@ -4965,3 +4965,56 @@ Carry.
 - W3: Mojtaba Khamenei verified live appearance OR IRGC kinetic override collapses Oman talks — EOD 9 Aug
 - W4: CENTCOM resumes strikes — EOD 7 Aug
 - W5: Houthi Bab al-Mandeb fee formal implementation — EOD 10 Aug
+
+## Day 159 — 5 August 2026
+
+### T+1 Scoring (Day 158 predictions, gate EOD 5 Aug ET / 04:00 UTC 6 Aug)
+*Two of three T+1 items scoreable at 06:01 UTC; third (IRGC kinetic action) gate not yet reached — will be scored in Day 160 brief.*
+
+| Prediction | P | Outcome | Brier | Note |
+|---|---|---|---|---|
+| P(Oman–Iran Hormuz route deal text publicly released by EOD 5 Aug) = 0.18 | 0.18 | 0 (MISS) | 0.0324 | Bessent says "today or tomorrow" but no text as of 06:01 UTC 5 Aug; Rubio "progress not finality"; gate technically open until EOD ET — carry partial |
+| P(Brent closing above $87/bbl on any day 4–5 Aug) = 0.22 | 0.22 | 0 (MISS — correct direction) | 0.0484 | Brent dropped to $79.50 on Bessent deal remarks 4 Aug; 5 Aug opening ~$79.53; no close above $87 on either day |
+| P(IRGC kinetic action — vessel strike or base attack — by EOD 5 Aug ET) = 0.42 | 0.42 | PENDING | — | Gate is EOD 5 Aug ET = ~04:00 UTC 6 Aug; no confirmed IRGC strike in 72h window as of brief publication; score in Day 160 |
+
+**Partial Day 159 Brier (2 scored items):** 0.0324 + 0.0484 = **0.0808**
+**Running Brier total (partial):** 24.0734 + 0.0808 = **24.1542** (118 items if IRGC scored tomorrow)
+**Running Brier mean (partial, 118 items projected):** ~0.2047
+
+**Heuristic update (Day 159):**
+- BESSENT-DEADLINE HEURISTIC ADDED: When a US Treasury Secretary publicly states a Hormuz deal is possible "today or tomorrow," treat this as a 48h political-window signal, not an operational-timeline signal. If no public text materialises within 72h of the statement, upgrade Scenario C re-escalation by +5pp and increase P(CENTCOM resumption) by +0.07. Brent pricing of the statement is noise until AIS observable confirms.
+- BRENT-PHYSICAL DIVERGENCE NOTE: Brent at $79.50 while Abqaiq Day 12 offline + dual-chokepoint active = largest price-physical disconnect of the crisis. Standard supply-demand models are non-functional in this environment. Do not use Brent as a physical-supply signal until Abqaiq statement or AIS uplift observable.
+
+---
+
+### Day 159 New Predictions
+
+**Trend:** → Same. Confidence: Medium.
+**Threat level:** 4 / 5 · Severe
+
+**Scenarios (30d):**
+- A: Negotiated framework — 28% (↑+3pp on Bessent signal)
+- B: Frozen attrition / diplomatic limbo — 50% (modal; ↓−2pp)
+- C: Re-escalation / triple-chokepoint lock-in — 22% (↓−1pp; interceptor brake active)
+
+**New T+1 predictions (gate EOD 6 Aug ET / ~04:00 UTC 7 Aug):**
+- P(Oman–Iran Hormuz route deal public text released by EOD 6 Aug ET) = 0.32 — Bessent "today or tomorrow" statement (4 Aug); Rubio "very shortly"; Qatar FM "drafts circulating"; Iran–Oman "positively advancing"; BUT IRGC veto structurally live; Iran insisting no US direct talks; gap between FM optimism and IRGC stand-down = primary blocker; 32% reflects elevated but not dominant probability given explicit Bessent signal
+- P(IRGC kinetic action — vessel strike or base attack — by EOD 6 Aug ET) = 0.40 — no confirmed action in prior 72h; talks-window courtesy cadence may extend; BUT pattern shows IRGC strikes during diplomatic advances; Bessent signal itself may trigger IRGC response; slight reduction for extended talks window
+- P(Brent closing above $82/bbl on any day 5–6 Aug) = 0.45 — Brent opened ~$79.50 on deal hopes 5 Aug; if Bessent deadline missed, Brent likely recovers toward $83–85; if deal text published, further drop to $75–78; $82 crossover depends on which signal lands first in the 48h window
+
+**T+3 predictions (gate EOD 8 Aug):**
+- P(Aramco official Abqaiq throughput statement by EOD 8 Aug) = 0.70 — Day 14 by gate; longest plausible precautionary silence; diplomatic pause reduces Saudi cover for continued silence; strong pressure building; raised from 0.65 given Day 12 already exceeded normal precautionary pattern
+- P(CENTCOM resumes strikes by EOD 8 Aug) = 0.35 — interceptor brake active (67–80% depleted per CSIS/CNN T1); Bessent deadline 6 Aug; if missed deadline + Trump "last chance" language + IRGC kinetic action = resumption likely; offset by interceptor constraint and Vance opposition; 0.35 reflects balanced assessment
+- P(Bessent "today or tomorrow" deal text miss triggers Brent reversal above $86 by EOD 8 Aug) = 0.38 — if no deal text by EOD 6 Aug, market reprices deal-hope premium back out; Brent recovery to $85–88 range plausible within 48h; Aramco disclosure adds upside tail
+
+**T+7 predictions (gate EOD 12 Aug):**
+- P(Hormuz formally reopened with verified AIS transit uplift ≥3× sustained ≥72h by EOD 12 Aug) = 0.15 — unchanged; requires full deal text + IRGC stand-down + insurer re-entry + mine clearance; 7-day window structurally too tight; Bessent signal lifts P slightly from 0.12 but operational constraints unchanged
+- P(Brent above $93/bbl on any day by EOD 12 Aug) = 0.32 — requires Aramco Abqaiq disclosure + deal collapse OR CENTCOM resumption; P(at least one catalyst) in 7 days moderate; diplomatic suppression partially offsetting; reduced from 0.35 on interceptor brake
+- P(Houthi Bab al-Mandeb fee formal implementation by EOD 12 Aug) = 0.28 — unchanged; HOCC denial is operational-security cover; Iranian advisers confirmed on-ground; no timeline set; diplomatic pause may dampen Iranian pressure on Houthi timeline; slight reduction from prior assessment
+
+**Watchlist carries (Day 159):**
+- W1: Abqaiq official Aramco throughput statement — EOD 7 Aug
+- W2: Iran–Oman Hormuz route deal public text (Bessent deadline) — EOD 6 Aug
+- W3: CENTCOM resumes strikes — EOD 8 Aug
+- W4: Houthi Bab al-Mandeb fee formal implementation — EOD 11 Aug
+- W5: Mojtaba Khamenei verified live appearance OR IRGC kinetic override collapses Oman talks — EOD 10 Aug
