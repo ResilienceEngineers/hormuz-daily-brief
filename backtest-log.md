@@ -5018,3 +5018,59 @@ Carry.
 - W3: CENTCOM resumes strikes — EOD 8 Aug
 - W4: Houthi Bab al-Mandeb fee formal implementation — EOD 11 Aug
 - W5: Mojtaba Khamenei verified live appearance OR IRGC kinetic override collapses Oman talks — EOD 10 Aug
+
+## Day 160 — 6 August 2026
+
+### T+1 Scoring (Day 159 predictions, gate EOD 6 Aug ET / ~04:00 UTC 7 Aug)
+
+| Prediction | P | Outcome | Score | Brier | Note |
+|---|---|---|---|---|---|
+| P(Oman–Iran Hormuz route deal public text released by EOD 6 Aug ET) = 0.32 | 0.32 | 0 (MISS) | MISS | 0.1024 | Deal terms leaked publicly via Axios (60-day interim structure), joint statement confirmed "in final drafting stage" (Bloomberg/Baghaei 5 Aug), but no signed public text released. CNN: 50:50 by Friday. Gate EOD 6 Aug ET technically open — scoring MISS as of 06:01 UTC 6 Aug; will carry to Day 161 if text releases 6 Aug ET. |
+| P(IRGC kinetic action — vessel strike or base attack — by EOD 6 Aug ET) = 0.40 | 0.40 | 0 (MISS — conditional) | MISS | 0.1600 | No confirmed IRGC vessel strike 4–5 Aug per GlobalSecurity OPREP Day 159 ("no new civilian casualties 4–5 Aug, consistent with absence of US strikes"). MSV Faize Noore Oliya sunk 4 Aug = Houthi, not IRGC; not countable. UKMTO Warning 104-26 = 3 Aug strike (prior window). Talks-window courtesy cadence confirmed. Gate EOD 6 Aug ET — scoring MISS as of 06:01 UTC; carry if IRGC action occurs 6 Aug ET. |
+| P(Brent closing above $82/bbl on any day 5–6 Aug) = 0.45 | 0.45 | 0 (MISS) | MISS | 0.2025 | Brent closed ~$79.26 on 5 Aug (TradingEconomics); $81.77 on 4 Aug (Forbes — below $82 threshold). Deal-optimism discount suppressed price; "fluctuated below $80 on Wednesday" (6 Aug, TradingEconomics). No close above $82 on 5 Aug or morning of 6 Aug. Gate technically open for 6 Aug close — scoring as MISS pending 6 Aug close. |
+
+**Day 160 partial Brier (3 items, pending EOD 6 Aug closes):** 0.1024 + 0.1600 + 0.2025 = **0.4649**
+**Running Brier total (provisional):** 24.1542 + 0.4649 = **24.6191** (121 items)
+**Running Brier mean (provisional):** ~0.2034
+
+**IRGC Day 159 carry item (gate EOD 5 Aug ET) — now scoreable:**
+- P(IRGC kinetic action by EOD 5 Aug ET) = 0.42 → 0 (MISS): No confirmed IRGC strike in window. Brier = 0.1764.
+- Revised running total: 24.1542 + 0.1764 = **24.3306** (119 items), mean ~0.2045.
+
+**Heuristic update (Day 160):**
+- IRGC-TALKS-PAUSE HEURISTIC CONFIRMED: Third consecutive 48h window (3–5 Aug) without IRGC vessel strike during active diplomatic talks window. Pattern established over 3 data points: IRGC stands down kinetic operations on shipping during the ~72h immediately following high-profile diplomatic signals (Bessent statement 4 Aug → no IRGC strike 4–6 Aug). This is a courtesy cadence, not a strategic commitment. Revert-to-strike probability after talks-window closure = 0.55+ per prior pattern.
+- BRENT-DEAL-DISCOUNT HEURISTIC REFINED: When US/Iran deal optimism is explicit (Bessent "today or tomorrow," Trump "tomorrow or next day"), Brent trades $5–10 below physical-supply-constrained fair value. Do not use Brent spot as physical-supply signal until AIS observable confirms. Discount collapses within 48–72h of deal deadline miss.
+
+---
+
+### Day 160 New Predictions
+
+**Trend:** → Same. Confidence: Medium.
+**Threat level:** 4 / 5 · Severe
+
+**Scenarios (30d):**
+- A: Negotiated framework — 32% (↑+4pp on leaked 60-day deal terms + CNN Gulf official 50:50 signal)
+- B: Frozen attrition / diplomatic limbo — 47% (modal; ↓−3pp)
+- C: Re-escalation / triple-chokepoint lock-in — 21% (↓−1pp; interceptor brake + talks window)
+
+**New T+1 predictions (gate EOD 7 Aug ET / ~04:00 UTC 8 Aug):**
+- P(Iran–Oman signed joint statement publicly released by EOD 7 Aug ET) = 0.40 — terms already in public domain (Axios/Bloomberg 5 Aug); CNN Gulf official 50:50 by Friday (8 Aug); Baghaei "final drafting stage"; Trump/Bessent deadline pressure building; but IRGC veto structurally live and "Iranian dominance" framing not resolved; 40% reflects elevated probability within 48h window
+- P(Abqaiq official Aramco throughput statement by EOD 7 Aug ET) = 0.55 — Day 13 by gate; Aramco Q2 results (4 Aug) provided zero specific disclosure; diplomatic window provides Saudi cover for continued silence but pressure from market and insurers building; raised from prior 0.65 but Day 12 already past heuristic threshold; Aramco Q2 non-disclosure lowers urgency signal
+- P(Brent closing above $82/bbl on any day 6–7 Aug) = 0.52 — if deal text misses 6 Aug and Brent deal-discount reverses, recovery toward $83–86 likely; if deal text published, further decline to $76–78; $82 crossover depends on which signal lands first; current ~$79.50 morning 6 Aug leaves modest upside required
+
+**T+3 predictions (gate EOD 9 Aug):**
+- P(IRGC kinetic action — vessel strike or base attack — resumes by EOD 9 Aug) = 0.45 — courtesy cadence extended 4–6 Aug; if deal text misses Friday, IRGC likely resumes kinetic ops within 48h of deadline; if text published, IRGC may still override (structural separation from FM delegation); 0.45 reflects deadline-miss scenario weighted heavily
+- P(CENTCOM resumes strikes by EOD 9 Aug) = 0.28 — interceptor constraint binding (~80% THAAD / ~50% Patriot depleted); diplomatic window; Iran GCC energy-infrastructure warning adds deterrence; primary trigger = IRGC kinetic action during deal-text window; 0.28 down from 0.35
+- P(Brent closing above $86/bbl on any day by EOD 9 Aug) = 0.42 — requires deal-text miss (likely) + Abqaiq statement OR CENTCOM resumption; at least one catalyst plausible within 72h; deal-optimism discount reversal alone worth +$5–7; Abqaiq disclosure adds $15–25 tail
+
+**T+7 predictions (gate EOD 13 Aug):**
+- P(Hormuz formally reopened with verified AIS transit uplift ≥3× sustained ≥72h by EOD 13 Aug) = 0.15 — raised from 0.12 on deal-terms public signal; still requires signed text + IRGC stand-down + insurer re-entry + mine-clearance progress; 7-day window structurally tight; mine clearance alone takes 30 days per deal terms
+- P(Houthi Bab al-Mandeb fee formal implementation by EOD 13 Aug) = 0.25 — Iranian adviser architecture on-ground; no timeline set; diplomatic pause may suppress Iranian pressure on Houthi timeline; MSV sinking escalation increases operational confidence; slight reduction on diplomatic window dampening
+- P(Brent above $93/bbl on any day by EOD 13 Aug) = 0.35 — requires Abqaiq disclosure + deal collapse OR CENTCOM resumption; P(at least one catalyst in 7 days) moderate; deal-optimism suppressing market currently; raised from 0.30 on Abqaiq Day 12+ silence extending information hazard
+
+**Watchlist carries (Day 160):**
+- W1: Iran–Oman signed joint statement publicly released — EOD 8 Aug (Friday)
+- W2: Abqaiq official Aramco throughput statement — EOD 8 Aug
+- W3: CENTCOM resumes strikes — EOD 9 Aug
+- W4: Houthi Bab al-Mandeb fee formal implementation — EOD 12 Aug
+- W5: Mojtaba Khamenei verified live appearance OR IRGC kinetic override collapses Oman talks — EOD 10 Aug
