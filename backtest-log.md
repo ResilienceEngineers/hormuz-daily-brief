@@ -5074,3 +5074,70 @@ Carry.
 - W3: CENTCOM resumes strikes — EOD 9 Aug
 - W4: Houthi Bab al-Mandeb fee formal implementation — EOD 12 Aug
 - W5: Mojtaba Khamenei verified live appearance OR IRGC kinetic override collapses Oman talks — EOD 10 Aug
+
+## Day 161 — 7 August 2026
+
+### T+1 scoring (Day 160 predictions, gate EOD 7 Aug ET / 06:00 UTC cut)
+
+| Prediction | P | Outcome | Result | Brier |
+|---|---|---|---|---|
+| P(Iran–Oman signed joint statement publicly released by EOD 7 Aug ET) | 0.40 | 0 (MISS — framework in principle per NBC/MS NOW 6 Aug but no signed public text as of 06:00 UTC 7 Aug; gate closes EOD 7 Aug ET; scoring MISS at publication time) | MISS | 0.1600 |
+| P(Abqaiq official Aramco throughput statement by EOD 7 Aug ET) | 0.55 | 0 (MISS — Day 12 silence confirmed; no statement found) | MISS | 0.3025 |
+| P(Brent closing above $82/bbl on any day 6–7 Aug) | 0.52 | 1 (HIT — TradingEconomics: $83.34 on 6 Aug; Fortune: $83.64 at 7am ET on 6 Aug; deal-discount reversal on Bessent deadline miss) | HIT | 0.2304 |
+
+**Day 160 T+1 Brier (3 items): 0.1600 + 0.3025 + 0.2304 = 0.6929**
+
+**Note on Brent HIT:** Bessent-Deadline-Miss Heuristic confirmed: Brent bounced $4 (+4.9%) on 6 Aug as deadline missed without text. Discount-reversal timing accurate (predicted ~48–72h). Heuristic validated.
+
+**Note on Iran–Oman statement MISS:** "Final stages" language active since 5 Aug; NBC/MS NOW 6 Aug confirmed framework but no signed text. Pattern: third "imminent" signal without release. Deadline-slip heuristic needed: every "final stages" signal should discount by 40% for probability of same-day release.
+
+**Day 160 T+3 (gate EOD 9 Aug) — carry forward:**
+- P(IRGC kinetic action by EOD 9 Aug) = 0.45
+- P(CENTCOM resumes strikes by EOD 9 Aug) = 0.28
+- P(Brent closing above $86/bbl on any day by EOD 9 Aug) = 0.42
+
+**Day 160 T+7 (gate EOD 13 Aug) — carry forward:**
+- P(Hormuz formally reopened AIS ≥3× sustained ≥72h by EOD 13 Aug) = 0.15
+- P(Houthi BAM fee formal implementation by EOD 13 Aug) = 0.25
+- P(Brent above $93/bbl on any day by EOD 13 Aug) = 0.35
+
+**Running Brier total (updated):** 24.6191 + 0.6929 = **25.3120** (124 items)
+**Running Brier mean:** ~0.2041
+
+---
+
+### Day 161 New Predictions
+
+**Trend:** → Same. Confidence: Medium.
+**Threat level:** 4 / 5 · Severe
+
+**Scenarios (30d):**
+- A: Negotiated framework — 34% (↑+2pp on coordinates agreed + Oman framework confirmed)
+- B: Frozen attrition / diplomatic limbo — 46% (modal; ↓−1pp)
+- C: Re-escalation / triple-chokepoint lock-in — 20% (→)
+
+**New T+1 predictions (gate EOD 8 Aug ET / ~04:00 UTC 9 Aug):**
+- P(Iran–Oman signed joint statement publicly released by EOD 8 Aug ET — Friday deadline) = 0.42 — NBC/MS NOW 6 Aug Oman framework confirmation is the strongest Omani-side signal yet; CNN Gulf official 50:50 by Friday; Iranian official "soon"; but Iran's blockade-lift conditionality publicly maintained; prior near-deal collapsed; "final stages" discount heuristic applies; three prior deadline slips; 0.42 reflects elevated but not majority probability
+- P(Abqaiq official Aramco throughput/restart statement by EOD 8 Aug ET) = 0.48 — Day 13 at gate; diplomatic window provides Saudi cover; but market/insurer pressure building; Jazan 15 Aug target in sight; Aramco Q2 non-disclosure pattern suggests preference for silence; slight reduction from 0.55 on confirmed Day 12 miss
+- P(IRGC kinetic action on shipping or US assets by EOD 8 Aug ET) = 0.18 — courtesy cadence Day 5; talks window still active; deal-text publication this week would extend cadence; deal-text miss creates pressure but Friday-Saturday timing less operationally convenient; low probability within 24h window
+
+**T+3 predictions (gate EOD 10 Aug):**
+- P(IRGC kinetic action by EOD 10 Aug) = 0.50 — if deal text misses Friday (P~0.58), IRGC revert-to-strike probability within 48h = 0.55+ per heuristic; 0.50 = 0.58 × 0.55 + 0.42 × 0.10 (residual during deal-window)
+- P(CENTCOM resumes strikes by EOD 10 Aug) = 0.22 — interceptor constraint binding; primary trigger = IRGC kinetic action; deal-miss scenario weighted; down slightly from 0.28 on diplomatic progress
+- P(Brent above $86/bbl on any day by EOD 10 Aug) = 0.38 — requires deal-miss (likely) + Abqaiq disclosure OR IRGC kinetic; $83.34 starting point; +$3–5 from deadline miss alone plausible; keep from prior estimate
+
+**T+7 predictions (gate EOD 14 Aug):**
+- P(Hormuz AIS ≥3× uplift sustained ≥72h by EOD 14 Aug) = 0.16 — slight uptick on framework agreement; still requires signed text + IRGC stand-down + insurer re-entry + mine clearance; 7-day window structurally tight
+- P(Houthi BAM fee formal implementation by EOD 14 Aug) = 0.24 — fourth Saudi tanker struck confirms operational posture; no formal timeline; Iranian diplomatic window may suppress; slight reduction from 0.25
+- P(Brent above $93/bbl on any day by EOD 14 Aug) = 0.33 — requires Abqaiq disclosure + deal collapse OR CENTCOM resumption; Jazan 15 Aug restart target approaches; modest reduction from 0.35 on deal-progress signal
+
+**Watchlist carries (Day 161):**
+- W1: Iran–Oman signed joint statement publicly released — EOD 8 Aug (Friday)
+- W2: Abqaiq official Aramco throughput statement — EOD 9 Aug
+- W3: CENTCOM resumes strikes — EOD 10 Aug
+- W4: Houthi Bab al-Mandeb fee formal implementation — EOD 12 Aug
+- W5: Mojtaba Khamenei verified live public appearance OR IRGC kinetic override during talks window — EOD 10 Aug
+
+**Heuristic updates (Day 161):**
+- DEADLINE-SLIP DISCOUNT HEURISTIC (NEW): "Final stages" or "imminent" diplomatic language from Iranian FM should be discounted ~40% for same-week release probability. Pattern confirmed across three consecutive deadline slips (Bessent 4 Aug, 5 Aug, 6 Aug; prior near-deal collapse ~3 weeks ago per Axios). Apply to all future "final stages" signals from Iranian FM until Oman independently confirms release.
+- BRENT-DEADLINE-MISS REVERSAL CONFIRMED: $83.34 on 6 Aug (+4.9%) = deal-discount reversal on Bessent deadline miss, exactly as predicted. Heuristic: when Trump/Bessent deadline misses without text, Brent +$3–6 within 24–48h. Magnitude was at low end of $5–10 predicted range; update range to $3–6 for short-term reversals.
