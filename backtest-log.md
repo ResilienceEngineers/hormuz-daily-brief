@@ -5141,3 +5141,74 @@ Carry.
 **Heuristic updates (Day 161):**
 - DEADLINE-SLIP DISCOUNT HEURISTIC (NEW): "Final stages" or "imminent" diplomatic language from Iranian FM should be discounted ~40% for same-week release probability. Pattern confirmed across three consecutive deadline slips (Bessent 4 Aug, 5 Aug, 6 Aug; prior near-deal collapse ~3 weeks ago per Axios). Apply to all future "final stages" signals from Iranian FM until Oman independently confirms release.
 - BRENT-DEADLINE-MISS REVERSAL CONFIRMED: $83.34 on 6 Aug (+4.9%) = deal-discount reversal on Bessent deadline miss, exactly as predicted. Heuristic: when Trump/Bessent deadline misses without text, Brent +$3–6 within 24–48h. Magnitude was at low end of $5–10 predicted range; update range to $3–6 for short-term reversals.
+
+## Day 162 — 8 August 2026
+
+### T+1 scoring (Day 161 predictions, gate EOD 8 Aug ET / ~04:00 UTC 9 Aug — partial window at 06:00 UTC cut-off)
+
+| Prediction | P | Outcome | Result | Brier |
+|---|---|---|---|---|
+| P(Iran–Oman signed joint statement released by EOD 8 Aug ET) | 0.42 | INCOMPLETE at cut-off — ABC News live blog (updated ~20:00 UTC 7 Aug): "framework finalized" language, no signed text confirmed by 06:00 UTC 8 Aug; gate closes EOD 8 Aug ET; scoring MISS at publication time (fourth consecutive slip) | MISS | 0.1764 |
+| P(Abqaiq official Aramco throughput statement by EOD 8 Aug ET) | 0.48 | 0 — Aramco Q2 published 4 Aug confirmed output −25% Q1→Q2 and CEO declined asset-by-asset status on Abqaiq/Jubail/Yanbu in earnings call; financial disclosure happened but specific Abqaiq throughput/restart statement NOT issued; gate: MISS | MISS | 0.2304 |
+| P(IRGC kinetic action on shipping or US assets by EOD 8 Aug ET) | 0.18 | INCOMPLETE at cut-off — TradingEconomics: explosions near Qeshm Island reported (unconfirmed attribution); no Hard-tier confirmation of new IRGC strike by 06:00 UTC 8 Aug; gate closes EOD 8 Aug ET; scoring as 0 pending; MISS at publication | MISS | 0.0324 |
+
+**Day 161 T+1 Brier (3 items): 0.1764 + 0.2304 + 0.0324 = 0.4392**
+
+**Note on Iran-Oman MISS (4th slip):** "Framework finalized" (7 Aug) > "final stages" (5 Aug) > "agreed in principle" (6 Aug) > coordinates agreed (5 Aug) — escalating language pattern with zero signed-text releases. Deadline-Slip Discount Heuristic confirmed again. Update heuristic: even "finalized" language from Iranian FM without Oman FM independent confirmation should be discounted 50% (up from 40%) for same-week release probability.
+
+**Note on Abqaiq MISS (confirmed):** Aramco Q2 call (4 Aug) shows CEO explicitly deflected on asset-by-asset status. Q2 output data (9.46M vs. 12.61M bpd) confirms damage is real and material but is not the "Abqaiq throughput/restart statement" gate. Information hazard remains active. Pattern: Aramco will not voluntarily disclose facility-level damage while Abqaiq remains impaired.
+
+**Note on IRGC MISS:** TradingEconomics reports Qeshm Island explosions but no Hard-tier confirmation. Courtesy cadence extended — consistent with prediction of low P(0.18) during active talks window.
+
+**T+3 scoring (Day 160 predictions, gate EOD 9 Aug — carry forward, score tomorrow):**
+- P(IRGC kinetic action by EOD 9 Aug) = 0.45 → CARRY FORWARD
+- P(CENTCOM resumes strikes by EOD 9 Aug) = 0.28 → CARRY FORWARD
+- P(Brent closing above $86/bbl on any day by EOD 9 Aug) = 0.42 → PARTIAL: Fortune reports Brent $86.04 at 5:20am ET on 7 Aug — this crosses the $86 threshold on a day within the EOD 9 Aug window. **HIT** — Brent $86.04 on 7 Aug confirmed via Fortune (T2). Brier: 0.42 → outcome 1 → (1−0.42)² = 0.3364
+
+**T+7 scoring (Day 160 predictions, gate EOD 13 Aug — carry forward):**
+- P(Hormuz AIS ≥3× uplift sustained ≥72h by EOD 13 Aug) = 0.15 → CARRY FORWARD
+- P(Houthi BAM fee formal implementation by EOD 13 Aug) = 0.24 → CARRY FORWARD (Houthi northern Red Sea expansion escalates probability — watch)
+- P(Brent above $93/bbl on any day by EOD 13 Aug) = 0.33 → CARRY FORWARD
+
+**Partial T+3 Brier scored today (1 item, Brent $86): 0.3364**
+**Running Brier total (updated):** 25.3120 + 0.4392 + 0.3364 = **26.0876** (127 items)
+**Running Brier mean:** ~0.2054
+
+---
+
+### Day 162 New Predictions
+
+**Trend:** → Same. Confidence: Medium.
+**Threat level:** 4 / 5 · Severe
+
+**Scenarios (30d):**
+- A: Negotiated framework — 36% (↑+2pp — "finalized" language strongest yet; 60-day structure confirmed by US and Iranian officials to T1 outlet)
+- B: Frozen attrition / diplomatic limbo — 45% (modal; ↓−1pp)
+- C: Re-escalation / triple-chokepoint lock-in — 19% (↓−1pp; talks window active; IRGC cadence quiet day 6)
+
+**New T+1 predictions (gate EOD 9 Aug ET / ~04:00 UTC 10 Aug):**
+- P(Iran-Oman signed joint statement confirmed by Oman FM by EOD 9 Aug ET) = 0.38 — "Finalized" language from 7 Aug is strongest yet but represents fourth consecutive deadline slip; Deadline-Slip Heuristic upgraded to 50% discount; weekend timing slightly more favorable for quiet release; but Iran's stated blockade-lift conditionality still publicly incompatible with US position; Oman FM must independently confirm; 0.38 reflects elevated but sub-majority probability
+- P(Houthi follow-on strike against Yanbu terminal or EWP infrastructure by EOD 9 Aug ET) = 0.22 — Wafa strike (5 Aug) established northern Red Sea operational capability; Houthi spokesman explicitly declared escalation; 48h window from cut-off; probability elevated from prior baseline but talks window may suppress IRGC-instructed operations; independent Houthi action harder to suppress
+- P(Brent closing above $88/bbl on any day by EOD 9 Aug ET) = 0.28 — $86.04 on 7 Aug is the recent high; deal-text miss + Yanbu follow-on scenario could push to $88+; but deal-progress language partially offsetting; current $82–86 range; requires additional catalyst
+
+**T+3 predictions (gate EOD 11 Aug):**
+- P(IRGC kinetic action by EOD 11 Aug) = 0.48 — if deal text misses EOD 9 Aug (P~0.62), IRGC revert-to-strike probability within 48h = 0.55+ per heuristic; 0.48 = 0.62 × 0.55 + 0.38 × 0.10 (residual during deal-window if text released)
+- P(CENTCOM resumes strikes by EOD 11 Aug) = 0.20 — interceptor constraint binding; primary trigger = IRGC kinetic; deal-miss scenario elevated; down from 0.22 on slight diplomatic progress
+- P(Yanbu terminal confirmed operationally impaired by EOD 11 Aug) = 0.18 — Houthi declared escalation; operational capability confirmed (Wafa 5 Aug); but terminal hardening and Saudi air defenses likely active; 72h window
+
+**T+7 predictions (gate EOD 15 Aug):**
+- P(Hormuz AIS ≥3× uplift sustained ≥72h by EOD 15 Aug) = 0.18 — slight uptick on "finalized" framework; still requires signed text + IRGC stand-down + insurer re-entry + mine clearance; 7-day window structurally tight
+- P(Houthi BAM fee formal implementation by EOD 15 Aug) = 0.26 — northern Red Sea expansion signals operational independence from Iranian diplomatic track; modest uptick from 0.24
+- P(Brent above $93/bbl on any day by EOD 15 Aug) = 0.34 — requires Abqaiq disclosure + deal collapse OR CENTCOM resumption OR Yanbu confirmed impaired; modest uptick from 0.33 on Yanbu threat materialization
+
+**Watchlist carries (Day 162):**
+- W1: Iran-Oman signed joint statement confirmed by Oman FM — EOD 9 Aug
+- W2: Houthi follow-on strike at Yanbu terminal — EOD 12 Aug (highest-priority new item)
+- W3: Aramco Abqaiq specific throughput/restart statement — EOD 10 Aug
+- W4: IRGC kinetic action on shipping or US assets — EOD 10 Aug
+- W5: Houthi Bab al-Mandeb fee formal implementation — EOD 14 Aug
+
+**Heuristic updates (Day 162):**
+- DEADLINE-SLIP DISCOUNT HEURISTIC (UPDATED): Upgraded from 40% to 50% discount for same-week release probability on "finalized" or "imminent" language from Iranian FM without independent Oman FM confirmation. Pattern now confirmed across four consecutive deadline slips (Bessent 4 Aug, 5 Aug, 6 Aug, 7 Aug); even "finalized" language without Oman FM confirmation should be treated as a signal of negotiating progress, not release imminence.
+- YANBU TERMINAL RISK (NEW HEURISTIC): First Houthi strike in northern Red Sea (Wafa, 5 Aug off Yanbu) establishes operational capability and declared intent. Subsequent 72h cadence probability = 0.22 per window (baseline). If Yanbu terminal is operationally impaired: all Saudi export capacity collapses to near-zero; this is a Threat-5 trigger event equivalent to or exceeding Abqaiq disclosure in supply impact.
+- ARAMCO NON-DISCLOSURE PATTERN CONFIRMED: CEO declined asset-by-asset status on Q2 call despite direct analyst question (4 Aug). Pattern: Aramco will not disclose Abqaiq facility-level status while impairment is active. Abqaiq throughput/restart disclosure should now be treated as a voluntary disclosure with P(release) ~0.10/week until operational restart — do not model as a scheduled disclosure event.
