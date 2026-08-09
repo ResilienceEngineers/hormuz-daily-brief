@@ -5212,3 +5212,74 @@ Carry.
 - DEADLINE-SLIP DISCOUNT HEURISTIC (UPDATED): Upgraded from 40% to 50% discount for same-week release probability on "finalized" or "imminent" language from Iranian FM without independent Oman FM confirmation. Pattern now confirmed across four consecutive deadline slips (Bessent 4 Aug, 5 Aug, 6 Aug, 7 Aug); even "finalized" language without Oman FM confirmation should be treated as a signal of negotiating progress, not release imminence.
 - YANBU TERMINAL RISK (NEW HEURISTIC): First Houthi strike in northern Red Sea (Wafa, 5 Aug off Yanbu) establishes operational capability and declared intent. Subsequent 72h cadence probability = 0.22 per window (baseline). If Yanbu terminal is operationally impaired: all Saudi export capacity collapses to near-zero; this is a Threat-5 trigger event equivalent to or exceeding Abqaiq disclosure in supply impact.
 - ARAMCO NON-DISCLOSURE PATTERN CONFIRMED: CEO declined asset-by-asset status on Q2 call despite direct analyst question (4 Aug). Pattern: Aramco will not disclose Abqaiq facility-level status while impairment is active. Abqaiq throughput/restart disclosure should now be treated as a voluntary disclosure with P(release) ~0.10/week until operational restart — do not model as a scheduled disclosure event.
+
+## Day 163 — 9 August 2026
+
+### T+1 scoring (Day 162 predictions, gate EOD 9 Aug)
+
+| Prediction | P | Outcome | Score (Brier) |
+|---|---|---|---|
+| Iran-Oman signed joint statement confirmed by Oman FM by EOD 9 Aug | 0.38 | MISS — No signed text; Araghchi "very close" 8 Aug; no Oman FM confirmation; SNSC maximalist demands issued same day | (0−0.38)² = 0.1444 |
+| Houthi follow-on strike at Yanbu terminal by EOD 9 Aug | 0.22 | MISS — No new Yanbu terminal infrastructure hit confirmed as of 06:00 UTC 9 Aug (NCC Wafa was 5 Aug, prior period) | (0−0.22)² = 0.0484 |
+| Brent above $88/bbl by EOD 9 Aug | 0.28 | MISS — Brent $81.52–$84.44 range on 9 Aug; no close above $88 | (0−0.28)² = 0.0784 |
+
+**T+1 Brier (3 items): 0.2712**
+
+### T+3 scoring (Day 160 predictions carried, gate EOD 9 Aug)
+
+| Prediction | P | Outcome | Score (Brier) |
+|---|---|---|---|
+| IRGC kinetic action by EOD 9 Aug | 0.45 | HIT — IRGC missile strikes ADNOC tanker in Hormuz 8 Aug; confirmed Reuters (T1)/UAE FM (Hard T1) | (1−0.45)² = 0.3025 |
+| CENTCOM resumes strikes by EOD 9 Aug | 0.28 | MISS — No CENTCOM confirmed strike 1–9 Aug; 9th consecutive night pause per GlobalSecurity Day 161 (T2) | (0−0.28)² = 0.0784 |
+
+**T+3 Day 160 Brier (2 items this gate): 0.3809**
+
+**Running Brier total: 26.0876 + 0.2712 + 0.3809 = 26.7397 (132 items)**
+**Running Brier mean: ~0.2026**
+
+---
+
+### Prediction quality notes
+
+- **HIT (IRGC kinetic, 0.45):** Correctly elevated from prior baseline; ADNOC strike confirmed IRGC cadence does not pause for talks window. Heuristic validated.
+- **MISS (Iran-Oman joint statement, 0.38):** Fifth consecutive miss on "finalized"/"very close" language. Deadline-Slip Heuristic should have capped P at 0.28–0.30 max. Recalibrate: subsequent "very close" language should be discounted to P ≤ 0.25 until Oman FM independent confirmation is the prior, not the posterior.
+- **MISS (Brent $88, 0.28):** Market pricing residual deal probability; structural mispricing persists. SNSC maximalist demands and ADNOC strike failed to push above $86 range — demand destruction + JP Morgan $86 Q3 forecast are floor/ceiling anchors. Revise Brent upside model: $88+ now requires Yanbu terminal impairment OR Abqaiq disclosure, not just SNSC rhetoric alone.
+
+---
+
+### Day 163 New Predictions
+
+**Trend:** ↑ Worse. Confidence: High.
+**Threat level:** 4 / 5 · Severe (maintained; approaching Threat-5 threshold if Yanbu hit or parliament bill enacted)
+
+**Scenarios (30d):**
+- A: Negotiated framework — 32% (↓−4pp)
+- B: Frozen attrition / diplomatic limbo — 47% (↑+2pp; modal)
+- C: Re-escalation / triple-chokepoint — 21% (↑+2pp)
+
+**New T+1 predictions (gate EOD 10 Aug ET / ~04:00 UTC 11 Aug):**
+- P(Oman FM issues independent statement confirming signed Iran-Oman joint text by EOD 10 Aug) = 0.22 — Iran FM "very close" language (8 Aug) = fifth miss; Deadline-Slip Heuristic now at maximum discount; SNSC maximalist demands make even a technical text politically hollow; recalibrated from 0.38 to 0.22 per methodology note above
+- P(CENTCOM resumes strikes by EOD 10 Aug in response to ADNOC attack) = 0.22 — ADNOC 8 Aug strike is a clear trigger; but interceptor constraint confirmed (CNN/JCS off-ramp sources); CENTCOM pause now 9+ nights; 0.22 reflects elevated but constraint-bounded probability
+- P(Brent closing above $86/bbl on 10 Aug) = 0.30 — current $81–84; SNSC demands + ADNOC strike partially priced; catalyst required (CENTCOM resumption or Yanbu news) for $86+ close; JP Morgan Q3 $86 average = near-term ceiling in baseline scenario
+
+**T+3 predictions (gate EOD 12 Aug):**
+- P(IRGC kinetic action on additional Gulf-state shipping by EOD 12 Aug) = 0.55 — ADNOC strike 8 Aug is 16th vessel; IRGC cadence confirmed to not pause for talks; GCC-target expansion pattern active; 72h window
+- P(Yanbu terminal AIS/satellite confirms operational impairment by EOD 12 Aug) = 0.18 — Houthi declared escalation; NCC Wafa (5 Aug) established capability; but terminal hardening and Saudi air defenses active; Houthi may target approaching tankers rather than terminal infrastructure directly
+- P(Iran parliament Hormuz bill advances to floor vote by EOD 12 Aug) = 0.20 — bill under committee review; "experts invited to submit recommendations" (Reuters 6 Aug) = not imminent; but SNSC maximalist demands may accelerate parliamentary action
+
+**T+7 predictions (gate EOD 16 Aug):**
+- P(Hormuz AIS ≥3× uplift sustained ≥72h by EOD 16 Aug) = 0.12 — SNSC conditions now structurally block even a technical Iran-Oman deal from translating to reopening; reduced from 0.18
+- P(Houthi BAM fee formal implementation by EOD 16 Aug) = 0.28 — northern Red Sea expansion + operational independence from Iranian diplomatic track; modest uptick from 0.26
+- P(Brent above $93/bbl on any day by EOD 16 Aug) = 0.30 — requires Yanbu impairment OR Abqaiq disclosure OR CENTCOM resumption triggering IRGC counter-strike; modestly elevated from 0.34 on SNSC-only not sufficient for $93+ per today's market data
+
+**Watchlist carries (Day 163):**
+- W1: Iran-Oman signed joint statement — Oman FM independent confirmation — EOD 11 Aug
+- W2: CENTCOM resumption following IRGC ADNOC strike — EOD 12 Aug (highest priority)
+- W3: Houthi follow-on strike at Yanbu terminal/EWP infrastructure — EOD 13 Aug
+- W4: Iran parliament Hormuz bill enacted — EOD 16 Aug
+- W5: Houthi BAM fee formal implementation — EOD 15 Aug
+
+**Heuristic updates (Day 163):**
+- DEADLINE-SLIP HEURISTIC (FINAL CALIBRATION): After five consecutive misses on "finalized"/"very close" language from Iranian FM without Oman FM confirmation, cap subsequent same-week "close" language at P ≤ 0.22 until Oman FM independently confirms signed text. "Very close" language is now analytically equivalent to a signal of continued negotiation, not release imminence.
+- BRENT $88 TRIGGER REVISION: SNSC rhetoric alone insufficient to push Brent to $88+. Revised trigger set: (a) Yanbu terminal operational impairment confirmed, OR (b) Abqaiq facility status disclosed showing >25% further impairment, OR (c) CENTCOM resumption of strikes triggering IRGC counter-response. Pure diplomatic language moves Brent ±$2–3, not ±$5+.
+- IRGC GCC-TARGET EXPANSION CONFIRMED: ADNOC (8 Aug) is the first GCC-state neutral struck in a high-profile, UAE FM-confirmed event during the active talks window. Model IRGC targeting as systematically expanding to Gulf-state neutrals to pressure GCC states into demanding US de-escalation. This changes the risk calculus for non-US-flagged Gulf-state vessels transiting Hormuz.
