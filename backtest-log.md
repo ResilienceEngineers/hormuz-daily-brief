@@ -5357,3 +5357,90 @@ Carry.
 - CENTCOM RESUMPTION TRIGGER REVISION: 11-day pause + GCC diplomatic pressure (MBS) + interceptor constraint = structural pause architecture. Previous model: any IRGC strike on GCC-neutral triggers resumption within 72h. Revised: IRGC-on-neutral insufficient alone. New trigger set: (a) IRGC strike on US-flagged/affiliated vessel, OR (b) Trump public authorisation statement (not just optimism language), OR (c) IRGC strike kills US personnel. Adjust P(CENTCOM resumption) downward by 0.04 in absence of these specific triggers.
 - IRAN DEAL-TERM UNILATERAL PUBLICATION PATTERN (NEW): Iran is now publicly disclosing draft deal terms without Oman co-signature — a new strategic signalling behaviour. Treat Iran's unilateral term disclosures as domestic political positioning + US pressure signals, NOT as evidence of imminent co-signature. Oman FM co-signature remains the only valid confirmation event. Raise the analytical weight of this distinction in all future diplomatic category assessments.
 - BRENT $86 TRIGGER (CONFIRMED): JP Morgan $86 Q3 ceiling confirmed as structural ceiling in modal Sc B. SNSC rhetoric + IRGC-on-neutral strikes + Iran deal-term disclosure = $81–84 range. Hard triggers required for $86+ close: Yanbu sustained impairment, Abqaiq disclosure, or CENTCOM resumption. Reduce base-case $86+ probability to 0.22 per session in absence of confirmed hard trigger.
+
+## Day 165 — 11 August 2026
+
+### T+1 scoring (Day 164 predictions, gate EOD 11 Aug)
+
+| Prediction | P | Outcome | Score (Brier) |
+|---|---|---|---|
+| P(Oman FM confirms signed Iran-Oman joint text by EOD 11 Aug) | 0.18 | MISS — No signed joint text. 7th consecutive deadline miss. Iran "final stages" language unchanged. | (1−0.18)² = 0.672 |
+| P(CENTCOM resumes offensive strikes on Iran by EOD 11 Aug) | 0.18 | MISS — CENTCOM pause at Day 12+; no new Iran strikes confirmed as of 06:00 UTC 11 Aug. | (1−0.18)² = 0.672 |
+| P(Brent closing above $84.50 on 11 Aug) | 0.45 | HIT — Brent $87.69 close 10 Aug; $87.72 open 11 Aug. Well above $84.50. Jazan re-strike + Rezaei appointment + Iran rejecting US talks drove 4.95% surge. | (1−0.45)² = 0.303 |
+
+**T+1 Brier average: 0.549** (2 misses, 1 hit; Brent call well-placed at 0.45 — would have been higher in hindsight given Jazan + Rezaei signal accumulation)
+
+**Calibration note:** Brent $84.50 HIT confirms Jazan re-strike + hardliner appointment = sufficient trigger without Yanbu impairment. Brent $86 ceiling broken on 10 Aug — JP Morgan ceiling revision confirmed. New structural floor estimated $84–88 in Sc B absent Yanbu impairment. Recalibrate: Brent >$86 in Sc B now base case, not tail. Brent $93+ trigger still requires Yanbu impairment or CENTCOM resumption.
+
+**Heuristic update (Day 165):** REZAEI SNSC APPOINTMENT SIGNAL (NEW): Rezaei as SNSC head = IRGC doctrinal primacy confirmed. His faction's explicit strategy: sustained fighting to maximise US midterm pain. Treat as 90-day extension signal for modal Sc B. Raises P(IRGC probe on US-affiliated asset within 72h) = 0.45 (new, Day 165). Raises P(Sc C within 30d) by 3pp to 26%.
+
+---
+
+### T+3 scoring (Day 162 predictions, gate EOD 11 Aug — carried)
+
+*No Day 162 T+3 predictions in log. First standing gate: Day 163 T+3 = EOD 12 Aug (carried).*
+
+---
+
+### T+3 pending (Day 163 predictions, gate EOD 12 Aug)
+
+| Prediction | P | Outcome |
+|---|---|---|
+| IRGC kinetic action on additional Gulf-state shipping by EOD 12 Aug | 0.55 | PENDING — gate EOD 12 Aug |
+| Yanbu terminal AIS/satellite confirms operational impairment by EOD 12 Aug | 0.18 | PENDING — gate EOD 12 Aug |
+| Iran parliament Hormuz bill advances to floor vote by EOD 12 Aug | 0.20 | PENDING — gate EOD 12 Aug |
+
+---
+
+### T+3 pending (Day 164 predictions, gate EOD 13 Aug)
+
+| Prediction | P | Outcome |
+|---|---|---|
+| P(IRGC kinetic action on Gulf-state or Western-flagged vessel by EOD 13 Aug) | 0.60 | PENDING |
+| P(Yanbu terminal AIS/satellite confirms operational impairment by EOD 13 Aug) | 0.20 | PENDING |
+| P(US formally rejects Iran's disclosed Hormuz deal terms by EOD 13 Aug) | 0.55 | PARTIAL HIT — Trump "scoffed at reparations" (AP 10 Aug) = de facto public rejection; no formal statement yet. Gate EOD 13 Aug |
+
+---
+
+### T+7 pending (Day 158 predictions, gate EOD 11 Aug — none in log)
+
+*No Day 158 T+7 predictions in log.*
+
+---
+
+### Day 165 New Predictions
+
+**Trend:** ↑ Worse. Confidence: High.
+**Threat level:** 4 / 5 · Severe (maintained; reinforced by hardliner appointment)
+
+**Scenarios (30d):**
+- A: Negotiated framework — 24% (↓−4pp; Rezaei appointment structurally depresses)
+- B: Frozen attrition / diplomatic limbo — 50% (↑+1pp; modal; Rezaei "sustained pain" doctrine = frozen attrition by design)
+- C: Re-escalation / triple-chokepoint — 26% (↑+3pp; elevated by Rezaei + Jazan re-strike + Brent through $86)
+
+**New T+1 predictions (gate EOD 12 Aug ET / ~04:00 UTC 13 Aug):**
+- P(Oman FM confirms signed Iran-Oman joint text by EOD 12 Aug) = 0.15 — 8th consecutive deadline gate; Rezaei appointment now structurally further depresses co-signature probability; Iran's SNSC hardliner controls the release decision; Deadline-Slip Heuristic applies; cap at ≤0.15
+- P(Rezaei issues first public operational Hormuz directive by EOD 12 Aug) = 0.40 — New SNSC head within 72h of appointment; doctrine implies immediate signalling; his appointment announcement included explicit "Hormuz will not reopen until US corrects behaviour" language
+- P(Brent closing above $88.00 on 12 Aug) = 0.40 — Current $87.72; Rezaei appointment still partially unpriced; any IRGC incident in next 24h = +$1–2; new structural floor ~$85–86; ceiling requires Yanbu confirmation
+
+**T+3 predictions (gate EOD 14 Aug):**
+- P(IRGC kinetic action on Gulf-state or Western-flagged vessel in Hormuz by EOD 14 Aug) = 0.70 — Rezaei "sustained pain" doctrine + confirmed ~1 incident per 2.3-day IRGC cadence + 72h post-appointment signalling window = elevated; raised from 0.60
+- P(Yanbu terminal confirmed operational impairment via AIS/satellite by EOD 14 Aug) = 0.22 — Jazan struck twice; Houthi cadence on Saudi infrastructure increasing; Yanbu interceptors (Greek Patriot) active constraint; modestly elevated from 0.20
+- P(Iran parliament Hormuz bill advances to committee vote by EOD 14 Aug) = 0.35 — Rezaei appointment accelerates hardliner legislative agenda; bill under review; 3-day window; raised from 0.20
+
+**T+7 predictions (gate EOD 18 Aug):**
+- P(Hormuz AIS ≥3× uplift sustained ≥72h by EOD 18 Aug) = 0.08 — Rezaei appointment further reduces near-term reopening probability; reduced from 0.10
+- P(Houthi follow-on infrastructure strike at Yanbu (terminal, berth, or pipeline) by EOD 18 Aug) = 0.42 — Jazan pattern (2 strikes in 2 weeks) suggests escalating tempo; Yanbu is next logical target; Saudi Patriot intercepts are imperfect; raised from 0.35 (7-day window)
+- P(Brent above $93/bbl on any day by EOD 18 Aug) = 0.30 — Rezaei appointment qualifies as partial trigger; still requires Yanbu impairment OR CENTCOM resumption for $93+; maintained at 0.30 (same as Day 164 due to partial offsetting by deal-mirage reduction)
+
+**Watchlist carries (Day 165):**
+- W1: Oman FM confirms signed Iran-Oman joint text — EOD 13 Aug (8th gate)
+- W2: Rezaei first operational Hormuz directive or IRGC probe on US-affiliated vessel — EOD 13 Aug
+- W3: Yanbu terminal confirmed impairment — EOD 14 Aug
+- W4: Iran parliament Hormuz bill floor vote — EOD 17 Aug
+- W5: Trump formal public response to all six SNSC conditions (Zolghadr list) — EOD 13 Aug
+
+**Heuristic updates (Day 165):**
+- REZAEI SNSC APPOINTMENT (NEW): Former IRGC chief Rezaei as SNSC head = IRGC doctrinal primacy over diplomatic track. His faction's strategy: sustained fighting to maximise US pain and midterm election pressure. Operational implication: (a) raise P(IRGC probe on US-affiliated asset) by 0.10 vs prior baseline; (b) extend modal Sc B planning horizon from 30d to 90d; (c) treat any Rezaei public Hormuz statement as Hard-tier strategic signal, not routine rhetoric.
+- BRENT $86 CEILING BROKEN (CONFIRMED): $87.69 close 10 Aug confirms new structural floor at $84–86 in Sc B (frozen attrition with hardliner). Revised trigger set for $93+: Yanbu sustained impairment OR CENTCOM resumption (unchanged from Day 163/164). Rezaei appointment alone insufficient for $93+ but raises structural floor.
+- 7TH OMAN DEAL DEADLINE MISS (CONFIRMED): Deadline-Slip Heuristic now at maximum discount. P(signed joint text in any given 48h window) capped at ≤0.15 until Oman FM independently co-signs without Iranian unilateral pre-announcement. Iran's unilateral disclosure pattern (NPR 7 Aug) confirmed as domestic signalling, not deal evidence.
