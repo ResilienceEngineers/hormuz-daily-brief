@@ -5444,3 +5444,72 @@ Carry.
 - REZAEI SNSC APPOINTMENT (NEW): Former IRGC chief Rezaei as SNSC head = IRGC doctrinal primacy over diplomatic track. His faction's strategy: sustained fighting to maximise US pain and midterm election pressure. Operational implication: (a) raise P(IRGC probe on US-affiliated asset) by 0.10 vs prior baseline; (b) extend modal Sc B planning horizon from 30d to 90d; (c) treat any Rezaei public Hormuz statement as Hard-tier strategic signal, not routine rhetoric.
 - BRENT $86 CEILING BROKEN (CONFIRMED): $87.69 close 10 Aug confirms new structural floor at $84–86 in Sc B (frozen attrition with hardliner). Revised trigger set for $93+: Yanbu sustained impairment OR CENTCOM resumption (unchanged from Day 163/164). Rezaei appointment alone insufficient for $93+ but raises structural floor.
 - 7TH OMAN DEAL DEADLINE MISS (CONFIRMED): Deadline-Slip Heuristic now at maximum discount. P(signed joint text in any given 48h window) capped at ≤0.15 until Oman FM independently co-signs without Iranian unilateral pre-announcement. Iran's unilateral disclosure pattern (NPR 7 Aug) confirmed as domestic signalling, not deal evidence.
+
+## Day 166 — 12 August 2026
+
+### T+1 scoring (Day 165 predictions, gate EOD 12 Aug)
+
+| Prediction | P | Outcome | Score |
+|---|---|---|---|
+| P(Oman FM confirms signed Iran-Oman joint text by EOD 12 Aug) | 0.15 | MISS — Qatar FM "technical stage / finalising coordinates" (11 Aug); Oman FM has not independently co-signed; 8th consecutive deadline miss confirmed | Miss |
+| P(Rezaei issues first public operational Hormuz directive by EOD 12 Aug) | 0.40 | HIT — IranWire/RFERL confirmed Rezaei's Aug 7 warning ("American ships will face serious dangers"); SNSC appointment announcement carried explicit "Hormuz will not reopen" language; count as operational directive | Hit |
+| P(Brent closing above $88.00 on 12 Aug) | 0.40 | HIT — TradingEconomics: $89.24 on 11 Aug; OilPrice: $88.91 on 12 Aug; Forbes: $88.23 on 11 Aug; all above $88.00 threshold | Hit |
+
+**T+1 score: 2 hits, 1 miss. Calibration note: $88 Brent hit confirms Rezaei structural floor effect. Oman 8th miss confirms Deadline-Slip Heuristic validity — cap at ≤0.15 maintained.**
+
+---
+
+### T+3 scoring (Day 163 predictions, gate EOD 12 Aug)
+
+| Prediction | P | Outcome | Score |
+|---|---|---|---|
+| IRGC kinetic action on additional Gulf-state shipping by EOD 12 Aug | 0.55 | HIT — CENTCOM Hellfire on M/V Vela Nova (11 Aug, Panama-flagged blockade runner); Houthi Tihamah strike at BAM (6 dead, 11 Aug); multi-vector kinetic on both chokepoints confirmed | Hit |
+| Yanbu terminal AIS/satellite confirms operational impairment by EOD 12 Aug | 0.18 | MISS — Windward 11 Aug: 14 vessels loading (up from 13), dark tanker identified approaching; no impairment confirmed | Miss |
+| Iran parliament Hormuz bill advances to floor vote by EOD 12 Aug | 0.20 | PARTIAL HIT — National Security Committee unanimously approved framework (9–10 Aug); article-by-article review ongoing; full floor vote not yet scheduled. Score: Partial (committee pass = advancement; floor vote = not yet) | Partial |
+
+**T+3 score: 1 hit, 1 miss, 1 partial. Calibration note: IRGC/Houthi kinetic prediction hit confirms ~1-per-2-day cadence. Yanbu miss (now 3rd consecutive) — downweight near-term Yanbu impairment probability slightly; physical ceiling + Houthi envelope remains but timing uncertain. Bill partial = heuristic adjustment: committee passage within 3 days of prediction was achievable; floor vote requires 5–7 more days.**
+
+---
+
+### T+7 pending (Day 159 predictions, gate EOD 13 Aug — none in log)
+
+*No Day 159 T+7 predictions in log.*
+
+---
+
+### Day 166 New Predictions
+
+**Trend:** ↑ Worse. Confidence: High.
+**Threat level:** 4 / 5 · Severe (maintained; dual kinetic escalation at both chokepoints reinforces)
+
+**Scenarios (30d):**
+- A: Negotiated framework — 22% (↓−2pp; Qatar "technical stage" provides floor, Hellfire escalation depresses ceiling)
+- B: Frozen attrition / diplomatic limbo — 50% (→ unchanged; modal; Rezaei sustained-pain doctrine + technical talks = stable limbo)
+- C: Re-escalation / triple-chokepoint — 28% (↑+2pp; Hellfire + Tihamah double-tap same day = new structural Sc C input)
+
+**New T+1 predictions (gate EOD 13 Aug ET / ~04:00 UTC 14 Aug):**
+- P(IRGC retaliatory action on US-affiliated vessel or asset within 72h of Hellfire event by EOD 13 Aug) = 0.55 — Rezaei doctrine requires proportional response; 72h signalling window from 11 Aug; IRGC cadence ~1 incident per 2.3 days; Hellfire escalation is new provocation input; raised from prior 0.45 baseline
+- P(Oman FM independently co-signs Iran-Oman joint text by EOD 13 Aug) = 0.12 — 9th gate; Qatar "finalising coordinates" is most specific signal yet but Deadline-Slip Heuristic at max discount; Oman FM silence pattern persists; cap ≤ 0.15; slight uplift from Qatar signal = 0.12
+- P(Brent closing above $90.00 on 13 Aug) = 0.35 — Currently $88.91; Tihamah fatalities + Hellfire = dual escalation partially unpriced; IRGC retaliation within 24h = +$1–2; $90 requires additional incident or Yanbu signal; structural floor $85–89
+
+**T+3 predictions (gate EOD 15 Aug):**
+- P(IRGC kinetic action on Gulf-state or Western-flagged vessel by EOD 15 Aug) = 0.70 — Hellfire event creates retaliation imperative under Rezaei doctrine; maintained at 0.70 from Day 165
+- P(Yanbu terminal confirmed operational impairment via AIS/satellite by EOD 15 Aug) = 0.22 — 14 vessels loading; dark tanker approaching; Houthi second-strike doctrine now confirmed; maintained at 0.22 (no new degrading signal but Tihamah tactic = elevated context)
+- P(Iran parliament Hormuz bill advances to full floor vote by EOD 15 Aug) = 0.35 — Committee passed unanimously (9–10 Aug); article-by-article review ongoing; Rezaei appointment accelerates hardliner agenda; maintained from Day 165 T+3
+
+**T+7 predictions (gate EOD 19 Aug):**
+- P(Hormuz AIS ≥3× uplift sustained ≥72h by EOD 19 Aug) = 0.08 — Qatar technical stage insufficient without Oman FM co-sign; unchanged
+- P(Houthi follow-on infrastructure strike at Yanbu terminal or pipeline by EOD 19 Aug) = 0.48 — Tihamah double-tap confirms escalating Houthi tempo and second-strike doctrine; Yanbu is next logical target; Saudi Patriot intercepts are imperfect; raised from 0.42 (Day 165) due to demonstrated BAM lethality
+- P(Brent above $95/bbl on any day by EOD 19 Aug) = 0.28 — Hellfire + Tihamah dual escalation raises ceiling probability; still requires Yanbu impairment OR CENTCOM resumption for $95+; raised from 0.30 (Brent $93) as baseline has shifted upward; $95 threshold applied
+
+**Watchlist carries (Day 166):**
+- W1: Oman FM independently co-signs Iran-Oman joint shipping text — EOD 14 Aug (9th gate)
+- W2: Iran parliament Hormuz bill advances to full floor vote — EOD 17 Aug
+- W3: Houthi follow-on infrastructure strike at Yanbu terminal or pipeline — EOD 16 Aug
+- W4: IRGC retaliatory action on US-affiliated asset following Hellfire on Vela Nova — EOD 14 Aug
+- W5: Trump formal public response to SNSC six conditions / Rezaei ultimatum — EOD 15 Aug
+
+**New heuristics (Day 166):**
+- HELLFIRE ESCALATION DOCTRINE (NEW): First use of live Hellfire missiles against a cargo vessel by CENTCOM = enforcement ladder moved to new rung. Creates IRGC proportional-response imperative under Rezaei doctrine. Raise P(IRGC probe on US-affiliated asset within 72h of each CENTCOM kinetic escalation) from 0.45 to 0.55 baseline.
+- HOUTHI SECOND-STRIKE DOCTRINE (NEW): Tihamah double-tap deliberately targeted rescue operation. Treat all future BAM incidents as having elevated P(secondary strike on rescue vessels). Revise all BAM rescue protocol assessments. Downweight any Houthi "we don't target rescue" framing as Tier 6 noise.
+- DEADLINE-SLIP HEURISTIC UPDATE (8th miss): P(signed text in any 48h window) remains capped at ≤0.15 until Oman FM independently co-signs WITHOUT a prior Iranian unilateral announcement. Qatar "finalising coordinates" language alone is insufficient to lift cap.
