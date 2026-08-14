@@ -5580,3 +5580,73 @@ No Day 160 T+7 predictions in log.
 - IRGC RESPONSE LATENCY UPDATE: After 2 misses on "72h" window predictions, adjust baseline to 96–120h response latency for IRGC proportional responses to CENTCOM kinetic escalations. P(IRGC kinetic within 72h of CENTCOM escalation) revised from 0.55 to 0.45; P(IRGC kinetic within 120h) remains 0.55.
 - EIA INVENTORY DAMPENER: When EIA US crude inventory shows weekly build >+10 Mbbl, apply −$3 to near-term Brent upside estimate. Three consecutive $90 misses while builds were occurring confirms this relationship.
 - IRGC DECOUPLING HEURISTIC (NEW): When IRGC spokesman formally states Hormuz reopening "has nothing to do with [diplomatic track]," treat as Hard-tier SNSC override of FM-level negotiations. This structurally caps Sc A at ≤20% until IRGC issues contradictory signal. Applied immediately: Sc A = 20%.
+
+## Day 168 — 14 August 2026
+
+### T+1 scoring (Day 167 predictions, gate EOD 14 Aug)
+
+| Prediction | P | Outcome | Score |
+|---|---|---|---|
+| P(IRGC kinetic probe on US-affiliated vessel or asset by EOD 14 Aug) | 0.40 | HIT — Iran Int'l live blog + Al Jazeera (T1) confirm IRGC struck two UAE ADNOC tankers crossing Hormuz in early hours of 14 Aug; Egypt and Bahrain condemned; UAE WAM confirmed. ADNOC = UAE state oil company; attack on state energy-company vessels at Hormuz = kinetic action on Gulf-state affiliated asset. | Hit |
+| P(Oman FM independently co-signs Iran-Oman joint text by EOD 14 Aug) | 0.10 | MISS — 11th consecutive miss. No new Oman FM independent co-sign found in any T1–T3 source as of 06:00 UTC 14 Aug. Route coordinates agreed 5 Aug; joint statement remains in "final drafting." | Miss |
+| P(Brent closing above $90.00 on 14 Aug) | 0.28 | MISS — Brent $87.18 on 14 Aug (TradingEconomics); day range $86.82–$89.07; IEA demand cut + EIA +17.4 Mbbl inventory build continue to cap upside. 4th consecutive $90 miss. | Miss |
+
+**T+1 score: 1 hit, 2 misses. Calibration note: IRGC HIT after adjusting baseline to 96–120h response latency — Rezaei doctrine latency heuristic confirmed. The ADNOC double-strike on 14 Aug (96h after 11 Aug Hellfire event) validates the 96–120h window. Brent $90 miss (4th consecutive) — EIA inventory dampener operating as modelled; sustained builds >+10 Mbbl providing structural ceiling. Oman FM 11th miss — cap confirmed at ≤0.12 per 48h gate regardless of route-coordinate progress.**
+
+---
+
+### T+3 scoring (Day 164 predictions, gate EOD 13 Aug — previously PENDING)
+
+| Prediction | P | Outcome | Score |
+|---|---|---|---|
+| P(IRGC kinetic action on Gulf-state or Western-flagged vessel by EOD 15 Aug) | 0.70 | HIT (early) — ADNOC double-strike 14 Aug qualifies; gate was EOD 15 Aug, event occurred 14 Aug | Hit |
+| P(Yanbu terminal confirmed operational impairment via AIS/satellite by EOD 15 Aug) | 0.22 | MISS — Tankers concealing Yanbu calls (AGBI 11 Aug); no satellite/AIS confirmation of terminal operational impairment as of 14 Aug | Miss |
+| P(Iran parliament Hormuz bill advances to full floor vote by EOD 15 Aug) | 0.35 | MISS — Internal Affairs Committee article-by-article review ongoing; Art. 1–5 approved 11 Aug; full floor vote not yet scheduled | Miss |
+
+**T+3 score: 1 hit, 2 misses. Calibration note: Yanbu impairment miss (2nd cycle) — strike activity confirmed but terminal-level impairment not translating; lower P(Yanbu impairment per 7-day window) from 0.28 to 0.24 until satellite confirms. Parliament bill advancing slower than predicted — committee article-by-article review is longer than modelled; adjust T+3 window for floor vote from 3 days to 5–7 days after committee completion.**
+
+---
+
+### T+7 scoring (Day 161 predictions, gate EOD 14 Aug)
+
+No Day 161 T+7 predictions in log.
+
+---
+
+### Day 168 New Predictions
+
+**Trend:** ↑ Worse. Confidence: High.
+**Threat level:** 4 / 5 · Severe (maintained; IRGC double-strike on ADNOC tankers 14 Aug adds new tactical tempo input; parliament bill advancing; diplomatic deadlock deepening with reparations demand)
+
+**Scenarios (30d):**
+- A: Negotiated framework — 18% (↓−2pp; IRGC ADNOC double-strike is strongest operational decoupling signal yet; 11th Oman FM miss; Trump reparations demand = new structural obstacle)
+- B: Frozen attrition / diplomatic limbo — 52% (↑+1pp; modal; all Sc B pillars holding; extend planning horizon to 90 days)
+- C: Re-escalation / triple-chokepoint — 30% (↑+1pp; parliament Art. 1–5 approved; IRGC tempo accelerating; CENTCOM authorisation pressure rising post-ADNOC strike)
+
+**New T+1 predictions (gate EOD 15 Aug ET / ~04:00 UTC 16 Aug):**
+- P(CENTCOM kinetic response to IRGC ADNOC double-strike 14 Aug by EOD 15 Aug) = 0.30 — Trump "total control" rhetoric + Hellfire precedent = authorisation pressure; but CENTCOM has shown restraint since 8 Aug ADNOC hit; prior restraint pattern weighs against immediate response; adjusted for 24h window
+- P(Oman FM independently co-signs Iran-Oman joint text by EOD 15 Aug) = 0.08 — 12th gate; IRGC ADNOC double-strike same day as "final drafting" = structurally lowest probability to date; IRGC decoupling heuristic cap ≤0.12; reduced to 0.08
+- P(Brent closing above $90.00 on 15 Aug) = 0.22 — ADNOC double-strike may provide brief upside but EIA inventory dampener active; IEA demand cut structural headwind; 4th consecutive $90 miss suggests ceiling is firm absent new kinetic escalation; reduced from 0.28
+
+**T+3 predictions (gate EOD 17 Aug):**
+- P(Iran parliament Hormuz bill advances to full floor vote by EOD 17 Aug) = 0.32 — Art. 1–5 approved 11 Aug; remaining articles under review; floor vote requires committee completion + scheduling; 3-day window is tight but advancing; maintained near prior with minor reduction
+- P(Houthi follow-on infrastructure strike at Yanbu terminal or pipeline by EOD 17 Aug) = 0.45 — Second-strike doctrine operational; route-avoidance defeat confirmed; tanker concealment intelligence collection pattern; 3-day window; maintained
+- P(CENTCOM kinetic response to IRGC ADNOC double-strike by EOD 17 Aug) = 0.55 — Escalation pressure accumulating; ADNOC 17th–18th attacks represent sustained GCC-allied energy infrastructure targeting; 72h window is CENTCOM's demonstrated response tempo; Trump authorisation signal key gate
+
+**T+7 predictions (gate EOD 21 Aug):**
+- P(Hormuz AIS ≥3× baseline uplift sustained ≥72h by EOD 21 Aug) = 0.06 — ADNOC double-strike further depresses Sc A; further reduced from 0.07
+- P(Yanbu terminal confirmed operational impairment by EOD 21 Aug) = 0.28 — Active Houthi targeting intelligence confirmed; tanker concealment pattern; 7-day window allows for additional strike cycles; maintained from prior
+- P(Brent above $95/bbl on any day by EOD 21 Aug) = 0.22 — Three triggers (Yanbu impairment, parliament floor vote, CENTCOM IRGC strike); IEA demand cut adds structural headwind; reduced from 0.25 prior
+
+**Watchlist carries (Day 168):**
+- W1: Iran parliament Hormuz bill advances to full floor vote — EOD 17 Aug
+- W2: CENTCOM kinetic response to IRGC ADNOC double-strike 14 Aug — EOD 16 Aug
+- W3: Houthi follow-on infrastructure strike at Yanbu terminal or pipeline — EOD 17 Aug
+- W4: Oman FM independently co-signs Iran-Oman joint shipping text — EOD 15 Aug (12th gate)
+- W5: Trump formal public response to SNSC six conditions / reparations demand — EOD 18 Aug
+
+**New/updated heuristics (Day 168):**
+- IRGC RESPONSE LATENCY CONFIRMED: ADNOC double-strike 14 Aug occurred 96h after 11 Aug Hellfire event — validates 96–120h response latency baseline for IRGC proportional responses to CENTCOM kinetic escalations. Remove 72h window from operational use. P(IRGC kinetic within 120h of CENTCOM escalation) = 0.55 confirmed.
+- BRENT $90 CEILING (4TH MISS): EIA inventory dampener (+17.4 Mbbl) confirmed as structural price ceiling mechanism. Until EIA shows weekly draw >−5 Mbbl, $90 ceiling for Brent near-term is structurally supported. P(Brent $90+) requires one of three trigger activations.
+- PARLIAMENT BILL TIMELINE ADJUSTMENT: Article-by-article committee review is running at ~5 articles per 3-day session. Floor vote likely 5–7 days after committee completes (not 3 days as previously modelled). Adjust T+3 windows accordingly.
+- ADNOC TARGETING DOCTRINE: 17th–18th ADNOC vessel attacks confirm IRGC has established a sustained campaign specifically targeting UAE state energy infrastructure. Any ADNOC-flagged or ADNOC-cargo vessel in Hormuz should be treated as active targeting category.
