@@ -5650,3 +5650,67 @@ No Day 161 T+7 predictions in log.
 - BRENT $90 CEILING (4TH MISS): EIA inventory dampener (+17.4 Mbbl) confirmed as structural price ceiling mechanism. Until EIA shows weekly draw >−5 Mbbl, $90 ceiling for Brent near-term is structurally supported. P(Brent $90+) requires one of three trigger activations.
 - PARLIAMENT BILL TIMELINE ADJUSTMENT: Article-by-article committee review is running at ~5 articles per 3-day session. Floor vote likely 5–7 days after committee completes (not 3 days as previously modelled). Adjust T+3 windows accordingly.
 - ADNOC TARGETING DOCTRINE: 17th–18th ADNOC vessel attacks confirm IRGC has established a sustained campaign specifically targeting UAE state energy infrastructure. Any ADNOC-flagged or ADNOC-cargo vessel in Hormuz should be treated as active targeting category.
+
+## Day 169 — 15 August 2026
+
+### T+1 scoring (Day 168 predictions, gate EOD 15 Aug)
+
+| Prediction | P | Outcome | Score |
+|---|---|---|---|
+| P(CENTCOM kinetic response to IRGC ADNOC double-strike 14 Aug by EOD 15 Aug) | 0.30 | MISS — No CENTCOM kinetic strike found through 06:00 UTC 15 Aug; Trump "US territory" rhetoric + Hegseth economic pressure doctrine; CENTCOM restraint confirmed | Miss |
+| P(Oman FM independently co-signs Iran-Oman joint text by EOD 15 Aug) | 0.08 | MISS — 12th consecutive gate miss; route coordinates agreed but no joint text; IRGC strike tempo suspending signature | Miss |
+| P(Brent closing above $90.00 on 15 Aug) | 0.22 | MISS — Brent $87.47–$88.52 on 14 Aug; $90 ceiling intact; 5th consecutive miss cycle | Miss |
+
+**T+1 score: 0 hits, 3 misses. Calibration: CENTCOM economic pressure doctrine now primary instrument — P(CENTCOM kinetic within 24h of IRGC strike) revised from 0.30 to 0.22. Brent $90 ceiling: 5th miss — reinforce EIA inventory dampener heuristic as structural ceiling mechanism. Oman FM track: 12th miss — reduce P(Oman joint text per 7-day window) from 0.08 to 0.06 until IRGC strike tempo pauses.**
+
+---
+
+### T+3 scoring (Day 166 predictions, gate EOD 15 Aug)
+
+No Day 166 T+3 predictions logged against EOD 15 Aug gate.
+
+---
+
+### T+7 scoring (Day 162 predictions, gate EOD 15 Aug)
+
+No Day 162 T+7 predictions in log.
+
+---
+
+### Day 169 New Predictions
+
+**Trend:** ↑ Worse. Confidence: High.
+**Threat level:** 4 / 5 · Severe (maintained; "US territory" declaration is highest miscalculation-risk signal since war start; parliament bill Art. 1–5 approved; IRGC ADNOC targeting sustained)
+
+**Scenarios (30d):**
+- A: Negotiated framework — 16% (↓−2pp; "US territory" declaration = new structural obstacle; 12th Oman miss; IRGC decoupling heuristic active)
+- B: Frozen attrition / diplomatic limbo — 53% (↑+1pp; modal; CENTCOM economic pressure doctrine confirmed; all four Sc B pillars holding)
+- C: Re-escalation / triple-chokepoint — 31% (↑+1pp; parliament Art. 1–5 approved; "US territory" operationalisation risk; IRGC tempo; IRGC 120h probe window 17–18 Aug)
+
+**New T+1 predictions (gate EOD 16 Aug ET / ~04:00 UTC 17 Aug):**
+- P(CENTCOM kinetic response to IRGC 13 Aug ADNOC double-strike by EOD 16 Aug) = 0.20 — Economic pressure doctrine confirmed primary; 48h+ restraint post-strike; CENTCOM has shown consistent post-ADNOC restraint; only Trump direct public authorisation would change; revised down from 0.22
+- P(Oman FM independently co-signs Iran-Oman joint text by EOD 16 Aug) = 0.06 — 13th gate; IRGC double-strike 13 Aug + "US territory" declaration = compounding obstacles; IRGC decoupling heuristic cap ≤0.08; reduced from 0.08
+- P(Brent closing above $90.00 on 16 Aug) = 0.18 — 5th miss cycle; EIA dampener structural; IEA demand cut active; "US territory" rhetoric provides limited upside; reduced from 0.22
+
+**T+3 predictions (gate EOD 18 Aug):**
+- P(Iran parliament Hormuz bill advances to full floor vote by EOD 18 Aug) = 0.28 — Art. 1–5 approved 14 Aug; remaining articles under Internal Affairs + other committee review; 5–7 day session pace; 3-day window is tight; parliament may schedule floor vote for week of 17–22 Aug
+- P(CENTCOM kinetic response to IRGC ADNOC double-strike by EOD 18 Aug) = 0.45 — 120h IRGC latency baseline confirmed; Trump authorization pressure accumulating; 5-day window from 13 Aug strike = 18 Aug; economic pressure vs kinetic tension; maintained
+- P(Houthi follow-on infrastructure strike at Yanbu terminal or pipeline by EOD 18 Aug) = 0.42 — Second-strike doctrine active; naval blockade of Saudi Arabia; route-avoidance defeat confirmed; 3-day window; reduced from 0.45 (Yanbu terminal resilience now 3-miss cycles)
+
+**T+7 predictions (gate EOD 22 Aug):**
+- P(Iran parliament Hormuz bill passes full floor vote by EOD 22 Aug) = 0.35 — Art. 1–5 approved 14 Aug; committee completion likely by 17–20 Aug; floor vote scheduling within 2–3 days of completion; 7-day window covers likely floor vote window
+- P(Yanbu terminal confirmed operational impairment by EOD 22 Aug) = 0.26 — Active Houthi targeting; 7-day window; terminal resilience confirmed through 3 miss cycles; reduced from 0.28
+- P(Trump "Hormuz US territory" operational follow-through declared by EOD 22 Aug) = 0.18 — Rhetoric-to-action gap historically wide; but 14 Aug speech was unusually specific; 7-day window; first time assigning probability to this trigger
+
+**Watchlist carries (Day 169):**
+- W1: Iran parliament Hormuz bill full floor vote — EOD 20 Aug
+- W2: CENTCOM kinetic response to 13 Aug ADNOC double-strike — EOD 18 Aug
+- W3: Houthi follow-on infrastructure strike at Yanbu terminal or pipeline — EOD 17 Aug
+- W4: Trump "Hormuz US territory" operational follow-through — EOD 22 Aug
+- W5: Oman FM independently co-signs Iran-Oman joint shipping text — EOD 18 Aug (13th gate)
+
+**New/updated heuristics (Day 169):**
+- AIS-DARK MITIGATION DOWNGRADED: 13 Aug ADNOC double-strike on AIS-dark vessels confirms IRGC using non-AIS means (radar, HUMINT, UAV surveillance) to locate targets. AIS darkness no longer constitutes meaningful protection against IRGC strike for ADNOC-affiliated cargo. Revise all ADNOC voyage risk assessments.
+- CENTCOM ECONOMIC PRESSURE DOCTRINE CONFIRMED: 48h+ restraint post-13 Aug ADNOC double-strike (following prior restraint post-8 Aug and 11 Aug events) confirms economic blockade + pressure is primary US instrument. P(CENTCOM kinetic within 24h of IRGC strike) = 0.20. P(CENTCOM kinetic within 72h) = 0.38.
+- BRENT $90 CEILING (5TH MISS): EIA inventory dampener + IEA demand cut = structural price ceiling. Ceiling holds until three trigger combination: Yanbu impairment + parliament floor vote + CENTCOM/IRGC major strike. No single trigger activates $90+ reliably.
+- "US TERRITORY" MISCALCULATION RISK: Trump 14 Aug declaration represents highest miscalculation-risk signal since war start. Model operational follow-through (exclusion zone, flag enforcement) as Sc C trigger with P = 0.18 within 7 days and P = 0.32 within 30 days.
