@@ -5778,3 +5778,67 @@ No Day 163 T+7 predictions in log.
 - PARLIAMENT BILL FLOOR VOTE WINDOW CONFIRMED: Three committees cleared; floor vote estimated 17–22 Aug. This is the highest-single-event Sc C risk in the current assessment window. P(floor vote by EOD 22 Aug) = 0.38; P(floor vote by EOD 20 Aug) = 0.28. If floor vote passes, immediate Sc C +5pp and Threat 4→5 assessment.
 - BRENT $90 CEILING (6TH MISS): EIA dampener + IEA demand cut = structural ceiling confirmed. Ceiling heuristic unchanged. Upside path requires three simultaneous triggers: Yanbu terminal impairment + parliament bill floor vote + CENTCOM/IRGC major escalation. Probability of three-trigger conjunction within 7 days = ~8%.
 - CENTCOM CARRIER TRANSITION RISK: USS George Washington reportedly replacing USS Abraham Lincoln (WSJ T2, 14 Aug). Carrier transition creates 72–96h coverage gap risk. If transition window overlaps with parliament bill floor vote or IRGC 120h probe window (~18 Aug), flag as compounding risk.
+
+## Day 171 — 17 August 2026
+
+### T+1 scoring (Day 170 predictions, gate EOD 17 Aug)
+
+| Prediction | P(stated) | Outcome | Score |
+|---|---|---|---|
+| P(CENTCOM kinetic response to IRGC 13 Aug ADNOC double-strike by EOD 17 Aug) | 0.22 | MISS — No CENTCOM kinetic response confirmed through Day 171; 5-day post-strike window elapsed; economic pressure doctrine confirmed for 5th consecutive post-strike cycle | Miss |
+| P(Iran–Oman FM-level joint text co-signed by EOD 17 Aug) | 0.08 | MISS — FM Baghaei confirmed route-map finalised 16 Aug (penultimate step); no joint text co-signed; 14th consecutive gate miss | Miss |
+| P(Brent closing above $90.00 on 17 Aug) | 0.18 | MISS — Brent $88.02–$89.39 intraday range; open $88.85 (Investing.com); $90 ceiling intact for 7th consecutive assessment | Miss |
+
+**T+1 score: 0 hits, 3 misses. Calibration: CENTCOM economic pressure doctrine now confirmed for 5 consecutive post-strike cycles (P revised ↓ to 0.18 floor). Brent $90 ceiling: 7th miss — $89.39 intraday is closest approach to date; maintain ceiling but flag three-trigger conjunction risk at ~8%. Iran-Oman joint text: 14th miss — route-map finalisation is genuine penultimate step; P(joint text within 7 days) now elevated to 0.22/7d window given route-map completion.**
+
+---
+
+### T+3 scoring (Day 168 predictions, gate EOD 17 Aug)
+
+No Day 168 T+3 predictions logged against EOD 17 Aug gate.
+
+---
+
+### T+7 scoring (Day 164 predictions, gate EOD 17 Aug)
+
+No Day 164 T+7 predictions in log.
+
+---
+
+### Day 171 New Predictions
+
+**Trend:** ↑ Worse. Confidence: High.
+**Threat level:** 4 / 5 · Severe (maintained; parliament bill plenary vote imminent — highest single-event Sc C trigger; IRGC decoupling active; Trump "territory" operational window active)
+
+**Scenarios (30d):**
+- A: Negotiated framework — 16% (→ unch.; route-map finalised but IRGC decoupling heuristic active; cap ≤16% until IRGC endorses)
+- B: Frozen attrition / diplomatic limbo — 51% (↓−1pp; modal; parliament bill advancing narrows B–C gap further)
+- C: Re-escalation / triple-chokepoint — 33% (↑+1pp; parliament plenary imminent; IRGC veto; Yanbu risk; highest Sc C since Day 145)
+
+**New T+1 predictions (gate EOD 18 Aug ET / ~04:00 UTC 19 Aug):**
+- P(Iran parliament Hormuz "Smart Management Plan" plenary floor vote scheduled by EOD 18 Aug) = 0.38 — Virtual committee session 17 Aug completed; TASS/lawmaker: "less than two weeks" from plenary (~9 Aug baseline = by ~23 Aug); 24h window; scheduling announcement likely to precede vote by 1–2 days
+- P(Iran–Oman FM-level joint text co-signed by EOD 18 Aug) = 0.12 — Route-map finalised 16 Aug; joint text is next step; 24h window; IRGC decoupling cap ≤0.12/day; slight upward from 0.08 given route-map completion
+- P(Brent closing above $90.00 on 18 Aug) = 0.22 — $89.39 intraday high 17 Aug is closest approach to date; upward pressure from parliament bill and route-map optimism; three-trigger conjunction at ~8%; 7th miss establishes ceiling but margin now very narrow
+
+**T+3 predictions (gate EOD 20 Aug):**
+- P(Iran parliament Hormuz bill reaches full plenary floor vote by EOD 20 Aug) = 0.35 — Virtual committee session 17 Aug; plenary estimated within days; 3-day window; "less than two weeks" from ~9 Aug = by ~23 Aug; 20 Aug is within range
+- P(Iran–Oman FM-level joint text co-signed by EOD 20 Aug) = 0.26 — Route-map finalised; 3-day window; W2 deadline; IRGC decoupling cap ≤0.28/3d window
+- P(Yanbu terminal confirmed operational impairment by EOD 20 Aug) = 0.22 — GNSS interference active; Scarlet Ray struck nearby; Houthi intent confirmed; 3-day window; 4th miss cycle; terminal resilience holding but narrowing
+
+**T+7 predictions (gate EOD 24 Aug):**
+- P(Iran parliament Hormuz bill passes full plenary floor vote by EOD 24 Aug) = 0.42 — Highest single-event Sc C trigger; "less than two weeks" from ~9 Aug = by ~23 Aug; 7-day window from 17 Aug covers most of estimated range; plenary may occur 18–22 Aug
+- P(Trump "Hormuz US territory" operational follow-through declared by EOD 24 Aug) = 0.18 — Maintained; rhetoric-to-action gap historically wide; 10-day window from 14 Aug declaration; no operational signal found
+- P(Brent closing above $90.00 on any single day by EOD 24 Aug) = 0.34 — $89.39 intraday high; parliament bill passage + any IRGC action could trigger; 7-day window; three-trigger conjunction at ~8% per day = ~42% cumulative over 7 days with independence assumption (adjusted down for correlation)
+
+**Watchlist carries (Day 171):**
+- W1: Iran parliament Hormuz bill full plenary floor vote — EOD 22 Aug
+- W2: Iran–Oman FM-level joint text co-signature — EOD 20 Aug (route-map finalised; penultimate step complete)
+- W3: Trump "Hormuz US territory" operational follow-through — EOD 22 Aug
+- W4: Houthi follow-on strike at Yanbu terminal or Petroline — EOD 20 Aug
+- W5: CENTCOM kinetic response to 13 Aug ADNOC double-strike — EOD 19 Aug (final gate; 6-day window)
+
+**New/updated heuristics (Day 171):**
+- CENTCOM ECONOMIC PRESSURE DOCTRINE FLOOR: 5 consecutive post-strike cycles with no kinetic response within 5 days. P(CENTCOM kinetic within 24h of IRGC strike) revised to 0.18 (↓ from 0.22). Floor established at 0.18 — do not revise below without a structural doctrine change signal.
+- BRENT $90 CEILING (7TH MISS): $89.39 intraday 17 Aug is the closest approach to date. Maintain ceiling but add a "near-ceiling alert" flag: if Brent closes above $89.00 on two consecutive days, revise P(breach within 7 days) to 0.28. Three-trigger conjunction probability remains ~8%/7-day window.
+- IRAN-OMAN ROUTE-MAP COMPLETION: Route-map finalised (Baghaei, 16 Aug) is confirmed penultimate step. Revise P(FM joint text within 7 days) to 0.26 (↑ from 0.18). IRGC decoupling heuristic cap remains ≤0.28/7d window — joint text alone does not open strait.
+- PARLIAMENT BILL PLENARY IMMINENT: Virtual committee session 17 Aug advances bill to plenary track. Update plenary window to 18–23 Aug (tighter than prior 17–22 Aug estimate). P(plenary floor vote by EOD 23 Aug) = 0.42. If plenary announced: immediate Sc C +5pp and Threat 4→5 reassessment required.
