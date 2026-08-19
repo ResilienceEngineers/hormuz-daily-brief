@@ -5901,3 +5901,60 @@ No Day 164 T+7 predictions in log.
 - PARLIAMENT PLENARY WINDOW NOW LIVE: 18–23 Aug is confirmed active window. Any plenary scheduling announcement within this window triggers: (1) immediate Sc C +5pp; (2) Threat 4→5 reassessment; (3) FM clause immediate review notification. Do not wait for vote — scheduling announcement is the actionable signal.
 - MOU EXPIRY REMOVES DIPLOMATIC GUARDRAIL: The Islamabad MOU framework formally expired (New Arab, 17 Aug). Remove "MOU in force" as a structural moderating factor from Sc B assessment. Oman track (FM joint text) is now the sole remaining formal diplomatic mechanism. Treat MOU expiry as a Sc C probability floor-raiser of +2pp (already incorporated in Day 172 Sc C = 37%).
 - CENTCOM ECONOMIC PRESSURE DOCTRINE: 6 consecutive post-strike cycles with no kinetic response. Floor remains 0.18. Final ADNOC gate EOD 19 Aug — if miss confirmed, floor revised to 0.15 for subsequent assessments pending new doctrine signal.
+
+## Day 173 — 19 August 2026
+
+### T+1 scoring (Day 172 predictions, gate EOD 19 Aug)
+| Prediction | P | Result |
+|---|---|---|
+| P(Iran parliament Hormuz bill plenary floor vote scheduled or held by EOD 19 Aug) | 0.28 | **MISS** — No plenary scheduling announcement or floor vote through 06:00 UTC 19 Aug; committee reviews only (16 Aug virtual session = committee, not plenary); 18–23 Aug window still live but gate misses |
+| P(Iran–Oman FM-level joint text co-signed by EOD 19 Aug) | 0.10 | **HIT** — Oman MFA published joint statement with Iran (fm.gov.om, 17 Aug); both sides committed to joint working group; reaffirmed Hormuz as secure waterway; qualifies as FM-level co-signed text; 16th cycle — first hit after 15 consecutive misses |
+| P(Brent closing above $91.00 on 19 Aug) | 0.35 | **HIT** — Investing.com: Brent open $91.32 on 19 Aug; 4th consecutive session above $91; Reuters confirms "oil prices rise for fourth consecutive session"; structural floor confirmed |
+| P(CENTCOM kinetic response to 13 Aug ADNOC double-strike by EOD 19 Aug) | 0.14 | **MISS (FINAL GATE)** — No CENTCOM kinetic response found through 06:00 UTC 19 Aug; economic-pressure doctrine structurally confirmed; floor revised to 0.15 for subsequent assessments |
+
+**T+1 score Day 172: 2 hits, 2 misses. Key recalibrations: (1) Iran–Oman FM joint statement HIT after 15 consecutive misses — IRGC decoupling cap was over-constraining Sc A; revise P(FM joint text within deadline) upward by +0.05 for Oman-track items. (2) CENTCOM kinetic response final gate miss — economic-pressure doctrine now at highest confidence (7 consecutive cycles); floor set at 0.15 baseline.**
+
+### T+3 scoring (Day 170 predictions, gate EOD 19 Aug)
+No Day 170 T+3 predictions logged against EOD 19 Aug gate.
+
+### T+7 scoring (Day 166 predictions, gate EOD 19 Aug)
+No Day 166 T+7 predictions logged against EOD 19 Aug gate.
+
+### Heuristic updates (Day 173)
+- **IRGC DECOUPLING CAP REVISED UPWARD**: Iran–Oman FM joint statement (17 Aug) confirmed after 15 misses. Cap raised from ≤14% to ≤16% for Sc A. New rule: Oman MFA track should be weighted more heavily than IRGC public statements alone. IRGC decoupling cap = 20% ceiling until IRGC publicly endorses any arrangement (not parliament, not MFA — IRGC specifically).
+- **UAE MISSILE INCIDENT NEW ESCALATION VECTOR**: First ballistic missile alert against UAE since MOU expiry. New watchlist standing item: UAE attribution + retaliation ladder. If UAE confirms attribution and expels Iranian diplomats, add +3pp Sc C. If UAE conducts any counter-strike or requests CENTCOM response, Threat 4→5 automatic reassessment.
+- **RUSSIA-IRAN CASPIAN RESUPPLY STRUCTURAL**: EU document + Western official confirmation (NBC, 17 Aug) elevates IRGC endurance assessment. Revise IRGC stockpile depletion assumption: not a constraint on sustained offensive posture. Remove "IRGC stockpile depletion" as a Sc C moderating factor from structural model.
+- **CENTCOM ECONOMIC-PRESSURE DOCTRINE CONFIRMED (STRUCTURAL)**: 7 consecutive post-strike cycles with no kinetic escalation. Set floor at 0.15 for all future kinetic-response predictions unless doctrine-change signal (CENTCOM public statement, SECDEF order, or force-posture change) is observed.
+
+### Day 173 New Predictions
+
+**Trend:** ↑ Worse. Confidence: High.
+**Threat level:** 4 / 5 · Severe (maintained; UAE missile incident + "fully offensive" posture + Brent $91+ floor are three simultaneous escalation signals; Oman joint statement provides partial offset; Threat 5 criteria not yet met)
+
+**Scenarios (30d):**
+- A: Negotiated framework — 16% (↑+2pp; Iran–Oman FM joint statement; IRGC decoupling cap now 16%)
+- B: Frozen attrition / diplomatic limbo — 47% (↓−2pp; modal; B–C gap at 10pp, thinnest since Day 140)
+- C: Re-escalation / triple-chokepoint — 37% (→ held; four concurrent triggers; Oman joint statement prevented further rise)
+
+**New T+1 predictions (gate EOD 20 Aug ET / ~04:00 UTC 21 Aug):**
+- P(Iran parliament Hormuz bill plenary floor vote scheduled or held by EOD 20 Aug) = 0.25 — 18–23 Aug window; day 3 of window; no announcement through 06:00 UTC 19 Aug; 24h window; cumulative pressure increasing
+- P(UAE formally attributes missile strike to Iran via diplomatic note or expulsion by EOD 20 Aug) = 0.35 — UAE Defence Ministry already stated "missiles launched from Iran"; formal diplomatic attribution (expulsion, demarche, or UN letter) likely within 48h; Iran denial noted
+- P(Brent closing above $92.00 on 20 Aug) = 0.30 — $91.32 open 19 Aug; 4th consecutive session rising; upward pressure from UAE incident + IRGC posture threat; downside: demand-dampener from IEA demand cut; momentum strong
+- P(Iran–Oman joint working group first session announced or held by EOD 20 Aug) = 0.18 — joint statement committed to working group; no timeline given; first session within 3 days possible if both sides move quickly; likely 7–14 day setup period
+
+**T+3 predictions (gate EOD 22 Aug):**
+- P(Iran parliament Hormuz bill plenary floor vote held by EOD 22 Aug) = 0.35 — 18–23 Aug window; 5-day window from 18 Aug covers majority of range; "less than two weeks" from 9 Aug = by ~23 Aug
+- P(Brent closing above $93.00 on any single day by EOD 22 Aug) = 0.22 — UAE incident + parliament bill proximity = upward pressure cluster; 3-day window from 19 Aug
+- P(UAE formal diplomatic escalation confirmed vs. Iran by EOD 22 Aug) = 0.42 — UAE Defence Ministry language strong; 3-day window for formal demarche, expulsion, or UNSC letter
+
+**T+7 predictions (gate EOD 26 Aug):**
+- P(Iran parliament Hormuz bill passes full plenary floor vote by EOD 26 Aug) = 0.48 — "less than two weeks" from 9 Aug = by ~23 Aug; 7-day window from 19 Aug covers full estimated range; highest single Sc C trigger
+- P(Brent closing above $95.00 on any single day by EOD 26 Aug) = 0.26 — parliament bill + IRGC offensive posture + UAE escalation = $95 threshold; 7-day window; three-trigger conjunction probability elevated
+- P(Iran–Oman joint working group first session held by EOD 26 Aug) = 0.52 — joint statement committed; working group likely to convene within 7–10 days of statement; Sc A gate
+
+**Watchlist carries (Day 173):**
+- W1: Iran parliament Hormuz bill full plenary floor vote — EOD 23 Aug (18–23 Aug window live; no announcement through 06:00 UTC 19 Aug)
+- W2: Iran "fully offensive" posture operationalisation — EOD 22 Aug (Reuters 18 Aug; strongest threat language since Day 140)
+- W3: Iran–Oman joint working group first substantive session — EOD 26 Aug (committed in joint statement 17 Aug; Sc A gate)
+- W4: UAE missile attribution confirmation and retaliation — EOD 21 Aug (UAE Defence Ministry confirmed; formal attribution/expulsion pending)
+- W5: Houthi confirmed operational impairment of Yanbu terminal or Petroline — EOD 24 Aug (6th miss cycle; Houthi claimed Saudi ship attack 17 Aug)
