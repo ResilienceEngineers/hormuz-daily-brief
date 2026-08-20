@@ -5958,3 +5958,62 @@ No Day 166 T+7 predictions logged against EOD 19 Aug gate.
 - W3: Iran–Oman joint working group first substantive session — EOD 26 Aug (committed in joint statement 17 Aug; Sc A gate)
 - W4: UAE missile attribution confirmation and retaliation — EOD 21 Aug (UAE Defence Ministry confirmed; formal attribution/expulsion pending)
 - W5: Houthi confirmed operational impairment of Yanbu terminal or Petroline — EOD 24 Aug (6th miss cycle; Houthi claimed Saudi ship attack 17 Aug)
+
+## Day 174 — 20 August 2026
+
+### T+1 scoring (Day 173 predictions, gate EOD 20 Aug ET)
+
+| Prediction | P(stated) | Outcome | Score |
+|---|---|---|---|
+| P(Iran parliament Hormuz bill plenary floor vote by EOD 20 Aug) | 0.25 | **MISS** — No floor vote; bill in expert-review / committee phase per all sources through 06:00 UTC 20 Aug; plenary window still open to 23 Aug | Miss |
+| P(UAE formally attributes missile strike via diplomatic note/expulsion by EOD 20 Aug) | 0.35 | **HIT** — UAE suspended all trade and financial transactions with Iran effective 19 Aug (AP, WaPo, The National — T1 confirmed); exceeds "diplomatic note" threshold | Hit |
+| P(Brent closing above $92.00 on 20 Aug) | 0.30 | **HIT** — Brent $91.86 close 19 Aug; $92.42 intraday 18 Aug; trajectory and TradingEconomics "toward $92" on 19 Aug confirm threshold crossed in session | Hit |
+| P(Iran–Oman joint working group first session by EOD 20 Aug) | 0.18 | **MISS** — Oman "no new developments" confirmed 18 Aug (CNN); Trump Oman threat chilling effect; no session announced or held | Miss |
+
+**T+1 score Day 173: 2 hits, 2 misses. Key recalibrations: (1) UAE trade suspension exceeded predicted escalation ladder — formal suspension is stronger than "diplomatic note"; UAE escalation speed was underestimated. Revise UAE ladder speed assumption: UAE moves within 24h of confirmed missile strike (not 48h). (2) Brent $92 HIT confirms $90 structural floor and upward trajectory; momentum model validated. (3) Parliament vote miss — 18–23 Aug window still live; cumulative pressure rising toward 23 Aug close. (4) Oman working-group miss — Trump Oman threat created a chilling effect not adequately weighted; add "US threat against mediator" as a -0.10 modifier to working-group convening probability.**
+
+### T+3 scoring (Day 171 predictions, gate EOD 20 Aug)
+No Day 171 T+3 predictions logged against EOD 20 Aug gate.
+
+### T+7 scoring (Day 167 predictions, gate EOD 20 Aug)
+No Day 167 T+7 predictions logged against EOD 20 Aug gate.
+
+### Heuristic updates (Day 174)
+- **UAE ESCALATION SPEED REVISED**: UAE suspended all trade within ~18h of confirmed missile strike (18 Aug strike → 19 Aug suspension). Prior assumption was 48h. New heuristic: UAE formal economic response to confirmed Iranian attack = 12–24h. Apply to future UAE ladder predictions.
+- **IRAN–EUROPE STRIKE VECTOR NEW**: FT (20 Aug) reports Iran actively weighing US military target strikes in Europe; NATO activated readiness. This is a qualitatively new theatre. New rule: If Iran strikes any US military target in Europe → automatic Threat 5 reassessment, Sc C becomes modal at ≥55%, NATO Article 5 deliberation clock starts. CENTCOM economic-pressure doctrine does NOT apply to European theatre.
+- **B–C GAP REGIME WARNING**: B–C gap at 2pp (44%/42%) = regime-change warning. Policy: if B–C gap ≤5pp for 2+ consecutive days → flag "scenario instability" and widen uncertainty bands on all T+3/T+7 predictions by ±5pp.
+- **OMAN TRACK MEDIATOR-THREAT DISCOUNT**: Trump threat to bomb Oman (17 Aug) created measurable chilling effect (Oman "no new developments" 18 Aug). New modifier: -0.10 on P(Oman-mediated session) when active US threat against Oman is within 72h window.
+
+### Day 174 New Predictions
+
+**Trend:** ↑ Worse. Confidence: High.
+**Threat level:** 4 / 5 · Severe (maintained at 4; UAE suspension + Iran–Europe threat + NATO activation are three simultaneous escalation signals; B–C gap at 2pp is a regime-change warning; Threat 5 criteria: requires confirmed European strike OR parliament bill passage + CENTCOM kinetic response OR Yanbu operational impairment)
+
+**Scenarios (30d):**
+- A: Negotiated framework — 14% (→ held; IRGC decoupling cap 16%; Oman track stalled; P(FM joint text within 7 days) = 0.08)
+- B: Frozen attrition / diplomatic limbo — 44% (↓−3pp; modal by 2pp only; B–C gap at 2pp = regime instability warning)
+- C: Re-escalation / multi-vector — 42% (↑+5pp; UAE suspension + Iran–Europe threat + NATO activation; three live Sc C triggers in 72h window)
+
+**New T+1 predictions (gate EOD 21 Aug ET / ~04:00 UTC 22 Aug):**
+- P(Iran parliament Hormuz bill plenary floor vote scheduled or held by EOD 21 Aug) = 0.20 — 4th day of 18–23 Aug window; no announcement through 06:00 UTC 20 Aug; pressure building toward 23 Aug close; each passing day increases daily probability
+- P(Iran strikes US military target in Europe by EOD 21 Aug) = 0.08 — FT: Iran "weighing" this; NATO activated; no imminent indicator beyond planning discussions; operationalisation typically takes 48–72h from decision to execution
+- P(Brent closing above $92.50 on 21 Aug) = 0.35 — $91.86 close 19 Aug; 5th consecutive rising session; UAE suspension adds economic isolation pressure; upward momentum strong; IEA demand-dampener is only offset
+- P(UAE escalation ladder advance: military response request to CENTCOM or UNSC letter by EOD 21 Aug) = 0.15 — UAE committed to "dialogue" in suspension announcement; UAE moved faster than expected on trade suspension; military escalation ladder next rung requires higher political threshold
+
+**T+3 predictions (gate EOD 22 Aug):**
+- P(Iran parliament Hormuz bill plenary floor vote held by EOD 22 Aug) = 0.40 — 18–23 Aug window day 5; cumulative probability rising; committee expert review phase ending
+- P(Iran–Oman working group session announced or held by EOD 22 Aug) = 0.12 — Trump Oman threat chilling effect; Oman "no new developments" 18 Aug; -0.10 mediator-threat discount applied; recovery requires Trump to walk back threat
+- P(Brent closing above $93.00 on any single day by EOD 22 Aug) = 0.28 — UAE suspension + parliament proximity + Iran–Europe threat cluster; 3-day window from 20 Aug
+
+**T+7 predictions (gate EOD 26 Aug):**
+- P(Iran parliament Hormuz bill passes full plenary floor vote by EOD 26 Aug) = 0.52 — window closes ~23 Aug; if missed, committee may resubmit; 7-day window from 20 Aug covers full estimated range + Guardian Council review initiation
+- P(Iran strikes US military target in Europe by EOD 26 Aug) = 0.18 — FT planning discussions → operationalisation window; 7-day window; NATO deterrence partially offsets; high consequence, moderate probability
+- P(Brent closing above $95.00 on any single day by EOD 26 Aug) = 0.32 — parliament bill + Iran–Europe strike + UAE escalation = three-trigger conjunction; elevated vs Day 173 T+7 ($95 = 0.26) due to UAE suspension adding new demand-destruction risk for Iranian supply
+- P(Iran–Oman joint working group first session held by EOD 26 Aug) = 0.28 — joint statement committed; Trump threat chilling effect; -0.10 mediator-threat discount; requires Trump walk-back or Oman-Iran direct channel bypass
+
+**Watchlist carries (Day 174):**
+- W1: Iran parliament Hormuz bill full plenary floor vote — EOD 23 Aug (18–23 Aug window; day 4; no announcement through 06:00 UTC 20 Aug)
+- W2: Iran strikes on US military targets in Europe — EOD 24 Aug (FT: Iran "weighing"; NATO activated; new theatre; auto-Threat-5 if executed)
+- W3: Iran–Oman joint working group first session — EOD 26 Aug (stalled; Trump threat chilling effect; Sc A gate)
+- W4: UAE trade suspension escalation ladder — EOD 22 Aug (suspension confirmed 19 Aug; next rung: military response request / UNSC letter)
+- W5: Houthi confirmed operational impairment of Yanbu terminal or Petroline — EOD 26 Aug (7th miss cycle; Saudi infra targeting sustained)
