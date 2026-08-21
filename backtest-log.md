@@ -6017,3 +6017,63 @@ No Day 167 T+7 predictions logged against EOD 20 Aug gate.
 - W3: Iran–Oman joint working group first session — EOD 26 Aug (stalled; Trump threat chilling effect; Sc A gate)
 - W4: UAE trade suspension escalation ladder — EOD 22 Aug (suspension confirmed 19 Aug; next rung: military response request / UNSC letter)
 - W5: Houthi confirmed operational impairment of Yanbu terminal or Petroline — EOD 26 Aug (7th miss cycle; Saudi infra targeting sustained)
+
+## Day 175 — 21 August 2026
+
+### T+1 scoring (Day 174 predictions, gate EOD 21 Aug)
+
+| Prediction | P(stated) | Outcome | Score |
+|---|---|---|---|
+| Iran parliament Hormuz bill plenary floor vote scheduled or held by EOD 21 Aug | 0.20 | **MISS** — No plenary vote announced; committee article-by-article review ongoing; 18–23 Aug window still live through 23 Aug | Miss |
+| Iran strikes US military target in Europe by EOD 21 Aug | 0.08 | **Miss (expected)** — No execution signal; FT planning discussions stand; NATO readiness maintained | Miss (low P, correct direction) |
+| Brent closing above $92.50 on 21 Aug | 0.35 | **HIT** — $93.01 close 20 Aug; intraday 21 Aug $93.09–$94.21 (Investing.com/TradingEconomics) | Hit |
+| UAE escalation ladder: CENTCOM request or UNSC letter by EOD 21 Aug | 0.15 | **MISS** — No UNSC letter or military escalation confirmed; UAE maintaining "dialogue" posture | Miss |
+
+**T+1 summary:** 1 Hit, 3 Miss (one low-P expected miss). Brent trajectory model validated. Parliament vote timing remains the dominant uncertainty; each passing day increases daily probability. UAE military ladder slower than trade-suspension speed (consistent with Day 174 heuristic: 12–24h for trade, military rung requires higher political threshold).
+
+### T+3 scoring (Day 172 predictions, gate EOD 21 Aug)
+No Day 172 T+3 predictions logged against EOD 21 Aug gate.
+
+### T+7 scoring (Day 168 predictions, gate EOD 21 Aug)
+No Day 168 T+7 predictions logged against EOD 21 Aug gate.
+
+### Heuristic updates (Day 175)
+
+- **SC C NOW MODAL**: For the first time in the tracker's history, Sc C (44%) has displaced Sc B (43%) as the modal scenario. Policy trigger: When Sc C is modal, default supply-chain posture should assume re-escalation as baseline, not tail risk. Begin stress-testing for Threat 5 conditions.
+- **B–C GAP INSTABILITY DAY 2**: B–C gap = 1pp, 2nd consecutive day ≤5pp. Per methodology: uncertainty bands widened ±5pp on all T+3/T+7 predictions. Flag "scenario instability" active.
+- **PIRACY RESURGENCE LAYER**: MV Seamull hijack (UKMTO 20 Aug) adds piracy as a third threat vector at BAM alongside Houthi missiles and Houthi blockade. New heuristic: BAM corridor now requires separate assessment of Houthi kinetic threat AND piracy threat; both must be clear before flag-immunity transit consideration.
+- **BESSENT SIGNAL — KINETIC DEPRIORITIZATION**: Treasury Secretary Bessent explicitly stated maximum economic pressure = likely no large-scale kinetic restart. New heuristic: When CENTCOM senior civilian confirms economic-coercion doctrine as primary instrument, reduce near-term P(US kinetic strike on Iran) by ~0.15 over 7-day window; review if Iran executes European strike.
+
+### Day 175 New Predictions
+
+**Trend:** ↑ Worse. Confidence: High.
+**Threat level:** 4 / 5 · Severe (maintained; Sc C now modal at 44%; parliament window closes 23 Aug; BAM piracy resurgence; secondary-sanctions expansion; Threat 5 criteria: parliament bill passage + CENTCOM kinetic response OR confirmed European strike OR Yanbu operational impairment)
+
+**Scenarios (30d):**
+- A: Negotiated framework — 13% (↓−1pp; Oman track stalled with deepened chilling effect; Trump "no talks" 20 Aug)
+- B: Frozen attrition / diplomatic limbo — 43% (↓−1pp; no longer modal; B–C gap = 1pp)
+- C: Re-escalation / multi-vector — 44% (↑+2pp; NOW MODAL; parliament window 48h; BAM piracy; secondary-sanctions third-country)
+
+**New T+1 predictions (gate EOD 22 Aug ET / ~04:00 UTC 23 Aug):**
+- P(Iran parliament Hormuz bill plenary floor vote scheduled or held by EOD 22 Aug) = 0.25 — 5th day of 18–23 Aug window; no announcement through 06:00 UTC 21 Aug; daily probability rising as window narrows
+- P(Iran strikes US military target in Europe by EOD 22 Aug) = 0.08 — FT planning discussions; NATO activated; no imminent indicator; operationalisation 48–96h; unchanged from Day 174
+- P(Brent closing above $93.50 on 22 Aug) = 0.42 — Intraday 21 Aug $93.09–$94.21; upward momentum strong; parliament proximity as catalyst; secondary-sanctions announcement supporting floor
+- P(MV Seamull crew safe and vessel released or recovered by EOD 22 Aug) = 0.15 — Six armed hijackers; diverted toward Somalia; UKMTO investigating; historical Somali piracy resolution time typically days–weeks
+
+**T+3 predictions (gate EOD 24 Aug):**
+- P(Iran parliament Hormuz bill plenary floor vote held by EOD 24 Aug) = 0.55 — 18–23 Aug window closes 23 Aug; if missed, resubmission to committee likely; ±5pp uncertainty band = [0.50–0.60]
+- P(Iran strikes US military target in Europe by EOD 24 Aug) = 0.12 — 4-day window from Day 175; NATO deterrence partially offsets; high consequence moderate probability; ±5pp band = [0.07–0.17]
+- P(Brent closing above $95.00 on any single day by EOD 24 Aug) = 0.35 — Parliament proximity + secondary-sanctions + BAM piracy; 3-day window; ±5pp band = [0.30–0.40]
+
+**T+7 predictions (gate EOD 28 Aug):**
+- P(Iran parliament Hormuz bill passes full plenary floor vote by EOD 28 Aug) = 0.55 — Original window 23 Aug; if missed, committee resubmission in 3–5 days; Guardian Council review would then begin; ±5pp band = [0.50–0.60]
+- P(Iran strikes US military target in Europe by EOD 28 Aug) = 0.20 — 7-day window; FT planning; NATO deterrence; ±5pp band = [0.15–0.25]
+- P(Brent closing above $95.00 on any single day by EOD 28 Aug) = 0.42 — Parliament + European strike conjunction probability rising; 7-day window; ±5pp band = [0.37–0.47]
+- P(Sc C becomes modal at ≥50% by EOD 28 Aug) = 0.38 — Requires one of: parliament vote, European strike, Yanbu impairment, UAE UNSC letter; ±5pp band = [0.33–0.43]
+
+**Watchlist carries (Day 175):**
+- W1: Iran parliament Hormuz bill full plenary floor vote — EOD 23 Aug (window closes; 5th day; no announcement through 06:00 UTC 21 Aug)
+- W2: Iran strikes on US military targets in Europe — EOD 26 Aug (FT: planning; NATO activated; auto-Threat-5 if executed)
+- W3: Iran–Oman joint working group first session — EOD 28 Aug (stalled; Trump "no talks" 20 Aug; Oman-threat chilling effect)
+- W4: MV Seamull hijack resolution — EOD 22 Aug (six armed hijackers; diverted Somalia; UKMTO investigating; piracy resurgence signal)
+- W5: Houthi confirmed operational impairment of Yanbu terminal or Petroline — EOD 28 Aug (8th miss cycle; Saudi infra targeting sustained; route-avoidance defeat confirmed)
