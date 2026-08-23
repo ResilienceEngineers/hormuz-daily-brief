@@ -6139,3 +6139,65 @@ No Day 169 T+7 predictions logged against EOD 22 Aug gate.
 - W3: "Economic D-Day" secondary-sanctions package announcement — EOD 25 Aug (Bessent confirmed Monday; China teapot refineries named)
 - W4: MV Seamull + MV Lutuf piracy resolution — EOD 29 Aug (5 ships held hostage; India nationals safe but not released)
 - W5: Iran–Oman joint working group first session — EOD 28 Aug (stalled; "Economic D-Day" further narrows space)
+
+## Day 177 — 23 August 2026
+
+### T+1 scoring (Day 176 predictions, gate EOD 22 Aug ET / ~04:00 UTC 23 Aug)
+
+| Prediction | P assigned | Outcome | Score |
+|---|---|---|---|
+| P(Brent closing above $94.00 on 22 Aug) | 0.50 | Miss — Brent 22 Aug close ~$93.78 (investing.com); intraday high $94.82 but close below threshold | Miss (−0.22 of threshold; very close) |
+| P(Iran parliament Hormuz bill plenary floor vote by EOD 23 Aug) | 0.10 | Miss — bill in committee article-by-article review; no plenary vote | Miss (expected low-P) |
+| P(Iran strikes US military target in Europe by EOD 23 Aug) | 0.08 | Miss — no strike executed | Miss (expected low-P) |
+| P(MV Seamull or MV Lutuf released by EOD 23 Aug) | 0.08 | Miss — vessels held; India nationals safe but not released | Miss (expected low-P) |
+
+**T+1 summary:** 0 Hit, 4 Miss (3 expected low-P misses; 1 close-threshold miss on Brent). Brent model continues to be volatile around threshold; $93.78 vs $94.00 = within 0.25% — coin-flip prediction performing as calibrated. Parliament, European strike, piracy resolution all tracking prior heuristics correctly.
+
+### T+3 scoring (Day 174 predictions, gate EOD 22 Aug)
+No Day 174 T+3 predictions logged against EOD 22 Aug gate in backtest log.
+
+### T+7 scoring (Day 170 predictions, gate EOD 22 Aug)
+No Day 170 T+7 predictions logged against EOD 22 Aug gate in backtest log.
+
+### Heuristic updates (Day 177)
+
+- **IRAQI TANKER CONCESSION — PGSA GATEKEEPING MODEL CONFIRMED**: Iran granted Iraq selective PGSA passage 22 Aug (Reuters/IRNA T1) following Ghalibaf Baghdad visit. Confirms new heuristic: PGSA operates as selective diplomatic leverage tool, not binary open/closed. Aligned-state concessions do not indicate general reopening. Model update: when Iran grants selective access to aligned state, treat as Sc B signal (not Sc A); upgrade to Sc A only if general passage is announced with SNSC/Khamenei-office authorization.
+- **ARAGHCHI–OMAN FM CALL — 72H DECAY WINDOW**: FM-level contact 22 Aug is Hard T1 corroborated and genuine. Heuristic applied: FM-level → 72h window for SNSC corroboration; if no SNSC signal by EOD 25 Aug, signal decays. Sc A ↑+1pp to 14% on this basis only; revert to 13% if no SNSC follow-through.
+- **BRENT THRESHOLD MODEL — INTRADAY vs CLOSE CLARIFICATION**: Day 176 Brent prediction specified "closing above $94.00" — intraday high was $94.82 (22 Aug) but close was ~$93.78. Heuristic update: specify intraday high vs close explicitly in all future Brent predictions; distinguish "touches $X intraday" from "closes above $X" as separate probability assessments.
+
+### Day 177 New Predictions
+
+**Trend:** ↑ Worse. Confidence: High.
+**Threat level:** 4 / 5 · Severe (maintained; Sc C modal day 3; Economic D-Day Mon 25 Aug details; Threat 5 criteria: parliament bill passage + kinetic response OR European strike execution OR Yanbu impairment)
+
+**Scenarios (30d):**
+- A: Negotiated framework — 14% (↑+1pp; Araghchi–Oman call; 72h SNSC window; decays to 13% by EOD 25 Aug if no follow-through)
+- B: Frozen attrition / diplomatic limbo — 43% (→; Iraqi tanker concession = Sc B signal; B–C gap = 1pp instability warning maintained)
+- C: Re-escalation / multi-vector — 44% (→ modal day 3; Economic D-Day Mon 25 Aug + European strike planning + parliament bill + piracy)
+
+**New T+1 predictions (gate EOD 24 Aug ET / ~04:00 UTC 25 Aug):**
+- P(Brent intraday high above $95.00 on 23 Aug) = 0.35 — Current range $92.76–$94.82; weekend thin liquidity; pre-D-Day positioning
+- P(Brent closing above $93.50 on 23 Aug) = 0.55 — Current $93.93 futures; pre-close pressure likely
+- P(SNSC or Khamenei-office signal corroborating Araghchi–Oman call by EOD 24 Aug) = 0.15 — FM-level contact established; 72h window; no SNSC precedent same-day
+- P(Iran executes strike on US military target in Europe by EOD 24 Aug) = 0.05 — No imminent indicator; planning confirmed; operationalisation 48–96h minimum
+
+**T+3 predictions (gate EOD 25 Aug):**
+- P("Economic D-Day" secondary-sanctions package formally announced by Bessent by EOD 25 Aug) = 0.85 — Confirmed Monday press conference; high confidence; ±5pp band [0.80–0.90]
+- P(Brent closing above $95.00 on any single day by EOD 25 Aug) = 0.40 — Economic D-Day catalyst; 3-day window; ±5pp band [0.35–0.45]
+- P(SNSC-level or Khamenei-office signal corroborating Araghchi–Oman call by EOD 25 Aug) = 0.25 — 72h window; Sc A upgrade gate; ±5pp band [0.20–0.30]
+- P(Iran parliament Hormuz bill plenary floor vote by EOD 25 Aug) = 0.15 — Post-window; committee article review; ±5pp band [0.10–0.20]
+
+**T+7 predictions (gate EOD 29 Aug):**
+- P("Economic D-Day" secondary-sanctions formally announced AND China publicly rejects by EOD 29 Aug) = 0.60 — Announcement near-certain; China rejection near-certain given prior statements; compound probability high; ±5pp [0.55–0.65]
+- P(Iran parliament Hormuz bill passes full plenary floor vote by EOD 29 Aug) = 0.45 — Post-window committee completion; Guardian Council review begins after; ±5pp [0.40–0.50]
+- P(Iran strikes US military target in Europe by EOD 29 Aug) = 0.20 — 7-day window; FT planning corroborated; NATO deterrence; ±5pp [0.15–0.25]
+- P(Brent closing above $95.00 on any single day by EOD 29 Aug) = 0.55 — Economic D-Day Mon 25 Aug + parliament risk; 7-day window; ±5pp [0.50–0.60]
+- P(Sc C modal at ≥50% by EOD 29 Aug) = 0.35 — Requires European strike, parliament vote, or Yanbu impairment; Economic D-Day alone insufficient; ±5pp [0.30–0.40]
+- P(Araghchi–Oman joint working group first session by EOD 29 Aug) = 0.35 — FM call 22 Aug established basis; 72h SNSC window; ±5pp [0.30–0.40]
+
+**Watchlist carries (Day 177):**
+- W1: Iran–Oman joint working group first session (Araghchi–Albusaidi call 22 Aug; 72h SNSC window) — EOD 28 Aug
+- W2: "Economic D-Day" secondary-sanctions package announcement — EOD 25 Aug (Bessent confirmed Monday)
+- W3: Iran parliament Hormuz bill plenary floor vote — EOD 29 Aug (article-by-article committee review)
+- W4: Iran strikes US military target in Europe — EOD 26 Aug (FT/Stars & Stripes T1; planning confirmed)
+- W5: MV Seamull + MV Lutuf piracy resolution — EOD 29 Aug (5 ships held; historical weeks-timeline)
