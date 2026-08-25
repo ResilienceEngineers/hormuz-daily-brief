@@ -6263,3 +6263,65 @@ No Day 171 T+7 predictions logged in backtest log.
 - W3: Iran parliament Hormuz bill plenary floor vote — EOD 29 Aug (article-by-article review; Art. 3 approved 23 Aug)
 - W4: Iran strikes US military target in Europe — EOD 26 Aug (planning confirmed; no execution to date)
 - W5: MV Seamull + MV Lutuf piracy resolution — EOD 29 Aug (5 ships held; historical weeks-timeline)
+
+## Day 179 — 25 August 2026
+
+### T+1 scoring (Day 178 predictions, gate EOD 25 Aug)
+
+| Prediction | P | Outcome | Score |
+|---|---|---|---|
+| P(D-Day secondary-sanctions formally announced at Bessent 13:00 EDT press conference 25 Aug) | 0.92 | HIT (partial) — Operation Economic Outcast announced 24 Aug; press conference held; but framed as "warning shot" not full imposition; toughest China measures held in reserve | Hit (partial — warning shot) |
+| P(Brent front-month closing above $95.00 on 25 Aug) | 0.35 | Miss — Brent Oct 2026 opened ~$92.34 on 25 Aug; fell from $95.29 peak (21 Aug) as "warning shot" framing partially unwound D-Day premium | Miss |
+| P(Iran executes oil-export halt announcement within 24h of D-Day) | 0.18 | Miss — Rezaei rhetoric continued but no formal halt announcement executed | Miss (expected low-P) |
+| P(SNSC or Khamenei-office endorses Oman joint working group by EOD 25 Aug) | 0.20 | No confirmation found by 06:00 UTC 25 Aug; Albusaidi visit in progress — verdict pending EOD | Incomplete (carry to 26 Aug) |
+
+**T+1 summary:** 1 Hit (partial — "warning shot" framing is material qualifier; announced but held back toughest measures); 2 Miss (Brent did not break $95; oil-export halt not executed); 1 Incomplete (SNSC endorsement gate pending Albusaidi talks outcome). Brent prediction heuristic update: D-Day "warning shot" framing is a distinct market-signal category from full imposition — future predictions must specify P(full imposition) vs P(announced-but-held).
+
+### T+3 scoring (Day 175, gate EOD 24 Aug)
+No Day 175 T+3 predictions logged in backtest log.
+
+### T+7 scoring (Day 171, gate EOD 24 Aug)
+No Day 171 T+7 predictions logged in backtest log.
+
+### Heuristic updates (Day 179)
+
+- **D-DAY "WARNING SHOT" CATEGORY**: Bessent explicitly framed Operation Economic Outcast as a "warning shot" holding most damaging China measures in reserve. Future predictions must distinguish: (a) P(secondary sanctions announced), (b) P(full imposition including China bank designation), (c) P(enforcement actually applied). These are three distinct probability nodes, not one.
+- **SC A UPGRADE — PHYSICAL FM VISIT GATE MET**: Albusaidi physical FM visit Tehran 25 Aug confirmed (Iranian FM Hard T1 + CNBC/Reuters T1 corroboration). Physical FM visit with working group framework = Sc A structural signal — upgraded to 22% per heuristic. SNSC endorsement remains next gate (EOD 28 Aug → 27%).
+- **BRENT "WARNING SHOT" UNWINDING**: D-Day announcement without full China imposition caused Brent to fall 2.32% on 24 Aug from pre-announcement levels. Pattern: "warning shot" sanctions announcements may be Brent-negative in the short term vs expectations, even if structurally bullish. Update price prediction methodology: include P(full vs partial imposition) in Brent directional assessment.
+
+### Day 179 new predictions
+
+**Trend:** ↑ Worse. Confidence: High.
+**Threat level:** 4 / 5 · Severe (maintained; Threat-5 criteria: European strike execution OR parliament plenary vote OR Yanbu impairment OR oil-export halt announcement)
+
+**Scenarios (30d):**
+- A: Negotiated framework — 22% (↑+4pp; Albusaidi physical FM visit + joint working group + three-track mediator convergence; SNSC gate EOD 28 Aug → 27%)
+- B: Frozen attrition / diplomatic limbo — 40% (↓−2pp; modal; B–C gap = 2pp)
+- C: Re-escalation / multi-vector — 38% (↓−2pp; warning-shot framing reduces imminent trigger; parliament bill + end-of-week institution designation maintain pressure)
+
+**New T+1 predictions (gate EOD 26 Aug ET / ~04:00 UTC 27 Aug):**
+- P(Albusaidi–Araghchi Tehran talks produce joint communiqué or agreed Hormuz route parameters by EOD 26 Aug) = 0.45 — Physical FM visit today; working group framework in place; Araghchi pre-conditions remain structural gap; ±5pp [0.40–0.50]
+- P(SNSC or Khamenei-office endorses Oman joint working group by EOD 26 Aug) = 0.25 — Albusaidi visit may catalyze same-day or next-day SNSC signal; ±5pp [0.20–0.30]
+- P(Iran European strike execution by EOD 26 Aug) = 0.06 — Planning confirmed; D-Day catalyst; NATO deterrence; ±3pp [0.03–0.09]
+- P(Brent front-month closing above $93.00 on 26 Aug) = 0.55 — Currently ~$92.34; upside from Albusaidi talks failure or institution designation; ±5pp [0.50–0.60]
+
+**T+3 predictions (gate EOD 27 Aug):**
+- P(Albusaidi–Araghchi Tehran talks produce joint communiqué with Hormuz route parameters by EOD 27 Aug) = 0.45 — ±5pp [0.40–0.50]
+- P(Iran parliament Hormuz bill plenary floor vote by EOD 27 Aug) = 0.18 — article-by-article review continuing; speaker authorization required; ±5pp [0.13–0.23]
+- P(Iran European strike execution by EOD 27 Aug) = 0.10 — ↑+2pp post-D-Day; ±3pp [0.07–0.13]
+- P(Brent front-month closing above $95.00 any day by EOD 27 Aug) = 0.30 — Warning-shot framing reduced near-term spike P; ±5pp [0.25–0.35]
+
+**T+7 predictions (gate EOD 31 Aug):**
+- P(Bessent major financial institution designation (China-adjacent) by EOD 31 Aug) = 0.75 — Bessent explicitly stated "end of this week"; ±5pp [0.70–0.80]
+- P(Iran parliament Hormuz bill plenary floor vote by EOD 31 Aug) = 0.55 — 7-day window; ±5pp [0.50–0.60]
+- P(Oman joint working group first substantive session producing draft route parameters by EOD 31 Aug) = 0.55 — Albusaidi Tehran today; working group agreed; ±5pp [0.50–0.60]
+- P(Brent front-month closing above $95.00 any day by EOD 31 Aug) = 0.35 — Reduced from 0.42; warning-shot framing; ±5pp [0.30–0.40]
+- P(Iran executes oil-export halt announcement by EOD 31 Aug) = 0.18 — 7-day window; Rezaei SNSC-level threat; ±5pp [0.13–0.23]
+- P(Sc A at ≥27% by EOD 31 Aug) = 0.35 — Requires SNSC endorsement + first working group session + route parameters; ±5pp [0.30–0.40]
+
+**Watchlist carries (Day 179):**
+- W1: Albusaidi–Araghchi Tehran talks joint communiqué / route parameters — EOD 25 Aug (today; physical visit in progress)
+- W2: Bessent major financial institution designation — EOD 29 Aug (explicitly promised "end of this week")
+- W3: Iran parliament Hormuz bill plenary floor vote — EOD 29 Aug (article review continuing)
+- W4: Iran strikes US military target in Europe — EOD 26 Aug (planning confirmed; no execution)
+- W5: MV Seamull + MV Lutuf piracy resolution — EOD 29 Aug (5 vessels held; no resolution signals)
