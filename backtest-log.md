@@ -6388,3 +6388,66 @@ No Day 173 T+7 predictions logged in backtest log.
 - W3: Iran parliament Hormuz bill plenary floor vote — EOD 2 Sep
 - W4: Iran European strike execution — Rolling / EOD 31 Aug
 - W5: MV Seamull + 5 vessels held — piracy resolution — EOD 2 Sep
+
+## Day 181 — 27 August 2026
+
+### T+1 scoring (Day 180 predictions, gate EOD 27 Aug)
+
+| Prediction | P(stated) | Outcome | Score |
+|---|---|---|---|
+| P(SNSC/Khamenei-office formal endorsement of 25 Aug framework by EOD 27 Aug) | 0.20 | **MISS** — No SNSC endorsement found; IRGC Mohebi revenue claim (26 Aug, Sepah News Tier 5) not SNSC-level; Oman FM silent (CNN T1, RFE/RL T1, Bloomberg T1) | Miss (expected low-P) |
+| P(US/Trump administration explicit endorsement of corridor by EOD 27 Aug) | 0.15 | **MISS** — Trump claimed mines cleared and 10M bbl transited; Iran + IMO rejected assertions; no formal corridor acceptance (CNN T1, gCaptain T2) | Miss (expected low-P) |
+| P(Iran European strike execution by EOD 27 Aug) | 0.06 | **MISS** — No kinetic execution; 8th consecutive day unconfirmed (expected miss) | Miss (expected low-P) |
+| P(Brent above $90.00 on 27 Aug) | 0.40 | **MISS** — Brent fell to $86.93 on 27 Aug (TradingEconomics T2); three consecutive sessions of diplomatic-progress selling; well below $90 | Miss |
+
+**T+1 summary:** 4 MISS (all expected direction or low-P). Brent miss confirms heuristic: diplomatic progress is the dominant Brent driver; $90 structural floor has broken. No SNSC endorsement in 24h confirms Rezaei gate is real and timeline is 48–72h from joint statement. IRGC revenue-sharing claim (Mohebi 26 Aug) is a new signal but Tier 5 source; Oman silence = unconfirmed; placed on watchlist as soft positive for Sc A.
+
+### T+3 scoring (Day 178 predictions, gate EOD 27 Aug)
+No Day 178 T+3 predictions logged in backtest log.
+
+### T+7 scoring (Day 174 predictions, gate EOD 27 Aug)
+No Day 174 T+7 predictions logged in backtest log.
+
+### Heuristic updates (Day 181)
+
+- **IRGC REVENUE CLAIM ≠ SNSC ENDORSEMENT**: IRGC spokesman statements in Sepah News (Tier 5) on corridor revenue-sharing cannot be treated as SNSC-level or FM-level endorsement. Oman FM silence = unconfirmed. Future IRGC revenue/corridor claims must be held at Watch until confirmed by Oman FM or SNSC channel. Do not upgrade Sc A on Tier 5 IRGC claims alone.
+- **BRENT $90 FLOOR BROKEN**: Brent $86.93 on 27 Aug; structural reference moves from "$90 floor" to "$83–88 diplomatic-progress range." New Brent ceiling trigger: Chinese bank institution designation (wave 2, due EOD 29 Aug) = primary upside risk; add $3–5/bbl estimate.
+- **TRUMP MINE-CLEARED CLAIMS**: Trump's assertion that mines are cleared and 10M bbl transited (26 Aug) was rejected by Iran and IMO. Treat Trump mine/transit claims as Soft political signals, not Hard operational facts. Do not use Trump claims to upgrade maritime threat level downward without independent UKMTO/MARAD confirmation.
+
+### Day 181 new predictions
+
+**Trend:** ↓ Better. Confidence: Medium.
+**Threat level:** 4 / 5 · Severe (maintained; Threat-5 criteria unchanged: European strike execution OR parliament Hormuz bill plenary floor vote + SNSC endorsement OR Yanbu impairment OR oil-export halt OR SNSC formal rejection of corridor framework)
+
+**Scenarios (30d):**
+- A: Negotiated framework — 30% (↑+2pp; IRGC revenue claim positive incremental signal even if Tier 5; SNSC gate EOD 28 Aug = primary upgrade/decay trigger)
+- B: Frozen attrition / diplomatic limbo — 42% (↑+2pp; modal; IRGC "US obstructing" hedging + Bessent wave 2 due EOD 29 Aug)
+- C: Re-escalation / multi-vector — 28% (↓−4pp; diplomatic surge dominant; institution designation + parliament bill + Rezaei maintain tail)
+
+**New T+1 predictions (gate EOD 28 Aug ET / ~04:00 UTC 29 Aug):**
+- P(SNSC/Khamenei-office formal endorsement of 25 Aug Iran–Oman corridor framework by EOD 28 Aug) = 0.30 — IRGC revenue claim positive incremental; but Oman silent; Rezaei gate; 72h window from joint statement expiry; ±5pp [0.25–0.35]
+- P(Bessent institution designation announced by EOD 28 Aug) = 0.35 — Commitment was "by end of this week" (week = ending 29 Aug); possible Thursday announcement; ±5pp [0.30–0.40]
+- P(Iran European strike execution by EOD 28 Aug) = 0.06 — Diplomatic surge dominant; planning posture maintained; ±3pp [0.03–0.09]
+- P(Brent front-month closing above $89.00 on 28 Aug) = 0.30 — Currently $86.93; upside from institution designation or SNSC miss (Sc B reinforcement); downside from continued corridor optimism; ±5pp [0.25–0.35]
+
+**T+3 predictions (gate EOD 29 Aug):**
+- P(Bessent institution designation executed by EOD 29 Aug) = 0.70 — Explicit "end of this week" commitment; week ends 29 Aug; ±5pp [0.65–0.75]
+- P(SNSC/Khamenei-office endorsement by EOD 29 Aug) = 0.40 — 4-day window from joint statement; Rezaei gate; IRGC revenue claim positive; ±5pp [0.35–0.45]
+- P(Iran parliament Hormuz bill plenary floor vote by EOD 29 Aug) = 0.10 — Committee approved; speaker authorization required; diplomatic progress may delay; ±5pp [0.05–0.15]
+- P(Iran European strike execution by EOD 29 Aug) = 0.08 — ±3pp [0.05–0.11]
+
+**T+7 predictions (gate EOD 2 Sep):**
+- P(Bessent institution designation executed by EOD 2 Sep) = 0.90 — Commitment explicit; grace period unlikely to extend beyond 29 Aug; ±5pp [0.85–0.95]
+- P(SNSC endorsement of Hormuz corridor framework by EOD 2 Sep) = 0.50 — 7-day window; IRGC revenue claim positive; Rezaei posture is constraint not veto; ±5pp [0.45–0.55]
+- P(Hormuz temporary corridor formally activated by EOD 2 Sep) = 0.12 — Technical talks 30–60 days (Gharibabadi); ±5pp [0.07–0.17]
+- P(Iran parliament Hormuz bill plenary floor vote by EOD 2 Sep) = 0.25 — 7-day window; technical talks provide delay incentive; ±5pp [0.20–0.30]
+- P(Sc A at ≥35% by EOD 2 Sep) = 0.30 — Requires SNSC endorsement + US acceptance; OFAC PGSA barrier; ±5pp [0.25–0.35]
+- P(Brent front-month closing above $90.00 any day by EOD 2 Sep) = 0.30 — Chinese bank designation upside; diplomatic setback upside; otherwise diplomatic progress dominant; ±5pp [0.25–0.35]
+- P(Iran oil-export halt announcement by EOD 2 Sep) = 0.10 — Rezaei rhetoric maintained; corridor progress reduces near-term P; ±5pp [0.05–0.15]
+
+**Watchlist carries (Day 181):**
+- W1: SNSC/Khamenei-office endorsement of 25 Aug Iran–Oman corridor framework — EOD 28 Aug
+- W2: Bessent major financial institution designation — EOD 29 Aug
+- W3: Iran parliament Hormuz bill plenary floor vote — EOD 2 Sep
+- W4: Iran European strike execution — Rolling / EOD 31 Aug
+- W5: MV Seamull + 5 vessels held — piracy resolution — EOD 2 Sep
