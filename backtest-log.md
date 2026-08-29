@@ -6514,3 +6514,64 @@ No Day 175 T+7 predictions logged in backtest log.
 - W3: Iran parliament Hormuz bill plenary floor vote — EOD 2 Sep
 - W4: Iran European strike execution — Rolling / EOD 31 Aug
 - W5: MV Seamull + 5 vessels held — piracy resolution — EOD 2 Sep
+
+## Day 183 — 29 August 2026
+
+### T+1 scoring (Day 182 predictions, gate EOD 29 Aug ET)
+
+| Prediction | P | Result | Score |
+|---|---|---|---|
+| P(Bessent major financial institution designated by EOD 29 Aug) | 0.65 | **PENDING** — OFAC 28 Aug action targeted Bank Melli UAE facilitators (individual/entity level only); no major-institution designation found in OFAC recent-actions as of 06:00 UTC 29 Aug; gate closes EOD 29 Aug ET | Pending — score at T+2 |
+| P(SNSC/Khamenei-office formal endorsement of corridor framework by EOD 29 Aug) | 0.20 | **MISS** — No SNSC action found in any Tier 1–3 source; Araghchi FM-level "not impossible" signal is Soft, not SNSC; gate confirmed missed | Miss |
+| P(Iran European strike execution by EOD 29 Aug) | 0.06 | **MISS** — 10th consecutive day unconfirmed; expected miss | Miss (expected) |
+| P(Brent front-month closing above $89.00 on 29 Aug) | 0.40 | **PENDING** — 28 Aug close $88.29 (confirmed below gate); 29 Aug gate still open at time of publication (06:00 UTC = pre-market); Bessent designation not yet executed = no trigger fired | Pending |
+
+**T+1 summary:** 2 confirmed MISS (SNSC, Iran strike — both expected). 2 PENDING (Bessent institution + Brent 29 Aug close — both gate still open at publication). No surprises. Methodology note: SNSC 3rd consecutive miss confirms Rezaei constraint is durable structural gate, not a timing issue. Decay Sc A to 28% if SNSC misses EOD 31 Aug gate.
+
+### T+3 scoring (Day 180 predictions, gate EOD 27 Aug)
+No Day 180 T+3 predictions logged.
+
+### T+7 scoring (Day 176 predictions, gate EOD 27 Aug)
+No Day 176 T+7 predictions logged.
+
+### Day 183 new predictions
+
+**Trend:** → Same. Confidence: Medium.
+**Threat level:** 4 / 5 · Severe (maintained)
+
+**Scenarios (30d):**
+- A: Negotiated framework — 30% (→ unchanged; Araghchi "not impossible" = FM-level positive; SNSC gate extended to EOD 31 Aug; primary gate: SNSC + US acceptance signal)
+- B: Frozen attrition / diplomatic limbo — 43% (→ unchanged; modal; coercive-sequencing bilateral lock-in; six-month structural)
+- C: Re-escalation / multi-vector — 27% (→ unchanged; IRGC 4-day lull insufficient to reduce; Chinese-bank designation = primary upside trigger)
+
+**New T+1 predictions (gate EOD 30 Aug ET / ~04:00 UTC 31 Aug):**
+- P(Bessent major financial institution designated by EOD 30 Aug) = 0.72 — "End of this week" commitment slipped 29 Aug gate; max grace = Sat 30 Aug ET; high commitment level; OFAC infrastructure ready; ±5pp [0.67–0.77]
+- P(SNSC/Khamenei-office formal endorsement of corridor framework by EOD 30 Aug) = 0.12 — Extended gate; 3rd consecutive miss would move Rezaei constraint to structural category; ±4pp [0.08–0.16]
+- P(IRGC kinetic strike (UKMTO-confirmed) by EOD 30 Aug) = 0.40 — 4-day lull = longest in 2 weeks; spoiling-kinetics pattern implies resumption probability rising; ±8pp [0.32–0.48]
+- P(Brent front-month closing above $89.00 on 30 Aug) = 0.38 — Bessent grace-period execution primary trigger; Chinese bank = +$3–5/bbl; non-Chinese = muted; IRGC kinetic resumption = +$1–2/bbl; ±5pp [0.33–0.43]
+
+**T+3 predictions (gate EOD 31 Aug):**
+- P(Bessent institution designation executed by EOD 31 Aug) = 0.88 — Commitment explicit; commitment credibility at stake; ±5pp [0.83–0.93]
+- P(SNSC/Khamenei-office endorsement by EOD 31 Aug) = 0.28 — 6-day window from Qatar PM visit; Rezaei structural constraint; ±5pp [0.23–0.33]
+- P(Iran parliament Hormuz bill plenary floor vote by EOD 31 Aug) = 0.10 — Diplomatic track delay incentive; speaker authorization required; ±5pp [0.05–0.15]
+- P(Iran European strike execution by EOD 31 Aug) = 0.09 — ±3pp [0.06–0.12]
+
+**T+7 predictions (gate EOD 4 Sep):**
+- P(Bessent institution designation executed by EOD 4 Sep) = 0.94 — Commitment explicit; ±4pp [0.90–0.98]
+- P(SNSC endorsement of corridor framework by EOD 4 Sep) = 0.38 — 10-day window; Rezaei constraint durable; ±5pp [0.33–0.43]
+- P(Hormuz temporary corridor formally activated by EOD 4 Sep) = 0.08 — Technical talks 30–60 days (Gharibabadi); SNSC + US acceptance both required; ±4pp [0.04–0.12]
+- P(Iran parliament Hormuz bill plenary floor vote by EOD 4 Sep) = 0.25 — 7-day extension; ±5pp [0.20–0.30]
+- P(Sc A at ≥35% by EOD 4 Sep) = 0.22 — Requires SNSC + US acceptance; SNSC 3-miss pattern now structural; ±5pp [0.17–0.27]
+- P(Brent front-month closing above $90.00 any day by EOD 4 Sep) = 0.35 — Chinese bank designation primary trigger; IRGC kinetic resumption secondary; ±5pp [0.30–0.40]
+- P(IRGC kinetic strike UKMTO-confirmed by EOD 4 Sep) = 0.75 — 4-day lull into structural resumption band; spoiling pattern; ±8pp [0.67–0.83]
+
+**Watchlist carries (Day 183):**
+- W1: Bessent major financial institution designation — EOD 29 Aug ET (primary gate today; grace extends to 30 Aug)
+- W2: SNSC/Khamenei-office endorsement of corridor framework — EOD 31 Aug (extended; 3rd consecutive miss = structural reclassification)
+- W3: Iran parliament Hormuz bill plenary floor vote — EOD 2 Sep
+- W4: Iran European strike execution — Rolling / EOD 31 Aug
+- W5: MV Seamull + 5 vessels held — piracy resolution — EOD 2 Sep
+
+**Heuristic update (Day 183):**
+- **BESSENT "CURE PERIOD" = SEQUENCING, NOT HESITATION**: AgBull/AML Intelligence analysis confirms Bessent explicitly said "Why would I want to blow up the global financial system?" and described a "cure period" before strongest secondary-sanctions tools. This is coercive sequencing methodology, not ambivalence. Major-institution designation was always intended as wave-2 tool; the "end of this week" commitment was real but wave-1 (Bank Melli UAE facilitators 28 Aug) is the expected preceding action. Revise: if designation not by EOD 30 Aug (Sat), move gate to Monday 31 Aug as practical deadline, not a commitment miss.
+- **ARAGHCHI "NOT IMPOSSIBLE" = SOFT FLOOR, NOT BREAKTHROUGH**: FM-level public diplomatic signal on 6-month anniversary; Bloomberg described talks as "creative discussions." But structural incompatibility with Bessent posture is unchanged. Treat as maintaining Sc A at 30% floor, not as upgrade trigger. Upgrade requires SNSC action + US acceptance signal — both absent.
