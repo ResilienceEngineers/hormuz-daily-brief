@@ -6575,3 +6575,66 @@ No Day 176 T+7 predictions logged.
 **Heuristic update (Day 183):**
 - **BESSENT "CURE PERIOD" = SEQUENCING, NOT HESITATION**: AgBull/AML Intelligence analysis confirms Bessent explicitly said "Why would I want to blow up the global financial system?" and described a "cure period" before strongest secondary-sanctions tools. This is coercive sequencing methodology, not ambivalence. Major-institution designation was always intended as wave-2 tool; the "end of this week" commitment was real but wave-1 (Bank Melli UAE facilitators 28 Aug) is the expected preceding action. Revise: if designation not by EOD 30 Aug (Sat), move gate to Monday 31 Aug as practical deadline, not a commitment miss.
 - **ARAGHCHI "NOT IMPOSSIBLE" = SOFT FLOOR, NOT BREAKTHROUGH**: FM-level public diplomatic signal on 6-month anniversary; Bloomberg described talks as "creative discussions." But structural incompatibility with Bessent posture is unchanged. Treat as maintaining Sc A at 30% floor, not as upgrade trigger. Upgrade requires SNSC action + US acceptance signal — both absent.
+
+## Day 184 — 30 August 2026
+
+### T+1 scoring (Day 183 predictions, gate EOD 30 Aug ET)
+
+| Prediction | P(assigned) | Outcome | Score |
+|---|---|---|---|
+| P(Bessent major financial institution designated by EOD 30 Aug) | 0.72 | **HIT** — FinCEN Section 311 proposed rule against Banque Misr UAE (28 Aug) executed on schedule; mechanism FinCEN 311 not OFAC SDN but dollar-cutoff effect equivalent; "first step" per Bessent; Chinese banks spared (consistent with cure-period heuristic) | Hit |
+| P(SNSC/Khamenei-office formal endorsement of corridor framework by EOD 30 Aug) | 0.12 | **HIT** — IRNA 29 Aug: Rezaei/SNSC endorses Iran–Oman temporary corridor; confirms SNSC-level positive signal; strategic closure condition maintained; tactical vs strategic distinction preserved in methodology | Hit (low-P surprise) |
+| P(IRGC kinetic strike UKMTO-confirmed by EOD 30 Aug) | 0.40 | **MISS** — 5-day lull confirmed; no new UKMTO attack warning 28–30 Aug; lull extends through 30 Aug; Fox News 30 Aug confirms traffic below normal but no new attacks cited | Miss |
+| P(Brent front-month closing above $89.00 on 30 Aug) | 0.38 | **MISS** — 29 Aug range $87.28–88.73 (Investing.com); Brent held below $89 gate on diplomacy-sentiment softening; Goldman Sachs corridor-positive reading | Miss |
+
+**T+1 summary:** 2 Hits (Bessent institution action, SNSC endorsement — both on-range), 2 Misses (IRGC lull extending, Brent below $89). SNSC hit at 0.12 assigned probability = low-P surprise; correctly calibrated as low but real. Methodology update: Rezaei SNSC endorsement was tactical (corridor), not strategic (June MoU terms) — distinction confirmed. Cure-period heuristic for Bessent validated again: FinCEN 311 = wave-2 institutional action, Chinese banks = wave-3.
+
+### T+3 scoring (Day 181 predictions, gate EOD 30 Aug)
+No Day 181 T+3 predictions logged in backtest.
+
+### T+7 scoring (Day 177 predictions, gate EOD 30 Aug)
+No Day 177 T+7 predictions logged in backtest.
+
+---
+
+### Day 184 new predictions
+
+**Trend:** → Same. Confidence: Medium.
+**Threat level:** 4 / 5 · Severe (maintained)
+
+**Scenarios (30d):**
+- A: Negotiated framework — 33% (↑+3pp; SNSC tactical corridor endorsement; US acceptance signal = primary remaining gate; Trump rejection of June MoU = structural cap)
+- B: Frozen attrition / diplomatic limbo — 42% (↓−1pp; modal; 30–60 day corridor clock adds diplomatic activity without structural change)
+- C: Re-escalation / multi-vector — 25% (↓−2pp; IRGC 5-day lull + SNSC engagement reduces near-term; Chinese bank designation = primary trigger)
+
+**New T+1 predictions (gate EOD 31 Aug ET / ~04:00 UTC 1 Sep):**
+- P(IRGC kinetic strike UKMTO-confirmed by EOD 31 Aug) = 0.48 — 5-day lull entering historical resumption band; spoiling-kinetics pattern; diplomatic plateau without structural breakthrough = resumption trigger; ±8pp [0.40–0.56]
+- P(SNSC strategic endorsement of US-facing corridor terms by EOD 31 Aug) = 0.08 — Tactical corridor endorsed 29 Aug; strategic closure conditions (US ends war + releases funds) unchanged; US has rejected June MoU terms; ±3pp [0.05–0.11]
+- P(FinCEN Banque Misr UAE rule finalised or accelerated by EOD 31 Aug) = 0.05 — 30-day comment period in force; no acceleration mechanism announced; ±3pp [0.02–0.08]
+- P(Brent front-month closing above $89.00 on 31 Aug) = 0.32 — Brent at $87–89 band; no new catalyst identified for week-end; IRGC resumption = +$1–2/bbl secondary; Chinese bank designation primary trigger absent; ±5pp [0.27–0.37]
+
+**T+3 predictions (gate EOD 1 Sep):**
+- P(IRGC kinetic strike UKMTO-confirmed by EOD 1 Sep) = 0.62 — Historical pattern: lulls >5 days rare in spoiling-kinetics cycle; 72-96h resumption window opens 31 Aug; ±8pp [0.54–0.70]
+- P(Iran parliament Hormuz bill plenary floor vote by EOD 1 Sep) = 0.08 — Diplomatic-track delay incentive active; SNSC corridor track concurrent; ±4pp [0.04–0.12]
+- P(Brent front-month closing above $90.00 any day by EOD 1 Sep) = 0.22 — Chinese bank designation absent; IRGC resumption secondary trigger; ±5pp [0.17–0.27]
+- P(Iran–Oman corridor formally activated by EOD 1 Sep) = 0.03 — Technical talks 30–60 days (Gharibabadi); OFAC guidance not issued; ±2pp [0.01–0.05]
+
+**T+7 predictions (gate EOD 6 Sep):**
+- P(IRGC kinetic strike UKMTO-confirmed by EOD 6 Sep) = 0.78 — 7-day window into structural resumption band; ±7pp [0.71–0.85]
+- P(Chinese bank / major PRC institution FinCEN 311 or OFAC designation by EOD 6 Sep) = 0.12 — Bessent cure-period explicit; Chinese banks spared 28 Aug; wave-3 not imminent; ±4pp [0.08–0.16]
+- P(Iran parliament Hormuz bill plenary floor vote by EOD 6 Sep) = 0.22 — 7-day extension; SNSC corridor diplomacy adds delay incentive; ±5pp [0.17–0.27]
+- P(Sc A at ≥35% by EOD 6 Sep) = 0.28 — SNSC tactical hit; US acceptance signal = primary remaining gate; Trump rejection of June MoU structural constraint; ±5pp [0.23–0.33]
+- P(Brent front-month closing above $90.00 any day by EOD 6 Sep) = 0.28 — Chinese bank = primary trigger; IRGC kinetic resumption = secondary; corridor optimism = floor; ±5pp [0.23–0.33]
+- P(Iran–Oman corridor formally activated by EOD 6 Sep) = 0.06 — Technical talks 30–60 days; OFAC guidance = blocking condition; ±3pp [0.03–0.09]
+- P(MV Seamull piracy resolution by EOD 6 Sep) = 0.25 — Incident under investigation; no resolution signal found; ±7pp [0.18–0.32]
+
+**Watchlist carries (Day 184):**
+- W1: Iran–Oman corridor formal activation + US OFAC guidance — EOD 14 Sep (30-day outer gate)
+- W2: Chinese bank / major PRC institution Op Economic Outcast designation — Rolling / EOD 14 Sep
+- W3: Iran parliament Hormuz bill plenary floor vote — EOD 7 Sep (extended)
+- W4: Iran European strike execution — Rolling / EOD 6 Sep
+- W5: MV Seamull + 5 vessels held — piracy resolution — EOD 6 Sep
+
+**Heuristic update (Day 184):**
+- **REZAEI SNSC = TACTICAL/OPERATIONAL ENDORSEMENT ≠ STRATEGIC BREAKTHROUGH**: SNSC Rezaei endorsed the Iran–Oman corridor at the tactical/operational level (7 NM corridor, 30–60 day talks) while explicitly maintaining the strategic closure condition (US ends war, releases blocked funds, withdraws blockade). The prior "Rezaei constraint" heuristic (SNSC as structural veto) must be refined: Rezaei can endorse tactical sub-elements without endorsing strategic framework. Future SNSC gate for Sc A upgrade = explicit Rezaei/SNSC endorsement of US-facing terms, not corridor sub-elements. Separate gate maintained.
+- **BESSENT WAVE SEQUENCING VALIDATED**: FinCEN 311 (Banque Misr UAE, 28 Aug) = wave-2 institutional action consistent with cure-period heuristic. Pattern: wave-1 = individual/entity (Bank Melli UAE manager, Kameng Trading, 28 Aug); wave-2 = institutional proposed rule (Banque Misr UAE FinCEN 311, 28 Aug same day); wave-3 = Chinese banks (not yet; explicit cure-period deference). Chinese bank designation remains primary Sc C trigger. Monitor FinCEN 311 comment period (closes ~28 Sep) for finalization or acceleration signals.
