@@ -6638,3 +6638,66 @@ No Day 177 T+7 predictions logged in backtest.
 **Heuristic update (Day 184):**
 - **REZAEI SNSC = TACTICAL/OPERATIONAL ENDORSEMENT ≠ STRATEGIC BREAKTHROUGH**: SNSC Rezaei endorsed the Iran–Oman corridor at the tactical/operational level (7 NM corridor, 30–60 day talks) while explicitly maintaining the strategic closure condition (US ends war, releases blocked funds, withdraws blockade). The prior "Rezaei constraint" heuristic (SNSC as structural veto) must be refined: Rezaei can endorse tactical sub-elements without endorsing strategic framework. Future SNSC gate for Sc A upgrade = explicit Rezaei/SNSC endorsement of US-facing terms, not corridor sub-elements. Separate gate maintained.
 - **BESSENT WAVE SEQUENCING VALIDATED**: FinCEN 311 (Banque Misr UAE, 28 Aug) = wave-2 institutional action consistent with cure-period heuristic. Pattern: wave-1 = individual/entity (Bank Melli UAE manager, Kameng Trading, 28 Aug); wave-2 = institutional proposed rule (Banque Misr UAE FinCEN 311, 28 Aug same day); wave-3 = Chinese banks (not yet; explicit cure-period deference). Chinese bank designation remains primary Sc C trigger. Monitor FinCEN 311 comment period (closes ~28 Sep) for finalization or acceleration signals.
+
+---
+
+### Day 184 T+1 scoring (gate EOD 31 Aug)
+
+| Prediction | P(assigned) | Outcome | Score |
+|---|---|---|---|
+| P(IRGC kinetic strike UKMTO-confirmed by EOD 31 Aug) | 0.48 | **HIT** — US struck Larak Island 30 Aug after IRGC mine-rocket prep observed; IRGC confirmed CENTCOM Hard T1, CNN T1, AJ T1; IRGC retaliated with ballistic missiles into Jordan (Euronews T1, CNN T1) | Hit |
+| P(SNSC strategic endorsement of US-facing corridor terms by EOD 31 Aug) | 0.08 | **MISS** — No SNSC/Khamenei-office strategic endorsement of US-facing corridor terms found; tactical corridor endorsement (Rezaei 29 Aug) was prior day; strategic closure condition unchanged | Miss |
+| P(FinCEN Banque Misr UAE rule finalised or accelerated by EOD 31 Aug) | 0.05 | **MISS** — 30-day comment period in force; no acceleration mechanism announced; no finalisation signal found | Miss |
+| P(Brent front-month closing above $89.00 on 31 Aug) | 0.32 | **HIT** — Investing.com: 31 Aug trading range $89.61–90.60; $89 gate breached on Larak escalation repricing | Hit |
+
+**T+1 summary (Day 184):** 2 Hits (IRGC kinetic strike, Brent above $89), 2 Misses (SNSC strategic endorsement, FinCEN acceleration). IRGC hit validates spoiling-kinetics resumption-band heuristic precisely: 5-day lull + diplomatic plateau = resumption trigger. Calibration note: P=0.48 assigned — outcome was unambiguous Hit (kinetic exchange confirmed multiple Hard T1 sources). Brent hit at P=0.32 validates corridor/escalation repricing model; missed at $89 on 29 Aug, hit on 31 Aug when Larak added geopolitical premium.
+
+### Day 184 T+3 scoring (gate EOD 1 Sep)
+*Pending — gate EOD 1 Sep. Predictions logged below from Day 184 backtest entry.*
+
+### Day 184 T+7 scoring (gate EOD 6 Sep)
+*Pending — gate EOD 6 Sep. Predictions logged below from Day 184 backtest entry.*
+
+---
+
+### Day 185 new predictions (31 August 2026)
+
+**Trend:** ↑ Worse. Confidence: High.
+**Threat level:** 4 / 5 · Severe (maintained; Threat-5 watch active)
+
+**Scenarios (30d):**
+- A: Negotiated framework — 22% (↓−11pp; Larak + IRGC retaliation collapse near-term pathway; corridor under spoiling pressure; US rejects MoU; SNSC strategic gate unmet)
+- B: Frozen attrition / diplomatic limbo — 38% (↓−4pp; kinetic exchange reopens; corridor clock under pressure; no structural breakthrough; Op Economic Outcast continues)
+- C: Re-escalation / multi-vector — 40% (↑+15pp; first US strike in 30 days + IRGC ballistic retaliation = structural re-escalation; mine-prep at Larak confirms spoiling posture; now co-modal with B)
+
+**New T+1 predictions (gate EOD 1 Sep ET / ~04:00 UTC 2 Sep):**
+- P(IRGC second-wave retaliatory strike causing confirmed damage to US base or Gulf-state energy infra by EOD 1 Sep) = 0.35 — 8 ballistic missiles intercepted 30 Aug; IRGC "punishment" statement active; Jordan intercept success = moderating factor; Iran has magazine depth; ±8pp [0.27–0.43]
+- P(Iran–Oman corridor talks formally suspended by either party by EOD 1 Sep) = 0.30 — Larak strike applies acute spoiling pressure; Araghchi "wartime situation" framing; US "not negotiating" posture unchanged; ±8pp [0.22–0.38]
+- P(New IRGC vessel attack UKMTO-confirmed in Hormuz/Gulf of Oman by EOD 1 Sep) = 0.55 — IRGC retaliation package typically includes maritime and ballistic components; mine-rocket prep interdicted = maritime kinetics displaced to next target; ±8pp [0.47–0.63]
+- P(Brent front-month closing above $90.00 on 1 Sep) = 0.55 — Larak escalation has pushed Brent to $89.61–90.60 range; IRGC second-wave = additional +$1–2 geopolitical premium; no downward catalyst identified; ±7pp [0.48–0.62]
+
+**T+3 predictions (gate EOD 3 Sep):**
+- P(Threat-5 trigger confirmed by EOD 3 Sep) = 0.28 — IRGC "punishment" statement; Jordan intercept success not guarantee; 72h window is highest-risk period; Threat-5 = confirmed US base casualties or Gulf-state energy infra strike; ±7pp [0.21–0.35]
+- P(Iran–Oman corridor formally suspended by EOD 3 Sep) = 0.50 — Larak escalation; IRGC separate from diplomatic track; mediators may push back; ±8pp [0.42–0.58]
+- P(IRGC mine-seeding attempt in Hormuz main lane by EOD 3 Sep) = 0.65 — Larak destroyed 2 launchers; IRGC has additional capability; CENTCOM mine-clearance = direct provocation to IRGC; ±8pp [0.57–0.73]
+- P(Brent closing above $92 any day by EOD 3 Sep) = 0.45 — IRGC second-wave + corridor suspension = $92+ catalyst; ±7pp [0.38–0.52]
+
+**T+7 predictions (gate EOD 7 Sep):**
+- P(Threat-5 triggered by EOD 7 Sep) = 0.42 — 7-day window; IRGC retaliation package typically multi-wave over 3–5 days; Jordan intercept success degrades with saturation; ±7pp [0.35–0.49]
+- P(Iran parliament Hormuz bill plenary floor vote by EOD 7 Sep) = 0.30 — Larak hardliner pressure accelerates legislative track; prior deadline extended but Larak = new catalyst; ±7pp [0.23–0.37]
+- P(Chinese bank / major PRC institution FinCEN 311 or OFAC SDN designation by EOD 7 Sep) = 0.14 — Larak kinetics may accelerate Bessent wave-3 as pressure tool; cure-period explicit but shortening; ±5pp [0.09–0.19]
+- P(Sc C at ≥45% by EOD 7 Sep) = 0.52 — Current Sc C = 40%; IRGC retaliation package + corridor suspension + hardliner pressure = structural drivers; ±8pp [0.44–0.60]
+- P(Brent above $92 any day by EOD 7 Sep) = 0.55 — Structural re-escalation signal; corridor suspension + IRGC kinetics = sustained premium; ±7pp [0.48–0.62]
+- P(MV Seamull + 5 vessels piracy resolution by EOD 7 Sep) = 0.12 — Larak escalation reduces IRGC release incentive; may be used as retaliation leverage; ±5pp [0.07–0.17]
+
+**Watchlist carries (Day 185):**
+- W1: IRGC retaliatory strike causing confirmed US base damage — EOD 1 Sep (acute window)
+- W2: Iran–Oman corridor talks formally suspended — EOD 3 Sep
+- W3: Iran parliament Hormuz bill plenary floor vote — EOD 7 Sep
+- W4: Chinese bank / major PRC institution designation — Rolling / EOD 14 Sep
+- W5: MV Seamull + 5 vessels held — piracy resolution — EOD 6 Sep
+
+**Heuristic updates (Day 185):**
+- **IRGC DUAL-TRACK CONFIRMED**: The Larak mine-rocket preparation (30 Aug) occurred simultaneously with SNSC diplomatic corridor endorsement (29 Aug). IRGC operational track is independent of and runs counter to SNSC diplomatic signalling. Heuristic update: SNSC/diplomatic activity = ZERO signal for IRGC operational stand-down. These are structurally decoupled command tracks. Future threat assessments must never lower kinetic probability based on diplomatic signals alone.
+- **SPOILING-KINETICS RESUMPTION-BAND VALIDATED**: P=0.48 assigned for IRGC strike by EOD 31 Aug was a HIT. 5-day lull exactly at median resumption band. Heuristic strengthened: lull >4 days during diplomatic plateau = resumption trigger, not diplomatic restraint signal. Increase base rate to 0.55+ for any lull >5 days in future similar conditions.
+- **MINE-CLEARANCE = IRGC PROVOCATION SIGNAL**: CENTCOM completion of mine-clearance + Trump "any new mine-layer destroyed" statement = direct challenge to IRGC operational capability. IRGC response (mine-rocket prep at Larak) confirms this as a credibility test. Future: US mine-clearance announcements should trigger +0.10 probability uplift on IRGC kinetic resumption within 48–72h.
