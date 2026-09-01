@@ -6701,3 +6701,63 @@ No Day 177 T+7 predictions logged in backtest.
 - **IRGC DUAL-TRACK CONFIRMED**: The Larak mine-rocket preparation (30 Aug) occurred simultaneously with SNSC diplomatic corridor endorsement (29 Aug). IRGC operational track is independent of and runs counter to SNSC diplomatic signalling. Heuristic update: SNSC/diplomatic activity = ZERO signal for IRGC operational stand-down. These are structurally decoupled command tracks. Future threat assessments must never lower kinetic probability based on diplomatic signals alone.
 - **SPOILING-KINETICS RESUMPTION-BAND VALIDATED**: P=0.48 assigned for IRGC strike by EOD 31 Aug was a HIT. 5-day lull exactly at median resumption band. Heuristic strengthened: lull >4 days during diplomatic plateau = resumption trigger, not diplomatic restraint signal. Increase base rate to 0.55+ for any lull >5 days in future similar conditions.
 - **MINE-CLEARANCE = IRGC PROVOCATION SIGNAL**: CENTCOM completion of mine-clearance + Trump "any new mine-layer destroyed" statement = direct challenge to IRGC operational capability. IRGC response (mine-rocket prep at Larak) confirms this as a credibility test. Future: US mine-clearance announcements should trigger +0.10 probability uplift on IRGC kinetic resumption within 48–72h.
+
+## Day 186 · 1 September 2026 — Backtest entry
+
+### Day 185 T+1 scoring (gate EOD 1 Sep)
+
+| Prediction | P assigned | Outcome | Score |
+|---|---|---|---|
+| IRGC second-wave retaliatory strike causing **confirmed damage** to US base or Gulf-state energy infra by EOD 1 Sep | 0.35 | IRGC struck Jordan (King Hussein + Al-Azraq) and claimed UAE (Al Minhad) on 30–31 Aug. Jordan intercepted 8 missiles. US official: "no impacts at US bases." UAE denied claims. Damage NOT confirmed by US/neutral source. | **FALSE ALARM** on "confirmed damage" criterion. IRGC strike occurred (HIT on kinetics); damage unconfirmed (MISS on damage threshold). Score: 0.5 partial. |
+| Iran–Oman corridor talks formally suspended by EOD 1 Sep | 0.30 | No formal suspension. Revenue-sharing agreement reported 30 Aug. Corridor track intact. | **MISS** (P=0.30 → calibration cost moderate; outcome = 0) |
+| New IRGC vessel attack UKMTO-confirmed in Hormuz/Gulf of Oman by EOD 1 Sep | 0.55 | Supertanker struck by two naval mines in Hormuz on 1 Sep (CBS/Reuters T1). Mine-type attack = IRGC attribution by Iranian military statement. Hard T1 corroboration. | **HIT** (P=0.55 → well-calibrated; outcome = 1) |
+| Brent front-month closing above $90.00 on 1 Sep | 0.55 | Brent ~$86.57 (TradingEconomics T2 CFD on 1 Sep); Investing.com open $88.53. Did not close above $90. | **MISS** (P=0.55 → meaningful miss; market absorbed exchange below threshold) |
+
+**T+1 score summary:** 1 Hit, 2 Miss, 1 Partial (False Alarm on damage criterion / Hit on kinetics). Net calibration note: kinetic resumption well-called; damage threshold and Brent $90 threshold over-weighted. Brent pricing model needs adjustment: market can absorb IRGC strikes on US bases in Jordan without $90+ spike if no confirmed US casualties and no Hormuz infrastructure direct hit.
+
+---
+
+### Day 184 T+3 scoring (gate EOD 1 Sep)
+
+*From Day 184 backtest entry (29 Aug predictions):*
+- P(Threat-5 trigger confirmed by EOD 3 Sep) = 0.28 → **PENDING** (gate EOD 3 Sep — not yet resolved)
+- P(Iran–Oman corridor formally suspended by EOD 3 Sep) = 0.50 → **PENDING** (gate EOD 3 Sep)
+- P(IRGC mine-seeding attempt in Hormuz main lane by EOD 3 Sep) = 0.65 → **HIT**: supertanker mine-struck 1 Sep (CBS/Reuters T1); mine-seeding confirmed within gate. Well-calibrated.
+- P(Brent closing above $92 any day by EOD 3 Sep) = 0.45 → **PENDING** (gate EOD 3 Sep; Brent at $86–89 on 1 Sep — currently tracking toward MISS)
+
+---
+
+### Day 186 new predictions (1 September 2026)
+
+**Trend:** ↑ Worse. Confidence: High.
+**Threat level:** 4 / 5 · Severe (Threat-5 watch elevated; criteria: confirmed US base casualties or Gulf-state energy infra strike)
+
+**Scenarios (30d):**
+- A: Negotiated framework — 18% (↓−4pp; IRGC dual-track confirmed; US no-negotiate; corridor survived but Sc A requires both US channel + OFAC action)
+- B: Frozen attrition / diplomatic limbo — 37% (↓−1pp; corridor survived kinetics = resilience; but active-exchange track reopened compresses B space)
+- C: Re-escalation / multi-vector — 45% (↑+5pp; NOW MODAL; dual-track confirmed; supertanker mined; second-wave warning; War Powers clock; Kharg political pressure)
+
+**T+1 predictions (gate EOD 2 Sep ET / ~04:00 UTC 3 Sep):**
+- P(IRGC second-wave kinetic strike — any target — confirmed by CENTCOM or Hard T1 neutral by EOD 2 Sep) = 0.40 — "more devastating responses" warning active; IRGC magazine intact; 24h residual window; Jordan intercept success = moderating factor; ±8pp [0.32–0.48]
+- P(Supertanker mine-strike BDA confirms total loss or fire requiring tow/abandonment by EOD 2 Sep) = 0.30 — fire reported; two mines = engine room + hull risk; Oman coast guard responding; ±8pp [0.22–0.38]
+- P(US CENTCOM official statement or action on Jordan/UAE exchange confirming US response posture by EOD 2 Sep) = 0.65 — Stars & Stripes reported exchange; CENTCOM has not publicly responded to IRGC Jordan/UAE claims; congressional pressure + Trump Truth Social activity = forcing function; ±7pp [0.58–0.72]
+- P(Brent closing above $89 on 2 Sep) = 0.50 — Brent opened $88.53 1 Sep; supertanker mine adds premium; but market absorbed Jordan/UAE without $90 breach; uncertainty high; ±8pp [0.42–0.58]
+
+**T+3 predictions (gate EOD 4 Sep):**
+- P(Threat-5 trigger confirmed by EOD 4 Sep) = 0.30 — IRGC second-wave warning; 72h window peak risk; criteria = US base casualties or Gulf-state energy infra strike with loss; Jordan intercept success = moderating; ±7pp [0.23–0.37]
+- P(Iran parliament Hormuz bill plenary floor vote by EOD 4 Sep) = 0.25 — Larak escalation + exchange adds hardliner pressure; plenary scheduling uncertain; ±7pp [0.18–0.32]
+- P(Brent above $92 any day by EOD 4 Sep) = 0.20 — market absorbed exchange at $86–89; requires IRGC second-wave with confirmed damage or Kharg strike to reach $92; ±6pp [0.14–0.26]
+- P(Iran–Oman corridor formally suspended by EOD 4 Sep) = 0.15 — survived exchange on 30–31 Aug; lower than Day 185 assessment; revenue-sharing is a positive anchor; ±5pp [0.10–0.20]
+
+**T+7 predictions (gate EOD 8 Sep):**
+- P(Threat-5 triggered by EOD 8 Sep) = 0.38 — 7-day window; IRGC retaliation packages multi-wave; War Powers Act floor vote = potential constraint or escalation forcing event; ±7pp [0.31–0.45]
+- P(Iran parliament Hormuz bill plenary floor vote by EOD 8 Sep) = 0.35 — Larak + mine-strike + exchange = accelerated legislative pressure; ±7pp [0.28–0.42]
+- P(Chinese bank / major PRC institution FinCEN 311 or OFAC SDN designation by EOD 8 Sep) = 0.15 — Bessent designation unpublished; Larak exchange may accelerate; cure-period explicit; ±5pp [0.10–0.20]
+- P(Sc C at ≥50% by EOD 8 Sep) = 0.45 — currently 45%; second-wave + Hormuz bill + War Powers = structural drivers; ±8pp [0.37–0.53]
+- P(Brent above $92 any day by EOD 8 Sep) = 0.35 — 7-day window; IRGC second-wave + Kharg political pressure = catalysts; ±7pp [0.28–0.42]
+- P(MV Seamull + 5 vessels piracy resolution by EOD 8 Sep) = 0.10 — Larak + mine-strike reduces IRGC release incentive; vessels = leverage asset; ±5pp [0.05–0.15]
+
+**Heuristic updates (Day 186):**
+- **MINE-RECONSTITUTION SPEED VALIDATED**: IRGC reconstituted mine-delivery capability within 72h of losing two Larak launchers on 30 Aug (mine-strike confirmed 1 Sep). Heuristic update: CENTCOM demining declarations should be assigned a 72h half-life for operational risk purposes. Future mine-clearance announcements should NOT lower maritime risk assessment below current Severe level within a 5-day window.
+- **BRENT $90 THRESHOLD CALIBRATION ADJUSTMENT**: Market did not breach $90 on IRGC strikes at Jordan/UAE bases (with no confirmed US casualties). New heuristic: Brent $90+ requires at least ONE of: (1) confirmed US base casualties, (2) Hormuz infrastructure direct hit, (3) Kharg oil infrastructure strike, or (4) major Gulf-state energy site damage. IRGC strikes on forward-based military assets without confirmed damage = $86–89 range outcome.
+- **DUAL-TRACK COMMAND STRUCTURE OPERATIONALLY CONFIRMED**: IRGC kinetics (30–31 Aug) executed simultaneously with SNSC corridor endorsement (29 Aug) and Iran-Oman revenue-sharing (30 Aug). All future threat assessments: SNSC/MFA signals and IRGC Aerospace Force signals are to be treated as structurally decoupled. Diplomatic positive = zero reduction in kinetic probability.
