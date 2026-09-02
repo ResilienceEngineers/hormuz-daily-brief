@@ -6761,3 +6761,60 @@ No Day 177 T+7 predictions logged in backtest.
 - **MINE-RECONSTITUTION SPEED VALIDATED**: IRGC reconstituted mine-delivery capability within 72h of losing two Larak launchers on 30 Aug (mine-strike confirmed 1 Sep). Heuristic update: CENTCOM demining declarations should be assigned a 72h half-life for operational risk purposes. Future mine-clearance announcements should NOT lower maritime risk assessment below current Severe level within a 5-day window.
 - **BRENT $90 THRESHOLD CALIBRATION ADJUSTMENT**: Market did not breach $90 on IRGC strikes at Jordan/UAE bases (with no confirmed US casualties). New heuristic: Brent $90+ requires at least ONE of: (1) confirmed US base casualties, (2) Hormuz infrastructure direct hit, (3) Kharg oil infrastructure strike, or (4) major Gulf-state energy site damage. IRGC strikes on forward-based military assets without confirmed damage = $86–89 range outcome.
 - **DUAL-TRACK COMMAND STRUCTURE OPERATIONALLY CONFIRMED**: IRGC kinetics (30–31 Aug) executed simultaneously with SNSC corridor endorsement (29 Aug) and Iran-Oman revenue-sharing (30 Aug). All future threat assessments: SNSC/MFA signals and IRGC Aerospace Force signals are to be treated as structurally decoupled. Diplomatic positive = zero reduction in kinetic probability.
+
+## Day 187 — 2 September 2026
+
+### T+1 scoring (Day 186 predictions, gate EOD 2 Sep)
+
+| Prediction | P | Outcome | Score |
+|---|---|---|---|
+| P(IRGC second-wave kinetic strike confirmed by EOD 2 Sep) | 0.40 | IRGC 13-missile salvo at Camp Titin (Jordan) + Bahrain on 1 Sep; 10 intercepted, 3 remote impacts (CNBC T1; J-Post T1; Reuters T1) | **HIT** — well-calibrated; IRGC executed within gate |
+| P(Supertanker mine-strike BDA total loss or fire by EOD 2 Sep) | 0.30 | Both VLCCs (Sidr + Senegal Prosperity) struck by projectiles 31 Aug / 1 Sep but crew safe; no fire, no total loss (UKMTO Hard T1; Reuters T1) | **MISS** — damage criterion not met; projectile-not-mine classification; crew safe throughout |
+| P(CENTCOM official statement confirming US response posture by EOD 2 Sep) | 0.65 | CENTCOM posted full strike announcement + completion statement 1 Sep noon ET + late-night completion (CENTCOM Hard T1) | **HIT** — strong; well-calibrated |
+| P(Brent closing above $89 on 2 Sep) | 0.50 | Brent $92.07 on 1 Sep; 2 Sep band $91.75–$96.99 (Convex T2; Investing.com T2) | **HIT** — exceeded threshold; slightly under-weighted given corridor attack risk |
+
+**T+1 net: 3 Hit, 1 Miss. Calibration note:** VLCC damage threshold systematically over-estimated (second consecutive miss on severity given crew-safe outcomes). Revise: "crew-safe + no fire" is the modal outcome for IRGC projectile strikes at these ranges; damage criterion requires direct engine-room hit confirmation before assigning P > 0.20.
+
+### T+3 scoring (Day 184 predictions, gate EOD 1 Sep — RESOLVED)
+
+| Prediction | P | Outcome | Score |
+|---|---|---|---|
+| P(Threat-5 trigger confirmed by EOD 3 Sep) | 0.28 | No US casualties in Jordan; no Gulf-state energy strike; Threat-5 not triggered (Reuters T1; CNBC T1) | **MISS** (gate passed — resolved at EOD 1 Sep per earlier log; Threat-4 maintained) |
+| P(Iran–Oman corridor formally suspended by EOD 3 Sep) | 0.50 | Corridor kinetically attacked (Sidr + Senegal Prosperity) but diplomatic track not formally suspended; OFAC PGSA still primary blocker (Reuters T1; UKMTO Hard T1) | **PARTIAL** — corridor attacked but not suspended; over-weighted formal suspension probability vs kinetic degradation path |
+| P(IRGC mine-seeding attempt by EOD 3 Sep) | 0.65 | Confirmed Hit (scored Day 186) | **HIT (previously scored)** |
+| P(Brent above $92 any day by EOD 3 Sep) | 0.45 | Brent $92.07 on 1 Sep (Convex T2) | **HIT** — threshold met; well-calibrated |
+
+### Day 187 new predictions
+
+**Trend:** ↑ Worse. Confidence: High.
+**Threat level:** 4 / 5 · Severe (Threat-5 criteria: US base casualties OR Gulf-state energy infrastructure strike with confirmed damage OR Houthi commercial resumption in BAM)
+
+**Scenarios (30d):**
+- A: Negotiated framework — 15% (↓−3pp; Bessent "worthless in 2 years"; US no-negotiate; corridor attacked)
+- B: Frozen attrition — 35% (↓−2pp; symmetric retaliation now self-sustaining; corridor kinetics compress B space)
+- C: Re-escalation / multi-vector — 50% (↑+5pp; NOW MODAL; IRGC Bahrain/Kuwait restraint removed; corridor attacked; Brent $92+; "tanker-for-tanker" live)
+
+**T+1 predictions (gate EOD 3 Sep):**
+- P(IRGC kinetic follow-on — Bahrain OR Kuwait OR Jordan OR US base — confirmed by Hard T1 by EOD 3 Sep) = 0.45 — IRGC explicitly removed Bahrain/Kuwait restraint 1 Sep; 48h residual pressure window; Camp Titin + Bahrain already targeted; ±8pp [0.37–0.53]
+- P(Brent closing above $91 on 2 Sep) = 0.72 — 2 Sep opening band $91.75–$96.99; momentum strong; corridor attack premium live; ±6pp [0.66–0.78]
+- P(CENTCOM additional strike wave on Iran by EOD 3 Sep) = 0.40 — "tanker-for-tanker" policy invoked; periodic-strike plan reportedly approved; IRGC follow-on = almost certain CENTCOM response; ±8pp [0.32–0.48]
+- P(Kharg Island strike confirmed by EOD 3 Sep) = 0.12 — Trump AI video signal + "tanker-for-tanker"; Kharg = primary Iranian leverage asset; US likely to hold as escalation reserve; ±5pp [0.07–0.17]
+
+**T+3 predictions (gate EOD 5 Sep):**
+- P(Threat-5 triggered by EOD 5 Sep) = 0.35 — IRGC Bahrain/Kuwait restraint removed; 72h highest-risk window from 1 Sep; Camp Titin 3 impacts in remote areas (not yet casualties); next salvo may target closer to facilities; ±7pp [0.28–0.42]
+- P(Houthi commercial attack resumption in Red Sea/BAM by EOD 5 Sep) = 0.12 — IRGC removed Bahrain/Kuwait restraint = activation pressure; Houthi retains capability; no direct evidence of imminent resumption; ±5pp [0.07–0.17]
+- P(Brent above $95 any day by EOD 5 Sep) = 0.30 — 2 Sep high $96.99 already reached intraday; sustained close above $95 requires Kharg or Bahrain energy hit; ±7pp [0.23–0.37]
+- P(Iran–Oman corridor formally suspended by EOD 5 Sep) = 0.20 — kinetically attacked but diplomatic track intact; OFAC PGSA remains primary blocker; formal suspension requires Oman or Iran MFA announcement; ±6pp [0.14–0.26]
+
+**T+7 predictions (gate EOD 9 Sep):**
+- P(Threat-5 triggered by EOD 9 Sep) = 0.42 — 7-day window; IRGC Bahrain/Kuwait + Kharg catalysts live; War Powers Act floor vote could force executive escalation decision; ±7pp [0.35–0.49]
+- P(Iran parliament Hormuz bill plenary floor vote by EOD 9 Sep) = 0.35 — general framework approved 16 Aug; tanker attacks + CENTCOM strikes = accelerated hardliner pressure; ±7pp [0.28–0.42]
+- P(Bessent major Chinese bank FinCEN/SDN designation by EOD 9 Sep) = 0.20 — "Op Economic Outcast" flagship measure unpublished; 7-day window; G20 concluded; designation clock running; ±6pp [0.14–0.26]
+- P(Sc C at ≥55% by EOD 9 Sep) = 0.40 — currently 50%; Bahrain/Kuwait hit or Kharg strike = Sc C lock-in above 55%; ±8pp [0.32–0.48]
+- P(Brent above $95 sustained close any day by EOD 9 Sep) = 0.40 — 7-day window; IRGC Bahrain/Kuwait threat + Kharg + tanker-for-tanker = multiple catalysts; ±7pp [0.33–0.47]
+- P(MV Seamull + 5 vessels piracy resolution by EOD 9 Sep) = 0.08 — IRGC restraint removal and escalation cycle reduces release incentive; vessels = leverage asset; ±4pp [0.04–0.12]
+
+**Heuristic updates (Day 187):**
+- **CORRIDOR SAFETY PREMIUM ELIMINATED**: The Omani corridor can no longer be assigned a lower risk classification than the Hormuz main lane. Kinetic attacks on the corridor (Sidr + Senegal Prosperity, 31 Aug / 1 Sep) validated by UKMTO Hard T1. Future routing analysis must treat corridor and main lane as equivalent risk zones until: (1) ≥14 days without a corridor incident AND (2) OFAC PGSA explicitly lifted for corridor transits AND (3) UKMTO issues a cleared corridor advisory.
+- **BRENT $90 THRESHOLD RECALIBRATED UPWARD**: The corridor attack + CENTCOM strike combination drove Brent to $92.07. New structural band: $90–97. Revised trigger for $95+ close: (1) Kharg infrastructure hit, (2) Gulf-state energy site struck, OR (3) Houthi commercial resumption in BAM. Single-vector IRGC strikes without confirmed damage remain $89–93 range.
+- **IRGC BAHRAIN/KUWAIT RESTRAINT-REMOVAL AS HARD SIGNAL**: IRGC spokesperson removal of "restraint" on Bahrain and Kuwait (1 Sep) is treated as an operationally meaningful signal — not routine rhetoric — because: (a) it was issued by a military spokesperson (not MFA), (b) it came within the same 24h window as a demonstrated kinetic action (Camp Titin salvo), and (c) Bahrain hosts NAVCENT/Fifth Fleet. Future IRGC restraint-removal statements on named third parties to be classified as Hard-level operational signals, not Soft rhetoric, when issued within 24h of concurrent kinetics.
