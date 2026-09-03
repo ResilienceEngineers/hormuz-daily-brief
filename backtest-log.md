@@ -6818,3 +6818,71 @@ No Day 177 T+7 predictions logged in backtest.
 - **CORRIDOR SAFETY PREMIUM ELIMINATED**: The Omani corridor can no longer be assigned a lower risk classification than the Hormuz main lane. Kinetic attacks on the corridor (Sidr + Senegal Prosperity, 31 Aug / 1 Sep) validated by UKMTO Hard T1. Future routing analysis must treat corridor and main lane as equivalent risk zones until: (1) ≥14 days without a corridor incident AND (2) OFAC PGSA explicitly lifted for corridor transits AND (3) UKMTO issues a cleared corridor advisory.
 - **BRENT $90 THRESHOLD RECALIBRATED UPWARD**: The corridor attack + CENTCOM strike combination drove Brent to $92.07. New structural band: $90–97. Revised trigger for $95+ close: (1) Kharg infrastructure hit, (2) Gulf-state energy site struck, OR (3) Houthi commercial resumption in BAM. Single-vector IRGC strikes without confirmed damage remain $89–93 range.
 - **IRGC BAHRAIN/KUWAIT RESTRAINT-REMOVAL AS HARD SIGNAL**: IRGC spokesperson removal of "restraint" on Bahrain and Kuwait (1 Sep) is treated as an operationally meaningful signal — not routine rhetoric — because: (a) it was issued by a military spokesperson (not MFA), (b) it came within the same 24h window as a demonstrated kinetic action (Camp Titin salvo), and (c) Bahrain hosts NAVCENT/Fifth Fleet. Future IRGC restraint-removal statements on named third parties to be classified as Hard-level operational signals, not Soft rhetoric, when issued within 24h of concurrent kinetics.
+
+## 3 September 2026 (Day 188)
+
+### T+1 scoring (Day 187 predictions, gate EOD 3 Sep — RESOLVED)
+
+| Prediction | P | Outcome | Score |
+|---|---|---|---|
+| P(IRGC kinetic follow-on — Bahrain/Kuwait/Jordan/US base — confirmed by Hard T1) | 0.45 | IRGC announced retaliatory strikes on US facilities in Bahrain, Kuwait and Jordan; Bahrain thwarted; Jordan intercepted 3/4 missiles; no confirmed US base casualties but kinetics confirmed (AJ T1; ICG T1; CENTCOM Hard T1) | **HIT** — kinetics confirmed; calibration good |
+| P(Brent closing above $91 on 2 Sep) | 0.72 | Brent $94.19/bbl close on 2 Sep (Forbes T1); $94.86 TradingEconomics T2 | **HIT** — well-calibrated; Brent $3+ above threshold |
+| P(CENTCOM additional strike wave on Iran by EOD 3 Sep) | 0.40 | CENTCOM completed wave of strikes 1 Sep against air-defence, radar, mine-laying, maritime assets (CENTCOM Hard T1) | **HIT** — threshold met; P was modestly underconfident |
+| P(Kharg Island strike confirmed by EOD 3 Sep) | 0.12 | No evidence of Kharg strike; CENTCOM targeted mine-laying/radar/AD sites | **MISS** — Kharg held as escalation reserve; prior P calibration appropriate |
+
+**T+1 summary:** 3 HIT / 1 MISS. Mean P on hits: 0.52. No false alarms.
+
+### T+3 scoring (Day 187 predictions, gate EOD 5 Sep — PENDING)
+
+| Prediction | P | Status |
+|---|---|---|
+| P(Threat-5 triggered by EOD 5 Sep) | 0.35 | PENDING |
+| P(Houthi commercial attack resumption in Red Sea/BAM by EOD 5 Sep) | 0.12 | PENDING |
+| P(Brent above $95 any day by EOD 5 Sep) | 0.30 | Partial: Brent $94.86 on 2 Sep; $95 not yet confirmed close |
+| P(Iran–Oman corridor formally suspended by EOD 5 Sep) | 0.20 | PENDING |
+
+### T+7 scoring (Day 184 predictions, gate EOD 9 Sep — PENDING)
+
+| Prediction | P | Status |
+|---|---|---|
+| P(Threat-5 triggered by EOD 9 Sep) | 0.42 | PENDING |
+| P(Iran parliament Hormuz bill plenary floor vote by EOD 9 Sep) | 0.35 | PENDING |
+| P(Bessent major Chinese bank FinCEN/SDN designation by EOD 9 Sep) | 0.20 | PENDING |
+| P(Sc C at ≥55% by EOD 9 Sep) | 0.40 | Day 188: Sc C = 52%; approaches but not yet at threshold |
+| P(Brent above $95 sustained close any day by EOD 9 Sep) | 0.40 | Brent $94.86 on 2 Sep; close but not confirmed above $95 |
+| P(MV Seamull + 5 vessels piracy resolution by EOD 9 Sep) | 0.08 | PENDING |
+
+### Day 188 new predictions
+
+**Trend:** ↑ Worse. Confidence: High.
+**Threat:** 4 / 5 · Severe (Threat-5 criteria: confirmed US base casualties OR Gulf-state energy infrastructure strike with damage OR Houthi commercial resumption in BAM)
+
+**Scenarios (30d):**
+- A: Negotiated framework — 12% (↓−3pp; Rubio "no deal" explicit; "mowing the lawn" = no endpoint; corridor kinetics ongoing)
+- B: Frozen attrition — 36% (→ flat; CENTCOM sustained tempo = periodic-strike equilibrium; no IRGC escalation ceiling signal)
+- C: Re-escalation / multi-vector — 52% (↑+2pp; IRGC "many times greater" retaliatory commitment; Brent $94–95; mine-reconstitution cycle live; Houthi activation pressure)
+
+**T+1 predictions (gate EOD 4 Sep):**
+- P(IRGC second retaliatory wave — confirmed kinetics on US base, Bahrain, Kuwait, or Jordan — by EOD 4 Sep) = 0.38 — 72h post-CENTCOM strike window; "many times greater" commitment active; but Bahrain/Jordan interception success may reduce IRGC operational confidence; ±8pp [0.30–0.46]
+- P(Brent closing above $93 on 3 Sep) = 0.60 — opened ~$94–95; CENTCOM strike premium sustained; no diplomatic de-escalation signal; ±7pp [0.53–0.67]
+- P(CENTCOM additional strike activity confirmed by EOD 4 Sep) = 0.35 — "mowing the lawn" tempo implies irregular cadence; no clear indicator of imminent next wave; ±7pp [0.28–0.42]
+- P(Kharg Island strike confirmed by EOD 4 Sep) = 0.10 — CENTCOM reserved Kharg; no signal of imminent escalation to that level; ±4pp [0.06–0.14]
+
+**T+3 predictions (gate EOD 6 Sep):**
+- P(Threat-5 triggered by EOD 6 Sep) = 0.32 — 72h window; IRGC "many times greater" retaliatory commitment; Camp Titin 3 prior impacts; next salvo risk elevated but interception demonstrated; ±7pp [0.25–0.39]
+- P(Houthi commercial attack resumption in Red Sea/BAM by EOD 6 Sep) = 0.14 — IRGC activation pressure; Houthi retains capability; MARAD-006 in force; no direct evidence imminent; ±5pp [0.09–0.19]
+- P(Brent above $96 sustained close any day by EOD 6 Sep) = 0.28 — Brent at $94–95; Kharg or Gulf-state energy hit required for $96+ close; ±7pp [0.21–0.35]
+- P(Iran–Oman corridor formally suspended by EOD 6 Sep) = 0.18 — kinetically attacked; diplomatic track threads thin wire; formal suspension requires Iran or Oman MFA statement; ±6pp [0.12–0.24]
+
+**T+7 predictions (gate EOD 10 Sep):**
+- P(Threat-5 triggered by EOD 10 Sep) = 0.40 — 7-day window; IRGC Bahrain/Kuwait + Kharg catalysts; War Powers Act Senate vote; ±7pp [0.33–0.47]
+- P(Iran parliament Hormuz bill plenary floor vote by EOD 10 Sep) | 0.35 — framework approved 16 Aug; tanker attacks + CENTCOM strikes = hardliner pressure; ±7pp [0.28–0.42]
+- P(Bessent major Chinese bank FinCEN/SDN designation by EOD 10 Sep) = 0.22 — "Op Economic Outcast" flagship measure; EIA STEO 9 Sep as adjacent pressure event; ±6pp [0.16–0.28]
+- P(Sc C at ≥55% by EOD 10 Sep) = 0.42 — currently 52%; Bahrain/Kuwait hit or Kharg = Sc C lock-in ≥55%; ±8pp [0.34–0.50]
+- P(Brent above $96 sustained close any day by EOD 10 Sep) = 0.38 — 7-day window; IRGC retaliatory commitment + Kharg = multiple catalysts; ±7pp [0.31–0.45]
+- P(MV Seamull + 5 vessels piracy resolution by EOD 10 Sep) = 0.08 — escalation cycle reduces release incentive; ±4pp [0.04–0.12]
+
+**Heuristic updates (Day 188):**
+- **"MOWING THE LAWN" AS STRUCTURAL TEMPO SIGNAL**: CENTCOM's use of "mowing the lawn" language (US official via Axios, 1 Sep) signals a periodic, indefinite strike rhythm rather than a decisive campaign with an endpoint. Future CENTCOM strike waves should be modelled as recurring events (~7–21 day cadence) rather than escalation spikes. P(CENTCOM strike in any 7-day window) revised upward to ~0.55.
+- **BRENT $90 CEILING CONFIRMED BROKEN**: Brent $94.19–$94.86 close on 2 Sep with no Kharg or Gulf-state energy hit confirms the structural band has shifted to $90–97. The $95 barrier is now a soft ceiling; breach requires Kharg or Gulf-state energy infrastructure confirmation.
+- **RUBIO "NO DEAL" STATEMENT CLASSIFIED AS STRUCTURAL BLOCKER**: Rubio's explicit ruling out of deal (2 Sep, ABC News T1) — combined with "mowing the lawn" strategy — means Sc A (Negotiated framework) ceiling is now 15% maximum until a confirmed US–Iran direct channel reopens. This supersedes corridor diplomatic track as Sc A driver.
