@@ -6954,3 +6954,64 @@ No Day 177 T+7 predictions logged in backtest.
 - **UAE AL MINHAD AS ESCALATION THRESHOLD SIGNAL**: IRGC striking Al Minhad AB in UAE on 3 Sep is a qualitative escalation — UAE had maintained studied neutrality throughout the war. Future UAE targeting by IRGC should be treated as a Threat-5 proximity indicator; UAE MFA/military response will indicate whether Gulf coalition cohesion is at risk.
 - **IRGC MULTI-COUNTRY RETALIATION AS NEW STRUCTURAL PATTERN**: The Sep 1–3 exchange (CENTCOM strikes → IRGC 4-country retaliation) confirms that IRGC now defaults to multi-country simultaneous retaliation rather than single-country response. Update T+1 IRGC retaliation models: when CENTCOM strikes, P(IRGC multi-country response within 72h) revised upward to ~0.65.
 - **BRENT $90–97 BAND REVISED TO $93–99**: Sustained close $95.25 on 3 Sep with intraday $99.38 despite no Kharg/energy-infra hit confirms structural band shift. $100 breach requires Kharg or Gulf-state energy confirmation; P($100 breach within 7 days without Kharg) = ~0.15.
+
+## Day 190 — 5 September 2026
+
+### T+1 scoring (Day 189 predictions, gate EOD 5 Sep)
+
+| Prediction | P | Status | Notes |
+|---|---|---|---|
+| P(US fatalities Sep 2–3 IRGC strikes confirmed EOD 5 Sep) | 0.22 | **MISS** | VP Vance (Hard T1, 4 Sep): "did not impact any facility where US forces are based"; Trump confirmed war-total 18 KIA not Sep-specific; no new Sep KIA confirmed |
+| P(Brent sustained close above $96 on 4 Sep) | 0.45 | **PARTIAL HIT** | Intraday $97.36 confirmed (Vantage/TradingEconomics); close data: Forbes $94.71, TradingEconomics $95.23 — sustained $96 close not definitively confirmed; scored as partial |
+| P(CENTCOM new strike wave confirmed EOD 5 Sep) | 0.28 | **MISS** | No new CENTCOM wave confirmed Sep 4–5; last wave Sep 2 |
+| P(Houthi new commercial attack Red Sea/BAM EOD 5 Sep) | 0.12 | **MISS** | MV Amzan strike was ~24 Aug (outside Sep 4–5 window); no new confirmed commercial attack Sep 4–5 |
+
+**T+1 summary (Day 189):** 0 HIT / 1 PARTIAL HIT / 3 MISS. Overconfidence on Brent close above $96 (intraday achieved; close fell short). US KIA miss appropriate (VP Vance corroborated). CENTCOM pause consistent with 7–21d cadence. Houthi miss consistent with low P calibration.
+
+### T+3 scoring update (Day 187 predictions, gate EOD 6 Sep — update tomorrow)
+
+| Prediction | P | Status |
+|---|---|---|
+| P(Threat-5 triggered EOD 6 Sep) | 0.32 | PENDING — no US KIA confirmed through 5 Sep; gate tomorrow EOD |
+| P(Houthi commercial attack resumption Red Sea/BAM EOD 6 Sep) | 0.14 | PENDING — MV Amzan ~24 Aug predates window; no new Sep attack confirmed |
+| P(Brent above $96 sustained close any day EOD 6 Sep) | 0.28 | PARTIAL HIT signal — intraday $97.36 4 Sep; close ~$94.71–95.23; needs confirmed $96 close by EOD 6 Sep |
+| P(Iran–Oman corridor formally suspended EOD 6 Sep) | 0.18 | PENDING — no formal suspension declared; corridor effectively dead but no official statement |
+
+### T+7 scoring update (Day 184 predictions, gate EOD 9 Sep — PENDING)
+
+No change from Day 189 entry. All PENDING through EOD 9 Sep.
+
+### Day 190 new predictions
+
+**Trend:** ↑ Worse. Confidence: High.
+**Threat:** 4 / 5 · Severe (Threat-5 criteria unchanged: confirmed US KIA from IRGC strikes OR Gulf-state energy infrastructure damage confirmed OR Houthi commercial attack resumption in BAM)
+
+**Scenarios (30d):**
+- A: Negotiated framework — 10% (↓−2pp; Rubio "no deal" + Vance "no talks" double ceiling; no back-channel)
+- B: Frozen attrition — 33% (↓−3pp; IRGC multi-country pattern exceeds frozen-attrition equilibrium; IDF Lebanon red-line adds new Sc C pathway)
+- C: Re-escalation / multi-vector — 57% (→ flat vs Day 189; FIRMLY MODAL; IDF Lebanon + Houthi Yanbu + IRGC doctrine all pointing Sc C)
+
+**T+1 predictions (gate EOD 6 Sep):**
+- P(OPEC+ 6 Sep JMMC produces Q4 output freeze signal) = 0.25 — Q4 pause is working assumption; $97 Brent intraday may force emergency freeze language; Brent $93–99 band = modest incentive for restraint; ±8pp [0.17–0.33]
+- P(Iran responds to IDF Ali al-Taher ridge seizure with large-scale Israel strike by EOD 6 Sep) = 0.18 — Iran warned this was a red line; 24–48h highest-risk window; no confirmed response through 06:00 5 Sep; ±6pp [0.12–0.24]
+- P(Brent sustained close above $96 any day EOD 6 Sep) = 0.38 — open 5 Sep $95.85; OPEC+ signal + IDF Lebanon = upward pressure; Trump/Vance soft ceiling; ±8pp [0.30–0.46]
+- P(Iran parliament Hormuz bill floor vote by EOD 6 Sep) = 0.15 — pre-announced but no confirmed scheduling; hardliner pressure high post Sep 1–3 exchange; ±5pp [0.10–0.20]
+
+**T+3 predictions (gate EOD 8 Sep):**
+- P(Threat-5 triggered EOD 8 Sep) = 0.35 — CENTCOM next wave window not yet open (Sep 9+); IDF Lebanon main pathway within 72h; ±7pp [0.28–0.42]
+- P(CENTCOM new strike wave confirmed EOD 8 Sep) = 0.20 — 7–21d cadence; last wave Sep 2; Sep 9 earliest; ±6pp [0.14–0.26]
+- P(Brent sustained close above $99 any day EOD 8 Sep) = 0.22 — requires Kharg or energy infra hit; P($100 without Kharg) ~0.15; ±6pp [0.16–0.28]
+- P(Iran large-scale Israel strike response to Lebanon by EOD 8 Sep) = 0.28 — 72h window from IDF seizure; Iran doctrine "preemptive"; ±7pp [0.21–0.35]
+
+**T+7 predictions (gate EOD 12 Sep):**
+- P(Threat-5 triggered EOD 12 Sep) = 0.48 — 7-day window; CENTCOM wave Sep 9–23; IDF Lebanon; UAE precedent; ±7pp [0.41–0.55]
+- P(Brent sustained close above $99 any day EOD 12 Sep) = 0.40 — 7-day window; CENTCOM wave or IDF Lebanon = catalyst; ±8pp [0.32–0.48]
+- P(Iran parliament Hormuz bill plenary floor vote EOD 12 Sep) = 0.42 — pre-announced; hardliner pressure; CENTCOM 100-target wave as accelerant; ±7pp [0.35–0.49]
+- P(Bessent major Chinese bank FinCEN/SDN designation EOD 12 Sep) = 0.22 — adjacent to EIA STEO 9 Sep pressure event; ±6pp [0.16–0.28]
+- P(Sc C at ≥60% EOD 12 Sep) = 0.45 — currently 57%; IDF Lebanon + Kharg = lock-in; ±8pp [0.37–0.53]
+- P(MV Seamull + 5 vessels piracy resolution EOD 12 Sep) = 0.07 — escalation reduces release incentive; ±4pp [0.03–0.11]
+
+**Heuristic updates (Day 190):**
+- **IDF LEBANON RED-LINE AS INDEPENDENT THREAT-5 PATH**: IDF seizure of Ali al-Taher ridge in Lebanon (Day 189 update) crosses Iran's stated tripwire for large-scale Israel strike. This represents a NEW independent Threat-5 pathway not previously in the model — separate from CENTCOM/IRGC Gulf exchange. Add to Threat-5 trigger criteria: "Iran large-scale strike on Israel following IDF Lebanon seizure."
+- **HOUTHI YANBU TARGETING AS DUAL-CHOKEPOINT SIGNAL**: MV Amzan strike off Yanbu (~24 Aug) confirms Houthis are deliberately targeting the Saudi Red Sea export alternative to Hormuz. Model update: when Hormuz closed, P(Houthi targeting Saudi Red Sea exports within 30d) = elevated to ~0.55 (previously ~0.30). Yanbu ballistic-missile coverage extends to ~28°N.
+- **BRENT CLOSE vs. INTRADAY DISTINCTION**: Day 189/190 scoring confirms systematic gap between intraday highs and confirmed closes. Refine future Brent predictions to specify both intraday AND close thresholds separately. Intraday $97+ achieved without Kharg; $96 sustained close not confirmed. P(close > intraday by $2+) in war-premium environment = ~0.40 (Trump/Vance soft ceiling effect).
