@@ -7096,3 +7096,65 @@ No change from Day 189 entry. All PENDING through EOD 9 Sep.
 - **HOUTHI GROUND CONTROL AS CAPABILITY UPGRADE**: Perim Island seizure reduces Houthi BAM interdiction capability requirement from ballistic missile/drone (detectable, interceptable) to direct-fire artillery (lower cost, harder to defeat, no warning). Update: P(formal BAM closure) now driven by political decision, not capability constraint. Model P(formal closure | Perim held) = 0.35 within 14 days.
 - **MUSCAT TALKS AS BRENT VOLATILITY SIGNAL**: Brent fell 4% on Muscat announcement (11 Sep) before any agreement was confirmed. Market is pricing 15–20% probability of meaningful breakthrough. Any outcome signal on 14 Sep produces ±4–8% Brent move. Hedge both directions before close 13 Sep.
 - **IRAN INTERNAL FRACTURE AS MODEL INPUT**: Mojtaba Khamenei absent from public view creates dispersed authority. Update: when supreme leader absent, IRGC "preemptive strikes" doctrine is self-authorising — no SNSC approval required for tactical escalation. This increases P(IRGC unilateral action) during Muscat diplomatic window. Model this as independent escalation risk separate from Tehran's official diplomatic track.
+
+## Day 198 — 13 September 2026
+
+### T+1 score (Day 197 predictions, gate EOD 13 Sep / 14 Sep)
+
+*Note: Day 197's T+1 gate was EOD 14 Sep (Muscat/Salalah outcome day). As of 07:28 UTC 13 Sep, the meeting has not yet occurred. Partial scoring on observable pre-conditions:*
+
+| Prediction | P | Result | Notes |
+|---|---|---|---|
+| P(GCC–Iran Muscat corridor agreement signed ≥4 GCC states attending) | 0.35 | PENDING | Meeting confirmed for 14 Sep Salalah; all 6 GCC FMs + Iran FM confirmed; Bahrain attended despite earlier objection. Agreement: Iranian official pre-signals no signed deal. Gate resolves EOD 14 Sep. |
+| P(US tacitly accepts Iran-Oman corridor without re-striking) | 0.22 | PENDING | No evidence of US tacit acceptance; FT reports US signalled will NOT return to June MoU. Gate EOD 14 Sep. |
+| P(Brent falls >3% on 14 Sep Muscat outcome) | 0.30 | PENDING | Pre-signal: Brent already fell ~4% on 11 Sep announcement before meeting; from ~$108 to ~$104. Gate resolves after market close 14 Sep. |
+| P(Houthi formal BAM closure declaration EOD 14 Sep) | 0.12 | MISS (early call) | Houthi "ceasefire of western coast hostilities" (11 Sep) is NOT a formal BAM closure — it is a territorial consolidation pause. No formal closure declared as of 13 Sep. Likely MISS at gate. |
+
+### T+3 score (Day 195 predictions, gate EOD 16 Sep) — PENDING
+
+These predictions resolve EOD 16 Sep. Not yet scoreable.
+
+### T+7 score (Day 191 predictions, gate EOD 13 Sep)
+
+*Day 191 T+7 predictions not included in provided backtest log. Scoring deferred.*
+
+---
+
+### Day 198 new predictions (today's forward log)
+
+**Trend:** ↑ Worse. Confidence: High.
+**Threat:** 4 / 5 · Severe
+
+**Threat-5 criteria (unchanged):** Confirmed US KIA from IRGC/Houthi action OR formal Houthi BAM closure declaration OR CENTCOM expands strikes to IRGC naval HQ with confirmed IRGC KIA triggering multi-country response OR Saudi East-West pipeline shutdown confirmed >7 days concurrent with Bab al-Mandeb formal closure.
+
+**Scenarios (30d):**
+- A: Negotiated framework — 8% (unchanged)
+- B: Frozen attrition — 25% (↓−2pp)
+- C: Re-escalation / dual-chokepoint lock-in — 67% (↑+2pp; MODAL)
+
+**T+1 predictions (gate EOD 14 Sep — Salalah outcome):**
+- P(Salalah produces a joint communiqué or framework text, even without signed corridor) = 0.40 — meeting confirmed; Iranian official pre-signals no deal; but communiqué ≠ signed deal; Oman's mediation incentive is strong; ±7pp [0.33–0.47]
+- P(Salalah collapses without any agreed text or communiqué) = 0.35 — Iran's conditions incompatible with US position; IRGC autonomous escalation risk during window; ±7pp [0.28–0.42]
+- P(Brent closes >3% lower on 14 Sep vs 12 Sep close of ~$104) = 0.25 — already absorbed 4% diplomatic discount; communiqué needed for further move; ±6pp [0.19–0.31]
+- P(Houthi formal BAM closure declared EOD 14 Sep) = 0.10 — political incentive exists but Houthi ceasefire signal suggests consolidation priority; ±4pp [0.06–0.14]
+
+**T+3 predictions (gate EOD 16 Sep):**
+- P(Saudi East-West pipeline still shut EOD 16 Sep) = 0.62 — pumping station equipment damage; Aramco repair timeline likely days to weeks; Iraqi political constraint removes retaliation pressure; ±8pp [0.54–0.70]
+- P(Threat-5 triggered EOD 16 Sep) = 0.32 — requires CENTCOM wave + IRGC KIA or formal BAM closure; 9–23 Sep window; ±7pp [0.25–0.39]
+- P(CENTCOM strike wave confirmed EOD 16 Sep) = 0.28 — 9–23 Sep window; last wave 1 Sep; diplomatic window may delay; ±7pp [0.21–0.35]
+- P(Brent closes above $110 any day EOD 16 Sep) = 0.35 — pipeline shutdown day 5 at gate; requires Salalah failure + pipeline persistence; ±7pp [0.28–0.42]
+
+**T+7 predictions (gate EOD 20 Sep):**
+- P(Saudi East-West pipeline still shut EOD 20 Sep) = 0.45 — day 9 of shutdown; complex pumping station repair; Iraqi-militia risk of re-attack; ±8pp [0.37–0.53]
+- P(Threat-5 triggered EOD 20 Sep) = 0.48 — 7-day window; pipeline persistence + CENTCOM wave + Houthi formal closure; ±8pp [0.40–0.56]
+- P(Brent sustained close above $110 any day EOD 20 Sep) = 0.42 — pipeline day 9 + Salalah failure scenario; Goldman $120 tail active; ±8pp [0.34–0.50]
+- P(Houthi formal BAM closure declared EOD 20 Sep) = 0.25 — Perim held; political incentive rises if Salalah fails; ±7pp [0.18–0.32]
+- P(Sc C ≥70% EOD 20 Sep) = 0.38 — currently 67%; formal BAM closure or US KIA = lock-in; ±8pp [0.30–0.46]
+- P(GCC–Iran corridor operational ≥10 commercial transits confirmed EOD 20 Sep) = 0.10 — requires signed deal + US acquiescence + IRGC compliance + insurance clearance; ±4pp [0.06–0.14]
+- P(MV Seamull + 5 vessels resolution EOD 20 Sep) = 0.05 — escalation trajectory reduces release incentive further; ±3pp [0.02–0.08]
+
+**Heuristic updates (Day 198):**
+- **MOJTABA KHAMENEI CLARIFICATION**: Wikipedia confirms Mojtaba Khamenei IS the current Supreme Leader since 8 March 2026 (succeeded father killed 28 Feb). Previous brief's framing of "absent from public view" may have referred to a specific period. Update: Supreme Leader is Mojtaba; IRGC restructured into autonomous regional HQs under Larijani (Euronews Apr 2026) — authority dispersal is structural, not a vacancy. Model IRGC autonomy as a permanent condition, not an interim gap.
+- **PIPELINE SHUTDOWN AS STRUCTURAL TRIGGER**: Saudi East-West pipeline (7 Mbpd) was Saudi Arabia's only functioning export route while Hormuz was closed. Day 2 of shutdown = Saudi exports effectively zero. Heuristic: when all three Saudi export pathways simultaneously disrupted for >72h, Sc B probability falls below 25% by definition — equilibrium requires at least one partial alternative. Currently at day 2 / 48h — trigger check at EOD 14 Sep.
+- **HOUTHI CEASEFIRE ≠ BAM OPENING**: Houthi Supreme Political Council "ceasefire of western coast hostilities" is a military consolidation announcement post-offensive, not a shipping-lane declaration. No UKMTO/MARAD confirmation. Model: Houthi ceasefire announcements require Hard T1 source (UKMTO or MARAD) before updating BAM risk posture downward. Market discounting this signal excessively — potential for correction if BAM remains contested.
+- **SALALAH PRE-SIGNAL RULE**: When a party pre-signals "no deal to sign" before a ministerial meeting, historical base rate of signed agreements from that meeting is <15%. Adjust P(Salalah signed corridor) from prior 0.35 to 0.18. The meeting's procedural value (channel establishment) remains, but operational impact probability is lower than market pricing implies.
