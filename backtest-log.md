@@ -7015,3 +7015,84 @@ No change from Day 189 entry. All PENDING through EOD 9 Sep.
 - **IDF LEBANON RED-LINE AS INDEPENDENT THREAT-5 PATH**: IDF seizure of Ali al-Taher ridge in Lebanon (Day 189 update) crosses Iran's stated tripwire for large-scale Israel strike. This represents a NEW independent Threat-5 pathway not previously in the model — separate from CENTCOM/IRGC Gulf exchange. Add to Threat-5 trigger criteria: "Iran large-scale strike on Israel following IDF Lebanon seizure."
 - **HOUTHI YANBU TARGETING AS DUAL-CHOKEPOINT SIGNAL**: MV Amzan strike off Yanbu (~24 Aug) confirms Houthis are deliberately targeting the Saudi Red Sea export alternative to Hormuz. Model update: when Hormuz closed, P(Houthi targeting Saudi Red Sea exports within 30d) = elevated to ~0.55 (previously ~0.30). Yanbu ballistic-missile coverage extends to ~28°N.
 - **BRENT CLOSE vs. INTRADAY DISTINCTION**: Day 189/190 scoring confirms systematic gap between intraday highs and confirmed closes. Refine future Brent predictions to specify both intraday AND close thresholds separately. Intraday $97+ achieved without Kharg; $96 sustained close not confirmed. P(close > intraday by $2+) in war-premium environment = ~0.40 (Trump/Vance soft ceiling effect).
+
+## Day 198 · 13 September 2026
+
+### Backtest scoring performed before drafting
+
+#### T+1 scoring (Day 190 predictions, gate EOD 6 Sep)
+
+| Prediction | P | Score | Evidence |
+|---|---|---|---|
+| P(OPEC+ 6 Sep JMMC Q4 output freeze signal) | 0.25 | **MISS** | No confirmed Q4 freeze language from JMMC found in T1-T3 sources; OPEC+ Sep hike completing per prior schedule |
+| P(Iran large-scale Israel strike response to Lebanon EOD 6 Sep) | 0.18 | **MISS** | No confirmed large-scale Iran-Israel strike Sep 5–6; IDF Lebanon situation did not trigger strike within gate |
+| P(Brent sustained close above $96 any day EOD 6 Sep) | 0.38 | **MISS** | Brent closed $97.92 on Sep 8 (CNBC T1), first $96+ close; Sep 6 close unclear but not confirmed above $96 by EOD 6 Sep gate |
+| P(Iran parliament Hormuz bill plenary floor vote EOD 6 Sep) | 0.15 | **MISS** | Committee approval confirmed Aug 10; plenary floor vote not found confirmed by EOD 6 Sep |
+
+**T+1 summary (Day 190):** 0 HIT / 0 PARTIAL HIT / 4 MISS. OPEC+ Q4 freeze miss consistent with $97 Brent not yet forcing emergency language. Iran large-scale Israel strike miss: Iran absorbed IDF Lebanon ridge seizure without immediate large-scale escalation. Brent miss: intraday vs close distinction critical — Sep 8 close $97.92 was the first clear evidence above $96.
+
+#### T+3 scoring (Day 190 predictions, gate EOD 8 Sep)
+
+| Prediction | P | Score | Evidence |
+|---|---|---|---|
+| P(Threat-5 triggered EOD 8 Sep) | 0.35 | **MISS** | No US KIA confirmed Sep 5–8; aircraft carrier targeted 5 Sep (CENTCOM Hard T1) but no hit; Threat 4 held |
+| P(CENTCOM new strike wave confirmed EOD 8 Sep) | 0.20 | **HIT** | CENTCOM "tanker for tanker" wave 5 Sep (ABC News T1, CNBC T1): 3 Iranian crude tankers permanently disabled/destroyed |
+| P(Brent sustained close above $99 any day EOD 8 Sep) | 0.22 | **MISS** | CNBC (T1) 8 Sep: Brent closed $97.92 — below $99 gate; $99+ close came Sep 9 (outside gate) |
+| P(Iran large-scale Israel strike response to Lebanon by EOD 8 Sep) | 0.28 | **MISS** | No large-scale Iran-Israel strike Sep 5–8 confirmed |
+
+**T+3 summary (Day 190):** 1 HIT / 0 PARTIAL HIT / 3 MISS. CENTCOM wave HIT confirmed. Threat-5 miss: IRGC carrier targeting without hit is a near-miss on criteria. Brent $99 close miss by 1 day ($101.21 on Sep 9) — timing error not directional error.
+
+#### T+7 scoring (Day 190 predictions, gate EOD 12 Sep)
+
+| Prediction | P | Score | Evidence |
+|---|---|---|---|
+| P(Threat-5 triggered EOD 12 Sep) | 0.48 | **MISS** | No confirmed US KIA through 12 Sep; A-10/F-15 damage (US official, Reuters T1) is equipment damage not personnel KIA; Saudi East-West pipeline partially satisfies "Gulf energy infra damage" criterion but Threat-5 rule requires formal determination — held at Threat 4 |
+| P(Brent sustained close above $99 any day EOD 12 Sep) | 0.40 | **HIT** | CNBC (T1) 9 Sep: Brent closed $101.21; TradingEconomics (T2) 11 Sep: closed ~$104; multiple $99+ closes confirmed in 7-day window |
+| P(Iran parliament Hormuz bill plenary floor vote EOD 12 Sep) | 0.42 | **MISS** | No plenary floor vote confirmed by EOD 12 Sep; committee approval (Aug 10) does not satisfy plenary gate; GCC–Iran Muscat talks may have substituted parliamentary pressure pathway |
+| P(Bessent Chinese bank SDN designation EOD 12 Sep) | 0.22 | **MISS** | No confirmed major Chinese bank SDN/FinCEN designation found |
+| P(Sc C at ≥60% EOD 12 Sep) | 0.45 | **HIT** | Dual-chokepoint (Houthi Perim 11 Sep + Mocha 10 Sep), Saudi East-West pipeline shutdown, IRGC carrier targeting = Sc C confirmed MODAL at 65% |
+| P(MV Seamull + 5 vessels resolution EOD 12 Sep) | 0.07 | **MISS** | No resolution confirmed; vessels remain held Qeshm |
+
+**T+7 summary (Day 190):** 2 HIT / 0 PARTIAL HIT / 4 MISS. Brent HIT (directionally correct; exceeded threshold). Sc C HIT (dual-chokepoint lock-in confirmed). Threat-5 miss: KIA criterion not met despite damage — criteria definition working as intended. Parliament miss: Muscat track may have shifted the parliamentary pathway. SDN miss: Bessent did not execute China bank designation in window.
+
+**Calibration note:** Brent prediction methodology improving — Sc C/Brent directional accuracy high but timing errors persist (close vs intraday; 1-day gate misses). Iranian parliament plenary gate (0.42) was too high given committee-to-plenary lag historically 2–4 weeks.
+
+---
+
+### Day 198 new predictions
+
+**Trend:** ↑ Worse. Confidence: High.
+**Threat:** 4 / 5 · Severe
+
+**Threat-5 criteria (updated):** Confirmed US KIA from IRGC/Houthi action OR formal Houthi BAM closure declaration OR CENTCOM expands strikes to IRGC naval HQ with confirmed IRGC KIA triggering multi-country response OR Saudi East-West pipeline shutdown confirmed >7 days concurrent with Bab al-Mandeb formal closure.
+
+**Scenarios (30d):**
+- A: Negotiated framework — 8% (↓−2pp)
+- B: Frozen attrition — 27% (↓−6pp)
+- C: Re-escalation / dual-chokepoint lock-in — 65% (↑+8pp; MODAL)
+
+**T+1 predictions (gate EOD 14 Sep — Muscat talks day):**
+- P(GCC–Iran Muscat corridor agreement signed with ≥4 GCC states attending) = 0.35 — Bahrain absent; UAE position unclear; Iran wants US blockade lifted first; ±7pp [0.28–0.42]
+- P(US tacitly accepts Iran-Oman corridor without re-striking) = 0.22 — White House "no direct talks"; Trump has threatened to bomb Oman previously; ±6pp [0.16–0.28]
+- P(Brent falls >3% on 14 Sep Muscat outcome) = 0.30 — requires successful corridor signal; 4% drop already seen on announcement; ±7pp [0.23–0.37]
+- P(Houthi formal BAM closure declaration EOD 14 Sep) = 0.12 — Houthi says "safe for all except Saudi"; formal closure = escalation step not yet taken; ±4pp [0.08–0.16]
+
+**T+3 predictions (gate EOD 16 Sep):**
+- P(Threat-5 triggered EOD 16 Sep) = 0.38 — CENTCOM wave 9–23 Sep; Houthi formal closure; Saudi pipeline; ±7pp [0.31–0.45]
+- P(CENTCOM strike wave EOD 16 Sep) = 0.32 — 9–23 Sep window; last wave 5 Sep; IRGC carrier targeting = retaliation pressure; ±7pp [0.25–0.39]
+- P(Saudi East-West pipeline still shut EOD 16 Sep) = 0.55 — damage extent unknown; Iraqi political constraint on Saudi retaliation; ±8pp [0.47–0.63]
+- P(Iran IRGC veto collapse of Muscat corridor) = 0.20 — IRGC "preemptive strikes" doctrine vs MFA corridor track; Mojtaba Khamenei absence creates veto ambiguity; ±6pp [0.14–0.26]
+
+**T+7 predictions (gate EOD 20 Sep):**
+- P(Threat-5 triggered EOD 20 Sep) = 0.52 — 7-day window; CENTCOM wave + Houthi formal closure + Saudi pipeline pressure; ±7pp [0.45–0.59]
+- P(Brent sustained close above $110 any day EOD 20 Sep) = 0.38 — Saudi three-pathway blockade; Goldman $120 tail activated; ±8pp [0.30–0.46]
+- P(Houthi formal BAM closure declared EOD 20 Sep) = 0.28 — Perim Island held; political incentive rises if Muscat fails; ±7pp [0.21–0.35]
+- P(Sc C ≥70% EOD 20 Sep) = 0.40 — currently 65%; formal BAM closure or US KIA = lock-in; ±8pp [0.32–0.48]
+- P(GCC–Iran corridor operational with ≥10 commercial transits confirmed) = 0.15 — requires US blockade lift or tacit acceptance; ±5pp [0.10–0.20]
+- P(MV Seamull + 5 vessels resolution EOD 20 Sep) = 0.06 — escalation continues to reduce release incentive; ±3pp [0.03–0.09]
+
+**Heuristic updates (Day 198):**
+- **DUAL-CHOKEPOINT AS SC C LOCK-IN SIGNAL**: Simultaneous Hormuz closure + Houthi Perim Island seizure + Saudi East-West pipeline shutdown is a triple-pathway blockade with no precedent in this conflict. Update model: when all three Saudi export pathways are simultaneously disrupted, P(Sc B frozen attrition) < 30% by definition — the equilibrium requires at least one partial alternative. Sc C MODAL confirmed.
+- **HOUTHI GROUND CONTROL AS CAPABILITY UPGRADE**: Perim Island seizure reduces Houthi BAM interdiction capability requirement from ballistic missile/drone (detectable, interceptable) to direct-fire artillery (lower cost, harder to defeat, no warning). Update: P(formal BAM closure) now driven by political decision, not capability constraint. Model P(formal closure | Perim held) = 0.35 within 14 days.
+- **MUSCAT TALKS AS BRENT VOLATILITY SIGNAL**: Brent fell 4% on Muscat announcement (11 Sep) before any agreement was confirmed. Market is pricing 15–20% probability of meaningful breakthrough. Any outcome signal on 14 Sep produces ±4–8% Brent move. Hedge both directions before close 13 Sep.
+- **IRAN INTERNAL FRACTURE AS MODEL INPUT**: Mojtaba Khamenei absent from public view creates dispersed authority. Update: when supreme leader absent, IRGC "preemptive strikes" doctrine is self-authorising — no SNSC approval required for tactical escalation. This increases P(IRGC unilateral action) during Muscat diplomatic window. Model this as independent escalation risk separate from Tehran's official diplomatic track.
