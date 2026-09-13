@@ -204,6 +204,21 @@ You MUST emit exactly these blocks (one per key):
 
 {block_lines}
 
+GLOBAL ANTI-STALENESS RULE (applies to EVERY block you emit)
+
+Before emitting any block whose text contains a `sub`, `context`, note, or
+descriptive prose field, cross-check that text against today's Tier 1-3 events.
+Do NOT copy language from the current HTML if it references an event >30 days
+old as "current" / "recent" / "last N days" / "pause holds since ..." /
+"ceasefire holds" / "no incidents in ...". If the underlying situation has
+changed, rewrite. If the newest event you can attribute is >30 days old,
+describe the location's or metric's structural role instead — never date-stamp
+stale news as if it were current.
+
+Applies especially to: MAP_PINS `sub` fields, VESSEL_HORMUZ context,
+VESSEL_BAB_MANDEB context, TILE_1..6 synopses, FM tracker row triggers,
+CATEGORY_1..6 signals/why/impl, and WATCHLIST implications.
+
 Plus these meta blocks:
 
   - INTERIM           (the literal text "true" or "false")
