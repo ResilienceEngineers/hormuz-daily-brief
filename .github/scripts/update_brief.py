@@ -247,11 +247,46 @@ WAVE              — Inner content of the wave section: intro <p>, the
 MAP_PINS          — JavaScript object literals for the pinsConfig array, separated
                     by commas. Do NOT include the surrounding [ ] brackets. Format:
                     {{ lat: 27.18, lng: 56.27, color: 'red', name: 'Bandar Abbas',
-                    sub: '...', status: '...' }}, ... 18-24 pins covering BOTH the
+                    sub: '...', status: '...' }}, ... 20-30 pins covering BOTH the
                     Hormuz region (Iran, Gulf states, alt-route ports) AND the
                     Red Sea / Bab al-Mandeb region (Yemen, Saudi Red Sea coast,
                     Egypt/Suez, Israel). Status values: 'Iranian military',
                     'Active incident', 'At risk', 'Operating'.
+
+                    CRITICAL — MAP_PINS is the block that gets copy-pasted most.
+                    Before emitting it, walk THIS checklist:
+
+                    (a) Cross-check every pin against today's Tier 1-3 events.
+                        Does its color reflect current status? Does its `sub`
+                        text reference the LATEST material event, or a stale one?
+
+                    (b) ANTI-STALENESS RULE: no `sub` field may reference an
+                        event dated >30 days ago as if it were "current",
+                        "recent", "last N days", "pause holds", etc. If the
+                        newest event you can attribute to that pin is older
+                        than 30 days, rewrite the `sub` to describe the
+                        location's structural role instead (e.g., "IRGCN HQ ·
+                        primary control node") — never date-stamp stale news.
+
+                    (c) NEW-PIN RULE: if today's Tier 1-3 events name a
+                        specific location (port, island, refinery, city) that
+                        is NOT already in the pin list, add a pin for it.
+                        Example: Houthi seizes Mayyun Island -> add a pin at
+                        ~12.65N 43.42E for it.
+
+                    (d) COLOR-CHANGE RULE: locations that entered enemy
+                        control -> red + 'Iranian military' or 'Active
+                        incident'. Locations whose upstream infrastructure was
+                        hit -> cascade to red (example: East-West pipeline
+                        shut -> Yanbu also goes red because its throughput is
+                        gone). Locations resuming normal ops after a
+                        confirmed de-escalation -> back to amber or green.
+
+                    (e) DATE-STAMP NEW EVENTS: when a `sub` references a
+                        specific event, include the date (e.g., "Houthi-seized
+                        12 Sep 2026") so the next day's run can judge
+                        staleness. Vague references ("recently", "last 7d")
+                        become stale within a week.
 VESSEL_HORMUZ     — One stat tile. Inner HTML of <div class="stat">:
                     <div class="stat-label">Strait of Hormuz · vessel transits</div>
                     <div class="stat-value">~N / day <span class="stat-delta">↓X% vs baseline</span></div>

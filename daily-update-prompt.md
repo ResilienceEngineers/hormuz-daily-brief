@@ -154,7 +154,7 @@ The Week-in-Review goes into Friday's `index.html` as an additional collapsible 
 
 The site has two pages. Both are public. Both are regenerated daily. The structure is fixed; only the content inside the marked blocks changes.
 
-### 9A. index.html — the FORDEC one-pager
+### 9A. index.html — the one-pager (map + status board + widgets)
 
 This is the page most people read. Everything important at a glance. The marked blocks:
 
@@ -162,31 +162,31 @@ This is the page most people read. Everything important at a glance. The marked 
 <!-- BRIEF:DATE_START --> ... <!-- BRIEF:DATE_END -->
 <!-- BRIEF:DAY_START --> ... <!-- BRIEF:DAY_END -->
 <!-- BRIEF:LAST_UPDATED_START --> ... <!-- BRIEF:LAST_UPDATED_END -->
+<!-- BRIEF:MAP_TS_START --> ... <!-- BRIEF:MAP_TS_END -->
 <!-- BRIEF:TREND_START --> ... <!-- BRIEF:TREND_END -->
 <!-- BRIEF:THREAT_START --> ... <!-- BRIEF:THREAT_END -->
 <!-- BRIEF:ONELINER_START --> ... <!-- BRIEF:ONELINER_END -->
-<!-- BRIEF:FORDEC_F_START --> ... <!-- BRIEF:FORDEC_F_END -->
-<!-- BRIEF:FORDEC_O_START --> ... <!-- BRIEF:FORDEC_O_END -->
-<!-- BRIEF:FORDEC_R_START --> ... <!-- BRIEF:FORDEC_R_END -->
-<!-- BRIEF:FORDEC_D_START --> ... <!-- BRIEF:FORDEC_D_END -->
-<!-- BRIEF:FORDEC_E_START --> ... <!-- BRIEF:FORDEC_E_END -->
-<!-- BRIEF:FORDEC_C_START --> ... <!-- BRIEF:FORDEC_C_END -->
+<!-- BRIEF:TILE_1_START --> ... <!-- BRIEF:TILE_6_END -->   (six status tiles)
+<!-- BRIEF:ACTIONS_START --> ... <!-- BRIEF:ACTIONS_END -->  (3 posture actions)
+<!-- BRIEF:WATCHLIST_START --> ... <!-- BRIEF:WATCHLIST_END -->
 <!-- BRIEF:FM_START --> ... <!-- BRIEF:FM_END -->
 <!-- BRIEF:WAVE_START --> ... <!-- BRIEF:WAVE_END -->
+<!-- BRIEF:VESSEL_HORMUZ_START --> ... <!-- BRIEF:VESSEL_HORMUZ_END -->
+<!-- BRIEF:VESSEL_BAB_MANDEB_START --> ... <!-- BRIEF:VESSEL_BAB_MANDEB_END -->
+// BRIEF:MAP_PINS_START ... // BRIEF:MAP_PINS_END   (JS array inside <script>)
 ```
 
-**FORDEC content rules** (the cells must be tight — this is a one-pager):
+**Force Majeure tracker** — replace each row with current state. Status column uses `stat-declared` / `stat-likely` / `stat-watch`. Pull from Tier 2 (Lloyd's List, Argus, Platts) and Tier 4 (trader desks, sector analysts).
 
-- **F · Facts** — 3–5 short bullets. Today's most material observations only. Each ends with a `<small>` source citation.
-- **O · Options** — 4–6 posture choices a SC/resilience leader could take, labeled A–F. One line each. No commentary.
-- **R · Risks &amp; benefits** — 4–5 items. Each is a near-term swing condition with a directional consequence. Use `pip-red` for severe / `pip-amber` for elevated / `pip-green` for upside.
-- **D · Decision** — single recommended posture in the `.recommend` block (combine option labels: e.g. "Hold A · add C"). Plus 1–2 review/reset triggers underneath.
-- **E · Execution** — 4–6 concrete actions changing this week. Operational verbs ("Confirm", "Hold", "Re-confirm", "Brief", "Diary"). Diary line at end with named decision dates.
-- **C · Check** — 4 items: trend hit (yesterday), watchlist hits, 7-day Brier (or "first run Friday"), source flag (or "none yet"). Always ends with link to deep brief calibration section.
+**Commodity wave timeline** — replace each cell. Use `class="stage-cell hit"` (pink) for active hits, `class="stage-cell hit amber"` (cream) for approaching, blank `class="stage-cell"` for not-yet. Each populated cell starts with a `<strong>` label (Direct / Sustained / Building / Active / Risk).
 
-**Force Majeure tracker** — replace each row with current state. Status column uses `stat-declared` / `stat-likely` / `stat-watch`. Pull from Tier 2 (Lloyd's List, Argus, Platts) and Tier 4 (trader desks, sector analysts) wherever public commentary supports it. If `knowledge-base.md` provides project-specific FM positions, use those instead of the defaults.
+**MAP_PINS — CRITICAL anti-staleness discipline.** This block is the one most likely to get copy-pasted verbatim from yesterday. Before emitting it, walk the checklist below:
 
-**Commodity wave timeline** — replace each cell. Use `class="stage-cell hit"` (pink) for active hits, `class="stage-cell hit amber"` (cream) for approaching, blank `class="stage-cell"` for not-yet. Each populated cell starts with a `<strong>` label (Direct / Sustained / Building / Active / Risk) followed by the specific signal. If `knowledge-base.md` provides sector-specific exposure profile, weight commodities accordingly.
+1. **Cross-check every pin against today's Tier 1–3 events.** Does its color still reflect current status? Does its `sub` text reference the LATEST material event, or a stale one?
+2. **Anti-staleness rule:** no `sub` may reference an event dated >30 days ago as if it were "current" / "recent" / "last N days" / "pause holds since ...". If the newest event you can attribute to that pin is older than 30 days, rewrite the `sub` to describe the location's structural role instead (e.g., "IRGCN HQ · primary control node") — never date-stamp stale news.
+3. **New-pin rule:** if today's Tier 1–3 events name a specific location (port, island, refinery, city) that is NOT already in the pin list, add a pin for it. Example: Houthi seizes Mayyun Island → add a pin at ~12.65°N 43.42°E for it.
+4. **Color-change rule:** locations that entered enemy control → red + status `'Iranian military'` or `'Active incident'`. Locations whose upstream infrastructure was hit → cascade to red (e.g., East-West pipeline shut → Yanbu also goes red because its throughput is gone). Locations resuming normal ops after a confirmed de-escalation → back to amber or green.
+5. **Date-stamp new events:** when a `sub` references a specific event, include the date (e.g., "Houthi-seized 12 Sep 2026") so the next day's run can judge staleness.
 
 ### 9B. brief.html — the deep dive
 

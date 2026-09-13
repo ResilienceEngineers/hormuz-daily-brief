@@ -1300,30 +1300,39 @@
   const pinsConfig = (function () {
     return [
       // BRIEF:MAP_PINS_START
-      { lat: 27.18, lng: 56.27, color: 'red',   name: 'Bandar Abbas',  sub: 'IRGCN HQ · Iran main naval base',                       status: 'Iranian military' },
-      { lat: 26.55, lng: 56.45, color: 'red',   name: 'Strait choke',  sub: 'CMA CGM strike · naval clashes (last 7d)',              status: 'Active incident' },
-      { lat: 28.97, lng: 50.84, color: 'red',   name: 'Bushehr',       sub: 'Iran naval & nuclear',                                  status: 'Iranian military' },
-      { lat: 29.25, lng: 50.32, color: 'amber', name: 'Kharg Island',  sub: 'Iran main oil export terminal',                          status: 'At risk' },
-      { lat: 30.34, lng: 48.30, color: 'amber', name: 'Abadan',        sub: 'Iran refinery (~430 kbd)',                              status: 'At risk' },
-      { lat: 25.94, lng: 49.67, color: 'amber', name: 'Abqaiq',        sub: 'Saudi crude processing hub (~7 mbd)',                   status: 'At risk' },
-      { lat: 26.65, lng: 50.17, color: 'amber', name: 'Ras Tanura',    sub: 'Saudi crude export terminal',                            status: 'At risk' },
-      { lat: 26.95, lng: 49.65, color: 'amber', name: 'Jubail',        sub: 'Saudi petrochem hub',                                   status: 'At risk' },
-      { lat: 25.92, lng: 51.56, color: 'amber', name: 'Ras Laffan',    sub: 'Qatar LNG · FM partial',                                status: 'At risk' },
-      { lat: 25.00, lng: 55.13, color: 'amber', name: 'Jebel Ali',     sub: 'Dubai · US 5th Fleet logistics',                        status: 'At risk' },
-      { lat: 24.10, lng: 52.73, color: 'amber', name: 'Ruwais',        sub: 'UAE refinery & petrochem (~922 kbd)',                   status: 'At risk' },
-      { lat: 25.34, lng: 56.36, color: 'green', name: 'Khor Fakkan',   sub: 'UAE Gulf-of-Oman side · alt container port',            status: 'Operating' },
-      { lat: 25.13, lng: 56.34, color: 'green', name: 'Fujairah',      sub: 'UAE bunker hub · Habshan-Fujairah pipeline term.',      status: 'Operating' },
-      { lat: 24.36, lng: 56.74, color: 'green', name: 'Sohar',         sub: 'Oman alt port · Gulf of Oman',                          status: 'Operating' },
-      { lat: 24.10, lng: 38.10, color: 'green', name: 'Yanbu',         sub: 'Saudi East–West pipeline outlet · Red Sea',             status: 'Operating' },
-      { lat: 21.49, lng: 39.18, color: 'green', name: 'Jeddah',        sub: 'Saudi Red Sea port',                                    status: 'Operating' },
-      { lat: 31.00, lng: 29.97, color: 'green', name: 'Sidi Kerir',    sub: 'SUMED north terminal · Mediterranean',                  status: 'Operating' },
-      { lat: 29.60, lng: 32.32, color: 'amber', name: 'Ain Sukhna',    sub: 'SUMED south terminal · entry to Suez',                  status: 'At risk' },
-      { lat: 30.95, lng: 32.55, color: 'amber', name: 'Suez Canal',    sub: '~250 vessels/day pre-crisis; throughput well below.',   status: 'At risk' },
-      { lat: 14.79, lng: 42.95, color: 'red',   name: 'Hodeida',       sub: 'Yemen · Houthi-controlled port',                        status: 'Iranian military' },
-      { lat: 12.78, lng: 45.04, color: 'amber', name: 'Aden',          sub: 'Yemen · Bab al-Mandeb access',                          status: 'At risk' },
-      { lat: 12.60, lng: 43.40, color: 'amber', name: 'Bab al-Mandeb', sub: 'Choke point · Houthi pause holds since Oct 2025',       status: 'At risk' },
-      { lat: 29.55, lng: 34.95, color: 'amber', name: 'Eilat',         sub: 'Israel · EAPC pipeline south terminal',                 status: 'At risk' },
-      { lat: 31.67, lng: 34.55, color: 'amber', name: 'Ashkelon',      sub: 'Israel · EAPC north terminal',                          status: 'At risk' }
+      // ===== Iran / Hormuz =====
+      { lat: 27.18, lng: 56.27, color: 'red',   name: 'Bandar Abbas',      sub: 'IRGCN HQ · primary Iran control node for Hormuz interdiction',                     status: 'Iranian military' },
+      { lat: 26.55, lng: 56.45, color: 'red',   name: 'Strait choke',      sub: 'Hormuz effectively closed to non-selective transit since Feb 2026',                status: 'Active incident' },
+      { lat: 28.97, lng: 50.84, color: 'red',   name: 'Bushehr',           sub: 'Iran naval & nuclear',                                                             status: 'Iranian military' },
+      { lat: 29.25, lng: 50.32, color: 'amber', name: 'Kharg Island',      sub: 'Iran main oil export terminal',                                                    status: 'At risk' },
+      { lat: 30.34, lng: 48.30, color: 'amber', name: 'Abadan',            sub: 'Iran refinery (~430 kbd)',                                                         status: 'At risk' },
+      // ===== Gulf states =====
+      { lat: 25.94, lng: 49.67, color: 'amber', name: 'Abqaiq',            sub: 'Saudi crude processing hub (~7 mbd)',                                              status: 'At risk' },
+      { lat: 26.65, lng: 50.17, color: 'amber', name: 'Ras Tanura',        sub: 'Saudi crude export · Houthi maritime blockade on Saudi ships since Aug 2026',      status: 'At risk' },
+      { lat: 26.95, lng: 49.65, color: 'amber', name: 'Jubail',            sub: 'Saudi petrochem hub',                                                              status: 'At risk' },
+      { lat: 25.92, lng: 51.56, color: 'amber', name: 'Ras Laffan',        sub: 'Qatar LNG · FM in effect; Red Sea egress also compromised after Bab el-Mandeb loss', status: 'At risk' },
+      { lat: 25.00, lng: 55.13, color: 'amber', name: 'Jebel Ali',         sub: 'Dubai · US 5th Fleet logistics',                                                   status: 'At risk' },
+      { lat: 24.10, lng: 52.73, color: 'amber', name: 'Ruwais',            sub: 'UAE refinery & petrochem (~922 kbd)',                                              status: 'At risk' },
+      // ===== Alt routes · Gulf of Oman side (operating) =====
+      { lat: 25.34, lng: 56.36, color: 'green', name: 'Khor Fakkan',       sub: 'UAE Gulf-of-Oman side · alt container port',                                       status: 'Operating' },
+      { lat: 25.13, lng: 56.34, color: 'green', name: 'Fujairah',          sub: 'UAE bunker hub · Habshan-Fujairah pipeline terminus',                              status: 'Operating' },
+      { lat: 24.36, lng: 56.74, color: 'green', name: 'Sohar',             sub: 'Oman alt port · Gulf of Oman',                                                     status: 'Operating' },
+      // ===== Saudi / Egypt Red Sea =====
+      { lat: 24.10, lng: 38.10, color: 'red',   name: 'Yanbu',             sub: 'Saudi Red Sea outlet · East-West pipeline SHUT 11 Sep 2026 after Iraqi drone strikes on Al Mesba\'ah pump station', status: 'Active incident' },
+      { lat: 21.49, lng: 39.18, color: 'amber', name: 'Jeddah',            sub: 'Saudi Red Sea port · elevated risk after Houthi seizure of Bab el-Mandeb',         status: 'At risk' },
+      { lat: 16.90, lng: 42.55, color: 'red',   name: 'Jizan',             sub: 'Saudi Aramco refinery · hit by Houthi missile/drone strike Sep 2026',              status: 'Active incident' },
+      { lat: 31.00, lng: 29.97, color: 'green', name: 'Sidi Kerir',        sub: 'SUMED north terminal · Mediterranean',                                             status: 'Operating' },
+      { lat: 29.60, lng: 32.32, color: 'amber', name: 'Ain Sukhna',        sub: 'SUMED south terminal · entry to Suez',                                             status: 'At risk' },
+      { lat: 30.95, lng: 32.55, color: 'amber', name: 'Suez Canal',        sub: '~250 vessels/day pre-crisis; throughput far below post-Bab el-Mandeb blockade',    status: 'At risk' },
+      // ===== Bab el-Mandeb / Yemen · Houthi expansion Sep 2026 =====
+      { lat: 14.79, lng: 42.95, color: 'red',   name: 'Hodeida',           sub: 'Yemen · Houthi launch platform for Red Sea attacks',                               status: 'Iranian military' },
+      { lat: 13.32, lng: 43.25, color: 'red',   name: 'Mokha',             sub: 'Yemen Red Sea coast · Houthi-taken 10 Sep 2026 · 50 mi from Bab el-Mandeb',        status: 'Active incident' },
+      { lat: 12.65, lng: 43.42, color: 'red',   name: 'Perim / Mayyun I.', sub: 'Bab el-Mandeb centerpoint · Houthi-seized 12 Sep 2026 · full strait control',      status: 'Active incident' },
+      { lat: 12.60, lng: 43.40, color: 'red',   name: 'Bab al-Mandeb',     sub: 'Choke point · FULL HOUTHI CONTROL from 12 Sep 2026 · Saudi-ship blockade active',  status: 'Active incident' },
+      { lat: 12.78, lng: 45.04, color: 'amber', name: 'Aden',              sub: 'Yemen government-held port · Houthi advances threaten from west',                  status: 'At risk' },
+      // ===== Israel =====
+      { lat: 29.55, lng: 34.95, color: 'amber', name: 'Eilat',             sub: 'Israel · EAPC pipeline south terminal',                                            status: 'At risk' },
+      { lat: 31.67, lng: 34.55, color: 'amber', name: 'Ashkelon',          sub: 'Israel · EAPC north terminal',                                                     status: 'At risk' }
       // BRIEF:MAP_PINS_END
     ];
   })();
@@ -1362,8 +1371,8 @@
               .addTo(map);
     }
 
-    pipeline([[25.94, 49.67], [24.85, 46.72], [24.45, 39.50], [24.10, 38.10]], 'green',
-             'Saudi East–West (Petroline)', '~5 mbd capacity. Critical alternative around Hormuz to Red Sea (Yanbu).');
+    pipeline([[25.94, 49.67], [24.85, 46.72], [24.45, 39.50], [24.10, 38.10]], 'red',
+             'Saudi East–West (Petroline)', '~5 mbd capacity · SHUT 11 Sep 2026 after Iraqi drone strikes on Al Mesba\'ah pump station. Sole alt-route around Hormuz — now offline.');
     pipeline([[23.50, 53.90], [24.10, 55.20], [24.85, 56.10], [25.13, 56.34]], 'green',
              'Habshan–Fujairah pipeline', '~1.5 mbd. Bypasses Hormuz from Abu Dhabi inland to Fujairah on Gulf of Oman.');
     pipeline([[29.60, 32.32], [30.30, 31.15], [31.00, 29.97]], 'green',
