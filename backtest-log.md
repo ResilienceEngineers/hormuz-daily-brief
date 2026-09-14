@@ -7158,3 +7158,65 @@ These predictions resolve EOD 16 Sep. Not yet scoreable.
 - **PIPELINE SHUTDOWN AS STRUCTURAL TRIGGER**: Saudi East-West pipeline (7 Mbpd) was Saudi Arabia's only functioning export route while Hormuz was closed. Day 2 of shutdown = Saudi exports effectively zero. Heuristic: when all three Saudi export pathways simultaneously disrupted for >72h, Sc B probability falls below 25% by definition — equilibrium requires at least one partial alternative. Currently at day 2 / 48h — trigger check at EOD 14 Sep.
 - **HOUTHI CEASEFIRE ≠ BAM OPENING**: Houthi Supreme Political Council "ceasefire of western coast hostilities" is a military consolidation announcement post-offensive, not a shipping-lane declaration. No UKMTO/MARAD confirmation. Model: Houthi ceasefire announcements require Hard T1 source (UKMTO or MARAD) before updating BAM risk posture downward. Market discounting this signal excessively — potential for correction if BAM remains contested.
 - **SALALAH PRE-SIGNAL RULE**: When a party pre-signals "no deal to sign" before a ministerial meeting, historical base rate of signed agreements from that meeting is <15%. Adjust P(Salalah signed corridor) from prior 0.35 to 0.18. The meeting's procedural value (channel establishment) remains, but operational impact probability is lower than market pricing implies.
+
+## Day 199 — 14 September 2026
+
+### T+1 scoring (Day 198 predictions, gate EOD 14 Sep)
+
+| Prediction | P(stated) | Outcome | Score |
+|---|---|---|---|
+| P(Salalah produces joint communiqué or framework text) | 0.40 | **MISS** — Meeting postponed indefinitely by Oman FM 13 Sep night; no communiqué, no framework text produced | Miss |
+| P(Salalah collapses without any agreed text or communiqué) | 0.35 | **HIT** — Postponement = no text; Bahrain refused; GCC divided; pipeline + Qeshm strike destroyed conditions | Hit |
+| P(Brent closes >3% lower on 14 Sep vs 12 Sep ~$104) | 0.25 | **MISS** — Brent rose to ~$107–108 on 14 Sep; WTI +2.47%; Salalah failure + pipeline persistence drove prices UP | Miss (false alarm) |
+| P(Houthi formal BAM closure declared EOD 14 Sep) | 0.10 | **MISS** — No formal declaration; territorial control continues; ceasefire = consolidation | Miss (as expected at low P) |
+
+**T+1 summary:** 1 Hit, 3 Miss. Key error: modelled Salalah failure → Brent down; actual = Salalah failure → Brent up (supply fear dominated diplomatic-discount reversal). Calibration note: diplomatic-fail + pipeline persistence = bullish oil; update prior that "diplomatic signal = price down" when supply destruction is already priced.
+
+### T+3 scoring (Day 195 predictions, gate EOD 16 Sep) — PENDING
+
+Gates resolve EOD 16 Sep. Score in Day 201 brief.
+
+### T+7 scoring (Day 192 predictions, gate EOD 14 Sep) — NOT IN LOG
+
+Day 192 T+7 predictions not included in provided backtest log. Scoring deferred.
+
+---
+
+### Day 199 new predictions (forward log)
+
+**Trend:** ↑ Worse. Confidence: High.
+**Threat:** 4 / 5 · Severe
+
+**Threat-5 criteria (unchanged):** Confirmed US KIA from IRGC/Houthi action OR formal Houthi BAM closure declaration OR CENTCOM expands strikes to IRGC naval HQ with confirmed IRGC KIA triggering multi-country response OR Saudi East-West pipeline shutdown confirmed >7 days concurrent with Bab al-Mandeb formal closure.
+
+**Scenarios (30d):**
+- A: Negotiated framework — 7% (↓−1pp)
+- B: Frozen attrition — 23% (↓−2pp)
+- C: Re-escalation / dual-chokepoint lock-in — 70% (↑+3pp; MODAL)
+
+**T+1 predictions (gate EOD 15 Sep):**
+- P(Qeshm strike attacker publicly attributed — US or third party) = 0.20 — attacker unclaimed; Trump "I don't want to say" suggests US; attribution requires official statement or leaked US confirmation; ±6pp [0.14–0.26]
+- P(IRGC issues formal retaliation warning citing Qeshm strike) = 0.35 — autonomous HQ doctrine + 1 Iranian killed = political pressure; ±7pp [0.28–0.42]
+- P(Salalah given new date within 7 days) = 0.15 — postponed indefinitely; conditions not improved; pipeline still offline; Bahrain still refusing; ±5pp [0.10–0.20]
+- P(Saudi East-West pipeline restart announced before EOD 15 Sep) = 0.18 — Polymarket Sep-15 at 37%; day 4 damage; precautionary shutdown may clear quickly; ±6pp [0.12–0.24]
+
+**T+3 predictions (gate EOD 17 Sep):**
+- P(Saudi East-West pipeline still offline EOD 17 Sep) = 0.58 — damage assessment ongoing; Iraqi re-attack risk; repair timeline weeks per satellite imagery; ±8pp [0.50–0.66]
+- P(Houthi formal BAM closure declared EOD 17 Sep) = 0.22 — Salalah failure increases incentive; Mayyun held; ceasefire = consolidation, not de-escalation; ±6pp [0.16–0.28]
+- P(CENTCOM new strike wave confirmed EOD 17 Sep) = 0.30 — Qeshm strike = potential trigger; 9–23 Sep window; last wave 1 Sep; ±7pp [0.23–0.37]
+- P(Brent sustained above $110 any close EOD 17 Sep) = 0.42 — pipeline day 6 at gate + Salalah failure priced in; requires no pipeline restart + no diplomatic signal; ±8pp [0.34–0.50]
+
+**T+7 predictions (gate EOD 21 Sep):**
+- P(Saudi East-West pipeline still offline EOD 21 Sep) = 0.42 — day 10 of shutdown; complex pumping station repair; re-attack risk; ±8pp [0.34–0.50]
+- P(Threat-5 triggered EOD 21 Sep) = 0.52 — pipeline persistence + CENTCOM wave + formal Houthi BAM closure all within window; ±8pp [0.44–0.60]
+- P(Brent sustained close above $110 any day EOD 21 Sep) = 0.48 — pipeline day 10 + no diplomatic breakthrough + Sc C modal; ±8pp [0.40–0.56]
+- P(Houthi formal BAM closure declared EOD 21 Sep) = 0.30 — rising political incentive post-Salalah failure; Mayyun artillery posture established; ±7pp [0.23–0.37]
+- P(Sc C ≥75% EOD 21 Sep) = 0.42 — currently 70%; formal BAM closure or Threat-5 trigger = lock-in; ±8pp [0.34–0.50]
+- P(Salalah rescheduled with confirmed date EOD 21 Sep) = 0.22 — Oman channel open; Trump positive signal; China mediation; but GCC division + Bahrain + pipeline not resolved; ±6pp [0.16–0.28]
+- P(CENTCOM new strike wave confirmed EOD 21 Sep) = 0.45 — 7-day window; Qeshm trigger; periodic pattern; ±8pp [0.37–0.53]
+
+**Heuristic updates (Day 199):**
+- **SALALAH POSTPONEMENT ≠ CHANNEL DEATH**: Oman FM framing ("interests of consensus") and Iran's Fars attribution of delay request to "some regional countries" (not Iran) preserves Oman's neutral status and Iran-Oman bilateral route understanding. The channel is alive; the multilateral format is dead for now. Model: bilateral Iran-Oman corridor ≠ GCC multilateral framework; these resolve independently.
+- **DIPLOMATIC FAIL → BRENT UP (not down)**: Day 198 T+1 error: when physical supply destruction (triple-pathway Saudi blockade) already dominates the price signal, a diplomatic failure does not add incremental bearish force — it removes the bullish-diplomacy discount, netting to a price increase. Update prior: in conditions of structural supply destruction >3 Mbpd, diplomatic failure = bullish for oil, not neutral.
+- **QESHM ATTRIBUTION ASYMMETRY**: If US attributed = IRGC retaliation mandate (autonomous HQ). If Iran attributes to "terrorist enemy" without naming US = Iran preserves diplomatic deniability while pursuing retaliation. Neither attribution pathway de-escalates. Model: attacker-unknown maritime incidents in Iranian waters during active US blockade = escalation-neutral at best, escalation-bullish at worst. Do not await attribution to update posture.
+- **TRIPLE-PATHWAY THRESHOLD CONFIRMED CROSSED**: EOD 13 Sep confirmed crossing of the 72h threshold (Hormuz + pipeline + BAM all simultaneously disrupted). Heuristic now triggers: Sc B probability structurally capped at <25% until at least one Saudi pathway reopens with verified throughput.
