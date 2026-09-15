@@ -7220,3 +7220,70 @@ Day 192 T+7 predictions not included in provided backtest log. Scoring deferred.
 - **DIPLOMATIC FAIL → BRENT UP (not down)**: Day 198 T+1 error: when physical supply destruction (triple-pathway Saudi blockade) already dominates the price signal, a diplomatic failure does not add incremental bearish force — it removes the bullish-diplomacy discount, netting to a price increase. Update prior: in conditions of structural supply destruction >3 Mbpd, diplomatic failure = bullish for oil, not neutral.
 - **QESHM ATTRIBUTION ASYMMETRY**: If US attributed = IRGC retaliation mandate (autonomous HQ). If Iran attributes to "terrorist enemy" without naming US = Iran preserves diplomatic deniability while pursuing retaliation. Neither attribution pathway de-escalates. Model: attacker-unknown maritime incidents in Iranian waters during active US blockade = escalation-neutral at best, escalation-bullish at worst. Do not await attribution to update posture.
 - **TRIPLE-PATHWAY THRESHOLD CONFIRMED CROSSED**: EOD 13 Sep confirmed crossing of the 72h threshold (Hormuz + pipeline + BAM all simultaneously disrupted). Heuristic now triggers: Sc B probability structurally capped at <25% until at least one Saudi pathway reopens with verified throughput.
+
+## Day 200 — 15 September 2026
+
+### T+1 scoring (Day 199 predictions, gate EOD 15 Sep)
+
+| Prediction | P(stated) | Result | Score |
+|---|---|---|---|
+| P(Qeshm strike publicly attributed — US or third party) | 0.20 | **MISS** — Qeshm governor: "terrorist enemy"; no US/third-party official attribution as of 06:00 UTC 15 Sep; CENTCOM silent | Miss |
+| P(IRGC issues formal retaliation warning citing Qeshm 13-Sep strike) | 0.35 | **MISS** — No new IRGC formal warning specifically citing 13-Sep vessel strike found in Tier 1-3; prior standing retaliation language not counted | Miss |
+| P(Salalah given new date within 7 days) | 0.15 | **MISS** — Postponed indefinitely; Iran/Oman "coordinate closely" but no date announced as of 06:00 UTC | Miss |
+| P(Saudi East-West pipeline restart announced before EOD 15 Sep) | 0.18 | **MISS** — Wright "very soon" (Soft only); no Aramco announcement; Polymarket Sep-15 at 15% | Miss (calibrated correctly at 0.18; Polymarket Sep-15 moved from 37% to 15%) |
+
+**T+1 summary:** 0 Hits, 4 Misses. Wright commentary classified correctly as Soft — no false alarm. Attribution ambiguity on Qeshm confirmed: "terrorist enemy" framing preserves Iranian political deniability without triggering a formal IRGC announcement. Calibration note: IRGC retaliation warnings that are P>0.30 require a Hard attribution event first; prior standing warning language does not reset. Update: lower IRGC formal-warning probability on future unattributed strikes until attribution confirmed.
+
+---
+
+### T+3 scoring (Day 197 predictions, gate EOD 17 Sep) — PENDING
+
+Gates resolve EOD 17 Sep. Score in Day 202 brief.
+
+---
+
+### T+7 scoring (Day 193 predictions, gate EOD 15 Sep) — NOT IN LOG
+
+Day 193 T+7 predictions not included in provided backtest log. Scoring deferred.
+
+---
+
+### Day 200 new predictions (forward log)
+
+**Trend:** ↑ Worse. Confidence: High.
+**Threat:** 4 / 5 · Severe
+
+**Threat-5 criteria (unchanged):** Confirmed US KIA from IRGC/Houthi action OR formal Houthi BAM closure declaration OR CENTCOM expands strikes to IRGC naval HQ with confirmed IRGC KIA triggering multi-country response OR Saudi East-West pipeline shutdown confirmed >7 days concurrent with Bab al-Mandeb formal closure.
+
+**Note on Pentagon IG KIA figure:** IG report confirmed 14 US KIA through June 30. This does not trigger Threat-5 as the KIA criterion requires a new confirmed KIA *from a new IRGC/Houthi action* post-Day 200. Running total does not reset the threshold.
+
+**Scenarios (30d):**
+- A: Negotiated framework — 6% (↓−1pp)
+- B: Frozen attrition — 22% (↓−1pp)
+- C: Re-escalation / dual-chokepoint lock-in — 72% (↑+2pp; MODAL)
+
+**T+1 predictions (gate EOD 16 Sep):**
+- P(Saudi East-West pipeline restart formally announced before EOD 16 Sep) = 0.22 — Wright "very soon"; Polymarket Sep-30 at 67% implies Sep-15 narrow miss; Aramco rapid repair precedent (Apr 2026); but day-5 damage may require extended assessment; ±6pp [0.16–0.28]
+- P(Houthi strike causes confirmed damage to Yanbu port infrastructure) = 0.15 — alerts reached Yanbu 15 Sep; historical Houthi accuracy improving; but Saudi air defense active; ±5pp [0.10–0.20]
+- P(IRGC or Iranian state issues formal warning citing MBS–Cooper Jeddah meeting) = 0.25 — Cooper meeting signals escalation coordination; Iran routinely issues warnings on US–GCC military consultations; ±6pp [0.19–0.31]
+
+**T+3 predictions (gate EOD 18 Sep):**
+- P(Saudi East-West pipeline still offline EOD 18 Sep) = 0.52 — Wright "soon" but damage assessment ongoing; Iraqi re-attack risk; Polymarket Sep-30 at 67% implies multi-week repair more likely; ±8pp [0.44–0.60]
+- P(CENTCOM new strike wave confirmed EOD 18 Sep) = 0.32 — MBS–Cooper coordination; 9–23 Sep window; Houthi northern corridor expansion = likely targeting expansion; ±7pp [0.25–0.39]
+- P(Houthi formal BAM closure declared EOD 18 Sep) = 0.20 — Salalah failure + Yanbu/Jeddah strikes = increasing political incentive; Mayyun artillery posture established; ±6pp [0.14–0.26]
+- P(Brent any close above $110 EOD 18 Sep) = 0.45 — pipeline day 7 at gate; Houthi Yanbu threat; no diplomatic signal; ±8pp [0.37–0.53]
+
+**T+7 predictions (gate EOD 22 Sep):**
+- P(Saudi East-West pipeline still offline EOD 22 Sep) = 0.38 — day 11 shutdown; complex pumping station repair; re-attack risk; Wright "soon" = partial optimism; ±8pp [0.30–0.46]
+- P(Threat-5 triggered EOD 22 Sep) = 0.50 — pipeline persistence + CENTCOM Houthi wave + formal BAM closure all within window; MBS–Cooper escalation coordination; ±8pp [0.42–0.58]
+- P(Brent sustained close above $110 any day EOD 22 Sep) = 0.52 — pipeline day 11 + Yanbu threat + no diplomatic breakthrough + Sc C at 72%; ±8pp [0.44–0.60]
+- P(Houthi formal BAM closure declared EOD 22 Sep) = 0.28 — rising incentive; Mayyun + Yanbu posture; ceasefire consolidation phase completing; ±7pp [0.21–0.35]
+- P(Sc C ≥75% EOD 22 Sep) = 0.40 — currently 72%; formal BAM closure or Threat-5 trigger = lock-in; ±8pp [0.32–0.48]
+- P(CENTCOM new strike wave confirmed EOD 22 Sep) = 0.48 — 7-day window; MBS–Cooper coordination; Houthi Yanbu strikes = political pressure on US; ±8pp [0.40–0.56]
+- P(Salalah rescheduled with confirmed date EOD 22 Sep) = 0.15 — no improvement in conditions; Bahrain veto; pipeline offline; Houthi corridor expansion; ±5pp [0.10–0.20]
+
+**Heuristic updates (Day 200):**
+- **IRGC FORMAL WARNING THRESHOLD**: IRGC formal retaliation warnings in T+1 window require Hard-tier attribution of the triggering event first. Unattributed strikes → "terrorist enemy" Iranian framing → IRGC cannot issue formal warning without naming the adversary. Lower P(IRGC formal warning) by ~10pp when triggering event is unattributed. Apply to future Qeshm-type incidents.
+- **YANBU DUAL DISRUPTION NODE**: When East-West pipeline is offline AND Houthi strikes reach Yanbu Civil Defence alert radius simultaneously, treat Yanbu as a dual-disruption node (supply + port threat). This elevates the FM status of all Yanbu-loading contracts to Declared automatically, even before confirmed port damage.
+- **WRIGHT "SOON" = SOFT TIER CONFIRMED**: US Energy Secretary commentary on Saudi pipeline restart classified as Soft tier — confirmed by Day 200 calibration. Hard tier requires: Saudi Aramco press release OR satellite imagery showing resumed pump activity OR verified pipeline flow data. Do not update Brent or FM positions on Wright-type statements alone.
+- **PENTAGON IG MUNITIONS SHORTFALL = IRGC ESCALATION WINDOW**: First Hard-tier confirmation that US strike capacity is operating under constraint. IRGC/Houthi operational planners will model this into their next-action timing. Probability weight on IRGC/Houthi escalation in 14-day window should increase by ~5pp when munitions constraint is Hard-confirmed.
