@@ -7352,3 +7352,68 @@ Day 193 predictions not in provided log. Deferred.
 - **ARAMCO RAPID-REPAIR PRIOR**: For strikes on Saudi East-West pipeline pumping stations, prior P(restart within 5 days) should be ~0.30–0.35 (not 0.22) when: (a) only 1–2 stations confirmed hit, (b) Aramco has repair-crew pre-positioning precedent, and (c) no re-attack in first 48h. Update future T+1 pipeline restart priors accordingly.
 - **WRIGHT "SOON" CONFIRMED AS LEADING INDICATOR**: Wright 14 Sep "very soon" → Hard restoration 16 Sep. While Wright statements remain Soft tier per methodology, they now have calibrated predictive value (P+5pp on restart within 48h of Wright statement). Do not move Brent/FM positions on Wright alone, but use as leading indicator for Hard watch.
 - **TRUMP DENIAL OF ALLY AIRSTRIKE REQUEST = HOUTHI EMBOLDENING SIGNAL**: When US denies a formal ally airstrike request (MBS denied twice), increase P(Houthi escalation within 14 days) by ~7pp. Houthis observe the denial and adjust operational tempo upward.
+
+## Day 202 — 17 September 2026
+
+### T+1 re-scoring correction (Day 201 log error)
+
+**ERROR FLAGGED:** The Day 201 backtest log marked P(East-West pipeline fully restored EOD 16 Sep) = 0.82 as a **HIT**, citing "Energy Intelligence Hard T1 confirmed Aramco restored full 7 mb/d capacity." This is INCORRECT. The Energy Intelligence article (energyintel.com/0000019d-...) refers to an **April 2026** restoration following a March 2026 strike — not the September 10 strike. The correct Sep 16 status per Bloomberg (Hard T1, 16 Sep): pipeline still shut; Aramco seeking to restore **~half capacity within days** via bypass; **full capacity in ~6 weeks**. The T+1 Day 201 prediction P(pipeline operational EOD 17 Sep) = 0.82 should therefore score **MISS** — pipeline remains partially offline with bypass underway, not "operational" in the full-capacity sense intended.
+
+**Heuristic correction:** Remove ARAMCO RAPID-REPAIR PRIOR adjustment logged in Day 201 (which was based on the mis-scored HIT). The Sep 10 strike caused more extensive damage than the March/April 2026 strike; 3–5 week repair timeline (PBS officials) is the correct prior for multi-station damage events. Revised prior: P(full restoration within 5 days) ≈ 0.10–0.15 for multi-station strikes; P(partial bypass within 7 days) ≈ 0.55–0.65.
+
+### T+1 scoring (Day 201 predictions, gate EOD 17 Sep)
+
+| Prediction | P(Day 201) | Outcome | Score |
+|---|---|---|---|
+| P(Saudi East-West pipeline still operational EOD 17 Sep) = 0.82 | 0.82 | **MISS (corrected)** — Pipeline remains shut day 7; Aramco pursuing partial bypass (~3.5 mb/d "within days"); full capacity ~6 weeks out (Bloomberg Hard T1 16 Sep) | Miss (badly overestimated; P should have been ≤ 0.20 for "fully operational"; ~0.55 for "partial bypass underway" which is the actual outcome) |
+| P(Houthi formal BAM closure declared EOD 17 Sep) = 0.18 | 0.18 | **MISS** — No formal BAM closure declaration confirmed; operational closure conditions met but declaration not issued as of 06:00 UTC 17 Sep | Miss (well-calibrated; de-facto closure without formal declaration continues as structural state) |
+| P(Hard confirmation of Muscat Iran-Oman shipping-route agreement EOD 17 Sep) = 0.28 | 0.28 | **MISS** — Aug 26 temporary route exists (Al Jazeera T1); no Hard new Sep 15-17 formal joint statement published | Miss (reasonable calibration; ongoing but not yet producing Hard publication) |
+
+**T+1 summary (Day 201):** 0 Hits, 3 Misses. Primary calibration failure: pipeline "operational" prediction confused partial bypass (likely) with full restoration (unlikely). Future framing: separate P(any restart/bypass) from P(full 7 mb/d restoration).
+
+### T+3 scoring (Day 197, gate EOD 17 Sep)
+Not in provided log. Deferred.
+
+### T+7 scoring (Day 193, gate EOD 17 Sep)
+Not in provided log. Deferred.
+
+---
+
+### Day 202 new predictions (forward log)
+
+**Trend:** ↑ Worse. Confidence: Medium.
+**Threat:** 4 / 5 · Severe (Threat-5 criteria not yet triggered; Yanbu damage unconfirmed as Hard)
+
+**Threat-5 criteria (updated):**
+- Confirmed Yanbu Aramco terminal Hard damage (Saudi/Aramco official + Kpler/Vortexa satellite volume data) OR
+- Formal Houthi BAM closure declaration OR
+- CENTCOM new Yemen/Iran strike wave confirmed with IRGC multi-country retaliation OR
+- Pipeline shutdown >14 days concurrent with Yanbu terminal offline
+
+**Scenarios (30d):**
+- A: Negotiated framework — 7% (↓−1pp)
+- B: Frozen attrition — 23% (↓−2pp)
+- C: Re-escalation / dual-chokepoint lock-in — 70% (↑+3pp; MODAL)
+
+**T+1 predictions (gate EOD 18 Sep):**
+- P(Yanbu Aramco Hard damage confirmed by Saudi/Aramco official or Kpler/Vortexa volume data EOD 18 Sep) = 0.52 — Houthi claim + satellite fires (15 Sep) + Saudi Civil Defence alerts; Aramco characteristically slow to confirm; Kpler/Vortexa export volume data may surface first; ±8pp [0.44–0.60]
+- P(East-West pipeline partial bypass (≥2 mb/d) operational EOD 18 Sep) = 0.48 — Aramco targeting "within days" per Bloomberg 16 Sep; bypass complexity uncertain; ±8pp [0.40–0.56]
+- P(Houthi formal BAM closure declared EOD 18 Sep) = 0.15 — no declaration signal; operational closure de facto; ±5pp [0.10–0.20]
+
+**T+3 predictions (gate EOD 20 Sep):**
+- P(Yanbu Hard damage confirmed EOD 20 Sep) = 0.68 — satellite evidence + Houthi claim + Aramco silence pattern; ±7pp [0.61–0.75]
+- P(East-West pipeline partial bypass operational EOD 20 Sep) = 0.65 — Aramco "within days" from Sep 16; ±7pp [0.58–0.72]
+- P(Brent close above $108 EOD 20 Sep) = 0.35 — Yanbu Hard confirmation = spike; pipeline bypass = relief; net uncertain; ±8pp [0.27–0.43]
+- P(CENTCOM new Yemen/Iran strike wave confirmed EOD 20 Sep) = 0.30 — window open; Cooper–Riyadh coordination; Houthi Yanbu strike = political pressure for response; ±7pp [0.23–0.37]
+
+**T+7 predictions (gate EOD 24 Sep):**
+- P(Triple-pathway threat operational — Hormuz closed + pipeline offline + Yanbu damaged — EOD 24 Sep) = 0.45 — Yanbu confirmation likely; pipeline full restoration weeks away; Hormuz structural; ±8pp [0.37–0.53]
+- P(Threat-5 triggered EOD 24 Sep) = 0.38 — Yanbu Hard = candidate; BAM formal closure = candidate; CENTCOM retaliation = candidate; ±8pp [0.30–0.46]
+- P(Houthi formal BAM closure declared EOD 24 Sep) = 0.25 — 7-day window; Perim held; Yanbu strike = escalation ladder rising; ±7pp [0.18–0.32]
+- P(Sc C ≥72% EOD 24 Sep) = 0.42 — currently 70%; Yanbu + pipeline = locking in; formal BAM = clincher; ±8pp [0.34–0.50]
+- P(Iran-Oman Muscat joint statement Hard published EOD 24 Sep) = 0.38 — in final drafting; US opposition constraint; both sides have incentive; ±8pp [0.30–0.46]
+
+**Heuristic updates (Day 202):**
+- **PIPELINE PREDICTION FRAMING**: Separate P(any bypass/partial restart) from P(full capacity restoration). For multi-station pipeline strikes: P(partial bypass within 7 days) ≈ 0.55–0.65; P(full restoration within 5 days) ≈ 0.10–0.15.
+- **HOUTHI YANBU CLAIM CALIBRATION**: Houthi strike claims on Aramco facilities have ~60% Hard confirmation rate within 48h when accompanied by (a) independent satellite thermal anomaly AND (b) Saudi Civil Defence alerts for the same city. Raise P(Hard confirmation) by +10pp when both conditions met (met here: satellite 15 Sep + alerts 16 Sep).
+- **ARAMCO SILENCE PATTERN**: Aramco typically does not confirm damage for 24–72h post-strike. Silence is not denial. Update priors accordingly: Aramco 24h silence ≈ neutral; 72h silence ≈ slight negative signal on damage severity.
