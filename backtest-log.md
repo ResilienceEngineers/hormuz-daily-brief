@@ -7417,3 +7417,61 @@ Not in provided log. Deferred.
 - **PIPELINE PREDICTION FRAMING**: Separate P(any bypass/partial restart) from P(full capacity restoration). For multi-station pipeline strikes: P(partial bypass within 7 days) ≈ 0.55–0.65; P(full restoration within 5 days) ≈ 0.10–0.15.
 - **HOUTHI YANBU CLAIM CALIBRATION**: Houthi strike claims on Aramco facilities have ~60% Hard confirmation rate within 48h when accompanied by (a) independent satellite thermal anomaly AND (b) Saudi Civil Defence alerts for the same city. Raise P(Hard confirmation) by +10pp when both conditions met (met here: satellite 15 Sep + alerts 16 Sep).
 - **ARAMCO SILENCE PATTERN**: Aramco typically does not confirm damage for 24–72h post-strike. Silence is not denial. Update priors accordingly: Aramco 24h silence ≈ neutral; 72h silence ≈ slight negative signal on damage severity.
+
+## 18 September 2026 (Day 203)
+
+### Scoring of Day 202 T+1 predictions (gate EOD 18 Sep 2026)
+
+| Prediction | P(Day 202) | Outcome | Score | Notes |
+|---|---|---|---|---|
+| P(Yanbu Hard damage confirmed by Saudi/Aramco official or Kpler/Vortexa volume data EOD 18 Sep) = 0.52 | 0.52 | **MISS** — No new Hard Aramco/Saudi Energy Ministry confirmation found 17–18 Sep 06:00 UTC; Kpler 17 Sep confirms zero loadings since 11 Sep but attributes to pipeline, not separate terminal strike; satellite fires remain T3 only; Houthi claim T5 only | Miss (P was 0.52; outcome 0; log-loss penalty moderate; calibration: slightly overconfident given Aramco silence pattern now 7 days) |
+| P(East-West pipeline partial bypass ≥2 mb/d operational EOD 18 Sep) = 0.48 | 0.48 | **MISS** — Bloomberg Hard T1 16 Sep: "within days" from 16 Sep; Al-Monitor 17 Sep: "probably faster than expected"; no Hard confirmation of actual flow as of 06:00 UTC 18 Sep; bypass construction ongoing but unconfirmed activated | Miss (P was 0.48; outcome 0; near coin-flip; acceptable calibration; revise: P(bypass confirmed EOD 19 Sep) ≈ 0.60–0.65) |
+| P(Houthi formal BAM closure declared EOD 18 Sep) = 0.15 | 0.15 | **HIT** — No declaration confirmed; de facto operational closure continues; correctly predicted low probability | Hit (well-calibrated; P was 0.15, outcome 0; proper non-event) |
+
+**T+1 Day 202 summary:** 1 Hit, 2 Misses. Primary miss: pipeline bypass still not Hard-confirmed despite "within days" language from 16 Sep. Aramco silence now day 7 on Yanbu terminal. Calibration note: separate P(Aramco claims bypass restart) from P(Kpler/AIS confirms actual flow) — the former comes first and is what Bloomberg is pricing.
+
+### Scoring of Day 199 T+3 predictions (gate EOD 18 Sep)
+Not in provided log. Deferred.
+
+### Scoring of Day 195 T+7 predictions (gate EOD 18 Sep)
+Not in provided log. Deferred.
+
+---
+
+### Day 203 new predictions (forward log)
+
+**Trend:** ↑ Worse. Confidence: Medium.
+**Threat:** 4 / 5 · Severe
+
+**Threat-5 criteria (unchanged):**
+- Confirmed Yanbu Aramco terminal Hard damage (Saudi/Aramco official + Kpler/Vortexa satellite volume data) OR
+- Formal Houthi BAM closure declaration OR
+- CENTCOM new Yemen/Iran strike wave confirmed with IRGC multi-country retaliation OR
+- Pipeline shutdown >14 days concurrent with Yanbu terminal offline
+
+**Scenarios (30d):**
+- A: Negotiated framework — 7% (→ unchanged)
+- B: Frozen attrition — 22% (↓−1pp)
+- C: Re-escalation / dual-chokepoint lock-in — 71% (↑+1pp; MODAL)
+
+**T+1 predictions (gate EOD 19 Sep):**
+- P(East-West pipeline partial bypass Hard-confirmed operational EOD 19 Sep) = 0.60 — Aramco "within days" from 16 Sep = day 3; bypass construction ongoing 17–18 Sep; Al-Monitor analyst: "faster than expected"; ±8pp [0.52–0.68]
+- P(Yanbu Aramco terminal Hard damage confirmed EOD 19 Sep) = 0.38 — Aramco silence day 8; pattern: 72h silence ≈ slight negative; satellite fires T3 persist; no new Saudi official statement found 18 Sep morning; ±7pp [0.31–0.45]
+- P(Houthi formal BAM closure declared EOD 19 Sep) = 0.12 — no declaration signal; de facto closure structural; ±4pp [0.08–0.16]
+
+**T+3 predictions (gate EOD 21 Sep):**
+- P(East-West bypass confirmed operational EOD 21 Sep) = 0.78 — "within days" from 16 Sep = 5 days by 21 Sep; Al-Monitor 17 Sep supports faster-than-expected; ±6pp [0.72–0.84]
+- P(Yanbu Hard confirmed EOD 21 Sep) = 0.52 — Aramco silence day 10; Kpler flow data gap; satellite evidence persistent; ±8pp [0.44–0.60]
+- P(Brent close above $105 EOD 21 Sep) = 0.38 — bypass = price relief; Yanbu confirmation = spike; net uncertain; current $103.72; ±8pp [0.30–0.46]
+- P(CENTCOM new Yemen/Iran strike wave confirmed EOD 21 Sep) = 0.28 — window open; pipeline attack = political pressure; no signals 17–18 Sep; ±7pp [0.21–0.35]
+
+**T+7 predictions (gate EOD 25 Sep):**
+- P(Triple-pathway Hard confirmed — Hormuz closed + pipeline offline >14d + Yanbu damaged — EOD 25 Sep) = 0.42 — pipeline 14-day mark = 24 Sep; Yanbu confirmation likely by then; Hormuz structural; ±8pp [0.34–0.50]
+- P(Threat-5 triggered EOD 25 Sep) = 0.35 — Yanbu Hard = candidate; BAM formal = candidate; CENTCOM retaliation = candidate; ±8pp [0.27–0.43]
+- P(Houthi formal BAM closure declared EOD 25 Sep) = 0.22 — 7-day window; Perim held; Yanbu strike = escalation ladder; ±7pp [0.15–0.29]
+- P(Sc C ≥73% EOD 25 Sep) = 0.40 — currently 71%; Yanbu + pipeline day 14 = locking in; ±8pp [0.32–0.48]
+- P(Iran-Oman Muscat operational corridor Hard-published EOD 25 Sep) = 0.32 — working group active; US pressure = constraint; ±8pp [0.24–0.40]
+
+**Heuristic updates (Day 203):**
+- **ARAMCO SILENCE CALIBRATION REFINEMENT**: Aramco silence >7 days on a facility event (pipeline or terminal) = moderate negative signal on damage severity but does NOT preclude Hard confirmation via Saudi Energy Ministry. Separate watch: Saudi Energy Ministry statements (faster than Aramco corporate) vs Aramco IR statements (slower, more cautious). Upgrade Saudi Energy Ministry statements to Hard T1 equivalent for infrastructure events.
+- **BYPASS TIMING REFINEMENT**: "Within days" from a Bloomberg source on 16 Sep = operational expectation of 17–20 Sep window. Al-Monitor analyst (17 Sep) says "faster than expected." Revise P(bypass confirmed EOD 19 Sep) to 0.60 from 0.48.
