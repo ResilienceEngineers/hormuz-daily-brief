@@ -7535,3 +7535,66 @@ Not in provided log. Deferred.
 - **BLOOMBERG UNNAMED-SOURCE INFRASTRUCTURE TIMING**: "Within days" from a Bloomberg unnamed source on infrastructure operations (pipeline bypass, terminal restart) = add 5–10 days to announced target window before treating as overdue. "Within days" from 16 Sep should be re-read as 21–26 Sep window, not 17–19 Sep. Recalibrate bypass Hard confirmation window accordingly.
 - **YANBU TERMINAL vs PIPELINE DISTINCTION**: Satellite fires at Yanbu pumping stations = pipeline-related (confirmed Industrial Info 16 Sep). Treat separately from: (a) Yanbu crude loading terminal, (b) YASREF refinery complex. Prior Houthi claims of refinery strike = disinformation using 2013 imagery. Future Houthi claims of Yanbu "strike" require positive Hard ID of specific facility before upgrading.
 - **MUSCAT DECONFLICTION EFFECT ON BAM FORMAL CLOSURE**: US-Houthi Muscat backchannel active (14 Sep) = reduce P(formal BAM closure declared within 7 days) by approximately −5pp from base. Houthis seeking international legitimacy via managing BAM (per Heritage Foundation analyst) = formal closure inconsistent with current strategy.
+
+## Day 205 · 20 September 2026
+
+### Scoring of Day 204 T+1 predictions (gate EOD 20 Sep)
+
+| Prediction | P | Outcome | Score | Notes |
+|---|---|---|---|---|
+| P(East-West bypass Hard-confirmed flow EOD 20 Sep) | 0.45 | 0 — No Hard confirmation found | **MISS** | Bloomberg "within days" from 16 Sep = day 4; Houthi Sep 19 Yanbu claim may have discouraged bypass announcement; Kpler ~1 month timeline credible; heuristic: add 5–10 days buffer to unnamed-source "within days" — recalibrate to 21–26 Sep window as per Day 204 heuristic |
+| P(Yanbu terminal Hard damage confirmed EOD 20 Sep) | 0.15 | Unresolved — Houthi Sep 19 claim of Aramco Yanbu strike (fire near Riyadh airport confirmed); no Saudi Hard confirmation of terminal damage | **PENDING/WATCHLIST** | Houthi claim is Tier 5; elevated to W1; Saudi silence ≠ confirmation; score deferred to EOD 21 Sep |
+| P(Houthi formal BAM closure declared EOD 20 Sep) | 0.10 | 0 — No formal declaration; de facto Saudi exclusion continues; Muscat channel active | **HIT** | Well-calibrated; Muscat deconfliction continues to dampen formal closure probability |
+| P(New CENTCOM Yemen/Iraq strike wave EOD 20 Sep) | 0.22 | 0 — No CENTCOM announced strike ashore (11+ consecutive periods per GlobalSecurity); no new press release | **HIT** | Well-calibrated; IRGC fire pause continues; Muscat channel active = cooling |
+
+**T+1 Day 204 summary:** 2 Hits, 1 Miss, 1 Pending. Primary miss: bypass "within days" window overdue; Houthi Sep 19 Yanbu claim compounds bypass uncertainty. Yanbu terminal pending Hard = decisive W1 watch. Calibration: Bloomberg unnamed-source "within days" heuristic validated — add 5–10 days from announcement date before treating as overdue.
+
+### Scoring of Day 201 T+3 predictions (gate EOD 20 Sep)
+
+Not in provided log. Deferred.
+
+### Scoring of Day 197 T+7 predictions (gate EOD 20 Sep)
+
+Not in provided log. Deferred.
+
+---
+
+### Day 205 new predictions (forward log)
+
+**Trend:** ↑ Worse. Confidence: Medium.
+**Threat:** 4 / 5 · Severe
+
+**Threat-5 criteria (updated):**
+- Yanbu Aramco terminal Hard-confirmed damage (Saudi/Aramco official + Kpler/Vortexa zero-load confirmation) — new Sep 19 Houthi claim adds urgency OR
+- Pipeline offline >14 days concurrent with Hormuz structural closure + BAM Saudi exclusion (threshold: EOD 25 Sep) OR
+- IRGC breaks Muscat pledge and attacks non-Saudi/non-US vessels OR
+- Formal Houthi BAM closure declaration
+
+**Scenarios (30d):**
+- A: Negotiated framework — 9% (↑ +2pp; Iran Qatar conditions = genuine Sc A signal)
+- B: Frozen attrition — 21% (↓ −1pp)
+- C: Re-escalation / dual-chokepoint lock-in — 70% (↓ −1pp; still MODAL)
+
+**T+1 predictions (gate EOD 21 Sep):**
+- P(Yanbu Aramco terminal Hard damage confirmed EOD 21 Sep) = 0.25 — Houthi Sep 19 claim with fire near Riyadh airport confirmed; Saudi silence pattern; prior Yanbu pump-station fire vs terminal distinction still critical; Saudi Patriot intercepts historically not always announced promptly; ±8pp [0.17–0.33]
+- P(East-West bypass Hard-confirmed flow EOD 21 Sep) = 0.35 — Bloomberg "within days" from 16 Sep = day 5; new Houthi Yanbu claim may complicate Aramco bypass announcement; Kpler ~1 month from attack = ~Oct 10; unnamed source "within days" = 21–26 Sep per heuristic; ±8pp [0.27–0.43]
+- P(Trump Hard public response to Iran Qatar conditions EOD 21 Sep) = 0.12 — Qatar channel = indirect; US typically slow to respond to indirect diplomatic signals; 19 Sep = Saturday; working week opens 21 Sep; ±5pp [0.07–0.17]
+- P(Houthi formal BAM closure declared EOD 21 Sep) = 0.10 — Muscat channel active; no trigger event; ±4pp [0.06–0.14]
+
+**T+3 predictions (gate EOD 23 Sep):**
+- P(Yanbu Aramco terminal Hard damage confirmed EOD 23 Sep) = 0.35 — 3-day window; Saudi Energy Ministry typically confirms major damage within 48–72h; Houthi claim + Riyadh fire = corroborating signal; ±8pp [0.27–0.43]
+- P(East-West bypass Hard-confirmed partial flow EOD 23 Sep) = 0.50 — Bloomberg "within days" window = Sep 21–26; Aramco engineering feasible; watch for Aramco corporate statement or Kpler flow data; ±8pp [0.42–0.58]
+- P(Brent close above $108 EOD 23 Sep) = 0.30 — pipeline day-13 approaching threshold; Yanbu Houthi claim unresolved; Iran Qatar signal mild downward pressure; ±7pp [0.23–0.37]
+- P(Trump Hard response to Iran conditions EOD 23 Sep) = 0.22 — 72h from Qatar disclosure; Trump communication style = rapid; State Dept may issue formal response; ±7pp [0.15–0.29]
+
+**T+7 predictions (gate EOD 27 Sep):**
+- P(Triple-pathway Threat-5 triggered EOD 27 Sep) = 0.42 — pipeline day-14 = 25 Sep (within 7-day window); Yanbu terminal Hard damage P rising; IRGC Muscat breach = low P; ±8pp [0.34–0.50]
+- P(East-West pipeline partial flow Hard-confirmed EOD 27 Sep) = 0.72 — Bloomberg "within days" fully elapsed; Aramco bypass feasible within 2–3 weeks of attack (Sep 24–Oct 1); ±7pp [0.65–0.79]
+- P(Sc C ≥72% EOD 27 Sep) = 0.45 — currently 70%; Yanbu Hard + pipeline threshold convergence 25 Sep = upward pressure; Iran Qatar signal = counterweight; ±8pp [0.37–0.53]
+- P(Sc A ≥12% EOD 27 Sep) = 0.30 — Trump response within 7 days = prerequisite; Qatar channel structural; US domestic political pressure from oil prices; ±8pp [0.22–0.38]
+- P(Iraq militia disarm compliance EOD 27 Sep, ≥2 major militias) = 0.08 — 4 major militias refused; Sep 30 deadline = 3 days after gate; compliance would be structural surprise; ±4pp [0.04–0.12]
+
+**Heuristic updates (Day 205):**
+- **HOUTHI DUAL-TRACK SIGNALING**: Simultaneous diplomatic (Iran Qatar conditions 19 Sep) + operational escalation (Houthi Yanbu+Riyadh strike claim 19 Sep) on same day = coercive negotiation posture. Do not interpret diplomatic channel as operational stand-down. Both signals must be tracked independently on separate scoring tracks.
+- **HOUTHI YANBU CLAIM VERIFICATION**: Houthi claim of Aramco Yanbu facility strike (19 Sep) accompanied by: (a) Riyadh airport fuel depot fire visually confirmed, (b) air raid sirens Riyadh + Al-Kharj confirmed, (c) no Saudi Energy Ministry Hard denial. Treat as "unconfirmed but corroborated" — stronger than prior Houthi Yanbu claims (July intercept confirmed; Sep false claims disinformation-checked). Elevate P(terminal damage) modestly vs prior base rate.
+- **SAUDI SILENCE PATTERN ON HOUTHI CLAIMS**: Saudi Energy Ministry typically confirms major infrastructure damage within 24–48h. Silence at 12h (06:00 UTC 20 Sep) is early; silence at 48h (EOD 21 Sep) would be unusual if terminal damage is real, as Aramco has investor disclosure obligations. Use 48h silence = mild negative signal on Hard damage.
