@@ -7598,3 +7598,66 @@ Not in provided log. Deferred.
 - **HOUTHI DUAL-TRACK SIGNALING**: Simultaneous diplomatic (Iran Qatar conditions 19 Sep) + operational escalation (Houthi Yanbu+Riyadh strike claim 19 Sep) on same day = coercive negotiation posture. Do not interpret diplomatic channel as operational stand-down. Both signals must be tracked independently on separate scoring tracks.
 - **HOUTHI YANBU CLAIM VERIFICATION**: Houthi claim of Aramco Yanbu facility strike (19 Sep) accompanied by: (a) Riyadh airport fuel depot fire visually confirmed, (b) air raid sirens Riyadh + Al-Kharj confirmed, (c) no Saudi Energy Ministry Hard denial. Treat as "unconfirmed but corroborated" — stronger than prior Houthi Yanbu claims (July intercept confirmed; Sep false claims disinformation-checked). Elevate P(terminal damage) modestly vs prior base rate.
 - **SAUDI SILENCE PATTERN ON HOUTHI CLAIMS**: Saudi Energy Ministry typically confirms major infrastructure damage within 24–48h. Silence at 12h (06:00 UTC 20 Sep) is early; silence at 48h (EOD 21 Sep) would be unusual if terminal damage is real, as Aramco has investor disclosure obligations. Use 48h silence = mild negative signal on Hard damage.
+
+## Day 206 — 21 September 2026
+
+### Scoring of Day 205 T+1 predictions (gate EOD 21 Sep)
+
+| Prediction | P | Outcome | Score | Notes |
+|---|---|---|---|---|
+| P(Yanbu terminal Hard damage confirmed EOD 21 Sep) | 0.25 | 0 — Saudi coalition Hard T1 confirmed all Yanbu attacks thwarted 19 Sep (AP/NBC/AJ); no Aramco terminal damage; airport fuel depot fire confirmed but no terminal strike | **HIT (correct 0)** | Coalition Hard denial at <24h = strong negative; prior heuristic "48h silence" validated in reverse — positive denial arrived faster than expected |
+| P(East-West bypass Hard-confirmed flow EOD 21 Sep) | 0.35 | 0 — No Aramco/Saudi Energy Ministry Hard flow confirmation; satellite shows bypass construction active; Bloomberg "within days" day 5 elapsed | **MISS** | Engineering more complex than unnamed-source "within days" implied; Kpler 1-month estimate more calibrated |
+| P(Trump Hard public response to Iran Qatar conditions EOD 21 Sep) | 0.12 | 0 — Qatar FM Al-Ansari 20 Sep (Bloomberg T1): mediators working; no Hard Trump response; UNGA week may generate statement | **HIT (correct 0)** | Well-calibrated; Qatar indirect channel = slow US response timeline |
+| P(Houthi formal BAM closure declared EOD 21 Sep) | 0.10 | 0 — No formal declaration; Muscat channel holds | **HIT (correct 0)** | Well-calibrated |
+
+**T+1 Day 205 summary:** 3 Correct non-events, 1 Miss. Primary miss: bypass "within days" window overdue; Kpler 1-month partial estimate more reliable than unnamed Bloomberg source heuristic. Key resolution: Yanbu terminal attack thwarted by Saudi air defence (Hard T1) — resolves W2 as no damage; recalibrate Houthi Yanbu terminal P downward given demonstrated Saudi Patriot efficacy at Yanbu. Heuristic update: Saudi coalition Hard denial within 24h of Houthi strike claim = strong negative signal (faster than 48h silence heuristic; add to methodology).
+
+### Scoring of Day 202 T+3 predictions (gate EOD 21 Sep)
+
+Not in provided log. Deferred.
+
+### Scoring of Day 198 T+7 predictions (gate EOD 21 Sep)
+
+Not in provided log. Deferred.
+
+---
+
+### Day 206 new predictions (forward log)
+
+**Trend:** ↑ Worse. Confidence: Medium.
+**Threat:** 4 / 5 · Severe
+
+**Threat-5 criteria (updated Day 206):**
+- East-West pipeline offline ≥14 days concurrent with Hormuz structural closure + BAM Saudi exclusion (threshold: EOD 25 Sep) OR
+- New successful Houthi/IRGC strike Hard-confirmed on Yanbu terminal or Ras Tanura with Kpler zero-load confirmation OR
+- IRGC breaks Muscat pledge and attacks non-Saudi/non-US vessels OR
+- Formal Houthi BAM closure declaration
+
+**Scenarios (30d):**
+- A: Negotiated framework — 10% (↑ +1pp; Qatar FM active mediation at UNGA week; Al-Ansari "working around clock" 20 Sep)
+- B: Frozen attrition — 22% (↑ +1pp; Yanbu attack thwarted = no immediate escalation; bypass engineering continues)
+- C: Re-escalation / dual-chokepoint lock-in — 68% (↓ −2pp; Yanbu intercept successful = Saudi air defence functional; MODAL)
+
+**T+1 predictions (gate EOD 22 Sep):**
+- P(East-West bypass Hard-confirmed partial flow EOD 22 Sep) = 0.30 — Bloomberg "within days" day 6; satellite shows active construction; no Hard statement in 5 days = engineering complications likely; unnamed source heuristic now −1 reliability mark; ±8pp [0.22–0.38]
+- P(New Houthi strike wave on Saudi territory EOD 22 Sep) = 0.35 — Houthi dual-city precedent set 19 Sep; Saudi coalition "appropriate measures" threat = counter-escalation possible; Houthi pattern = 2–4 day cadence; ±8pp [0.27–0.43]
+- P(Qatar/Muscat announce US-Iran talks resumption date EOD 22 Sep) = 0.18 — UNGA week 22–26 Sep; Al-Ansari active; US-Iran gap acknowledged; ±6pp [0.12–0.24]
+- P(Houthi formal BAM closure declared EOD 22 Sep) = 0.10 — Muscat channel holds; no trigger event; ±4pp
+
+**T+3 predictions (gate EOD 24 Sep):**
+- P(East-West bypass Hard-confirmed partial flow EOD 24 Sep) = 0.52 — Bloomberg "within days" day 8 of window; Kpler 1-month estimate = Oct 10; engineering active per satellite; ±8pp [0.44–0.60]
+- P(Brent close above $108 EOD 24 Sep) = 0.28 — pipeline day 13; Yanbu terminal attack thwarted = no new floor; Qatar diplomacy mild downward pressure; bypass optimism capped; ±7pp
+- P(New CENTCOM strike wave EOD 24 Sep) = 0.18 — Sep 30 militia deadline approaching; IRGC pause holds; ±6pp
+- P(Houthi Riyadh/capital strike repeat Hard-confirmed damage EOD 24 Sep) = 0.20 — Saudi Patriot demonstrated efficacy; Houthi dual-city precedent; ±6pp
+
+**T+7 predictions (gate EOD 28 Sep):**
+- P(Triple-pathway Threat-5 triggered EOD 28 Sep) = 0.38 — pipeline day-17 (past 14-day threshold); Hormuz closed; BAM Saudi exclusion holds; ±8pp [0.30–0.46]
+- P(East-West bypass Hard-confirmed partial flow EOD 28 Sep) = 0.78 — Kpler ~1 month = Oct 10; bypass engineering days 12–18; unnamed-source "within days" = structural, not precise; ±7pp
+- P(Iraq militia Sep 30 disarm deadline missed by ≥3 militias) = 0.88 — 4 major militias already refused/conditioned; Sep 30 = 2 days after gate; compliance = structural surprise; ±4pp
+- P(Sc A ≥12% EOD 28 Sep) = 0.35 — UNGA week = platform for US-Iran track; Qatar active; Trump communication style = rapid; ±8pp
+- P(Sc C ≥70% EOD 28 Sep) = 0.55 — currently 68%; Sep 30 militia deadline = potential re-escalation trigger; ±8pp
+
+**Heuristic updates (Day 206):**
+- **SAUDI COALITION DENIAL SPEED**: Saudi coalition Hard denial of Houthi infrastructure claim arrives within 12–24h (confirmed 19 Sep: denial same day). Update: do not wait 48h for Saudi silence before scoring Houthi infrastructure claims — coalition will deny promptly if intercept succeeded. Silence at 24h on a new claim = more significant negative signal than previously assessed.
+- **BYPASS "WITHIN DAYS" RELIABILITY**: Bloomberg unnamed-source "within days" (16 Sep) at day 5+ elapsed without Hard confirmation = engineering more complex than source implied. Downweight unnamed-source "within days" for infrastructure bypass; use Kpler technical estimate (1 month partial) as primary calibration anchor. Add 3–5 days buffer to Bloomberg "within days" for bypass-type engineering.
+- **HOUTHI DUAL-CITY PRECEDENT**: Riyadh + Yanbu simultaneous strike (19 Sep) is first-in-renewed-conflict capital targeting. Even when thwarted, this sets template: future Houthi packages will include capital + infrastructure combination. Do not assess individual strike outcomes in isolation — evaluate campaign pattern.
