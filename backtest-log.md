@@ -7661,3 +7661,66 @@ Not in provided log. Deferred.
 - **SAUDI COALITION DENIAL SPEED**: Saudi coalition Hard denial of Houthi infrastructure claim arrives within 12–24h (confirmed 19 Sep: denial same day). Update: do not wait 48h for Saudi silence before scoring Houthi infrastructure claims — coalition will deny promptly if intercept succeeded. Silence at 24h on a new claim = more significant negative signal than previously assessed.
 - **BYPASS "WITHIN DAYS" RELIABILITY**: Bloomberg unnamed-source "within days" (16 Sep) at day 5+ elapsed without Hard confirmation = engineering more complex than source implied. Downweight unnamed-source "within days" for infrastructure bypass; use Kpler technical estimate (1 month partial) as primary calibration anchor. Add 3–5 days buffer to Bloomberg "within days" for bypass-type engineering.
 - **HOUTHI DUAL-CITY PRECEDENT**: Riyadh + Yanbu simultaneous strike (19 Sep) is first-in-renewed-conflict capital targeting. Even when thwarted, this sets template: future Houthi packages will include capital + infrastructure combination. Do not assess individual strike outcomes in isolation — evaluate campaign pattern.
+
+## Day 207 · 22 September 2026
+
+### Scoring of Day 206 T+1 predictions (gate EOD 22 Sep)
+
+| Prediction | P(stated) | Outcome | Score | Note |
+|---|---|---|---|---|
+| P(East-West bypass Hard-confirmed partial flow EOD 22 Sep) | 0.30 | 0 — No Hard Aramco/Saudi Energy Ministry restart statement by 06:02 UTC 22 Sep; Saudi pivoting via Ras Tanura STS; bypass construction ongoing; day 6 of Bloomberg "within days" window | **MISS** | Kpler 1-month estimate (Rauball/CNN 14 Sep) remains primary calibration anchor; unnamed Bloomberg source further degraded; note Saudi Gulf STS pivot = operationally resilient alternative |
+| P(New Houthi strike wave on Saudi territory EOD 22 Sep) | 0.35 | 0 — No Hard-confirmed new Houthi wave 22 Sep; Trump reportedly rejected Saudi anti-Houthi strike request; British air refuelling support confirmed | **HIT (correct 0)** | Trump rejection of Saudi strike request = mild Houthi deterrence signal; reduce Houthi P slightly given US political constraint |
+| P(Qatar/Muscat announce US-Iran talks resumption date EOD 22 Sep) | 0.18 | 0 — Araghchi visited Qatar pre-UNGA; Trump open to meeting; no Hard resumption date announced; no formal acceptance by Tehran | **HIT (correct 0)** | Well-calibrated; UNGA week = platform but no date-specific announcement |
+| P(Houthi formal BAM closure declared EOD 22 Sep) | 0.10 | 0 — No formal declaration | **HIT (correct 0)** | Well-calibrated |
+
+**T+1 Day 206 summary:** 3 Hits (correct zeros), 1 Miss. Primary miss: East-West bypass "within days" continues to slip; Kpler/Rauball 1-month estimate validated. Key new data: CENTCOM (19 Sep) 6-month high Hormuz volume flow under escort — positive operational signal not predicted; Saudi STS Gulf pivot (~2.9 mb/d) more resilient than modelled. Brent fell to $100 on UNGA optimism. Heuristic update: Saudi Gulf STS pivot via Sohar operationally functional at ~2.9 mb/d — revise downward the "immediate catastrophic loss" scenario from East-West pipeline closure alone.
+
+### Scoring of Day 203 T+3 predictions (gate EOD 22 Sep)
+
+Not in provided log. Deferred.
+
+### Scoring of Day 199 T+7 predictions (gate EOD 22 Sep)
+
+Not in provided log. Deferred.
+
+---
+
+### Day 207 new predictions (forward log)
+
+**Trend:** ↑ Worse. Confidence: Medium.
+**Threat:** 4 / 5 · Severe
+
+**Threat-5 criteria (updated Day 207):**
+- East-West pipeline offline ≥14 days concurrent with Hormuz structural closure + BAM Saudi exclusion (threshold: EOD 25 Sep) OR
+- New successful Houthi/IRGC strike Hard-confirmed on Yanbu terminal or Ras Tanura with Kpler zero-load confirmation OR
+- Iran "large-scale strike" materialises (Hard CENTCOM confirmation) against US/GCC forces OR
+- Formal Houthi BAM closure declaration targeting non-Saudi vessels
+
+**Scenarios (30d):**
+- A: Negotiated framework — 14% (↑ +4pp; UNGA Trump-Pezeshkian open; Iran 7-condition framework via Qatar; Qatar FM "short-term deal" active)
+- B: Frozen attrition — 20% (↓ −2pp; CENTCOM 6-month high Hormuz escort flows + Saudi STS pivot = partial stabilisation)
+- C: Re-escalation / dual-chokepoint lock-in — 66% (↓ −2pp; MODAL; pipeline day-14 threshold 25 Sep; Iran "large-scale strike" warning; Sep 30 PMF deadline)
+
+**T+1 predictions (gate EOD 23 Sep):**
+- P(Hard Trump–Pezeshkian bilateral meeting confirmed EOD 23 Sep) = 0.22 — Both in New York; Trump expressed openness; Iran no formal acceptance; not on either announced schedule; Qatar mediating; ±8pp [0.14–0.30]
+- P(East-West bypass Hard-confirmed partial flow EOD 23 Sep) = 0.25 — Day 7 of Bloomberg "within days"; Kpler 1-month estimate; Saudi STS pivot reduces urgency; ±7pp [0.18–0.32]
+- P(Iran "large-scale strike" materialises Hard-confirmed EOD 23 Sep) = 0.12 — Warning issued 21 Sep; coercive posturing pattern during UNGA; CENTCOM heightened; ±5pp [0.07–0.17]
+- P(Houthi new strike wave on Saudi territory Hard-confirmed EOD 23 Sep) = 0.28 — 2–4 day Houthi cadence since 8 Sep; Trump rejected Saudi anti-Houthi strike = Houthi emboldened; ±7pp [0.21–0.35]
+
+**T+3 predictions (gate EOD 25 Sep):**
+- P(Pipeline day-14 Threat-5 threshold triggered EOD 25 Sep) = 0.62 — Pipeline offline since 11 Sep; no Hard bypass confirmation; Kpler 1-month estimate; bypass "within days" x7 elapsed; engineering complications confirmed pattern; ±8pp [0.54–0.70]
+- P(Hard Trump–Pezeshkian bilateral meeting occurred EOD 25 Sep) = 0.38 — 4-day UNGA window; Qatar active mediation; Trump repeatedly expressed openness; Iran 7 conditions submitted; ±9pp [0.29–0.47]
+- P(Brent close above $105 EOD 25 Sep) = 0.24 — Currently ~$100; UNGA optimism = downward pressure; pipeline Threat-5 trigger = upward; CENTCOM Hormuz progress = downward; ±7pp
+- P(New CENTCOM kinetic strike wave EOD 25 Sep) = 0.18 — Iran "large-scale strike" warning = potential pre-emption; Sep 30 deadline approaching; UNGA political constraint; ±6pp
+
+**T+7 predictions (gate EOD 28 Sep, UNGA closes):**
+- P(UNGA produces Hard US-Iran joint framework/communiqué EOD 28 Sep) = 0.20 — Qatar "short-term deal" architecture; Trump openness; Iran 7 conditions; but structural gap large; UNGA week = best window; ±9pp [0.11–0.29]
+- P(East-West bypass Hard-confirmed partial flow EOD 28 Sep) = 0.72 — Kpler 1-month estimate = Oct 10; bypass day 12–18 engineering; named-source Bloomberg "full restoration ~6 weeks"; partial bypass more likely than full; ±8pp [0.64–0.80]
+- P(Sc A ≥16% EOD 28 Sep) = 0.42 — Currently 14%; UNGA week = maximum revision window; Hard bilateral = +6pp; ±9pp
+- P(Sc C ≥70% EOD 28 Sep) = 0.40 — Currently 66%; Sep 30 PMF deadline; pipeline threshold; Iran strike warning; ±9pp
+- P(Sep 30 PMF Iraq deadline missed by ≥3 militias Hard-confirmed) = 0.88 — Structural: 4+ militias already refused/conditioned; Sep 30 = 8 days from now; compliance = structural surprise; ±4pp
+
+**Heuristic updates (Day 207):**
+- **SAUDI STS GULF PIVOT RESILIENCE**: Saudi Arabia routing ~2.9 mb/d via Ras Tanura STS → Sohar/Fujairah (Hard-confirmed Reuters/Aramco 18 Sep; Bloomberg satellite 21 Sep). This reduces the "immediate catastrophic supply loss" from East-West pipeline closure alone. Update: East-West pipeline offline alone is not sufficient for Brent $120; Saudi STS pivot provides ~40% of pre-closure pipeline volume. Threat-5 threshold requires pipeline offline + Hormuz corridor collapse + BAM Saudi exclusion — the three must be concurrent.
+- **UNGA COERCIVE POSTURING PATTERN**: Iran's "large-scale strike" warning (21 Sep) issued simultaneously with Pezeshkian UNGA departure = consistent with Iranian pre-negotiation coercive posturing (precedent: Islamabad talks warning + ceasefire). Do not score as genuine pre-attack intel without Hard CENTCOM confirmation of specific threat. Silence from CENTCOM on threat 24h after Iranian warning = moderate negative signal (threat is posturing, not operational).
+- **CENTCOM VOLUME vs STRUCTURAL OPENING**: CENTCOM 6-month high Hormuz volume (19 Sep) is a genuine operational achievement but should NOT be read as structural reopening. Iran explicitly stated it has not reopened; regional negotiations on agreed lanes have faltered. Volume is escort-dependent. Revert to structural closure assessment if CENTCOM escort operations pause >48h or if IRGC resumes active interdiction.
