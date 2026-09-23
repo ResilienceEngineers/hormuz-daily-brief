@@ -7724,3 +7724,69 @@ Not in provided log. Deferred.
 - **SAUDI STS GULF PIVOT RESILIENCE**: Saudi Arabia routing ~2.9 mb/d via Ras Tanura STS → Sohar/Fujairah (Hard-confirmed Reuters/Aramco 18 Sep; Bloomberg satellite 21 Sep). This reduces the "immediate catastrophic supply loss" from East-West pipeline closure alone. Update: East-West pipeline offline alone is not sufficient for Brent $120; Saudi STS pivot provides ~40% of pre-closure pipeline volume. Threat-5 threshold requires pipeline offline + Hormuz corridor collapse + BAM Saudi exclusion — the three must be concurrent.
 - **UNGA COERCIVE POSTURING PATTERN**: Iran's "large-scale strike" warning (21 Sep) issued simultaneously with Pezeshkian UNGA departure = consistent with Iranian pre-negotiation coercive posturing (precedent: Islamabad talks warning + ceasefire). Do not score as genuine pre-attack intel without Hard CENTCOM confirmation of specific threat. Silence from CENTCOM on threat 24h after Iranian warning = moderate negative signal (threat is posturing, not operational).
 - **CENTCOM VOLUME vs STRUCTURAL OPENING**: CENTCOM 6-month high Hormuz volume (19 Sep) is a genuine operational achievement but should NOT be read as structural reopening. Iran explicitly stated it has not reopened; regional negotiations on agreed lanes have faltered. Volume is escort-dependent. Revert to structural closure assessment if CENTCOM escort operations pause >48h or if IRGC resumes active interdiction.
+
+## Day 208 · 23 September 2026
+
+### Scoring of Day 207 T+1 predictions (gate EOD 23 Sep)
+
+| Prediction | P(stated) | Outcome | Score | Notes |
+|---|---|---|---|---|
+| P(Hard Trump–Pezeshkian bilateral meeting confirmed EOD 23 Sep) | 0.22 | Partial — No direct Trump–Pezeshkian meeting, but Witkoff + Kushner held 3-hr meeting with Iranian FM Araghchi (CBS/France24/JPost Hard T1 22 Sep); Trump confirmed "very good meeting"; follow-on scheduled | **NEAR-MISS / NEAR-HIT** | Event occurred at envoy-FM level not principal level; calibration: probability was reasonable; outcome was higher-order than the stated event |
+| P(East-West bypass Hard-confirmed partial flow EOD 23 Sep) | 0.25 | NOT YET — Bloomberg 22 Sep: "meaningful restart by Saturday 26 Sep"; line pressurization underway; tankers at Yanbu; no Aramco Hard statement by 06:00 UTC 23 Sep | **MISS (early)** | Pipeline restart slipping to 26 Sep; Bloomberg named-source suggests imminent; deadline moves to W2 |
+| P(Iran "large-scale strike" materialises Hard-confirmed EOD 23 Sep) | 0.12 | 0 — No strike materialised; UNGA diplomatic push dominant | **HIT (correct zero)** | Coercive posturing heuristic validated again |
+| P(Houthi new strike wave on Saudi territory Hard-confirmed EOD 23 Sep) | 0.28 | 0 — No new Hard-confirmed Houthi strike wave on Saudi territory found 06:00 UTC 23 Sep | **HIT (correct zero provisionally)** | UNGA week suppressing Houthi tempo; monitor |
+
+**T+1 Day 207 summary:** 2 Hits (correct zeros), 1 Near-Miss (Trump envoy-FM contact exceeded stated threshold), 1 Miss (pipeline restart slipping to 26 Sep). Primary surprise: magnitude of diplomatic breakthrough — Witkoff–Araghchi 3-hr direct contact was not predicted at this confidence level; Sc A revised +14pp in single day. Brent sub-$99 = market ahead of our forecast. Heuristic update: UNGA week consistently suppresses kinetic activity across all actors (Iran, Houthi); weight downward military escalation probabilities during UNGA high-level week.
+
+### Scoring of Day 204 T+3 predictions (gate EOD 22 Sep)
+
+Not in provided backtest log. Deferred.
+
+### Scoring of Day 200 T+7 predictions (gate EOD 22 Sep)
+
+Not in provided backtest log. Deferred.
+
+---
+
+### Day 208 new predictions (forward log)
+
+**Trend:** ↓ Better. Confidence: Medium.
+**Threat:** 3 / 5 · Concerning
+
+**Threat-4 re-trigger criteria (updated Day 208):**
+- US formally rejects Iran 7-day Hormuz offer AND IRGC resumes active Hormuz interdiction (Hard CENTCOM confirmation) OR
+- New successful Houthi/PMF strike Hard-confirmed on Yanbu terminal or East-West pipeline (no Aramco Hard restart yet) OR
+- Witkoff follow-on meeting collapses without scheduling next round AND Brent closes above $108
+
+**Threat-5 criteria (carried forward from Day 207):**
+- East-West pipeline re-attacked offline ≥14 days concurrent with Hormuz structural closure + BAM Saudi exclusion concurrent OR
+- New successful Hard-confirmed Houthi/IRGC strike on Yanbu terminal with Kpler zero-load confirmation OR
+- Iran formally withdraws 7-day Hormuz offer AND CENTCOM reports large-scale IRGC attack
+
+**Scenarios (30d):**
+- A: Negotiated framework — 28% (↑+14pp; Witkoff–Araghchi 3-hr contact; SNSC-approved 7-day offer; Trump "deal after midterms"; follow-on meeting confirmed)
+- B: Frozen attrition — 42% (↑+22pp; MODAL; active talks but maximalist conditions gap; pipeline restarting; Brent $90–100; no deal before Nov 3)
+- C: Re-escalation / dual-chokepoint lock-in — 30% (↓−36pp; Houthi BAM structural; Sep 30 PMF deadline; Iran conditions maximalist; no US acceptance yet)
+
+**T+1 predictions (gate EOD 24 Sep):**
+- P(Pezeshkian UNGA address 23 Sep contains publicly softer Hormuz conditions than SNSC-approved maximalist terms) = 0.35 — UNGA platform = diplomatic signalling; Pezeshkian precedent is measured rhetoric; but SNSC terms constrain him; ±9pp [0.26–0.44]
+- P(East-West pipeline Hard-confirmed partial flow EOD 24 Sep) = 0.40 — Bloomberg: Saturday target; line pressurization underway; tankers at Yanbu; Aramco Hard statement typically follows physical restart; ±8pp [0.32–0.48]
+- P(Witkoff follow-on Iran meeting confirmed with date/venue EOD 24 Sep) = 0.50 — Trump: "very near future"; both delegations still in New York through 26 Sep; high momentum; ±10pp [0.40–0.60]
+- P(Brent close below $97 EOD 24 Sep) = 0.35 — Currently ~$98–99; pipeline restart + Hormuz optimism = downward pressure; but no US formal acceptance yet; ±8pp
+
+**T+3 predictions (gate EOD 26 Sep):**
+- P(East-West pipeline Hard-confirmed meaningful restart EOD 26 Sep) = 0.72 — Bloomberg Saturday target; pressurization underway; Kpler tanker confirmation likely same day; ±7pp [0.65–0.79]
+- P(Witkoff follow-on Iran meeting occurred EOD 26 Sep) = 0.65 — Trump confirmed; both delegations in NY through 26 Sep; high momentum; Qatar facilitating; ±9pp [0.56–0.74]
+- P(US formal counterproposal to Iran 7-day Hormuz offer issued EOD 26 Sep) = 0.30 — High bar; Trump "after midterms" suggests US not in a hurry to formally accept; but Witkoff channel may produce private response; ±8pp
+- P(Sc A probability ≥32% EOD 26 Sep) = 0.40 — Currently 28%; Witkoff follow-on + US counterproposal = +4–6pp; pipeline restart = neutral; ±9pp
+
+**T+7 predictions (gate EOD 30 Sep — UNGA closes, PMF deadline):**
+- P(UNGA produces Hard US-Iran joint framework/communiqué EOD 30 Sep) = 0.22 — Witkoff channel active; 7-day window; but US "after midterms" timing suggests formal deal unlikely before Oct; ±9pp [0.13–0.31]
+- P(Sep 30 PMF Iraq deadline missed by ≥3 militias Hard-confirmed) = 0.85 — Structural: 4+ militias conditioned/refused; pipeline attack from Maysan = PMF already acting; compliance = structural surprise; ±5pp
+- P(Brent close below $95 EOD 30 Sep) = 0.28 — Requires both pipeline Hard restart AND Hormuz optimism to persist AND no re-escalation; ±8pp
+- P(Houthi BAM escalation — new Hard-confirmed strike on Yanbu/Red Sea tankers EOD 30 Sep) = 0.30 — Houthi emboldened by BAM territorial control; pipeline restart = new target incentive; Saudi anti-Houthi strike rejected by Trump; ±8pp
+
+**Heuristic updates (Day 208):**
+- **UNGA WEEK KINETIC SUPPRESSION**: Kinetic activity from Iran, Houthi, and PMF consistently suppressed during UNGA high-level week (22–28 Sep). Weight military escalation probabilities downward by ~30% during active UN high-level weeks. Revert to baseline immediately upon UNGA close (28 Sep).
+- **ENVOY-LEVEL CONTACT AS Sc A LEADING INDICATOR**: Witkoff–Araghchi 3-hr meeting on UNGA sidelines (22 Sep) — despite being mediated/indirect — constitutes the highest-level formal US-Iran contact since July ceasefire collapse. This is a structural leading indicator for Sc A, not merely diplomatic signalling. Weight future Witkoff-channel meetings as Hard-tier diplomatic events.
+- **BRENT $100 AS POLITICAL CEILING FOR TRUMP**: Brent falling below $100 correlates with Trump's "deal after midterms" framing — market is pricing the political cost function. Trump has incentive to keep Brent below $100 through November 3. This creates a feedback loop: aggressive US military action that spikes Brent above $100 is politically costly for Trump's midterm position. Weight downward re-escalation scenarios during the pre-midterm window.
