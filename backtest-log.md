@@ -7790,3 +7790,71 @@ Not in provided backtest log. Deferred.
 - **UNGA WEEK KINETIC SUPPRESSION**: Kinetic activity from Iran, Houthi, and PMF consistently suppressed during UNGA high-level week (22–28 Sep). Weight military escalation probabilities downward by ~30% during active UN high-level weeks. Revert to baseline immediately upon UNGA close (28 Sep).
 - **ENVOY-LEVEL CONTACT AS Sc A LEADING INDICATOR**: Witkoff–Araghchi 3-hr meeting on UNGA sidelines (22 Sep) — despite being mediated/indirect — constitutes the highest-level formal US-Iran contact since July ceasefire collapse. This is a structural leading indicator for Sc A, not merely diplomatic signalling. Weight future Witkoff-channel meetings as Hard-tier diplomatic events.
 - **BRENT $100 AS POLITICAL CEILING FOR TRUMP**: Brent falling below $100 correlates with Trump's "deal after midterms" framing — market is pricing the political cost function. Trump has incentive to keep Brent below $100 through November 3. This creates a feedback loop: aggressive US military action that spikes Brent above $100 is politically costly for Trump's midterm position. Weight downward re-escalation scenarios during the pre-midterm window.
+
+## Day 209 · 24 September 2026
+
+### Scoring of Day 208 T+1 predictions (gate EOD 24 Sep)
+
+| Prediction | P stated | Outcome | Score |
+|---|---|---|---|
+| P(Pezeshkian UNGA speech softer on Hormuz than SNSC maximalist) = 0.35 | 0.35 | MISS — Pezeshkian defiant, doubled down on Hormuz control, refused reopening; Rubio "no breakthrough"; directional call correct (below 0.5 = predicted less likely) | HIT (directional) / calibrated |
+| P(East-West pipeline Hard-confirmed partial flow EOD 24 Sep) = 0.40 | 0.40 | HIT — Reuters/The National/QZ confirmed restart 22 Sep; 1 Yanbu cargo loaded; multiple T1 sources | HIT |
+| P(Witkoff follow-on Iran meeting confirmed with date/venue EOD 24 Sep) = 0.50 | 0.50 | MISS — Rubio "no breakthrough," MoU off table; no follow-on meeting date/venue confirmed as of 06:02 UTC 24 Sep | MISS |
+| P(Brent close below $97 EOD 24 Sep) = 0.35 | 0.35 | MISS — Brent $97.81 on 22 Sep (briefly), rebounded to $101.61 on 23 Sep; not confirmed below $97 EOD 24 Sep | MISS |
+
+**T+1 Day 208 summary:** 1 confirmed Hit, 1 directional Hit (calibrated), 2 Misses. Primary surprise: Rubio's explicit "no breakthrough" and MoU walk-back was more diplomatically negative than Day 208 predicted; Sc A over-revised upward by ~6pp. Brent rebound faster than expected. Heuristic update: Rubio counter-signalling pattern — when Witkoff expresses optimism publicly, watch for Rubio same-day walk-back as the structural constraint signal (State Dept vs envoy messaging divergence).
+
+### Scoring of Day 205 T+3 predictions (gate EOD 23 Sep)
+
+Not in provided backtest log. Deferred.
+
+### Scoring of Day 201 T+7 predictions (gate EOD 23 Sep)
+
+Not in provided backtest log. Deferred.
+
+---
+
+### Day 209 new predictions (forward log)
+
+**Trend:** → Same. Confidence: Medium.
+**Threat:** 3 / 5 · Concerning
+
+**Threat-4 re-trigger criteria (updated Day 209):**
+- Post-UNGA (from 28 Sep): Hard-confirmed Houthi/PMF strike on Yanbu terminal or pumping station OR
+- IRGC resumes active Hormuz interdiction beyond PGSA permit regime (CENTCOM Hard confirmation) OR
+- Rubio silence on Witkoff channel ≥7 days AND Brent closes above $108 OR
+- PMF post-US-withdrawal attack on Saudi infrastructure Hard-confirmed
+
+**Threat-5 criteria (carried forward):**
+- East-West pipeline re-attacked offline ≥14 days concurrent with Hormuz structural closure + BAM Saudi exclusion OR
+- New Hard-confirmed Houthi/IRGC strike on Yanbu terminal with Kpler zero-load confirmation OR
+- Iran formally withdraws 7-day Hormuz offer AND CENTCOM reports large-scale IRGC attack
+
+**Scenarios (30d):**
+- A: Negotiated framework — 22% (↓−6pp; Rubio MoU off-table; Pezeshkian defiant; SNSC "US first-step"; no US CBM yet)
+- B: Frozen attrition — 48% (↑+6pp; MODAL; channel survives; pipeline restarting; Trump midterm ceiling $100 structural)
+- C: Re-escalation — 30% (→; PMF disarmament softened; UNGA kinetic window expiring 28 Sep; Houthi BAM capability)
+
+**T+1 predictions (gate EOD 25 Sep):**
+- P(East-West pipeline reaches 40% capacity Hard-confirmed EOD 25 Sep) = 0.45 — Reuters source said "within days" from 22 Sep; engineering timeline; Aramco no Hard statement yet; ±9pp [0.36–0.54]
+- P(Witkoff follow-on Iran meeting with confirmed date/venue EOD 25 Sep) = 0.30 — Rubio walk-back reduces momentum; UNGA still active through 26 Sep; Qatar channel open; but structural constraint raised; ±8pp [0.22–0.38]
+- P(New Hard-confirmed Houthi or PMF strike on Saudi infrastructure EOD 25 Sep) = 0.12 — UNGA kinetic suppression still active; fire pause holding; ±5pp [0.07–0.17]
+- P(Brent close below $99 EOD 25 Sep) = 0.45 — Currently ~$101; pipeline restart + no new diplomatic breakthrough = modest downward pressure; ±8pp
+
+**T+3 predictions (gate EOD 27 Sep):**
+- P(East-West pipeline Hard-confirmed 40% capacity EOD 27 Sep) = 0.65 — Bloomberg "within days" from 22 Sep = target window 25–26 Sep; ±8pp [0.57–0.73]
+- P(Witkoff follow-on Iran contact confirmed EOD 27 Sep) = 0.40 — UNGA delegations in NY through 26 Sep; Qatar active; Rubio walk-back raises bar; ±9pp [0.31–0.49]
+- P(UNGA Panel of Experts monitoring mandate renewed or replaced EOD 27 Sep) = 0.30 — mandate expires 26 Sep; no replacement proposed as of 24 Sep; ±9pp
+- P(Brent close below $97 EOD 27 Sep) = 0.30 — Requires pipeline 40% + no post-UNGA kinetic event; ±8pp
+
+**T+7 predictions (gate EOD 1 Oct — post-UNGA, post-PMF deadline):**
+- P(Post-UNGA Hard-confirmed kinetic event: Houthi/PMF strike on Yanbu or Saudi infra EOD 1 Oct) = 0.35 — UNGA kinetic suppression expires 28 Sep; PMF post-US-withdrawal freedom; pipeline restart = target incentive; ±9pp [0.26–0.44]
+- P(US troop withdrawal from Iraq complete EOD 30 Sep Hard-confirmed) = 0.88 — Structural: announced; logistics underway; only disruption = kinetic event during withdrawal; ±5pp
+- P(PMF disarmament "start of process" only (no actual weapons surrendered) EOD 1 Oct) = 0.90 — Analyst consensus; structural; Kataib HB/Nujaba refused; ±4pp
+- P(Sc B probability ≥45% EOD 1 Oct) = 0.55 — Currently 48%; Sc B likely consolidates if no post-UNGA kinetic event; ±9pp
+- P(Brent close below $95 EOD 1 Oct) = 0.22 — Requires pipeline recovery + no re-escalation + diplomatic progress; ±7pp
+
+**Heuristic updates (Day 209):**
+- **RUBIO COUNTER-SIGNAL PATTERN**: When Witkoff publicly expresses optimism on Iran channel, expect Rubio same-day or next-day walk-back as structural constraint. State Dept vs envoy messaging divergence is a systematic pattern — treat Witkoff optimism as a leading indicator of channel existence, not of deal proximity. Weight Rubio statements higher for Sc A probability calibration.
+- **PIPELINE RE-ATTACK INCENTIVE ELEVATION**: East-West pipeline restart = high-value target restoration. Houthi/PMF demonstrated capability (Sep 11 attack). Yanbu restart = re-attack incentive elevated proportionally with throughput. Weight Sc C slightly higher during pipeline ramp-up phase (22 Sep – ~5 Oct) vs. steady-state Sc B.
+- **UNGA KINETIC SUPPRESSION EXPIRY**: Heuristic expires 28 Sep. Revert all kinetic probabilities to baseline immediately. First 72 hrs post-UNGA (28–30 Sep) = highest post-suppression kinetic risk window.
