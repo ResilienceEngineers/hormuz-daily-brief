@@ -7858,3 +7858,72 @@ Not in provided backtest log. Deferred.
 - **RUBIO COUNTER-SIGNAL PATTERN**: When Witkoff publicly expresses optimism on Iran channel, expect Rubio same-day or next-day walk-back as structural constraint. State Dept vs envoy messaging divergence is a systematic pattern — treat Witkoff optimism as a leading indicator of channel existence, not of deal proximity. Weight Rubio statements higher for Sc A probability calibration.
 - **PIPELINE RE-ATTACK INCENTIVE ELEVATION**: East-West pipeline restart = high-value target restoration. Houthi/PMF demonstrated capability (Sep 11 attack). Yanbu restart = re-attack incentive elevated proportionally with throughput. Weight Sc C slightly higher during pipeline ramp-up phase (22 Sep – ~5 Oct) vs. steady-state Sc B.
 - **UNGA KINETIC SUPPRESSION EXPIRY**: Heuristic expires 28 Sep. Revert all kinetic probabilities to baseline immediately. First 72 hrs post-UNGA (28–30 Sep) = highest post-suppression kinetic risk window.
+
+## Day 210 — 25 September 2026
+
+### Scoring of Day 209 T+1 predictions (gate EOD 25 Sep)
+
+| Prediction | P | Outcome | Score |
+|---|---|---|---|
+| P(E-W pipeline 40% capacity Hard-confirmed EOD 25 Sep) = 0.45 | 0.45 | HIT (overperformed: full 7 Mb/d restored by 22 Sep per Bloomberg/Argus/AJ T1; well beyond 40% threshold) | HIT |
+| P(Witkoff follow-on Iran meeting confirmed date/venue EOD 25 Sep) = 0.30 | 0.30 | MISS — Trump said "very near future" on 22 Sep but no Hard date/venue confirmed by 25 Sep 06:02 UTC | MISS (directional HIT: below 0.5 = correctly assessed as unlikely) |
+| P(New Hard-confirmed Houthi or PMF strike on Saudi infra EOD 25 Sep) = 0.12 | 0.12 | MISS — No CENTCOM/UKMTO Hard T1 discrete strike confirmed 24–25 Sep; UNGA suppression nominally held | MISS (calibrated: low probability correctly assigned) |
+| P(Brent close below $99 EOD 25 Sep) = 0.45 | 0.45 | MISS — Brent $105.69 (+8.47%); Safavi Indian Ocean threat (24 Sep) drove sharp surge; pipeline restart unable to overcome escalatory rhetoric | MISS |
+
+**T+1 Day 209 summary:** 1 confirmed Hit (pipeline overperformed), 1 directional Miss (Witkoff — calibrated correctly below 0.5), 2 Misses. Primary surprise: Brent +8.47% surge driven by Indian Ocean threat (Safavi/Fars 24 Sep) — not a kinetic event but a Soft-tier verbal threat from a senior official; markets treated it as material. Heuristic update: **Senior adviser Indian Ocean threats from IRGCN-adjacent officials move Brent materially even at Soft tier** — update Brent model to include named-theater verbal threats from this seniority level as a $3–8/bbl immediate premium signal.
+
+### Scoring of Day 206 T+3 predictions (gate EOD 24 Sep)
+
+Not in provided backtest log. Deferred.
+
+### Scoring of Day 202 T+7 predictions (gate EOD 24 Sep)
+
+Not in provided backtest log. Deferred.
+
+---
+
+### Day 210 new predictions (forward log)
+
+**Trend:** → Same. Confidence: Medium.
+**Threat:** 3 / 5 · Concerning
+
+**Scenario probabilities (30d):**
+- A: Negotiated framework — 20% (↓2pp)
+- B: Frozen attrition — 47% (↓1pp; MODAL)
+- C: Re-escalation — 33% (↑3pp)
+
+**T+1 predictions (gate EOD 26 Sep):**
+- P(No Hard-confirmed Houthi or PMF kinetic strike on Saudi infra or Hormuz escalation EOD 26 Sep) = 0.78 — UNGA suppression nominally active through 26 Sep EOD; low but not zero residual suppression; ±7pp [0.71–0.85]
+- P(Witkoff follow-on Iran meeting Hard-confirmed date/venue EOD 26 Sep) = 0.20 — UNGA closing day; possible announcement; but no Hard signal; structural constraint raised; ±7pp [0.13–0.27]
+- P(Brent close above $103 EOD 26 Sep) = 0.60 — Currently $105.69; Indian Ocean threat premium partially embedded; unless US counter-signal or diplomatic progress reverses; ±8pp [0.52–0.68]
+- P(Iran Indian Ocean threat upgraded to Hard IRGCN movement EOD 26 Sep) = 0.05 — Operational posture, not imminent; verbal threat only; ±3pp [0.02–0.08]
+
+**T+3 predictions (gate EOD 28 Sep — first post-UNGA day):**
+- P(Hard-confirmed Houthi or PMF strike on Saudi infra EOD 28 Sep) = 0.28 — UNGA suppression expired; 28–30 Sep = highest kinetic window; Yanbu = high-value target; ±9pp [0.19–0.37]
+- P(Witkoff follow-on Iran meeting Hard-confirmed date/venue EOD 28 Sep) = 0.38 — Trump "very near future"; Qatar channel active; UNGA delegations still in transit; post-UNGA framing could accelerate; ±9pp [0.29–0.47]
+- P(Brent remains above $100 EOD 28 Sep) = 0.65 — Post-UNGA kinetic risk + Indian Ocean premium; pipeline re-attack risk; only diplomatic breakthrough could push below $100; ±8pp
+- P(PMF Hard-confirmed activation signal or attack claim EOD 28 Sep) = 0.20 — Sep 30 deadline imminent; militias signalling; but mutual freeze announced; ±7pp [0.13–0.27]
+
+**T+7 predictions (gate EOD 2 Oct — post-PMF-deadline, post-US-withdrawal):**
+- P(Hard-confirmed Houthi or PMF kinetic event on Saudi infra EOD 2 Oct) = 0.42 — Post-UNGA + post-US-withdrawal window; pipeline maximum re-attack incentive; ±9pp [0.33–0.51]
+- P(Sc B probability ≥45% EOD 2 Oct) = 0.52 — Currently 47%; depends on 28–30 Sep passing without major kinetic event; ±9pp
+- P(Brent close below $100 EOD 2 Oct) = 0.25 — Requires no major kinetic event + diplomatic progress; currently $105.69; pipeline recovery = modest downward pressure; ±8pp
+- P(US troops Iraq withdrawal Hard-confirmed complete EOD 30 Sep) = 0.88 — Structural; announced; logistics underway; ±4pp [0.84–0.92]
+- P(PMF "freeze" holds through EOD 2 Oct — no Hard-confirmed PMF attack on Saudi/Gulf infra) = 0.60 — 90-day freeze announced; but Kataib HB refused; freeze = political claim not operational constraint; ±9pp [0.51–0.69]
+
+**Threat-4 re-trigger criteria (updated Day 210):**
+- Hard-confirmed Houthi/PMF strike on Yanbu terminal or E-W pipeline pumping station (CENTCOM/UKMTO T1) OR
+- IRGCN Hard-confirmed movement toward Indian Ocean operational zone OR
+- IRGC resumes active Hormuz interdiction beyond PGSA permit regime (CENTCOM Hard confirmation) OR
+- Rubio silence on Witkoff channel ≥7 days AND Brent closes above $110 OR
+- PMF post-US-withdrawal attack on Saudi/Gulf infrastructure Hard-confirmed
+
+**Threat-5 criteria (carried forward):**
+- East-West pipeline re-attacked offline ≥14 days concurrent with Hormuz structural closure + BAM Saudi exclusion OR
+- New Hard-confirmed Houthi/IRGC strike on Yanbu terminal with Kpler zero-load confirmation + Indian Ocean IRGCN deployment Hard-confirmed OR
+- Iran formally withdraws all PGSA permits AND CENTCOM reports large-scale IRGC attack
+
+**Heuristic updates (Day 210):**
+- **INDIAN OCEAN THREAT SENIORITY PREMIUM**: Verbal expansion threats from officials with direct supreme leader advisory role (e.g., Safavi) move Brent $3–8/bbl even at Soft tier. Update Brent model: named-theater threats from this seniority level = immediate premium signal. Does not require kinetic follow-through to be operationally material for insurance markets.
+- **PIPELINE RESTORATION = RE-ATTACK INCENTIVE PEAK**: Full capacity restoration (7 Mb/d) = maximum Houthi/PMF targeting incentive. Historical pattern: high-value target restoration is followed within 2–6 weeks by re-attack attempt (Apr 12 restoration preceded Aug 11 attack on Tihamah; Sep 11 attack followed Apr restoration). Monitor Yanbu Kpler data with 48-hour lag as lead indicator.
+- **PMF MUTUAL FREEZE ≠ OPERATIONAL CONSTRAINT**: Kataib HB/Nujaba publicly refused Sep 30 deadline; "mutual freeze" is a political declaration not a verified operational constraint. Treat PMF as fully unconstrained from Sep 30 for kinetic probability purposes; freeze announcement reduces probability only marginally (−5pp) vs baseline.
