@@ -7927,3 +7927,69 @@ Not in provided backtest log. Deferred.
 - **INDIAN OCEAN THREAT SENIORITY PREMIUM**: Verbal expansion threats from officials with direct supreme leader advisory role (e.g., Safavi) move Brent $3–8/bbl even at Soft tier. Update Brent model: named-theater threats from this seniority level = immediate premium signal. Does not require kinetic follow-through to be operationally material for insurance markets.
 - **PIPELINE RESTORATION = RE-ATTACK INCENTIVE PEAK**: Full capacity restoration (7 Mb/d) = maximum Houthi/PMF targeting incentive. Historical pattern: high-value target restoration is followed within 2–6 weeks by re-attack attempt (Apr 12 restoration preceded Aug 11 attack on Tihamah; Sep 11 attack followed Apr restoration). Monitor Yanbu Kpler data with 48-hour lag as lead indicator.
 - **PMF MUTUAL FREEZE ≠ OPERATIONAL CONSTRAINT**: Kataib HB/Nujaba publicly refused Sep 30 deadline; "mutual freeze" is a political declaration not a verified operational constraint. Treat PMF as fully unconstrained from Sep 30 for kinetic probability purposes; freeze announcement reduces probability only marginally (−5pp) vs baseline.
+
+## Day 211 · 26 September 2026
+
+### Backtest scoring
+
+#### T+1 Day 210 predictions (gate EOD 26 Sep 2026)
+
+| Prediction | Assigned P | Score | Notes |
+|---|---|---|---|
+| P(No Hard-confirmed Houthi/PMF kinetic strike on Saudi infra EOD 26 Sep) = 0.78 | 0.78 | **HIT** | No CENTCOM/UKMTO Hard T1 discrete strike confirmed 24–26 Sep; UNGA suppression nominally held EOD |
+| P(Witkoff follow-on Iran meeting Hard-confirmed date/venue EOD 26 Sep) = 0.20 | 0.20 | **HIT** | No date/venue confirmed; WSJ reports Trump privately rejected Iran 7-day plan; no follow-on meeting |
+| P(Brent close above $103 EOD 26 Sep) = 0.60 | 0.60 | **HIT** | Brent $104.37 at 02:46 UTC (Straits.live); Investing.com intraday $105.36–107.17; above $103 threshold |
+| P(Iran Indian Ocean threat upgraded to Hard IRGCN movement EOD 26 Sep) = 0.05 | 0.05 | **HIT** | No Hard IRGCN movement confirmed; verbal threat remained Soft tier |
+
+**T+1 Day 210 summary: 4 Hits, 0 Misses, 0 False Alarms.** Perfect calibration day. Primary development: Trump private rejection of Iran 7-day plan (WSJ T1) — not predicted explicitly but structurally consistent with Witkoff-silence Sc B signal. Brent held above $103 despite −2.2% on rejection news (from $105.69 peak). All four predictions directionally correct.
+
+#### T+3 Day 208 predictions (gate EOD 26 Sep 2026)
+
+Not in provided backtest log for T+3 Day 208. Deferred.
+
+#### T+7 Day 204 predictions (gate EOD 26 Sep 2026)
+
+Not in provided backtest log for T+7 Day 204. Deferred.
+
+---
+
+### Day 211 new predictions (forward log)
+
+**Trend:** ↑ Worse. Confidence: High.
+**Threat:** 4 / 5 · Severe
+
+**Scenario probabilities (30d):**
+- A: Negotiated framework — 10% (↓12pp; Trump private rejection Hard-confirmed; White House blockade-permanence; near-zero near-term)
+- B: Frozen attrition — 47% (→ MODAL; blockade holds; post-midterm political ceiling; Qatar channel survives)
+- C: Re-escalation — 43% (↑13pp; UNGA expiry + PMF 30 Sep + Perim Island + post-midterm signal converge)
+
+**T+1 predictions (gate EOD 27 Sep):**
+- P(Hard-confirmed Houthi or PMF kinetic strike on Saudi infra EOD 27 Sep) = 0.22 — UNGA suppression expired; post-suppression rebound typical 24–48h lag; Houthi demonstrated Yanbu capability 19 Sep; ±7pp [0.15–0.29]
+- P(Brent closes above $105 EOD 27 Sep) = 0.45 — Currently $104–107 range; Trump rejection partially priced; kinetic risk premium vs diplomatic retreat = directional uncertainty; ±8pp [0.37–0.53]
+- P(US Iraq withdrawal Hard-confirmed complete or substantially complete EOD 30 Sep) = 0.87 — WaPo 12 Aug: "on track"; structural; 4 days; ±5pp [0.82–0.92]
+- P(Iran issues counter-response to Trump rejection Hard-confirmed before EOD 27 Sep) = 0.35 — Araghchi "choice rests with US"; Iran security chief reaffirmed conditions; likely formal response in 24–48h; ±8pp [0.27–0.43]
+
+**T+3 predictions (gate EOD 29 Sep):**
+- P(Hard-confirmed Houthi or PMF strike on Yanbu or E-W pipeline EOD 29 Sep) = 0.30 — Post-UNGA window; pipeline throughput ramp; historical re-attack pattern; ±9pp [0.21–0.39]
+- P(E-W pipeline 40% capacity Hard-confirmed EOD 29 Sep) = 0.75 — Restarted 22 Sep; Reuters: "couple of days" to 40%; now 7 days post-restart; ±6pp [0.69–0.81]
+- P(PMF Hard-confirmed activation signal or attack claim EOD 29 Sep) = 0.22 — Sep 30 deadline 1 day away; mutual freeze political claim; Kataib HB refused; ±7pp [0.15–0.29]
+- P(Brent above $100 EOD 29 Sep) = 0.78 — Structural war premium; only rapid diplomatic breakthrough could push below; pipeline restart = modest downward; ±6pp [0.72–0.84]
+
+**T+7 predictions (gate EOD 3 Oct):**
+- P(Hard-confirmed Houthi or PMF kinetic event on Saudi infra EOD 3 Oct) = 0.45 — Post-UNGA + post-PMF-deadline + post-US-withdrawal = triple constraint removal; maximum kinetic window; ±9pp [0.36–0.54]
+- P(Sc C probability ≥50% EOD 3 Oct) = 0.40 — Currently 43%; requires Hard-confirmed kinetic event or post-midterm bombing public signal; ±9pp [0.31–0.49]
+- P(Brent closes below $100 EOD 3 Oct) = 0.18 — Requires no major kinetic event + diplomatic breakthrough; structural war premium strong; ±7pp [0.11–0.25]
+- P(US Iraq withdrawal Hard-confirmed complete EOD 30 Sep — Harir/Kurdish exception noted) = 0.87 — WaPo T1 structural; ±5pp
+- P(Houthi BAM closure extends to non-Saudi vessels Hard-confirmed EOD 3 Oct) = 0.15 — Perim Island control creates capability; not yet Hard operational trigger; Houthi incentive to hold BAM open for non-adversary traffic; ±6pp [0.09–0.21]
+
+**Threat-5 re-trigger criteria (Day 211):**
+- Hard-confirmed Houthi/PMF strike on Yanbu terminal or E-W pipeline pumping station with Kpler zero-load confirmation (CENTCOM/UKMTO T1) OR
+- IRGCN Hard-confirmed movement toward Indian Ocean operational zone (CENTCOM Hard) OR
+- Iran formally withdraws all PGSA permits AND CENTCOM reports active IRGC Hormuz interdiction OR
+- Houthi extends BAM closure to non-Saudi vessels Hard-confirmed AND Suez transits collapse >50% from current OR
+- Trump issues public post-midterm bombing order Hard-confirmed AND Brent closes above $115
+
+**Heuristic updates (Day 211):**
+- **DUAL CHOKEPOINT CONTROL = STRUCTURAL ESCALATION**: Houthi control of Perim Island (Sep 2026) combined with Hormuz structural closure = two of five global oil chokepoints under adversarial control simultaneously. Prior threat model treated BAM as contested but not adversarially controlled. Update: treat BAM as a second structural chokepoint risk (not just missile/drone interdiction risk) from Sep 2026 forward.
+- **SCENARIO A NEAR-ZERO FLOOR**: Private rejection by US president (T1 WSJ) + White House blockade-permanence statement = Sc A cannot exceed ~12% until post-midterm political shift OR Iranian regime capitulation. Do not assign Sc A >15% until Hard-confirmed Witkoff–Araghchi face-to-face meeting with public date/venue.
+- **POST-MIDTERM BOMBING SIGNAL = SC C STRUCTURAL DRIVER**: WSJ T1 reporting president told aides he expects bombing resumption post-midterms is a Soft-tier signal from this brief's methodology (no hard CENTCOM operational order), but it functions as a structural Sc C floor-setter. Sc C cannot fall below 30% until this signal is publicly contradicted by Hard-tier source.
