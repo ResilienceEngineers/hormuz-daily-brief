@@ -7993,3 +7993,65 @@ Not in provided backtest log for T+7 Day 204. Deferred.
 - **DUAL CHOKEPOINT CONTROL = STRUCTURAL ESCALATION**: Houthi control of Perim Island (Sep 2026) combined with Hormuz structural closure = two of five global oil chokepoints under adversarial control simultaneously. Prior threat model treated BAM as contested but not adversarially controlled. Update: treat BAM as a second structural chokepoint risk (not just missile/drone interdiction risk) from Sep 2026 forward.
 - **SCENARIO A NEAR-ZERO FLOOR**: Private rejection by US president (T1 WSJ) + White House blockade-permanence statement = Sc A cannot exceed ~12% until post-midterm political shift OR Iranian regime capitulation. Do not assign Sc A >15% until Hard-confirmed Witkoff–Araghchi face-to-face meeting with public date/venue.
 - **POST-MIDTERM BOMBING SIGNAL = SC C STRUCTURAL DRIVER**: WSJ T1 reporting president told aides he expects bombing resumption post-midterms is a Soft-tier signal from this brief's methodology (no hard CENTCOM operational order), but it functions as a structural Sc C floor-setter. Sc C cannot fall below 30% until this signal is publicly contradicted by Hard-tier source.
+
+## Day 212 · 27 September 2026
+
+### T+1 scoring: Day 211 predictions (gate EOD 27 Sep 2026)
+
+| Prediction | P | Score | Notes |
+|---|---|---|---|
+| P(Hard-confirmed Houthi or PMF kinetic strike on Saudi infra EOD 27 Sep) = 0.22 | 0.22 | **HIT** | Saudi coalition confirmed intercept of 2 BMs (Khamis Mushait) + 2 drones (Riyadh) 26 Sep (Reuters T1, Euronews T2). Attacks on Saudi territory Hard-confirmed; all intercepted, no breakthrough infra damage. Kinetic event occurred — scored HIT per methodology (Hard T1 confirmation of attack, not just claim). |
+| P(Brent closes above $105 EOD 27 Sep) = 0.45 | 0.45 | **HIT** | Investing.com prev close $106.60; intraday range $103.15–$107.17. Above $105 threshold confirmed. |
+| P(Iran issues counter-response to Trump rejection Hard-confirmed before EOD 27 Sep) = 0.35 | 0.35 | **HIT** | Reuters T1 (27 Sep): Araghchi "Our conditions are clear"; Pezeshkian CBS interview same day. Hard-confirmed diplomatic counter-response within 24h of Trump rejection. |
+| P(US Iraq withdrawal Hard-confirmed complete or substantially complete EOD 30 Sep) = 0.87 | — | **OPEN** | Deadline 30 Sep; Iraqi PM al-Zaidi confirmed 26 Sep on track (Daily Independent T3, AP T1 via genocidewatch T2). Score at T+3 gate. |
+
+**T+1 Day 211 summary: 3 Hits, 0 Misses, 0 False Alarms, 1 Open.** Strong calibration. Key development: Trump public rejection of Iran 7-day plan (Hard T1, multiple sources) structurally confirmed on 26 Sep — predicted implicitly by Sc A collapse and Witkoff-silence signal. Iran counter-response arrived faster than median estimate (35% → HIT within 24h). Houthi kinetic activity confirmed within post-UNGA window as predicted.
+
+### T+3 scoring: Day 209 predictions (gate EOD 27 Sep 2026)
+
+Not in provided backtest log. Deferred.
+
+### T+7 scoring: Day 205 predictions (gate EOD 27 Sep 2026)
+
+Not in provided backtest log. Deferred.
+
+---
+
+### Day 212 new predictions (forward log)
+
+**Trend:** ↑ Worse. Confidence: High.
+**Threat:** 4 / 5 · Severe
+
+**Scenario probabilities (30d):**
+- A: Negotiated framework — 8% (↓12pp; Trump public rejection Hard-confirmed; Iran nuclear no-concession; no follow-on meeting; post-midterm bombing signal structural)
+- B: Frozen attrition — 47% (→ MODAL; Qatar channel alive; post-midterm ceiling; Sc C requires Hard trigger)
+- C: Re-escalation — 45% (↑2pp; PMF 30 Sep + post-midterm signal + Houthi dual-chokepoint = maximum convergent risk window)
+
+**T+1 predictions (gate EOD 28 Sep):**
+- P(Hard-confirmed Houthi or PMF kinetic strike on Saudi infra EOD 28 Sep) = 0.25 — Post-UNGA window day 2; Houthi attacked 26 Sep (intercepted); tempo suggests continued operations; ±7pp [0.18–0.32]
+- P(Brent closes above $103 EOD 28 Sep) = 0.68 — Current $106.60 close; Trump rejection + kinetic risk premium structural; modest downside if Sc B holds; ±7pp [0.61–0.75]
+- P(US Iraq withdrawal Hard-confirmed on-track or complete EOD 28 Sep) = 0.92 — Iraqi PM confirmed 26 Sep; structural; ±4pp [0.88–0.96]
+- P(France Yanbu deployment Hard-confirmed operationally active EOD 28 Sep) = 0.20 — Announced 24 Sep; deployment logistics typically 3–7 days; ±8pp [0.12–0.28]
+
+**T+3 predictions (gate EOD 30 Sep):**
+- P(US Iraq withdrawal Hard-confirmed complete EOD 30 Sep) = 0.87 — Structural; Iraqi PM + US military official confirmed timeline; Harir/Kurdish caveat noted; ±5pp [0.82–0.92]
+- P(Hard-confirmed PMF kinetic event on Saudi/Gulf infra EOD 30 Sep) = 0.20 — PMF deadline day; Kataib HB refused disarmament; 90-day freeze partially holds but pressure elevated; ±8pp [0.12–0.28]
+- P(E-W pipeline Hard-confirmed at ≥40% capacity EOD 30 Sep) = 0.80 — 8 days post-restart; Reuters "couple of days" = should be at/above 40% by now; ±6pp [0.74–0.86]
+- P(Brent closes above $100 EOD 30 Sep) = 0.82 — Structural war premium + PMF risk; only rapid diplomatic breakthrough could push below; ±6pp [0.76–0.88]
+
+**T+7 predictions (gate EOD 4 Oct):**
+- P(Hard-confirmed PMF or Houthi kinetic event on Saudi/Gulf infra EOD 4 Oct) = 0.48 — Post-withdrawal unconstrained window + post-UNGA + Houthi tempo = maximum kinetic risk period; ±9pp [0.39–0.57]
+- P(Sc C probability ≥50% EOD 4 Oct) = 0.35 — Requires Hard kinetic breakthrough or Trump bombing pre-positioning; currently 45% → only needs +5pp; ±9pp [0.26–0.44]
+- P(Brent closes below $100 EOD 4 Oct) = 0.15 — Requires no major kinetic event + some diplomatic signal; structural premium strong; ±6pp [0.09–0.21]
+- P(France Yanbu deployment Hard-confirmed operationally active EOD 4 Oct) = 0.72 — Announced 24 Sep; 10+ days for operational activation; ±8pp [0.64–0.80]
+- P(Hard-confirmed Houthi BAM extension to non-Saudi vessels EOD 4 Oct) = 0.12 — Perim Island control creates capability; Houthi strategic interest in limiting collateral disruption; ±5pp [0.07–0.17]
+
+**Threat-5 re-trigger criteria (Day 212):**
+- Hard-confirmed PMF attack on Yanbu terminal or Gulf oil infra with production loss confirmed by Kpler/Aramco (CENTCOM/UKMTO T1) OR
+- Hard-confirmed Houthi breakthrough strike on Yanbu Aramco facilities with Kpler zero-load confirmed (CENTCOM T1) OR
+- IRGCN Hard-confirmed movement toward Indian Ocean operational zone (CENTCOM Hard) OR
+- Houthi extends BAM closure to non-Saudi vessels Hard-confirmed AND Suez transits collapse >50% from current OR
+- Trump issues public post-midterm bombing order Hard-confirmed AND CENTCOM pre-positioning observable AND Brent closes above $115
+
+**Heuristic update (Day 212):**
+- **FRENCH DEFENSIVE DEPLOYMENT = ESCALATION CEILING RAISER**: NATO-adjacent forces (France, UK, Greece) now in kinetic contact zone around Yanbu. Any Houthi missile that is intercepted by French/Greek forces constitutes a kinetic event between a NATO member and an Iranian proxy. Escalation ceiling raised, but so is escalation risk. Monitor for French ROE expansion or casualty from Houthi attack. If French personnel are struck = immediate Sc C +10pp and potential NATO Article 5 consultation.
