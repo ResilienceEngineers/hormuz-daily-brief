@@ -8174,3 +8174,61 @@ Not in provided backtest log. Deferred.
 - Houthi extends BAM closure to non-Saudi vessels Hard-confirmed AND Suez transits collapse >50% from current OR
 - Trump issues public post-midterm bombing order Hard-confirmed AND CENTCOM pre-positioning observable AND Brent closes above $115 OR
 - Iran NPT withdrawal approved by SNSC and formally submitted to UN Secretary-General
+
+## Day 215 · 30 September 2026
+
+### T+1 scoring: Day 214 predictions (gate EOD 30 Sep 2026)
+
+| Prediction | P | Score | Notes |
+|---|---|---|---|
+| P(US Iraq withdrawal Hard-confirmed complete EOD 30 Sep) = 0.97 | 0.97 | **HIT** | AP T1, Al Jazeera T2, WaPo T1, GreekReporter (29 Sep), NewsCord (30 Sep 02:36 UTC): US forces fully withdrew from last Iraq bases by 30 Sep; Victory Base handed over; coalition HQ closed. All Hard confirmations. |
+| P(Brent closes above $100 EOD 30 Sep) = 0.76 | 0.76 | **HIT** | Forbes: Brent $103.81/bbl (29 Sep, -2.13% day); TradingEconomics: $105.31 (29 Sep); comfortably above $100 threshold throughout period. |
+| P(Hard-confirmed Houthi kinetic on Saudi infra EOD 30 Sep) = 0.26 | 0.26 | **OPEN** | Six Houthi BM intercepted over Yanbu/Taif 24 Sep (Saudi MoD, confirmed); no new 30 Sep specific Hard T1 kinetic event found within cut-off window. Carry to next gate. |
+| P(Qatar produces US counter-proposal to Iran via Doha EOD 30 Sep) = 0.12 | 0.12 | **HIT** | Reuters T1 (29 Sep Daily Maverick): US and Iran spoke separately with Qatari mediators 29 Sep; FT (via SBS 30 Sep): US revised draft delivered to Iranian side 29 Sep; Qatar tabled two-page framework 30 Sep (24NewsHD). Counter-proposal via Doha confirmed — exceeds prediction threshold. |
+
+**T+1 Day 214 summary: 3 Hits, 0 Misses, 0 False Alarms, 1 Open.** Qatar hit confirms shuttle diplomacy is more active than structural gap suggested; Qatar tabled concrete two-page framework (first since June MOU). Iraq withdrawal structural hit. Brent structural hit.
+
+### T+3 scoring: Day 212 predictions (gate EOD 30 Sep 2026)
+Not in provided backtest log. Deferred.
+
+### T+7 scoring: Day 208 predictions (gate EOD 30 Sep 2026)
+Not in provided backtest log. Deferred.
+
+---
+
+### Day 215 new predictions (forward log)
+
+**Trend:** ↑ Worse. Confidence: High.
+**Threat:** 4 / 5 · Severe
+
+**Scenario probabilities (30d):**
+- A: Negotiated framework — 8% (↓2pp; Qatar two-page draft circulating but nuclear sequencing gap and Trump denial of sanctions offer structural constraint)
+- B: Frozen attrition — 44% (↓2pp; PMF window now open reduces probability of continued stasis; Qatar channel most active since June MOU)
+- C: Re-escalation — 48% (↑4pp; MODAL jointly with B; PMF Day 1 unconstrained; IRGC "new weapons" signal; post-midterm bombing confirmed by WSJ)
+
+**T+1 predictions (gate EOD 1 Oct):**
+- P(Hard-confirmed PMF kinetic attack on Gulf/Saudi infra EOD 1 Oct) = 0.18 — Day 1 unconstrained; historical lag 24–72h post-window opening; Iraqi CT forces still active; ±7pp [0.11–0.25]
+- P(Brent closes above $100 EOD 1 Oct) = 0.77 — Structural war premium; PMF window adds upside risk; slight softening if Qatar draft signals progress; ±7pp [0.70–0.84]
+- P(Iranian formal response to Qatar two-page framework EOD 1 Oct) = 0.22 — Iran IRGC rhetoric escalating; Araghchi awaiting US response; response timing unclear; ±8pp [0.14–0.30]
+- P(French Yanbu deployment Hard-confirmed operationally active EOD 1 Oct) = 0.08 — 7 days from announcement; logistics feasible but no confirmed order of battle; ±5pp [0.03–0.13]
+
+**T+3 predictions (gate EOD 3 Oct):**
+- P(Hard-confirmed PMF kinetic on Gulf/Saudi energy infra EOD 3 Oct) = 0.28 — PMF day 3 unconstrained; historical attack lag; Kataib HB/Nujaba capability intact; ±8pp [0.20–0.36]
+- P(Qatar framework produces agreed sequencing language EOD 3 Oct) = 0.10 — Two-page draft circulating; nuclear sequencing gap wide; Trump denial of sanctions offer structural constraint; ±5pp [0.05–0.15]
+- P(Brent closes above $100 EOD 3 Oct) = 0.76 — Structural; PMF window risk; ±6pp [0.70–0.82]
+- P(Yanbu E-W pipeline Hard-confirmed at ≥50% capacity EOD 3 Oct) = 0.65 — Restored to ~3.5 mb/d (28 Sep); fragile under PMF re-attack risk; ±8pp [0.57–0.73]
+
+**T+7 predictions (gate EOD 7 Oct):**
+- P(Hard-confirmed PMF or Houthi kinetic event on Saudi/Gulf oil infra EOD 7 Oct) = 0.55 — PMF 7 days unconstrained; Houthi tempo elevated; maximum risk window; ±9pp [0.46–0.64]
+- P(Sc C probability ≥50% EOD 7 Oct) = 0.38 — Requires Hard kinetic breakthrough or diplomatic collapse; currently 48%; ±9pp [0.29–0.47]
+- P(Brent closes below $100 EOD 7 Oct) = 0.17 — Only rapid diplomatic breakthrough + no PMF kinetic; structural war premium; ±6pp [0.11–0.23]
+- P(French Yanbu deployment Hard-confirmed operationally active EOD 7 Oct) = 0.45 — 13 days from announcement; logistics feasible; SAMP/T deployment precedent (Romania); ±10pp [0.35–0.55]
+- P(Iran NPT withdrawal bill enters open parliamentary session EOD 7 Oct) = 0.15 — Emergency bill filed; no SNSC approval; Pezeshkian opposition; IRGC "new weapons" rhetoric not nuclear-specific; ±6pp [0.09–0.21]
+
+**Threat-5 re-trigger criteria (Day 215 — unchanged from Day 214):**
+- Hard-confirmed PMF attack on Yanbu terminal or Gulf oil infra with production loss (Kpler/Aramco + CENTCOM/UKMTO T1) OR
+- Hard-confirmed Houthi breakthrough strike on Yanbu Aramco facilities with Kpler zero-load confirmed OR
+- IRGCN Hard-confirmed movement toward Indian Ocean operational zone (CENTCOM Hard) OR
+- Houthi extends BAM closure to non-Saudi vessels Hard-confirmed AND Suez transits collapse >50% from current OR
+- Trump issues public post-midterm bombing order Hard-confirmed AND CENTCOM pre-positioning observable AND Brent closes above $115 OR
+- Iran NPT withdrawal approved by SNSC and formally submitted to UN Secretary-General
