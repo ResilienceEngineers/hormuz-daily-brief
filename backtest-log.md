@@ -8232,3 +8232,62 @@ Not in provided backtest log. Deferred.
 - Houthi extends BAM closure to non-Saudi vessels Hard-confirmed AND Suez transits collapse >50% from current OR
 - Trump issues public post-midterm bombing order Hard-confirmed AND CENTCOM pre-positioning observable AND Brent closes above $115 OR
 - Iran NPT withdrawal approved by SNSC and formally submitted to UN Secretary-General
+
+## Day 216 · 1 October 2026
+
+### T+1 scoring: Day 215 predictions (gate EOD 1 Oct 2026)
+
+| Prediction | P | Score | Notes |
+|---|---|---|---|
+| P(Hard-confirmed PMF kinetic attack on Gulf/Saudi infra EOD 1 Oct) = 0.18 | 0.18 | **OPEN** | No Hard T1 confirmation of new PMF cross-border kinetic on Gulf infra within 1 Oct window. National Interest (1 Oct T3): "the danger is quieter noncompliance rather than a dramatic showdown." Carry to next gate. |
+| P(Brent closes above $100 EOD 1 Oct) = 0.77 | 0.77 | **MISS** | TradingEconomics (T2): Brent $96.76 on 1 Oct 2026, down 1.30% day. Bloomberg shows $97.54. Fell below $100 threshold — surprise given structural war premium; possible diplomatic optimism on Qatar channel + Iraq withdrawal risk already priced. |
+| P(Iranian formal response to Qatar two-page framework EOD 1 Oct) = 0.22 | 0.22 | **HIT** | Reuters T1 (via Investing.com, 1 Oct 03:23 UTC): "Iran said on Wednesday it had received a US response to its latest proposal." CBS confirms Iran received US counter and discussed via mediators. Exceeds prediction threshold. |
+| P(French Yanbu deployment Hard-confirmed operationally active EOD 1 Oct) = 0.08 | 0.08 | **MISS** | Announcement 24 Sep confirmed; multiple sources confirm no operational activation Hard-confirmed by 1 Oct. Prediction markets at 69.5% for Oct 16 pipeline restart — consistent with deployment not yet active. |
+
+**T+1 Day 215 summary: 1 Hit, 2 Misses, 0 False Alarms, 1 Open.**
+Key lesson: Brent miss — war premium compression possible even with structural risk when diplomatic signal (Iran receiving US response) registers; oil markets can reprice on tone. PMF quiet compliance vs kinetic open question carries forward.
+
+### T+3 scoring: Day 213 predictions (gate EOD 1 Oct 2026)
+Not in provided backtest log. Deferred.
+
+### T+7 scoring: Day 209 predictions (gate EOD 1 Oct 2026)
+Not in provided backtest log. Deferred.
+
+---
+
+### Day 216 new predictions (forward log)
+
+**Trend:** ↑ Worse. Confidence: Medium.
+**Threat:** 4 / 5 · Severe
+
+**Scenario probabilities (30d):**
+- A: Negotiated framework — 10% (↑2pp; Iran confirmed receipt and discussion of US response to ceasefire proposal via Reuters T1; Qatar-Pakistan shuttle active; but nuclear sequencing gap remains structural barrier)
+- B: Frozen attrition — 45% (↑1pp; MODAL; diplomatic signal positive but PMF window open and Brent dipping below $100 suggests partial de-escalation pricing; no kinetic breakthrough yet)
+- C: Re-escalation — 45% (↓3pp; MODAL co-equal with B; PMF Day 2 unconstrained; French deployment unactivated; Houthi Red Sea tempo elevated)
+
+**T+1 predictions (gate EOD 2 Oct):**
+- P(Hard-confirmed PMF kinetic on Gulf/Saudi infra EOD 2 Oct) = 0.16 — PMF Day 2 unconstrained; quiet noncompliance pattern emerging; historical lag; ±7pp [0.09–0.23]
+- P(Brent closes above $97 EOD 2 Oct) = 0.58 — Current ~$97; diplomatic optimism partial compression; PMF risk upward; ±8pp [0.50–0.66]
+- P(Hard-confirmed French Yanbu air-defense assets operationally active EOD 2 Oct) = 0.12 — 8 days from announcement; logistics feasible; no Hard T1 confirmation yet; ±5pp [0.07–0.17]
+- P(Iran issues Hard-confirmed counter-response to US via Qatar channels EOD 2 Oct) = 0.30 — Iran confirmed receipt 1 Oct; Araghchi awaiting "definitive opinions" from mediators; response timing 24–72h; ±8pp [0.22–0.38]
+
+**T+3 predictions (gate EOD 4 Oct):**
+- P(Hard-confirmed PMF kinetic on Gulf/Saudi energy infra EOD 4 Oct) = 0.27 — PMF Day 4 unconstrained; Kataib HB/Nujaba capability intact; historical 24–96h attack lag post-window; ±8pp [0.19–0.35]
+- P(Qatar framework produces agreed sequencing language EOD 4 Oct) = 0.11 — Iran received US response; nuclear gap wide; Trump contradictory signals; ±5pp [0.06–0.16]
+- P(Brent closes above $100 EOD 4 Oct) = 0.45 — PMF attack risk upward; diplomatic optimism downward on premium; net neutral; ±8pp [0.37–0.53]
+- P(E-W pipeline at ≥50% capacity Hard-confirmed EOD 4 Oct) = 0.60 — Restarted 22 Sep; French deployment defensive deterrent effect even if unactivated; re-attack risk from PMF window; ±9pp [0.51–0.69]
+
+**T+7 predictions (gate EOD 8 Oct):**
+- P(Hard-confirmed PMF or Houthi kinetic on Saudi/Gulf oil infra EOD 8 Oct) = 0.52 — PMF 7 days unconstrained; Houthi tempo elevated; maximum risk window; ±9pp [0.43–0.61]
+- P(French Yanbu deployment Hard-confirmed operationally active EOD 8 Oct) = 0.55 — 14 days from announcement; SAMP/T deployment logistics feasible; prediction market 69.5% Oct 16 restart implies French deterrence coming online; ±10pp [0.45–0.65]
+- P(Sc A probability ≥15% EOD 8 Oct) = 0.20 — Requires meaningful Iran-US progress on sequencing; nuclear gap structural; ±6pp [0.14–0.26]
+- P(Brent closes below $95 EOD 8 Oct) = 0.22 — Requires no PMF kinetic + sustained diplomatic progress; war premium structural; ±7pp [0.15–0.29]
+- P(Iran NPT withdrawal bill enters SNSC session EOD 8 Oct) = 0.10 — Emergency bill active; no SNSC approval; Pezeshkian opposition; ±5pp [0.05–0.15]
+
+**Threat-5 re-trigger criteria (Day 216 — unchanged from Day 215):**
+- Hard-confirmed PMF attack on Yanbu terminal or Gulf oil infra with production loss (Kpler/Aramco + CENTCOM/UKMTO T1) OR
+- Hard-confirmed Houthi breakthrough strike on Yanbu Aramco facilities with Kpler zero-load confirmed OR
+- IRGCN Hard-confirmed movement toward Indian Ocean operational zone (CENTCOM Hard) OR
+- Houthi extends BAM closure to non-Saudi vessels Hard-confirmed AND Suez transits collapse >50% from current OR
+- Trump issues public post-midterm bombing order Hard-confirmed AND CENTCOM pre-positioning observable AND Brent closes above $115 OR
+- Iran NPT withdrawal approved by SNSC and formally submitted to UN Secretary-General
