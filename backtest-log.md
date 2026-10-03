@@ -8350,3 +8350,62 @@ Not in provided backtest log. Deferred.
 - Houthi extends BAM closure to non-Saudi vessels Hard-confirmed AND Suez transits collapse >50% from current OR
 - Trump issues public post-midterm bombing order Hard-confirmed AND CENTCOM pre-positioning observable AND Brent closes above $115 OR
 - Iran NPT withdrawal approved by SNSC and formally submitted to UN Secretary-General
+
+## Day 218 · 3 October 2026
+
+### T+1 scoring: Day 217 predictions (gate EOD 3 Oct 2026)
+
+| Prediction | P | Score | Notes |
+|---|---|---|---|
+| P(Hard-confirmed PMF kinetic on Gulf/Saudi energy infra EOD 3 Oct) = 0.18 | 0.18 | **MISS** | No Hard T1 CENTCOM/UKMTO confirmation of PMF cross-border kinetic on Gulf/Saudi energy infra by 06:04 UTC 3 Oct. Houthi attacked Medina power station (29 Sep confirmed 1 Oct) but this is Houthi not PMF, and power grid ≠ energy infra threshold. Fresh tanker struck off Oman 3 Oct (UKMTO T1) but attribution unconfirmed. PMF quiet-noncompliance continues; Day 4 risk window still active. |
+| P(Brent closes above $100 EOD 3 Oct) = 0.65 | 0.65 | **MISS** | Brent closed at $99.68 on 2 Oct (TradingEconomics T2); intraday fell toward $96 on Goldman/Kpler/JPMorgan Gulf flow recovery reports before recovering to ~$99.50. Did not close above $100 threshold. Gulf flow-recovery narrative dominated over war-premium on 2 Oct; fresh tanker strike 3 Oct may recover some premium in today's session. |
+| P(Iranian formal counter-proposal Hard-confirmed via Qatar EOD 3 Oct) = 0.22 | 0.22 | **MISS** | Trump rejected 7-day plan 1 Oct; Araghchi expelled from NY, flew to Doha; Qatar mediating but no new Iranian formal counter-proposal Hard-confirmed by 06:04 UTC 3 Oct. Qatari mediators described as "frustrated with both sides" (Axios). |
+| P(Hard-confirmed French SAMP/T operational at Yanbu EOD 3 Oct) = 0.08 | 0.08 | **MISS** | Macron announced 25 Sep; no French MoD or CENTCOM operational confirmation by 3 Oct. Logistics window ~8–12 Oct. No corroborating lead signals. |
+
+**T+1 Day 217 summary: 0 Hits, 4 Misses, 0 False Alarms.**
+Key lesson: All four misses in a single day — pattern analysis required. (1) Brent $100 miss: Gulf flow-recovery narrative (Goldman/Kpler/JPMorgan "near-pre-war levels" reports) proved more price-dominant than war-premium on 2 Oct; overconfident on war-premium persistence at $100 threshold. Recalibrate: dark/STS flow recovery is a genuine price-suppressing signal; $100 is not a structural floor in current environment. (2) PMF quiet-noncompliance streak: now Day 4; historical peak window still open through Day 6–7; carry prediction forward with increased probability. (3) French SAMP/T: correct to hold at 0.08; logistics timeline intact, no lead signals. (4) Iran counter-proposal: correct at 0.22; diplomatic breakdown now confirmed with expulsion — probability should drop for T+3 gate.
+
+### T+3 scoring: Day 215 predictions (gate EOD 3 Oct 2026)
+Not in provided backtest log. Deferred.
+
+### T+7 scoring: Day 211 predictions (gate EOD 3 Oct 2026)
+Not in provided backtest log. Deferred.
+
+---
+
+### Day 218 new predictions (forward log)
+
+**Trend:** ↑ Worse. Confidence: Medium.
+**Threat:** 4 / 5 · Severe
+
+**Scenario probabilities (30d):**
+- A: Negotiated framework — 8% (↓2pp; proposal rejected; delegation expelled; Araghchi facing impeachment; nuclear gap structural)
+- B: Frozen attrition — 42% (↓2pp; dark/STS flows recovering but security Severe; diplomatic holding pattern degrading)
+- C: Re-escalation — 50% (↑4pp; MODAL; PMF Day 4, post-midterm signal public, Yanbu undefended, BAM Houthi control complete, three CSGs deploying)
+
+**T+1 predictions (gate EOD 4 Oct):**
+- P(Hard-confirmed PMF kinetic on Gulf/Saudi energy infra EOD 4 Oct) = 0.20 — Day 5 unconstrained; peak historical 72–96h PMF lag window; quiet Days 1–4 pattern; ±7pp [0.13–0.27]
+- P(Brent closes above $97 EOD 4 Oct) = 0.55 — Currently ~$99.50; Gulf flow-recovery narrative suppressing; tanker strike 3 Oct may partially restore war-premium; lower threshold than prior prediction; ±7pp [0.48–0.62]
+- P(French SAMP/T operational at Yanbu Hard-confirmed EOD 4 Oct) = 0.06 — 9 days from announcement; no lead signals; logistics feasible by ~8–12 Oct; ±4pp [0.02–0.10]
+- P(New Iranian formal counter-proposal Hard-confirmed via Qatar EOD 4 Oct) = 0.15 — Diplomatic track broken; Araghchi in Doha consulting; Iranian hardliner pressure against concessions; ±6pp [0.09–0.21]
+
+**T+3 predictions (gate EOD 6 Oct):**
+- P(Hard-confirmed PMF kinetic on Gulf/Saudi energy infra EOD 6 Oct) = 0.32 — Day 7 unconstrained; historical peak window; ±8pp [0.24–0.40]
+- P(Brent closes above $103 EOD 6 Oct) = 0.32 — PMF risk upward if kinetic; diplomatic breakdown structural; dual-chokepoint premium; US troop surge perception; ±8pp [0.24–0.40]
+- P(French SAMP/T operational at Yanbu Hard-confirmed EOD 6 Oct) = 0.12 — 11 days from announcement; logistics window approaching; ±5pp [0.07–0.17]
+- P(E-W pipeline at ≥50% capacity Hard-confirmed EOD 6 Oct) = 0.60 — Restarted 22 Sep; SAMP/T approach reducing re-attack risk slightly; ±9pp [0.51–0.69]
+
+**T+7 predictions (gate EOD 10 Oct):**
+- P(Hard-confirmed PMF or Houthi kinetic on Saudi/Gulf oil infra EOD 10 Oct) = 0.56 — Day 11 unconstrained PMF + sustained Houthi capability; ±9pp [0.47–0.65]
+- P(French SAMP/T Hard-confirmed operationally active at Yanbu EOD 10 Oct) = 0.65 — 15 days from announcement; logistics strongly feasible; ±9pp [0.56–0.74]
+- P(Sc A probability ≥12% EOD 10 Oct) = 0.12 — Requires meaningful Iran-US progress; nuclear gap structural; post-rejection environment unfavorable; ±5pp [0.07–0.17]
+- P(Brent closes below $93 EOD 10 Oct) = 0.22 — Requires Gulf flow recovery narrative dominance + no kinetic; structural war premium floor ~$95; EU/G7 reserve release risk; ±7pp [0.15–0.29]
+- P(Houthi formally extends BAM closure to all non-Saudi commercial vessels Hard-confirmed EOD 10 Oct) = 0.26 — Physical control complete; incentive to formalize; no new signal yet; ±8pp [0.18–0.34]
+
+**Threat-5 re-trigger criteria (Day 218 — unchanged from Day 217):**
+- Hard-confirmed PMF attack on Yanbu terminal or Gulf oil infra with production loss (Kpler/Aramco + CENTCOM/UKMTO T1) OR
+- Hard-confirmed Houthi breakthrough strike on Yanbu Aramco facilities with Kpler zero-load confirmed OR
+- IRGCN Hard-confirmed movement toward Indian Ocean operational zone (CENTCOM Hard) OR
+- Houthi extends BAM closure to non-Saudi vessels Hard-confirmed AND Suez transits collapse >50% from current OR
+- Trump issues public post-midterm bombing order Hard-confirmed AND CENTCOM pre-positioning observable AND Brent closes above $115 OR
+- Iran NPT withdrawal approved by SNSC and formally submitted to UN Secretary-General
