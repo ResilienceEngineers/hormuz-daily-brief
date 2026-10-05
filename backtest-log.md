@@ -8469,3 +8469,63 @@ Not in provided backtest log. Deferred.
 - Houthi extends BAM closure to non-Saudi vessels Hard-confirmed AND Suez transits collapse >50% from current OR
 - Trump issues public post-midterm bombing order Hard-confirmed AND CENTCOM pre-positioning observable AND Brent closes above $115 OR
 - Iran NPT withdrawal approved by SNSC and formally submitted to UN Secretary-General
+
+## Day 220 — 5 October 2026
+
+### T+1 scoring: Day 219 predictions (gate EOD 5 Oct 2026)
+
+| Prediction | P | Score | Notes |
+|---|---|---|---|
+| P(PMF Hard-confirmed kinetic on Gulf/Saudi energy infra EOD 5 Oct) = 0.12 | 0.12 | **MISS** | No PMF kinetic confirmed in any T1–T3 source. Day 24 quiet streak post-12-Sep. Recalibration: base rate for PMF kinetic now 0.10 until new Iraqi trigger event confirmed. |
+| P(Brent closes above $100 EOD 5 Oct) = 0.60 | 0.60 | **HIT** | Brent $101.29 on 5 Oct (TradingEconomics/OilPrice.com T2, confirmed). War premium embedded; crude flow recovery offsets some pressure but 4th tanker strike and 7-condition hardening maintained floor. |
+| P(French SAMP/T Hard-confirmed operational at Yanbu EOD 5 Oct) = 0.07 | 0.07 | **MISS** | No Hard-tier confirmation in any source. Logistics window 12–18 Oct still intact. |
+| P(Saudi ground operation against Houthi coastal positions formally commenced EOD 5 Oct) = 0.15 | 0.15 | **HIT (Day -1)** | Axios/CNN/AJ confirmed launch 4 Oct (one day early vs gate). Scoring as HIT — event occurred within the T+1 window. Calibration note: pre-announced operations tend to occur at the earlier end of the predicted window. |
+
+**T+1 Day 219 summary: 2 Hits, 2 Misses. Cumulative Day 218–219: 3 Hits, 5 Misses.**
+
+Key lessons: (1) Brent $100 threshold correctly calibrated — HIT again; strong signal that war premium is structural floor. (2) Saudi counteroffensive prediction was underweight at 0.15 given ISW Hard-tier confirmation of preparation — should have been 0.35–0.45 once official preparation was publicly confirmed by six Gulf/Western officials in Reuters. Recalibrate: when ≥3 senior officials confirm preparation AND a public speech mechanism exists (al-Alimi), assign ≥0.35 to formal launch within T+1 window. (3) PMF quiet streak now Day 24 — base rate has drifted to ~0.08 without new trigger. (4) SAMP/T: logistics window approaching but unconfirmed — hold prediction at 0.07–0.10 until French DoD or Aramco Hard confirmation.
+
+### T+3 scoring: Day 217 predictions (gate EOD 5 Oct 2026)
+Not in provided backtest log. Deferred.
+
+### T+7 scoring: Day 213 predictions (gate EOD 5 Oct 2026)
+Not in provided backtest log. Deferred.
+
+---
+
+### Day 220 new predictions (forward log)
+
+**Trend:** ↑ Worse. Confidence: Medium.
+**Threat:** 4 / 5 · Severe
+
+**Scenario probabilities (30d):**
+- A: Negotiated framework — 8% (→ 0pp; 7-condition ultimatum hardened; US counter-proposal rejected; no joint statement observable)
+- B: Frozen attrition — 37% (↓3pp; Saudi counteroffensive launched = BAM situation now dynamic, not static; ground campaign failure possible)
+- C: Re-escalation — 55% (↑3pp; MODAL; RAF Fairford bomber withdrawal = Iranian covert escalation; Houthi Yanbu retaliation risk; post-midterm window ≤30 days)
+
+**T+1 predictions (gate EOD 6 Oct):**
+- P(UKMTO Hard-confirmed 5th tanker attack in Hormuz/Oman EOD 6 Oct) = 0.30 — Attack cadence 4 in 4 days; Iranian covert escalation ongoing; ±8pp [0.22–0.38]
+- P(Brent closes above $100 EOD 6 Oct) = 0.62 — $101.29 base; 4th tanker strike; counteroffensive launch; no de-escalation signal; ±7pp [0.55–0.69]
+- P(Saudi ground forces confirm territorial gains vs Houthi coastal positions EOD 6 Oct) = 0.25 — Day 2 of operation; Saudi air support active; but Houthi defensive positions hardened; ±8pp [0.17–0.33]
+- P(SAMP/T Hard-confirmed operational at Yanbu EOD 6 Oct) = 0.06 — logistics window 12–18 Oct; no French DoD signal; ±3pp [0.03–0.09]
+
+**T+3 predictions (gate EOD 8 Oct):**
+- P(Houthi Hard-confirmed missile/drone retaliation on Saudi energy infra EOD 8 Oct) = 0.35 — Counteroffensive launch = strong historical Houthi retaliation trigger; BAM coast → Yanbu reach demonstrated; ±9pp [0.26–0.44]
+- P(Brent closes above $105 EOD 8 Oct) = 0.30 — Requires Houthi Yanbu retaliation or new escalation signal; current $101 base; ±8pp [0.22–0.38]
+- P(Saudi ground forces reach Dhubab coastal positions EOD 8 Oct) = 0.20 — Terrain and Houthi defensive capability uncertain; 3 days of operation; ±7pp [0.13–0.27]
+- P(French SAMP/T Hard-confirmed operational at Yanbu EOD 8 Oct) = 0.10 — Logistics window approaching; ±5pp [0.05–0.15]
+
+**T+7 predictions (gate EOD 12 Oct):**
+- P(Saudi ground forces control BAM coastal strip (Dhubab+Mayyun) Hard-confirmed EOD 12 Oct) = 0.30 — 8 days into operation; Saudi air + 100k troops; but Houthi entrenched; ±9pp [0.21–0.39]
+- P(Houthi Hard-confirmed kinetic on Yanbu terminal EOD 12 Oct) = 0.40 — Combined retaliation risk over 7-day window with counteroffensive active; ±9pp [0.31–0.49]
+- P(French SAMP/T Hard-confirmed operational at Yanbu EOD 12 Oct) = 0.55 — Logistics window 12–18 Oct peak; French DoD signal required; ±9pp [0.46–0.64]
+- P(US bomber redeploy to regional base (Diego Garcia/Bahrain) Hard-confirmed EOD 12 Oct) = 0.40 — CONUS basing unusual; CENTCOM pressure to restore forward capacity; ±9pp [0.31–0.49]
+- P(Brent closes below $98 EOD 12 Oct) = 0.20 — Requires sustained no-escalation + Saudi BAM progress narrative; structural floor ~$100; ±7pp [0.13–0.27]
+
+**Threat-5 re-trigger criteria (Day 220 — updated):**
+- Hard-confirmed Houthi missile/drone strike on Yanbu terminal with Kpler zero-load confirmed (CENTCOM/UKMTO T1) OR
+- Hard-confirmed PMF attack on Gulf state energy infra with production loss (Kpler + CENTCOM T1) OR
+- IRGCN Hard-confirmed movement toward Indian Ocean operational zone (CENTCOM Hard) OR
+- Trump issues public post-midterm bombing order Hard-confirmed AND CENTCOM pre-positioning observable AND Brent closes above $115 OR
+- Iran NPT withdrawal approved by SNSC and formally submitted to UN Secretary-General OR
+- Iranian-directed attack on Western military base confirmed (expanding RAF Fairford pattern to kinetic)
