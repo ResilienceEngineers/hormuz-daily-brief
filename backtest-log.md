@@ -8529,3 +8529,58 @@ Not in provided backtest log. Deferred.
 - Trump issues public post-midterm bombing order Hard-confirmed AND CENTCOM pre-positioning observable AND Brent closes above $115 OR
 - Iran NPT withdrawal approved by SNSC and formally submitted to UN Secretary-General OR
 - Iranian-directed attack on Western military base confirmed (expanding RAF Fairford pattern to kinetic)
+
+## Day 231 — 16 October 2026
+
+### T+1 scoring: Day 230 predictions (gate EOD 16 Oct 2026)
+
+_Note: The backtest log supplied covers through Day 220. Day 221–230 predictions were not provided in the log extract. Scoring is performed on the Day 220 T+7 predictions (gate EOD 12 Oct 2026) which are within the verifiable window._
+
+### T+7 scoring: Day 220 predictions (gate EOD 12 Oct 2026)
+
+| Prediction | P | Score | Notes |
+|---|---|---|---|
+| P(Saudi ground forces control BAM coastal strip Hard-confirmed EOD 12 Oct) = 0.30 | 0.30 | **HIT** | LWJ Hard-tier 6 Oct: forces retook territory along BAM 5 Oct; PLC claimed Dhubab, Mokha, BAM corridor by 5 Oct. Saudi coalition confirmed 100 jets + 324 targets. Houthis deny but PLC control of ground confirmed by Day 12. |
+| P(Houthi Hard-confirmed kinetic on Yanbu terminal EOD 12 Oct) = 0.40 | 0.40 | **PARTIAL MISS** | Houthis struck Aramco Dhahran HQ 13 Oct (one day late vs gate) and Riyadh airport repeatedly, but Yanbu terminal itself not confirmed struck by EOD 12 Oct. Scoring as MISS vs specific Yanbu terminal gate; spirit-of-prediction partially confirmed by Dhahran hit. |
+| P(French SAMP/T Hard-confirmed operational at Yanbu EOD 12 Oct) = 0.55 | 0.55 | **MISS** | French FM confirmed deployment BEGAN 15 Oct — 3 days after gate. French Armed Forces Chief stated "study phase" as of 9 Oct parliamentary hearing. Prediction overweight: logistics window was correct (12–18 Oct) but French FM confirmation came 15 Oct, not by 12 Oct. Recalibrate: political announcements (Macron 25 Sep) lead operational confirmation by ~20 days, not ~17. |
+| P(US bomber redeploy to regional base Hard-confirmed EOD 12 Oct) = 0.40 | 0.40 | **MISS** | No Hard-tier confirmation of bomber redeploy to Diego Garcia/Bahrain. Bombers withdrawn from RAF Fairford to CONUS (confirmed earlier); no forward redeploy Hard-confirmed. CENTCOM strike plans reported (Khaleej Times 15 Oct) but Soft-tier only. |
+| P(Brent closes below $98 EOD 12 Oct) = 0.20 | 0.20 | **MISS** | Brent ranged $103–126 through this period; never approached $98. Structural war premium holding firm. |
+
+**T+7 Day 220 summary: 1 Hit, 4 Misses. Key lessons: (1) SAMP/T timing: operational confirmation lagged Macron announcement by ~20 days, not 17 — adjust future French deployment window by +3 to +5 days. (2) Yanbu terminal specifically not struck despite Houthi escalation — Dhahran was the target. Prediction was directionally right (Houthi kinetic on Saudi energy infra) but wrong on specific node. (3) Brent floor held well above $98 — war premium structural, consistent with prior calibration. (4) Bomber redeploy: CONUS basing appears maintained; CENTCOM strike planning is Soft-tier, not Hard-tier observable.**
+
+---
+
+### Day 231 new predictions (forward log)
+
+**Trend:** ↑ Worse. Confidence: High.
+**Threat:** 4 / 5 · Severe
+
+**Scenario probabilities (30d):**
+- A: Negotiated framework — 7% (↓1pp; Iran still reviewing; nuclear conditionality unresolved; IRGCN escalating concurrent with diplomacy)
+- B: Frozen attrition — 33% (↓4pp; situation too dynamic; France now in theater; attack cadence at record)
+- C: Re-escalation — 60% (↑5pp; MODAL; IRGCN Sea of Oman expansion; post-midterm ≤20 days; Houthi Aramco/airport strikes; counter-proposal deadline 22 Oct)
+
+**T+1 predictions (gate EOD 17 Oct):**
+- P(UKMTO Hard-confirmed vessel strike in Hormuz/Gulf of Oman EOD 17 Oct) = 0.55 — Attack cadence near-daily in Oct; IRGCN explicitly targeting STS zone; ±8pp [0.47–0.63]
+- P(Brent closes above $103 EOD 17 Oct) = 0.65 — $105.34 on 16 Oct; attack surge ongoing; IEA reserve draw partially offsetting; ±7pp [0.58–0.72]
+- P(Iran issues formal rejection of US proposal via public statement EOD 17 Oct) = 0.12 — More likely to maintain ambiguity while reviewing; IRGC hardliner pressure but Araghchi still signaling engagement; ±5pp [0.07–0.17]
+
+**T+3 predictions (gate EOD 19 Oct):**
+- P(Kpler confirms Hormuz weekly avg below 6 mb/d for week ending 19 Oct) = 0.40 — Attack cadence + IRGCN STS targeting threatens convoy system; ±9pp [0.31–0.49]
+- P(Houthi Hard-confirmed kinetic on Yanbu terminal or E-W pipeline EOD 19 Oct) = 0.25 — French deployment begun but not yet operational; Houthi target set expanded (Dhahran, Riyadh); ±8pp [0.17–0.33]
+- P(Iran counter-proposal formally submitted via Qatar EOD 19 Oct) = 0.35 — FM promised response "within days" from 12 Oct; 7-day window puts it squarely in 19 Oct range; ±9pp [0.26–0.44]
+
+**T+7 predictions (gate EOD 23 Oct):**
+- P(SAMP/T Hard-confirmed operationally active at Yanbu EOD 23 Oct) = 0.55 — French FM confirmed deployment began 15 Oct; 8-day window for operational activation; ±9pp [0.46–0.64]
+- P(Houthi Hard-confirmed kinetic causing confirmed export disruption at Yanbu or Ras Tanura EOD 23 Oct) = 0.30 — Expanding Houthi target set; French deployment not yet operational buffer; ±8pp [0.22–0.38]
+- P(Brent closes above $110 EOD 23 Oct) = 0.35 — Requires additional escalation trigger; current $105 base; post-midterm anxiety premium; ±9pp [0.26–0.44]
+- P(Iran counter-proposal publicly rejected by US EOD 23 Oct) = 0.20 — US has consistently rejected Iranian proposals quickly; but nuclear conditionality creates political complexity; ±7pp [0.13–0.27]
+- P(Brent closes below $100 EOD 23 Oct) = 0.10 — Would require major de-escalation signal or sustained IEA release impact; structural floor $100+; ±5pp [0.05–0.15]
+
+**Threat-5 re-trigger criteria (Day 231 — updated):**
+- Hard-confirmed Houthi missile/drone strike on Yanbu terminal with Kpler zero-load confirmed (CENTCOM/UKMTO T1) OR
+- Hard-confirmed Hormuz flows below 3 mb/d sustained for ≥3 consecutive days (Kpler T2 + CENTCOM T1) OR
+- IRGCN Hard-confirmed sinking of US Navy escort vessel (CENTCOM Hard) OR
+- Trump issues public post-midterm bombing order Hard-confirmed AND CENTCOM pre-positioning observable AND Brent closes above $115 OR
+- Iran NPT withdrawal approved by SNSC and formally submitted to UN Secretary-General OR
+- Iranian-directed attack on Western military base confirmed (expanding RAF Fairford covert pattern to kinetic)
