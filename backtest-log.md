@@ -8706,3 +8706,64 @@ _Note: The backtest log supplied covers through Day 220. Day 221–230 predictio
 - Trump issues public post-midterm bombing order Hard-confirmed AND CENTCOM pre-positioning observable AND Brent closes above $115 OR
 - Iran NPT withdrawal approved by SNSC and formally submitted to UN Secretary-General OR
 - Supertanker mine strike confirmed as total loss with >2 mb/d cargo spill AND CENTCOM attributes to deliberate IRGCN minelaying (not pre-existing field)
+
+## 19 October 2026 · Day 234
+
+### T+1 scoring: Day 233 predictions (gate EOD 19 Oct 2026)
+
+| Prediction | P | Score | Notes |
+|---|---|---|---|
+| P(UKMTO or AJ Hard-confirmed follow-on vessel incident Hormuz/Gulf of Oman/UAE anchorages EOD 19 Oct) = 0.65 | 0.65 | **HIT** | UKMTO confirmed marine tug struck by 2 projectiles NE Khor Fakkan 18 Oct (Arab News, TASS, Aaj TV corroborate T2/3). IRGC also claimed 2nd supertanker mine 18 Oct. LNG tanker fired on off Yemen. Attack cadence structural at war-high. |
+| P(Brent closes above $108 EOD 19 Oct) = 0.60 | 0.60 | **MISS** | Brent Oct 19 2026 settle $107.84 (Investing.com). Below $108 threshold by $0.16. Markets reopened Monday; slight pullback from Oct 18 $108.14. Structural floor ~$107–108 confirmed but prediction threshold not met. Narrow miss. |
+| P(US formal public response to Iran OIC 7-day Hormuz plan EOD 19 Oct) = 0.20 | 0.20 | **MISS** | No new formal US public response to OIC Baghdad iteration specifically documented for 19 Oct. Iran SNSC Rezaei (11 Oct) confirmed US response to prior iteration "insufficient." Gulf News (19 Oct): deal "unresolved." Qatar channel nominally open but no new US statement confirmed. |
+
+**T+1 Day 233 summary: 1 Hit, 2 Misses. Vessel attack cadence correctly predicted. Brent near-miss ($0.16 below threshold); structural floor prediction accurate but threshold not met. US public response prediction miss — consistent with CENTCOM/White House ambiguity pattern.**
+
+---
+
+### T+3 scoring: Day 231 predictions (gate EOD 19 Oct 2026)
+
+*Day 231 T+3 predictions not available in backtest log extract provided. Skipped per log gap.*
+
+---
+
+### T+7 scoring: Day 227 predictions (gate EOD 19 Oct 2026)
+
+*Day 227 T+7 predictions not available in backtest log extract provided. Skipped per log gap.*
+
+---
+
+### Day 234 new predictions (forward log)
+
+**Trend:** ↑ Worse. Confidence: High.
+**Threat:** 4 / 5 · Severe (Threat-5 criteria: supertanker mine claims unconfirmed by Hard source; Yanbu intercepted not hit; flows not confirmed below 3 mb/d sustained)
+
+**Scenario probabilities (30d):**
+- A: Negotiated framework — 7% (stable; SNSC operationally blocked; no US counter-signal to OIC iteration)
+- B: Frozen attrition — 25% (↓2pp; attack cadence, geographic expansion, IRGC narrative escalation all inconsistent with frozen)
+- C: Re-escalation — 68% (↑2pp; MODAL; UAE anchorage attack confirmed; post-midterm window ≤17 days; French Yanbu shield not operational; dual mine claims narrative)
+
+**T+1 predictions (gate EOD 20 Oct):**
+- P(UKMTO or AJ Hard-confirmed vessel incident in Hormuz/Gulf of Oman/UAE anchorages/Red Sea EOD 20 Oct) = 0.60 — Attack cadence at war-high; Khor Fakkan/Fujairah now structural targets; LNG tanker fired on off Yemen 18 Oct; ±8pp [0.52–0.68]
+- P(Brent closes above $107 EOD 20 Oct — Mon market open) = 0.65 — Oct 19 settle $107.84; IRGC dual mine claims + UAE anchorage attack add upward pressure for Monday open; ±7pp [0.58–0.72]
+- P(CENTCOM Hard-tier vessel-specific statement on one or both IRGC supertanker mine claims EOD 20 Oct) = 0.35 — CENTCOM named GFS Pride in prior instance; 72h window from 18 Oct claims; pattern suggests response within 72h when claims are operationally significant; ±9pp [0.26–0.44]
+
+**T+3 predictions (gate EOD 22 Oct):**
+- P(Kpler weekly avg Hormuz flows confirmed below 5 mb/d for week ending 22 Oct) = 0.65 — 7-day avg already 11.6 mb/d (wk ending 13 Oct) but daily low 2.9 mb/d; new attacks + mine chilling effect likely suppressing wk-22 avg; ±8pp [0.57–0.73]
+- P(Hard-confirmed Yanbu export disruption — Kpler zero-load day or Saudi Aramco force majeure — EOD 22 Oct) = 0.20 — French not operational; interception tempo rising; Houthi capability confirmed; ±7pp [0.13–0.27]
+- P(New US White House public statement on Iran 7-day Hormuz plan EOD 22 Oct) = 0.25 — Gap since OIC submission (17 Oct); CENTCOM/White House pattern suggests acknowledgment within 5 days; ±8pp [0.17–0.33]
+
+**T+7 predictions (gate EOD 26 Oct):**
+- P(French SAMP/T Hard-confirmed operationally active at Yanbu EOD 26 Oct) = 0.35 — Deployment launched 15 Oct; French COS confirmed "still under study" 13 Oct; activation lag 2–3 weeks; ±10pp [0.25–0.45]
+- P(Brent closes above $112 EOD 26 Oct) = 0.30 — Requires additional escalation trigger beyond current; mine claim narrative + Yanbu risk partially baked in; ±9pp [0.21–0.39]
+- P(Hard-confirmed UAE terminal or port kinetic attack EOD 26 Oct) = 0.20 — Khor Fakkan attack 18 Oct confirms capability and intent to expand; Fujairah is highest-value next target; ±8pp [0.12–0.28]
+- P(IRGC supertanker mine identity Hard-confirmed by CENTCOM or UKMTO EOD 26 Oct) = 0.30 — CENTCOM maintained structural denial on prior cases; UKMTO underreporting acknowledged; verification gap structural; ±10pp [0.20–0.40]
+- P(US midterm election produces outcome triggering documented White House change in Iran bombing posture EOD 26 Oct) = 0.05 — Midterms not until 3 Nov; this is pre-midterm window; ±3pp [0.02–0.08]
+
+**Threat-5 re-trigger criteria (Day 234 — unchanged):**
+- Hard-confirmed Houthi missile/drone strike on Yanbu terminal with Kpler zero-load confirmed (CENTCOM/UKMTO T1) OR
+- Hard-confirmed Hormuz flows below 3 mb/d sustained for ≥3 consecutive days (Kpler T2 + CENTCOM T1) OR
+- IRGCN Hard-confirmed sinking of US Navy escort vessel (CENTCOM Hard) OR
+- Trump issues public post-midterm bombing order Hard-confirmed AND CENTCOM pre-positioning observable AND Brent closes above $115 OR
+- Iran NPT withdrawal approved by SNSC and formally submitted to UN Secretary-General OR
+- Supertanker mine strike confirmed as total loss with >2 mb/d cargo spill AND CENTCOM attributes to deliberate IRGCN minelaying (not pre-existing field)
