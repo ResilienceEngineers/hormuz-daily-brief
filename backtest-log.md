@@ -8950,3 +8950,64 @@ _Note: The backtest log supplied covers through Day 220. Day 221–230 predictio
 - Trump issues public post-midterm bombing order Hard-confirmed AND CENTCOM pre-positioning observable AND Brent closes above $115 OR
 - Iran NPT withdrawal approved by SNSC and formally submitted to UN Secretary-General OR
 - Supertanker mine strike confirmed as total loss with >2 mb/d cargo spill AND CENTCOM attributes to deliberate IRGCN minelaying
+
+## 23 October 2026 · Day 238
+
+### T+1 scoring: Day 237 predictions (gate EOD 23 Oct 2026)
+
+| Prediction | P | Score | Notes |
+|---|---|---|---|
+| P(UKMTO or AJ Hard-confirmed vessel incident Hormuz/Gulf/Red Sea EOD 23 Oct) = 0.68 | 0.68 | **HIT** | IRGC claims 7 vessels struck overnight 22-23 Oct (war-high single-day toll); UKMTO elevated tracking confirmed; USNI/IMO: 27 attacks in October (war high); attack cadence prediction correct |
+| P(Brent closes above $109 EOD 23 Oct) = 0.62 | 0.62 | **HIT** | Brent $113.61 on 23 Oct (Trading Economics); $111.77 close 22 Oct; well above $109 threshold; third consecutive weekly gain |
+| P(Hard-confirmed CENTCOM or DoD statement acknowledging US strike on Sirik EOD 23 Oct) = 0.35 | 0.35 | **MISS** | ISW 22 Oct confirmed CENTCOM has NOT confirmed Sirik strike; claim remains Israeli media + OSINT only; within expected probability band |
+
+**T+1 Day 237 summary: 2 Hits, 1 Miss. Vessel attack cadence and Brent price correctly predicted. Sirik CENTCOM confirmation miss within band — CENTCOM attribution pattern (12-48h lag) means window may still open.**
+
+---
+
+### T+3 scoring: Day 235 predictions (gate EOD 23 Oct 2026)
+
+*Day 235 T+3 predictions not available in backtest log extract. Skipped per log gap.*
+
+---
+
+### T+7 scoring: Day 231 predictions (gate EOD 23 Oct 2026)
+
+*Day 231 T+7 predictions not available in backtest log extract. Skipped per log gap.*
+
+---
+
+### Day 238 new predictions (forward log)
+
+**Trend:** ↑ Worse. Confidence: High.
+**Threat:** 4 / 5 · Severe
+
+**Scenario probabilities (30d):**
+- A: Negotiated framework — 8% (↓1pp; Araghchi FT op-ed conditional; Qatar/Pakistan channel live but no US terms accepted; WH confirmed no deal imminent; blockade-lift precondition unacceptable to Washington)
+- B: Frozen attrition — 14% (↓3pp; 3-CSG convergence + specific strike plans + WH attack-window confirmation + IRGC war-high vessel toll all structurally incompatible with frozen attrition)
+- C: Re-escalation — 78% (↑4pp; MODAL; WH attack window 3–10 Nov confirmed; 3 CSGs converging; specific plans NYT-confirmed; Houthi multi-target salvo; IRGC 7-vessel claim war high; Israel election 27 Oct adds pre-window pressure; Iran warns regional infrastructure retaliation)
+
+**T+1 predictions (gate EOD 24 Oct):**
+- P(UKMTO or AJ Hard-confirmed vessel incident Hormuz/Gulf/PG EOD 24 Oct) = 0.70 — Attack cadence at war high (27 attacks in October per IMO/USNI); IRGC 7-vessel claim 22-23 Oct; structural incentive to press before midterms; ±7pp [0.63–0.77]
+- P(Brent closes above $111 EOD 24 Oct) = 0.58 — Brent $113.61 on 23 Oct; Houthi Yanbu claim + CSG build-up premium structural; weekend position-squaring risk; ±7pp [0.51–0.65]
+- P(Saudi Arabia Hard-confirmed Yanbu terminal export disruption EOD 24 Oct) = 0.28 — Houthi claims Yanbu Aramco hit with fire 22 Oct; Aramco Dhahran evacuation; French SAMP/T not operational; ±8pp [0.20–0.36]
+
+**T+3 predictions (gate EOD 26 Oct):**
+- P(Israel election held on schedule 27 Oct and Netanyahu leading coalition confirmed EOD 26 Oct) = 0.72 — Multiple sources confirm 27 Oct Israeli election; Netanyahu campaigning on Iran regime-change; ±7pp [0.65–0.79]
+- P(French SAMP/T Hard-confirmed operationally active at Yanbu EOD 26 Oct) = 0.22 — Deployment launched ~15 Oct; 2-3 week activation lag; ±8pp [0.14–0.30]
+- P(Hard-confirmed Trump public posture change on Iran — attack order or CSG repositioning observable EOD 26 Oct) = 0.15 — WH confirmed no pre-election strike; Israel election 27 Oct may shift dynamic; ±6pp [0.09–0.21]
+
+**T+7 predictions (gate EOD 30 Oct):**
+- P(French SAMP/T Hard-confirmed operational Yanbu EOD 30 Oct) = 0.48 — Activation window 29 Oct–5 Nov; deployment 15 Oct; ±10pp [0.38–0.58]
+- P(Brent closes above $115 EOD 30 Oct) = 0.38 — Requires additional escalation post-Israel election; Houthi Yanbu confirmation + CSG 3 arrival could push; ±9pp [0.29–0.47]
+- P(Hard-confirmed post-midterm US strike on Iran begins before EOD 30 Oct) = 0.10 — WH explicitly ruled out pre-election strike; Israel election 27 Oct; ±4pp [0.06–0.14]
+- P(Iran parliament Hormuz restriction bill formally passed EOD 30 Oct) = 0.20 — Bill under review; legislative track parallel to military; ±7pp [0.13–0.27]
+- P(Houthi strike Hard-confirmed total loss of Yanbu terminal capacity EOD 30 Oct) = 0.15 — Houthi claims fire at Yanbu Aramco 22 Oct; French shield not operational; Kpler load data needed; ±7pp [0.08–0.22]
+
+**Threat-5 re-trigger criteria (Day 238 — unchanged from Day 237):**
+- Hard-confirmed Houthi missile/drone strike on Yanbu terminal with Kpler zero-load confirmed (CENTCOM/UKMTO T1) OR
+- Hard-confirmed Hormuz flows below 3 mb/d sustained ≥3 consecutive days (Kpler T2 + CENTCOM T1) OR
+- IRGCN Hard-confirmed sinking of US Navy escort vessel (CENTCOM Hard) OR
+- Trump issues public post-midterm bombing order Hard-confirmed AND CENTCOM pre-positioning observable AND Brent closes above $115 OR
+- Iran NPT withdrawal approved by SNSC and formally submitted to UN Secretary-General OR
+- Supertanker mine strike confirmed as total loss with >2 mb/d cargo spill AND CENTCOM attributes to deliberate IRGCN minelaying
