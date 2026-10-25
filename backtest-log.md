@@ -9072,3 +9072,66 @@ _Note: The backtest log supplied covers through Day 220. Day 221–230 predictio
 - Trump issues public post-midterm bombing order Hard-confirmed AND CENTCOM pre-positioning observable AND Brent closes above $120 OR
 - Iran NPT withdrawal approved by SNSC and formally submitted to UN Secretary-General OR
 - Supertanker mine strike confirmed as total loss with >2 mb/d cargo spill AND CENTCOM attributes to deliberate IRGCN minelaying
+
+## 25 October 2026 · Day 240
+
+### T+1 scoring: Day 239 predictions (gate EOD 25 Oct 2026)
+
+| Prediction | P | Score | Notes |
+|---|---|---|---|
+| P(UKMTO or Hard-confirmed vessel incident Hormuz/Gulf/Red Sea EOD 25 Oct) = 0.72 | 0.72 | **HIT** | IRGC supertanker mine claims 23 Oct (IRNA/Anadolu/TASS); UKMTO 181-26 tanker struck 22 Oct confirmed; Houthi 7-attack salvo 24–25 Oct Saudi Arabia (Telangana Today/Dawn/ANI); Riyadh Airport closed then partly resumed; attack cadence war-high |
+| P(Brent closes above $115 EOD 25 Oct) = 0.55 | 0.55 | **HIT** | Brent $117.38 live at 01:06 UTC 25 Oct (oilpriceapi); last close $117.01 (23 Oct); 25 Oct = Saturday non-trading; last confirmed close well above $115 threshold |
+| P(Israel election 27 Oct held on schedule and first official results available EOD 25 Oct) = 0.88 | 0.88 | **MISS** | Election is 27 Oct; voting not yet occurred 25 Oct; exit polls come EOD 27 Oct, not EOD 25 Oct — prediction window was premature by 2 days |
+
+**T+1 Day 239 summary: 2 Hits, 1 Miss. Vessel attack cadence and Brent both correct. Israel election timing miss — prediction should have gated on EOD 27 Oct not EOD 25 Oct; methodology note: when election is 2 days away, gate prediction on election night, not current day.**
+
+---
+
+### T+3 scoring: Day 237 predictions (gate EOD 25 Oct 2026)
+
+*Day 237 T+3 predictions not available in backtest log extract. Skipped per log gap.*
+
+---
+
+### T+7 scoring: Day 233 predictions (gate EOD 25 Oct 2026)
+
+*Day 233 T+7 predictions not available in backtest log extract. Skipped per log gap.*
+
+---
+
+### Day 240 new predictions (forward log)
+
+**Trend:** ↑ Worse. Confidence: High.
+**Threat:** 4 / 5 · Severe
+
+**Scenario probabilities (30d):**
+- A: Negotiated framework — 6% (↓1pp; Iran targeting US personnel "fair game"; structural incompatibility with post-midterm window; Trump "something fairly soon"; deep distrust persists)
+- B: Frozen attrition — 9% (↓2pp; Houthi 7-salvo escalation; East-West pipeline targeted; IRGC 2-supertanker mine claim; Yanbu repeatedly struck; structurally incompatible with frozen attrition)
+- C: Re-escalation — 85% (↑3pp; MODAL; CENTCOM pre-positioning confirmed; Trump "something fairly soon"; Hegseth–Netanyahu meeting; Houthi 7-salvo 24 Oct; Israel election 27 Oct unlocks post-election window; 3 CSGs; attack cadence at war-high 28+ in October)
+
+**T+1 predictions (gate EOD 26 Oct):**
+- P(UKMTO or Hard-confirmed vessel incident Hormuz/Gulf/Red Sea EOD 26 Oct) = 0.70 — October war-high cadence continues; IRGC supertanker mine claim stranded VLCCs unresolved; 128 AIS vessels holding off Hormuz; ±7pp [0.63–0.77]
+- P(Brent spot above $115 EOD 26 Oct, first trading day after weekend) = 0.60 — Houthi 7-salvo + IRGC supertanker claim + Yanbu/East-West pipeline targeting risk premium; ±8pp [0.52–0.68]
+- P(Saudi Aramco or CENTCOM Hard-confirms Yanbu/East-West pipeline disruption EOD 26 Oct) = 0.20 — Multiple Houthi claims 24 Oct; Saudi intercepted 2 missiles; no Aramco Hard confirmation yet; ambiguity may resolve in 24h; ±7pp [0.13–0.27]
+
+**T+3 predictions (gate EOD 27 Oct — Israeli election day):**
+- P(Israel election 27 Oct final results: Eisenkot bloc leads Netanyahu bloc in seat count) = 0.55 — Final polls: Eisenkot 52–56 vs Netanyahu 50 (Channel 12/13/Kan); Walla: Yashar 23 vs Likud 19; Eisenkot bloc ahead but coalition unclear; ±10pp [0.45–0.65]
+- P(Netanyahu-led bloc achieves 61+ seat majority EOD 27 Oct) = 0.12 — No poll projects either bloc at 61+; ±5pp [0.07–0.17]
+- P(Hard-confirmed US/Israel strike on Iran before EOD 27 Oct) = 0.04 — WH ruled out pre-election action; Israel election day itself; ±2pp [0.02–0.06]
+- P(Yanbu terminal Kpler-confirmed zero-load OR Hard Aramco/Saudi confirmation of export disruption EOD 27 Oct) = 0.24 — Repeated Houthi claims; East-West pipeline targeted; 48h window; ±8pp [0.16–0.32]
+
+**T+7 predictions (gate EOD 31 Oct):**
+- P(French SAMP/T Hard-confirmed operational at Yanbu EOD 31 Oct) = 0.52 — Deployment ~15 Oct; 2–3 week activation window centers on 29 Oct–5 Nov; ±10pp
+- P(Brent closes above $120 EOD 31 Oct) = 0.40 — Israeli election result + post-midterm pressure; IRGC supertanker mine cascade; East-West pipeline targeting; Houthi escalation; ±9pp [0.31–0.49]
+- P(Hard-confirmed post-midterm US/Israel strike on Iran begins before EOD 31 Oct) = 0.08 — Midterms 3 Nov; WH rules out pre-election; ±3pp [0.05–0.11]
+- P(UAE Gem No.2 spill classified as major environmental incident by UNEP or UAE government EOD 31 Oct) = 0.45 — 160 km² slick; Ras Al-Khaimah + Umm Al Quwain + Sharjah beaches closed; VLCC still leaking; ±10pp
+- P(IRGC supertanker mine claim independently Hard-confirmed by UKMTO/CENTCOM/satellite EOD 31 Oct) = 0.55 — AIS silence + crew abandonment claim credible; 4.5 mb cargo; UKMTO lagging confirmed to capture late incidents; ±10pp
+
+**Threat-5 re-trigger criteria (Day 240 — updated):**
+- Hard-confirmed Houthi missile/drone strike on Yanbu terminal with Kpler zero-load confirmed (CENTCOM/UKMTO T1) OR
+- Hard-confirmed East-West pipeline sustained shutdown (Aramco/Saudi Hard + Kpler) reducing Red Sea exports below 2 mb/d OR
+- Hard-confirmed Hormuz flows below 3 mb/d sustained ≥3 consecutive days (Kpler T2 + CENTCOM T1) OR
+- IRGCN Hard-confirmed sinking of US Navy escort vessel (CENTCOM Hard) OR
+- Trump issues public post-midterm bombing order Hard-confirmed AND CENTCOM pre-positioning observable AND Brent closes above $120 OR
+- Iran NPT withdrawal approved by SNSC and formally submitted to UN Secretary-General OR
+- Supertanker mine strike confirmed as total loss with >2 mb/d cargo spill AND CENTCOM attributes to deliberate IRGCN minelaying
