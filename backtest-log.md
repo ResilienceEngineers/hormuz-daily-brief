@@ -9135,3 +9135,65 @@ _Note: The backtest log supplied covers through Day 220. Day 221–230 predictio
 - Trump issues public post-midterm bombing order Hard-confirmed AND CENTCOM pre-positioning observable AND Brent closes above $120 OR
 - Iran NPT withdrawal approved by SNSC and formally submitted to UN Secretary-General OR
 - Supertanker mine strike confirmed as total loss with >2 mb/d cargo spill AND CENTCOM attributes to deliberate IRGCN minelaying
+
+## 26 October 2026 · Day 241
+
+### T+1 scoring: Day 240 predictions (gate EOD 26 Oct 2026)
+
+| Prediction | P | Score | Notes |
+|---|---|---|---|
+| P(UKMTO or Hard-confirmed vessel incident Hormuz/Gulf/Red Sea EOD 26 Oct) = 0.70 | 0.70 | **HIT** | IRGC fired anti-ship cruise missile from Sirik Island at vessel in Strait of Hormuz 26 Oct (houseofsaud.com citing JFeed/Newsquawk); launcher struck by unidentified missile shortly after; UKMTO October attack cadence continues at war-high; multiple attacks confirmed since 22 Oct |
+| P(Brent spot above $115 EOD 26 Oct) = 0.60 | 0.60 | **MISS** | Brent $114.53–$114.76 on 26 Oct (Trading Economics/oilprice API); down 1.87% on the day from $116.72 close; below $115 threshold; Yanbu/East-West unconfirmed = no new premium catalyst |
+| P(Saudi Aramco or CENTCOM Hard-confirms Yanbu/East-West pipeline disruption EOD 26 Oct) = 0.20 | 0.20 | **MISS** | No Aramco or CENTCOM Hard confirmation of Yanbu/East-West damage as of 06:00 UTC 26 Oct; Houthis reclamed East-West pipeline 26 Oct; Saudi intercepted fresh Riyadh-bound missile; silence consistent with prior Saudi pattern on energy infrastructure |
+
+**T+1 Day 240 summary: 1 Hit, 2 Misses. Vessel attack cadence hit. Brent below $115 as Yanbu damage unconfirmed removed premium catalyst. Methodology note: Brent $115 threshold prediction should weight Saudi confirmation lag more heavily; absent Hard confirmation, risk premium fades on open. Yanbu pattern: Saudi never confirms energy infrastructure hits → downweight P(Hard confirm) to ≤0.12 in future rounds.**
+
+---
+
+### T+3 scoring: Day 238 predictions (gate EOD 26 Oct 2026)
+
+*Day 238 T+3 predictions not available in backtest log extract. Skipped per log gap.*
+
+---
+
+### T+7 scoring: Day 234 predictions (gate EOD 26 Oct 2026)
+
+*Day 234 T+7 predictions not available in backtest log extract. Skipped per log gap.*
+
+---
+
+### Day 241 new predictions (forward log)
+
+**Trend:** ↑ Worse. Confidence: High.
+**Threat:** 4 / 5 · Severe
+
+**Scenario probabilities (30d):**
+- A: Negotiated framework — 5% (↓1pp; Iran FM: Hormuz will not return to pre-war norms; Iran rejects Pakistan mediation; IRGC Sirik cruise missile launch 26 Oct; structural incompatibility)
+- B: Frozen attrition — 8% (↓1pp; CENTCOM 96h readiness confirmed CNN; IRGC Sirik launch; 492-vessel backlog; Houthi East-West retargeting; incompatible with stable attrition)
+- C: Re-escalation — 87% (↑2pp; MODAL; CENTCOM commander visits Hormuz 26 Oct; Trump "may do it a little bit further"; IRGC Sirik cruise missile launch 26 Oct = direct force-on-force near miss; Israel election today 27 Oct; window 3–10 Nov)
+
+**T+1 predictions (gate EOD 27 Oct — Israel election day):**
+- P(UKMTO or Hard-confirmed vessel incident Hormuz/Gulf/Red Sea EOD 27 Oct) = 0.70 — IRGC Sirik cruise missile launch 26 Oct shows active engagement posture; attack cadence at war-high; ±7pp [0.63–0.77]
+- P(Israel election final results: Eisenkot bloc leads Netanyahu bloc in seat count) = 0.58 — Final polls: Eisenkot bloc 52-56 vs Netanyahu 50 across Ch12/13/Kan; Walla: 54 vs 48; but Netanyahu bloc has historically outperformed polls; ±10pp [0.48–0.68]
+- P(Netanyahu-led bloc achieves 61+ seat majority EOD 27 Oct) = 0.10 — No poll projects either bloc at 61+; ±5pp [0.05–0.15]
+
+**T+3 predictions (gate EOD 29 Oct):**
+- P(Hard-confirmed US/Israel strike on Iran before EOD 29 Oct) = 0.06 — Trump "not today" 25 Oct; CENTCOM 96h readiness but no order confirmed; Israel election day 27 Oct; ±3pp [0.03–0.09]
+- P(Yanbu Kpler-confirmed zero-load OR Aramco Hard-confirmation of export disruption EOD 29 Oct) = 0.18 — Houthi claims East-West twice this week; Saudi interception cadence high; no confirmation pattern persists; ±7pp [0.11–0.25]
+- P(IRGC Sirik launch CENTCOM-confirmed as deliberate anti-shipping attack EOD 29 Oct) = 0.52 — houseofsaud.com + JFeed/Newsquawk report; launcher struck by unidentified missile; CENTCOM pattern of delayed confirmation; ±12pp [0.40–0.64]
+
+**T+7 predictions (gate EOD 2 Nov):**
+- P(Brent closes above $120 EOD 2 Nov) = 0.35 — CENTCOM 96h readiness; Israel election outcome; Houthi escalation; IRGC Sirik incident; pre-midterm anxiety; ±9pp [0.26–0.44]
+- P(Hard-confirmed post-midterm US/Israel strike on Iran begins before EOD 2 Nov) = 0.07 — Midterms 3 Nov; WH pattern of ruling out pre-election strikes; ±3pp [0.04–0.10]
+- P(UAE Gem No.2 spill classified as major environmental incident by UNEP or UAE government EOD 2 Nov) = 0.50 — 160 km² slick; 3 emirates' beaches closed; VLCC still leaking; ongoing containment; ±10pp
+- P(French SAMP/T Hard-confirmed operational at Yanbu EOD 2 Nov) = 0.55 — ~2–3 week activation window from ~15 Oct deployment; centers on 29 Oct–5 Nov; ±10pp
+
+**Threat-5 re-trigger criteria (Day 241 — updated):**
+- Hard-confirmed Houthi missile/drone strike on Yanbu terminal with Kpler zero-load confirmed (CENTCOM/UKMTO T1) OR
+- Hard-confirmed East-West pipeline sustained shutdown (Aramco/Saudi Hard + Kpler) reducing Red Sea exports below 2 mb/d OR
+- Hard-confirmed Hormuz flows below 3 mb/d sustained ≥3 consecutive days (Kpler T2 + CENTCOM T1) OR
+- IRGCN Hard-confirmed sinking of US Navy escort vessel (CENTCOM Hard) OR
+- Trump issues public post-midterm bombing order Hard-confirmed AND CENTCOM pre-positioning observable AND Brent closes above $120 OR
+- Iran NPT withdrawal approved by SNSC and formally submitted to UN Secretary-General OR
+- Supertanker mine strike confirmed as total loss with >2 mb/d cargo spill AND CENTCOM attributes to deliberate IRGCN minelaying OR
+- IRGC Sirik cruise-missile attack CENTCOM-confirmed as deliberate attack on non-Iranian vessel AND a US/allied vessel destroyed/disabled
