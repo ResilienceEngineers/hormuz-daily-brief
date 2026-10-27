@@ -9197,3 +9197,65 @@ _Note: The backtest log supplied covers through Day 220. Day 221–230 predictio
 - Iran NPT withdrawal approved by SNSC and formally submitted to UN Secretary-General OR
 - Supertanker mine strike confirmed as total loss with >2 mb/d cargo spill AND CENTCOM attributes to deliberate IRGCN minelaying OR
 - IRGC Sirik cruise-missile attack CENTCOM-confirmed as deliberate attack on non-Iranian vessel AND a US/allied vessel destroyed/disabled
+
+## 27 October 2026 · Day 242
+
+### T+1 scoring: Day 241 predictions (gate EOD 27 Oct 2026)
+
+| Prediction | P | Score | Notes |
+|---|---|---|---|
+| P(UKMTO or Hard-confirmed vessel incident Hormuz/Gulf/Red Sea EOD 27 Oct) = 0.70 | 0.70 | **HIT** | UKMTO Warning 182-26 (26 Oct, verified time-late): tanker disabled outbound Hormuz 23 Oct; UKMTO Warning 183-26 (26 Oct, third-party): vessel on fire 63nm SE Al-Faw; attack cadence 28 in October = war-high per Reuters |
+| P(Israel election: Eisenkot bloc leads Netanyahu in seat count EOD 27 Oct) = 0.58 | 0.58 | **PENDING** | Polls closed 22:00 local (19:00 UTC); final results/coalition clear not available at 06:00 UTC 27 Oct; pre-silence polls show Eisenkot bloc 50–54 vs Netanyahu 48–50; score at T+1 next run |
+| P(Netanyahu-led bloc achieves 61+ seat majority EOD 27 Oct) = 0.10 | 0.10 | **PENDING** | No poll projected either bloc at 61+; awaiting final count; score at T+1 next run |
+
+**T+1 Day 241 summary: 1 confirmed Hit (vessel incident), 2 Pending (Israel election — polls closed after brief publication, results TBD). Methodology note: election-day predictions for polls that close after brief publication time (06:00 UTC) should be scored at the next day's T+1, not at gate EOD of election day.**
+
+---
+
+### T+3 scoring: Day 239 predictions (gate EOD 27 Oct 2026)
+
+*Day 239 T+3 predictions not available in backtest log extract. Skipped per log gap.*
+
+---
+
+### T+7 scoring: Day 235 predictions (gate EOD 27 Oct 2026)
+
+*Day 235 T+7 predictions not available in backtest log extract. Skipped per log gap.*
+
+---
+
+### Day 242 new predictions (forward log)
+
+**Trend:** ↑ Worse. Confidence: High.
+**Threat:** 4 / 5 · Severe
+
+**Scenario probabilities (30d):**
+- A: Negotiated framework — 7% (+2pp; Mecca Pact Tehran talks 26 Oct; Qatar shuttle 25 Oct; first multi-party engagement architecture; Iran still demands preconditions)
+- B: Frozen attrition — 11% (+3pp; Tehran talks create brief window; Iran-Pakistan back-channel; requires Trump deference past 10 Nov)
+- C: Re-escalation — 82% (−5pp; MODAL; CENTCOM 96h readiness; NYT post-midterm plans confirmed; IRGC highest alert; Sirik launch unconfirmed; midterm window 3–10 Nov)
+
+**T+1 predictions (gate EOD 28 Oct):**
+- P(UKMTO or Hard-confirmed vessel incident Hormuz/Gulf/Red Sea EOD 28 Oct) = 0.70 — October attack cadence at 28 incidents (war-high); IRGC highest readiness; structural posture unchanged; ±7pp [0.63–0.77]
+- P(Israeli election: Eisenkot bloc leads Netanyahu in preliminary seat count by EOD 28 Oct) = 0.60 — pre-silence polls show Eisenkot 50–54 vs Netanyahu 48–50; Netanyahu has historically outperformed polls in wartime; ±10pp [0.50–0.70]
+- P(Mecca Pact follow-up contact with Iran or Qatar shuttle produces public framework language EOD 28 Oct) = 0.15 — talks agreed to "continue"; next contact window unclear; Iranian preconditions remain; ±7pp [0.08–0.22]
+
+**T+3 predictions (gate EOD 30 Oct):**
+- P(Hard-confirmed Yanbu Kpler zero-load OR Aramco confirms East-West pipeline disruption EOD 30 Oct) = 0.18 — Houthis re-claimed 26 Oct; Saudi silence pattern persists; Aramco never confirms; ±7pp [0.11–0.25]
+- P(IRGC Sirik launch CENTCOM-confirmed as deliberate attack on non-Iranian vessel EOD 30 Oct) = 0.40 — houseofsaud.com/JFeed/Newsquawk report strong; CENTCOM pattern of delayed confirmation; ISW: unconfirmed as of 22 Oct; ±12pp [0.28–0.52]
+- P(Hard-confirmed US/Israel strike on Iran before EOD 30 Oct) = 0.05 — Trump committed no pre-midterm strike (Axios 8 Oct); diplomatic talks active; ±3pp [0.02–0.08]
+
+**T+7 predictions (gate EOD 3 Nov — US midterm election day):**
+- P(Brent closes above $120 EOD 3 Nov) = 0.35 — current $114–116; CENTCOM 96h posture; post-midterm strike speculation; Tehran talks as mild downward pressure; ±9pp [0.26–0.44]
+- P(Hard-confirmed post-midterm US/Israel strike on Iran begins before EOD 3 Nov) = 0.05 — midterms on 3 Nov; WH pattern of restraint until votes counted; ±3pp [0.02–0.08]
+- P(Mecca Pact–Iran talks produce a publicly announced sequenced de-escalation framework by EOD 3 Nov) = 0.12 — talks ongoing; Qatar shuttle; Iranian preconditions a barrier; ±6pp [0.06–0.18]
+- P(French SAMP/T Hard-confirmed operational at Yanbu EOD 3 Nov) = 0.60 — ~2–3 week activation window from ~15 Oct deployment; centers on 29 Oct–5 Nov; ±10pp [0.50–0.70]
+
+**Threat-5 re-trigger criteria (Day 242 — carried forward):**
+- Hard-confirmed Houthi missile/drone strike on Yanbu terminal with Kpler zero-load confirmed (CENTCOM/UKMTO T1) OR
+- Hard-confirmed East-West pipeline sustained shutdown (Aramco/Saudi Hard + Kpler) reducing Red Sea exports below 2 mb/d OR
+- Hard-confirmed Hormuz flows below 3 mb/d sustained ≥3 consecutive days (Kpler T2 + CENTCOM T1) OR
+- IRGCN Hard-confirmed sinking of US Navy escort vessel (CENTCOM Hard) OR
+- Trump issues public post-midterm bombing order Hard-confirmed AND CENTCOM pre-positioning observable AND Brent closes above $120 OR
+- Iran NPT withdrawal approved by SNSC and formally submitted to UN Secretary-General OR
+- Supertanker mine strike confirmed as total loss with >2 mb/d cargo spill AND CENTCOM attributes to deliberate IRGCN minelaying OR
+- IRGC Sirik cruise-missile attack CENTCOM-confirmed as deliberate attack on non-Iranian vessel AND a US/allied vessel destroyed/disabled
