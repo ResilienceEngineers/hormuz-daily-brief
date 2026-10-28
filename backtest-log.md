@@ -9259,3 +9259,67 @@ _Note: The backtest log supplied covers through Day 220. Day 221–230 predictio
 - Iran NPT withdrawal approved by SNSC and formally submitted to UN Secretary-General OR
 - Supertanker mine strike confirmed as total loss with >2 mb/d cargo spill AND CENTCOM attributes to deliberate IRGCN minelaying OR
 - IRGC Sirik cruise-missile attack CENTCOM-confirmed as deliberate attack on non-Iranian vessel AND a US/allied vessel destroyed/disabled
+
+## 28 October 2026 · Day 243
+
+### T+1 scoring: Day 242 predictions (gate EOD 28 Oct 2026)
+
+| Prediction | P | Score | Notes |
+|---|---|---|---|
+| P(UKMTO or Hard-confirmed vessel incident Hormuz/Gulf/Red Sea EOD 28 Oct) = 0.70 | 0.70 | **PENDING** | No new UKMTO warning found for 27–28 Oct window in today's search; UKMTO 182/183 already scored at Day 242. Score at next run with T+1 check. |
+| P(Israeli election: Eisenkot bloc leads Netanyahu in preliminary seat count EOD 28 Oct) = 0.60 | 0.60 | **HIT** | Exit polls all three major broadcasters show Eisenkot bloc 52–53 vs Netanyahu 50; preliminary count (37% in, Haaretz) consistent; Eisenkot leads. |
+| P(Netanyahu-led bloc achieves 61+ seat majority EOD 28 Oct) = 0.10 | 0.10 | **HIT (No)** | No broadcaster projects Netanyahu near 61; bloc at 50; confirmed no majority path visible. |
+| P(Mecca Pact follow-up contact produces public framework language EOD 28 Oct) = 0.15 | 0.15 | **MISS** | Talks ended "continue discussions"; no framework language; no follow-up contact announced by 06:00 UTC 28 Oct. |
+
+**T+1 Day 242 summary: 2 Hits (Israel election Eisenkot leads; Netanyahu no-majority), 1 Miss (framework language), 1 Pending (vessel incident 27–28 Oct window). Miss on framework was well-calibrated at 0.15 — correct direction. Hits on Israel election were well-calibrated (0.60 on Eisenkot leads = hit).**
+
+---
+
+### T+3 scoring: Day 240 predictions (gate EOD 28 Oct 2026)
+
+*Day 240 T+3 predictions not available in backtest log extract. Skipped per log gap.*
+
+---
+
+### T+7 scoring: Day 236 predictions (gate EOD 28 Oct 2026)
+
+*Day 236 T+7 predictions not available in backtest log extract. Skipped per log gap.*
+
+---
+
+### Day 243 new predictions (forward log)
+
+**Trend:** ↑ Worse. Confidence: High.
+**Threat:** 4 / 5 · Severe
+
+**Scenario probabilities (30d):**
+- A: Negotiated framework — 8% (+1pp; Pakistan bridging proposal with Trump blessing; Mecca Pact Tehran follow-up unconfirmed; Iran preconditions remain)
+- B: Frozen attrition — 12% (+1pp; diplomatic window marginally wider; hung Israeli Knesset introduces uncertainty; requires Trump restraint past 10 Nov)
+- C: Re-escalation — 80% (−2pp; MODAL; CENTCOM plans confirmed; USS GW en route; Houthi East-West targeting; midterm window 3–10 Nov)
+
+**T+1 predictions (gate EOD 29 Oct):**
+- P(UKMTO or Hard-confirmed vessel incident Hormuz/Gulf/Red Sea EOD 29 Oct) = 0.65 — October cadence at war-high; IRGC closure declaration maintained; structural posture unchanged; slight reduction from 0.70 as no new fresh UKMTO issued 27–28 Oct in search window; ±7pp [0.58–0.72]
+- P(CENTCOM issues public statement confirming or denying Sirik cruise-missile launch attribution EOD 29 Oct) = 0.35 — 3–5 day CENTCOM delay pattern; 25 Oct launch = day 3 today; attribution pressure rising; ±10pp [0.25–0.45]
+- P(Mecca Pact follow-up contact with Iran confirmed publicly EOD 29 Oct) = 0.25 — "continue discussions" agreed; Pakistan bridging proposal pending Iranian response; 72h window for follow-up contact; ±8pp [0.17–0.33]
+
+**T+3 predictions (gate EOD 31 Oct):**
+- P(Hard-confirmed Yanbu Kpler zero-load OR Aramco confirms East-West pipeline disruption EOD 31 Oct) = 0.22 — Houthi claims 25–26 Oct unconfirmed; SAMP/T activation window opens ~29 Oct; structural vulnerability unchanged; ±7pp [0.15–0.29]
+- P(IRGC Sirik launch CENTCOM-confirmed as deliberate attack on non-Iranian vessel EOD 31 Oct) = 0.42 — houseofsaud.com/JFeed/Newsquawk strong; CENTCOM day 6 by 31 Oct; ±10pp [0.32–0.52]
+- P(Mecca Pact bridging proposal produces publicly acknowledged Iranian response EOD 31 Oct) = 0.30 — Iran told Pakistan "preconditions first" but Rezaei "very good" language; 5-day response window; ±8pp [0.22–0.38]
+
+**T+7 predictions (gate EOD 4 Nov — day after US midterms):**
+- P(Brent closes above $120 EOD 4 Nov) = 0.32 — current $114.35; post-midterm strike risk; Yanbu disruption risk; Tehran talks as mild downward pressure; ±9pp [0.23–0.41]
+- P(Hard-confirmed post-midterm US/Israel strike on Iran begins before EOD 4 Nov) = 0.08 — midterms 3 Nov; WH decision likely within 24–48h post-vote; ±4pp [0.04–0.12]
+- P(Mecca Pact–Iran talks produce publicly announced sequenced de-escalation framework by EOD 4 Nov) = 0.10 — talks ongoing; bridging proposal pending; Iran preconditions remain; ±5pp [0.05–0.15]
+- P(French SAMP/T Hard-confirmed operational at Yanbu EOD 4 Nov) = 0.65 — activation window centres on 29 Oct–5 Nov; ±10pp [0.55–0.75]
+- P(Egypt deploys AD assets to Saudi Arabia (confirmed, not just authorised) EOD 4 Nov) = 0.40 — parliament voted 26 Oct; no formal Saudi request announced; deployment logistics require days; ±10pp [0.30–0.50]
+
+**Threat-5 re-trigger criteria (Day 243 — carried forward):**
+- Hard-confirmed Houthi missile/drone strike on Yanbu terminal with Kpler zero-load confirmed (CENTCOM/UKMTO T1) OR
+- Hard-confirmed East-West pipeline sustained shutdown (Aramco/Saudi Hard + Kpler) reducing Red Sea exports below 2 mb/d OR
+- Hard-confirmed Hormuz flows below 3 mb/d sustained ≥3 consecutive days (Kpler T2 + CENTCOM T1) OR
+- IRGCN Hard-confirmed sinking of US Navy escort vessel (CENTCOM Hard) OR
+- Trump issues public post-midterm bombing order Hard-confirmed AND CENTCOM pre-positioning observable AND Brent closes above $120 OR
+- Iran NPT withdrawal approved by SNSC and formally submitted to UN Secretary-General OR
+- Supertanker mine strike confirmed as total loss with >2 mb/d cargo spill AND CENTCOM attributes to deliberate IRGCN minelaying OR
+- IRGC Sirik cruise-missile attack CENTCOM-confirmed as deliberate attack on non-Iranian vessel AND a US/allied vessel destroyed/disabled
