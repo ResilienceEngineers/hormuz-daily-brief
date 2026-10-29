@@ -9323,3 +9323,66 @@ _Note: The backtest log supplied covers through Day 220. Day 221–230 predictio
 - Iran NPT withdrawal approved by SNSC and formally submitted to UN Secretary-General OR
 - Supertanker mine strike confirmed as total loss with >2 mb/d cargo spill AND CENTCOM attributes to deliberate IRGCN minelaying OR
 - IRGC Sirik cruise-missile attack CENTCOM-confirmed as deliberate attack on non-Iranian vessel AND a US/allied vessel destroyed/disabled
+
+## 29 October 2026 · Day 244
+
+### T+1 scoring: Day 243 predictions (gate EOD 29 Oct 2026)
+
+| Prediction | P | Score | Notes |
+|---|---|---|---|
+| P(UKMTO or Hard-confirmed vessel incident Hormuz/Gulf/Red Sea EOD 29 Oct) = 0.65 | 0.65 | **HIT** | JMIC 016-26 (28 Oct UKMTO-relayed): US blockade enforcement advisory all nationalities; UKMTO Gulf of Aden suspicious activity advisory 28 Oct; UKMTO Warning 182 tanker disabled 23 Oct confirmed time-late; Oct attack cadence sustained. |
+| P(CENTCOM Sirik cruise-missile confirmation EOD 29 Oct) = 0.35 | 0.35 | **MISS** | No CENTCOM confirmation of 25 Oct Sirik cruise-missile launch found by 06:00 UTC 29 Oct. IRGC claimed 14th MQ-1 29 Oct (Sirik vicinity) but this is separate from 25 Oct cruise-missile claim. CENTCOM silent. |
+| P(Mecca Pact follow-up contact confirmed publicly EOD 29 Oct) = 0.25 | 0.25 | **HIT** | Qatari delegation visited Tehran 26 Oct; Qatar presented 7-Day sequenced draft; Araghchi 29 Oct public statement "close and ongoing contact with intermediaries"; Vance letter to Rezaei (WSJ 28 Oct). Multiple confirmed public contacts. |
+
+**T+1 Day 243 summary: 2 Hits (vessel incident cadence; diplomatic contact), 1 Miss (CENTCOM Sirik attribution — still pending, day 4). Miss on CENTCOM attribution consistent with 3–5 day delay pattern; prediction was well-calibrated at 0.35.**
+
+---
+
+### T+3 scoring: Day 241 predictions (gate EOD 29 Oct 2026)
+
+*Day 241 T+3 predictions not available in backtest log extract. Skipped per log gap.*
+
+---
+
+### T+7 scoring: Day 237 predictions (gate EOD 29 Oct 2026)
+
+*Day 237 T+7 predictions not available in backtest log extract. Skipped per log gap.*
+
+---
+
+### Day 244 new predictions (forward log)
+
+**Trend:** ↑ Worse. Confidence: High.
+**Threat:** 4 / 5 · Severe
+
+**Scenario probabilities (30d):**
+- A: Negotiated framework — 12% (+2pp; Qatar 7-Day sequenced draft presented; Araghchi "less than week"; Vance–Rezaei channel; Iranian response expected EOD 31 Oct)
+- B: Frozen attrition — 11% (−2pp; Iranian official "unacceptable ideas"; nuclear flexibility absent; post-midterm strike window tightening)
+- C: Re-escalation — 77% (MODAL, unchanged; Axios "week of major Iran strikes" without deal; IDF chief/CENTCOM coordination confirmed; JMIC 016-26 blockade enforcement active; midterm window 3–10 Nov)
+
+**T+1 predictions (gate EOD 30 Oct):**
+- P(UKMTO or Hard-confirmed vessel incident Hormuz/Gulf/Red Sea EOD 30 Oct) = 0.65 — sustained Oct cadence; JMIC 016-26 blockade enforcement raising interdiction risk; IRGC 14th MQ-1 shootdown confirms active contest; ±7pp [0.58–0.72]
+- P(Iran provides formal public response to Qatar 7-Day draft EOD 30 Oct) = 0.30 — response expected "end of week" (EOD 31 Oct); 30 Oct is day before deadline; Araghchi "close contact" vs senior official "unacceptable"; ±8pp [0.22–0.38]
+- P(CENTCOM confirms or denies 25 Oct Sirik cruise-missile attribution EOD 30 Oct) = 0.40 — day 5 of typical 3–5 day CENTCOM delay; 14th MQ-1 shootdown (Sirik) adds pressure; ±10pp [0.30–0.50]
+
+**T+3 predictions (gate EOD 1 Nov):**
+- P(Iran formally rejects Qatar 7-Day draft (Hard-confirmed) EOD 1 Nov) = 0.35 — senior Iranian official already "unacceptable ideas"; nuclear flexibility absent; Araghchi contradicts; split signals; ±9pp [0.26–0.44]
+- P(Hard-confirmed Yanbu Kpler zero-load OR Aramco confirms East-West pipeline disruption EOD 1 Nov) = 0.18 — Houthi Oct 25–26 claims unconfirmed; Aramco offering spot cargoes (operational signal); France SAMP/T deploying; ±6pp [0.12–0.24]
+- P(IRGC Sirik launch CENTCOM-confirmed as deliberate attack on non-Iranian vessel EOD 1 Nov) = 0.40 — day 7 by 1 Nov; escalating IRGC Sirik activity; ±10pp [0.30–0.50]
+
+**T+7 predictions (gate EOD 5 Nov — day after US midterms 3 Nov):**
+- P(Brent closes above $120 EOD 5 Nov) = 0.30 — current $114.28; post-midterm strike risk; Yanbu disruption risk; diplomatic progress as mild downward pressure; ±9pp [0.21–0.39]
+- P(Hard-confirmed post-midterm US/Israel strike on Iran begins before EOD 5 Nov) = 0.10 — midterms 3 Nov; WH decision likely within 24–48h post-vote; ±4pp [0.06–0.14]
+- P(Iran formally accepts Qatar 7-Day framework (Hard-confirmed) EOD 5 Nov) = 0.12 — Araghchi positive signals; senior official "unacceptable"; nuclear flexibility blocking; ±5pp [0.07–0.17]
+- P(French SAMP/T Hard-confirmed operational at Yanbu EOD 5 Nov) = 0.70 — France announced deployment; activation window; ±10pp [0.60–0.80]
+- P(Egypt deploys AD assets to Saudi Arabia (confirmed operational) EOD 5 Nov) = 0.35 — parliament voted 26 Oct; no formal Saudi request announced; deployment logistics require days; ±10pp [0.25–0.45]
+
+**Threat-5 re-trigger criteria (Day 244 — carried forward):**
+- Hard-confirmed Houthi missile/drone strike on Yanbu terminal with Kpler zero-load confirmed (CENTCOM/UKMTO T1) OR
+- Hard-confirmed East-West pipeline sustained shutdown (Aramco/Saudi Hard + Kpler) reducing Red Sea exports below 2 mb/d OR
+- Hard-confirmed Hormuz flows below 3 mb/d sustained ≥3 consecutive days (Kpler T2 + CENTCOM T1) OR
+- IRGCN Hard-confirmed sinking of US Navy escort vessel (CENTCOM Hard) OR
+- Trump issues public post-midterm bombing order Hard-confirmed AND CENTCOM pre-positioning observable AND Brent closes above $120 OR
+- Iran NPT withdrawal approved by SNSC and formally submitted to UN Secretary-General OR
+- Supertanker mine strike confirmed as total loss with >2 mb/d cargo spill AND CENTCOM attributes to deliberate IRGCN minelaying OR
+- IRGC Sirik cruise-missile attack CENTCOM-confirmed as deliberate attack on non-Iranian vessel AND a US/allied vessel destroyed/disabled
