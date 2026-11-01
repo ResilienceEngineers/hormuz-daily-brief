@@ -9512,3 +9512,59 @@ _Note: The backtest log supplied covers through Day 220. Day 221–230 predictio
 - Iran NPT withdrawal approved by SNSC and formally submitted to UN Secretary-General OR
 - Supertanker mine strike confirmed as total loss with >2 mb/d cargo spill AND CENTCOM attributes to deliberate IRGCN minelaying OR
 - IRGC Sirik cruise-missile attack CENTCOM-confirmed as deliberate attack on non-Iranian vessel AND a US/allied vessel destroyed/disabled
+
+## Day 247 · 1 November 2026
+
+### Scoring: Day 246 T+1 predictions (gate EOD 1 Nov 2026)
+
+| Prediction | P stated | Outcome | Score |
+|---|---|---|---|
+| P(UKMTO or Hard-confirmed vessel incident Hormuz/Gulf/Red Sea EOD 1 Nov) = 0.68 | 0.68 | **HIT** | UKMTO confirmed vessel struck 40nm S of Lavan Island by unknown projectile causing fire (1 Nov, Manila Times/Reuters/UKMTO X); Oman rescued 25 from burning ship; IRGC reports 2 tankers halted + supertanker mine-strike (unconfirmed); multiple Hard-tier incidents confirmed. Brier contribution: (1-0.68)² = 0.10. |
+| P(Iran formal public response to Qatar 7-Day — acceptance or rejection — EOD 1 Nov) = 0.35 | 0.35 | **MISS** | Araghchi "studying" Vance letter per Al Jazeera 1 Nov; senior Iranian official told Reuters proposal "not satisfactory" but this is not a formal public Accept/Reject of Qatar framework per Hard-tier standard. Talks continued in Doha 1 Nov. No IRNA/Araghchi formal statement issued EOD 1 Nov. Brier contribution: (0-0.35)² = 0.12. |
+| P(Trump post-midterm Truth Social statement on Iran strikes EOD 1 Nov) = 0.15 | 0.15 | **MISS** | Midterms not held yet (3 Nov). No Trump post-midterm Iran-strike statement confirmed EOD 1 Nov. Pre-midterm silence maintained. Brier contribution: (0-0.15)² = 0.02. |
+
+**T+1 Day 246 summary: 1 Hit, 2 Misses. Vessel incident cadence now HIT 5 consecutive T+1 windows — baseline P maintained at 0.68–0.72. Iran formal-response prediction remains structurally hard to score: "not satisfactory" signals from senior official (Reuters) suggest implicit rejection is building but formal public statement withheld as diplomatic tactic. Calibration note: reduce P(Iran formal public statement within 24h) to ≤0.25 given consistent pattern of constructive ambiguity. Trump pre-midterm silence confirmed — no adjustment needed, prediction was well-calibrated at 0.15.**
+
+### Scoring: Day 243 T+3 predictions (gate EOD 1 Nov 2026)
+*Not available in backtest log extract. Skipped per log gap.*
+
+### Scoring: Day 240 T+7 predictions (gate EOD 1 Nov 2026)
+*Not available in backtest log extract. Skipped per log gap.*
+
+---
+
+### Day 247 new predictions (forward log)
+
+**Trend:** ↑ Worse. Confidence: High.
+**Threat:** 4 / 5 · Severe (Threat-5 re-trigger criteria under active review given supertanker claim + post-midterm window now 48h away)
+
+**Scenario probabilities (30d):**
+- A: Negotiated framework — 9% (−1pp; Iran "studying" Vance letter but no sequencing concession; Qatar proposal "not satisfactory"; Khamenei "geographically unrestricted" directive hardens military posture; post-midterm strike threat structurally blocks diplomatic progress)
+- B: Frozen attrition — 11% (−2pp; post-midterm window now imminent; dual-track diplomacy still nominally alive via Doha talks but closing window)
+- C: Re-escalation — 80% (MODAL, +3pp; post-midterm window opens in 48h; Khamenei "geographically unrestricted" order issued; Ras Tanura fire confirmed; USS TR CSG in region; Gulf allies warned; CENTCOM plans ready; highest scenario confidence since war began)
+
+**T+1 predictions (gate EOD 2 Nov — day before US midterms):**
+- P(UKMTO or Hard-confirmed vessel incident Hormuz/Gulf/Red Sea EOD 2 Nov) = 0.70 — 5th consecutive Hit; multiple IRGC and Houthi attack vectors active; limpet/mine/projectile all confirmed; pre-midterm signalling likely to continue; ±7pp [0.63–0.77]
+- P(Iran formally rejects Qatar framework via Hard-confirmed IRNA/Araghchi statement EOD 2 Nov) = 0.30 — senior official signal "not satisfactory" building toward rejection; but Iran has incentive to keep channel open through midterms; Doha talks continuing; ±8pp [0.22–0.38]
+- P(Brent closes above $115 EOD 2 Nov) = 0.52 — Brent $113.43 close 30 Oct; Ras Tanura fire confirmed; supertanker mine claims; pre-midterm anxiety; East-West pipeline constraint; strong upward momentum; ±8pp [0.44–0.60]
+
+**T+3 predictions (gate EOD 4 Nov — day after US midterms):**
+- P(UKMTO or Hard-confirmed vessel incident Hormuz/Gulf/Red Sea EOD 4 Nov) = 0.72 — sustained cadence; post-midterm window may briefly suppress commercial willingness but IRGCN/Houthi attack rate unlikely to drop; ±7pp [0.65–0.79]
+- P(Hard-confirmed post-midterm US/Israel strike on Iran commences by EOD 4 Nov) = 0.32 — WSJ/MSNOW: strikes "as early as Nov 4"; CENTCOM ready; Trump committed to no pre-3 Nov strikes; 24-48h decision lag after midterms; Khamenei directive increases deterrence complexity; ±9pp [0.23–0.41]
+- P(Brent closes above $120 EOD 4 Nov) = 0.38 — requires strike commencement or major infrastructure hit; current $113.43; if strikes begin, Brent spike +$10-15 is likely within 24h; ±9pp [0.29–0.47]
+
+**T+7 predictions (gate EOD 8 Nov — 5 days post-midterms):**
+- P(Hard-confirmed post-midterm US/Israel strike on Iran begins before EOD 8 Nov) = 0.40 — window fully open; CENTCOM ready; USS TR CSG in position; Gulf allies warned; 48-96h typical decision lag; Khamenei "geographically unrestricted" order may complicate but not prevent; ±9pp [0.31–0.49]
+- P(Brent closes above $120 EOD 8 Nov) = 0.42 — if strike commences within window, near-certain Brent above $120; baseline probability elevated; ±9pp [0.33–0.51]
+- P(Yanbu terminal confirmed zero-load per Kpler for ≥24h before EOD 8 Nov) = 0.25 — Ras Tanura fire confirmed; East-West pipeline Sep damage; Houthi escalation continues; if post-midterm US strike triggers Khamenei proxy response, Yanbu is priority target; ±7pp [0.18–0.32]
+- P(US midterm result: Democrats gain House majority per AP/NBC call) = 0.55 — NBC/NBC polling: Democrats +52% vs Republicans +44% on Congress control; historical incumbent-party midterm losses apply; ±10pp [0.45–0.65]
+
+**Threat-5 re-trigger criteria (Day 247):**
+- Hard-confirmed Houthi missile/drone strike on Yanbu terminal with Kpler zero-load confirmed (CENTCOM/UKMTO T1) OR
+- Hard-confirmed East-West pipeline sustained shutdown reducing Red Sea exports below 2 mb/d (Aramco/Saudi Hard + Kpler) OR
+- Hard-confirmed Hormuz flows below 3 mb/d sustained ≥3 consecutive days (Kpler T2 + CENTCOM T1) OR
+- IRGCN Hard-confirmed sinking of US Navy escort vessel (CENTCOM Hard) OR
+- Trump issues public post-midterm bombing order Hard-confirmed AND CENTCOM pre-positioning observable AND Brent closes above $120 OR
+- Iran NPT withdrawal approved by SNSC and formally submitted to UN Secretary-General OR
+- Supertanker mine strike confirmed as total loss with >2 mb/d cargo spill AND CENTCOM attributes to deliberate IRGCN minelaying OR
+- Khamenei "geographically unrestricted" response activated — confirmed proxy strikes on Gulf infrastructure within 24h of any US/Israeli strike (Hard-confirmed, CENTCOM + Kpler)
