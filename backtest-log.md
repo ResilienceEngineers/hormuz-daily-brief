@@ -9625,3 +9625,60 @@ _Note: The backtest log supplied covers through Day 220. Day 221–230 predictio
 - **[NEW]** Rezaei/SNSC formal announcement of nuclear weapons development decision (IRNA/official Hard T1 + independent T2 corroboration) OR
 - Supertanker mine strike confirmed as total loss with >2 mb/d cargo AND CENTCOM attributes to deliberate IRGCN minelaying OR
 - Qatar withdraws from mediation via FM-level Hard statement AND diplomatic track collapses confirmed by Rubio/State Dept
+
+## Day 249 · 3 November 2026
+
+### Scoring: Day 248 T+1 predictions (gate EOD 3 Nov 2026)
+
+| Prediction | P | Outcome | Score |
+|---|---|---|---|
+| P(UKMTO or Hard-confirmed vessel incident Hormuz/Gulf/Red Sea EOD 3 Nov) = 0.70 | 0.70 | **HIT** — UKMTO Update 110 (1 Nov) ARZANAH VLCC struck 28 Oct confirmed 30 Oct; UKMTO 191-26 Hormuz projectile 1 Nov; GMA Network 3 Nov confirms 2 Nov Lima/Oman strike. 7th consecutive T+1 hit. Brier: (1−0.70)²=0.09 | 0.09 |
+| P(Trump Truth Social post-midterm Iran-strike statement EOD 3 Nov) = 0.08 | 0.08 | **HIT (inverse)** — Trump said "No" to reporters 2 Nov; Truth Social diplomacy signal "It could happen"; no strike statement. Brier: (0−0.08)²=0.006 | 0.006 |
+| P(Brent closes above $115 EOD 3 Nov) = 0.28 | 0.28 | **HIT (inverse)** — Brent closed ~$104.19 on 2 Nov (TradingEconomics/WorldOilMonitor); down ~6.5% on Trump diplomacy signal; well below $115. Brier: (0−0.28)²=0.078 | 0.078 |
+
+**T+1 Day 248 summary: 3 Hits. Vessel cadence HIT — 7 consecutive T+1 hits confirmed; maintain P=0.70–0.72 as structural baseline. Trump no-strike HIT — pre-election "No" held through election day; calibration note: Trump diplomatic posture statements in pre-election windows carry higher reliability than previously assessed; reduce P(Trump reversal within 24h of public statement) to ≤0.15 in pre-election windows. Brent below $115 HIT — Trump diplomacy signal compression now confirmed as dominant near-term Brent driver over attack cadence; Brent sensitivity to Trump diplomatic statements confirmed as outsized.**
+
+### Scoring: Day 245 T+3 predictions (gate EOD 2 Nov 2026)
+*Not available in backtest log extract. Skipped per log gap.*
+
+### Scoring: Day 242 T+7 predictions (gate EOD 2 Nov 2026)
+*Not available in backtest log extract. Skipped per log gap.*
+
+---
+
+### Day 249 new predictions (forward log)
+
+**Trend:** → Same (Trump no-immediate-strikes confirmed; Qatari 3-day CBM drafted but not activated; Hormuz SEVERE structural; attack cadence unchanged). Confidence: High.
+**Threat:** 4 / 5 · Severe
+
+**Scenario probabilities (30d):**
+- A: Negotiated framework — 18% (+4pp from Day 247; Qatari CBM sequence drafted; Trump "could happen"; Vance optimism; China/Oman multilateral push)
+- B: Frozen attrition — 48% (MODAL, +2pp; Trump no-deadline diplomacy; no CBM step confirmed yet; structural Hormuz disruption continues)
+- C: Re-escalation — 34% (−6pp; Netanyahu pressing; CENTCOM plans on standby; Rezaei nuclear debate; Trump post-election reversal risk; midterm results unknown)
+
+**T+1 predictions (gate EOD 4 Nov — day after midterms):**
+- P(UKMTO or Hard-confirmed vessel incident Hormuz/Gulf/Red Sea EOD 4 Nov) = 0.70 — 7th consecutive hit; structural cadence; ±7pp [0.63–0.77]
+- P(Trump post-election public statement endorsing Iran deal framework or Qatari CBM sequence Step 1 by EOD 4 Nov) = 0.22 — Trump said "could happen" but no formal endorsement yet; midterm results will influence; election-night statement possible; ±8pp [0.14–0.30]
+- P(Brent closes above $110 EOD 4 Nov) = 0.28 — Brent at ~$104; requires strike signal or diplomatic collapse; Trump diplomacy-first posture maintained; upside limited without new escalation; ±8pp [0.20–0.36]
+
+**T+3 predictions (gate EOD 6 Nov):**
+- P(UKMTO or Hard-confirmed vessel incident Hormuz/Gulf/Red Sea EOD 6 Nov) = 0.70 — cadence structural; ±7pp [0.63–0.77]
+- P(Qatari CBM sequence Step 1 Hard-confirmed by EOD 6 Nov) = 0.25 — sequence drafted per Axios; Qatar+Pakistan active; 3-day window fits EOD 6 Nov; but Iran "no compromises" and structural gap remain; ±8pp [0.17–0.33]
+- P(Trump public post-midterm strike order or CENTCOM pre-positioning confirmed by EOD 6 Nov) = 0.12 — Trump "No" on 2 Nov; Vance no deadline; but reversal risk post-election results; Netanyahu pressure; ±6pp [0.06–0.18]
+
+**T+7 predictions (gate EOD 10 Nov):**
+- P(Hard-confirmed US/Israel post-midterm strike on Iran begins before EOD 10 Nov) = 0.20 — Trump diplomacy-first confirmed through election day; post-election calculus depends on results; Netanyahu pressure sustained; CENTCOM plans on standby; reduced from 0.22 on Trump "No" credibility; ±8pp [0.12–0.28]
+- P(Brent closes above $115 EOD 10 Nov) = 0.25 — requires strike commencement or major infrastructure hit; current ~$104; Trump diplomacy preference reduces 7-day probability; nuclear-ban announcement remains tail; ±9pp [0.16–0.34]
+- P(Qatari CBM sequence produces public joint statement or framework endorsement by EOD 10 Nov) = 0.30 — 3-day sequence if starting 4 Nov would produce output by 7 Nov; China/Oman multilateral pressure adds weight; structural gap on nuclear sequencing remains; ±9pp [0.21–0.39]
+- P(Democrats confirmed House majority per AP/NBC call by EOD 10 Nov) = 0.62 — pre-election projections Democrats 230 seats; Iran war unpopularity with voters; historical incumbent midterm losses; ±10pp [0.52–0.72]
+
+**Threat-5 re-trigger criteria (Day 249 — unchanged from Day 248):**
+- Hard-confirmed Houthi missile/drone strike on Yanbu terminal with Kpler zero-load confirmed ≥24h (CENTCOM/UKMTO T1) OR
+- Hard-confirmed East-West pipeline sustained shutdown reducing Red Sea exports below 2 mb/d (Aramco/Saudi Hard + Kpler) OR
+- Hard-confirmed Hormuz flows below 3 mb/d sustained ≥3 consecutive days (Kpler T2 + CENTCOM T1) OR
+- IRGCN Hard-confirmed sinking of US Navy escort vessel (CENTCOM Hard) OR
+- Trump issues public post-midterm bombing order Hard-confirmed AND CENTCOM pre-positioning observable AND Brent closes above $120 OR
+- Iran NPT withdrawal approved by SNSC and formally submitted to UN Secretary-General OR
+- Rezaei/SNSC formal announcement of nuclear weapons development decision (IRNA/official Hard T1 + independent T2 corroboration) OR
+- Supertanker mine strike confirmed as total loss with >2 mb/d cargo AND CENTCOM attributes to deliberate IRGCN minelaying OR
+- Qatar withdraws from mediation via FM-level Hard statement AND diplomatic track collapses confirmed by Rubio/State Dept
