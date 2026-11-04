@@ -9682,3 +9682,55 @@ _Note: The backtest log supplied covers through Day 220. Day 221–230 predictio
 - Rezaei/SNSC formal announcement of nuclear weapons development decision (IRNA/official Hard T1 + independent T2 corroboration) OR
 - Supertanker mine strike confirmed as total loss with >2 mb/d cargo AND CENTCOM attributes to deliberate IRGCN minelaying OR
 - Qatar withdraws from mediation via FM-level Hard statement AND diplomatic track collapses confirmed by Rubio/State Dept
+
+## Day 250 · 4 November 2026
+
+### Scoring: Day 249 T+1 predictions (gate EOD 4 Nov 2026)
+
+| Prediction | P | Outcome | Score |
+|---|---|---|---|
+| P(UKMTO or Hard-confirmed vessel incident Hormuz/Gulf/Red Sea EOD 4 Nov) = 0.70 | 0.70 | **HIT** — UKMTO 193-26, 194-26, 195-26 (2–3 Nov); AJ liveblog 4 Nov confirms fresh tanker strike near Hormuz. 8th consecutive T+1 hit. Brier: (1−0.70)²=0.09 | 0.09 |
+| P(Trump endorses deal framework/Qatari CBM Step 1 EOD 4 Nov) = 0.22 | 0.22 | **MISS** — Trump confirmed Qeshm strike, posted "could happen" on Truth Social but no CBM Step 1 confirmed; Rezaei declared US response "not satisfactory." Brier: (0−0.22)²=0.048 | 0.048 |
+| P(Brent closes above $110 EOD 4 Nov) = 0.28 | 0.28 | **HIT (inverse)** — Brent closed ~$103.12 on 4 Nov (Investing.com); below $110 despite Qeshm strike. Brier: (0−0.28)²=0.078 | 0.078 |
+
+**T+1 Day 249 summary: 2 Hits + 1 Miss. Vessel cadence HIT — 8 consecutive T+1 hits; structural baseline P=0.70 confirmed as robust; maintain. CBM Step 1 MISS — Rezaei "not satisfactory" and Qeshm strike together confirm CBM sequencing gap is wider than assessed; reduce near-term Step 1 probability. Brent below $110 HIT — Qeshm strike absorbed without sustained Brent breakout above $110; Trump dual-track posture continues to suppress flat-price upside; market is treating "defensive limited strikes" as within the frozen-attrition envelope, not as re-escalation triggers.**
+
+### Scoring: Day 246 T+3 predictions (gate EOD 4 Nov 2026)
+*Not available in backtest log extract. Skipped per log gap.*
+
+### Scoring: Day 243 T+7 predictions (gate EOD 4 Nov 2026)
+*Not available in backtest log extract. Skipped per log gap.*
+
+---
+
+### Day 250 new predictions (forward log)
+
+**Trend:** ↑ Worse (US Qeshm strike confirmed; Iran "maximum deterrence" activated; Democrats flip Congress; attack cadence sustained). Confidence: High.
+**Threat:** 4 / 5 · Severe
+
+**Scenario probabilities (30d):**
+- A: Negotiated framework — 15% (−3pp; Rezaei "not satisfactory"; Qeshm strike narrows CBM window; Qatar channel alive but stalled)
+- B: Frozen attrition — 48% (MODAL, unchanged; US limited strikes below major-combat threshold; dual-track war-diplomacy structural; Iran "maximum deterrence" is posture not action yet)
+- C: Re-escalation — 37% (+3pp; Democratic Congress sweep; lame-duck dynamic; Qeshm re-strike; Iran European base targeting threat; Netanyahu pressure)
+
+**T+1 predictions (gate EOD 5 Nov):**
+- P(UKMTO or Hard-confirmed vessel incident Hormuz/Gulf/Red Sea EOD 5 Nov) = 0.72 — 8 consecutive hits; Qeshm strike may intensify IRGCN response tempo; raised from 0.70 baseline; ±7pp [0.65–0.79]
+- P(Trump public post-midterm strike order or CENTCOM Hard pre-positioning confirmed EOD 5 Nov) = 0.18 — Qeshm was "defensive"/limited; Trump signalled no immediate strike as midterm results emerged; but lame-duck dynamic and Netanyahu pressure elevated; ±7pp [0.11–0.25]
+- P(Iran kinetic action outside Gulf corridor confirmed EOD 5 Nov) = 0.12 — "maximum deterrence" plan activated but no kinetic action outside Gulf yet; Iran credibly threatening but threshold restraint still holding; ±6pp [0.06–0.18]
+
+**T+3 predictions (gate EOD 7 Nov):**
+- P(UKMTO or Hard-confirmed vessel incident Hormuz/Gulf/Red Sea EOD 7 Nov) = 0.72 — cadence structural; ±7pp [0.65–0.79]
+- P(Qatari CBM Step 1 Hard-confirmed by EOD 7 Nov) = 0.18 — reduced from 0.25 on Day 249; Rezaei "not satisfactory" and Qeshm strike narrow window; Qatar channel survives but sequencing gap wider; ±7pp [0.11–0.25]
+- P(Trump public full-scale strike order confirmed by EOD 7 Nov) = 0.20 — lame-duck dynamic post-Democrat sweep; Netanyahu pressure; Qeshm precedent of "defensive" strikes may escalate; but Vance still hopeful; ±8pp [0.12–0.28]
+
+**T+7 predictions (gate EOD 11 Nov):**
+- P(Hard-confirmed US major combat resumption on Iran begins before EOD 11 Nov) = 0.25 — elevated from 0.20 on Day 249; lame-duck dynamic + Netanyahu pressure + Qeshm precedent; but Trump "no immediate strike" signalling post-midterms; ±8pp [0.17–0.33]
+- P(Brent closes above $115 EOD 11 Nov) = 0.28 — requires major combat resumption or Gulf infrastructure hit; current ~$103; Qeshm absorbed without breakout; ±9pp [0.19–0.37]
+- P(Qatari CBM sequence produces Hard-confirmed public output by EOD 11 Nov) = 0.25 — reduced from 0.30 on Day 249; Rezaei rejection and Qeshm strike narrow 7-day window; ±9pp [0.16–0.34]
+- P(Iran kinetic action outside Gulf corridor confirmed before EOD 11 Nov) = 0.20 — "maximum deterrence" plan activated; European base target bank updated; but Iranian threshold restraint has held for 250 days outside the Hormuz/Gulf corridor; ±8pp [0.12–0.28]
+
+**Threat-5 re-trigger criteria (Day 250 — updated from Day 249):**
+- All Day 249 criteria maintained PLUS:
+- Iran kinetic strike on European US base Hard-confirmed (CENTCOM/NATO T1) OR
+- Iran kinetic strike on Gulf-state capital infrastructure Hard-confirmed (CENTCOM/host-nation T1) OR
+- Trump full-scale strike order issued AND CENTCOM observable (carrier group + B-2 deployment) confirmed Hard-tier AND Brent closes above $120
