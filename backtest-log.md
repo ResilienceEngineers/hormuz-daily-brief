@@ -9734,3 +9734,56 @@ _Note: The backtest log supplied covers through Day 220. Day 221–230 predictio
 - Iran kinetic strike on European US base Hard-confirmed (CENTCOM/NATO T1) OR
 - Iran kinetic strike on Gulf-state capital infrastructure Hard-confirmed (CENTCOM/host-nation T1) OR
 - Trump full-scale strike order issued AND CENTCOM observable (carrier group + B-2 deployment) confirmed Hard-tier AND Brent closes above $120
+
+## Day 251 · 5 November 2026
+
+### Scoring: Day 250 T+1 predictions (gate EOD 5 Nov 2026)
+
+| Prediction | P | Outcome | Score |
+|---|---|---|---|
+| P(UKMTO or Hard-confirmed vessel incident Hormuz/Gulf/Red Sea EOD 5 Nov) = 0.72 | 0.72 | **HIT** — UKMTO 194-26 and 195-26 (both 3 Nov); tanker struck 14NM NE Lima, Oman. 9th consecutive T+1 hit. Brier: (1−0.72)²=0.078 | 0.078 |
+| P(Trump strike order/CENTCOM Hard pre-positioning EOD 5 Nov) = 0.18 | 0.18 | **MISS** — Trump confirmed no immediate strikes post-midterm rout (Bloomberg Hard, 4 Nov). Brier: (0−0.18)²=0.032 | 0.032 |
+| P(Iran kinetic action outside Gulf corridor EOD 5 Nov) = 0.12 | 0.12 | **MISS** — No confirmed kinetic action outside Gulf corridor. Brier: (0−0.12)²=0.014 | 0.014 |
+
+**T+1 Day 250 summary: 1 Hit + 2 Misses. Vessel cadence HIT — 9 consecutive T+1 hits; structural baseline P=0.72 confirmed robust; maintain. Trump strike MISS — Bloomberg Hard confirms no immediate strikes post-Democrat sweep; lame-duck dynamic near-term reduces strike probability; reduce T+1 strike probability to 0.12. Iran outside-Gulf MISS — 9 consecutive non-events outside Gulf; "maximum deterrence" posture is declaratory not kinetic; reduce T+1 outside-Gulf probability to 0.08.**
+
+### Scoring: Day 247 T+3 predictions (gate EOD 5 Nov 2026)
+*Not available in backtest log extract. Skipped per log gap.*
+
+### Scoring: Day 244 T+7 predictions (gate EOD 5 Nov 2026)
+*Not available in backtest log extract. Skipped per log gap.*
+
+---
+
+### Day 251 new predictions (forward log)
+
+**Trend:** ↓ Better (Trump no immediate strikes; US approves Qatar MoU draft; Iran 4-country Hormuz exemption; Brent −9%). Confidence: Medium.
+**Threat:** 4 / 5 · Severe
+
+**Scenario probabilities (30d):**
+- A: Negotiated framework — 22% (+7pp; US MoU approval; Iran exemption; Brent repricing; Trump diplomatic posture)
+- B: Frozen attrition — 48% (MODAL, unchanged; structural gaps remain; Hormuz still closed operationally; Step 1 not Hard-confirmed)
+- C: Re-escalation — 30% (−7pp; Trump "no immediate strikes" reduces near-term; but Netanyahu pressure, Khamenei geographic-unlimited order, Houthi Bab al-Mandeb control maintain structural risk)
+
+**T+1 predictions (gate EOD 6 Nov):**
+- P(UKMTO or Hard-confirmed vessel incident Hormuz/Gulf/Red Sea EOD 6 Nov) = 0.70 — 9 consecutive hits; slight reduction from 0.72 as 4-country exemption may reduce attack risk for exempt-flag vessels; structural baseline maintained; ±7pp [0.63–0.77]
+- P(Iran 4-country Hormuz exemption AIS-confirmed by Kpler EOD 6 Nov) = 0.45 — exemption declared 5 Nov; Indian/Chinese vessels known to use Hormuz; AIS confirmation within 24h is plausible; ±12pp [0.33–0.57]
+- P(Qatar MoU Step 1 Hard-confirmed by EOD 6 Nov) = 0.20 — US approved draft 4 Nov; both sides engaged; but simultaneous announcement requires Iran Hard acceptance not yet issued; ±8pp [0.12–0.28]
+
+**T+3 predictions (gate EOD 8 Nov):**
+- P(UKMTO or Hard-confirmed vessel incident Hormuz/Gulf/Red Sea EOD 8 Nov) = 0.70 — cadence structural; ±7pp [0.63–0.77]
+- P(Qatar MoU Step 1 Hard-confirmed by EOD 8 Nov) = 0.28 — MoU draft approved; Iran exemption is first operational gesture; Step 1 within 72h plausible but Iran's seven-condition gap structural; ±9pp [0.19–0.37]
+- P(Trump public strike order issued by EOD 8 Nov) = 0.12 — reduced from 0.20; "no immediate strikes" and Democrat Congress sweep reduce near-term; Netanyahu pressure is structural not acute; ±6pp [0.06–0.18]
+
+**T+7 predictions (gate EOD 12 Nov):**
+- P(Hard-confirmed US major combat resumption on Iran before EOD 12 Nov) = 0.18 — reduced from 0.25 on Day 250; Trump "no immediate strikes" and Democrat Congress reduce 7-day window; Netanyahu lame-duck pressure remains; ±8pp [0.10–0.26]
+- P(Brent closes above $105 EOD 12 Nov) = 0.22 — Brent at ~$95; deal pricing dominant; requires strike resumption or Bab al-Mandeb closure; ±9pp [0.13–0.31]
+- P(Qatar MoU Step 1 Hard-confirmed public output by EOD 12 Nov) = 0.38 — MoU draft approved both sides; 7-day window is plausible for Step 1 implementation; Iran exemption operationalisation is positive signal; ±10pp [0.28–0.48]
+- P(Kpler AIS-confirms ≥3 consecutive days of exempt-nation Hormuz transits by EOD 12 Nov) = 0.42 — India/China vessels historically willing to transit; 4-country exemption is IRGCN-green-lit; ±10pp [0.32–0.52]
+
+**Threat-5 re-trigger criteria (Day 251 — maintained from Day 250):**
+- All Day 250 criteria maintained
+- Iran kinetic strike on European US base Hard-confirmed (CENTCOM/NATO T1) OR
+- Iran kinetic strike on Gulf-state capital infrastructure Hard-confirmed (CENTCOM/host-nation T1) OR
+- Trump full-scale strike order issued AND CENTCOM observable (carrier group + B-2 deployment) confirmed Hard-tier AND Brent closes above $115 OR
+- Houthi Hard-confirmed closure of Bab al-Mandeb AND Kpler zero-load Yanbu ≥24h
