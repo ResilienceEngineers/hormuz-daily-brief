@@ -9787,3 +9787,56 @@ _Note: The backtest log supplied covers through Day 220. Day 221–230 predictio
 - Iran kinetic strike on Gulf-state capital infrastructure Hard-confirmed (CENTCOM/host-nation T1) OR
 - Trump full-scale strike order issued AND CENTCOM observable (carrier group + B-2 deployment) confirmed Hard-tier AND Brent closes above $115 OR
 - Houthi Hard-confirmed closure of Bab al-Mandeb AND Kpler zero-load Yanbu ≥24h
+
+## Day 252 · 6 November 2026
+
+### Scoring: Day 251 T+1 predictions (gate EOD 6 Nov 2026)
+
+| Prediction | P | Outcome | Score |
+|---|---|---|---|
+| P(UKMTO or Hard-confirmed vessel incident Hormuz/Gulf/Red Sea EOD 6 Nov) = 0.70 | 0.70 | **HIT** — UKMTO 196-26 (5 Nov): tanker struck 50NM north of Qatar; JMIC Update 111 confirms 4 attacks/96h. 10th consecutive T+1 HIT. Brier: (1−0.70)²=0.090 | 0.090 |
+| P(Iran 4-country exemption AIS-confirmed by Kpler EOD 6 Nov) = 0.45 | 0.45 | **MISS** — Exemption declared by Iranian MP via ISNA (5 Nov, Tier 4) but no Hard-confirmed Kpler/CENTCOM AIS confirmation found by 06:00 UTC; HPCL Bloomberg confirms booking still complicated. Brier: (0−0.45)²=0.202 | 0.202 |
+| P(Qatar MoU Step 1 Hard-confirmed by EOD 6 Nov) = 0.20 | 0.20 | **MISS** — No Hard-confirmed Step 1; Qatar "bridging gap" language only; Rezaei holds 7 conditions. Brier: (0−0.20)²=0.040 | 0.040 |
+
+**T+1 Day 251 summary: 1 Hit + 2 Misses. Session Brier: 0.332. Vessel cadence HIT — 10 consecutive T+1 hits; structural baseline P=0.70 maintained. Kpler exemption MISS — exemption is Tier 4 (Iranian MP/ISNA); Hard-tier AIS confirmation within 24h was optimistic given IRGCN screening regime complexity; recalibrate AIS-confirmation prediction horizon to 48–72h. MoU Step 1 MISS — consistent with structural gap; Qatar bridging-gap language is a leading but not sufficient signal.**
+
+### Scoring: Day 248 T+3 predictions (gate EOD 6 Nov 2026)
+*Not available in backtest log extract provided. Skipped per log gap.*
+
+### Scoring: Day 245 T+7 predictions (gate EOD 6 Nov 2026)
+*Not available in backtest log extract provided. Skipped per log gap.*
+
+---
+
+### Day 252 new predictions (forward log)
+
+**Trend:** → Same. Confidence: Medium.
+**Threat:** 4 / 5 · Severe
+
+**Scenario probabilities (30d):**
+- A: Negotiated framework — 20% (−2pp; no Hard-confirmed Step 1; Kpler AIS exemption unconfirmed; Oman-Iran call positive but non-binding)
+- B: Frozen attrition — 50% (MODAL, +2pp; Iraq NOTAM and NSC meeting elevate Sc C but no Hard CENTCOM observable; structural dual-track continues)
+- C: Re-escalation — 30% (unchanged; NSC meeting + Iraq NOTAM + 9 Nov new moon are the highest-density soft-signal cluster of the war; Yanbu warning 6 Nov adds infrastructure risk)
+
+**T+1 predictions (gate EOD 7 Nov):**
+- P(UKMTO or Hard-confirmed vessel incident Hormuz/Gulf/Red Sea EOD 7 Nov) = 0.72 — 10 consecutive hits; attack cadence rising (4/96h in JMIC Update 111); structural baseline robust; slight upward revision on rising cadence; ±7pp [0.65–0.79]
+- P(CENTCOM Hard-tier observable pre-positioning confirmed by EOD 7 Nov) = 0.18 — NSC meeting 6 Nov; Iraq NOTAM 7–11 Nov; 9 Nov new moon; but no carrier/B-2 Hard signal yet; ±8pp [0.10–0.26]
+- P(Iran 4-country Hormuz exemption Kpler AIS-confirmed by EOD 7 Nov) = 0.35 — revised from 0.45; horizon extended to 48–72h per Day 251 MISS; IRGCN screening complexity; ±10pp [0.25–0.45]
+
+**T+3 predictions (gate EOD 9 Nov):**
+- P(UKMTO or Hard-confirmed vessel incident Hormuz/Gulf/Red Sea EOD 9 Nov) = 0.72 — cadence structural; ±7pp [0.65–0.79]
+- P(CENTCOM Hard observable or Trump public strike order by EOD 9 Nov) = 0.25 — 9 Nov new moon window; NSC meeting outcome; Iraq NOTAM active through 11 Nov; ±9pp [0.16–0.34]
+- P(Qatar MoU Step 1 Hard-confirmed by EOD 9 Nov) = 0.22 — Oman-Iran call and 4-country exemption are positive leading indicators; but Rezaei 7-condition gap structural; 72h window tight; ±8pp [0.14–0.30]
+
+**T+7 predictions (gate EOD 13 Nov):**
+- P(Hard-confirmed US major combat resumption on Iran before EOD 13 Nov) = 0.25 — elevated from 0.18 on Day 251; NSC meeting, Iraq NOTAM, 9 Nov new moon create highest soft-signal density of the war; lame-duck window compresses to Nov-Dec; ±9pp [0.16–0.34]
+- P(Brent closes above $110 EOD 13 Nov) = 0.25 — requires strike resumption or Yanbu/Bab al-Mandeb closure; Brent at ~$100; Rapidan 80% re-escalation but Brent already partially discounting; ±9pp [0.16–0.34]
+- P(Qatar MoU Step 1 Hard-confirmed public output by EOD 13 Nov) = 0.32 — 7-day window for Step 1 is the most plausible near-term Sc A gate; Oman-Iran call + 4-country exemption are structural pre-Step-1 confidence-building measures; ±10pp [0.22–0.42]
+- P(Kpler AIS-confirms ≥3 consecutive days of exempt-nation Hormuz transits by EOD 13 Nov) = 0.38 — exemption declared (ISNA); India/China commercially motivated; IRGCN green-lit; horizon sufficient for operationalisation; ±10pp [0.28–0.48]
+
+**Threat-5 re-trigger criteria (Day 252 — maintained from Day 251):**
+- All Day 251 criteria maintained PLUS:
+- Yanbu Kpler zero-load ≥24h Hard-confirmed (Kpler T2+) — NEW elevated trigger following Madina missile intercept 6 Nov and Ras Tanura fire capacity reduction
+- CENTCOM Hard-confirms carrier group redeployment or B-2 forward staging AND Trump public strike order issued
+- Iran kinetic strike on Gulf-state capital infrastructure Hard-confirmed (CENTCOM/host-nation T1)
+- Houthi Hard-confirmed closure of Bab al-Mandeb AND Kpler zero-load Yanbu ≥24h
