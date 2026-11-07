@@ -9840,3 +9840,58 @@ _Note: The backtest log supplied covers through Day 220. Day 221–230 predictio
 - CENTCOM Hard-confirms carrier group redeployment or B-2 forward staging AND Trump public strike order issued
 - Iran kinetic strike on Gulf-state capital infrastructure Hard-confirmed (CENTCOM/host-nation T1)
 - Houthi Hard-confirmed closure of Bab al-Mandeb AND Kpler zero-load Yanbu ≥24h
+
+## Day 253 · 7 November 2026
+
+### Scoring: Day 252 T+1 predictions (gate EOD 7 Nov 2026)
+
+| Prediction | P | Outcome | Score |
+|---|---|---|---|
+| P(UKMTO or Hard-confirmed vessel incident Hormuz/Gulf/Red Sea EOD 7 Nov) = 0.72 | 0.72 | **HIT** — UKMTO weekly overview (7 Nov): 11 attacks in 7 days to 4 Nov; 3 vessels sunk; 8 Hormuz, 3 Arabian Gulf. 11th consecutive T+1 HIT. Brier: (1−0.72)²=0.078 | 0.078 |
+| P(CENTCOM Hard-tier observable pre-positioning confirmed EOD 7 Nov) = 0.18 | 0.18 | **HIT** — USS Theodore Roosevelt confirmed departing South China Sea 4 Nov (The National 6 Nov, Axios); NYT forces "poised on Trump's order"; 3-carrier buildup confirmed Hard-tier (multiple Tier 1–2 sources). Brier: (1−0.18)²=0.672 | 0.672 |
+| P(Iran 4-country exemption Kpler AIS-confirmed EOD 7 Nov) = 0.35 | 0.35 | **MISS** — No Kpler Hard-confirmed AIS data; Hormuz weekly transits rose 325 vs 277 but causality unattributable to exemption operationalisation. Brier: (0−0.35)²=0.122 | 0.122 |
+
+**T+1 Day 252 summary: 2 Hits + 1 Miss. Session Brier: 0.872. Vessel cadence HIT — 11 consecutive T+1 hits; structural baseline P=0.72 maintained. CENTCOM observable HIT — USS Roosevelt departure, NYT "poised" report, and CENTCOM A-10 imagery constitute Hard-tier observable; original P=0.18 was under-confident given Roosevelt had already departed South China Sea 4 Nov (Day 251 data). Recalibrate: carrier-movement reports should be monitored at Tier 2+ standard; The National (Tier 2) published Roosevelt departure before EOD 7 Nov gate. Kpler exemption MISS — third consecutive miss; AIS confirmation horizon likely 10–14 days from ISNA declaration given IRGCN screening complexity; revise horizon prediction to EOD 14 Nov. Roosevelt pre-positioning HIT is a Threat-5 partial trigger signal — escalation probability rising.**
+
+### Scoring: Day 249 T+3 predictions (gate EOD 7 Nov 2026)
+*Not available in backtest log extract provided. Skipped per log gap.*
+
+### Scoring: Day 246 T+7 predictions (gate EOD 7 Nov 2026)
+*Not available in backtest log extract provided. Skipped per log gap.*
+
+---
+
+### Day 253 new predictions (forward log)
+
+**Trend:** → Same. Confidence: Medium.
+**Threat:** 4 / 5 · Severe
+
+**Scenario probabilities (30d):**
+- A: Negotiated framework — 18% (−2pp; Rezaei 7-condition block maintained; Qatar interim proposal not yet accepted)
+- B: Frozen attrition — 47% (MODAL, −3pp; Qeshm strike and Roosevelt buildup shift probability mass toward Sc C)
+- C: Re-escalation — 35% (+5pp; Qeshm AD strike confirmed post-midterms; 3-carrier buildup; NYT forces "poised"; Iraq NOTAM active; 9 Nov new moon; Trump "destroy rest of Iran" 5 Nov)
+
+**T+1 predictions (gate EOD 8 Nov):**
+- P(UKMTO or Hard-confirmed vessel incident Hormuz/Gulf/Red Sea EOD 8 Nov) = 0.72 — 11 consecutive hits; 11 attacks/week cadence is structural; baseline maintained; ±7pp [0.65–0.79]
+- P(Iran kinetic response to Qeshm strike Hard-confirmed EOD 8 Nov) = 0.20 — Qeshm strike 7 Nov is first post-midterm US kinetic action; Iranian military claims it downed a drone and is "stronger"; IRGCN may respond but Rezaei diplomatic track may suppress immediate retaliation; ±8pp [0.12–0.28]
+- P(Qatar interim nuclear proposal: Iranian Hard-confirmed acceptance or rejection EOD 8 Nov) = 0.15 — Iran "reviewing" per 7 Nov reports; 24h too short for formal SNSC response; most likely no Hard signal within 24h; ±6pp [0.09–0.21]
+
+**T+3 predictions (gate EOD 10 Nov):**
+- P(UKMTO or Hard-confirmed vessel incident EOD 10 Nov) = 0.72 — cadence structural; ±7pp [0.65–0.79]
+- P(CENTCOM Hard observable: Roosevelt confirmed in CENTCOM AOR or B-2 forward staging confirmed EOD 10 Nov) = 0.20 — Roosevelt expected mid-November; too early for AOR arrival by 10 Nov per Axios; B-2 staging would require separate Hard confirmation; ±8pp [0.12–0.28]
+- P(Iran Hard-confirmed kinetic response to Qeshm strike EOD 10 Nov) = 0.28 — 72h window includes 9 Nov new moon; IRGCN historical response cadence; counter-pressure from diplomatic track; ±9pp [0.19–0.37]
+- P(Iran 4-country exemption Kpler AIS-confirmed ≥3 days EOD 10 Nov) = 0.22 — revised from 0.35 on three consecutive misses; IRGCN screening complexity; horizon extended; ±8pp [0.14–0.30]
+
+**T+7 predictions (gate EOD 14 Nov):**
+- P(Hard-confirmed US major combat resumption on Iran by EOD 14 Nov) = 0.30 — elevated from 0.25 on Day 252; Qeshm strike pattern + Roosevelt arrival window + NYT "poised" = highest Sc C density of conflict; lame-duck pressure compressing; ±9pp [0.21–0.39]
+- P(Brent closes above $110 EOD 14 Nov) = 0.28 — requires strike escalation or Yanbu/Bab al-Mandeb closure; Brent at $97–98 on 6 Nov; gap to $110 is ~12%; Sc C trigger would close gap in 24h; ±9pp [0.19–0.37]
+- P(Qatar interim nuclear proposal Hard-confirmed Iranian acceptance by EOD 14 Nov) = 0.20 — IAEA-access draft is operationally concrete; 7-day window plausible for SNSC formal response; Rezaei 7-condition block is structural counter-weight; ±8pp [0.12–0.28]
+- P(USS Roosevelt confirmed in CENTCOM AOR by EOD 14 Nov) = 0.55 — Axios: mid-November arrival; 14 Nov is mid-November lower bound; transit time from South China Sea (spotted 4 Nov) ≈ 10–14 days; ±12pp [0.43–0.67]
+
+**Threat-5 re-trigger criteria (Day 253 — maintained from Day 252 plus):**
+- All Day 252 criteria maintained PLUS:
+- Iran kinetic response to Qeshm strike targeting Gulf-state capital infrastructure Hard-confirmed (CENTCOM/host-nation T1) — NEW trigger following 7 Nov US strike
+- USS Roosevelt confirmed in CENTCOM AOR AND CENTCOM Hard-confirms strike-configuration positioning (not just transit)
+- Trump public strike order AND Brent closes above $115 within 24h
+- Yanbu Kpler zero-load ≥24h Hard-confirmed (Kpler T2+)
+- Houthi Hard-confirmed closure of Bab al-Mandeb AND Kpler zero-load Yanbu ≥24h
