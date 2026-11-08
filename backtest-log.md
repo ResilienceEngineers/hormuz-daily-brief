@@ -9895,3 +9895,56 @@ _Note: The backtest log supplied covers through Day 220. Day 221–230 predictio
 - Trump public strike order AND Brent closes above $115 within 24h
 - Yanbu Kpler zero-load ≥24h Hard-confirmed (Kpler T2+)
 - Houthi Hard-confirmed closure of Bab al-Mandeb AND Kpler zero-load Yanbu ≥24h
+
+## Day 254 · 8 November 2026
+
+### Scoring: Day 253 T+1 predictions (gate EOD 8 Nov 2026)
+
+| Prediction | P | Outcome | Score |
+|---|---|---|---|
+| P(UKMTO or Hard-confirmed vessel incident Hormuz/Gulf/Red Sea EOD 8 Nov) = 0.72 | 0.72 | **HIT** — UKMTO 197-26 (tanker explosion 16NM E Khasab, 5 Nov); UKMTO 198-26 (bulk carrier/military forces 18NM E Khor Fakkan, 7 Nov); IRGC: 2 tankers hit mines in Hormuz (8 Nov, IRNA); CENTCOM disables M/V Huda in Gulf of Oman. 6th incident in Hormuz corridor this month. 12th consecutive T+1 HIT. Brier: (1−0.72)²=0.078 | 0.078 |
+| P(Iran kinetic response to Qeshm strike Hard-confirmed EOD 8 Nov) = 0.20 | 0.20 | **HIT** — IRGC mine claims against 2 tankers (IRNA 8 Nov); Qeshm explosions overnight 7–8 Nov (IRNA/Tasnim); IRGC downed MQ-1 drone over Qeshm (Mehr/CBS 7 Nov); IRGC Naval mine and AD kinetics confirmed as Hard-tier (IRNA state media + independent corroboration Mehr, TBSNews, AJ). Original P=0.20 was under-confident given IRGC historical same-window response cadence. Brier: (1−0.20)²=0.640 | 0.640 |
+| P(Qatar nuclear proposal: Iranian Hard-confirmed acceptance or rejection EOD 8 Nov) = 0.15 | 0.15 | **MISS** — Bagheri (7 Nov) demanded "practical US steps first"; no formal SNSC Hard-confirmed acceptance or rejection; Iran "reviewing" per AP. Original P=0.15 was well-calibrated; 24h insufficient for SNSC response. Brier: (0−0.15)²=0.023 | 0.023 |
+
+**T+1 Day 253 summary: 2 Hits + 1 Miss. Session Brier: 0.741. Vessel cadence HIT — 12 consecutive T+1 hits; structural baseline P=0.72 maintained but should be reviewed upward to P=0.78 given 6 incidents in 8 days (above 11/week weekly average). Iran kinetic response HIT — IRGC mine operations against 2 tankers and drone intercept within 24h of Qeshm strike cadence. Original P=0.20 was under-confident; recalibrate IRGC same-window kinetic response P to 0.30 baseline when prior kinetic exchange occurred within 72h. Qatar MISS — well-calibrated.**
+
+### Scoring: Day 250 T+3 predictions (gate EOD 8 Nov 2026)
+*Not available in backtest log extract provided. Skipped per log gap.*
+
+### Scoring: Day 247 T+7 predictions (gate EOD 8 Nov 2026)
+*Not available in backtest log extract provided. Skipped per log gap.*
+
+---
+
+### Day 254 new predictions (forward log)
+
+**Trend:** ↑ Worse. Confidence: Medium.
+**Threat:** 4 / 5 · Severe (maintained; dual mine + drone kinetics do not yet cross Threat-5 trigger criteria, but distance to trigger has narrowed)
+
+**Scenario probabilities (30d):**
+- A: Negotiated framework — 15% (−3pp; Bagheri "practical steps first"; CENTCOM $20M nuclear reward signals targeting intent not diplomacy; dual-kinetic exchange 7–8 Nov deepens trust deficit)
+- B: Frozen attrition — 44% (MODAL, −3pp; mine exchange + Roosevelt approach compressing decision space; lame-duck window risk elevated)
+- C: Re-escalation — 41% (+6pp; 6 Hormuz incidents in 8 days; 2-tanker mine claim; Qeshm overnight strikes; Roosevelt AOR arrival 15–20 Nov; new moon 9 Nov; IRGC "no geographical limits")
+
+**T+1 predictions (gate EOD 9 Nov):**
+- P(UKMTO or Hard-confirmed vessel incident Hormuz/Gulf/Red Sea EOD 9 Nov) = 0.78 — 12 consecutive hits; 6 incidents in 8 days signals structural acceleration above baseline; ±7pp [0.71–0.85]
+- P(CENTCOM Hard-confirmed strike on Iran target other than Qeshm/AD EOD 9 Nov) = 0.22 — 9 Nov new moon window; IRGC mine + drone kinetics may trigger escalatory US response; lame-duck pressure; ±9pp [0.13–0.31]
+- P(Iran formal closure declaration of Hormuz or escalation to full blockade Hard-confirmed EOD 9 Nov) = 0.12 — mine operations continue but formal closure carries IRGC reputational risk; most likely Iran maintains ambiguous harassment without formal closure; ±6pp [0.06–0.18]
+
+**T+3 predictions (gate EOD 11 Nov):**
+- P(UKMTO or Hard-confirmed vessel incident EOD 11 Nov) = 0.78 — cadence elevated; ±7pp [0.71–0.85]
+- P(USS Theodore Roosevelt confirmed departed Singapore toward CENTCOM AOR EOD 11 Nov) = 0.70 — Singapore port call "a few days" (Axios); departure likely 8–10 Nov; AIS confirmation expected; ±10pp [0.60–0.80]
+- P(Qatar IAEA-access bridge deal: Iran formal Hard-confirmed response EOD 11 Nov) = 0.25 — Bagheri "practical steps" condition is a delay frame; SNSC response cycle typically 5–7 days; ±9pp [0.16–0.34]
+- P(CENTCOM Hard strike on Iran kinetic assets in Hormuz EOD 11 Nov) = 0.30 — mine operations against commercial shipping are CENTCOM red line per prior statements; 72h response window elevated; ±10pp [0.20–0.40]
+
+**T+7 predictions (gate EOD 15 Nov):**
+- P(Hard-confirmed US major combat resumption on Iran by EOD 15 Nov) = 0.35 — elevated from 0.30 on Day 253; Roosevelt AOR arrival window 15–20 Nov; CENTCOM nuclear task force; mine exchange; 9 Nov new moon; lame-duck pressure; ±10pp [0.25–0.45]
+- P(Brent closes above $110 EOD 15 Nov) = 0.32 — Brent ~$97–98; 2-tanker mine claim adds ~$2–3 risk premium; Sc C trigger would gap to $110+ within 24h; ±10pp [0.22–0.42]
+- P(USS Roosevelt confirmed in CENTCOM AOR by EOD 15 Nov) = 0.65 — revised up from 0.55; Singapore port call 5 Nov + "a few days" departure + 10-day transit = AOR arrival ~18–20 Nov upper end; 15 Nov is lower bound; ±12pp [0.53–0.77]
+- P(Qatar IAEA-access bridge deal Hard-confirmed Iranian acceptance by EOD 15 Nov) = 0.18 — dual kinetics and CENTCOM task force deepen trust deficit; Bagheri "practical steps" creates structural delay; ±8pp [0.10–0.26]
+
+**Threat-5 re-trigger criteria (Day 254 — maintained from Day 253 plus):**
+- All Day 253 criteria maintained PLUS:
+- UKMTO Hard-confirmed mine detonation on a US-Navy-escorted commercial vessel — NEW following IRGC mine claims against 2 tankers 8 Nov
+- CENTCOM Hard-confirms kinetic strike on IRGC mine-laying vessels in Hormuz — escalation ladder rung not yet triggered
+- Houthi Hard-confirmed seizure of Mayyun Island OR Kpler zero-load Yanbu ≥24h
