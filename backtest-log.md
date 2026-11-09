@@ -9948,3 +9948,56 @@ _Note: The backtest log supplied covers through Day 220. Day 221–230 predictio
 - UKMTO Hard-confirmed mine detonation on a US-Navy-escorted commercial vessel — NEW following IRGC mine claims against 2 tankers 8 Nov
 - CENTCOM Hard-confirms kinetic strike on IRGC mine-laying vessels in Hormuz — escalation ladder rung not yet triggered
 - Houthi Hard-confirmed seizure of Mayyun Island OR Kpler zero-load Yanbu ≥24h
+
+## Day 255 · 9 November 2026
+
+### Scoring: Day 254 T+1 predictions (gate EOD 9 Nov 2026)
+
+| Prediction | P | Outcome | Score |
+|---|---|---|---|
+| P(UKMTO or Hard-confirmed vessel incident Hormuz/Gulf/Red Sea EOD 9 Nov) = 0.78 | 0.78 | **HIT** — IRGC claimed 3 tankers ablaze Hormuz 8 Nov (Al Arabiya/IRNA); UKMTO corroboration of tanker fire off Khasab (advisory linked to 7–8 Nov); Iran reports "no unauthorized transits overnight" after navigation aids destroyed (Gulf News 9 Nov); 13th consecutive T+1 hit. Brier: (1−0.78)²=0.048 | 0.048 |
+| P(CENTCOM Hard-confirmed strike on Iran target other than Qeshm/AD EOD 9 Nov) = 0.22 | 0.22 | **MISS** — No new CENTCOM hard strike confirmed EOD 9 Nov; Trump told CNN strikes "highly unlikely" if diplomacy progresses; new moon window passed without major kinetics. P=0.22 well-calibrated. Brier: (0−0.22)²=0.048 | 0.048 |
+| P(Iran formal closure declaration of Hormuz or escalation to full blockade EOD 9 Nov) = 0.12 | 0.12 | **MISS** — No formal closure; Iran claims "no unauthorized transits" overnight but no SNSC formal closure declaration. P=0.12 well-calibrated. Brier: (0−0.12)²=0.014 | 0.014 |
+
+**T+1 Day 254 summary: 1 Hit + 2 Misses. Session Brier: 0.110. Vessel cadence HIT — 13 consecutive T+1 hits; structural baseline P=0.78 maintained. No major new CENTCOM kinetic strike on new moon; Trump's "highly unlikely" CNN signal explains miss. Iran formal closure MISS well-calibrated. Brent -7.8% weekly fall signals diplomatic premium — recalibrate Sc A probability upward by +3pp (from 15% → 18%) reflecting Trump CNN interview and scheduled Qatar PM meeting 10 Nov.**
+
+### Scoring: Day 251 T+3 predictions (gate EOD 9 Nov 2026)
+*Not available in backtest log extract provided. Skipped per log gap.*
+
+### Scoring: Day 248 T+7 predictions (gate EOD 9 Nov 2026)
+*Not available in backtest log extract provided. Skipped per log gap.*
+
+---
+
+### Day 255 new predictions (forward log)
+
+**Trend:** ↑ Worse (structural). Confidence: Medium. Note: Brent weekly -7.8% and Trump CNN signal create counter-signal to worsening operational trend; scenario probability shifts modestly toward de-escalation.
+**Threat:** 4 / 5 · Severe (maintained; dual-track military/diplomatic; no Threat-5 trigger criteria met)
+
+**Scenario probabilities (30d):**
+- A: Negotiated framework — 18% (+3pp; Trump "highly unlikely to strike" if deal; Qatar PM meeting 10 Nov WH; Araghchi multilateral outreach 7 Nov; Brent -7.8% diplomatic discount; counter-signal: Rubio "demands outrageous")
+- B: Frozen attrition — 43% (MODAL, −1pp; dual-track active; mine exchange structural; Roosevelt AOR arrival imminent; no breakthrough observable)
+- C: Re-escalation — 39% (−2pp; new moon passed without major US kinetic; IRGC 12-ship mine claim; Roosevelt arrival 18–20 Nov still a trigger window; Task Force Iron Gate = escalation ladder rung)
+
+**T+1 predictions (gate EOD 10 Nov):**
+- P(UKMTO or Hard-confirmed vessel incident Hormuz/Gulf/Red Sea EOD 10 Nov) = 0.78 — 13 consecutive hits; structural cadence unchanged; ±7pp [0.71–0.85]
+- P(Trump–Qatar PM meeting produces Hard-confirmed joint statement or Iranian response EOD 10 Nov) = 0.20 — meeting scheduled WH 10 Nov; Qatar has mediated proposals; Iran's demands "outrageous" per Rubio; most likely Qatar conveys terms without public breakthrough; ±9pp [0.11–0.29]
+- P(CENTCOM Hard-confirmed new strike on Iran EOD 10 Nov) = 0.15 — Trump "highly unlikely" signal; G7 Paris window; reduced from 0.22 on new moon miss; ±7pp [0.08–0.22]
+
+**T+3 predictions (gate EOD 12 Nov):**
+- P(UKMTO or Hard-confirmed vessel incident EOD 12 Nov) = 0.78 — cadence elevated; ±7pp [0.71–0.85]
+- P(Qatar IAEA-access bridge deal: Iran formal Hard-confirmed response EOD 12 Nov) = 0.28 — Araghchi multilateral outreach 7 Nov; Qatar PM WH meeting 10 Nov; Trump deal conditions public; SNSC response cycle 5–7 days from first contact; ±9pp [0.19–0.37]
+- P(USS Roosevelt confirmed in CENTCOM AOR EOD 12 Nov) = 0.15 — departed Singapore 8 Nov; Strait of Malacca transit; AOR arrival ~18–20 Nov; 12 Nov is too early; ±5pp [0.10–0.20]
+
+**T+7 predictions (gate EOD 16 Nov):**
+- P(Hard-confirmed US major combat resumption on Iran by EOD 16 Nov) = 0.30 — reduced from 0.35 on Day 254; Trump "highly unlikely" signal; Qatar PM meeting; G7 Paris; Roosevelt AOR window opens ~18–20 Nov so 16 Nov is edge of window; ±10pp [0.20–0.40]
+- P(Brent closes above $105 EOD 16 Nov) = 0.25 — Brent $98 currently; +7.8% weekly recovery possible if Roosevelt arrival triggers risk premium; diplomatic track suppresses; ±10pp [0.15–0.35]
+- P(USS Roosevelt confirmed in CENTCOM AOR by EOD 16 Nov) = 0.35 — departed 8 Nov; transit ~10 days; 16 Nov is lower bound; ±12pp [0.23–0.47]
+- P(Qatar IAEA-access bridge deal Hard-confirmed Iranian acceptance by EOD 16 Nov) = 0.20 — +2pp from Day 254 on Trump CNN + Qatar PM signals; still low given Rubio "demands outrageous"; ±8pp [0.12–0.28]
+
+**Threat-5 re-trigger criteria (Day 255 — maintained):**
+- All Day 254 criteria maintained
+- UKMTO Hard-confirmed mine detonation on a US-Navy-escorted commercial vessel
+- CENTCOM Hard-confirms kinetic strike on IRGC mine-laying vessels in Hormuz
+- Houthi Hard-confirmed seizure of Mayyun Island OR Kpler zero-load Yanbu ≥24h
+- Roosevelt AOR arrival confirmed + 3-carrier simultaneous strike posture Hard-confirmed
