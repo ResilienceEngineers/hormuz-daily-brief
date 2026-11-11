@@ -10055,3 +10055,58 @@ _Note: The backtest log supplied covers through Day 220. Day 221–230 predictio
 - Houthi Hard-confirmed seizure of additional Red Sea infrastructure OR Kpler zero-load Yanbu ≥24h
 - USS Roosevelt AOR arrival confirmed + 3-carrier simultaneous strike posture Hard-confirmed by CENTCOM
 - Iran formal Hormuz closure declaration (SNSC level, not IRGC-only)
+
+## Day 257 · 11 November 2026
+
+### Scoring: Day 256 T+1 predictions (gate EOD 11 Nov 2026)
+
+| Prediction | P | Outcome | Score |
+|---|---|---|---|
+| P(UKMTO or Hard-confirmed vessel incident Hormuz/Gulf/Red Sea EOD 11 Nov) = 0.78 | 0.78 | **HIT** — UKMTO Warning 201-26 (10 Nov): tanker struck 19nm NE of Limah, Oman at 1338 UTC; second UKMTO advisory issued late 11 Nov (tanker incident Strait of Hormuz, crew status unknown per Anadolu Agency); ADNOC vessel hit in UAE territorial waters afternoon 10 Nov (WAM/AA confirmed). Triple Hard-tier confirmation. 15th consecutive T+1 hit. Brier: (1−0.78)²=0.048 | 0.048 |
+| P(Hard-confirmed Vance–Rezaei Doha meeting date announced EOD 11 Nov) = 0.12 | 0.12 | **MISS** — Rezaei on Al Mayadeen TV 11 Nov called US negotiation reports "pure lies"; Araghchi denied 10 Nov (Iran Intl/WANA); senior SNSC official denied 9 Nov (Tasnim). No date announced. Brier: (0−0.12)²=0.014 | 0.014 |
+| P(CENTCOM Hard-confirmed new strike on Iran EOD 11 Nov) = 0.10 | 0.10 | **MISS** — Trump "effectively over"; no CENTCOM kinetic confirmed; naval blockade and Iron Gate operational but no new combat strike. Brier: (0−0.10)²=0.010 | 0.010 |
+
+**T+1 Day 256 summary: 2 Misses + 1 Hit. Session Brier: 0.072 — well-calibrated. Vessel cadence HIT (15th consecutive); diplomatic meeting MISS well-calibrated at P=0.12 (Iran sustained denial position). CENTCOM no-strike MISS well-calibrated at P=0.10. No recalibration required.**
+
+### Scoring: Day 253 T+3 predictions (gate EOD 11 Nov 2026)
+*Not available in backtest log extract provided. Skipped per log gap.*
+
+### Scoring: Day 250 T+7 predictions (gate EOD 11 Nov 2026)
+*Not available in backtest log extract provided. Skipped per log gap.*
+
+---
+
+### Day 257 new predictions (forward log)
+
+**Trend:** → Same (structural). Confidence: Medium. IRGC maritime campaign 15-hit streak intact; dual-track (Trump restraint + Iran denial) locked in stalemate; Brent -11.3% w/w diplomatic discount persists but Houthi Riyadh missile fire + pipeline strike and Iran-Russia counter-Iron Gate cooperation are re-escalatory signals below Threat-5 threshold.
+**Threat:** 4 / 5 · Severe (maintained; dual-track active; no Threat-5 trigger criteria met; Roosevelt still in transit)
+
+**Scenario probabilities (30d):**
+- A: Negotiated framework — 22% (−3pp; Rezaei "pure lies" on Al Mayadeen 11 Nov hardens denial; Araghchi sustained denial 10 Nov; Iran-Russia counter-Iron Gate cooperation signals hardening posture; counter-signal: Democrat pressure + Qatar channel + Kalin Doha claim still live)
+- B: Frozen attrition — 46% (MODAL, +4pp; structural stalemate locked; Iran sustained denial; IRGC maritime campaign structural; Roosevelt AOR arrival imminent but no kinetic directive; Iron Gate vs Iran-Russia counter-cooperation = deadlock)
+- C: Re-escalation — 32% (−1pp; Houthi missile fire at Riyadh + pipeline hit 10 Nov; Iran-Russia counter-Iron Gate cooperation; Netanyahu pressing Trump daily per Fox; Roosevelt AOR arrival mid-Nov = trigger window opens; "locked and loaded" reservation maintained)
+
+**T+1 predictions (gate EOD 12 Nov 2026):**
+- P(UKMTO or Hard-confirmed vessel incident Hormuz/Gulf/Red Sea EOD 12 Nov) = 0.78 — 15 consecutive hits; structural cadence unchanged; ±7pp [0.71–0.85]
+- P(Hard-confirmed Vance–Rezaei Doha meeting date announced EOD 12 Nov) = 0.10 — Rezaei "pure lies" 11 Nov most emphatic denial to date; structural barrier remains; ±5pp [0.05–0.15]
+- P(CENTCOM Hard-confirmed new strike on Iran EOD 12 Nov) = 0.10 — Trump "effectively over" + Democrat midterm pressure; ±5pp [0.05–0.15]
+
+**T+3 predictions (gate EOD 14 Nov 2026):**
+- P(UKMTO or Hard-confirmed vessel incident EOD 14 Nov) = 0.78 — cadence elevated; ±7pp [0.71–0.85]
+- P(USS Roosevelt confirmed in CENTCOM AOR EOD 14 Nov) = 0.20 — departed 8 Nov Singapore; "not before mid-November"; 14 Nov is leading edge of window; ±8pp [0.12–0.28]
+- P(Hard-confirmed Iran-Russia joint action to counter Iron Gate, e.g. Caspian shipment confirmed) = 0.18 — DFM meeting confirmed 10 Nov (ISW/CTP); operational follow-through within 72h plausible; ±8pp [0.10–0.26]
+
+**T+7 predictions (gate EOD 18 Nov 2026):**
+- P(USS Roosevelt confirmed in CENTCOM AOR by EOD 18 Nov) = 0.72 — departed 8 Nov; transit ~7–10 days; 18 Nov comfortably within window; ±10pp [0.62–0.82]
+- P(Hard-confirmed US major combat resumption on Iran by EOD 18 Nov) = 0.20 — Trump "effectively over" + Democrat midterm pressure; "locked and loaded" reservation; Roosevelt AOR window opens ~15–20 Nov; ±10pp [0.10–0.30]
+- P(Brent closes above $95 EOD 18 Nov) = 0.42 — currently ~$91.86; Roosevelt arrival + no deal = risk premium recovery possible; Houthi Riyadh fire + pipeline hit add upward pressure; ±10pp [0.32–0.52]
+- P(Vance–Rezaei Doha meeting Hard-confirmed by EOD 18 Nov) = 0.22 — Kalin confirmed Qatar plans for "next week" (w/c 16 Nov); Rezaei "pure lies" 11 Nov most emphatic denial yet; gap real but backchannel exists; ±10pp [0.12–0.32]
+
+**Threat-5 re-trigger criteria (Day 257 — maintained + updated):**
+- All Day 256 criteria maintained PLUS:
+- UKMTO Hard-confirmed mine detonation on a US-Navy-escorted commercial vessel
+- CENTCOM Hard-confirms kinetic strike on IRGC mine-laying vessels in Hormuz
+- Houthi Hard-confirmed seizure of additional Red Sea infrastructure OR Kpler zero-load Yanbu ≥24h
+- USS Roosevelt AOR arrival confirmed + 3-carrier simultaneous strike posture Hard-confirmed by CENTCOM
+- Iran formal Hormuz closure declaration (SNSC level, not IRGC-only)
+- Russia Hard-confirmed weapons shipment to Iran via Caspian in direct defiance of Iron Gate + CENTCOM response
