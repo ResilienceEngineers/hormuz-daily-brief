@@ -10110,3 +10110,56 @@ _Note: The backtest log supplied covers through Day 220. Day 221–230 predictio
 - USS Roosevelt AOR arrival confirmed + 3-carrier simultaneous strike posture Hard-confirmed by CENTCOM
 - Iran formal Hormuz closure declaration (SNSC level, not IRGC-only)
 - Russia Hard-confirmed weapons shipment to Iran via Caspian in direct defiance of Iron Gate + CENTCOM response
+
+## Day 258 · 12 November 2026
+
+### Scoring: Day 257 T+1 predictions (gate EOD 12 Nov 2026)
+
+| Prediction | P | Outcome | Score |
+|---|---|---|---|
+| P(UKMTO or Hard-confirmed vessel incident Hormuz/Gulf/Red Sea EOD 12 Nov) = 0.78 | 0.78 | **HIT** — UKMTO tanker advisory 11 Nov (Bernama/Anadolu, Arab News, MEE, MNA confirmed); IRGC struck Didamar Island (Oman) navigation systems 11 Nov (Reuters 3-source + Copernicus + IRGC claim); 16th consecutive T+1 hit. Brier: (1−0.78)²=0.048 | 0.048 |
+| P(Hard-confirmed Vance–Rezaei Doha meeting date announced EOD 12 Nov) = 0.10 | 0.10 | **MISS** — WSJ 11 Nov: "discussions remain preliminary," no date set; Iran sustained denial; Rezaei responded with European-bases threat. Brier: (0−0.10)²=0.010 | 0.010 |
+| P(CENTCOM Hard-confirmed new strike on Iran EOD 12 Nov) = 0.10 | 0.10 | **MISS** — No new CENTCOM kinetic strike confirmed 12 Nov; Qeshm (2 Nov) remains most recent. Brier: (0−0.10)²=0.010 | 0.010 |
+
+**T+1 Day 257 summary: 2 Misses + 1 Hit. Session Brier: 0.068 — well-calibrated. Vessel cadence HIT (16th consecutive); diplomatic meeting MISS well-calibrated at P=0.10; CENTCOM no-strike MISS well-calibrated at P=0.10. No recalibration required.**
+
+### Scoring: Day 254 T+3 predictions (gate EOD 12 Nov 2026)
+*Not available in backtest log extract provided. Skipped per log gap.*
+
+### Scoring: Day 251 T+7 predictions (gate EOD 12 Nov 2026)
+*Not available in backtest log extract provided. Skipped per log gap.*
+
+---
+
+### Day 258 new predictions (forward log)
+
+**Trend:** → Same (structural). Confidence: Medium. IRGC maritime campaign 16-hit streak; Didamar Island nav-infrastructure strike escalates southern corridor threat; Rezaei European-bases threat + missile-range-limit abandonment = hardened posture; Roosevelt AOR arrival "coming week" = highest-consequence fortnight of the war.
+**Threat:** 4 / 5 · Severe (maintained; Didamar sovereign-territory strike escalatory but no Threat-5 trigger criteria met; Roosevelt not yet confirmed in AOR)
+
+**Scenario probabilities (30d):**
+- A: Negotiated framework — 20% (−2pp; WSJ "preliminary" framing; Rezaei European-bases threat same day as Vance overture; Araghchi seven conditions unchanged; counter-signal: Vance personally driving talks; Kalin Qatar "next week" claim; midterm Democrat wins)
+- B: Frozen attrition — 47% (MODAL, +1pp; structural stalemate locked; Iran sustained denial; IRGC maritime campaign + Didamar escalation structural; Roosevelt arrival does not automatically produce strike directive; Iron Gate vs Iran-Russia counter-cooperation = deadlock)
+- C: Re-escalation — 33% (+1pp; Roosevelt AOR "coming week" = three-carrier config imminent; Didamar sovereign-territory strike escalatory; Iran abandoned 2,000 km missile-range limit; Israeli CW warning; Rezaei "no safe distance, no safe haven")
+
+**T+1 predictions (gate EOD 13 Nov 2026):**
+- P(UKMTO or Hard-confirmed vessel incident Hormuz/Gulf/Red Sea EOD 13 Nov) = 0.78 — 16 consecutive hits; structural cadence unchanged; ±7pp [0.71–0.85]
+- P(Hard-confirmed Vance–Rezaei Doha meeting date announced EOD 13 Nov) = 0.10 — Rezaei European-bases threat 12 Nov = hardest posture yet; structural barrier remains; ±5pp [0.05–0.15]
+- P(USS Roosevelt confirmed in CENTCOM AOR EOD 13 Nov) = 0.12 — departed Singapore 8–9 Nov; "coming week" estimate; 13 Nov is leading edge of window but AOR boundary unclear; ±5pp [0.07–0.17]
+
+**T+3 predictions (gate EOD 15 Nov 2026):**
+- P(UKMTO or Hard-confirmed vessel incident EOD 15 Nov) = 0.78 — cadence elevated; ±7pp [0.71–0.85]
+- P(USS Roosevelt confirmed in CENTCOM AOR EOD 15 Nov) = 0.42 — "coming week" per National Interest (10 Nov); 15 Nov mid-range of window; ±10pp [0.32–0.52]
+- P(Hard-confirmed Didamar Island nav systems replaced/restored OR CENTCOM reroutes escort corridor) = 0.25 — shipping sources say backups exist; CENTCOM operational interest in rapid restoration; ±8pp [0.17–0.33]
+
+**T+7 predictions (gate EOD 19 Nov 2026):**
+- P(USS Roosevelt confirmed in CENTCOM AOR by EOD 19 Nov) = 0.82 — "coming week" window centres 15–19 Nov; ±8pp [0.74–0.90]
+- P(Hard-confirmed US major combat resumption on Iran by EOD 19 Nov) = 0.20 — Trump "highly unlikely" while Qatar channel active; "locked and loaded" reservation; Roosevelt AOR arrival = trigger window; ±10pp [0.10–0.30]
+- P(Brent closes above $95 EOD 19 Nov) = 0.38 — currently ~$91.62; Roosevelt arrival + Didamar escalation + Rezaei threat = risk premium recovery possible; Doha meeting materialising = downward pressure; ±10pp [0.28–0.48]
+- P(Vance–Rezaei Doha meeting Hard-confirmed by EOD 19 Nov) = 0.18 — Kalin "next week" claim (w/c 16 Nov); Rezaei European-bases threat = hardest posture yet; structural barrier at maximum; ±8pp [0.10–0.26]
+
+**Threat-5 re-trigger criteria (Day 258 — maintained + updated):**
+- All Day 257 criteria maintained PLUS:
+- IRGC second strike on Omani navigation infrastructure confirmed + CENTCOM public response (kinetic or formal protest = escalation threshold)
+- Hard-confirmed Russian military shipment to Iran via Caspian + CENTCOM Iron Gate interdiction attempt
+- Rezaei missile actually fired at a European US base (even if intercepted) = Article 5 trigger candidate
+- Vance–Rezaei Doha meeting collapses publicly after being confirmed = diplomatic path formally closed, Sc C +10pp
