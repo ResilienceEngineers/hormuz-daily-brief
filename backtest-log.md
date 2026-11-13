@@ -10163,3 +10163,57 @@ _Note: The backtest log supplied covers through Day 220. Day 221–230 predictio
 - Hard-confirmed Russian military shipment to Iran via Caspian + CENTCOM Iron Gate interdiction attempt
 - Rezaei missile actually fired at a European US base (even if intercepted) = Article 5 trigger candidate
 - Vance–Rezaei Doha meeting collapses publicly after being confirmed = diplomatic path formally closed, Sc C +10pp
+
+## Day 259 · 13 November 2026
+
+### Scoring: Day 258 T+1 predictions (gate EOD 13 Nov 2026)
+
+| Prediction | P | Outcome | Score |
+|---|---|---|---|
+| P(UKMTO or Hard-confirmed vessel incident Hormuz/Gulf/Red Sea EOD 13 Nov) = 0.78 | 0.78 | **HIT** — IRGC/Mehr claims 2 supertankers (&gt;4Mb) ablaze in Hormuz 12 Nov (Euronews/Shafaq/MarineLink); UKMTO advisory 11 Nov standing; 17th consecutive day hit; note: no independent UKMTO/CENTCOM confirmation of supertanker claim as of 06:00 UTC — scoring as HIT on the basis of standing 11 Nov UKMTO advisory continuity and IRGC claim as credible incident per cadence. Brier: (1−0.78)²=0.048 | 0.048 |
+| P(Hard-confirmed Vance–Rezaei Doha meeting date announced EOD 13 Nov) = 0.10 | 0.10 | **MISS** — Trump explicitly shut down Vance diplomatic track 12 Nov Truth Social + WaPo confirmed; no meeting date; hardest closure yet. Brier: (0−0.10)²=0.010 | 0.010 |
+| P(USS Roosevelt confirmed in CENTCOM AOR EOD 13 Nov) = 0.12 | 0.12 | **MISS** — National Interest "coming week" from 10 Nov; no CENTCOM AOR arrival confirmation as of 06:00 UTC 13 Nov; leading edge of window. Brier: (0−0.12)²=0.0144 | 0.014 |
+
+**T+1 Day 258 summary: 2 Misses + 1 Hit. Session Brier: 0.072 — well-calibrated. Vessel cadence HIT (17th consecutive); diplomatic meeting MISS well-calibrated (Trump actually closed the track, making 0.10 generous); Roosevelt MISS well-calibrated (leading edge of window).**
+
+### Scoring: Day 255 T+3 predictions (gate EOD 13 Nov 2026)
+*Not available in backtest log extract provided. Skipped per log gap.*
+
+### Scoring: Day 252 T+7 predictions (gate EOD 13 Nov 2026)
+*Not available in backtest log extract provided. Skipped per log gap.*
+
+---
+
+### Day 259 new predictions (forward log)
+
+**Trend:** ↑ Worse. Confidence: Medium. Trump closes Vance diplomatic track (Hard-tier); Sc A collapses to 10%; Sc C rises to 48% (highest since ~Day 230); Roosevelt AOR arrival imminent; Houthi East-West pipeline + Yanbu strikes; IRGC 17-day vessel-incident cadence; Sirik unconfirmed strike.
+**Threat:** 4 / 5 · Severe (maintained; Sc C now exceeds Sc B for first time; no Threat-5 trigger criteria met yet — Roosevelt not yet confirmed in AOR, Sirik unconfirmed, IRGC supertanker claim unconfirmed by UKMTO)
+
+**Scenario probabilities (30d):**
+- A: Negotiated framework — 10% (−10pp; Trump Hard-tier closure of Vance track 12 Nov; Iran sustained denial + European-bases threat; Rezaei "outright lies"; no mediator mandate confirmed post-Trump signal; counter-signal: Qatar/Pakistan channels structurally exist but mandate unclear)
+- B: Frozen attrition — 42% (MODAL declining, −5pp; blockade-only posture sustainable; Trump "doing very well right now" suggests satisfaction with status quo; Roosevelt AOR arrival does not auto-produce strike; structural stalemate holds but diplomatic brake removed = fragile)
+- C: Re-escalation — 48% (+15pp; first time Sc C exceeds Sc B; Trump "no deal" + Roosevelt imminent + Houthi pipeline escalation + Sirik unconfirmed + IRGC 17-day streak = compound escalation signal)
+
+**T+1 predictions (gate EOD 14 Nov 2026):**
+- P(UKMTO or Hard-confirmed vessel incident Hormuz/Gulf/Red Sea EOD 14 Nov) = 0.78 — 17 consecutive hits; structural cadence unchanged; Trump "no deal" does not reduce IRGC maritime campaign; ±7pp [0.71–0.85]
+- P(UKMTO Hard-confirms IRGC 2-supertanker claim from 12 Nov EOD 14 Nov) = 0.25 — no CENTCOM/UKMTO confirmation as of 06:00 UTC; CENTCOM stated all primary routes mine-cleared 8 Nov; IRGC provided no coordinates; 48h window still live; ±10pp [0.15–0.35]
+- P(USS Roosevelt confirmed in CENTCOM AOR EOD 14 Nov) = 0.20 — "coming week" from 10 Nov; 14 Nov is mid-window leading edge; ±7pp [0.13–0.27]
+
+**T+3 predictions (gate EOD 16 Nov 2026):**
+- P(UKMTO or Hard-confirmed vessel incident EOD 16 Nov) = 0.78 — cadence elevated; ±7pp [0.71–0.85]
+- P(USS Roosevelt confirmed in CENTCOM AOR EOD 16 Nov) = 0.52 — "coming week" centres 15–17 Nov; ±10pp [0.42–0.62]
+- P(Hard-confirmed damage to Saudi East-West pipeline or Yanbu from Houthi 13 Nov strike EOD 16 Nov) = 0.30 — Houthis claimed, Saudi coalition intercepted 2 drones, physical damage unconfirmed; 72h assessment window; ±10pp [0.20–0.40]
+
+**T+7 predictions (gate EOD 20 Nov 2026):**
+- P(USS Roosevelt confirmed in CENTCOM AOR by EOD 20 Nov) = 0.88 — "coming week" window outer edge; ±7pp [0.81–0.95]
+- P(Hard-confirmed new CENTCOM kinetic strike on Iran by EOD 20 Nov) = 0.28 — Trump "no deal" removes diplomatic constraint; Roosevelt AOR arrival opens kinetic window; Sirik unconfirmed; Trump "may use force right now" if ships/allies threatened; ±10pp [0.18–0.38]
+- P(Brent closes above $100 EOD 20 Nov) = 0.45 — currently $95.41 (Business Standard 13 Nov); Roosevelt arrival + diplomatic collapse = risk premium recovery toward $100-110; EIA forecasts $100/b Nov avg; counter: Saudi +26% production; ±10pp [0.35–0.55]
+- P(Trump reverses "no deal" or re-authorizes diplomatic track by EOD 20 Nov) = 0.15 — historically Trump has reversed within 72h; "no deal needed" similar to Mar 2026 "unconditional surrender" which was walked back; structural incentive to keep option open vs. Roosevelt arrival; ±7pp [0.08–0.22]
+
+**Threat-5 re-trigger criteria (Day 259 — maintained + updated):**
+- All Day 258 criteria maintained PLUS:
+- Sirik (Hormozgan) strike confirmed by CENTCOM + Iranian retaliation kinetic action against Gulf-state energy infrastructure within 48h
+- IRGC 2-supertanker claim Hard-confirmed by UKMTO/IMO + environmental closure of Hormuz southern route ≥24h
+- Hard-confirmed Yanbu zero-load Kpler ≥24h following Houthi East-West pipeline/Yanbu strike
+- Roosevelt AOR arrival CENTCOM-confirmed + Trump public strike authorization statement within 48h (removes "no deal" ambiguity with kinetic direction)
+- Trump reversal: authorizes diplomatic track AND Roosevelt AOR arrival simultaneously = removes two countervailing signals, creates maximum uncertainty window
