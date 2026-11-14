@@ -10217,3 +10217,56 @@ _Note: The backtest log supplied covers through Day 220. Day 221–230 predictio
 - Hard-confirmed Yanbu zero-load Kpler ≥24h following Houthi East-West pipeline/Yanbu strike
 - Roosevelt AOR arrival CENTCOM-confirmed + Trump public strike authorization statement within 48h (removes "no deal" ambiguity with kinetic direction)
 - Trump reversal: authorizes diplomatic track AND Roosevelt AOR arrival simultaneously = removes two countervailing signals, creates maximum uncertainty window
+
+## Day 260 · 14 November 2026
+
+### Scoring: Day 259 T+1 predictions (gate EOD 14 Nov 2026)
+
+| Prediction | P | Outcome | Score |
+|---|---|---|---|
+| P(UKMTO or Hard-confirmed vessel incident Hormuz/Gulf/Red Sea EOD 14 Nov) = 0.78 | 0.78 | **HIT** — UKMTO weekly overview (MEE, 14 Nov 05:29 GMT) confirms 7 tanker attacks week to 11 Nov; latest 11 Nov engine-room strike 14nm NW Ras al-Khaimah, crew evacuated; cadence confirmed; Brier: (1−0.78)²=0.048 | 0.048 |
+| P(UKMTO Hard-confirms IRGC 2-supertanker claim from 12 Nov EOD 14 Nov) = 0.25 | 0.25 | **MISS** — UKMTO weekly confirms 7 attacks but no sinkings in period; no CENTCOM/UKMTO supertanker confirmation found; claim assessed as IRGC propaganda; Brier: (0−0.25)²=0.0625 | 0.063 |
+| P(USS Roosevelt confirmed in CENTCOM AOR EOD 14 Nov) = 0.20 | 0.20 | **MISS** — No CENTCOM AOR arrival confirmation; "mid-November" window ongoing; Brier: (0−0.20)²=0.040 | 0.040 |
+
+**T+1 Day 259 summary: 2 Misses + 1 Hit. Session Brier: 0.151 — well-calibrated. Vessel cadence HIT (18th consecutive); supertanker MISS well-calibrated (UKMTO weekly confirms no sinkings); Roosevelt MISS well-calibrated (window still open).**
+
+### Scoring: Day 256 T+3 predictions (gate EOD 14 Nov 2026)
+*Not available in backtest log extract provided. Skipped per log gap.*
+
+### Scoring: Day 253 T+7 predictions (gate EOD 14 Nov 2026)
+*Not available in backtest log extract provided. Skipped per log gap.*
+
+---
+
+### Day 260 new predictions (forward log)
+
+**Trend:** ↑ Worse. Mossad chief Gofman in Washington 14 Nov pushing Trump to resume war; UKMTO 7 attacks/week cadence (18th consecutive day); Houthi East-West pipeline/Yanbu strikes ongoing; Trump currently sides with blockade+diplomacy but under intense Israeli pressure. Counter-signal: Trump "sided with Saudi Arabia, Qatar and UAE" on blockade+diplomacy.
+**Threat:** 4 / 5 · Severe (maintained; Sc B/C now at parity 44/44; no Threat-5 trigger criteria met — Roosevelt not AOR-confirmed, no kinetics authorised, no mine on escorted vessel confirmed)
+
+**Scenario probabilities (30d):**
+- A: Negotiated framework — 12% (+2pp; Trump language shift to "see if a deal is possible" marginal; Iran "no negotiations" wall immovable; counter-signal: Qatar/Pakistan channels structurally available; Witkoff meeting as diplomatic indicator)
+- B: Frozen attrition — 44% (+2pp; MODAL tied with C; Trump sides with blockade+diplomacy; Eisenkot government formation = internal Israeli constraint; Roosevelt arrival does not auto-produce strike; structural stalemate holds but under maximum pressure)
+- C: Re-escalation — 44% (−4pp from Day 259's 48%; adjusted for Trump's explicit blockade+diplomacy alignment but Israeli unilateral action risk elevated via Mossad visit; Sc B/C at parity)
+
+**T+1 predictions (gate EOD 15 Nov 2026):**
+- P(UKMTO or Hard-confirmed vessel incident Hormuz/Gulf/Red Sea EOD 15 Nov) = 0.78 — 18 consecutive hits; structural cadence unchanged; ±7pp [0.71–0.85]
+- P(USS Roosevelt confirmed in CENTCOM AOR EOD 15 Nov) = 0.25 — "mid-November" window; 15 Nov is mid-window; ±7pp [0.18–0.32]
+- P(Hard outcome of Gofman-Witkoff Miami meeting publicly reported EOD 15 Nov) = 0.45 — Axios confirmed meeting expected; Trump/Witkoff response within 24–48h typical; ±10pp [0.35–0.55]
+
+**T+3 predictions (gate EOD 17 Nov 2026):**
+- P(UKMTO or Hard-confirmed vessel incident EOD 17 Nov) = 0.78 — cadence elevated; ±7pp [0.71–0.85]
+- P(USS Roosevelt confirmed in CENTCOM AOR EOD 17 Nov) = 0.52 — "mid-November" centres 14–17 Nov; ±10pp [0.42–0.62]
+- P(Hard-confirmed damage to Saudi East-West pipeline or Yanbu from 12 Nov Houthi strike EOD 17 Nov) = 0.28 — Saudi silence + coalition interceptions inconsistent with major hit; satellite imagery pending; ±10pp [0.18–0.38]
+
+**T+7 predictions (gate EOD 21 Nov 2026):**
+- P(USS Roosevelt confirmed in CENTCOM AOR by EOD 21 Nov) = 0.88 — "end of November" on station per National Interest; mid-window outer edge; ±7pp [0.81–0.95]
+- P(Hard-confirmed new CENTCOM or Israeli kinetic strike on Iran by EOD 21 Nov) = 0.32 — Mossad DC visit + Netanyahu pressure + Roosevelt arrival window = elevated; Trump "highly unlikely" if talks progress provides partial brake; ±10pp [0.22–0.42]
+- P(Brent closes above $100 EOD 21 Nov) = 0.42 — currently ~$95.72; EIA Nov avg ~$100; Mossad visit + Roosevelt AOR = upside catalysts; Saudi production offset; ±10pp [0.32–0.52]
+- P(Gofman/Netanyahu pressure produces Trump strike authorisation within 7 days) = 0.22 — historically Trump has acted fast after Israeli intelligence visits; Trump "sided with Gulf states" is current brake; Eisenkot constraint; ±8pp [0.14–0.30]
+
+**Threat-5 re-trigger criteria (Day 260 — maintained + updated):**
+- Roosevelt AOR arrival CENTCOM-confirmed + Trump public strike authorisation statement within 48h
+- Israeli unilateral strike on Iranian targets (Hard-confirmed by CENTCOM/ISW) with Iranian kinetic retaliation on Gulf-state energy infrastructure within 48h
+- IRGC mine detonation on US-escorted vessel Hard-confirmed by UKMTO/CENTCOM
+- Hard-confirmed Yanbu zero-load ≥24h (Kpler) following Houthi East-West/Yanbu physical damage confirmation
+- Trump reversal: authorises diplomatic track AND Roosevelt AOR arrival simultaneously = maximum uncertainty window
