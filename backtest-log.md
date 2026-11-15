@@ -10270,3 +10270,56 @@ _Note: The backtest log supplied covers through Day 220. Day 221–230 predictio
 - IRGC mine detonation on US-escorted vessel Hard-confirmed by UKMTO/CENTCOM
 - Hard-confirmed Yanbu zero-load ≥24h (Kpler) following Houthi East-West/Yanbu physical damage confirmation
 - Trump reversal: authorises diplomatic track AND Roosevelt AOR arrival simultaneously = maximum uncertainty window
+
+## Day 261 · 15 November 2026
+
+### Scoring: Day 260 T+1 predictions (gate EOD 15 Nov 2026)
+
+| Prediction | P | Outcome | Score |
+|---|---|---|---|
+| P(UKMTO or Hard-confirmed vessel incident Hormuz/Gulf/Red Sea EOD 15 Nov) = 0.78 | 0.78 | **HIT** — IRGC claimed 3 tanker mine strikes 15 Nov (ANI/APA); UKMTO weekly confirmed 7 attacks w/e 11 Nov; 11 Nov tanker incident Hormuz confirmed by UKMTO; cadence unbroken 19th consecutive day; Brier: (1−0.78)²=0.048 | 0.048 |
+| P(USS Roosevelt confirmed in CENTCOM AOR EOD 15 Nov) = 0.25 | 0.25 | **MISS** — No CENTCOM AOR arrival confirmed; still in transit; "mid-to-end November" window ongoing; Brier: (0−0.25)²=0.063 | 0.063 |
+| P(Hard outcome of Gofman-Witkoff Miami meeting publicly reported EOD 15 Nov) = 0.45 | 0.45 | **MISS** — Gofman–Ratcliffe meeting confirmed 13 Nov; Witkoff Miami meeting expected but no public outcome confirmed as of 06:01 UTC 15 Nov; treating as Miss given no Hard-tier public outcome; Brier: (0−0.45)²=0.203 | 0.203 |
+
+**T+1 Day 260 summary: 2 Misses + 1 Hit. Session Brier: 0.314 — Gofman/Witkoff miss drags score; timing resolution within 24h expected. Vessel cadence HIT (19th consecutive, structural). Roosevelt window remains open.**
+
+### Scoring: Day 257 T+3 predictions (gate EOD 15 Nov 2026)
+*Not available in backtest log extract provided. Skipped per log gap.*
+
+### Scoring: Day 254 T+7 predictions (gate EOD 15 Nov 2026)
+*Not available in backtest log extract provided. Skipped per log gap.*
+
+---
+
+### Day 261 new predictions (forward log)
+
+**Trend:** ↑ Worse. IRGC 5 tankers claimed mined in 24h; UNSC GCC emergency session; Trump sidelines Vance; Roosevelt imminent. Trump "hold off" is partial brake. Mine acceleration = structural worsening.
+**Threat:** 4 / 5 · Severe (maintained; Roosevelt not AOR-confirmed; no mine on US-escorted vessel UKMTO-confirmed; no Gulf-state energy infra Hard-confirmed destroyed)
+
+**Scenario probabilities (30d):**
+- A: Negotiated framework — 10% (→ unchanged; Iran "never closed door" is soft signal; 7-condition demand + Trump "no deal" = no active pathway; Trump–Putin–Xi wildcard)
+- B: Frozen attrition — 42% (↓ −2pp; Trump "hold off" anchors but mine acceleration erodes stasis; Sc B/C balance tilting toward C)
+- C: Re-escalation — 48% (↑ +2pp; IRGC mine campaign acceleration; Roosevelt imminent; Netanyahu/Gofman pressure on Trump; Eisenkot constraint political not military)
+
+**T+1 predictions (gate EOD 16 Nov 2026):**
+- P(UKMTO or Hard-confirmed vessel incident Hormuz/Gulf/Red Sea EOD 16 Nov) = 0.78 — 19 consecutive days; structural cadence; ±7pp [0.71–0.85]
+- P(Gofman–Witkoff Miami meeting outcome publicly reported EOD 16 Nov) = 0.65 — 48h window post-13 Nov Axios report; Witkoff typically responds within 24–48h; ±10pp [0.55–0.75]
+- P(USS Roosevelt confirmed in CENTCOM AOR EOD 16 Nov) = 0.28 — mid-November window; ±7pp [0.21–0.35]
+
+**T+3 predictions (gate EOD 18 Nov 2026):**
+- P(UKMTO or Hard-confirmed vessel incident EOD 18 Nov) = 0.78 — cadence elevated; ±7pp [0.71–0.85]
+- P(USS Roosevelt confirmed in CENTCOM AOR EOD 18 Nov) = 0.58 — mid-November centres 15–18 Nov; ±10pp [0.48–0.68]
+- P(UKMTO Hard-confirms any 14–15 Nov IRGC mine claim EOD 18 Nov) = 0.42 — 24–72h lag pattern; partial confirmation typical; ±10pp [0.32–0.52]
+
+**T+7 predictions (gate EOD 22 Nov 2026):**
+- P(USS Roosevelt confirmed in CENTCOM AOR by EOD 22 Nov) = 0.90 — National Interest "end of November on station"; mid-to-outer window; ±7pp [0.83–0.97]
+- P(Hard-confirmed new CENTCOM or Israeli kinetic strike on Iran by EOD 22 Nov) = 0.32 — Gofman pressure + Roosevelt arrival window = elevated; Trump "hold off" is brake; ±10pp [0.22–0.42]
+- P(Brent closes above $100 EOD 22 Nov) = 0.42 — currently ~$96; mine acceleration + Roosevelt = upside catalysts; "hold off" = floor; ±10pp [0.32–0.52]
+- P(Trump publicly acknowledges Gofman–Witkoff meeting outcome by EOD 22 Nov) = 0.72 — typical Trump public disclosure cycle; ±8pp [0.64–0.80]
+
+**Threat-5 re-trigger criteria (Day 261 — maintained + updated):**
+- Roosevelt AOR arrival CENTCOM-confirmed + Trump public strike authorisation statement within 48h
+- Israeli unilateral strike on Iranian targets Hard-confirmed by CENTCOM/ISW with Iranian kinetic retaliation on Gulf-state energy infrastructure within 48h
+- IRGC mine detonation on US-escorted vessel Hard-confirmed by UKMTO/CENTCOM
+- Hard-confirmed Yanbu zero-load ≥24h (Kpler) following Houthi East-West/Yanbu physical damage confirmation
+- Trump public statement authorising resumed kinetic strikes following Gofman–Witkoff meeting outcome
