@@ -10377,3 +10377,58 @@ _Note: The backtest log supplied covers through Day 220. Day 221–230 predictio
 - Hard-confirmed Yanbu zero-load ≥24h (Kpler) following Houthi East-West/Yanbu physical damage
 - Third IRGC strike on Bahrain US base with Hard-confirmed damage (vs prior two intercepts) + Trump retaliatory authorization
 - Israeli security cabinet formal strike authorization readout + IDF leave cancellations/airspace closure observable
+
+## Day 263 · 17 November 2026
+
+### Scoring: Day 262 T+1 predictions (gate EOD 17 Nov 2026)
+
+| Prediction | P | Outcome | Score |
+|---|---|---|---|
+| P(UKMTO or Hard-confirmed vessel incident Hormuz/Gulf/Red Sea EOD 17 Nov) = 0.78 | 0.78 | **HIT** — UKMTO confirmed 3 separate tanker incidents 16–17 Nov (unknown projectile engine fire; second vessel disabled 7nm N Khasab; third engine-room fire near Hormuz); 21st+ consecutive day structural cadence. Brier: (1−0.78)²=0.048 | 0.048 |
+| P(Israeli security cabinet formal strike authorization announced by EOD 17 Nov) = 0.12 | 0.12 | **MISS** — No formal strike authorization announced. KAN readiness directive was 11 Nov; no new authorization issued. Brier: (0−0.12)²=0.014 | 0.014 |
+| P(Trump publicly responds to IRGC Bahrain strikes with statement or action by EOD 17 Nov) = 0.65 | 0.65 | **MISS** — No new Trump public response to Bahrain strikes identified by 06:00 UTC 17 Nov. Bloomberg 16 Nov: Iran "door to peace still open" framing dominant; Trump "hold off" maintained. Brier: (0−0.65)²=0.423 | 0.423 |
+
+**T+1 Day 262 summary: 1 Hit, 2 Misses. Session Brier: 0.485. Vessel cadence HIT (structural). Trump response probability overweighted at 0.65 — IRGC Bahrain strikes appear to be absorb-and-delay rather than retaliate cycle; Trump's domestic midterm calculation and Gulf state lobbying providing stronger brake than modeled. Israel authorization MISS was well-calibrated (0.12). Recalibrate: Trump response to IRGC Bahrain provocations should be ~0.35 unless a third strike involves confirmed damage/casualties; structural "hold off" is firmer than modeled.**
+
+### Scoring: Day 259 T+3 predictions (gate EOD 17 Nov 2026)
+*Not available in backtest log extract provided. Skipped per log gap.*
+
+### Scoring: Day 256 T+7 predictions (gate EOD 17 Nov 2026)
+*Not available in backtest log extract provided. Skipped per log gap.*
+
+---
+
+### Day 263 new predictions (forward log)
+
+**Trend:** ↑ Worse. Three UKMTO tanker incidents 16–17 Nov; IRGC supertanker sinking claim (unconfirmed); Houthis consolidated Bab al-Mandeb; both chokepoints simultaneously disrupted; 3-carrier CENTCOM live; Araghchi Oman meeting no agreement.
+**Threat:** 4 / 5 · Severe (maintained; no CENTCOM-confirmed supertanker sinking; no Trump authorization; no Israeli strike; no Yanbu zero-load; three-carrier posture = Threat-5 precursor window fully open)
+
+**Scenario probabilities (30d):**
+- A: Negotiated framework — 10% (unchanged; Araghchi Oman "constructive" but no public terms; two-day plan on table but US not acknowledged)
+- B: Frozen attrition — 37% (↓ −1pp; Trump "hold off" holding but Houthi Bab al-Mandeb consolidation erodes Scenario B floor; both chokepoints compromised is structurally Scenario C even at current threat level)
+- C: Re-escalation — 53% (↑ +1pp; both chokepoints disrupted; 3-carrier live; IRGC Bahrain resumes; Houthi Aden offensive; Eisenkot constraint sole Israeli brake)
+
+**T+1 predictions (gate EOD 18 Nov 2026):**
+- P(UKMTO or Hard-confirmed vessel incident Hormuz/Gulf/Red Sea EOD 18 Nov) = 0.80 — structural mine campaign cadence accelerating; 3 incidents in prior 24h; ±7pp [0.73–0.87]
+- P(Araghchi Oman meeting produces any US-relayed public outcome or Rubio acknowledgment by EOD 18 Nov) = 0.18 — meeting confirmed "constructive" but no communiqué; Oman back-channel typically operates quietly; ±8pp [0.10–0.26]
+- P(IRGC third strike on Bahrain or Gulf-state US base Hard-confirmed by EOD 18 Nov) = 0.28 — two strikes in 72h prior; pattern suggests ~72h cycle; Trump non-response may embolden; ±10pp [0.18–0.38]
+
+**T+3 predictions (gate EOD 20 Nov 2026):**
+- P(UKMTO or Hard-confirmed vessel incident EOD 20 Nov) = 0.80 — structural cadence; ±7pp [0.73–0.87]
+- P(Houthi advance toward Aden Hard-confirmed ≤50 km by EOD 20 Nov) = 0.52 — currently ~70 km; counteroffensive collapsed; Saudi airstrikes only brake; ±10pp [0.42–0.62]
+- P(CENTCOM independent confirmation of IRGC supertanker sinking (15 Nov) by EOD 20 Nov) = 0.32 — IRGC claimed, UKMTO not confirmed vessel identity; AIS/satellite evidence emerging; ±10pp [0.22–0.42]
+
+**T+7 predictions (gate EOD 24 Nov 2026):**
+- P(USS Roosevelt confirmed strike-ready operational posture in Arabian Sea with CENTCOM public statement by EOD 24 Nov) = 0.75 — entered AOR 15 Nov; transit to operating area ~3–5 days; ±8pp [0.67–0.83]
+- P(Hard-confirmed Israeli or US kinetic strike on Iran by EOD 24 Nov) = 0.28 — Eisenkot constraint; Trump "hold off"; 3-carrier posture = pressure not authorization; ±10pp [0.18–0.38]
+- P(Houthi seizure of Aden Hard-confirmed by EOD 24 Nov) = 0.32 — 70 km from city; counteroffensive failed; but Saudi air support and urban defense preparation ongoing; ±10pp [0.22–0.42]
+- P(Brent closes above $100 EOD 24 Nov) = 0.52 — both chokepoints disrupted; 3-carrier config; Houthi Aden advance; IRGC mine escalation; ±10pp [0.42–0.62]
+
+**Threat-5 re-trigger criteria (Day 263 — updated):**
+- USS Roosevelt + Trump public strike authorization statement within 48h of Roosevelt AOR operational confirmation
+- Israeli unilateral strike on Iranian targets Hard-confirmed by CENTCOM/ISW with Iranian kinetic retaliation on Gulf-state energy infrastructure within 48h
+- IRGC mine detonation on US-escorted vessel Hard-confirmed by UKMTO/CENTCOM
+- Hard-confirmed Yanbu zero-load ≥24h (Kpler) following Houthi East-West/Yanbu physical damage
+- Third IRGC strike on Bahrain US base with Hard-confirmed damage (vs prior two intercepts) + Trump retaliatory authorization
+- CENTCOM-confirmed VLCC/supertanker sinking in Hormuz with named vessel + environmental emergency declared
+- Houthi seizure of Aden Hard-confirmed + IRGC-coordinated simultaneous Hormuz escalation event
