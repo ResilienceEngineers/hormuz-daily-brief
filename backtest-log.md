@@ -10432,3 +10432,58 @@ _Note: The backtest log supplied covers through Day 220. Day 221–230 predictio
 - Third IRGC strike on Bahrain US base with Hard-confirmed damage (vs prior two intercepts) + Trump retaliatory authorization
 - CENTCOM-confirmed VLCC/supertanker sinking in Hormuz with named vessel + environmental emergency declared
 - Houthi seizure of Aden Hard-confirmed + IRGC-coordinated simultaneous Hormuz escalation event
+
+## Day 264 · 18 November 2026
+
+### Scoring: Day 263 T+1 predictions (gate EOD 18 Nov 2026)
+
+| Prediction | P | Outcome | Score |
+|---|---|---|---|
+| P(UKMTO or Hard-confirmed vessel incident Hormuz/Gulf/Red Sea EOD 18 Nov) = 0.80 | 0.80 | **HIT** — UKMTO confirmed tanker struck second time 17 Nov (3:00 PM EST, ABC News live); Kuwait/Bahrain also intercepted IRGC attacks; structural cadence continues. Brier: (1−0.80)²=0.040 | 0.040 |
+| P(Araghchi Oman meeting produces any US-relayed public outcome or Rubio acknowledgment by EOD 18 Nov) = 0.18 | 0.18 | **MISS** — Araghchi-Busaidi met, described "constructive," but no Rubio/CENTCOM acknowledgment; RFE/RL 18 Nov confirmed no known US-Iran channel. Well-calibrated. Brier: (0−0.18)²=0.032 | 0.032 |
+| P(IRGC third strike on Bahrain or Gulf-state US base Hard-confirmed by EOD 18 Nov) = 0.28 | 0.28 | **HIT (exceeded)** — Third IRGC Bahrain strike CENTCOM-confirmed 17 Nov (intercepted without damage); Iran army separately struck Kuwait Ali Al Salem Air Base (first Kuwait strike this cycle); US retaliated with Qeshm Island strike. Brier: (1−0.28)²=0.518 | 0.518 |
+
+**T+1 Day 263 summary: 2 Hits, 1 Miss. Session Brier: 0.590. Vessel cadence HIT (structural). IRGC third strike HIT but underweighted at 0.28 — the expansion to Kuwait was not anticipated; the 72h IRGC cycle hypothesis held on Bahrain but the Kuwait addition was a parallel escalation not in the prediction frame. Recalibrate: when IRGC has struck 2+ GCC states, treat P(any GCC base strike) rather than P(specific base) for next-day predictions. Araghchi non-outcome MISS was well-calibrated at 0.18.**
+
+### Scoring: Day 260 T+3 predictions (gate EOD 18 Nov 2026)
+*Not available in backtest log extract provided. Skipped per log gap.*
+
+### Scoring: Day 257 T+7 predictions (gate EOD 18 Nov 2026)
+*Not available in backtest log extract provided. Skipped per log gap.*
+
+---
+
+### Day 264 new predictions (forward log)
+
+**Trend:** ↑ Worse. US struck IRGC Qeshm Island (17 Nov, confirmed); IRGC 3rd Bahrain intercept + 1st Kuwait Ali Al Salem strike; Araghchi-Busaidi no agreement; Houthi 60 km from Aden; both chokepoints disrupted.
+**Threat:** 4 / 5 · Severe (maintained; Qeshm strike is first US strike on Iranian territory this cycle; Iran retaliation decision window open; Trump "looking into it" ≠ authorization; VLCC sinking unconfirmed; Aden not seized; Threat-5 trigger gates not yet fully met but window narrowing)
+
+**Scenario probabilities (30d):**
+- A: Negotiated framework — 10% (unchanged; zero active diplomatic channel confirmed by RFE/RL)
+- B: Frozen attrition — 32% (↓ −5pp; Qeshm exchange weakens "hold off" equilibrium; Iranian retaliation decision pending)
+- C: Re-escalation — 58% (↑ +5pp; first US strike on Iran territory; Kuwait expansion; failed Oman diplomacy; Eisenkot window closing)
+
+**T+1 predictions (gate EOD 19 Nov 2026):**
+- P(UKMTO or Hard-confirmed vessel incident Hormuz/Gulf/Red Sea EOD 19 Nov) = 0.80 — structural cadence; ±7pp [0.73–0.87]
+- P(Iranian kinetic retaliation for Qeshm US strike Hard-confirmed by CENTCOM/major outlet by EOD 19 Nov) = 0.52 — 24–48h Iranian decision cycle; Qeshm precedent is first US strike on Iran soil; IRGC under internal pressure to respond visibly; ±10pp [0.42–0.62]
+- P(Trump issues formal retaliatory authorization statement or Mattis-equivalent "escalation authority" language by EOD 19 Nov) = 0.20 — Qeshm described as self-defence/defensive; Trump "looking into it" is soft; Gulf-state lobbying continues; ±8pp [0.12–0.28]
+
+**T+3 predictions (gate EOD 21 Nov 2026):**
+- P(UKMTO or Hard-confirmed vessel incident EOD 21 Nov) = 0.80 — structural cadence; ±7pp
+- P(Houthi Hard-confirmed entry into Aden city perimeter ≤40 km by EOD 21 Nov) = 0.42 — advancing from 60 km; city defensive perimeter engaged; Saudi air support only brake; ±10pp [0.32–0.52]
+- P(Hard-confirmed Iranian kinetic retaliation on GCC energy infrastructure or VLCC by EOD 21 Nov) = 0.38 — 48–96h retaliation window post-Qeshm; most likely vectors: mine deployment, Ras Tanura/Yanbu strike, VLCC interdiction; ±10pp [0.28–0.48]
+
+**T+7 predictions (gate EOD 25 Nov 2026):**
+- P(CENTCOM confirmation of IRGC supertanker sinking (15 Nov) by EOD 25 Nov) = 0.28 — now >10 days since claim; AIS/satellite evidence should be available; if not confirmed by 25 Nov, probability collapses; ±10pp [0.18–0.38]
+- P(Hard-confirmed Israeli or US strike on Iran (beyond Qeshm, targeting strategic assets) by EOD 25 Nov) = 0.35 — Qeshm established precedent; Eisenkot window closing; 3-carrier posture; Iranian retaliation would trigger; ±10pp [0.25–0.45]
+- P(Houthi seizure of Aden Hard-confirmed by EOD 25 Nov) = 0.28 — 60 km from city; urban defense + Saudi air; but counteroffensive has collapsed; ±10pp [0.18–0.38]
+- P(Brent closes above $100 EOD 25 Nov) = 0.58 — Qeshm strike + Kuwait expansion + Aden threat + Iranian retaliation pending; ±10pp [0.48–0.68]
+
+**Threat-5 re-trigger criteria (Day 264 — updated):**
+- Iranian kinetic retaliation on GCC energy infrastructure Hard-confirmed by CENTCOM (Ras Tanura, Yanbu, Ruwais, or Al Zour refinery) with operational shutdown ≥24h
+- VLCC/supertanker sinking in Hormuz Hard-confirmed by CENTCOM/UKMTO with named vessel + environmental emergency
+- Israeli unilateral strike on Iranian strategic assets (nuclear, missile, leadership) Hard-confirmed with Iranian retaliatory closure of Hormuz
+- Trump public strike-authorisation statement within 48h of IRGC retaliation for Qeshm with CENTCOM operational orders issued
+- Houthi seizure of Aden Hard-confirmed + simultaneous IRGC coordinated Hormuz escalation event (mine or VLCC interdiction within 48h)
+- IRGC mine detonation on US-escorted vessel Hard-confirmed by UKMTO/CENTCOM
+- Hard-confirmed IRGC attack causing US personnel casualties (≥1 KIA) in GCC basing area
