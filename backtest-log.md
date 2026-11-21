@@ -10600,3 +10600,60 @@ _Note: The backtest log supplied covers through Day 220. Day 221–230 predictio
 - IRGC mine detonation on US-escorted vessel Hard-confirmed by UKMTO/CENTCOM
 - Hard-confirmed IRGC attack causing US personnel casualties (≥1 KIA) in GCC basing area
 - Houthi Hard-confirmed strike on operational Saudi energy infrastructure (Ras Tanura terminal, East–West pipeline, Yanbu export facility) with shutdown ≥12h [NEW — added Day 266 based on KAFD targeting pattern escalation]
+
+## Day 267 · 21 November 2026
+
+### Scoring: Day 266 T+1 predictions (gate EOD 21 Nov 2026)
+
+| Prediction | P | Outcome | Score |
+|---|---|---|---|
+| P(UKMTO or Hard-confirmed vessel incident Hormuz/Gulf/Red Sea EOD 21 Nov) = 0.80 | 0.80 | **HIT** — UKMTO Warning 214-26 (gCaptain/MEE 21 Nov 01:35 GMT): tanker struck 8NM N of Khasab, port bow fire, no casualties. Structural cadence confirmed. Brier: (1−0.80)²=0.040 | 0.040 |
+| P(Houthi advance confirmed <50 km from Aden Hard-confirmed by ISW/AFP by EOD 21 Nov) = 0.42 | 0.42 | **MISS** — Reuters/Al-Monitor 20 Nov: Houthis ~80 km north, ~110 km west of Aden; ISW 18 Nov: al-Maqatirah frontline ~50 km with Jabal Kharaz contested, but <50 km threshold not Hard-confirmed EOD 21 Nov. Brier: (0−0.42)²=0.176 | 0.176 |
+| P(Hard-confirmed new Houthi strike on Saudi energy infrastructure EOD 21 Nov) = 0.18 | 0.18 | **MISS** — Houthis intercepted on Jazan (20 Nov); KAFD warning issued; Hodeidah ops by Saudi coalition. No Hard-confirmed energy-infra strike (Ras Tanura/Yanbu/EW pipeline). Brier: (0−0.18)²=0.032 | 0.032 |
+
+**T+1 Day 266 summary: 1 Hit, 2 Misses. Session Brier: 0.248. Vessel HIT (structural). Aden <50 km MISS — advance ongoing but gate not crossed; recalibrate: ~80 km north threshold remains ~1–3 days from gate depending on Jabal Kharaz outcome. Energy-infra MISS — KAFD economic coercion pattern active but kinetic energy-infra threshold not met.**
+
+### Scoring: Day 263 T+3 predictions (gate EOD 21 Nov 2026)
+*Not available in backtest log extract provided. Skipped per log gap.*
+
+### Scoring: Day 260 T+7 predictions (gate EOD 21 Nov 2026)
+*Not available in backtest log extract provided. Skipped per log gap.*
+
+---
+
+### Day 267 new predictions (forward log)
+
+**Trend:** ↑ Worse. IRGC doubles Hormuz attacks (6 in week to 18 Nov per UKMTO; anti-ship cruise missiles confirmed by US official); fresh US strike on Qeshm 20 Nov after Iran anti-ship missile on US-escorted vessels; CBS/NYT: US+Israel considering new assault in near term; Trump "not rushing" but reversed on "quite unlikely" language; IRGC supertanker sinking unconfirmed Day 7; Houthis ~80 km north of Aden; Brent $91.63. Confidence: Medium.
+**Threat:** 4 / 5 · Severe (maintained; six UKMTO attacks in one week; US-Iran kinetic exchange at Qeshm; CBS/NYT "near term" assault; Houthi Aden encirclement advancing; Threat-5 gates not yet met)
+
+**Scenario probabilities (30d):**
+- A: Negotiated framework — 8% (↓ −2pp; IRGC "not accepting attrition" + renewed Qeshm exchange + no channel signal)
+- B: Frozen attrition — 28% (↓ −7pp; Trump "not rushing" but CBS/NYT near-term assault reporting erodes pause probability)
+- C: Re-escalation — 64% (↑ +9pp; US+Israel considering new assault; IRGC doubled attacks; Houthi Aden advance; Saudi Hodeidah operation signals escalation on Yemen front)
+
+**T+1 predictions (gate EOD 22 Nov 2026):**
+- P(UKMTO or Hard-confirmed vessel incident Hormuz/Gulf/Red Sea EOD 22 Nov) = 0.80 — structural cadence; IRGC doubled rate; ±7pp [0.73–0.87]
+- P(Trump formal strike authorization issued EOD 22 Nov) = 0.14 — CBS/NYT "near term" but Trump "not rushing" and "quite unlikely" language; ±6pp [0.08–0.20]
+- P(Houthi hard advance confirmed <50 km from Aden by ISW/AFP EOD 22 Nov) = 0.38 — Jabal Kharaz contested; al-Maqatirah ~50 km; ±10pp [0.28–0.48]
+
+**T+3 predictions (gate EOD 24 Nov 2026):**
+- P(UKMTO or Hard-confirmed vessel incident EOD 24 Nov) = 0.80 — structural; ±7pp
+- P(Hard-confirmed US or Israeli major strike on Iran strategic assets EOD 24 Nov) = 0.22 — CBS/NYT "near term"; Trump "not rushing"; CENTCOM plans ready; ±8pp [0.14–0.30]
+- P(Houthi seizure of Aden Hard-confirmed by ISW/AFP EOD 24 Nov) = 0.12 — Maritime Executive 20 Nov: "immediate danger" of siege; ~80 km north; ±6pp [0.06–0.18]
+
+**T+7 predictions (gate EOD 28 Nov 2026):**
+- P(UKMTO or Hard-confirmed vessel incident EOD 28 Nov) = 0.80 — structural; ±7pp
+- P(Hard-confirmed new US/Israeli strike on Iran strategic assets beyond Qeshm by EOD 28 Nov) = 0.32 — CBS/NYT "near term" assault; CENTCOM plans ready per The Hill; Netanyahu pressure; ±8pp [0.24–0.40]
+- P(Brent closes above $100 EOD 28 Nov) = 0.28 — currently ~$91.63; OPEC+ 29 Nov decision key swing; EIA Nov STEO forecasts ~$100/b; needs GCC energy-infra hit or major new US strike; ±9pp [0.19–0.37]
+- P(Houthi seizure of Aden Hard-confirmed by EOD 28 Nov) = 0.18 — siege scenario dominant; Maritime Executive: "immediate danger" language; ±7pp [0.11–0.25]
+- P(IRGC supertanker sinking CENTCOM-confirmed by EOD 28 Nov) = 0.06 — Day 7 since claim, no vessel named; probability near-collapsed; ±4pp [0.02–0.10]
+
+**Threat-5 re-trigger criteria (Day 267 — maintained from Day 266):**
+- Iranian kinetic retaliation on GCC energy infrastructure Hard-confirmed by CENTCOM (Ras Tanura, Yanbu, Ruwais, or Al Zour) with operational shutdown ≥24h
+- VLCC/supertanker sinking in Hormuz Hard-confirmed by CENTCOM/UKMTO with named vessel + environmental emergency
+- Israeli unilateral strike on Iranian strategic assets (nuclear, missile, leadership) Hard-confirmed with Iranian retaliatory closure of Hormuz
+- Trump public strike-authorization statement within 48h of IRGC retaliation for Qeshm with CENTCOM operational orders issued
+- Houthi seizure of Aden Hard-confirmed + simultaneous IRGC coordinated Hormuz escalation event (mine or VLCC interdiction within 48h)
+- IRGC mine detonation on US-escorted vessel Hard-confirmed by UKMTO/CENTCOM
+- Hard-confirmed IRGC attack causing US personnel casualties (≥1 KIA) in GCC basing area
+- Houthi Hard-confirmed strike on operational Saudi energy infrastructure (Ras Tanura terminal, East–West pipeline, Yanbu export facility) with shutdown ≥12h
