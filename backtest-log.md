@@ -10657,3 +10657,57 @@ _Note: The backtest log supplied covers through Day 220. Day 221–230 predictio
 - IRGC mine detonation on US-escorted vessel Hard-confirmed by UKMTO/CENTCOM
 - Hard-confirmed IRGC attack causing US personnel casualties (≥1 KIA) in GCC basing area
 - Houthi Hard-confirmed strike on operational Saudi energy infrastructure (Ras Tanura terminal, East–West pipeline, Yanbu export facility) with shutdown ≥12h
+
+## Day 268 · 22 November 2026
+
+### Scoring: Day 267 T+1 predictions (gate EOD 22 Nov 2026)
+
+| Prediction | P | Outcome | Score |
+|---|---|---|---|
+| P(UKMTO or Hard-confirmed vessel incident Hormuz/Gulf/Red Sea EOD 22 Nov) = 0.80 | 0.80 | **HIT** — UKMTO confirmed two tanker strikes 21 Nov near Khasab (CNBC/Reuters/Al-Jazeera): one hit stern 11NM north of Khasab, second hit engine room 17NM east. Structural cadence confirmed. Brier: (1−0.80)²=0.040 | 0.040 |
+| P(Trump formal strike authorization issued EOD 22 Nov) = 0.14 | 0.14 | **MISS** — Trump maintained "permanent deal" framing; no authorization issued; CBS News: US/Israel "considering" but no order. Brier: (0−0.14)²=0.020 | 0.020 |
+| P(Houthi hard advance confirmed <50 km from Aden by ISW/AFP EOD 22 Nov) = 0.38 | 0.38 | **MISS** — ISW 21 Nov: fighting at Mabaq/Am Sarih in Maqatirah District, PLC claimed counterpush at Jabal Han; CTP-ISW "cannot verify" PLC advances; <50 km gate not Hard-confirmed. Houthis still assessed ~80 km north. Brier: (0−0.38)²=0.144 | 0.144 |
+
+**T+1 Day 267 summary: 1 Hit, 2 Misses. Session Brier: 0.204. Vessel HIT (structural cadence holds at elevated rate). Strike-auth MISS (Trump 2027 frame maintained). Aden <50km MISS — PLC counterpush unverified; recalibrate Aden gate timeline: 3–7 days depending on Maqatirah/Jabal Kharaz outcome.**
+
+### Scoring: T+3 Day 265 / T+7 Day 261 predictions
+*Not available in backtest log extract. Skipped per log gap.*
+
+---
+
+### Day 268 new predictions (forward log)
+
+**Trend:** ↑ Worse. Two more UKMTO tanker strikes 21 Nov (5+ incidents in 48h window); Iranian attack on Bahrain civilian industrial facility (Sitra Island/BAPCO area); IRGC F-16 claim (US-denied); Treasury "Operation Economic Outcast" escalates; Houthi ~80 km from Aden with PLC counterpush unverified; Brent ~$91 (down ~18% month; Bahrain attack not yet priced). Confidence: Medium.
+
+**Threat:** 4 / 5 · Severe (maintained; Bahrain civilian infra hit new escalation node; IRGC F-16 claim unverified; dual-chokepoint threat structural; Threat-5 gates not yet met)
+
+**Scenario probabilities (30d):**
+- A: Negotiated framework — 8% (→ unchanged; Iran conditions unchanged; Trump "permanent deal" language but no channel)
+- B: Frozen attrition — 27% (↓ −1pp; Bahrain civilian infra hit erodes frozen-attrition stability; IRGC broadening target set)
+- C: Re-escalation — 65% (↑ +1pp; Bahrain attack = new GCC node; dual tanker strikes; F-16 claim signals IRGC escalation intent even if unverified)
+
+**T+1 predictions (gate EOD 23 Nov 2026):**
+- P(UKMTO or Hard-confirmed vessel incident Hormuz/Gulf/Red Sea EOD 23 Nov) = 0.80 — structural cadence; IRGC doubled rate; ±7pp [0.73–0.87]
+- P(Bahrain Sitra/BAPCO refinery operational shutdown Hard-confirmed EOD 23 Nov) = 0.12 — no injuries reported; fire contained per BDF; structural damage unclear; ±6pp [0.06–0.18]
+- P(Houthi hard advance confirmed <50 km from Aden by ISW/AFP EOD 23 Nov) = 0.32 — ISW PLC counterpush unverified; Maqatirah sector key; ±10pp [0.22–0.42]
+
+**T+3 predictions (gate EOD 25 Nov 2026):**
+- P(UKMTO or Hard-confirmed vessel incident EOD 25 Nov) = 0.80 — structural; ±7pp
+- P(Hard-confirmed US or Israeli major strike on Iran strategic assets EOD 25 Nov) = 0.20 — CBS/NYT "near term"; Trump 2027 frame; Mossad chief Gofman visited DC pushing joint strikes; ±8pp
+- P(Houthi seizure of Aden Hard-confirmed by ISW/AFP EOD 25 Nov) = 0.10 — PLC counterpush; siege more likely than capture; ±6pp
+
+**T+7 predictions (gate EOD 29 Nov 2026):**
+- P(UKMTO or Hard-confirmed vessel incident EOD 29 Nov) = 0.80 — structural; ±7pp
+- P(Hard-confirmed new US/Israeli strike on Iran strategic assets beyond Qeshm EOD 29 Nov) = 0.30 — CBS/NYT "near term"; Mossad Gofman DC push; ±8pp
+- P(Brent closes above $100 EOD 29 Nov) = 0.22 — currently ~$91; Bahrain attack not priced; OPEC+ 1 Dec decision; needs energy-infra hit or major new US strike; ±9pp
+- P(Houthi seizure of Aden Hard-confirmed by EOD 29 Nov) = 0.14 — PLC counterpush buys time; siege scenario dominant; ±7pp
+
+**Threat-5 re-trigger criteria (Day 268 — maintained + Bahrain addition):**
+- Iranian kinetic retaliation on GCC energy infrastructure Hard-confirmed by CENTCOM (Ras Tanura, Yanbu, Ruwais, Al Zour, or BAPCO Sitra refinery) with operational shutdown ≥24h
+- VLCC/supertanker sinking in Hormuz Hard-confirmed by CENTCOM/UKMTO with named vessel + environmental emergency
+- Israeli unilateral strike on Iranian strategic assets (nuclear, missile, leadership) Hard-confirmed with Iranian retaliatory closure of Hormuz
+- Trump public strike-authorization statement within 48h of IRGC retaliation for Qeshm with CENTCOM operational orders issued
+- Houthi seizure of Aden Hard-confirmed + simultaneous IRGC coordinated Hormuz escalation event within 48h
+- IRGC mine detonation on US-escorted vessel Hard-confirmed by UKMTO/CENTCOM
+- Hard-confirmed IRGC attack causing US personnel casualties (≥1 KIA) in GCC basing area [NEW relevance: Bahrain Al-Riffa/Awali base attack 21 Nov — no KIA reported; gate not met]
+- Houthi Hard-confirmed strike on operational Saudi energy infrastructure with shutdown ≥12h
