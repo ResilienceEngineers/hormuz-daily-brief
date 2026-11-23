@@ -10711,3 +10711,60 @@ _Note: The backtest log supplied covers through Day 220. Day 221–230 predictio
 - IRGC mine detonation on US-escorted vessel Hard-confirmed by UKMTO/CENTCOM
 - Hard-confirmed IRGC attack causing US personnel casualties (≥1 KIA) in GCC basing area [NEW relevance: Bahrain Al-Riffa/Awali base attack 21 Nov — no KIA reported; gate not met]
 - Houthi Hard-confirmed strike on operational Saudi energy infrastructure with shutdown ≥12h
+
+## Day 269 · 23 November 2026
+
+### Scoring: Day 268 T+1 predictions (gate EOD 23 Nov 2026)
+
+| Prediction | P | Outcome | Score |
+|---|---|---|---|
+| P(UKMTO or Hard-confirmed vessel incident Hormuz/Gulf/Red Sea EOD 23 Nov) = 0.80 | 0.80 | **HIT** — UKMTO confirmed tanker "involved in an incident with military forces" Gulf of Oman near Chabahar (22 Nov); corroborated by Euronews, BEinsure, Gulf News, mlq.ai. Brier: (1−0.80)²=0.040 | 0.040 |
+| P(Bahrain BAPCO Sitra shutdown Hard-confirmed EOD 23 Nov) = 0.12 | 0.12 | **MISS** — BAPCO CEO Thomas (18 Nov): >80% capacity, targeting year-end full output; no shutdown from 21 Nov attack; fire contained. Brier: (0−0.12)²=0.014 | 0.014 |
+| P(Houthi hard advance confirmed <50 km from Aden by ISW/AFP EOD 23 Nov) = 0.32 | 0.32 | **MISS** — AFP (15 Nov): Houthis at 60 km (Al-Kharaz); ISW 21 Nov: fighting at Mabaq/Maqatirah but <50 km gate not Hard-confirmed; Houthis opening Abyan eastern axis (22 Nov) but distance not met. Brier: (0−0.32)²=0.102 | 0.102 |
+
+**T+1 Day 268 summary: 1 Hit, 2 Misses. Session Brier: 0.156. Vessel HIT (structural cadence plus blockade-enforcement incident). BAPCO MISS (refinery recovering, no shutdown). Aden <50km MISS — gap closing via Abyan eastern axis but gate not met. Recalibrate: Aden <50km gate likely 5–10 days if Abyan axis develops.**
+
+### Scoring: T+3 Day 266 predictions (gate EOD 23 Nov 2026)
+*Not available in backtest log extract. Skipped per log gap.*
+
+### Scoring: T+7 Day 262 predictions (gate EOD 23 Nov 2026)
+*Not available in backtest log extract. Skipped per log gap.*
+
+---
+
+### Day 269 new predictions (forward log)
+
+**Trend:** ↑ Worse. UKMTO "military forces" tanker incident near Chabahar (22 Nov) — probable US blockade enforcement; 14–31 Iranian tankers staged for breakout; Trump threatens to sink vessels; Houthis open Abyan eastern encirclement axis on Aden; Bab al-Mandeb coastal control consolidated (15 Nov); Brent $92.11 (−20.5% month-on-month). Confidence: Medium.
+
+**Threat:** 4 / 5 · Severe (maintained; blockade-enforcement confrontation is new escalation node; dual-axis Houthi pressure; Threat-5 gates not yet met — no confirmed US KIA, no GCC energy-infra shutdown ≥24h, no VLCC sinking confirmed)
+
+**Scenario probabilities (30d):**
+- A: Negotiated framework — 8% (→ unchanged; Iran red lines stable; Rubio–Qatar channel active but sub-threshold)
+- B: Frozen attrition — 24% (↓ −3pp; blockade-breakout confrontation and Houthi encirclement compress the frozen-attrition corridor)
+- C: Re-escalation — 68% (↑ +3pp; UKMTO "military forces" incident; tanker swarm; Abyan eastern axis; stated Iranian retaliation threat on Gulf energy infra)
+
+**T+1 predictions (gate EOD 24 Nov 2026):**
+- P(UKMTO or Hard-confirmed vessel incident Hormuz/Gulf/Red Sea EOD 24 Nov) = 0.80 — structural cadence plus active blockade-enforcement; ±7pp [0.73–0.87]
+- P(Pentagon/CENTCOM confirms US role in 22 Nov Chabahar incident EOD 24 Nov) = 0.25 — 24h silence consistent with operational caution; Iranian retaliation threat may force clarification; ±10pp [0.15–0.35]
+- P(Rubio–Qatar PM meeting yields joint process communiqué or resumption signal EOD 24 Nov) = 0.30 — meeting confirmed; both sides signalling openness; Iran red lines unresolved; ±10pp [0.20–0.40]
+
+**T+3 predictions (gate EOD 26 Nov 2026):**
+- P(UKMTO or Hard-confirmed vessel incident EOD 26 Nov) = 0.80 — structural; ±7pp
+- P(Hard-confirmed Iranian retaliation on GCC energy infrastructure following Chabahar enforcement EOD 26 Nov) = 0.22 — stated Iranian red line; depends on CENTCOM confirmation of US role; ±9pp
+- P(Houthi advance <50 km from Aden Hard-confirmed by ISW/AFP EOD 26 Nov) = 0.35 — Abyan eastern axis now active; Lahij fighting ongoing; ±10pp
+
+**T+7 predictions (gate EOD 30 Nov 2026):**
+- P(UKMTO or Hard-confirmed vessel incident EOD 30 Nov) = 0.80 — structural; ±7pp
+- P(Hard-confirmed new US/Israeli strike on Iran strategic assets beyond blockade enforcement EOD 30 Nov) = 0.25 — Trump "New Year" delay framing buys time; Israeli pressure ongoing; ±8pp
+- P(Brent closes above $100 EOD 30 Nov) = 0.28 — currently $92.11; needs confirmed blockade firefight or GCC energy-infra strike; OPEC+ 1 Dec decision; ±10pp
+- P(Houthi seizure of Abyan Governorate capital Hard-confirmed by ISW/AFP EOD 30 Nov) = 0.20 — eastern axis open; reinforcements deploying; PLC counterpressure; ±9pp
+
+**Threat-5 re-trigger criteria (Day 269 — maintained):**
+- Iranian kinetic retaliation on GCC energy infrastructure Hard-confirmed by CENTCOM (Ras Tanura, Yanbu, Ruwais, Al Zour, or BAPCO Sitra) with operational shutdown ≥24h
+- VLCC/supertanker sinking in Hormuz Hard-confirmed by CENTCOM/UKMTO with named vessel + environmental emergency
+- Israeli unilateral strike on Iranian strategic assets (nuclear, missile, leadership) Hard-confirmed with Iranian retaliatory closure of Hormuz
+- Trump public strike-authorization statement within 48h of IRGC retaliation for Chabahar enforcement with CENTCOM operational orders issued [UPDATED: Chabahar replaces Qeshm as the proximate trigger event]
+- Houthi seizure of Aden Hard-confirmed + simultaneous IRGC coordinated Hormuz escalation event within 48h
+- IRGC mine detonation on US-escorted vessel Hard-confirmed by UKMTO/CENTCOM
+- Hard-confirmed IRGC attack causing US personnel casualties (≥1 KIA) in GCC basing area
+- Houthi Hard-confirmed strike on operational Saudi energy infrastructure with shutdown ≥12h
