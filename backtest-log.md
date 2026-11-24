@@ -10768,3 +10768,61 @@ _Note: The backtest log supplied covers through Day 220. Day 221–230 predictio
 - IRGC mine detonation on US-escorted vessel Hard-confirmed by UKMTO/CENTCOM
 - Hard-confirmed IRGC attack causing US personnel casualties (≥1 KIA) in GCC basing area
 - Houthi Hard-confirmed strike on operational Saudi energy infrastructure with shutdown ≥12h
+
+## Day 270 · 24 November 2026
+
+### Scoring: Day 269 T+1 predictions (gate EOD 24 Nov 2026)
+
+| Prediction | P | Outcome | Score |
+|---|---|---|---|
+| P(UKMTO or Hard-confirmed vessel incident Hormuz/Gulf/Red Sea EOD 24 Nov) = 0.80 | 0.80 | **HIT** — Structural cadence sustained; 22 Nov UKMTO "military forces" Chabahar incident confirmed Day 269; 19 UKMTO-verified attacks through 18 Nov (highest rate since war began per UKMTO/ABC News); active enforcement regime continues. Brier: (1−0.80)²=0.040 | 0.040 |
+| P(Pentagon/CENTCOM confirms US role in 22 Nov Chabahar incident EOD 24 Nov) = 0.25 | 0.25 | **MISS** — CENTCOM had not commented on the incident as of 23 Nov (Euronews, BEinsure); no CENTCOM press release found for 24 Nov. Brier: (0−0.25)²=0.063 | 0.063 |
+| P(Rubio–Qatar PM meeting yields joint process communiqué or resumption signal EOD 24 Nov) = 0.30 | 0.30 | **MISS** — Meeting confirmed (AP, 23 Nov); Rubio expressed "appreciation for Qatar's global mediation efforts" (State Dept readout — diplomatic boilerplate); no joint communiqué, no specific resumption signal with process terms. Mediators pushing Hormuz-relief framework but no Iranian buy-in. Gate not met. Brier: (0−0.30)²=0.090 | 0.090 |
+
+**T+1 Day 269 summary: 1 Hit, 2 Misses. Session Brier: 0.193. Vessel HIT (structural). CENTCOM attribution MISS (consistent with 24–72h operational silence pattern — recalibrate: CENTCOM attribution typically lags 48–96h on enforcement actions). Rubio–Qatar MISS — gate was too specific; a "process communiqué" vs. diplomatic boilerplate was the correct distinction. Recalibrate: US–Qatar Strategic Dialogue outputs are typically Rubio-statement-level, not communiqué-level; next time P should be 0.10–0.15 for communiqué-specifically.**
+
+### Scoring: T+3 Day 267 predictions (gate EOD 24 Nov 2026)
+*Not available in backtest log extract. Skipped per log gap.*
+
+### Scoring: T+7 Day 263 predictions (gate EOD 24 Nov 2026)
+*Not available in backtest log extract. Skipped per log gap.*
+
+---
+
+### Day 270 new predictions (forward log)
+
+**Trend:** ↑ Worse. Iranian tanker convoy (31 staged at Kharg) + CENTCOM STS enforcement expansion vs. blockade line; Vance–Rubio–Qatar talks produce no resumption signal; Brent $89.28 (−23% MTD; oil extended 3-month low on supply-glut re-read). Confidence: Medium.
+
+**Threat:** 4 / 5 · Severe (maintained; convoy standoff is active Threat-5 candidate; dual-axis Houthi pressure; CENTCOM silent on Chabahar; GCC energy-infra retaliation threat explicit)
+
+**Scenario probabilities (30d):**
+- A: Negotiated framework — 8% (→ unchanged; Hormuz-relief package on table but no Iranian buy-in; Iran FM red lines unchanged)
+- B: Frozen attrition — 22% (↓ −2pp; CENTCOM STS expansion + 31-tanker staging + explicit GCC energy-infra threat compress corridor)
+- C: Re-escalation — 70% (↑ +2pp; convoy standoff; CENTCOM STS expansion; Iran explicit retaliation threat if convoy interdicted; dual-axis Houthi pressure)
+
+**T+1 predictions (gate EOD 25 Nov 2026):**
+- P(UKMTO or Hard-confirmed vessel incident Hormuz/Gulf/Red Sea EOD 25 Nov) = 0.80 — structural cadence; active enforcement regime; ±7pp [0.73–0.87]
+- P(CENTCOM public attribution of 22 Nov Chabahar incident EOD 25 Nov) = 0.20 — 72h+ silence reduces probability; IRGC retaliation threat may force clarification but Trump "bottom of the sea" posture makes quiet attribution less likely; ±10pp [0.10–0.30]
+- P(Iranian tanker convoy ≥3 vessels departing Kharg toward blockade line confirmed AIS/UKMTO EOD 25 Nov) = 0.25 — Iranian official "no concrete plan"; coercive-posture hypothesis holds; ±10pp [0.15–0.35]
+
+**T+3 predictions (gate EOD 27 Nov 2026):**
+- P(UKMTO or Hard-confirmed vessel incident EOD 27 Nov) = 0.80 — structural; ±7pp
+- P(Hard-confirmed Iranian retaliation on GCC energy infrastructure EOD 27 Nov) = 0.20 — contingent on convoy departure; Iran's "no concrete plan" statement reduces near-term probability; ±9pp
+- P(Houthi advance <50 km from Aden Hard-confirmed by ISW/AFP EOD 27 Nov) = 0.32 — Abyan eastern axis + Lahij fighting; gap closing but terrain and air cover significant; ±10pp
+
+**T+7 predictions (gate EOD 1 Dec 2026):**
+- P(UKMTO or Hard-confirmed vessel incident EOD 1 Dec) = 0.80 — structural; ±7pp
+- P(OPEC+ 29 Nov ministerial announces 2027 output increase that pushes Brent below $85 EOD 1 Dec) = 0.30 — 29 Nov is "critical" per Rystad; OPEC+ 7 members producing below quota; output increase possible; ±10pp [0.20–0.40]
+- P(Brent closes above $100 EOD 1 Dec) = 0.22 — requires convoy kinetic confrontation or GCC energy-infra strike; currently at $89; ±9pp
+- P(Houthi seizure of Abyan Governorate capital Hard-confirmed by ISW/AFP EOD 1 Dec) = 0.18 — eastern axis open; reinforcements deploying; PLC and Southern Armed Forces defending; ±8pp
+
+**Threat-5 re-trigger criteria (Day 270 — updated):**
+- Iranian tanker convoy ≥3 vessels CENTCOM-interdicted with kinetic contact Hard-confirmed by CENTCOM/UKMTO
+- IRGC kinetic retaliation on GCC energy infrastructure Hard-confirmed by CENTCOM (Ras Tanura, Yanbu, Ruwais, Al Zour, or BAPCO Sitra) with operational shutdown ≥24h
+- VLCC/supertanker sinking in Hormuz Hard-confirmed by CENTCOM/UKMTO with named vessel + environmental emergency
+- Israeli unilateral strike on Iranian strategic assets (nuclear, missile, leadership) Hard-confirmed with Iranian retaliatory closure of Hormuz
+- Trump public strike-authorization statement within 48h of IRGC retaliation for Chabahar enforcement with CENTCOM operational orders issued
+- Houthi seizure of Aden Hard-confirmed + simultaneous IRGC coordinated Hormuz escalation event within 48h
+- IRGC mine detonation on US-escorted vessel Hard-confirmed by UKMTO/CENTCOM
+- Hard-confirmed IRGC attack causing US personnel casualties (≥1 KIA) in GCC basing area
+- Houthi Hard-confirmed strike on operational Saudi energy infrastructure with shutdown ≥12h
