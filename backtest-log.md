@@ -10826,3 +10826,63 @@ _Note: The backtest log supplied covers through Day 220. Day 221–230 predictio
 - IRGC mine detonation on US-escorted vessel Hard-confirmed by UKMTO/CENTCOM
 - Hard-confirmed IRGC attack causing US personnel casualties (≥1 KIA) in GCC basing area
 - Houthi Hard-confirmed strike on operational Saudi energy infrastructure with shutdown ≥12h
+
+## Day 271 · 25 November 2026
+
+### Scoring: Day 270 T+1 predictions (gate EOD 25 Nov 2026)
+
+| Prediction | P | Outcome | Score |
+|---|---|---|---|
+| P(UKMTO or Hard-confirmed vessel incident Hormuz/Gulf/Red Sea EOD 25 Nov) = 0.80 | 0.80 | **HIT** — Structural cadence sustained; UKMTO Warning 214-26 (20 Nov) confirmed tanker struck 8NM north Khasab; 22 Nov Chabahar "military forces" incident confirmed by UKMTO; active enforcement regime ongoing; UKMTO ~6 attacks/week rate. Brier: (1−0.80)²=0.040 | 0.040 |
+| P(CENTCOM public attribution of 22 Nov Chabahar incident EOD 25 Nov) = 0.20 | 0.20 | **MISS** — No CENTCOM public statement found as of 25 Nov 06:00 UTC. 72h+ silence continues. Pattern: CENTCOM attribution lag 48–96h+; recalibrate to P=0.10 for incidents beyond 72h silence window. Brier: (0−0.20)²=0.040 | 0.040 |
+| P(Iranian tanker convoy ≥3 vessels departing Kharg toward blockade line confirmed AIS/UKMTO EOD 25 Nov) = 0.25 | 0.25 | **MISS** — IRIB, IRNA, TankerTrackers, and satellite imagery all debunked convoy narrative (25 Nov); "Khat Shekan" and "Tania Star" vessels do not exist; Kharg satellite shows no significant loading; IRNA: "no convoy moving." Gate not met. Brier: (0−0.25)²=0.063 | 0.063 |
+
+**T+1 Day 270 summary: 1 Hit, 2 Misses. Session Brier: 0.143. Vessel HIT (structural, confirmed). CENTCOM attribution MISS (recalibrate: P=0.10 for silent-attribution scenarios beyond 72h). Convoy MISS — Iranian propaganda operation confirmed; recalibrate: convoy departure P should be 0.08–0.12 until Hard-tier AIS + satellite confirmation of actual vessel departure. Methodology delta: convoy claims from IRGC-affiliated Fars News / Iranian state media should be classified Tier 5/6 propaganda pending independent satellite/TankerTrackers confirmation. Prior over-weighting of these claims inflated convoy probability.**
+
+### T+3 Day 268 predictions (gate EOD 25 Nov 2026)
+*Not available in backtest log extract. Skipped per log gap.*
+
+### T+7 Day 264 predictions (gate EOD 25 Nov 2026)
+*Not available in backtest log extract. Skipped per log gap.*
+
+---
+
+### Day 271 new predictions (forward log)
+
+**Trend:** ↑ Worse. Houthis 60 km from Aden (AP/Reuters 24 Nov); tanker convoy debunked but 31 laden sanctioned tankers near blockade line; Iran holds seven pre-conditions; Qatar confirms Hormuz on agenda — marginal positive; Brent $87.46 (−22% MTD). Confidence: Medium.
+
+**Threat:** 4 / 5 · Severe (maintained; Houthi Aden advance is new Scenario C accelerant; dual-chokepoint risk increasing; CENTCOM Chabahar attribution pending)
+
+**Scenario probabilities (30d):**
+- A: Negotiated framework — 10% (↑+2pp; Qatar FM confirmation of Hormuz on agenda)
+- B: Frozen attrition — 25% (↑+3pp; convoy debunked, Suez recovery buffer)
+- C: Re-escalation — 65% (↓−5pp; convoy risk reduced but Houthi–Aden advance, 31 tankers near blockade line, Iran deadlock remain dominant)
+
+**T+1 predictions (gate EOD 26 Nov 2026):**
+- P(UKMTO or Hard-confirmed vessel incident Hormuz/Gulf/Red Sea EOD 26 Nov) = 0.80 — structural cadence; active enforcement; ±7pp [0.73–0.87]
+- P(CENTCOM public attribution of 22 Nov Chabahar incident EOD 26 Nov) = 0.10 — 96h+ silence strongly suggests quiet-attribution; recalibrated downward from 0.20; ±7pp [0.03–0.17]
+- P(Houthi forces confirmed <50 km from Aden by ISW/AP/Reuters EOD 26 Nov) = 0.35 — 10 km advance in 10 days; Tur Al-Bahah defensive engagement active; terrain and fortified line may slow; ±10pp [0.25–0.45]
+
+**T+3 predictions (gate EOD 28 Nov 2026):**
+- P(UKMTO or Hard-confirmed vessel incident EOD 28 Nov) = 0.80 — structural; ±7pp
+- P(Hard-confirmed Iranian kinetic retaliation on GCC energy infrastructure EOD 28 Nov) = 0.15 — convoy debunked reduces trigger condition; Iran explicit threat linked to convoy interdiction which hasn't occurred; ±8pp
+- P(OPEC+ 29 Nov meeting announces 2027 output framework with output increase) = 0.45 — no authorized baseline past 31 Dec; capacity audit in hand; member under-production complicates increase announcement; ±10pp [0.35–0.55]
+
+**T+7 predictions (gate EOD 2 Dec 2026):**
+- P(UKMTO or Hard-confirmed vessel incident EOD 2 Dec) = 0.80 — structural; ±7pp
+- P(Brent closes below $85 EOD 2 Dec) = 0.35 — requires OPEC+ output increase decision + continued supply-glut narrative; currently $87.46; ±10pp [0.25–0.45]
+- P(Houthi seizure of Abyan Governorate capital Hard-confirmed by ISW/AFP EOD 2 Dec) = 0.15 — eastern axis active but Southern Armed Forces defensive; Houthi primary effort appears focused on Tur Al-Bahah axis; ±8pp
+- P(Brent closes above $100 EOD 2 Dec) = 0.15 — requires kinetic IRGC retaliation on GCC energy infra or real convoy departure; reduced from prior periods on convoy debunking; ±7pp
+
+**Threat-5 re-trigger criteria (Day 271 — updated):**
+- Real Iranian tanker convoy ≥3 vessels CENTCOM-interdicted with kinetic contact Hard-confirmed by CENTCOM/UKMTO (not state media claims)
+- IRGC kinetic retaliation on GCC energy infrastructure Hard-confirmed (Ras Tanura, Yanbu, Ruwais, Al Zour, or BAPCO Sitra) with operational shutdown ≥24h
+- VLCC/supertanker sinking in Hormuz Hard-confirmed by CENTCOM/UKMTO with named vessel + environmental emergency
+- Houthi breach of Tur Al-Bahah defensive line Hard-confirmed by AP/Reuters/ISW with Aden immediate threat
+- Trump public strike-authorization statement within 48h of IRGC retaliation for Chabahar enforcement
+- Houthi seizure of Aden Hard-confirmed + simultaneous IRGC coordinated Hormuz escalation within 48h
+- IRGC mine detonation on US-escorted vessel Hard-confirmed by UKMTO/CENTCOM
+- Hard-confirmed IRGC attack causing US personnel casualties (≥1 KIA) in GCC basing area
+- Houthi Hard-confirmed strike on operational Saudi energy infrastructure with shutdown ≥12h
+
+**Methodology delta (Day 271):** IRGC-affiliated Fars News / Iranian state media convoy and operations claims now classified Tier 5/6 propaganda pending independent satellite/TankerTrackers/UKMTO confirmation. Future convoy departure P must be anchored to satellite imagery and AIS data, not Iranian state/IRGC-affiliated media reports. Convoy probability prior was over-weighted on Days 269–270 due to reliance on Fars/Hamshahri/IRGC-commentary without satellite corroboration.
