@@ -10949,3 +10949,69 @@ _Note: The backtest log supplied covers through Day 220. Day 221–230 predictio
 - Houthi Hard-confirmed strike on Jeddah port with operational shutdown ≥12h (NEW — elevated from watchlist given 25 Nov Jeddah claim and Jazan confirmed hit)
 
 **Methodology delta (Day 272):** Ras Tanura damage assessment protocol: when Houthi strike claim + independent satellite imagery + OSINT flaring stop all align, classify as "strong circumstantial, unconfirmed shutdown" — not as confirmed FM trigger, but as Watch→Likely escalation in FM table. Do not wait for Aramco press release before activating contingency protocol watch status. Prior period (Oct 28 Ras Tanura) precedent: Brent rose above $114 on that event; this one (25 Nov) is a lesser-but-real signal at $91. Aramco statement ETA: within 24–48h of attack based on March and October 2026 precedents.
+
+## Day 273 · 27 November 2026
+
+### T+1 Day 272 predictions (gate EOD 27 Nov 2026)
+
+| Prediction | P | Outcome | Brier |
+|---|---|---|---|
+| P(UKMTO or Hard-confirmed vessel incident EOD 27 Nov) = 0.80 | 0.80 | **HIT** — UKMTO 222-26 (26 Nov Dubai near-miss), Khasab strike (25 Nov), Jazan refinery confirmed hit (26 Nov). Structural cadence confirmed. | 0.040 |
+| P(Saudi Aramco press release confirming Ras Tanura shutdown/curtailment ≥12h EOD 27 Nov) = 0.45 | 0.45 | **MISS** — No Aramco formal statement as of 06:00 UTC 27 Nov. CNN shipping source confirms terminal loadings suspended but no Aramco press release. 48h+ silence anomalous vs March 2026 precedent. | 0.203 |
+| P(Saudi Aramco confirms Ras Tanura fully operational/no significant damage EOD 27 Nov) = 0.30 | 0.30 | **MISS** — No Aramco statement in either direction. Silence maintained. | 0.090 |
+
+**T+1 Day 272 summary: 1 Hit, 2 Misses. Session Brier: 0.111. Vessel HIT (structural, confirmed). Both Aramco statement predictions MISS — Aramco has maintained silence beyond the 24h March 2026 precedent, now 48h+. Recalibrate: Aramco silence beyond 48h suggests either (a) no significant refinery damage (debris-only scenario) or (b) damage assessment ongoing with political decision pending. Adjust P(statement within 72h) = 0.60; P(no statement before Dec 1) = 0.25.**
+
+### T+3 Day 270 predictions (gate EOD 27 Nov 2026)
+*Not available in backtest log extract. Skipped per log gap.*
+
+### T+7 Day 266 predictions (gate EOD 27 Nov 2026)
+*Not available in backtest log extract. Skipped per log gap.*
+
+---
+
+### Day 273 new predictions (forward log)
+
+**Trend:** ↑ Worse. Jazan Hard-confirmed (1 killed, ops suspended); Ras Tanura terminal loadings suspended (unconfirmed resumption); dual-coast Saudi refinery attacks within 48h for first time; Brent $96.61 (+$9 from Day 271 close); Houthis ~60 km from Aden (defense line intact); Iran-US talks frozen. Confidence: High.
+
+**Threat:** 4 / 5 · Severe (maintained; Aramco Ras Tanura statement is now most proximate Threat-5 trigger; dual-coast attack compresses corridor to Threat-5; Kuwait facility unconfirmed W5 is secondary watch)
+
+**Scenario probabilities (30d):**
+- A: Negotiated framework — 8% (↓−2pp; dual-coast attacks compress diplomatic space)
+- B: Frozen attrition — 18% (↓−4pp; Jazan confirmed + Ras Tanura probable + Houthi advance)
+- C: Re-escalation — 74% (↑+6pp; modal; most proximate triggers within observable range)
+
+**T+1 predictions (gate EOD 28 Nov 2026):**
+- P(UKMTO or Hard-confirmed vessel incident EOD 28 Nov) = 0.80 — structural cadence; dual active zones; ±7pp [0.73–0.87]
+- P(Saudi Aramco issues formal statement on Ras Tanura status EOD 28 Nov) = 0.55 — now 72h+ since attack; March 2026 precedent was 24h; silence is anomalous; probability rising with each day; ±12pp [0.43–0.67]
+- P(Jazan refinery confirmed operational resumption EOD 28 Nov) = 0.40 — fire contained per coalition; March 2026 precedent 1-week shutdown for major hit; this is 3rd attack on same facility (progressive damage possible); ±12pp [0.28–0.52]
+
+**T+3 predictions (gate EOD 30 Nov 2026):**
+- P(UKMTO or Hard-confirmed vessel incident EOD 30 Nov) = 0.80 — structural; ±7pp
+- P(OPEC+ 29 Nov announces January quota rollover / no change) = 0.55 — delegates signaling rollover; Iraq/Kazakhstan dispute unresolved; Saudi Arabia unlikely to push for increase given Ras Tanura situation; ±12pp [0.43–0.67]
+- P(OPEC+ 29 Nov announces output increase ≥500 kb/d for 2027) = 0.20 — bearish Brent scenario; against Saudi interest given refinery disruptions; ±8pp [0.12–0.28]
+- P(Brent closes above $100 EOD 30 Nov) = 0.35 — requires Aramco Ras Tanura confirmation AND/OR OPEC+ rollover + continued disruption; currently $96.61; ±10pp [0.25–0.45]
+- P(W5 Kuwait facility attack Tier 1-3 confirmed EOD 30 Nov) = 0.20 — single Arab News source currently; CENTCOM/UKMTO silence is against confirmation; ±8pp [0.12–0.28]
+
+**T+7 predictions (gate EOD 4 Dec 2026):**
+- P(UKMTO or Hard-confirmed vessel incident EOD 4 Dec) = 0.80 — structural; ±7pp
+- P(Aramco confirms Ras Tanura fully operational/no significant damage EOD 4 Dec) = 0.35 — debris-only scenario possible; 48h+ silence argues against total shutdown; ±10pp [0.25–0.45]
+- P(Aramco confirms Ras Tanura shutdown ≥24h EOD 4 Dec) = 0.40 — loading suspension confirmed; 7-day window; ±10pp [0.30–0.50]
+- P(Houthi forces Hard-confirmed <50 km from Aden by ISW/AP/Reuters EOD 4 Dec) = 0.45 — ~60 km now; 7-day window; ~10 km/10-day advance rate = ~7 km; defense line may slow but Houthi tempo has increased; ±10pp [0.35–0.55]
+- P(Brent closes below $88 EOD 4 Dec) = 0.20 — requires OPEC+ increase + Aramco resumption + no new major infrastructure attack; currently $96.61; ±8pp [0.12–0.28]
+- P(Brent closes above $105 EOD 4 Dec) = 0.20 — requires Aramco Ras Tanura confirmed shutdown + Houthi Aden breach or additional major infra strike; ±8pp [0.12–0.28]
+
+**Threat-5 re-trigger criteria (Day 273 — updated):**
+- Real Iranian tanker convoy ≥3 vessels CENTCOM-interdicted with kinetic contact Hard-confirmed by CENTCOM/UKMTO
+- IRGC kinetic retaliation on GCC energy infrastructure Hard-confirmed with operational shutdown ≥24h
+- VLCC/supertanker sinking in Hormuz Hard-confirmed by CENTCOM/UKMTO with named vessel + environmental emergency
+- Ras Tanura refinery shutdown ≥24h Hard-confirmed by Saudi Aramco press release or CENTCOM statement (**ELEVATED — most proximate trigger**)
+- Houthi breach of Aden N/W defense line Hard-confirmed by AP/Reuters/ISW with Aden immediate threat
+- Trump public strike-authorization statement within 48h of IRGC retaliation for Chabahar enforcement
+- Houthi seizure of Aden Hard-confirmed + simultaneous IRGC coordinated Hormuz escalation within 48h
+- IRGC mine detonation on US-escorted vessel Hard-confirmed by UKMTO/CENTCOM
+- Hard-confirmed IRGC attack causing US personnel casualties (≥1 KIA) in GCC basing area (**W5 Kuwait if confirmed**)
+- Houthi Hard-confirmed strike on Jeddah port with operational shutdown ≥12h
+- East-West pipeline (Petroline) attack Hard-confirmed with shutdown ≥24h (**NEW — elevated after dual-coast strikes**)
+
+**Methodology delta (Day 273):** Dual-coast Saudi refinery attack protocol: when Gulf coast (Ras Tanura) and Red Sea coast (Jazan) are struck within 48 hours simultaneously, the East-West pipeline (Petroline) is immediately elevated to Threat-5 trigger monitoring regardless of whether individual refinery damage is confirmed. The pipeline is now the last intact Saudi crude export artery. Any targeting signal for Abqaiq pump stations or Petroline corridor activates immediate Threat-5 watch regardless of Aramco statement status. Aramco silence beyond 72h: elevated from "anomalous" to "probable strategic communications hold pending damage assessment" — treat as confirming that some disruption occurred, even if scope is uncertain.
