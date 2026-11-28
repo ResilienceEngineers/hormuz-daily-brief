@@ -11015,3 +11015,64 @@ _Note: The backtest log supplied covers through Day 220. Day 221–230 predictio
 - East-West pipeline (Petroline) attack Hard-confirmed with shutdown ≥24h (**NEW — elevated after dual-coast strikes**)
 
 **Methodology delta (Day 273):** Dual-coast Saudi refinery attack protocol: when Gulf coast (Ras Tanura) and Red Sea coast (Jazan) are struck within 48 hours simultaneously, the East-West pipeline (Petroline) is immediately elevated to Threat-5 trigger monitoring regardless of whether individual refinery damage is confirmed. The pipeline is now the last intact Saudi crude export artery. Any targeting signal for Abqaiq pump stations or Petroline corridor activates immediate Threat-5 watch regardless of Aramco statement status. Aramco silence beyond 72h: elevated from "anomalous" to "probable strategic communications hold pending damage assessment" — treat as confirming that some disruption occurred, even if scope is uncertain.
+
+## Day 274 · 28 November 2026
+
+### T+1 scoring from Day 273 predictions (gate EOD 28 Nov 2026)
+
+| Prediction | P | Outcome | Score |
+|---|---|---|---|
+| P(UKMTO/Hard vessel incident EOD 28 Nov) | 0.80 | **HIT** — UKMTO triple-vessel Hormuz projectile incident (28 Nov); UKMTO Advisory 224-26 also confirmed; IRGC mine claims add further signal. | Brier: (1−0.80)² = 0.040 |
+| P(Saudi Aramco formal statement on Ras Tanura EOD 28 Nov) | 0.55 | **MISS** — Aramco still silent as of 06:00 UTC 28 Nov; no formal damage assessment released (4+ days). | Brier: (0−0.55)² = 0.302 |
+| P(Jazan confirmed operational resumption EOD 28 Nov) | 0.40 | **MISS** — Jazan confirmed shut (Bloomberg/Al Arabiya Hard); no resumption reported as of 06:00 UTC 28 Nov. | Brier: (0−0.40)² = 0.160 |
+
+**Session Brier score Day 273 T+1: 0.167** (mean of three predictions)
+**Running totals Day 273: 1 Hit, 2 Misses.**
+
+Recalibration note: Aramco silence now 4+ days — now reclassify from "anomalous" to "confirmed strategic communications hold"; P(Aramco confirms Ras Tanura shutdown) on rolling basis adjusted upward to 0.55 for T+3 gate. Jazan shutdown extends: March 2026 precedent was ~1 week for major hit; 26 Nov hit is 3rd on same facility — P(resumption within 7 days from 26 Nov) = 0.35 (cumulative damage risk).
+
+---
+
+### Day 274 new predictions (forward log)
+
+**Trend:** ↑ Worse. IRGC mine claims + UKMTO triple-vessel Hormuz incident (28 Nov); Jazan 400 kb/d confirmed shut; Ras Tanura silent 4+ days; Houthi cruise missile on Riyadh intercepted (28 Nov); Iran FM rules out US talks; Trump names Mount Pickaxe as next strike target. Confidence: High.
+
+**Threat:** 4 / 5 · Severe (maintained; multiple Threat-5 triggers now converging within 35-day window)
+
+**Scenario probabilities (30d):**
+- A: Negotiated framework — 7% (↓−1pp; Iran FM rules out talks 28 Nov)
+- B: Frozen attrition — 15% (↓−3pp; IRGC mine claims signal active escalation, not frozen status)
+- C: Re-escalation — 78% (↑+4pp; highest since tracker launch; now operational planning baseline)
+
+**T+1 predictions (gate EOD 29 Nov 2026):**
+- P(UKMTO/Hard vessel incident EOD 29 Nov) = 0.80 — structural cadence maintained; ±7pp [0.73–0.87]
+- P(OPEC+ announces quota rollover/no change through Q1 2027 EOD 29 Nov) = 0.65 — Reuters delegates strongly signaling rollover; Saudi disruptions argue against increases; ±10pp [0.55–0.75]
+- P(Saudi Aramco formal statement on Ras Tanura EOD 29 Nov) = 0.55 — now 4+ days silent; each day of silence raises probability of eventual confirmation; ±12pp [0.43–0.67]
+- P(CENTCOM publicly confirms IRGC mine re-laying in Hormuz EOD 29 Nov) = 0.25 — CENTCOM denied 28 Nov; would trigger Trump mine-vessel ultimatum; major escalation signal; ±10pp [0.15–0.35]
+
+**T+3 predictions (gate EOD 1 Dec 2026):**
+- P(UKMTO/Hard vessel incident EOD 1 Dec) = 0.80 — structural; ±7pp
+- P(Brent closes above $97 EOD 1 Dec) = 0.45 — OPEC+ rollover + Saudi disruption + mine incident = bullish; ICE Jan27 already at $96.53 on 26 Nov; ±10pp [0.35–0.55]
+- P(Brent closes above $100 EOD 1 Dec) = 0.25 — requires Aramco Ras Tanura confirmation AND/OR OPEC+ rollover + continued disruption; ±8pp [0.17–0.33]
+- P(Jazan refinery partial resumption confirmed EOD 1 Dec) = 0.30 — 5 days post-strike; Mar 2026 precedent 1 week for major hit; 3rd attack on same facility may imply longer outage; ±10pp [0.20–0.40]
+
+**T+7 predictions (gate EOD 5 Dec 2026):**
+- P(UKMTO/Hard vessel incident EOD 5 Dec) = 0.80 — structural; ±7pp
+- P(Trump announces renewed US strikes on Iran by EOD 5 Dec) = 0.15 — post-New Year deadline is Jan 2027; unlikely before year-end; but 28 Nov naming of target + Iran FM rejection compresses window; ±7pp [0.08–0.22]
+- P(Aramco confirms Ras Tanura fully operational/no significant damage EOD 5 Dec) = 0.30 — debris-only scenario possible; 10-day window; ±10pp [0.20–0.40]
+- P(Aramco confirms Ras Tanura shutdown ≥24h EOD 5 Dec) = 0.45 — loading suspension confirmed per CNN source; 10-day window; ±10pp [0.35–0.55]
+- P(Houthi breach of Aden defense line Hard-confirmed by AP/Reuters/ISW EOD 5 Dec) = 0.20 — defense line intact per ISW 27 Nov; Yemeni gov striking GLOC; ±8pp [0.12–0.28]
+- P(Brent closes below $85 EOD 5 Dec) = 0.15 — requires OPEC+ surprise increase + Aramco resumption + no new major infra strike; ±7pp [0.08–0.22]
+
+**Threat-5 triggers (Day 274 updated):**
+- Aramco confirms Ras Tanura shutdown ≥24h (**ELEVATED — most proximate; 4+ days silence**)
+- CENTCOM confirms IRGC mine re-laying in Hormuz TSS + Trump activates mine-vessel destruction ultimatum (**NEW ELEVATED — 28 Nov IRGC claims**)
+- Trump public strike-authorization statement within 48h (post-New Year deadline <35 days)
+- Houthi breach of Aden N/W defense line Hard-confirmed by AP/Reuters/ISW
+- East-West pipeline (Petroline) attack Hard-confirmed with shutdown ≥24h
+- IRGC mine detonation on US-escorted vessel with US personnel casualties
+- VLCC sinking in Hormuz Hard-confirmed by CENTCOM/UKMTO
+- Houthi Hard-confirmed strike on Jeddah port with operational shutdown ≥12h
+- Hard-confirmed IRGC attack causing US personnel casualties in GCC basing area
+
+**Methodology delta (Day 274):** IRGC mine-claim protocol: when IRGC claims mine detonations on vessels in Hormuz AND UKMTO separately confirms vessels struck by unidentified projectiles on the same day at the same geographic location, treat the combined signal as "probable IRGC weapons employment — mine or directed ASM/projectile." The specific weapon type remains unresolved pending CENTCOM attribution, but the operational implication (TSS eastern approach unsafe) applies regardless of which narrative is correct. Do not wait for CENTCOM mine-confirmation before alerting on eastern TSS approach. Downgrade the approach only when CENTCOM explicitly clears it.
